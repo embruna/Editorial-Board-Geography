@@ -1,11 +1,6 @@
 
-#R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN: Cho et al. 2014. Women are underrepresented 
-#on the editorial boards of journals in environmental biology and natural resource management. PeerJ.
-
-#NOTE:I am fully cognizant of the fact that this is this code could be much more efficient. Go easy on me, I'm
-#not the most elegant programmer in the world; writing this way also helps people less familiar with R but who want to do 
-#similar analyses understand the code a little better. And hey, I'm learning, and after all posting code used for a paper
-#to GitHub is proof an old dog can learn new tricks and something for which I deserve a pat on the back. Cut me some slack.
+#R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
+#This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender)
 
 
 #Set WD and load packages you need. Not all of which you need after all.
