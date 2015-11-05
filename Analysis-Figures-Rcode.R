@@ -70,6 +70,28 @@ ALLJOURNALS<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL
 
 #step3: change all the country names to the codes used in mapping
 
+#Add a column with the 3 letter country codes to be consistent with the other datasets
+#Maptools uses the ISO 3166 three letter codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "AR"]  <- "ARG"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Bolivia"]  <- "BOL"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "BR"]  <- "BRA"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CL"]  <- "CHL"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CO"]  <- "COL"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CR"]  <-"CRI"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CU"]  <- "CUB"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "EC"]  <-"ECU"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "El Salvador"]  <-"SLV"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Guatemala"]  <-"GTM"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Honduras"]  <-"HND"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "MX"]  <-"MEX"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Nicaragua"]  <-"NIC"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Panama"]  <-"PAN"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Paraguay"]  <-"PRY"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "PR"]  <-"PER"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "UY"]  <-"URY"
+ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "VE"]  <-"VEN"
+ALLJOURNALS$Country.Code<-as.factor(ALLJOURNALS$Country.Code)
 
 
 #step 4: chose the temporal coverage
