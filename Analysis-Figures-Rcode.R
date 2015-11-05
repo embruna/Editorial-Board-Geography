@@ -25,6 +25,8 @@ rm(list=ls())
 ##################
 #################
 #Step 1: load the individual CSV files and save them as dataframes
+
+#THESE ARE THE DATA FROM CHO ETAL
 BITR<-read.csv("Biotropica_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 BIOCON<-read.csv("Biocon_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 ARES<-read.csv("ARES_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
@@ -36,16 +38,49 @@ ECOLOGY<-read.csv("Ecology_EB.csv", dec=".", header = TRUE, sep = ",", check.nam
 JECOL<-read.csv("JECOL_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 JTE<-read.csv("JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
+#THESE WERE COLLECTED BY THE 2015 EDITION OF THE COURSE
+AGRON2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+AMNAT<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ARES2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOG<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOCON2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BITR2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ECOG<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+EVOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+FEM<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+FUNECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+GCB<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JTE2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JANE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JAPE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JZ<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+LE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+MARECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+MEEPS<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NAJFM2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NEWPHY<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+OECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+OIKOS<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+PLANTECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+
+
 #step 2: bind the dataframes of all journals together
 ALLJOURNALS<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
 
+
+#step3: change all the country names to the codes used in mapping
+
+
+
+#step 4: chose the temporal coverage
 #use only 1985 on
 ALLJOURNALS<-ALLJOURNALS[ALLJOURNALS$YEAR>=1985,]
-#2x that it all looks ok
+
+#step 5: 2x that it all looks ok
 summary(ALLJOURNALS)
 
-#2x check - are there any with gender missing?
-MISSING=subset(ALLJOURNALS, subset=(GENDER=="?"))
+#2x check - are there any with country missing?
+MISSING=subset(ALLJOURNALS, subset=(COUNTRY=="?"))
 MISSING
 
 
