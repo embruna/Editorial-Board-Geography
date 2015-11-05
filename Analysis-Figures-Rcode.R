@@ -1,7 +1,10 @@
 
 #R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
 #This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
-#This change was inserted to show how to make changes during workshop.
+
+
+#Please insert this line of code. Once you do be sure to commit.
+
 
 
 #Set WD and load packages you need. Not all of which you need after all.
