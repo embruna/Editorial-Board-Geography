@@ -15,6 +15,7 @@ library(reshape)
 library(maps)
 library(WDI)
 library(RColorBrewer)
+library(countrycode)
 
 #CLear out everything from the environment 
 rm(list=ls())
@@ -39,60 +40,60 @@ JECOL<-read.csv("JECOL_EB.csv", dec=".", header = TRUE, sep = ",", check.names=F
 JTE<-read.csv("JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
 #THESE WERE COLLECTED BY THE 2015 EDITION OF THE COURSE
-AGRON2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AMNAT<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ARES2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+AGRON2<-read.csv("AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ARES2<-read.csv("ARES2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOCON2<-read.csv("BIOCON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BITR2<-read.csv("BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+EVOL<-read.csv("EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still some gaps in country, need to ID what an Editor vs EIC does when they transitoned to EIC
+FEM<-read.csv("FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JAPE<-read.csv("JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JZOOL<-read.csv("JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+MARECOL<-read.csv("MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+MEPS<-read.csv("MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NAJFM2<-read.csv("NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NEWPHYT<-read.csv("NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Need to define as EIC, SE, AE, Other
+OIKOS<-read.csv("OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+
+PLANTECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+AMNAT<-read.csv("----.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 BIOG<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOCON2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BITR2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 ECOG<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-EVOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-FEM<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 FUNECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 GCB<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 JTE2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 JANE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JAPE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JZ<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 LE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-MARECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-MEEPS<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NAJFM2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NEWPHY<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 OECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-OIKOS<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-PLANTECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
 
 #step 2: bind the dataframes of all journals together
-ALLJOURNALS<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
-
+ALLJOURNALS_CHO<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) #Bind the data from Cho
+ALLJOURNALS_2015<-rbind(AGRON2, ARES2) #Bind the data from 2015 workshop
+ALLJOURNALS<-rbind (ALLJOURNALS_CHO, ALLJOURNALS_2015[,1:10]) #bind the two together
 
 #step3: change all the country names to the codes used in mapping
 
 #Add a column with the 3 letter country codes to be consistent with the other datasets
 #Maptools uses the ISO 3166 three letter codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+#The packahge countrycode will take your column of country names and convert them to ISO3166-3 Codes
+#I began by checking the values of COUNTRY to see if there are any mistakes. To do so I just created a vector 
+#called CODECHECK
+CODECHECK<-countrycode(ALLJOURNALS$COUNTRY, "country.name", "iso3c", warn = TRUE)
+#By setting "warn=TRUE" it will tell you which ones it couldn't convert. Because of spelling mistakes, etc.
+#You can correct these as follows in the dataframe with all the data, then add a new column to the dataframe with the country codes
 
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "AR"]  <- "ARG"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Bolivia"]  <- "BOL"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "BR"]  <- "BRA"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CL"]  <- "CHL"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CO"]  <- "COL"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CR"]  <-"CRI"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "CU"]  <- "CUB"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "EC"]  <-"ECU"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "El Salvador"]  <-"SLV"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Guatemala"]  <-"GTM"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Honduras"]  <-"HND"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "MX"]  <-"MEX"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Nicaragua"]  <-"NIC"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Panama"]  <-"PAN"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "Paraguay"]  <-"PRY"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "PR"]  <-"PER"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "UY"]  <-"URY"
-ALLJOURNALS$Country.Code[ALLJOURNALS$COUNTRY == "VE"]  <-"VEN"
-ALLJOURNALS$Country.Code<-as.factor(ALLJOURNALS$Country.Code)
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "USA "]  <- "USA"
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "lndonesia"]  <- "Indonesia"
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == " Wales"]  <- "UK"
 
+
+
+
+
+
+
+ALLJOURNALS$COUNTRY.CODE<-countrycode(ALLJOURNALS$COUNTRY, "country.name", "iso3c", warn = TRUE)
 
 #step 4: chose the temporal coverage
 #use only 1985 on
