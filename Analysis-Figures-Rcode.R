@@ -9,6 +9,7 @@
 
 #Set WD and load packages you need. Not all of which you need after all.
 setwd("-------")
+
 library(gdata)
 library(ggplot2)
 library(reshape)
@@ -44,31 +45,37 @@ AGRON2<-read.csv("AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FA
 ARES2<-read.csv("ARES2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 BIOCON2<-read.csv("BIOCON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 BITR2<-read.csv("BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-EVOL<-read.csv("EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still some gaps in country, need to ID what an Editor vs EIC does when they transitoned to EIC
+EVOL<-read.csv("EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still need to ID what an Editor vs EIC does when they transitoned to EIC
 FEM<-read.csv("FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 JAPE<-read.csv("JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JZOOL<-read.csv("JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
 MARECOL<-read.csv("MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-MEPS<-read.csv("MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 NAJFM2<-read.csv("NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NEWPHYT<-read.csv("NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Need to define as EIC, SE, AE, Other
-OIKOS<-read.csv("OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+OIKOS<-read.csv("OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
+AMNAT<-read.csv("AMNAT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOG<-read.csv("BIOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ECOG<-read.csv("ECOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+FUNECOL<-read.csv("FUNECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JANE<-read.csv("JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+PLANTECO<-read.csv("PLANTECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JTE2<-read.csv("JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+OECOL<-read.csv("OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
-PLANTECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AMNAT<-read.csv("----.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOG<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ECOG<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-FUNECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+#STILL MISSING SOME DATA 
 GCB<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JTE2<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JANE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-LE<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-OECOL<-read.csv("---.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+#Still missing years and putting eds into cats
+LECO<-read.csv("LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+#LE is missing 2004, 2011-2014
+NEWPHYT<-read.csv("NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+#Need to define as EIC, SE, AE, Other
+MEPS<-read.csv("MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+#Need to define as EIC, SE, AE, Other
+JZOOL<-read.csv("JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+#INCOMPLETE
 
 
 #step 2: bind the dataframes of all journals together
 ALLJOURNALS_CHO<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) #Bind the data from Cho
-ALLJOURNALS_2015<-rbind(AGRON2, ARES2) #Bind the data from 2015 workshop
+ALLJOURNALS_2015<-rbind(AGRON2, ARES2, BIOCON2, BITR2, EVOL, FEM, JAPE, MARECOL, NAJFM2, OIKOS, AMNAT, BIOG, ECOG, FUNECOL, JANE, PLANTECO, JTE2, OECOL) #Bind the data from 2015 workshop
 ALLJOURNALS<-rbind (ALLJOURNALS_CHO, ALLJOURNALS_2015[,1:10]) #bind the two together
 
 #step3: change all the country names to the codes used in mapping
@@ -82,11 +89,12 @@ CODECHECK<-countrycode(ALLJOURNALS$COUNTRY, "country.name", "iso3c", warn = TRUE
 #By setting "warn=TRUE" it will tell you which ones it couldn't convert. Because of spelling mistakes, etc.
 #You can correct these as follows in the dataframe with all the data, then add a new column to the dataframe with the country codes
 
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "USA "]  <- "USA"
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "lndonesia"]  <- "Indonesia"
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
 ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == " Wales"]  <- "UK"
-
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots everywhere
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "Wales"]  <- "UK"
+ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "England"]  <- "UK"
 
 
 
@@ -114,14 +122,23 @@ MISSING
 #######################
 
 #NEED to subset the data to do some counts of the numbers of EICs
-countEIC<-ALLJOURNALS[ALLJOURNALS$CATEGORY=="EIC",]
+countCOUNTRY<-ALLJOURNALS[ALLJOURNALS$CATEGORY=="EIC",]
 #name the columns
-countEIC<-countEIC[, c("NAME", "GENDER", "JOURNAL", "YEAR")]
+countCOUNTRY<-countCOUNTRY[, c("NAME", "COUNTRY", "JOURNAL", "YEAR")]
 #EICs can be EIC for >1 year, so we remove the duplicate names to make sure we count each EIC only once
-deduped.countEIC <- unique( countEIC[ , 1:3 ] )
+deduped.countCOUNTRY <- unique( countCOUNTRY[ , 1:3 ] )
 #2x check you now have a list with each EIC listed only once
-deduped.countEIC
+deduped.countCOUNTRY
 #count them up
+
+
+
+
+
+
+
+
+
 #of Male EICs in our sample
 maleEIC<-sum(deduped.countEIC$GENDER=="M")
 #of Female EICs in our sample
