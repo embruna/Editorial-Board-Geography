@@ -128,7 +128,7 @@ countSIZE_SUMMARY = summarize (countSIZE,
 ggplot(countSIZE_SUMMARY[countSIZE_SUMMARY$CATEGORY == 'SE',], 
        aes(x = YEAR, y = number, group = JOURNAL, colour = JOURNAL)) +
   geom_line()  +
-  ylab("Number of Countries represented in SE")
+  ylab("Size od Editorial Board (SE)")
 
 
 #######################
