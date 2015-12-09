@@ -36,15 +36,17 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 }
 
 
-grid_arrange_shared_legend <- function(...) {
+grid_arrange_shared_legend <- function(bottom, ...) {
   plots <- list(...)
   g <- ggplotGrob(plots[[1]] + theme(legend.position="bottom"))$grobs
   legend <- g[[which(sapply(g, function(x) x$name) == "guide-box")]]
   lheight <- sum(legend$height)
   grid.arrange(
     do.call(arrangeGrob, lapply(plots, function(x)
-      x + theme(legend.position="none"))),
+      x + theme(legend.position="none", 
+                plot.margin = unit(c(-0.1,0.1,-0.3,-0.5), "cm")))),
     legend,
+    bottom =  bottom,
     ncol = 1,
-    heights = unit.c(unit(1, "npc") - lheight, lheight))
+    heights = unit.c(unit(0.95, "npc") - lheight, lheight))
 }
