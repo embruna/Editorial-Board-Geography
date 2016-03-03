@@ -179,15 +179,39 @@ highest_n$number <- strtoi(highest_n$number)
 highest_n$COUNTRY.CODE <- factor(x = highest_n$COUNTRY.CODE,
                                 levels = highest_n$COUNTRY.CODE)
 
+highest_n$total=sum(highest_n$number) #this will allow you to calclulate % and plot that way
+highest_n$percent=highest_n$number/highest_n$total*100
+
 tiff(file = "Plots/COUNTRY_Editors.tiff",
      width = 500,
      height = 500)
 #Plot of EIC numbers by country in decreasing number
-ggplot(data=highest_n, aes(x=COUNTRY.CODE, y=number)) +
+
+country_plot<-ggplot(data=highest_n, aes(x=COUNTRY.CODE, y=percent)) +   #changed this to % instead of absolute #
   geom_bar(stat="identity") + 
-  ylab('Editors') +
-  xlab('Country')
+  ylab('Editors (%)') +
+  xlab('Country')+
+  scale_y_continuous(breaks = seq(0, 60, 10), limits = c(0, 60)) +        #sets the y axis breaks and range
+  geom_bar(stat="identity", fill="gray60", colour="black") +              #sets the color and outline of the bar
+  ggtitle("C")                                                            #title (identifies which panel it is)
+
+
+country_plot<-country_plot + theme_classic() + theme(axis.title.x=element_text(colour="black", size = 18, vjust=-0.5),        #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+                                                     axis.title.y=element_text(colour="black", size = 18, vjust=2),           #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+                                                     axis.text=element_text(colour="black", size = 16),                       #sets size and style of labels on axes
+                                                     plot.title = element_text(hjust=0.02, vjust=-3, face="bold", size=22), #sets the position of the title 
+                                                     plot.margin =unit(c(1,1,1,1.5), "lines"))                                #plot margin - top, right, bottom, left
+  
+
+country_plot
+
 dev.off()
+
+
+
+
+
+
 
 ##############################################
 # TABLE OF TOTAL EDITORIAL MEMBERS BY COUNTRY BY CATEGORY BY INCOME OR REGION
