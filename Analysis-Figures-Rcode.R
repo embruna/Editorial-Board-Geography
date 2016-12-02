@@ -12,16 +12,14 @@ rm(list=ls())
 #Set WD and load packages you need. Not all of which you need after all.
 #setwd("-------")
 library(countrycode)
-library(dplyr)
+library(tidyverse)
 #library(gdata)
-library(ggplot2)
 library(grid)
 library(gridExtra)
 library(maps)
 library(RColorBrewer)
 library(reshape2)
 require(rworldmap)
-#library(tidyr)
 library(WDI)
 
 source("helpers.R")    #Code to plot all journals in one figure
@@ -94,7 +92,8 @@ MEPS<-read.csv("MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE 
 
 #step 2: bind the dataframes of all journals together
 ALLJOURNALS_CHO<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) #Bind the data from Cho
-ALLJOURNALS_2015<-rbind(AGRON2, ARES2, BIOCON2, BITR2, EVOL, FEM, JAPE, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OIKOS, AMNAT, BIOG, ECOG, FUNECOL, JANE, PLANTECO, JTE2, OECOL) #Bind the data from 2015 workshop
+ALLJOURNALS_2015<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+                        JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS,PLANTECO) #Bind the data from 2015 workshop
 ALLJOURNALS<-rbind (ALLJOURNALS_CHO, ALLJOURNALS_2015[,1:10]) #bind the two together
 
 #step3: change all the country names to the codes used in mapping
@@ -118,6 +117,34 @@ ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "German Democratic Republic"]  <- "Ge
 #we need to change yugoslavia to what?
 #we need to add french guiana wold bank classficiation
 
+
+
+
+####### SPLIT THE NAMES INTO DIFFERENT COLUMNS - LAST FIRST MIDDLE - NOTE THAT MAY NEED TO FIX
+####### COLUMN ORDERS BELOW IF ANY USE INDEX NUMBER
+# Take the Cho et all datasets and split out the last names using the code below.
+# The other datasets will already have the names split apart
+
+ALLJOURNALS
+
+# http://garrettgman.github.io/tidying/
+# separate(data, col, into, sep = " ", remove = TRUE, convert = FALSE)
+
+foo<-separate(ALLJOURNALS, NAME, c("first_name", "middlelast_name"), sep = " ", remove = FALSE, convert = FALSE, extra = "merge", fill = "right")
+foo<-separate(foo, middlelast_name, c("middle_name", "last_name"), sep = " ", remove = FALSE, extra = "merge", fill = "left")
+# 
+# df <- data.frame(x = c("a", "a b", "a b c", NA))
+# df %>% separate(x, c("a", "b"))
+# df %>% separate(x, c("a", "b"), extra = "drop", fill = "right")
+# df %>% separate(x, c("a", "b"), extra = "merge", fill = "left")
+# df %>% separate(x, c("a", "b"), extra = "merge", fill = "right")
+
+###Be sure to 2x all the names to be sure there are no NA last names
+
+######################################
+
+
+
 #This line adds a column of country codes based on the country name
 #some countries may not be correctly coded
 ALLJOURNALS$COUNTRY.CODE<-countrycode(ALLJOURNALS$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
@@ -131,7 +158,7 @@ ALLJOURNALS$REGION <- WDI_data[ALLJOURNALS$COUNTRY.CODE, 'region']  #Making a ne
 ALLJOURNALS <- ALLJOURNALS[ALLJOURNALS$CATEGORY %in% c('EIC', 'AE', 'SE'),]
 
 #step 4: choose the temporal coverage
-#use only 1985 to 2013 yeara
+#use only 1985 to 2013 
 ALLJOURNALS<-ALLJOURNALS[ALLJOURNALS$YEAR>=1985 & ALLJOURNALS$YEAR<=2013,]
 
 #step 5: 2x that it all looks ok
@@ -206,7 +233,6 @@ country_plot<-country_plot + theme_classic() + theme(axis.title.x=element_text(c
 country_plot
 
 dev.off()
-
 
 
 
