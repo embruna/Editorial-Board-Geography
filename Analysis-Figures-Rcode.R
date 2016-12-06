@@ -3,6 +3,7 @@
 #This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
 
 
+
 #Please insert this line of code. Once you do be sure to commit.
 
 
@@ -23,6 +24,7 @@ require(rworldmap)
 library(WDI)
 
 source("helpers.R")    #Code to plot all journals in one figure
+
 
 
 ##################
