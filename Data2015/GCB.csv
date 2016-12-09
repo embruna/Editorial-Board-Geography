@@ -1,0 +1,692 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+GCB,1995,1,1,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,1995,1,1,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,1995,1,1,Editor,Paul,,Falkowski,,UK,M,AE,,Brookhaven National Laboratory
+GCB,1995,1,1,Editor,Chris,,Field,,UK,M,AE,,Carnegie Institution
+GCB,1995,1,1,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,1995,1,1,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,1995,1,1,Editorial Advisory Board,Pamela,,Matson,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,1995,1,1,Editorial Advisory Board,Marianne,,Mousseau,,France,F,SE,,
+GCB,1995,1,1,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,1995,1,1,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,1995,1,1,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,1995,1,1,Managing Editor,Harry,,Smith,,UK,M,,,University of Lancaster
+GCB,1995,1,1,Production Editor,Richard,,Spilsbury,,UK,M,,,Blackwell Science Ltd
+GCB,1996,2,,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,1996,2,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,1996,2,,Editor,Paul,,Falkowski,,UK,M,AE,,Brookhaven National Laboratory
+GCB,1996,2,,Editor,Chris,,Field,,UK,M,AE,,Carnegie Institution
+GCB,1996,2,,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,1996,2,,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,1996,2,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Marianne,,Mousseau,,France,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,1996,2,,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,1996,2,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,David,,Schimel,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,William,,Schlesinger,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,ED,,Schulze,,Germany,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,1996,2,,Managing Editor,Harry,,Smith,,UK,M,,,University of Leichester
+GCB,1996,2,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,1996,2,,Production Editor,Richard,,Spilsbury,,UK,M,,,Blackwell Science Ltd
+GCB,1996,2,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,1996,2,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,1996,2,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,1997,3,1,Editor,Dennis,,Baldocchi,,USA,M,AE,,NOAA
+GCB,1997,3,1,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,1997,3,1,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,1997,3,1,Editor,Paul,,Falkowski,,UK,M,AE,,Brookhaven National Laboratory
+GCB,1997,3,1,Editor,Chris,,Field,,UK,M,AE,,Carnegie Institution
+GCB,1997,3,1,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,1997,3,1,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,1997,3,1,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Marianne,,Mousseau,,France,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,1997,3,1,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,1997,3,1,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,David,,Schimel,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,William,,Schlesinger,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,1997,3,1,Managing Editor,Harry,,Smith,,UK,M,,,University of Leichester
+GCB,1997,3,1,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,1997,3,1,Production Editor,Richard,,Spilsbury,,UK,M,,,Blackwell Science Ltd
+GCB,1997,3,1,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,1997,3,1,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,1997,3,1,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,1998,4,1,Editor,Dennis,,Baldocchi,,USA,M,AE,,NOAA
+GCB,1998,4,1,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,1998,4,1,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,1998,4,1,Editor,Paul,,Falkowski,,UK,M,AE,,Brookhaven National Laboratory
+GCB,1998,4,1,Editor,Chris,,Field,,UK,M,AE,,Carnegie Institution
+GCB,1998,4,1,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,1998,4,1,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,1998,4,1,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Marianne,,Mousseau,,France,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,1998,4,1,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,1998,4,1,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,David,,Schimel,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,William,,Schlesinger,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,1998,4,1,Managing Editor,Harry,,Smith,,UK,M,,,University of Leichester
+GCB,1998,4,1,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,1998,4,1,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,1998,4,1,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,1999,5,1,Editor,Dennis,,Baldocchi,,USA,M,AE,,NOAA
+GCB,1999,5,1,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,1999,5,1,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,1999,5,1,Editor,Paul,,Falkowski,,UK,M,AE,,Brookhaven National Laboratory
+GCB,1999,5,1,Editor,Chris,,Field,,UK,M,AE,,Carnegie Institution
+GCB,1999,5,1,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,1999,5,1,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,1999,5,1,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Marianne,,Mousseau,,France,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,1999,5,1,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,1999,5,1,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,David,,Schimel,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,William,,Schlesinger,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,1999,5,1,Managing Editor,Harry,,Smith,,UK,M,,,University of Leichester
+GCB,1999,5,1,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,1999,5,1,Production Editor,Richard,,Spilsbury,,UK,M,,,Blackwell Science Ltd
+GCB,1999,5,1,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,1999,5,1,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,1999,5,1,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2000,6,,Editor,Dennis,,Baldocchi,,USA,M,AE,,NOAA
+GCB,2000,6,,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,2000,6,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2000,6,,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2000,6,,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,2000,6,,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2000,6,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2000,6,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2000,6,,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,2000,6,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2000,6,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2000,6,,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2000,6,,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,2000,6,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2000,6,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2000,6,,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,David,,Schimel,,USA,M,SE,,
+GCB,2000,6,,Editor,William,,Schlesinger,,USA,M,AE,,Duke University
+GCB,2000,6,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2000,6,,Managing Editor,Harry,,Smith,,UK,M,,,University of Leichester
+GCB,2000,6,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2000,6,,Production Editor,Richard,,Spilsbury,,UK,M,,,Blackwell Science Ltd
+GCB,2000,6,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2000,6,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2000,6,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2001,7,,Editor,Dennis,,Baldocchi,,USA,M,AE,,NOAA
+GCB,2001,7,,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,2001,7,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2001,7,,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Max,,Beran,,UK,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2001,7,,Editorial Advisory Board,Doug,,Capone,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,2001,7,,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2001,7,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2001,7,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2001,7,,Production Editor,Sarah,,Jewell,,UK,F,,,Blackwell Science Ltd
+GCB,2001,7,,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2001,7,,Chief Editor,Steve,,Long,,UK,M,EIC,,University of Essex
+GCB,2001,7,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2001,7,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2001,7,,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2001,7,,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,2001,7,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2001,7,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2001,7,,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,David,,Schimel,,USA,M,SE,,
+GCB,2001,7,,Editor,William,,Schlesinger,,USA,M,AE,,Duke University
+GCB,2001,7,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2001,7,,Managing Editor,Harry,,Smith,,UK,M,,,University of Leichester
+GCB,2001,7,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2001,7,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2001,7,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2002,8,1,Editor,Dennis,,Baldocchi,,USA,M,AE,,"University of California, Berkeley"
+GCB,2002,8,1,Editor,Jeff,,Bale,,UK,M,AE,,University of Birmingham
+GCB,2002,8,1,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Bill,,Block,,UK,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Doug,,Capone,,USA,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2002,8,1,Editor,Eric,,Davidson,,USA,M,AE,,Woods Hole Research Center
+GCB,2002,8,1,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,2002,8,1,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2002,8,1,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Paul,,Jarvis,,UK,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Beverly,E,Law,,USA,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2002,8,1,Chief Editor,Steve,,Long,,USA,M,EIC,,University of Illinois
+GCB,2002,8,1,Production Editor,Emma,,Maddocks,,UK,F,,,Blackwell Publishing
+GCB,2002,8,1,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2002,8,1,Editor,Steve,,Pacala,,USA,M,AE,,Princeton University
+GCB,2002,8,1,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2002,8,1,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2002,8,1,Editor,Jim,,Prosser,,UK,M,AE,,University of Aberdeen
+GCB,2002,8,1,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2002,8,1,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2002,8,1,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,David,,Schimel,,Germany,M,SE,,
+GCB,2002,8,1,Editor,William,,Schlesinger,,USA,M,AE,,Duke University
+GCB,2002,8,1,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2002,8,1,Managing Editor,Harry,,Smith,,UK,M,,,University of Nottingham
+GCB,2002,8,1,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2002,8,1,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2002,8,1,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2003,9,,Editor,Dennis,,Baldocchi,,USA,M,AE,,"University of California, Berkeley"
+GCB,2003,9,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2003,9,,Editorial Advisory Board,Fakhri,,Bazzaz,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2003,9,,Editor,Nina,,Buchmann,,Switzerland,F,AE,,ETH Zurich
+GCB,2003,9,,Editorial Advisory Board,Doug,,Capone,,USA,F,SE,,
+GCB,2003,9,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2003,9,,Editor,Eric,,Davidson,,USA,M,AE,,Woods Hole Research Center
+GCB,2003,9,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Inez,,Fung,,Canada,F,SE,,
+GCB,2003,9,,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2003,9,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2003,9,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Paul,,Jarvis,,UK,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2003,9,,Editor,Hefin,,Jones,,UK,M,AE,,Cardiff University
+GCB,2003,9,,Editorial Advisory Board,Peter,,Kareiva,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Bruce,A,Kimball,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2003,9,,Editor,Beverly,E,Law,,USA,F,AE,,Oregan State University
+GCB,2003,9,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2003,9,,Chief Editor,Steve,,Long,,USA,M,EIC,,University of Illinois
+GCB,2003,9,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2003,9,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Hal,,Mooney,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2003,9,,Editor,Dennis,,Ojima,,USA,M,AE,,Colorado State University
+GCB,2003,9,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2003,9,,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2003,9,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2003,9,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2003,9,,Editor,Osvaldo,,Sala,,Argentina,M,AE,,University of Buenos Aires
+GCB,2003,9,,Editorial Advisory Board,Osvaldo,,Sala,,Argentina,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,David,,Schimel,,Germany,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2003,9,,Co-founding Editor,Harry,,Smith,,UK,M,EIC,,
+GCB,2003,9,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2003,9,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2003,9,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2004,10,,Editor,Dennis,,Baldocchi,,USA,M,AE,,"University of California, Berkeley"
+GCB,2004,10,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2004,10,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2004,10,,Editor,Nina,,Buchmann,,Switzerland,F,AE,,ETH Zurich
+GCB,2004,10,,Editorial Advisory Board,Doug,,Capone,,USA,F,SE,,
+GCB,2004,10,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2004,10,,Editor,M,Francesca,Cotrufo,,Italy,F,AE,,Seconda Universita
+GCB,2004,10,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2004,10,,Editor,Eric,,Davidson,,USA,M,AE,,Woods Hole Research Center
+GCB,2004,10,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2004,10,,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2004,10,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2004,10,,Editorial Assistant,Rebecca,,Heid,,USA,F,,,University of Illinois
+GCB,2004,10,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2004,10,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Paul,,Jarvis,,UK,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2004,10,,Editor,Hefin,,Jones,,UK,M,AE,,Cardiff University
+GCB,2004,10,,Production Editor,Ian,H,Jones,,UK,M,,,Blackwell Science Ltd
+GCB,2004,10,,Editorial Advisory Board,Bruce,,Kimball,,USA,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2004,10,,Editor,Beverly,E,Law,,USA,F,AE,,Oregan State University
+GCB,2004,10,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2004,10,,Chief Editor,Steve,,Long,,USA,M,EIC,,University of Illinois
+GCB,2004,10,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2004,10,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2004,10,,Editor,Dennis,,Ojima,,USA,M,AE,,Colorado State University
+GCB,2004,10,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2004,10,,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2004,10,,Editorial Advisory Board,Jim,,Prosser,,USA,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2004,10,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2004,10,,Editor,Osvaldo,,Sala,,Argentina,M,AE,,University of Buenos Aires
+GCB,2004,10,,Editorial Advisory Board,David,,Schimel,,Germany,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2004,10,,Co-founding Editor,Harry,,Smith,,UK,M,EIC,,
+GCB,2004,10,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2004,10,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2004,10,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2005,11,,Editor,Dennis,,Baldocchi,,USA,M,AE,,"University of California, Berkeley"
+GCB,2005,11,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2005,11,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2005,11,,Editor,Nina,,Buchmann,,Switzerland,F,AE,,ETH Zurich
+GCB,2005,11,,Editorial Advisory Board,Doug,,Capone,,USA,F,SE,,
+GCB,2005,11,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2005,11,,Editor,M,Francesca,Cotrufo,,Italy,F,AE,,Seconda Universita
+GCB,2005,11,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2005,11,,Editor,Eric,,Davidson,,USA,M,AE,,Woods Hole Research Center
+GCB,2005,11,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2005,11,,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2005,11,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2005,11,,Editorial Assistant,Rebecca,,Heid,,USA,F,,,University of Illinois
+GCB,2005,11,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2005,11,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2005,11,,Editor,Ivan,,Janssens,,Belgium,F,AE,,University of Antwerp
+GCB,2005,11,,Editorial Advisory Board,Paul,,Jarvis,,UK,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2005,11,,Editor,Hefin,,Jones,,UK,M,AE,,Cardiff University
+GCB,2005,11,,Editorial Advisory Board,Bruce,,Kimball,,USA,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2005,11,,Editor,Beverly,E,Law,,USA,F,AE,,Oregan State University
+GCB,2005,11,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2005,11,,Chief Editor,Steve,,Long,,USA,M,EIC,,University of Illinois
+GCB,2005,11,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2005,11,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2005,11,,Editorial Advisory Board,Jim,,Prosser,,USA,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2005,11,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2005,11,,Editor,Osvaldo,,Sala,,Argentina,M,AE,,University of Buenos Aires
+GCB,2005,11,,Editorial Advisory Board,David,,Schimel,,Germany,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2005,11,,Co-founding Editor,Harry,,Smith,,UK,M,EIC,,
+GCB,2005,11,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2005,11,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2005,11,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2005,11,,Production Editor,Francesca,,Wood,,UK,F,,,Blackwell Publishing 
+GCB,2005,11,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2006,12,,Editor,Dennis,,Baldocchi,,USA,M,AE,,"University of California, Berkeley"
+GCB,2006,12,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2006,12,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2006,12,,Editor,Nina,,Buchmann,,Switzerland,F,AE,,ETH Zurich
+GCB,2006,12,,Editorial Advisory Board,Doug,,Capone,,USA,F,SE,,
+GCB,2006,12,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2006,12,,Editor,M,Francesca,Cotrufo,,Italy,F,AE,,Seconda Universita
+GCB,2006,12,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2006,12,,Editor,Eric,,Davidson,,USA,M,AE,,Woods Hole Research Center
+GCB,2006,12,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2006,12,,Editor,Richard,,Geider,,UK,M,AE,,University of Essex
+GCB,2006,12,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2006,12,,Editor,Paul,,Hanson,,USA,M,AE,,ORNL
+GCB,2006,12,,Editorial Assistant,Rebecca,,Heid,,USA,F,,,University of Illinois
+GCB,2006,12,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2006,12,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2006,12,,Editor,Ivan,,Janssens,,Belgium,F,AE,,University of Antwerp
+GCB,2006,12,,Editorial Advisory Board,Paul,,Jarvis,,UK,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2006,12,,Editor,Hefin,,Jones,,UK,M,AE,,Cardiff University
+GCB,2006,12,,Editorial Advisory Board,Bruce,,Kimball,,USA,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2006,12,,Editor,Kazuhiko,,Kobayashi,,Japan,M,AE,,University of Tokyo
+GCB,2006,12,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2006,12,,Chief Editor,Steve,,Long,,USA,M,EIC,,University of Illinois
+GCB,2006,12,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2006,12,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2006,12,,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2006,12,,Editorial Advisory Board,Jim,,Prosser,,USA,M,SE,,
+GCB,2006,12,,Editor,Sharon,,Robinson,,Australia,F,AE,,University of Wollongong
+GCB,2006,12,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2006,12,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2006,12,,Editorial Advisory Board,David,,Schimel,,Germany,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2006,12,,Co-founding Editor,Harry,,Smith,,UK,M,EIC,,
+GCB,2006,12,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2006,12,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2006,12,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2006,12,,Production Editor,Francesca,,Wood,,UK,F,,,Blackwell Publishing 
+GCB,2006,12,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,
+GCB,2007,13,,Editor,Dennis,,Baldocchi,,USA,M,AE,,"University of California, Berkeley"
+GCB,2007,13,,Editorial Advisory Board,Marilyn,,Ball,,Australia,F,SE,,
+GCB,2007,13,,Editorial Advisory Board,Tom,H,Blackburn,,Denmark,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Gordan,,Bonan,,USA,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Sandra,,Brown,,USA,F,SE,,
+GCB,2007,13,,Editor,Nina,,Buchmann,,Switzerland,F,AE,,ETH Zurich
+GCB,2007,13,,Editorial Advisory Board,Doug,,Capone,,USA,F,SE,,
+GCB,2007,13,,Editorial Advisory Board,Bruce,E,Chalker,,Australia,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,James,S,Clark,,USA,M,SE,,
+GCB,2007,13,,Editor,M,Francesca,Cotrufo,,Italy,F,AE,,Seconda Universita
+GCB,2007,13,,Editorial Advisory Board,Roger,C,Dahlman,,USA,M,SE,,
+GCB,2007,13,,Editor,Eric,,Davidson,,USA,M,AE,,Woods Hole Research Center
+GCB,2007,13,,Editorial Advisory Board,Bert,G,Drake,,USA,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Zvy,,Dubinsky,,Israel,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Ilkka,,Hanski,,Finland,M,SE,,
+GCB,2007,13,,Editor,Paul,,Hanson,,USA,M,AE,,ORNL
+GCB,2007,13,,Editorial Assistant,Rebecca,,Heid,,USA,F,,,University of Illinois
+GCB,2007,13,,Editorial Advisory Board,Ann,,Henderson-Sellers,,Australia,F,SE,,
+GCB,2007,13,,Editorial Advisory Board,Tadaki,,Hirose,,Japan,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Patrick,,Holligan,,UK,M,SE,,
+GCB,2007,13,,Editor,Ivan,,Janssens,,Belgium,F,AE,,University of Antwerp
+GCB,2007,13,,Editorial Advisory Board,Paul,,Jarvis,,UK,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,R,L,Jefferies,,Canada,M,SE,,
+GCB,2007,13,,Editor,Hefin,,Jones,,UK,M,AE,,Cardiff University
+GCB,2007,13,,Editorial Advisory Board,Bruce,,Kimball,,USA,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Roger,,Knowles,,Canada,M,SE,,
+GCB,2007,13,,Editor,Kazuhiko,,Kobayashi,,Japan,M,AE,,University of Tokyo
+GCB,2007,13,,Editorial Advisory Board,Christian,,Korner,,Switzerland,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Jeffrey,,Levinton,,USA,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Jon,,Lloyd,,Germany,M,SE,,
+GCB,2007,13,,Chief Editor,Steve,,Long,,USA,M,EIC,,University of Illinois
+GCB,2007,13,,Editorial Advisory Board,Pamela,,Matson,,USA,F,SE,,
+GCB,2007,13,,Editorial Advisory Board,Franco,,Miglietta,,Italy,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,JC,,Murrell,,UK,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Maria,,Piedade,,Brazil,F,SE,,
+GCB,2007,13,,Editor,Colin,,Prentice,,Germany,M,AE,,MPI - Jena
+GCB,2007,13,,Editorial Advisory Board,Jim,,Prosser,,USA,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Hugo,,Rogers,,USA,M,SE,,
+GCB,2007,13,,Editor,Rowan,,Sage,,Canada,M,AE,,University of Toronto
+GCB,2007,13,,Editorial Advisory Board,David,,Schimel,,Germany,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Robert,,Scholes,,South Africa,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Hank,H,Schugart,,USA,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,E-D,,Schulze,,Germany,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Ted,,Smayda,,USA,M,SE,,
+GCB,2007,13,,Editor,David,J,Smith,,UK,M,AE,,University of Essex
+GCB,2007,13,,Co-founding Editor,Harry,,Smith,,UK,M,EIC,,
+GCB,2007,13,,Editorial Advisory Board,Keith,,Smith,,UK,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Nigel,E,Stork,,Australia,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Masayuki,M,Takahashi,,Japan,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Max,,Tilzer,,Germany,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,Riccardo,,Valentini,,Italy,M,SE,,
+GCB,2007,13,,Editor,Marcel,E,Visser,,Netherlands,M,AE,,Netherlands Institute of Technology
+GCB,2007,13,,Editorial Advisory Board,Bess,B,Ward,,USA,F,SE,,
+GCB,2007,13,,Editorial Advisory Board,J,B,Whitaker,,UK,M,SE,,
+GCB,2007,13,,Editorial Advisory Board,F,Ian,Woodward,,UK,M,SE,,

@@ -1,0 +1,960 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+JAPE,2003,40,1,Review Board,Jan,P,Bakker,,The Netherlands,F,SE,,University of Groningen
+JAPE,2004,41,1,Review Board,Jan,P,Bakker,,The Netherlands,F,SE,,University of Groningen
+JAPE,2005,42,1,Editorial Board,Jan,P,Bakker,,The Netherlands,F,SE,,University of Groningen
+JAPE,2006,43,1,Editorial Board,Jan,P,Bakker,,The Netherlands,F,SE,,University of Groningen
+JAPE,2000,37,1,Review Board,Nigel,D,Barlow,,New Zealand,M,SE,,AgResearch
+JAPE,2001,38,1,Editor,Nigel,D,Barlow,,New Zealand,M,AE,,AgResearch
+JAPE,2002,39,1,Editor,Nigel,D,Barlow,,New Zealand,M,AE,,AgResearch
+JAPE,1985,22,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1986,23,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1987,24,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1988,25,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1989,26,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1990,27,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1991,28,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1992,29,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1993,30,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1994,31,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1995,32,1,Review Board,B,L,Bayne,,England,,SE,,"Institute for Marine and Environmental Research, NERC"
+JAPE,1985,22,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1986,23,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1987,24,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1988,25,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1989,26,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1990,27,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1991,28,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1992,29,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1993,30,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1994,31,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1995,32,1,Review Board,David,E,Bignell,,England,M,SE,,University of London
+JAPE,1985,22,1,Editor,William,C,Block,,England,M,EIC,,"British Antarctic Survey, Natural Environment Resource Council (NERC)"
+JAPE,1986,23,1,Editor,William,C,Block,,England,M,EIC,,"British Antarctic Survey, Natural Environment Resource Council (NERC)"
+JAPE,1987,24,1,Editor,William,C,Block,,England,M,EIC,,"British Antarctic Survey, Natural Environment Resource Council (NERC)"
+JAPE,1988,25,1,Editor,William,C,Block,,England,M,EIC,,"British Antarctic Survey, Natural Environment Resource Council (NERC)"
+JAPE,1989,26,1,Editor,William,C,Block,,England,M,EIC,,"British Antarctic Survey, Natural Environment Resource Council (NERC)"
+JAPE,1985,22,1,Review Board,Anthony,David,Bradshaw,,England,M,SE,,University of Liverpool
+JAPE,1986,23,1,Review Board,Anthony,David,Bradshaw,,England,M,SE,,University of Liverpool
+JAPE,1987,24,1,Review Board,Anthony,David,Bradshaw,,England,M,SE,,University of Liverpool
+JAPE,1988,25,1,Review Board,Anthony,David,Bradshaw,,England,M,SE,,University of Liverpool
+JAPE,2006,43,1,Associate Editors,Justin,S,Brashares,,USA,M,SE,,"University of California, Berkely"
+JAPE,2007,44,1,Associate Editors,Justin,S,Brashares,,USA,M,SE,,"University of California, Berkely"
+JAPE,2010,47,1,Associate Editors,Justin,S,Brashares,,USA,M,SE,,"University of California, Berkely"
+JAPE,2000,37,1,Review Board,James,M,Bullock,,England,M,SE,,NERC Centre for Ecology and Hydrology
+JAPE,2001,38,1,Review Board,James,M,Bullock,,England,M,SE,,NERC Centre for Ecology and Hydrology
+JAPE,2002,39,1,Review Board,James,M,Bullock,,England,M,SE,,NERC Centre for Ecology and Hydrology
+JAPE,2003,40,1,Review Board,James,M,Bullock,,England,M,SE,,NERC Centre for Ecology and Hydrology
+JAPE,1989,26,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1990,27,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1991,28,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1992,29,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1993,30,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1994,31,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1995,32,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1996,33,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1997,34,1,Review Board,Ralph,T,Clarke,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1985,22,1,Review Board,J,P,Cooper,,Wales,,SE,,Welsh Plant Breeding Station
+JAPE,1986,23,1,Review Board,J,P,Cooper,,Wales,,SE,,Welsh Plant Breeding Station
+JAPE,1987,24,1,Review Board,J,P,Cooper,,Wales,,SE,,Welsh Plant Breeding Station
+JAPE,1985,22,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1986,23,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1987,24,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1988,25,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1989,26,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1990,27,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1991,28,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1992,29,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1993,30,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1994,31,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,1995,32,1,Review Board,John,Patrick,Croxall,,England,M,SE,,British Antarctic Survey
+JAPE,2000,37,1,Review Board,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2001,38,1,Review Board,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2002,39,1,Review Board,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2003,40,1,Review Board,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2004,41,1,Review Board,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2005,42,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2006,43,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2007,44,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2008,45,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2009,46,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2010,47,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2011,48,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2012,49,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2013,50,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2014,51,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2015,52,1,Associate Editors,Christopher,R,Dickman,,Australia,M,SE,,University of Sydney
+JAPE,2008,45,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2009,46,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2010,47,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2011,48,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2012,49,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2013,50,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2014,51,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,2015,52,1,Associate Editors,Johan,T,DuToit,,USA,M,SE,,Utah State University
+JAPE,1985,22,1,Review Board,Ron,W,Edwards,,Wales,M,SE,,University of Wales
+JAPE,1986,23,1,Review Board,Ron,W,Edwards,,Wales,M,SE,,University of Wales
+JAPE,1987,24,1,Review Board,Ron,W,Edwards,,Wales,M,SE,,University of Wales
+JAPE,1988,25,1,Review Board,Ron,W,Edwards,,Wales,M,SE,,University of Wales
+JAPE,2001,38,1,Review Board,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2002,39,1,Review Board,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2003,40,1,Review Board,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2004,41,1,Review Board,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2005,42,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2006,43,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2007,44,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2008,45,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2009,46,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2010,47,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2011,48,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2012,49,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2013,50,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,2014,51,1,Associate Editors,Chris,S,Elphick,,USA,M,SE,,University of Connecticut
+JAPE,1997,34,1,Review Board,Les,G,Firbank,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,1998,35,1,Review Board,Les,G,Firbank,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,1999,36,1,Review Board,Les,G,Firbank,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,2000,37,1,Review Board,Les,G,Firbank,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,2001,38,1,Review Board,Les,G,Firbank,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,2002,39,1,Review Board,Les,G,Firbank,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,2000,37,1,Review Board,Robert,P,Freckleton,,England,M,SE,,University of Oxford
+JAPE,2001,38,1,Review Board,Robert,P,Freckleton,,England,M,SE,,University of Oxford
+JAPE,2002,39,1,Review Board,Robert,P,Freckleton,,England,M,SE,,University of Oxford
+JAPE,2003,40,1,Review Board,Robert,P,Freckleton,,England,M,SE,,University of Oxford
+JAPE,2004,41,1,Review Board,Robert,P,Freckleton,,England,M,SE,,University of Oxford
+JAPE,2005,42,1,Editor - Executive Editor,Robert,P,Freckleton,,England,M,EIC,,University of Oxford
+JAPE,2006,43,1,Editor,Robert,P,Freckleton,,England,M,AE,,University of Oxford
+JAPE,2007,44,1,Editor,Robert,P,Freckleton,,England,M,AE,,University of Oxford
+JAPE,2008,45,1,Editor,Robert,P,Freckleton,,England,M,AE,,University of Oxford
+JAPE,2009,46,1,Editor,Robert,P,Freckleton,,England,M,AE,,University of Oxford
+JAPE,2006,43,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2007,44,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2008,45,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2009,46,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2010,47,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2011,48,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2012,49,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2013,50,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2014,51,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,2015,52,1,Associate Editors,Chris,LJ,Frid,,England,M,SE,,University of Liverpool
+JAPE,1996,33,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,1997,34,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,1998,35,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,1999,36,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,2000,37,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,2001,38,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,2002,39,1,Review Board,Rhys,E,Green,,Scotland,M,SE,,Royal Society for the Protection of Birds
+JAPE,1993,30,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1994,31,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1995,32,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1996,33,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1997,34,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1998,35,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1999,36,1,Review Board,David,A,Hill,,England,M,SE,,British Trust for Ornithology
+JAPE,1988,25,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1989,26,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1990,27,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1991,28,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1992,29,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1993,30,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1994,31,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1995,32,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1996,33,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1997,34,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1998,35,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1999,36,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2000,37,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2001,38,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2002,39,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2003,40,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2004,41,1,Review Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2005,42,1,Editorial Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,2006,43,1,Editorial Board,Mark,O,Hill,,England,M,SE,,"Institute of Terrestrial Ecology, Monks Wood Experimental Station"
+JAPE,1985,22,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1986,23,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1987,24,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1988,25,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1989,26,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1990,27,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1991,28,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1992,29,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1993,30,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1994,31,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1995,32,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,1996,33,1,Review Board,Tom,C,Hutchinson,,Canada,M,SE,,Trent University
+JAPE,2000,37,1,Review Board,Glenn,R,Iason,,Scotland,M,SE,,Macaulay Land Use Research Institute
+JAPE,2001,38,1,Review Board,Glenn,R,Iason,,Scotland,M,SE,,Macaulay Land Use Research Institute
+JAPE,2002,39,1,Review Board,Glenn,R,Iason,,Scotland,M,SE,,Macaulay Land Use Research Institute
+JAPE,2003,40,1,Review Board,Glenn,R,Iason,,Scotland,M,SE,,Macaulay Land Use Research Institute
+JAPE,2004,41,1,Review Board,Glenn,R,Iason,,Scotland,M,SE,,Macaulay Land Use Research Institute
+JAPE,1992,29,1,Editor,Hugh,AP,Ingram,,Scotland,M,EIC,,University of Dundee
+JAPE,1993,30,1,Editor,Hugh,AP,Ingram,,Scotland,M,EIC,,University of Dundee
+JAPE,1994,31,1,Editor,Hugh,AP,Ingram,,Scotland,M,EIC,,University of Dundee
+JAPE,1995,32,1,Editor,Hugh,AP,Ingram,,Scotland,M,EIC,,University of Dundee
+JAPE,1996,33,1,Editor,Hugh,AP,Ingram,,Scotland,M,AE,,University of Dundee
+JAPE,1988,25,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1989,26,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1990,27,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1991,28,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1992,29,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1993,30,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1994,31,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1995,32,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1996,33,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,1997,34,1,Review Board,Paul,Gordon,Jarvis,,Scotland,M,SE,,University of Edinburgh
+JAPE,2006,43,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2007,44,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2008,45,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2009,46,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2010,47,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2011,48,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2012,49,1,Associate Editors,K,Ullas,Karanth,,India,Unkown,SE,,Wildlife Conservation Society
+JAPE,2006,43,1,Associate Editors,Jack,J,Lennon,,Scotland,M,SE,,Macaulay Institute
+JAPE,2007,44,1,Associate Editors,Jack,J,Lennon,,Scotland,M,SE,,Macaulay Institute
+JAPE,2008,45,1,Associate Editors,Jack,J,Lennon,,Scotland,M,SE,,Macaulay Institute
+JAPE,2009,46,1,Associate Editors,Jack,J,Lennon,,Scotland,M,SE,,Macaulay Institute
+JAPE,2010,47,1,Associate Editors,Jack,J,Lennon,,Scotland,M,SE,,Macaulay Institute
+JAPE,2011,48,1,Associate Editors,Jack,J,Lennon,,Scotland,M,SE,,Macaulay Institute
+JAPE,1997,34,1,Review Board,W,M,Lonsdale,,France,M,SE,,CSIRO European Laboratory
+JAPE,1998,35,1,Review Board,W,M,Lonsdale,,France,M,SE,,CSIRO European Laboratory
+JAPE,1999,36,1,Review Board,W,M,Lonsdale,,Australia,M,SE,,CSIRO European Laboratory
+JAPE,2000,37,1,Review Board,W,M,Lonsdale,,Australia,M,SE,,CSIRO European Laboratory
+JAPE,2001,38,1,Review Board,W,M,Lonsdale,,Australia,M,SE,,CSIRO European Laboratory
+JAPE,2002,39,1,Review Board,W,M,Lonsdale,,Australia,M,SE,,CSIRO European Laboratory
+JAPE,1988,25,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1989,26,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1990,27,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1991,28,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1992,29,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1993,30,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1994,31,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1995,32,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1996,33,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1997,34,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1998,35,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,1999,36,1,Review Board,Rob,H,Marrs,,England,M,SE,,"Ness Botanic Gardens, University of Liverpool"
+JAPE,2008,45,1,Associate Editors,Michael,A,McCarthy,,Australia,M,SE,,"Royal Botanic Gardens, Melbourne"
+JAPE,2009,46,1,Associate Editors,Michael,A,McCarthy,,Australia,M,SE,,"Royal Botanic Gardens, Melbourne"
+JAPE,2010,47,1,Associate Editors,Michael,A,McCarthy,,Australia,M,SE,,"Royal Botanic Gardens, Melbourne"
+JAPE,2011,48,1,Associate Editors,Michael,A,McCarthy,,Australia,M,SE,,"Royal Botanic Gardens, Melbourne"
+JAPE,1996,33,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,1997,34,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,1998,35,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,1999,36,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2000,37,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2001,38,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2002,39,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2003,40,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2004,41,1,Review Board,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2005,42,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2006,43,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2007,44,1,Editor,David,I,McCracken,,Scotland,M,AE,,Scottish Agricultural College
+JAPE,2008,45,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2009,46,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2010,47,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2011,48,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2012,49,1,Associate Editors,David,I,McCracken,,Scotland,M,SE,,Scottish Agricultural College
+JAPE,2001,38,1,Review Board,Nicholas,J,Mills,,USA,M,SE,,"University of California, Berkely"
+JAPE,2002,39,1,Review Board,Nicholas,J,Mills,,USA,M,SE,,"University of California, Berkely"
+JAPE,2003,40,1,Review Board,Nicholas,J,Mills,,USA,M,SE,,"University of California, Berkely"
+JAPE,2004,41,1,Review Board,Nicholas,J,Mills,,USA,M,SE,,"University of California, Berkely"
+JAPE,2005,42,1,Editorial Board,Nicholas,J,Mills,,USA,M,SE,,"University of California, Berkely"
+JAPE,2006,43,1,Editorial Board,Nicholas,J,Mills,,USA,M,SE,,"University of California, Berkely"
+JAPE,2002,39,1,Review Board,Eleanor,Jane,Milner-Gulland,,England,F,SE,,Imperial College
+JAPE,2003,40,1,Review Board,Eleanor,Jane,Milner-Gulland,,England,F,SE,,Imperial College
+JAPE,2004,41,1,Review Board,Eleanor,Jane,Milner-Gulland,,England,F,SE,,Imperial College
+JAPE,2005,42,1,Associate Editors,Eleanor,Jane,Milner-Gulland,,England,F,SE,,Imperial College
+JAPE,2006,43,1,Associate Editors,Eleanor,Jane,Milner-Gulland,,England,F,SE,,Imperial College
+JAPE,2007,44,1,Associate Editors,Eleanor,Jane,Milner-Gulland,,England,F,SE,,Imperial College
+JAPE,2008,45,1,Editor,Eleanor,Jane,Milner-Gulland,,England,F,AE,,Imperial College
+JAPE,2009,46,1,Editor,Eleanor,Jane,Milner-Gulland,,England,F,AE,,Imperial College
+JAPE,2010,47,1,Editor,Eleanor,Jane,Milner-Gulland,,England,F,AE,,Imperial College
+JAPE,2011,48,1,Editor,Eleanor,Jane,Milner-Gulland,,England,F,AE,,Imperial College
+JAPE,2012,49,1,Editor - Executive Editor,Eleanor,Jane,Milner-Gulland,,England,F,EIC,,Imperial College
+JAPE,2013,50,1,Editor - Executive Editor,Eleanor,Jane,Milner-Gulland,,England,F,EIC,,Imperial College
+JAPE,2014,51,1,Editor - Executive Editor,Eleanor,Jane,Milner-Gulland,,England,F,EIC,,Imperial College
+JAPE,2001,38,1,Review Board,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,2002,39,1,Review Board,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,2003,40,1,Review Board,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,2004,41,1,Review Board,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,2005,42,1,Associate Editors,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,2006,43,1,Associate Editors,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,2007,44,1,Associate Editors,Suzanne,J,Milton,,South Africa,F,SE,,University of Cape Town
+JAPE,1985,22,1,Review Board,John,Lennox,Monteith,,England,M,SE,,University of Nottingham
+JAPE,1986,23,1,Review Board,John,Lennox,Monteith,,England,M,SE,,University of Nottingham
+JAPE,1987,24,1,Review Board,John,Lennox,Monteith,,England,M,SE,,University of Nottingham
+JAPE,1985,22,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1986,23,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1987,24,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1988,25,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1989,26,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1990,27,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1991,28,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1992,29,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1993,30,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1994,31,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1995,32,1,Review Board,Michael,G,Morris,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2015,52,1,Associate Editors,Ralph,Mac,Nally,,Australia,M,SE,,University of Canberra
+JAPE,2001,38,1,Review Board,James,D,Nichols,,USA,M,SE,,US Geological Survey
+JAPE,2002,39,1,Review Board,James,D,Nichols,,USA,M,SE,,US Geological Survey
+JAPE,2003,40,1,Review Board,James,D,Nichols,,USA,M,SE,,US Geological Survey
+JAPE,2004,41,1,Review Board,James,D,Nichols,,USA,M,SE,,US Geological Survey
+JAPE,2005,42,1,Editorial Board,James,D,Nichols,,USA,M,SE,,US Geological Survey
+JAPE,2006,43,1,Editorial Board,James,D,Nichols,,USA,M,SE,,US Geological Survey
+JAPE,1996,33,1,Review Board,Steve,J,Ormerod,,Wales,M,SE,,Cardiff University
+JAPE,1997,34,1,Review Board,Steve,J,Ormerod,,Wales,M,SE,,Cardiff University
+JAPE,1998,35,1,Review Board,Steve,J,Ormerod,,Wales,M,SE,,Cardiff University
+JAPE,1999,36,1,Review Board,Steve,J,Ormerod,,Wales,M,SE,,Cardiff University
+JAPE,2000,37,1,Editor - Executive Editor,Steve,J,Ormerod,,Wales,M,EIC,,Cardiff University
+JAPE,2001,38,1,Editor - Executive Editor,Steve,J,Ormerod,,Wales,M,EIC,,Cardiff University
+JAPE,2002,39,1,Editor - Executive Editor,Steve,J,Ormerod,,Wales,M,EIC,,Cardiff University
+JAPE,2003,40,1,Editor - Executive Editor,Steve,J,Ormerod,,Wales,M,EIC,,Cardiff University
+JAPE,2004,41,1,Editor - Executive Editor,Steve,J,Ormerod,,Wales,M,EIC,,Cardiff University
+JAPE,2001,38,1,Review Board,Robert,J,Paxton,,Germany,M,SE,,University of T™bingen
+JAPE,2002,39,1,Review Board,Robert,J,Paxton,,Germany,M,SE,,University of T™bingen
+JAPE,2003,40,1,Review Board,Robert,J,Paxton,,Germany,M,SE,,University of T™bingen
+JAPE,2004,41,1,Review Board,Robert,J,Paxton,,Germany,M,SE,,University of T™bingen
+JAPE,2005,42,1,Editorial Board,Robert,J,Paxton,,Germany,M,SE,,University of T™bingen
+JAPE,2006,43,1,Editorial Board,Robert,J,Paxton,,Germany,M,SE,,University of T™bingen
+JAPE,1996,33,1,Editor - Executive Editor,Mike,W,Pienkowski,,England,M,EIC,,Joint Nature Conservation Committee
+JAPE,1997,34,1,Editor - Executive Editor,Mike,W,Pienkowski,,England,M,EIC,,Joint Nature Conservation Committee
+JAPE,1998,35,1,Editor - Executive Editor,Mike,W,Pienkowski,,England,M,EIC,,Joint Nature Conservation Committee
+JAPE,1999,36,1,Editor - Executive Editor,Mike,W,Pienkowski,,England,M,EIC,,Joint Nature Conservation Committee
+JAPE,2000,37,1,Editor,Mike,W,Pienkowski,,England,M,AE,,Joint Nature Conservation Committee
+JAPE,2006,43,1,Associate Editors,Richard,F,Pywell,,England,M,SE,,CEH Monks Wood
+JAPE,2007,44,1,Associate Editors,Richard,F,Pywell,,England,M,SE,,CEH Monks Wood
+JAPE,1985,22,1,Review Board,Wendy,A,Rees,,Zambia,F,SE,,Mount Makulu Research Station
+JAPE,1986,23,1,Review Board,Wendy,A,Rees,,Zambia,F,SE,,Mount Makulu Research Station
+JAPE,1987,24,1,Review Board,Wendy,A,Rees,,Zambia,F,SE,,Mount Makulu Research Station
+JAPE,1988,25,1,Review Board,Wendy,A,Rees,,Zambia,F,SE,,Mount Makulu Research Station
+JAPE,2006,43,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,2007,44,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,2008,45,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,2009,46,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,2010,47,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,2011,48,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,2012,49,1,Associate Editors,John,S,Richardson,,Canada,M,SE,,University of British Columbia
+JAPE,1985,22,1,Editor,T,M,Roberts,,England,,EIC,"I can't find this person's full name, and their institution was not listed by the journal either. By looking them up on Web of Science I found them linked with the Central Electricity Research Laboratories.",Central Electricity Research Laboratories
+JAPE,1986,23,1,Editor,T,M,Roberts,,England,,EIC,"I can't find this person's full name, and their institution was not listed by the journal either. By looking them up on Web of Science I found them linked with the Central Electricity Research Laboratories.",Central Electricity Research Laboratories
+JAPE,1987,24,1,Editor,T,M,Roberts,,England,,EIC,"I can't find this person's full name, and their institution was not listed by the journal either. By looking them up on Web of Science I found them linked with the Central Electricity Research Laboratories.",Central Electricity Research Laboratories
+JAPE,2007,44,1,Associate Editors,J,Andrew,Royle,,USA,M,SE,,US Geological Survey
+JAPE,2008,45,1,Associate Editors,J,Andrew,Royle,,USA,M,SE,,US Geological Survey
+JAPE,2009,46,1,Associate Editors,J,Andrew,Royle,,USA,M,SE,,US Geological Survey
+JAPE,2010,47,1,Associate Editors,J,Andrew,Royle,,USA,M,SE,,US Geological Survey
+JAPE,2011,48,1,Associate Editors,J,Andrew,Royle,,USA,M,SE,,US Geological Survey
+JAPE,2012,49,1,Associate Editors,J,Andrew,Royle,,USA,M,SE,,US Geological Survey
+JAPE,2001,38,1,Review Board,Stephen,P,Rushton,,England,M,SE,,University of Newcastle
+JAPE,2002,39,1,Editor,Stephen,P,Rushton,,England,M,AE,,University of Newcastle
+JAPE,2002,39,1,Review Board,Stephen,P,Rushton,,England,M,SE,,University of Newcastle
+JAPE,2003,40,1,Editor,Stephen,P,Rushton,,England,M,AE,,University of Newcastle
+JAPE,2004,41,1,Editor,Stephen,P,Rushton,,England,M,AE,,University of Newcastle
+JAPE,2005,42,1,Editor,Stephen,P,Rushton,,England,M,AE,,University of Newcastle
+JAPE,1985,22,1,Review Board,Arthur,John,Rutter,,England,M,SE,,Imperial College
+JAPE,1986,23,1,Review Board,Arthur,John,Rutter,,England,M,SE,,Imperial College
+JAPE,1987,24,1,Review Board,Arthur,John,Rutter,,England,M,SE,,Imperial College
+JAPE,1988,25,1,Review Board,Arthur,John,Rutter,,England,M,SE,,Imperial College
+JAPE,1985,22,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1986,23,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1987,24,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1988,25,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1989,26,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1990,27,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1991,28,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1992,29,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1993,30,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1994,31,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1995,32,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1996,33,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1997,34,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1998,35,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1999,36,1,Review Board,Roy,W,Snaydon,,England,M,SE,,Reading University
+JAPE,1988,25,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1989,26,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1990,27,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1991,28,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1992,29,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1993,30,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1994,31,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1995,32,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1996,33,1,Review Board,Ian,F,Spellerberg,,England,M,SE,,University of Southampton
+JAPE,1985,22,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1986,23,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1987,24,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1988,25,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1989,26,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1990,27,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1991,28,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1992,29,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1993,30,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1994,31,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1995,32,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1996,33,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,1997,34,1,Review Board,Janet,I,Sprent,,Scotland,F,SE,,University of Dundee
+JAPE,2005,42,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Bristol
+JAPE,2006,43,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Bristol
+JAPE,2007,44,1,Editor,Philip,A,Stephens,,England,M,AE,,University of Bristol
+JAPE,2008,45,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2009,46,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2010,47,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2011,48,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2012,49,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2013,50,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2014,51,1,Associate Editors,Philip,A,Stephens,,England,M,SE,,University of Durham
+JAPE,2015,52,1,Editor,Philip,A,Stephens,,England,M,AE,,University of Durham
+JAPE,2006,43,1,Associate Editors,Paul,M,Thompson,,Scotland,M,SE,,University of Aberdeen
+JAPE,2007,44,1,Associate Editors,Paul,M,Thompson,,Scotland,M,SE,,University of Aberdeen
+JAPE,2008,45,1,Associate Editors,Paul,M,Thompson,,Scotland,M,SE,,University of Aberdeen
+JAPE,2009,46,1,Associate Editors,Paul,M,Thompson,,Scotland,M,SE,,University of Aberdeen
+JAPE,1996,33,1,Review Board,Les,G,Underhill,,South Africa,M,SE,,University of Cape Town
+JAPE,1997,34,1,Review Board,Les,G,Underhill,,South Africa,M,SE,,University of Cape Town
+JAPE,1998,35,1,Review Board,Les,G,Underhill,,South Africa,M,SE,,University of Cape Town
+JAPE,1999,36,1,Review Board,Les,G,Underhill,,South Africa,M,SE,,University of Cape Town
+JAPE,2000,37,1,Review Board,Les,G,Underhill,,South Africa,M,SE,,University of Cape Town
+JAPE,2006,43,1,Associate Editors,Wim,H,VanDerPutten,,The Netherlands,M,SE,,Netherlands Institute of Ecology; Wageningen University and Research Centre
+JAPE,2007,44,1,Associate Editors,Wim,H,VanDerPutten,,The Netherlands,M,SE,,Netherlands Institute of Ecology; Wageningen University and Research Centre
+JAPE,2008,45,1,Associate Editors,Wim,H,VanDerPutten,,The Netherlands,M,SE,,Netherlands Institute of Ecology; Wageningen University and Research Centre
+JAPE,2009,46,1,Associate Editors,Wim,H,VanDerPutten,,The Netherlands,M,SE,,Netherlands Institute of Ecology; Wageningen University and Research Centre
+JAPE,2011,48,1,Associate Editors,Wim,H,VanDerPutten,,The Netherlands,M,SE,,Netherlands Institute of Ecology; Wageningen University and Research Centre
+JAPE,2006,43,1,Associate Editors,Matthew,J,Walpole,,England,M,SE,,University of Kent
+JAPE,2007,44,1,Associate Editors,Matthew,J,Walpole,,England,M,SE,,University of Kent
+JAPE,2008,45,1,Associate Editors,Matthew,J,Walpole,,England,M,SE,,University of Kent
+JAPE,2009,46,1,Associate Editors,Matthew,J,Walpole,,England,M,SE,,University of Kent
+JAPE,1996,33,1,Editor,Andrew,R,Watkinson,,England,M,AE,,University of East Anglia
+JAPE,1997,34,1,Editor,Andrew,R,Watkinson,,England,M,AE,,University of East Anglia
+JAPE,1998,35,1,Editor,Andrew,R,Watkinson,,England,M,AE,,University of East Anglia
+JAPE,1999,36,1,Editor,Andrew,R,Watkinson,,England,M,AE,,University of East Anglia
+JAPE,2000,37,1,Editor,Andrew,R,Watkinson,,England,M,AE,,University of East Anglia
+JAPE,2013,50,1,Associate Editors,Ailsa,,McKenzie,,England,F,SE,,Newcastle University
+JAPE,2014,51,1,Associate Editors,Ailsa,,McKenzie,,England,F,SE,,Newcastle University
+JAPE,2015,52,1,Associate Editors,Ailsa,,McKenzie,,England,F,SE,,Newcastle University
+JAPE,2015,52,1,Associate Editors,Akira,,Mori,,Japan,M,SE,,Yokohama National University
+JAPE,1996,33,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,1997,34,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,1998,35,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,1999,36,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,2000,37,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,2001,38,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,2002,39,1,Review Board,Alison,,Hester,,Scotland,F,SE,,Macaulay Land Use Research Institute
+JAPE,2006,43,1,Associate Editors,Andreas,,Erhardt,,Switzerland,M,SE,,University of Basel
+JAPE,2007,44,1,Associate Editors,Andreas,,Erhardt,,Switzerland,M,SE,,University of Basel
+JAPE,2008,45,1,Associate Editors,Andreas,,Erhardt,,Switzerland,M,SE,,University of Basel
+JAPE,2009,46,1,Associate Editors,Andreas,,Erhardt,,Switzerland,M,SE,,University of Basel
+JAPE,2006,43,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2007,44,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2008,45,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2009,46,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2010,47,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2011,48,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2012,49,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2013,50,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2014,51,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2015,52,1,Associate Editors,Andres,,Punt,,USA,M,SE,,University of Washington
+JAPE,2007,44,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2008,45,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2009,46,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2010,47,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2011,48,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2012,49,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2013,50,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2014,51,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2015,52,1,Associate Editors,Andy,,Sheppard,,Australia,M,SE,,CSIRO
+JAPE,2013,50,1,Associate Editors,Angela,,Strecker,,USA,F,SE,,Portland State University
+JAPE,2014,51,1,Associate Editors,Angela,,Strecker,,USA,F,SE,,Portland State University
+JAPE,2015,52,1,Associate Editors,Angela,,Strecker,,USA,F,SE,,Portland State University
+JAPE,2008,45,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2009,46,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2010,47,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2011,48,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2012,49,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2013,50,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2014,51,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2015,52,1,Associate Editors,Brenden,,Wintle,,Australia,M,SE,,University of Melbourne
+JAPE,2010,47,1,Associate Editors,Brian,,Wilsey,,USA,M,SE,,Iowa State University
+JAPE,2011,48,1,Associate Editors,Brian,,Wilsey,,USA,M,SE,,Iowa State University
+JAPE,2012,49,1,Associate Editors,Brian,,Wilsey,,USA,M,SE,,Iowa State University
+JAPE,2013,50,1,Associate Editors,Brian,,Wilsey,,USA,M,SE,,Iowa State University
+JAPE,2014,51,1,Associate Editors,Brian,,Wilsey,,USA,M,SE,,Iowa State University
+JAPE,2015,52,1,Associate Editors,Brian,,Wilsey,,USA,M,SE,,Iowa State University
+JAPE,2007,44,1,Associate Editors,Chris,,Wilcox,,Australia,M,SE,,CSIRO
+JAPE,2008,45,1,Associate Editors,Chris,,Wilcox,,Australia,M,SE,,CSIRO
+JAPE,2009,46,1,Associate Editors,Chris,,Wilcox,,Australia,M,SE,,CSIRO
+JAPE,2010,47,1,Associate Editors,Chris,,Wilcox,,Australia,M,SE,,CSIRO
+JAPE,2011,48,1,Associate Editors,Chris,,Wilcox,,Australia,M,SE,,CSIRO
+JAPE,2012,49,1,Associate Editors,Chris,,Wilcox,,Australia,M,SE,,CSIRO
+JAPE,2013,50,1,Associate Editors,Christina,,Banks-Leite,,England,F,SE,,Imperial College
+JAPE,2014,51,1,Associate Editors,Christina,,Banks-Leite,,England,F,SE,,Imperial College
+JAPE,2015,52,1,Associate Editors,Christina,,Banks-Leite,,England,F,SE,,Imperial College
+JAPE,2009,46,1,Associate Editors,Christl,,Donnelly,,England,F,SE,,Imperial College
+JAPE,2010,47,1,Associate Editors,Christl,,Donnelly,,England,F,SE,,Imperial College
+JAPE,2015,52,1,Associate Editors,Christopher,,Baraloto,,French Guyana,M,SE,,RINRA
+JAPE,1989,26,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1990,27,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1991,28,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1992,29,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1993,30,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1994,31,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1995,32,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,1996,33,1,Review Board,Christopher,,Mason,,England,M,SE,,University of Essex
+JAPE,2015,52,1,Associate Editors,Claudia,,Bieber,,Australia,F,SE,,University of Veterinary Medicine
+JAPE,2008,45,1,Associate Editors,Daniel,,Haydon,,Scotland,M,SE,,University of Glasgow
+JAPE,2009,46,1,Associate Editors,Daniel,,Haydon,,Scotland,M,SE,,University of Glasgow
+JAPE,2011,48,1,Associate Editors,Danny,,Hooftman,,England,M,SE,,Centre of Ecology and Hydrology
+JAPE,2012,49,1,Associate Editors,Danny,,Hooftman,,England,M,SE,,Centre of Ecology and Hydrology
+JAPE,2013,50,1,Associate Editors,Danny,,Hooftman,,England,M,SE,,Centre of Ecology and Hydrology
+JAPE,2014,51,1,Associate Editors,Danny,,Hooftman,,England,M,SE,,Centre of Ecology and Hydrology
+JAPE,2015,52,1,Associate Editors,Danny,,Hooftman,,England,M,SE,,Centre of Ecology and Hydrology
+JAPE,2011,48,1,Associate Editors,David,,Angeler,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2012,49,1,Associate Editors,David,,Angeler,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2013,50,1,Associate Editors,David,,Angeler,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2014,51,1,Associate Editors,David,,Angeler,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2015,52,1,Associate Editors,David,,Angeler,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2007,44,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2008,45,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2009,46,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2010,47,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2011,48,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2012,49,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2013,50,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2014,51,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,2015,52,1,Associate Editors,David,,Kleijn,,The Netherlands,M,SE,,Centre for Ecosystem Studies
+JAPE,1988,25,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1989,26,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1990,27,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1991,28,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1992,29,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1993,30,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1994,31,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1995,32,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,1996,33,1,Review Board,David,,Welch,,Scotland,M,SE,,"Institute of Terrestrial Ecology, Banchory Research Station"
+JAPE,2006,43,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2007,44,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2008,45,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2009,46,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2010,47,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2011,48,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2012,49,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2013,50,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2014,51,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2015,52,1,Associate Editors,Des,,Thompson,,Scotland,M,SE,,Scottish Natural Heritage
+JAPE,2015,52,1,Associate Editors,Don,,Driscoll,,Australia,M,SE,,Australian National University
+JAPE,2010,47,1,Associate Editors,Doug,,Landis,,USA,M,SE,,Michigan State University
+JAPE,2011,48,1,Associate Editors,Doug,,Landis,,USA,M,SE,,Michigan State University
+JAPE,2012,49,1,Associate Editors,Doug,,Landis,,USA,M,SE,,Michigan State University
+JAPE,2013,50,1,Associate Editors,Doug,,Landis,,USA,M,SE,,Michigan State University
+JAPE,2010,47,1,Associate Editors,Eric,,Morgan,,England,M,SE,,University of Bristol
+JAPE,2011,48,1,Associate Editors,Eric,,Morgan,,England,M,SE,,University of Bristol
+JAPE,2012,49,1,Associate Editors,Eric,,Morgan,,England,M,SE,,University of Bristol
+JAPE,2013,50,1,Associate Editors,Eric,,Morgan,,England,M,SE,,University of Bristol
+JAPE,2014,51,1,Associate Editors,Eric,,Morgan,,England,M,SE,,University of Bristol
+JAPE,2012,49,1,Associate Editors,Erika,,Crispo,,Canada,F,SE,,University of Calgary
+JAPE,2013,50,1,Associate Editors,Erika,,Crispo,,Canada,F,SE,,University of Calgary
+JAPE,2014,51,1,Associate Editors,Erika,,Crispo,,Canada,F,SE,,University of Calgary
+JAPE,2015,52,1,Associate Editors,Erika,,Crispo,,Canada,F,SE,,University of Calgary
+JAPE,2008,45,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2009,46,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2010,47,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2011,48,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2012,49,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2013,50,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2014,51,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2015,52,1,Associate Editors,Esteban,,Fernandez-Juricic,,USA,M,SE,,California State University Long Beach
+JAPE,2007,44,1,Associate Editors,Fangliang,,He,,Canada,M,SE,,University of Alberta
+JAPE,2008,45,1,Associate Editors,Fangliang,,He,,Canada,M,SE,,University of Alberta
+JAPE,2009,46,1,Associate Editors,Fangliang,,He,,Canada,M,SE,,University of Alberta
+JAPE,2010,47,1,Associate Editors,Fangliang,,He,,Canada,M,SE,,University of Alberta
+JAPE,2015,52,1,Associate Editors,Gavin,,Siriwardena,,England,M,SE,,British Trust for Ornithology
+JAPE,2005,42,1,Editorial Board,Graham,,Smith,,England,M,SE,,Central Science Laboratory
+JAPE,2006,43,1,Editorial Board,Graham,,Smith,,England,M,SE,,Central Science Laboratory
+JAPE,2015,52,1,Associate Editors,Guillaume,,Chapron,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2013,50,1,Associate Editors,Hamish,,McCailum,,Australia,M,SE,,Griffith University
+JAPE,2014,51,1,Associate Editors,Hamish,,McCailum,,Australia,M,SE,,Griffith University
+JAPE,2015,52,1,Associate Editors,Hamish,,McCailum,,Australia,M,SE,,Griffith University
+JAPE,2010,47,1,Associate Editors,Harald,,Bugmann,,Switzerland,M,SE,,Swiss Federal Institute of Tecnology
+JAPE,2011,48,1,Associate Editors,Harald,,Bugmann,,Switzerland,M,SE,,Swiss Federal Institute of Tecnology
+JAPE,2012,49,1,Associate Editors,Harald,,Bugmann,,Switzerland,M,SE,,Swiss Federal Institute of Tecnology
+JAPE,2013,50,1,Associate Editors,Harald,,Bugmann,,Switzerland,M,SE,,Swiss Federal Institute of Tecnology
+JAPE,2014,51,1,Associate Editors,Harald,,Bugmann,,Switzerland,M,SE,,Swiss Federal Institute of Tecnology
+JAPE,2015,52,1,Associate Editors,Harald,,Bugmann,,Switzerland,M,SE,,Swiss Federal Institute of Tecnology
+JAPE,2015,52,1,Associate Editors,Henrik,,Osterblom,,Sweden,M,SE,,Stockholm Resilience Centre
+JAPE,1989,26,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1990,27,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1991,28,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1992,29,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1993,30,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1994,31,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1995,32,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1996,33,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,1997,34,1,Review Board,Henry,,Thomas,,Wales,M,SE,,Welsh Plant Breeding Station
+JAPE,2014,51,1,Associate Editors,Ian,,Kaplan,,USA,M,SE,,Purdue University
+JAPE,2015,52,1,Associate Editors,Ian,,Kaplan,,USA,M,SE,,Purdue University
+JAPE,2006,43,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2007,44,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2008,45,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2009,46,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2010,47,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2011,48,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2012,49,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2013,50,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2014,51,1,Associate Editors,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen
+JAPE,2002,39,1,Review Board,Jacques,,Baudry,,France,M,SE,,"INRA, SAD Armorique"
+JAPE,2003,40,1,Review Board,Jacques,,Baudry,,France,M,SE,,"INRA, SAD Armorique"
+JAPE,2004,41,1,Review Board,Jacques,,Baudry,,France,M,SE,,"INRA, SAD Armorique"
+JAPE,2005,42,1,Editorial Board,Jacques,,Baudry,,France,M,SE,,"INRA, SAD Armorique"
+JAPE,2006,43,1,Editorial Board,Jacques,,Baudry,,France,M,SE,,"INRA, SAD Armorique"
+JAPE,2013,50,1,Associate Editors,Jacqui,,Frair,,USA,F,SE,,State University of New York
+JAPE,2014,51,1,Associate Editors,Jacqui,,Frair,,USA,F,SE,,State University of New York
+JAPE,2015,52,1,Associate Editors,Jacqui,,Frair,,USA,F,SE,,State University of New York
+JAPE,2006,43,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2007,44,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2008,45,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2009,46,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2010,47,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2011,48,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2012,49,1,Associate Editors,Jan,,Leps,,Czech Republic,M,SE,,University of South Bohemia
+JAPE,2009,46,1,Editor - Executive Editor,Jane,,Memmott,,England,F,EIC,,University of Bristol
+JAPE,2010,47,1,Editor - Executive Editor,Jane,,Memmott,,England,F,EIC,,University of Bristol
+JAPE,2011,48,1,Editor - Executive Editor,Jane,,Memmott,,England,F,EIC,,University of Bristol
+JAPE,2015,52,1,Associate Editors,Jani,,Heino,,Finland,M,SE,,Finnish Enivornment Institute
+JAPE,2008,45,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2009,46,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2010,47,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2011,48,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2012,49,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2013,50,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2014,51,1,Associate Editors,Jason,,Matthiopoulos,,Scotland,M,SE,,University of St. Andrews
+JAPE,2015,52,1,Associate Editors,Jason,,Rohr,,USA,M,SE,,University of South Florida
+JAPE,2007,44,1,Associate Editors,Javier,,Bustamante,,Spain,M,SE,,Estacion Biologica de Donana
+JAPE,2008,45,1,Associate Editors,Javier,,Bustamante,,Spain,M,SE,,Estacion Biologica de Donana
+JAPE,2009,46,1,Associate Editors,Javier,,Bustamante,,Spain,M,SE,,Estacion Biologica de Donana
+JAPE,2010,47,1,Associate Editors,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+JAPE,2011,48,1,Associate Editors,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+JAPE,2012,49,1,Associate Editors,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+JAPE,2013,50,1,Associate Editors,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+JAPE,2014,51,1,Associate Editors,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+JAPE,2015,52,1,Associate Editors,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+JAPE,2005,42,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2006,43,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2007,44,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2008,45,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2009,46,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2010,47,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2011,48,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2012,49,1,Associate Editors,Jennifer,,Gill,,England,F,SE,,University of East Anglia
+JAPE,2015,52,1,Associate Editors,Jeremy,,James,,USA,M,SE,,University of California
+JAPE,2002,39,1,Review Board,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2003,40,1,Review Board,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2004,41,1,Review Board,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2005,42,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2006,43,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2007,44,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2010,47,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2011,48,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2012,49,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2013,50,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2014,51,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2015,52,1,Associate Editors,Jeremy,,Wilson,,Scotland,M,SE,,Scotland RSPB Centre for Conservation Science
+JAPE,2013,50,1,Associate Editors,Jeroen,,Minderman,,Scotland,M,SE,,University of Stirling
+JAPE,2014,51,1,Associate Editors,Jeroen,,Minderman,,Scotland,M,SE,,University of Stirling
+JAPE,2015,52,1,Associate Editors,Jeroen,,Minderman,,Scotland,M,SE,,University of Stirling
+JAPE,2015,52,1,Associate Editors,Jin-tian,,Li,,Chile,M,SE,,Sun-Yat-Sen University
+JAPE,1996,33,1,Review Board,Jo,,Treweek,,England,F,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1997,34,1,Review Board,Jo,,Treweek,,England,F,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1998,35,1,Review Board,Jo,,Treweek,,England,F,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1999,36,1,Review Board,Jo,,Treweek,,England,F,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2000,37,1,Review Board,Jo,,Treweek,,England,F,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2006,43,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2007,44,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2008,45,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2009,46,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2010,47,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2011,48,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2012,49,1,Associate Editors,Joan,,Cossentine,,Canada,F,SE,,Pacific Agri-Food Research Center
+JAPE,2014,51,1,Associate Editors,John,,Finn,,Ireland,M,SE,,Teagasc
+JAPE,2015,52,1,Associate Editors,John,,Finn,,Ireland,M,SE,,Teagasc
+JAPE,1988,25,1,Editor,John,,Miles,,Scotland,M,EIC,,Institute of Terrestrial Ecology; Hill of Brathens Research Station; Ecological advisor to Scottish Office
+JAPE,1989,26,1,Editor,John,,Miles,,Scotland,M,EIC,,Institute of Terrestrial Ecology; Hill of Brathens Research Station; Ecological advisor to Scottish Office
+JAPE,1990,27,1,Editor,John,,Miles,,Scotland,M,EIC,,Institute of Terrestrial Ecology; Hill of Brathens Research Station; Ecological advisor to Scottish Office
+JAPE,1991,28,1,Editor,John,,Miles,,Scotland,M,EIC,,Institute of Terrestrial Ecology; Hill of Brathens Research Station; Ecological advisor to Scottish Office
+JAPE,2001,38,1,Editor,Jon,,Marshall,,England,M,AE,,University of Bristol
+JAPE,2002,39,1,Editor,Jon,,Marshall,,England,M,AE,,University of Bristol
+JAPE,2003,40,1,Editor,Jon,,Marshall,,England,M,AE,,University of Bristol
+JAPE,2004,41,1,Editor,Jon,,Marshall,,England,M,AE,,University of Bristol
+JAPE,2008,45,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2009,46,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2010,47,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2011,48,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2012,49,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2013,50,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2014,51,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2015,52,1,Associate Editors,Jonathan,,Rhodes,,Australia,M,SE,,University of Queensland
+JAPE,2015,52,1,Associate Editors,Jorg,,Muller,,Germany,M,SE,,Bavarian Forest National Park
+JAPE,2008,45,1,Associate Editors,Jos,,Barlow,,England,M,SE,,Lancaster Environment Centre
+JAPE,2009,46,1,Associate Editors,Jos,,Barlow,,England,M,SE,,Lancaster Environment Centre
+JAPE,2010,47,1,Associate Editors,Jos,,Barlow,,England,M,SE,,Lancaster University
+JAPE,2011,48,1,Associate Editors,Jos,,Barlow,,England,M,SE,,Lancaster University
+JAPE,2012,49,1,Editor,Jos,,Barlow,,England,M,AE,,Lancaster University
+JAPE,2013,50,1,Editor,Jos,,Barlow,,England,M,AE,,Lancaster University
+JAPE,2014,51,1,Editor,Jos,,Barlow,,England,M,AE,,Lancaster University
+JAPE,2015,52,1,Editor,Jos,,Barlow,,England,M,AE,,Lancaster University
+JAPE,2014,51,1,Associate Editors,Joseph,,Bennett,,Australia,M,SE,,University of Queensland
+JAPE,2015,52,1,Associate Editors,Joseph,,Bennett,,Australia,M,SE,,University of Queensland
+JAPE,2015,52,1,Associate Editors,Joslin,,Moore,,Australia,M,SE,,University of Melbourne
+JAPE,2013,50,1,Associate Editors,Julia,,Blanchard,,England,F,SE,,University of Sheffield
+JAPE,2014,51,1,Associate Editors,Julia,,Blanchard,,England,F,SE,,University of Sheffield
+JAPE,2015,52,1,Associate Editors,Julia,,Blanchard,,England,F,SE,,University of Sheffield
+JAPE,2008,45,1,Associate Editors,Julia,,Jones,,Wales,F,SE,,Bangor University
+JAPE,2009,46,1,Associate Editors,Julia,,Jones,,Wales,F,SE,,Bangor University
+JAPE,2010,47,1,Associate Editors,Julia,,Jones,,Wales,F,SE,,Bangor University
+JAPE,2011,48,1,Editor,Julia,,Jones,,Wales,F,AE,,Bangor University
+JAPE,2013,50,1,Associate Editors,Julia,,Jones,,Wales,F,SE,,University of Bangor
+JAPE,2014,51,1,Associate Editors,Julia,,Jones,,Wales,F,SE,,University of Bangor
+JAPE,2015,52,1,Associate Editors,Julia,,Jones,,Wales,F,SE,,University of Bangor
+JAPE,2010,47,1,Associate Editors,Juliet,,Osborne,,England,F,SE,,Rothamsted Research
+JAPE,2011,48,1,Associate Editors,Juliet,,Osborne,,England,F,SE,,Rothamsted Research
+JAPE,2012,49,1,Associate Editors,Juliet,,Osborne,,England,F,SE,,Rothamsted Research
+JAPE,2013,50,1,Associate Editors,Juliet,,Osborne,,England,F,SE,,Rothamsted Research
+JAPE,2014,51,1,Associate Editors,Juliet,,Osborne,,England,F,SE,,Rothamsted Research
+JAPE,2015,52,1,Associate Editors,Lara,,Souza,,USA,F,SE,,Oklahoma University
+JAPE,2010,47,1,Associate Editors,Lesley,,Batty,,England,F,SE,,University of Birmingham
+JAPE,2011,48,1,Associate Editors,Lesley,,Batty,,England,F,SE,,University of Birmingham
+JAPE,2012,49,1,Associate Editors,Lesley,,Batty,,England,F,SE,,University of Birmingham
+JAPE,2013,50,1,Associate Editors,Lesley,,Batty,,England,F,SE,,University of Birmingham
+JAPE,2012,49,1,Associate Editors,Malcom,,Bennet,,England,M,SE,,University of Liverpool
+JAPE,2006,43,1,Associate Editors,Marc,,Cadotte,,USA,M,SE,,University of Tennessee
+JAPE,2007,44,1,Associate Editors,Marc,,Cadotte,,USA,M,SE,,University of Tennessee
+JAPE,2008,45,1,Associate Editors,Marc,,Cadotte,,USA,M,SE,,University of Tennessee
+JAPE,2010,47,1,Editor,Marc,,Cadotte,,USA,M,AE,,University of Tennessee
+JAPE,2011,48,1,Editor,Marc,,Cadotte,,USA,M,AE,,University of Tennessee
+JAPE,2012,49,1,Editor,Marc,,Cadotte,,USA,M,AE,,University of Tennessee
+JAPE,2013,50,1,Editor,Marc,,Cadotte,,USA,M,AE,,University of Tennessee
+JAPE,2014,51,1,Editor,Marc,,Cadotte,,USA,M,AE,,University of Tennessee
+JAPE,2015,52,1,Editor - Executive Editor,Marc,,Cadotte,,USA,M,EIC,,University of Tennessee
+JAPE,2007,44,1,Associate Editors,Mark,,Hebblewhite,,USA,M,SE,,University of Montana
+JAPE,2008,45,1,Associate Editors,Mark,,Hebblewhite,,USA,M,SE,,University of Montana
+JAPE,2009,46,1,Associate Editors,Mark,,Hebblewhite,,USA,M,SE,,University of Montana
+JAPE,2010,47,1,Associate Editors,Mark,,Hebblewhite,,USA,M,SE,,University of Montana
+JAPE,2011,48,1,Associate Editors,Mark,,Hebblewhite,,USA,M,SE,,University of Montana
+JAPE,2012,49,1,Associate Editors,Mark,,Hebblewhite,,USA,M,SE,,University of Montana
+JAPE,2007,44,1,Associate Editors,Mark,,Whittingham,,England,M,SE,,University of Newcastle
+JAPE,2008,45,1,Associate Editors,Mark,,Whittingham,,England,M,SE,,University of Newcastle
+JAPE,2009,46,1,Associate Editors,Mark,,Whittingham,,England,M,SE,,University of Newcastle
+JAPE,2010,47,1,Editor,Mark,,Whittingham,,England,M,AE,,University of Newcastle
+JAPE,2011,48,1,Editor,Mark,,Whittingham,,England,M,AE,,University of Newcastle
+JAPE,2012,49,1,Editor,Mark,,Whittingham,,England,M,AE,,University of Newcastle
+JAPE,2013,50,1,Editor,Mark,,Whittingham,,England,M,AE,,University of Newcastle
+JAPE,2014,51,1,Editor,Mark,,Whittingham,,England,M,AE,,University of Newcastle
+JAPE,2015,52,1,Editor,Mark,,Whittingham,,England,M,AE,,University of Newcastle
+JAPE,2015,52,1,Associate Editors,Mattew,,Hayward,,Wales,M,SE,,Bangor University
+JAPE,2011,48,1,Associate Editors,Mel,,Austen,,England,F,SE,,Plymouth Marine Laboratoyr
+JAPE,2012,49,1,Associate Editors,Mel,,Austen,,England,F,SE,,Plymouth Marine Laboratoyr
+JAPE,2012,49,1,Associate Editors,Michael,,Bode,,Australia,M,SE,,University of Melbourne
+JAPE,2013,50,1,Associate Editors,Michael,,Bode,,Australia,M,SE,,University of Melbourne
+JAPE,2014,51,1,Associate Editors,Michael,,Bode,,Australia,M,SE,,University of Melbourne
+JAPE,2010,47,1,Associate Editors,Michael,,Pocock,,England,M,SE,,University of Bristol
+JAPE,2011,48,1,Associate Editors,Michael,,Pocock,,England,M,SE,,University of Bristol
+JAPE,2012,49,1,Associate Editors,Michael,,Pocock,,England,M,SE,,University of Bristol
+JAPE,2013,50,1,Associate Editors,Michael,,Pocock,,England,M,SE,,University of Bristol
+JAPE,2014,51,1,Associate Editors,Michael,,Pocock,,England,M,SE,,University of Bristol
+JAPE,2015,52,1,Associate Editors,Michael,,Pocock,,England,M,SE,,University of Bristol
+JAPE,2008,45,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2009,46,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2010,47,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2011,48,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2012,49,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2013,50,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2014,51,1,Associate Editors,Morten,,Frederiksen,,Denmark,M,SE,,Aarhus University
+JAPE,2008,45,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2009,46,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2010,47,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2011,48,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2012,49,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2013,50,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2014,51,1,Associate Editors,Nathalie,,Pettorelli,,England,F,SE,,Zoological Society of London
+JAPE,2009,46,1,Associate Editors,Nicholas,,Dulvy,,Canada,M,SE,,Simon Fraser University
+JAPE,2010,47,1,Associate Editors,Nicholas,,Dulvy,,Canada,M,SE,,Simon Fraser University
+JAPE,2011,48,1,Associate Editors,Nicholas,,Dulvy,,Canada,M,SE,,Simon Fraser University
+JAPE,2012,49,1,Associate Editors,Nicholas,,Dulvy,,Canada,M,SE,,Simon Fraser University
+JAPE,2013,50,1,Associate Editors,Nicholas,,Dulvy,,Canada,M,SE,,Simon Fraser University
+JAPE,1986,23,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1987,24,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1988,25,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1989,26,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1990,27,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1991,28,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1992,29,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1993,30,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1994,31,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1995,32,1,Review Board,Nigel,,Bonner,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1990,27,1,Editor,Nigel,,Webb,,England,M,EIC,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1991,28,1,Editor,Nigel,,Webb,,England,M,EIC,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1992,29,1,Editor,Nigel,,Webb,,England,M,EIC,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1993,30,1,Editor,Nigel,,Webb,,England,M,EIC,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1994,31,1,Editor,Nigel,,Webb,,England,M,EIC,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1995,32,1,Editor,Nigel,,Webb,,England,M,EIC,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1996,33,1,Editor,Nigel,,Webb,,England,M,AE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1998,35,1,Review Board,Nigel,,Webb,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,1999,36,1,Review Board,Nigel,,Webb,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2000,37,1,Review Board,Nigel,,Webb,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2001,38,1,Review Board,Nigel,,Webb,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2002,39,1,Review Board,Nigel,,Webb,,England,M,SE,,"Institute of Terrestrial Ecology, Furzebrook Research Station"
+JAPE,2010,47,1,Associate Editors,Owen,,Lewis,,England,M,SE,,University of Oxford
+JAPE,2011,48,1,Associate Editors,Owen,,Lewis,,England,M,SE,,University of Oxford
+JAPE,2012,49,1,Associate Editors,Owen,,Lewis,,England,M,SE,,University of Oxford
+JAPE,2013,50,1,Associate Editors,Owen,,Lewis,,England,M,SE,,University of Oxford
+JAPE,2014,51,1,Associate Editors,Owen,,Lewis,,England,M,SE,,University of Oxford
+JAPE,2015,52,1,Associate Editors,Owen,,Lewis,,England,M,SE,,University of Oxford
+JAPE,2003,40,1,Review Board,Pall,,Hersteinsson,,Iceland,M,SE,,University of Iceland
+JAPE,2004,41,1,Review Board,Pall,,Hersteinsson,,Iceland,M,SE,,University of Iceland
+JAPE,2005,42,1,Editorial Board,Pall,,Hersteinsson,,Iceland,M,SE,,University of Iceland
+JAPE,2006,43,1,Editorial Board,Pall,,Hersteinsson,,Iceland,M,SE,,University of Iceland
+JAPE,2010,47,1,Associate Editors,Paul,,Armsworth,,USA,M,SE,,The University of Tennessee
+JAPE,2011,48,1,Associate Editors,Paul,,Armsworth,,USA,M,SE,,The University of Tennessee
+JAPE,2012,49,1,Associate Editors,Paul,,Armsworth,,USA,M,SE,,The University of Tennessee
+JAPE,2013,50,1,Associate Editors,Paul,,Armsworth,,USA,M,SE,,The University of Tennessee
+JAPE,2014,51,1,Associate Editors,Paul,,Armsworth,,USA,M,SE,,The University of Tennessee
+JAPE,2005,42,1,Editor,Paul,,Giller,,Ireland,M,AE,,University College Cork
+JAPE,2006,43,1,Editor - Executive Editor,Paul,,Giller,,Ireland,M,EIC,,University College Cork
+JAPE,2007,44,1,Editor - Executive Editor,Paul,,Giller,,Ireland,M,EIC,,University College Cork
+JAPE,2008,45,1,Editor - Executive Editor,Paul,,Giller,,Ireland,M,EIC,,University College Cork
+JAPE,2012,49,1,Associate Editors,Paul,,Kardol,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2013,50,1,Associate Editors,Paul,,Kardol,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2014,51,1,Associate Editors,Paul,,Kardol,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2015,52,1,Associate Editors,Paul,,Kardol,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2008,45,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2009,46,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2010,47,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2011,48,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2012,49,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2013,50,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2014,51,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2015,52,1,Associate Editors,Paul,,Lukacs,,USA,M,SE,,US Geological Survey
+JAPE,2012,49,1,Associate Editors,Paulo,,Brando,,Brazil,M,SE,,Instituto de Pesquisa Ambiental da Amazonia
+JAPE,2013,50,1,Associate Editors,Paulo,,Brando,,Brazil,M,SE,,Instituto de Pesquisa Ambiental da Amazonia
+JAPE,2014,51,1,Associate Editors,Paulo,,Brando,,Brazil,M,SE,,Instituto de Pesquisa Ambiental da Amazonia
+JAPE,2015,52,1,Associate Editors,Paulo,,Brando,,Brazil,M,SE,,Instituto de Pesquisa Ambiental da Amazonia
+JAPE,2015,52,1,Associate Editors,Peter,,Mannin,,Switzerland,M,SE,,University of Bern
+JAPE,1986,23,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1987,24,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1988,25,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1989,26,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1990,27,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1991,28,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1992,29,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1993,30,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1994,31,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1995,32,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1996,33,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1997,34,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1998,35,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,1999,36,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2000,37,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2001,38,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2002,39,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2003,40,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2004,41,1,Review Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2005,42,1,Editorial Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2006,43,1,Editorial Board,Peter,,Rothery,,England,M,SE,,"British Antarctic Survey, NERC"
+JAPE,2005,42,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2006,43,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2007,44,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2008,45,1,Editor,Phil,,Hulme,,Scotland,M,Ae,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2009,46,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2010,47,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2011,48,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2012,49,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2013,50,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2014,51,1,Editor,Phil,,Hulme,,Scotland,M,AE,,"Centre for Ecology and Hydrology, Banchory"
+JAPE,2008,45,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2009,46,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2010,47,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2011,48,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2012,49,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2013,50,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2014,51,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2015,52,1,Associate Editors,Quentin,,Paynter,,New Zealand,M,SE,,Landcare Research
+JAPE,2013,50,1,Associate Editors,Richard,,Fuller,,Australia,M,SE,,University of Queensland
+JAPE,2014,51,1,Associate Editors,Richard,,Fuller,,Australia,M,SE,,University of Queensland
+JAPE,2015,52,1,Associate Editors,Richard,,Fuller,,Australia,M,SE,,University of Queensland
+JAPE,2011,48,1,Associate Editors,Richard,,Wadsworth,,England,M,SE,,Centre for Ecology and Hydrology
+JAPE,1985,22,1,Review Board,Roger,,Mead,,England,M,SE,"I think this is the correct person, but I am not 100% positive.",University of Reading
+JAPE,1986,23,1,Review Board,Roger,,Mead,,England,M,SE,"I think this is the correct person, but I am not 100% positive.",University of Reading
+JAPE,1987,24,1,Review Board,Roger,,Mead,,England,M,SE,,University of Reading
+JAPE,2007,44,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2008,45,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2009,46,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2010,47,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2011,48,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2012,49,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2013,50,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2014,51,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2015,52,1,Associate Editors,Rosie,,Hails,,England,F,SE,,Centre of Ecology and Hydrology
+JAPE,2004,41,1,Review Board,Roy,,Sanderson,,England,M,SE,,University of Newcastle
+JAPE,2005,42,1,Editorial Board,Roy,,Sanderson,,England,M,SE,,University of Newcastle
+JAPE,2006,43,1,Editorial Board,Roy,,Sanderson,,England,M,SE,,University of Newcastle
+JAPE,2012,49,1,Associate Editors,Santiago,,Saura,,Spain,M,SE,,Universidad Politecnica de Madrid
+JAPE,2013,50,1,Associate Editors,Santiago,,Saura,,Spain,M,SE,,Universidad Politecnica de Madrid
+JAPE,2014,51,1,Associate Editors,Santiago,,Saura,,Spain,M,SE,,Universidad Politecnica de Madrid
+JAPE,2015,52,1,Associate Editors,Sarah,,Diamond,,USA,F,SE,,Case Western Reserve University
+JAPE,2010,47,1,Associate Editors,Shelley,,Arnott,,Canada,F,SE,,Queens University
+JAPE,2011,48,1,Associate Editors,Shelley,,Arnott,,Canada,F,SE,,Queens University
+JAPE,2012,49,1,Associate Editors,Shelley,,Arnott,,Canada,F,SE,,Queens University
+JAPE,2013,50,1,Associate Editors,Shelley,,Arnott,,Canada,F,SE,,Queens University
+JAPE,2014,51,1,Associate Editors,Shelley,,Arnott,,Canada,F,SE,,Queens University
+JAPE,2015,52,1,Associate Editors,Shelley,,Arnott,,Canada,F,SE,,Queens University
+JAPE,2013,50,1,Associate Editors,Shiqiang,,Wan,,China,M,SE,,Henan University
+JAPE,2014,51,1,Associate Editors,Shiqiang,,Wan,,China,M,SE,,Henan University
+JAPE,2015,52,1,Associate Editors,Shiqiang,,Wan,,China,M,SE,,Henan University
+JAPE,2015,52,1,Associate Editors,Silke,,Bauer,,The Netherlands,F,SE,,NIOO
+JAPE,2006,43,1,Editor,Simon,,Thirgood,,Scotland,M,AE,,The Macaulay Institute
+JAPE,2007,44,1,Editor,Simon,,Thirgood,,Scotland,M,AE,,The Macaulay Institute
+JAPE,2008,45,1,Editor,Simon,,Thirgood,,Scotland,M,AE,,The Macaulay Institute
+JAPE,2009,46,1,Editor,Simon,,Thirgood,,Scotland,M,AE,,The Macaulay Institute
+JAPE,2012,49,1,Associate Editors,Steve,,Votier,,England,M,SE,,University of Plymouth
+JAPE,2013,50,1,Associate Editors,Steve,,Votier,,England,M,SE,,University of Plymouth
+JAPE,2014,51,1,Associate Editors,Steve,,Votier,,England,M,SE,,University of Plymouth
+JAPE,2015,52,1,Associate Editors,Steve,,Votier,,England,M,SE,,University of Plymouth
+JAPE,2015,52,1,Associate Editors,Steve,,Wills,,England,M,SE,,Durham University
+JAPE,2015,52,1,Associate Editors,Tadeu,,Siqueira,,Brazil,M,SE,,San Paulo State University
+JAPE,2003,40,1,Review Board,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+JAPE,2004,41,1,Review Board,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+JAPE,2005,42,1,Editorial Board,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+JAPE,2006,43,1,Editorial Board,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+JAPE,2015,52,1,Associate Editors,Tim,,Diekotter,,Germany,M,SE,,Justus Liebig Universitat
+JAPE,2013,50,1,Associate Editors,Tomas,,Part,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2014,51,1,Associate Editors,Tomas,,Part,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2015,52,1,Associate Editors,Tomas,,Part,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+JAPE,2015,52,1,Associate Editors,Verena,,Trenkel,,France,F,SE,,IFREMER
+JAPE,2013,50,1,Associate Editors,Vincent,,Devictor,,France,M,SE,,CNRS
+JAPE,2014,51,1,Associate Editors,Vincent,,Devictor,,France,M,SE,,CNRS
+JAPE,2015,52,1,Associate Editors,Vincent,,Devictor,,France,M,SE,,CNRS
+JAPE,1988,25,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1989,26,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1990,27,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1991,28,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1992,29,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1993,30,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1994,31,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1995,32,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,1996,33,1,Review Board,W,,Day,,England,,SE,,Rothamsted Experimental Station
+JAPE,2007,44,1,Associate Editors,William,,Montevecchi,,Canada,M,SE,,Memorial University
+JAPE,2008,45,1,Associate Editors,William,,Montevecchi,,Canada,M,SE,,Memorial University
+JAPE,2009,46,1,Associate Editors,William,,Montevecchi,,Canada,M,SE,,Memorial University
+JAPE,2010,47,1,Associate Editors,William,,Montevecchi,,Canada,M,SE,,Memorial University
+JAPE,2011,48,1,Associate Editors,William,,Montevecchi,,Canada,M,SE,,Memorial University
+JAPE,2012,49,1,Associate Editors,William,,Montevecchi,,Canada,M,SE,,Memorial University
+JAPE,2008,45,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2009,46,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2010,47,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2011,48,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2012,49,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2013,50,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2014,51,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2015,52,1,Associate Editors,Yann,,Clough,,Germany,M,SE,,Georg-August-University
+JAPE,2015,52,1,Associate Editors,Yong,,Cao,,USA,M,SE,,University of Illionois
+JAPE,2005,42,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2006,43,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2007,44,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2008,45,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2009,46,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2010,47,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2011,48,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2012,49,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland
+JAPE,2013,50,1,Associate Editors,Yvonne,,Buckley,,Australia,F,SE,,University of Queensland

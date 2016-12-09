@@ -1,0 +1,1958 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+OECOL,1985,65,2,EB,Fakhri,A,Bazzaz,,USA,M,SE,Editorial Board (EB),University of Illinois 
+OECOL,1986,68,2,EB,Fakhri,A,Bazzaz,,USA,M,SE,,University of Illinois 
+OECOL,1987,71,2,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1988,75,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1990,82,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1990,82,1,EB,Harold,A,Mooney,,USA,M,SE,,Stanford University
+OECOL,1990,82,1,EB,Joseph,A,Travis,,USA,M,SE,,Florida State University
+OECOL,1991,85,3,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1991,85,3,EB,Harold,A,Mooney,,USA,M,SE,,Stanford University
+OECOL,1991,85,3,EB,Patrice,A,Morrow,,USA,F,SE,,University of Minnesota
+OECOL,1991,85,3,EB,Joseph,A,Travis,,USA,M,SE,,Florida State University
+OECOL,1992,89,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1992,89,1,EB,Harold,A,Mooney,,USA,M,SE,,Stanford University
+OECOL,1992,89,1,EB,Patrice,A,Morrow,,USA,F,SE,,University of Minnesota
+OECOL,1992,89,1,EB,Joseph,A,Travis,,USA,M,SE,,Florida State University
+OECOL,1993,93,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1993,93,1,EB,Harold,A,Mooney,,USA,M,SE,,Stanford University
+OECOL,1993,93,1,EB,Patrice,A,Morrow,,USA,F,SE,,University of Minnesota
+OECOL,1994,97,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1994,97,1,EB,Harold,A,Mooney,,USA,M,SE,,Stanford University
+OECOL,1995,101,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1996,105,1,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1996,105,1,EB,Kenneth,A,Nagy,,USA,M,SE,,University of California 
+OECOL,1997,109,4,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1997,109,4,EB,Kenneth,A,Nagy,,USA,M,SE,,University of California 
+OECOL,1998,113,4,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1998,113,4,EB,Kenneth,A,Nagy,,USA,M,SE,,University of California 
+OECOL,1998,113,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,1999,118,4,EB,Fakhri,A,Bazzaz,,USA,M,SE,,Harvard University
+OECOL,1999,118,4,EB,Kenneth,A,Nagy,,USA,M,SE,,University of California 
+OECOL,1999,118,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2000,122,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2001,126,4,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2001,126,4,EB,Monica,A,Geber,,USA,F,SE,,Cornell University
+OECOL,2001,126,4,EB,Ron,A,Moen,,USA,M,SE,,University of Minnesota
+OECOL,2001,126,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2002,130,4,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2002,130,4,EB,Monica,A,Geber,,USA,F,SE,,Cornell University
+OECOL,2002,130,4,EB,Ron,A,Moen,,USA,M,SE,,University of Minnesota
+OECOL,2002,130,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2003,134,4,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2003,134,4,EB,Ron,A,Moen,,USA,M,SE,,University of Minnesota
+OECOL,2003,134,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2004,138,1,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2004,138,1,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2005,142,1,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2005,142,1,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2006,146,4,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2006,146,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2007,150,4,EB,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2007,150,4,EB,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2007,150,4,EB,John,A,Silander,,USA,M,SE,,University of Connecticut 
+OECOL,2008,154,4,HE,Ross,A,Alford,,Australia,M,SE,Handling Editors (HE),James Cook University
+OECOL,2008,154,4,HE,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2008,154,4,HE,Pascal,A,Niklaus,,Switzerland,M,SE,,University of Zurich
+OECOL,2008,154,4,HE,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2008,154,4,HE,John,A,Silander,,USA,M,SE,,University of Connecticut 
+OECOL,2009,158,4,HE,Ross,A,Alford,,Australia,M,SE,Handling Editors (HE),James Cook University
+OECOL,2009,158,4,HE,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2009,158,4,HE,Pascal,A,Niklaus,,Switzerland,M,SE,,University of Zurich
+OECOL,2009,158,4,HE,David,A,Pyke,,USA,M,SE,,USGS Forest and Rangeland Ecosystem Science Center
+OECOL,2009,158,4,HE,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2009,158,4,HE,John,A,Silander,,USA,M,SE,,University of Connecticut 
+OECOL,2009,158,4,HE,Alice,A,Winn,,USA,F,SE,,Florida State University
+OECOL,2010,162,1,HE,Ross,A,Alford,,Australia,M,SE,Handling Editors (HE),James Cook University
+OECOL,2010,162,1,HE,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2010,162,1,HE,Pascal,A,Niklaus,,Switzerland,M,SE,,University of Zurich
+OECOL,2010,162,1,HE,David,A,Pyke,,USA,M,SE,,USGS Forest and Rangeland Ecosystem Science Center
+OECOL,2010,162,1,HE,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2010,162,1,HE,John,A,Silander,,USA,M,SE,,University of Connecticut 
+OECOL,2010,162,1,HE,Alice,A,Winn,,USA,F,SE,,Florida State University
+OECOL,2011,165,1,HE,Ross,A,Alford,,Australia,M,SE,Handling Editors (HE),James Cook University
+OECOL,2011,165,1,HE,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2011,165,1,HE,Pascal,A,Niklaus,,Switzerland,M,SE,,University of Zurich
+OECOL,2011,165,1,HE,David,A,Pyke,,USA,M,SE,,USGS Forest and Rangeland Ecosystem Science Center
+OECOL,2011,165,1,HE,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2011,165,1,HE,John,A,Silander,,USA,M,SE,,University of Connecticut 
+OECOL,2011,165,1,HE,Alice,A,Winn,,USA,F,SE,,Florida State University
+OECOL,2012,170,2,HE,Ross,A,Alford,,Australia,M,SE,Handling Editors (HE),James Cook University
+OECOL,2012,170,2,HE,Mark,A,Chappell,,USA,M,SE,,"University of California, Riverside"
+OECOL,2012,170,2,HE,Craig,A,Leyman,,USA,M,SE,,Florida International University
+OECOL,2012,170,2,HE,Pascal,A,Niklaus,,Switzerland,M,SE,,University of Zurich
+OECOL,2012,170,2,HE,David,A,Pyke,,USA,M,SE,,USGS Forest and Rangeland Ecosystem Science Center
+OECOL,2012,170,2,HE,Jacqui,A,Shykoff,,France,F,SE,,University Paris-Sud 11
+OECOL,2012,170,2,HE,John,A,Silander,,USA,M,SE,,University of Connecticut 
+OECOL,2012,170,2,HE,Alice,A,Winn,,USA,F,SE,,Florida State University
+OECOL,1985,65,2,EB,Raymond,B,Huey,,USA,M,SE,,University of Washington
+OECOL,1986,68,2,EB,Raymond,B,Huey,,USA,M,SE,,University of Washington
+OECOL,1990,82,1,EB,Larry,B,Crowder,,USA,M,SE,,North Carolina State University
+OECOL,1991,85,3,EB,Larry,B,Crowder,,USA,M,SE,,North Carolina State University
+OECOL,1992,89,1,EB,Larry,B,Crowder,,USA,M,SE,,North Carolina State University
+OECOL,1993,93,1,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,1994,97,1,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,1995,101,1,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,1996,105,1,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,1997,109,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,1998,113,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,1999,118,4,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,1999,118,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,2000,122,4,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,2000,122,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,2001,126,4,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,2001,126,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,2002,130,4,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,2002,130,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,2003,134,4,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,2003,134,4,EB,Donald,B,Miles,,USA,M,SE,,Ohio University 
+OECOL,2004,138,1,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,2005,142,1,EB,Lawrence,B,Flanagan,,Canada,M,SE,,University of Lethbridge
+OECOL,2007,150,4,EB,Peter,B,Reich,,USA,M,SE,,University of Minnesota
+OECOL,2008,154,4,HE,Peter,B,Banks,,Australia,M,SE,,University of Sydney
+OECOL,2008,154,4,HE,Peter,B,Reich,,USA,M,SE,,University of Minnesota
+OECOL,2009,158,4,HE,Peter,B,Banks,,Australia,M,SE,,University of Sydney
+OECOL,2009,158,4,HE,Peter,B,Reich,,USA,M,SE,,University of Minnesota
+OECOL,2010,162,1,HE,Peter,B,Banks,,Australia,M,SE,,University of Sydney
+OECOL,2010,162,1,HE,Peter,B,Reich,,USA,M,SE,,University of Minnesota
+OECOL,2011,165,1,HE,Peter,B,Banks,,Australia,M,SE,,University of Sydney
+OECOL,2011,165,1,HE,Peter,B,Reich,,USA,M,SE,,University of Minnesota
+OECOL,2012,170,2,HE,Peter,B,Banks,,Australia,M,SE,,University of Sydney
+OECOL,2012,170,2,HE,Peter,B,Reich,,USA,M,SE,,University of Minnesota
+OECOL,1986,68,2,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1987,71,2,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1988,75,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1989,78,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1990,82,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1991,85,3,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1992,89,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1993,93,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1994,97,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1995,101,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1996,105,1,EB,Neil,C,Turner,,Australia,M,SE,,CSIRO Plant Industry
+OECOL,1998,113,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,1999,118,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2000,122,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2001,126,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2002,130,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2002,130,4,EB,Malcolm,C,Press,,UK,M,SE,,University of Sheffield
+OECOL,2003,134,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2003,134,4,EB,Malcolm,C,Press,,UK,M,SE,,University of Sheffield
+OECOL,2003,134,4,EB,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2004,138,1,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2004,138,1,EB,Malcolm,C,Press,,UK,M,SE,,University of Sheffield
+OECOL,2004,138,1,EB,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2005,142,1,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2005,142,1,EB,Malcolm,C,Press,,UK,M,SE,,University of Sheffield
+OECOL,2005,142,1,EB,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2006,146,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2006,146,4,EB,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2006,146,4,EB,Malcolm,C,Press,,UK,M,SE,,University of Sheffield
+OECOL,2006,146,4,EB,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2007,150,4,EB,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2007,150,4,EB,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2007,150,4,EB,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2008,154,4,HE,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2008,154,4,HE,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2008,154,4,HE,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2008,154,4,HE,Geoffrey,C,Trussell,,USA,M,SE,,Northeastern University 
+OECOL,2009,158,4,HE,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2009,158,4,HE,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2009,158,4,HE,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2009,158,4,HE,Geoffrey,C,Trussell,,USA,M,SE,,Northeastern University 
+OECOL,2010,162,1,HE,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2010,162,1,HE,Mark,C,Emmerson,,Ireland,M,SE,,University College Cork
+OECOL,2010,162,1,HE,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2010,162,1,HE,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2010,162,1,HE,Geoffrey,C,Trussell,,USA,M,SE,,Northeastern University 
+OECOL,2011,165,1,HE,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2011,165,1,HE,Mark,C,Emmerson,,Ireland,M,SE,,University College Cork
+OECOL,2011,165,1,HE,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2011,165,1,HE,Joel,C,Trexler,,USA,M,SE,,Florida International University
+OECOL,2011,165,1,HE,Geoffrey,C,Trussell,,USA,M,SE,,Northeastern University 
+OECOL,2012,170,2,HE,Marilyn,C,Ball,,Australia,F,SE,,Australian National University
+OECOL,2012,170,2,HE,Frederick,C,Meinzer,,USA,M,SE,,Oregon State University
+OECOL,2012,170,2,HE,Geoffrey,C,Trussell,,USA,M,SE,,Northeastern University 
+OECOL,1985,65,2,EB,Thomas,CR,White,,Australia,M,SE,,Riverina College of Advanced Education
+OECOL,1986,68,2,EB,Thomas,CR,White,,Australia,M,SE,,Riverina College of Advanced Education
+OECOL,1987,71,2,EB,Thomas,CR,White,,Australia,M,SE,,Riverina College of Advanced Education
+OECOL,1988,75,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1989,78,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1990,82,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1991,85,3,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1992,89,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1993,93,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1994,97,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1995,101,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1996,105,1,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1997,109,4,EB,Thomas,CR,White,,Australia,M,SE,,University of Adelaide
+OECOL,1991,85,3,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1992,89,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1993,93,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1994,97,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1995,101,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1996,105,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1997,109,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1998,113,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1999,118,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2000,122,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2001,126,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2002,130,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2003,134,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2004,138,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2005,142,1,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2006,146,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2007,150,4,EB,H,CharlesJ,Godfray,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1993,93,1,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1994,97,1,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1995,101,1,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1995,101,1,EB,Graham,D,Farquhar,,Australia,M,SE,,Australian National University
+OECOL,1996,105,1,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1996,105,1,EB,Graham,D,Farquhar,,Australia,M,SE,,Australian National University
+OECOL,1997,109,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1997,109,4,EB,Graham,D,Farquhar,,Australia,M,SE,,Australian National University
+OECOL,1998,113,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1998,113,4,EB,Graham,D,Farquhar,,Australia,M,SE,,Australian National University
+OECOL,1998,113,4,EB,Peter,D,Stiling,,USA,M,SE,,University of South Florida
+OECOL,1999,118,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,1999,118,4,EB,Peter,D,Stiling,,USA,M,SE,,University of South Florida
+OECOL,2000,122,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2000,122,4,EB,Peter,D,Stiling,,USA,M,SE,,University of South Florida
+OECOL,2001,126,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2001,126,4,EB,Peter,D,Stiling,,USA,M,SE,,University of South Florida
+OECOL,2002,130,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2003,134,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2004,138,1,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2005,142,1,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2006,146,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2006,146,4,EB,John,D,Reeve,,USA,M,SE,,Southern Illinois University
+OECOL,2007,150,4,EB,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2007,150,4,EB,John,D,Reeve,,USA,M,SE,,Southern Illinois University
+OECOL,2008,154,4,HE,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2008,154,4,HE,John,D,Reeve,,USA,M,SE,,Southern Illinois University
+OECOL,2008,154,4,HE,Melinda,D,Smith,,USA,F,SE,,Yale University
+OECOL,2009,158,4,HE,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2009,158,4,HE,Steven,D,Johnson,,South Africa,M,SE,,University of KwaZulu-Natal 
+OECOL,2009,158,4,HE,Jeffrey,D,Karron,,USA,M,SE,,University of Wisconsin
+OECOL,2009,158,4,HE,John,D,Reeve,,USA,M,SE,,Southern Illinois University
+OECOL,2009,158,4,HE,Melinda,D,Smith,,USA,F,SE,,Yale University
+OECOL,2010,162,1,HE,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2010,162,1,HE,Steven,D,Johnson,,South Africa,M,SE,,University of KwaZulu-Natal 
+OECOL,2010,162,1,HE,Jeffrey,D,Karron,,USA,M,SE,,University of Wisconsin
+OECOL,2010,162,1,HE,John,D,Reeve,,USA,M,SE,,Southern Illinois University
+OECOL,2010,162,1,HE,Melinda,D,Smith,,USA,F,SE,,Yale University
+OECOL,2011,165,1,HE,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2011,165,1,HE,Steven,D,Johnson,,South Africa,M,SE,,University of KwaZulu-Natal 
+OECOL,2011,165,1,HE,Jeffrey,D,Karron,,USA,M,SE,,University of Wisconsin
+OECOL,2011,165,1,HE,Melinda,D,Smith,,USA,F,SE,,Yale University
+OECOL,2012,170,2,HE,Phyllis,D,Coley,,USA,F,SE,,University of Utah
+OECOL,2012,170,2,HE,Steven,D,Johnson,,South Africa,M,SE,,University of KwaZulu-Natal 
+OECOL,2012,170,2,HE,Scott,D,Peacor,,USA,M,SE,This information is not clear in the picture,Michigan State University
+OECOL,2012,170,2,HE,Melinda,D,Smith,,USA,F,SE,,Yale University
+OECOL,1993,93,1,EB,M,Deane,Bowers,,USA,F,SE,,University of Colorado
+OECOL,1994,97,1,EB,M,Deane,Bowers,,USA,F,SE,,University of Colorado
+OECOL,1995,101,1,EB,M,Deane,Bowers,,USA,F,SE,,University of Colorado
+OECOL,1996,105,1,EB,M,Deane,Bowers,,USA,F,SE,,University of Colorado
+OECOL,1997,109,4,EB,M,Deane,Bowers,,USA,F,SE,,University of Colorado
+OECOL,1998,113,4,EB,M,Deane,Bowers,,USA,F,SE,,University of Colorado
+OECOL,2010,162,1,HE,W,Douglas,Robinson,,USA,M,SE,,Oregon State University
+OECOL,2011,165,1,HE,W,Douglas,Robinson,,USA,M,SE,,Oregon State University
+OECOL,2012,170,2,HE,W,Douglas,Robinson,,USA,M,SE,,Oregon State University
+OECOL,1995,101,1,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,1996,105,1,EB,Todd,E,Dawson,,USA,M,SE,,Cornell University
+OECOL,1996,105,1,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,1997,109,4,EB,Todd,E,Dawson,,USA,M,SE,,Cornell University
+OECOL,1997,109,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,1998,113,4,EB,Todd,E,Dawson,,USA,M,SE,,Cornell University
+OECOL,1998,113,4,EB,Lawrence,E,Hurd,,USA,M,SE,,Washington and Lee University
+OECOL,1998,113,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,1999,118,4,EB,Todd,E,Dawson,,USA,M,SE,,Cornell University
+OECOL,1999,118,4,EB,Lawrence,E,Hurd,,USA,M,SE,,Washington and Lee University
+OECOL,1999,118,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,2000,122,4,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2000,122,4,EB,Lawrence,E,Hurd,,USA,M,SE,,Washington and Lee University
+OECOL,2000,122,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,2001,126,4,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2001,126,4,EB,Lawrence,E,Hurd,,USA,M,SE,,Washington and Lee University
+OECOL,2001,126,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,2002,130,4,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2002,130,4,EB,Lawrence,E,Hurd,,USA,M,SE,,Washington and Lee University
+OECOL,2002,130,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,2003,134,4,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2003,134,4,EB,Lawrence,E,Hurd,,USA,M,SE,,Washington and Lee University
+OECOL,2003,134,4,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,2004,138,1,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2004,138,1,EB,Thomas,E,Miller,,USA,M,SE,,Florida State University
+OECOL,2004,138,1,EB,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires 
+OECOL,2005,142,1,EB,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2005,142,1,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2005,142,1,EB,Thomas,E,Miller,,USA,M,SE,,Florida State University
+OECOL,2006,146,4,EB,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2006,146,4,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2006,146,4,EB,Thomas,E,Miller,,USA,M,SE,,Florida State University
+OECOL,2007,150,4,EB,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2007,150,4,EB,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2007,150,4,EB,Jon,E,Keeley,,USA,M,SE,,USGS Western Ecological Research Center
+OECOL,2007,150,4,EB,Thomas,E,Miller,,USA,M,SE,,Florida State University
+OECOL,2008,154,4,HE,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2008,154,4,HE,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2008,154,4,HE,Rebecca,E,Irwin,,USA,F,SE,,Dartmouth College
+OECOL,2008,154,4,HE,Jon,E,Keeley,,USA,M,SE,,USGS Western Ecological Research Center
+OECOL,2009,158,4,HE,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2009,158,4,HE,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2009,158,4,HE,Rebecca,E,Irwin,,USA,F,SE,,Dartmouth College
+OECOL,2009,158,4,HE,Jon,E,Keeley,,USA,M,SE,,USGS Western Ecological Research Center
+OECOL,2010,162,1,HE,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2010,162,1,HE,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2010,162,1,HE,Rebecca,E,Irwin,,USA,F,SE,,Dartmouth College
+OECOL,2010,162,1,HE,Jon,E,Keeley,,USA,M,SE,,USGS Western Ecological Research Center
+OECOL,2011,165,1,HE,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2011,165,1,HE,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2011,165,1,HE,Rebecca,E,Irwin,,USA,F,SE,,Dartmouth College
+OECOL,2011,165,1,HE,Jon,E,Keeley,,USA,M,SE,,USGS Western Ecological Research Center
+OECOL,2012,170,2,HE,Carla,E,Caceres,,USA,F,SE,,University of Illinois at Urbana-Champaign
+OECOL,2012,170,2,HE,Todd,E,Dawson,,USA,M,SE,,"University of California, Berkeley"
+OECOL,2012,170,2,HE,Jon,E,Keeley,,USA,M,SE,,USGS Western Ecological Research Center
+OECOL,2012,170,2,HE,Joanna,E,Lambert,,USA,F,SE,This information is not clear in the picture,University of Texas
+OECOL,1993,93,1,EB,Mary,Eleanor,Power,,USA,F,SE,,"University of California, Berkeley"
+OECOL,1998,113,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,1999,118,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2000,122,4,EB,John,F,Lussenhop,,USA,M,SE,,University of Illinois
+OECOL,2000,122,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2000,122,4,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2001,126,4,EB,John,F,Lussenhop,,USA,M,SE,,University of Illinois
+OECOL,2001,126,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2001,126,4,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2002,130,4,EB,John,F,Lussenhop,,USA,M,SE,,University of Illinois
+OECOL,2002,130,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2002,130,4,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2003,134,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2003,134,4,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2004,138,1,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2004,138,1,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2005,142,1,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2005,142,1,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2006,146,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2006,146,4,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2007,150,4,EB,Guy,F,Midgley,,South Africa,M,SE,,University of Cape Town
+OECOL,2007,150,4,EB,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2007,150,4,EB,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2008,154,4,HE,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2008,154,4,HE,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2009,158,4,HE,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2009,158,4,HE,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2010,162,1,HE,Louis,F,Pitelka,,USA,M,SE,,University of Maryland
+OECOL,2010,162,1,HE,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2011,165,1,HE,Louis,F,Pitelka,,USA,M,SE,,NA
+OECOL,2011,165,1,HE,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2012,170,2,HE,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+OECOL,2005,142,1,EB,Zoe,G,Cardon,,USA,F,SE,,University of Connecticut 
+OECOL,2006,146,4,EB,Zoe,G,Cardon,,USA,F,SE,,University of Connecticut 
+OECOL,2007,150,4,EB,Zoe,G,Cardon,,USA,F,SE,,University of Connecticut 
+OECOL,2008,154,4,HE,Zoe,G,Cardon,,USA,F,SE,,University of Connecticut 
+OECOL,2009,158,4,HE,Zoe,G,Cardon,,USA,F,SE,,The Ecosystems Center
+OECOL,2010,162,1,HE,Zoe,G,Cardon,,USA,F,SE,,The Ecosystems Center
+OECOL,2011,165,1,HE,Zoe,G,Cardon,,USA,F,SE,,The Ecosystems Center
+OECOL,2012,170,2,HE,Zoe,G,Cardon,,USA,F,SE,,The Ecosystems Center
+OECOL,1985,65,2,EB,Judith,H,Myers,,Canada,F,SE,,University of British Columbia
+OECOL,1989,78,1,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,1990,82,1,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1990,82,1,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1991,85,3,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1991,85,3,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1991,85,3,EB,David,H,Wise,,USA,M,SE,,University of Maryland
+OECOL,1992,89,1,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1992,89,1,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1992,89,1,EB,David,H,Wise,,USA,M,SE,,University of Maryland
+OECOL,1992,89,1,EB,Christian,H,Wissel,,Germany,M,SE,,University of Marburg
+OECOL,1993,93,1,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1993,93,1,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1993,93,1,EB,David,H,Wise,,USA,M,SE,,University of Maryland
+OECOL,1993,93,1,EB,Christian,H,Wissel,,Germany,M,SE,,University of Marburg
+OECOL,1994,97,1,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1994,97,1,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1994,97,1,EB,David,H,Wise,,USA,M,SE,,University of Kentucky
+OECOL,1994,97,1,EB,Christian,H,Wissel,,Germany,M,SE,,University of Marburg
+OECOL,1995,101,1,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1995,101,1,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1995,101,1,EB,David,H,Wise,,USA,M,SE,,University of Kentucky
+OECOL,1995,101,1,EB,Christian,H,Wissel,,Germany,M,SE,,University of Marburg
+OECOL,1996,105,1,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1996,105,1,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1996,105,1,EB,David,H,Wise,,USA,M,SE,,University of Kentucky
+OECOL,1996,105,1,EB,Christian,H,Wissel,,Germany,M,SE,,University of Marburg
+OECOL,1997,109,4,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1997,109,4,EIC,Charles,H,Peterson,,USA,M,EIC,,University of North Carolina at Chapel Hill
+OECOL,1997,109,4,EB,David,H,Wise,,USA,M,SE,,University of Kentucky
+OECOL,1998,113,4,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1998,113,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,1999,118,4,EB,John,H,Lawton,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1999,118,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2000,122,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2001,126,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2002,130,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2003,134,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2004,138,1,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2005,142,1,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2006,146,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2007,150,4,EB,Evan,H,DeLucia,,USA,M,SE,,University of Illinois at Urbana-Champaign
+OECOL,2007,150,4,EB,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2008,154,4,HE,Evan,H,DeLucia,,USA,M,SE,,University of Illinois at Urbana-Champaign
+OECOL,2008,154,4,HE,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2009,158,4,HE,Evan,H,DeLucia,,USA,M,SE,,University of Illinois at Urbana-Champaign
+OECOL,2009,158,4,HE,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2010,162,1,HE,Evan,H,DeLucia,,USA,M,SE,,University of Illinois at Urbana-Champaign
+OECOL,2010,162,1,HE,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2011,165,1,HE,Evan,H,DeLucia,,USA,M,SE,,University of Illinois at Urbana-Champaign
+OECOL,2011,165,1,HE,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,2012,170,2,HE,Evan,H,DeLucia,,USA,M,SE,,University of Illinois at Urbana-Champaign
+OECOL,2012,170,2,HE,Charles,H,Peterson,,USA,M,SE,,University of North Carolina at Chapel Hill
+OECOL,1985,65,2,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1985,65,2,EB,Charles,J,Krebs,,Canada,M,SE,,University of British Columbia
+OECOL,1986,68,2,EB,Ted,J,Case,,USA,M,SE,,"University of California, San Diego"
+OECOL,1986,68,2,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1987,71,2,EB,Ted,J,Case,,USA,M,SE,,"University of California, San Diego"
+OECOL,1987,71,2,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1987,71,2,EB,Charles,J,Krebs,,Canada,M,SE,,University of British Columbia
+OECOL,1988,75,1,EB,Ted,J,Case,,USA,M,SE,,"University of California, San Diego"
+OECOL,1988,75,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1988,75,1,EB,Charles,J,Krebs,,Canada,M,SE,,University of British Columbia
+OECOL,1989,78,1,EB,Ted,J,Case,,USA,M,SE,,"University of California, San Diego"
+OECOL,1989,78,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1989,78,1,EB,Charles,J,Krebs,,Canada,M,SE,,University of British Columbia
+OECOL,1990,82,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1990,82,1,EB,John,J,Gilbert,,USA,M,SE,,Dartmouth College
+OECOL,1991,85,3,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1991,85,3,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1991,85,3,EB,John,J,Gilbert,,USA,M,SE,,Dartmouth College
+OECOL,1992,89,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1992,89,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1992,89,1,EB,John,J,Gilbert,,USA,M,SE,,Dartmouth College
+OECOL,1993,93,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1993,93,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1993,93,1,EB,Alan,J,Tessier,,USA,M,SE,,Michigan State University 
+OECOL,1994,97,1,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,1994,97,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1994,97,1,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1994,97,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1994,97,1,EB,Alan,J,Tessier,,USA,M,SE,,Michigan State University 
+OECOL,1995,101,1,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,1995,101,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1995,101,1,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1995,101,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1995,101,1,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,1995,101,1,EB,Alan,J,Tessier,,USA,M,SE,,Michigan State University 
+OECOL,1996,105,1,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,1996,105,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1996,105,1,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1996,105,1,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1996,105,1,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,1996,105,1,EB,Knute,J,Nadelhoffer,,USA,M,SE,,The Ecosystems Center
+OECOL,1996,105,1,EB,Michael,J,Vanni,,USA,M,SE,,Miami University
+OECOL,1997,109,4,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,1997,109,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1997,109,4,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1997,109,4,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1997,109,4,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,1997,109,4,EB,Knute,J,Nadelhoffer,,USA,M,SE,,The Ecosystems Center
+OECOL,1997,109,4,EB,Michael,J,Vanni,,USA,M,SE,,Miami University
+OECOL,1998,113,4,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,1998,113,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1998,113,4,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1998,113,4,EB,Piet,J,denBoer,,Netherlands,M,SE,,Biological Station Wijster
+OECOL,1998,113,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,1998,113,4,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,1998,113,4,EB,Knute,J,Nadelhoffer,,USA,M,SE,,The Ecosystems Center
+OECOL,1998,113,4,EB,Michael,J,Vanni,,USA,M,SE,,Miami University
+OECOL,1999,118,4,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,1999,118,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,1999,118,4,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1999,118,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,1999,118,4,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,1999,118,4,EB,Knute,J,Nadelhoffer,,USA,M,SE,,The Ecosystems Center
+OECOL,1999,118,4,EB,Michael,J,Vanni,,USA,M,SE,,Miami University
+OECOL,2000,122,4,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,2000,122,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2000,122,4,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2000,122,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2000,122,4,EB,James,J,Elser,,USA,M,SE,,Arizona State University 
+OECOL,2000,122,4,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,2000,122,4,EB,Knute,J,Nadelhoffer,,USA,M,SE,,The Ecosystems Center
+OECOL,2001,126,4,EB,William,J,Bond,,South Africa,M,SE,,University of Cape Town
+OECOL,2001,126,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2001,126,4,EB,Michael,J,Crawley,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,2001,126,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2001,126,4,EB,James,J,Elser,,USA,M,SE,,Arizona State University 
+OECOL,2001,126,4,EB,Samuel,J,McNaughton,,USA,M,SE,,Syracuse University
+OECOL,2002,130,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2002,130,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2002,130,4,EB,James,J,Elser,,USA,M,SE,,Arizona State University 
+OECOL,2002,130,4,EB,Oswald,J,Schmid,,USA,M,SE,,Yale University
+OECOL,2003,134,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2003,134,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2003,134,4,EB,Oswald,J,Schmid,,USA,M,SE,,Yale University
+OECOL,2004,138,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2004,138,1,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2004,138,1,EB,Oswald,J,Schmid,,USA,M,SE,,Yale University
+OECOL,2005,142,1,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2005,142,1,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2005,142,1,EB,William,J,Resetarits,,USA,M,SE,,Old Dominion University 
+OECOL,2005,142,1,EB,Oswald,J,Schmid,,USA,M,SE,,Yale University
+OECOL,2006,146,4,EB,Martin,J,Attrill,,UK,M,SE,,Plymouth University
+OECOL,2006,146,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2006,146,4,EB,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2006,146,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2006,146,4,EB,William,J,Resetarits,,USA,M,SE,,Old Dominion University 
+OECOL,2006,146,4,EB,Oswald,J,Schmid,,USA,M,SE,,Yale University
+OECOL,2006,146,4,EB,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2007,150,4,EB,Martin,J,Attrill,,UK,M,SE,,Plymouth University
+OECOL,2007,150,4,EB,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2007,150,4,EB,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2007,150,4,EB,Peter,J,Doherty,,Australia,M,SE,,Australian Institute of Marine Science 
+OECOL,2007,150,4,EB,William,J,Resetarits,,USA,M,SE,,University of Southampton 
+OECOL,2007,150,4,EB,Nathan,J,Sanders,,USA,M,SE,,University of Tennessee
+OECOL,2007,150,4,EB,Oswald,J,Schmitz,,USA,M,SE,last name written different way in later volumes (Schimd),Yale University 
+OECOL,2007,150,4,EB,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2008,154,4,HE,Martin,J,Attrill,,UK,M,SE,,Plymouth University
+OECOL,2008,154,4,HE,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2008,154,4,HE,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2008,154,4,HE,Barbara,J,Downes,,Australia,F,SE,,University of Melbourne
+OECOL,2008,154,4,HE,Nathan,J,Sanders,,USA,M,SE,,University of Tennessee
+OECOL,2008,154,4,HE,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2009,158,4,HE,Martin,J,Attrill,,UK,M,SE,,Plymouth University
+OECOL,2009,158,4,HE,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2009,158,4,HE,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2009,158,4,HE,Barbara,J,Downes,,Australia,F,SE,,University of Melbourne
+OECOL,2009,158,4,HE,Nathan,J,Sanders,,USA,M,SE,,University of Tennessee
+OECOL,2009,158,4,HE,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2010,162,1,HE,Martin,J,Attrill,,UK,M,SE,,Plymouth University
+OECOL,2010,162,1,HE,Jeremy,J,Burdon,,Australia,M,SE,,Australian National University
+OECOL,2010,162,1,HE,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2010,162,1,HE,Barbara,J,Downes,,Australia,F,SE,,University of Melbourne
+OECOL,2010,162,1,HE,Joshua,J,Tewksbury,,USA,M,SE,,University of Washington 
+OECOL,2010,162,1,HE,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2010,162,1,HE,Christopher,J,Whelan,,USA,M,SE,,University of Illinois 
+OECOL,2011,165,1,HE,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2011,165,1,HE,Barbara,J,Downes,,Australia,F,SE,,University of Melbourne
+OECOL,2011,165,1,HE,Philip,J,Lester,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,2011,165,1,HE,David,J,Marcogliese,,Canada,M,SE,,St. Lawrence Centre
+OECOL,2011,165,1,HE,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2011,165,1,HE,Christopher,J,Whelan,,USA,M,SE,,University of Illinois
+OECOL,2012,170,2,HE,Peter,J,Clarke,,Australia,M,SE,,University of New England
+OECOL,2012,170,2,HE,Barbara,J,Downes,,Australia,F,SE,,University of Melbourne
+OECOL,2012,170,2,HE,Philip,J,Lester,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,2012,170,2,HE,David,J,Marcogliese,,Canada,M,SE,,St. Lawrence Centre
+OECOL,2012,170,2,HE,Anthony,J,Underwood,,Australia,M,SE,,University of Sydney
+OECOL,2012,170,2,HE,Christopher,J,Whelan,,USA,M,SE,,University of Illinois
+OECOL,2006,146,4,EB,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,2007,150,4,EB,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,2008,154,4,HE,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,2009,158,4,HE,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,2010,162,1,HE,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,2011,165,1,HE,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,2012,170,2,HE,Anssi,JT,Laurila,,Sweden,M,SE,,Uppsala University
+OECOL,1987,71,2,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1988,75,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1989,78,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1990,82,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1991,85,3,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1992,89,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1993,93,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1994,97,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1995,101,1,EB,G,Jim,Kenagy,,USA,M,SE,,University of Washington
+OECOL,1992,89,1,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1993,93,1,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1994,97,1,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1995,101,1,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,1995,101,1,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1996,105,1,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,1996,105,1,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1997,109,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,1997,109,4,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1998,113,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,1998,113,4,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,1999,118,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,1999,118,4,EB,William,K,Lauenroth,,USA,M,SE,,Colorado State University
+OECOL,1999,118,4,RE,Russell,K,Monson,,USA,M,Other,(RE) Reviews Editor,University of Colorado Boulder
+OECOL,2000,122,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,2000,122,4,RE,Russell,K,Monson,,USA,M,Other,(RE) Review Editor,University of Colorado Boulder
+OECOL,2001,126,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,2001,126,4,EB,William,K,Lauenroth,,USA,M,SE,,Colorado State University
+OECOL,2001,126,4,RE,Russell,K,Monson,,USA,M,Other,(RE) Review Editor,University of Colorado Boulder
+OECOL,2002,130,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,2002,130,4,RE,Russell,K,Monson,,USA,M,Other,(RE) Review Editor,University of Colorado Boulder
+OECOL,2003,134,4,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,2003,134,4,RE,Russell,K,Monson,,USA,M,Other,(RE) Review Editor,University of Colorado Boulder
+OECOL,2004,138,1,EB,Alan,K,Knapp,,USA,M,SE,,Kansas State University
+OECOL,2004,138,1,RE,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,2005,142,1,EB,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2005,142,1,RE,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,2005,142,1,EB,Scott,K,Robinson,,USA,M,SE,,University of Florida
+OECOL,2006,146,4,EB,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2006,146,4,EB,Russell,K,Monson,,USA,M,SE,,University of Colorado Boulder
+OECOL,2006,146,4,EB,Scott,K,Robinson,,USA,M,SE,,University of Florida
+OECOL,2007,150,4,EB,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2007,150,4,EIC,Russell,K,Monson,,USA,M,EIC,,University of Colorado Boulder
+OECOL,2007,150,4,EB,Scott,K,Robinson,,USA,M,SE,,University of Florida
+OECOL,2008,154,4,HE,Jeffrey,K,Conner,,USA,M,SE,,Michigan State University
+OECOL,2008,154,4,HE,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2008,154,4,EIC,Russell,K,Monson,,USA,M,EIC,,University of Colorado Boulder
+OECOL,2009,158,4,HE,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2009,158,4,EIC,Russell,K,Monson,,USA,M,EIC,,University of Colorado Boulder
+OECOL,2010,162,1,HE,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2010,162,1,EIC,Russell,K,Monson,,USA,M,EIC,,University of Colorado Boulder
+OECOL,2011,165,1,HE,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2011,165,1,EIC,Russell,K,Monson,,USA,M,EIC,,University of Colorado Boulder
+OECOL,2012,170,2,HE,Alan,K,Knapp,,USA,M,SE,,Colorado State University
+OECOL,2012,170,2,EIC,Russell,K,Monson,,USA,M,EIC,,University of Colorado Boulder
+OECOL,2008,154,4,HE,Elizabeth,KV,Kalko,,Germany,F,SE,,Ulm University
+OECOL,2009,158,4,HE,Elizabeth,KV,Kalko,,Germany,F,SE,,Ulm University
+OECOL,2010,162,1,HE,Elizabeth,KV,Kalko,,Germany,F,SE,,Ulm University
+OECOL,2011,165,1,HE,Elizabeth,KV,Kalko,,Germany,F,SE,,Ulm University
+OECOL,1985,65,2,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1985,65,2,EB,Otto,L,Lange,,Germany ,M,SE,,University of Wurzburg
+OECOL,1986,68,2,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1986,68,2,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1987,71,2,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1987,71,2,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1988,75,1,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1988,75,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1989,78,1,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1989,78,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1990,82,1,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1990,82,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1990,82,1,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1991,85,3,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1991,85,3,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1991,85,3,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1991,85,3,EB,Victoria,L,Sork,,USA,F,SE,,University of Missouri_St Louis
+OECOL,1992,89,1,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1992,89,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1992,89,1,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1992,89,1,EB,Victoria,L,Sork,,USA,F,SE,,University of Missouri_St Louis
+OECOL,1993,93,1,EB,John,L,Harper,,UK,M,SE,,Bangor University
+OECOL,1993,93,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1993,93,1,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1993,93,1,EB,Victoria,L,Sork,,USA,F,SE,,University of Missouri_St Louis
+OECOL,1993,93,1,EB,Maureen,L,Stanton,,USA,F,SE,,"University of California, Davis"
+OECOL,1994,97,1,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,1994,97,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1994,97,1,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1994,97,1,EB,Maureen,L,Stanton,,USA,F,SE,,"University of California, Davis"
+OECOL,1995,101,1,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,1995,101,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1995,101,1,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1995,101,1,EB,Maureen,L,Stanton,,USA,F,SE,,"University of California, Davis"
+OECOL,1996,105,1,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,1996,105,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1996,105,1,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1996,105,1,EB,Maureen,L,Stanton,,USA,F,SE,,"University of California, Davis"
+OECOL,1997,109,4,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,1997,109,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1997,109,4,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1997,109,4,EB,Maureen,L,Stanton,,USA,F,SE,,"University of California, Davis"
+OECOL,1998,113,4,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,1998,113,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1998,113,4,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,1998,113,4,EB,Maureen,L,Stanton,,USA,F,SE,,"University of California, Davis"
+OECOL,1999,118,4,EB,Robin,L,Chazdon,,USA,F,SE,,University of Connecticut 
+OECOL,1999,118,4,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,1999,118,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,1999,118,4,EB,Richard,L,Lindroth,,USA,M,SE,,University of Wisconsin-Madison
+OECOL,1999,118,4,EB,Stuart,L,Pimm,,USA,M,SE,,University of Tennessee
+OECOL,2000,122,4,EB,Robin,L,Chazdon,,USA,F,SE,,University of Connecticut 
+OECOL,2000,122,4,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,2000,122,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2001,126,4,EB,Robin,L,Chazdon,,USA,F,SE,,University of Connecticut 
+OECOL,2001,126,4,EB,Carol,L,Folt,,USA,F,SE,,Dartmouth College
+OECOL,2001,126,4,EB,Steven,L,Kohler,,USA,M,SE,,University of Illinois
+OECOL,2001,126,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2001,126,4,EB,Richard,L,Lindroth,,USA,M,SE,,University of Wisconsin-Madison
+OECOL,2002,130,4,EB,Robin,L,Chazdon,,USA,F,SE,,University of Connecticut 
+OECOL,2002,130,4,EB,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2002,130,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2002,130,4,EB,Richard,L,Lindroth,,USA,M,SE,,University of Wisconsin-Madison
+OECOL,2003,134,4,EB,Judith,L,Bronstein,,USA,F,SE,,University of Arizona
+OECOL,2003,134,4,EB,Robin,L,Chazdon,,USA,F,SE,,University of Connecticut 
+OECOL,2003,134,4,EB,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2003,134,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2003,134,4,EB,Richard,L,Lindroth,,USA,M,SE,,University of Wisconsin-Madison
+OECOL,2004,138,1,EB,Judith,L,Bronstein,,USA,F,SE,,University of Arizona
+OECOL,2004,138,1,EB,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2004,138,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2004,138,1,EB,Richard,L,Lindroth,,USA,M,SE,,University of Wisconsin-Madison
+OECOL,2005,142,1,EB,Judith,L,Bronstein,,USA,F,SE,,University of Arizona
+OECOL,2005,142,1,EB,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2005,142,1,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2005,142,1,EB,Richard,L,Lindroth,,USA,M,SE,,University of Wisconsin-Madison
+OECOL,2006,146,4,EB,Judith,L,Bronstein,,USA,F,SE,,University of Arizona
+OECOL,2006,146,4,EB,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2006,146,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2007,150,4,EB,Carlos,L,Ballare,,Argentina,M,SE,,University of Buenos Aires
+OECOL,2007,150,4,EB,Judith,L,Bronstein,,USA,F,SE,,University of Arizona
+OECOL,2007,150,4,EB,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2007,150,4,EB,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2008,154,4,HE,Carlos,L,Ballare,,Argentina,M,SE,,University of Buenos Aires
+OECOL,2008,154,4,HE,Scott,L,Collins,,USA,M,SE,,University of New Mexico
+OECOL,2008,154,4,EIC,Katherine,L,Gross,,USA,F,EIC,,Michigan State University
+OECOL,2008,154,4,HE,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2008,154,4,HE,Otto,L,Lange,,Germany,M,SE,,University of Wurzburg
+OECOL,2009,158,4,HE,Carlos,L,Ballare,,Argentina,M,SE,,University of Buenos Aires
+OECOL,2009,158,4,HE,Scott,L,Collins,,USA,M,SE,,University of New Mexico
+OECOL,2009,158,4,EIC,Katherine,L,Gross,,USA,F,EIC,,Michigan State University
+OECOL,2009,158,4,HE,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2010,162,1,HE,Carlos,L,Ballare,,Argentina,M,SE,,University of Buenos Aires
+OECOL,2010,162,1,HE,Scott,L,Collins,,USA,M,SE,,University of New Mexico
+OECOL,2010,162,1,HE,Bryan,L,Foster,,USA,M,SE,,University of Kansas
+OECOL,2010,162,1,EIC,Katherine,L,Gross,,USA,F,EIC,,Michigan State University
+OECOL,2010,162,1,HE,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2011,165,1,HE,Carlos,L,Ballare,,Argentina,M,SE,,University of Buenos Aires
+OECOL,2011,165,1,HE,Scott,L,Collins,,USA,M,SE,,University of New Mexico
+OECOL,2011,165,1,HE,Bryan,L,Foster,,USA,M,SE,,University of Kansas
+OECOL,2011,165,1,EIC,Katherine,L,Gross,,USA,F,EIC,,Michigan State University
+OECOL,2011,165,1,HE,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2012,170,2,HE,Carlos,L,Ballare,,Argentina,M,SE,,University of Buenos Aires
+OECOL,2012,170,2,HE,Scott,L,Collins,,USA,M,SE,,University of New Mexico
+OECOL,2012,170,2,HE,Bryan,L,Foster,,USA,M,SE,,University of Kansas
+OECOL,2012,170,2,EIC,Katherine,L,Gross,,USA,F,EIC,,Michigan State University
+OECOL,2012,170,2,HE,Steven,L,Kohler,,USA,M,SE,,Western Michigan University
+OECOL,2012,170,2,HE,Jean-Francois,Le,Galliard,,France,M,SE,This information is not clear in the picture,University of Paris 6
+OECOL,1986,68,2,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1987,71,2,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1988,75,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1989,78,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1990,82,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1990,82,1,EB,Svata,M,Louda,,USA,F,SE,,University of Nebraska
+OECOL,1990,82,1,EB,Donald,M,Waller,,USA,M,SE,,University of Wisconsin 
+OECOL,1991,85,3,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1991,85,3,EB,Carlos,M,Herrera,,Spain ,M,SE,,Spanish National Research Council
+OECOL,1991,85,3,EB,Svata,M,Louda,,USA,F,SE,,University of Nebraska
+OECOL,1991,85,3,EB,Jerry,M,Melillo,,USA,M,SE,,The Ecosystems Center
+OECOL,1991,85,3,EB,Donald,M,Waller,,USA,M,SE,,University of Wisconsin 
+OECOL,1992,89,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1992,89,1,EB,Carlos,M,Herrera,,Spain ,M,SE,,Spanish National Research Council
+OECOL,1992,89,1,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1992,89,1,EB,Svata,M,Louda,,USA,F,SE,,University of Nebraska
+OECOL,1992,89,1,EB,Donald,M,Waller,,USA,M,SE,,University of Wisconsin 
+OECOL,1993,93,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1993,93,1,EB,Carlos,M,Herrera,,Spain ,M,SE,,Spanish National Research Council
+OECOL,1993,93,1,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1993,93,1,EB,Svata,M,Louda,,USA,F,SE,,University of Nebraska
+OECOL,1994,97,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1994,97,1,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1995,101,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1995,101,1,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1996,105,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1996,105,1,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1997,109,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1997,109,4,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1998,113,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,1998,113,4,EB,Peter,M,Kareiva,,USA,M,SE,,University of Washington
+OECOL,1999,118,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,2000,122,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,2000,122,4,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2001,126,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,2001,126,4,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2001,126,4,EB,Lorne,M,Wolfe,,USA,M,SE,,Georgia Southern University
+OECOL,2002,130,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,2002,130,4,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2002,130,4,EB,Lorne,M,Wolfe,,USA,M,SE,,Georgia Southern University
+OECOL,2003,134,4,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,2003,134,4,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2003,134,4,EB,David,M,Post,,USA,M,SE,,Yale University
+OECOL,2003,134,4,EB,Lorne,M,Wolfe,,USA,M,SE,,Georgia Southern University
+OECOL,2004,138,1,EB,Martyn,M,Caldwell,,USA,M,SE,,Utah State University
+OECOL,2004,138,1,EB,Deborah,M,Gordon,,USA,F,SE,,Stanford University
+OECOL,2004,138,1,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2004,138,1,EB,David,M,Post,,USA,M,SE,,Yale University
+OECOL,2004,138,1,EB,Lorne,M,Wolfe,,USA,M,SE,,Georgia Southern University
+OECOL,2005,142,1,EB,John,M,Fryxell,,Canada,M,SE,,University of Guelph
+OECOL,2005,142,1,EB,Deborah,M,Gordon,,USA,F,SE,,Stanford University
+OECOL,2005,142,1,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2005,142,1,EB,David,M,Post,,USA,M,SE,,Yale University
+OECOL,2006,146,4,EB,John,M,Fryxell,,Canada,M,SE,,University of Guelph
+OECOL,2006,146,4,EB,Deborah,M,Gordon,,USA,F,SE,,Stanford University
+OECOL,2006,146,4,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2006,146,4,EB,David,M,Post,,USA,M,SE,,Yale University
+OECOL,2007,150,4,EB,John,M,Fryxell,,Canada,M,SE,,University of Guelph
+OECOL,2007,150,4,EB,Deborah,M,Gordon,,USA,F,SE,,Stanford University
+OECOL,2007,150,4,EB,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2008,154,4,HE,Christina,M,Caruso,,Canada,F,SE,,University of Guelph
+OECOL,2008,154,4,HE,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2009,158,4,HE,Christina,M,Caruso,,Canada,F,SE,,University of Guelph
+OECOL,2009,158,4,HE,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2010,162,1,HE,Christina,M,Caruso,,Canada,F,SE,,University of Guelph
+OECOL,2010,162,1,HE,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2011,165,1,HE,Christina,M,Caruso,,Canada,F,SE,,University of Guelph
+OECOL,2011,165,1,HE,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2011,165,1,HE,Jason,M,Tylianakis,,New Zealand,M,SE,,University of Canterbury
+OECOL,2012,170,2,HE,Christina,M,Caruso,,Canada,F,SE,,University of Guelph
+OECOL,2012,170,2,HE,Wolf,M,Mooij,,Netherlands,M,SE,,Netherlands Institute of Ecology
+OECOL,2012,170,2,HE,Jason,M,Tylianakis,,New Zealand,M,SE,,University of Canterbury
+OECOL,1987,71,2,EB,Richard,N,Mack,,USA,M,SE,,Washington State University
+OECOL,1988,75,1,EB,Richard,N,Mack,,USA,M,SE,,Washington State University
+OECOL,1989,78,1,EB,Richard,N,Mack,,USA,M,SE,,Washington State University
+OECOL,2008,154,4,HE,Christopher,N,Johnson,,Australia,M,SE,,James Cook University 
+OECOL,2009,158,4,HE,Christopher,N,Johnson,,Australia,M,SE,,James Cook University 
+OECOL,2010,162,1,HE,Christopher,N,Johnson,,Australia,M,SE,,James Cook University 
+OECOL,2011,165,1,HE,Christopher,N,Johnson,,Australia,M,SE,,James Cook University 
+OECOL,2012,170,2,HE,Christopher,N,Johnson,,Australia,M,SE,,James Cook University 
+OECOL,2006,146,4,EB,Blair,O,Wolf,,USA,M,SE,,University of New Mexico
+OECOL,2007,150,4,EB,Dag,O,Hessen,,Norway,M,SE,,University of Oslo
+OECOL,2007,150,4,EB,Blair,O,Wolf,,USA,M,SE,,University of New Mexico
+OECOL,2008,154,4,HE,Dag,O,Hessen,,Norway,M,SE,,University of Oslo
+OECOL,2008,154,4,HE,Blair,O,Wolf,,USA,M,SE,,University of New Mexico
+OECOL,2009,158,4,HE,Dag,O,Hessen,,Norway,M,SE,,University of Oslo
+OECOL,2009,158,4,HE,Blair,O,Wolf,,USA,M,SE,,University of New Mexico
+OECOL,2010,162,1,HE,Robert,O,Hall,,USA,M,SE,,University of Wyoming
+OECOL,2010,162,1,HE,Dag,O,Hessen,,Norway,M,SE,,University of Oslo
+OECOL,2011,165,1,HE,Robert,O,Hall,,USA,M,SE,,University of Wyoming
+OECOL,2012,170,2,HE,Robert,O,Hall,,USA,M,SE,,University of Wyoming
+OECOL,1987,71,2,EB,Michael,P,Hassell,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1988,75,1,EB,Michael,P,Hassell,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1989,78,1,EB,Michael,P,Hassell,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1990,82,1,EB,Michael,P,Hassell,,UK,M,SE,,Imperial College at Silwood Park
+OECOL,1999,118,4,EB,Jack,P,Hayes,,USA,M,SE,,University of Nevada
+OECOL,2000,122,4,EB,Jack,P,Hayes,,USA,M,SE,,University of Nevada
+OECOL,2007,150,4,EB,Jason,P,Kaye,,USA,M,SE,,Pennsylvania State University
+OECOL,2007,150,4,EB,Florian,P,Schiestl,,Switzerland,M,SE,,University of Zurich
+OECOL,2008,154,4,HE,Jason,P,Kaye,,USA,M,SE,,Pennsylvania State University
+OECOL,2008,154,4,HE,Florian,P,Schiestl,,Switzerland,M,SE,,University of Zurich
+OECOL,2009,158,4,HE,Jason,P,Kaye,,USA,M,SE,,Pennsylvania State University
+OECOL,2009,158,4,HE,Florian,P,Schiestl,,Switzerland,M,SE,,University of Zurich
+OECOL,2010,162,1,HE,Jason,P,Kaye,,USA,M,SE,,Pennsylvania State University
+OECOL,2010,162,1,HE,Florian,P,Schiestl,,Switzerland,M,SE,,University of Zurich
+OECOL,2011,165,1,HE,Jason,P,Kaye,,USA,M,SE,,Pennsylvania State University
+OECOL,2011,165,1,HE,Florian,P,Schiestl,,Switzerland,M,SE,,University of Zurich
+OECOL,2012,170,2,HE,Jason,P,Kaye,,USA,M,SE,,Pennsylvania State University
+OECOL,2012,170,2,HE,Oliver,P,Love,,Canada,M,SE,This information is not clear in the picture,University of Windsor
+OECOL,2012,170,2,HE,Truman,P,Young,,USA,M,SE,,"University of California, Davis"
+OECOL,2008,154,4,HE,Debra,PC,Peters,,USA,F,SE,,New Mexico State University
+OECOL,2009,158,4,HE,Debra,PC,Peters,,USA,F,SE,,New Mexico State University
+OECOL,2010,162,1,HE,Debra,PC,Peters,,USA,F,SE,,New Mexico State University
+OECOL,2011,165,1,HE,Debra,PC,Peters,,USA,F,SE,,New Mexico State University
+OECOL,1985,65,2,EB,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,1985,65,2,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1986,68,2,EB,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,1987,71,2,EB,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,1987,71,2,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO Land and Water
+OECOL,1988,75,1,EB,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,1988,75,1,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO Land and Water
+OECOL,1989,78,1,EB,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,1989,78,1,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO Land and Water
+OECOL,1990,82,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1990,82,1,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO Land and Water
+OECOL,1991,85,3,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1991,85,3,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO Land and Water
+OECOL,1992,89,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1992,89,1,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1992,89,1,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO Land and Water
+OECOL,1993,93,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1993,93,1,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1993,93,1,EB,Philip,R,Miles,,Australia,M,SE,,CSIRO
+OECOL,1994,97,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1994,97,1,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1995,101,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1995,101,1,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1996,105,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1996,105,1,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1996,105,1,EB,Donald,R,Strong,,USA,M,SE,,"University of California, Davis "
+OECOL,1997,109,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1997,109,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1997,109,4,EB,Donald,R,Strong,,USA,M,SE,,"University of California, Davis "
+OECOL,1998,113,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1998,113,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1998,113,4,EIC,Donald,R,Strong,,USA,M,EIC,,"University of California, Davis "
+OECOL,1999,118,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,1999,118,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,1999,118,4,EIC,Donald,R,Strong,,USA,M,EIC,,"University of California, Davis "
+OECOL,2000,122,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2000,122,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,2000,122,4,EIC,Donald,R,Strong,,USA,M,EIC,,"University of California, Davis "
+OECOL,2001,126,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2001,126,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,2001,126,4,EB,Donald,R,Strong,,USA,M,SE,,"University of California, Davis "
+OECOL,2002,130,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2002,130,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,2003,134,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2003,134,4,EB,Paul,R,Ehrlich,,USA,M,SE,,Stanford University
+OECOL,2004,138,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2005,142,1,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2006,146,4,EIC,James,R,Ehleringer,,USA,M,EIC,,University of Utah
+OECOL,2006,146,4,EB,Timothy,R,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,2007,150,4,EB,Timothy,R,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,2008,154,4,HE,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,2008,154,4,HE,Timothy,R,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,2009,158,4,HE,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,2010,162,1,HE,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,2010,162,1,HE,Timothy,R,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,2011,165,1,HE,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,2011,165,1,HE,Timothy,R,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,2012,170,2,HE,James,R,Ehleringer,,USA,M,SE,,University of Utah
+OECOL,2012,170,2,HE,David,R,Peart,,USA,M,SE,This information is not clear in the picture,Dartmouth College 
+OECOL,2012,170,2,HE,Timothy,R,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,1986,68,2,EB,Sir,Richard,Southwood,,UK,M,SE,,University of Oxford
+OECOL,1987,71,2,EB,Sir,Richard,Southwood,,UK,M,SE,,University of Oxford
+OECOL,1988,75,1,EB,Sir,Richard,Southwood,,UK,M,SE,,University of Oxford
+OECOL,2011,165,1,HE,Scott,Robert,McWilliams,,USA,M,SE,,University of Rhode Island
+OECOL,2012,170,2,HE,Scott,Robert,McWilliams,,USA,M,SE,,University of Rhode Island
+OECOL,1988,75,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1989,78,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1990,82,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1991,85,3,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1992,89,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1993,93,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1994,97,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1995,101,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1996,105,1,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1997,109,4,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1998,113,4,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,1999,118,4,EB,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,1999,118,4,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,2000,122,4,EB,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2000,122,4,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,2001,126,4,EB,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2001,126,4,EB,John,S,Pate,,Australia,M,SE,,University of Western Australia
+OECOL,2003,134,4,EB,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2004,138,1,EB,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2006,146,4,EB,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2007,150,4,EB,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2007,150,4,EB,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2008,154,4,HE,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2008,154,4,HE,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2008,154,4,HE,Jeffrey,S,Shima,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,2009,158,4,HE,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2009,158,4,HE,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2009,158,4,HE,Jeffrey,S,Shima,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,2010,162,1,HE,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2010,162,1,HE,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2010,162,1,HE,Jeffrey,S,Shima,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,2011,165,1,HE,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2011,165,1,HE,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2011,165,1,HE,Jeffrey,S,Shima,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,2012,170,2,HE,Thomas,S,Hoffmeister,,Germany,M,SE,,University of Bremen
+OECOL,2012,170,2,HE,Marc,S,Mangel,,USA,M,SE,,"University of California, Santa Cruz"
+OECOL,2012,170,2,HE,Jeffrey,S,Shima,,New Zealand,M,SE,,Victoria University of Wellington
+OECOL,1985,65,2,EB,F,Stuart,Chapin,III,USA,M,SE,,University of Alaska
+OECOL,1986,68,2,EB,F,Stuart,Chapin,III,USA,M,SE,,University of Alaska
+OECOL,1987,71,2,EB,F,Stuart,Chapin,III,USA,M,SE,,University of Alaska
+OECOL,1988,75,1,EB,F,Stuart,Chapin,III,USA,M,SE,,University of Alaska
+OECOL,1989,78,1,EB,F,Stuart,Chapin,III,USA,M,SE,,University of Alaska
+OECOL,1990,82,1,EB,F,Stuart,Chapin,III,USA,M,SE,,"University of California, Berkeley"
+OECOL,1991,85,3,EB,F,Stuart,Chapin,III,USA,M,SE,,"University of California, Berkeley"
+OECOL,1992,89,1,EB,F,Stuart,Chapin,III,USA,M,SE,,"University of California, Berkeley"
+OECOL,1993,93,1,EB,F,Stuart,Chapin,III,USA,M,SE,,"University of California, Berkeley"
+OECOL,1994,97,1,EB,F,Stuart,Chapin,III,USA,M,SE,,"University of California, Berkeley"
+OECOL,1995,101,1,EB,F,Stuart,Chapin,III,USA,M,SE,,"University of California, Berkeley"
+OECOL,1986,68,2,EB,John,T,Lehman,,USA,M,SE,,University of Michigan
+OECOL,1987,71,2,EB,John,T,Lehman,,USA,M,SE,,University of Michigan
+OECOL,1988,75,1,EB,John,T,Lehman,,USA,M,SE,,University of Michigan
+OECOL,1989,78,1,EB,John,T,Lehman,,USA,M,SE,,University of Michigan
+OECOL,1996,105,1,EB,Ian,T,Baldwin,,USA,M,SE,,University at Buffalo
+OECOL,1997,109,4,EB,Ian,T,Baldwin,,USA,M,SE,,University at Buffalo
+OECOL,1998,113,4,EB,Ian,T,Baldwin,,Germany,M,SE,,Max Planck Institute for Chemical Ecology
+OECOL,1999,118,4,EB,Ian,T,Baldwin,,Germany,M,SE,,Max Planck Institute for Chemical Ecology
+OECOL,2000,122,4,EB,Ian,T,Baldwin,,Germany,M,SE,,Max Planck Institute for Chemical Ecology
+OECOL,2000,122,4,EB,Jim,T,Cronin,,USA,M,SE,,University of North Dakota
+OECOL,2001,126,4,EB,Ian,T,Baldwin,,Germany,M,SE,,Max Planck Institute for Chemical Ecology
+OECOL,2001,126,4,EB,Jim,T,Cronin,,USA,M,SE,,University of North Dakota
+OECOL,2002,130,4,EB,Ian,T,Baldwin,,Germany,M,SE,,Max Planck Institute for Chemical Ecology
+OECOL,2002,130,4,EB,Jim,T,Cronin,,USA,M,SE,,University of North Dakota
+OECOL,2003,134,4,EB,Jim,T,Cronin,,USA,M,SE,,Louisiana State University
+OECOL,2004,138,1,EB,Jim,T,Cronin,,USA,M,SE,,Louisiana State University
+OECOL,2005,142,1,EB,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2005,142,1,EB,Jim,T,Cronin,,USA,M,SE,,Louisiana State University
+OECOL,2006,146,4,EB,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2007,150,4,EB,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2007,150,4,EB,Manuel,T,Lerdau,,USA,M,SE,,University of Virginia
+OECOL,2008,154,4,HE,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2008,154,4,HE,Manuel,T,Lerdau,,USA,M,SE,,University of Virginia
+OECOL,2009,158,4,HE,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2009,158,4,HE,Manuel,T,Lerdau,,USA,M,SE,,University of Virginia
+OECOL,2010,162,1,HE,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2010,162,1,HE,Manuel,T,Lerdau,,USA,M,SE,,University of Virginia
+OECOL,2011,165,1,HE,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2011,165,1,RE,Manuel,T,Lerdau,,USA,M,Other,Review Editor,University of Virginia
+OECOL,2012,170,2,HE,Amy,T,Austin,,Argentina,F,SE,,University of Buenos Aires
+OECOL,2012,170,2,HE,John,T,Lillim,,USA,,SE,This information is not clear in the picture,
+OECOL,2007,150,4,EB,Allan,TG,Green,,New Zealand,M,SE,,Waikato University 
+OECOL,2008,154,4,HE,Allan,TG,G,,New Zealand,M,SE,,Waikato University 
+OECOL,2009,158,4,HE,Allan,TG,G,,New Zealand,M,SE,,Waikato University 
+OECOL,2010,162,1,HE,Allan,TG,G,,New Zealand,M,SE,,Waikato University 
+OECOL,2011,165,1,HE,Allan,TG,G,,New Zealand,M,SE,,Waikato University 
+OECOL,2012,170,2,HE,Allan,TG,G,,New Zealand,M,SE,,Waikato University 
+OECOL,1998,113,4,EB,Mary,V,Price,,USA,F,SE,,University of California 
+OECOL,1999,118,4,EB,Mary,V,Price,,USA,F,SE,,University of California 
+OECOL,2000,122,4,EB,Mary,V,Price,,USA,F,SE,,University of California 
+OECOL,2001,126,4,EB,Mary,V,Price,,USA,F,SE,,University of California 
+OECOL,2002,130,4,EB,Mary,V,Price,,USA,F,SE,,University of California 
+OECOL,2009,158,4,HE,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
+OECOL,2010,162,1,HE,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
+OECOL,2011,165,1,HE,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
+OECOL,2012,170,2,HE,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
+OECOL,1985,65,2,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1985,65,2,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1986,68,2,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1986,68,2,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1986,68,2,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1987,71,2,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1987,71,2,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1987,71,2,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1988,75,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1988,75,1,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1988,75,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1989,78,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1989,78,1,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1989,78,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1990,82,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1990,82,1,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1990,82,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1991,85,3,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1991,85,3,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1991,85,3,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1992,89,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1992,89,1,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1992,89,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1993,93,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1993,93,1,EB,Thomas,W,Schoener,,USA,M,SE,,"University of California, Davis"
+OECOL,1993,93,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1994,97,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1994,97,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1995,101,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1995,101,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1996,105,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1996,105,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1997,109,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1997,109,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1998,113,4,EB,Diana,W,Freckman,,USA,F,SE,,Colorado State University
+OECOL,1998,113,4,EB,Craig,W,Osenberg,,USA,M,SE,,University of Florida
+OECOL,1998,113,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1998,113,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,1999,118,4,EB,Diana,W,Freckman,,USA,F,SE,,Colorado State University
+OECOL,1999,118,4,EB,Craig,W,Osenberg,,USA,M,SE,,University of Florida
+OECOL,1999,118,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,1999,118,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2000,122,4,EB,Craig,W,Osenberg,,USA,M,SE,,University of Florida
+OECOL,2000,122,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2000,122,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2001,126,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2001,126,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2001,126,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2002,130,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2002,130,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2002,130,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2003,134,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2003,134,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2003,134,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2004,138,1,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2004,138,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2004,138,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2005,142,1,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2005,142,1,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2005,142,1,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2006,146,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2006,146,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2006,146,4,EB,Wolfgang,W,Wieser,,Austria,M,SE,,University of Innsbruck
+OECOL,2007,150,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2007,150,4,EB,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2007,150,4,EB,Wolfgang,W,Wieser,,Germany,M,SE,,University of Jena
+OECOL,2008,154,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2008,154,4,HE,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2009,158,4,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2009,158,4,HE,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2009,158,4,HE,Wolfgang,W,Wieser,,Germany,M,SE,,University of Jena
+OECOL,2010,162,1,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2010,162,1,HE,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2010,162,1,HE,Wolfgang,W,Wieser,,Germany,M,SE,,University of Jena
+OECOL,2011,165,1,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2011,165,1,HE,Robert,W,Pearcy,,USA,M,SE,,"University of California, Davis"
+OECOL,2011,165,1,HE,Wolfgang,W,Wieser,,Germany,M,SE,,University of Jena
+OECOL,2012,170,2,EIC,Craig,W,Osenberg,,USA,M,EIC,,University of Florida
+OECOL,2012,170,2,HE,Wolfgang,W,Wieser,,Germany,M,SE,,University of Jena
+OECOL,1985,65,2,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1985,65,2,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1985,65,2,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1985,65,2,EB,Friedrich,,Schaller,,Austria,M,SE,,University of Vienna
+OECOL,1985,65,2,EB,Heinrich,,Kaiser,,Germany,M,SE,,RWTH Aachen University
+OECOL,1985,65,2,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1985,65,2,EIC,Hermann,,Remmert,,Germany,M,EIC,,University of Marburg
+OECOL,1985,65,2,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1985,65,2,EB,John,,Phillipson,,UK,M,SE,,Oxford University
+OECOL,1985,65,2,EB,Michael,,Evenari,,Israel,M,SE,,Hebrew University of Jerusalem
+OECOL,1985,65,2,EB,Walter,,Larcher,,Austria,M,SE,,University of Innsbruck
+OECOL,1986,68,2,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1986,68,2,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1986,68,2,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1986,68,2,EB,Friedrich,,Schaller,,Austria,M,SE,,University of Vienna
+OECOL,1986,68,2,EB,Heinrich,,Kaiser,,Germany,M,SE,,RWTH Aachen University
+OECOL,1986,68,2,EIC,Hermann,,Remmert,,Germany,M,EIC,,University of Marburg
+OECOL,1986,68,2,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1986,68,2,EB,Jane,,Lubchenco,,USA,F,SE,,Oregon State University
+OECOL,1986,68,2,EB,John,,Phillipson,,UK,M,SE,,Oxford University
+OECOL,1986,68,2,EB,Michael,,Evenari,,Israel,M,SE,,Hebrew University of Jerusalem
+OECOL,1986,68,2,EB,Walter,,Larcher,,Austria,M,SE,,University of Innsbruck
+OECOL,1987,71,2,EB,Andreas,,Bertsch,,Germany,M,SE,,Philipp University of Marburg
+OECOL,1987,71,2,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1987,71,2,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1987,71,2,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1987,71,2,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1987,71,2,EIC,Hermann,,Remmert,,Germany,M,EIC,,University of Marburg
+OECOL,1987,71,2,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1987,71,2,EB,Jane,,Lubchenco,,USA,F,SE,,Oregon State University
+OECOL,1987,71,2,EB,John,,Phillipson,,UK,M,SE,,Oxford University
+OECOL,1987,71,2,EB,Michael,,Evenari,,Israel,M,SE,,Hebrew University of Jerusalem
+OECOL,1987,71,2,EB,Walter,,Larcher,,Austria,M,SE,,University of Innsbruck
+OECOL,1988,75,1,EB,Andreas,,Bertsch,,Germany,M,SE,,Philipp University of Marburg
+OECOL,1988,75,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1988,75,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1988,75,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1988,75,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1988,75,1,EIC,Hermann,,Remmert,,Germany,M,EIC,,University of Marburg
+OECOL,1988,75,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1988,75,1,EB,John,,Phillipson,,UK,M,SE,,Oxford University
+OECOL,1988,75,1,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,1988,75,1,EB,Michael,,Evenari,,Israel,M,SE,,Hebrew University of Jerusalem
+OECOL,1988,75,1,EB,Walter,,Larcher,,Austria,M,SE,,University of Innsbruck
+OECOL,1989,78,1,EB,Andreas,,Bertsch,,Germany,M,SE,,Philipp University of Marburg
+OECOL,1989,78,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1989,78,1,EB,Christian,,Korner,,Austria,M,SE,,University of Innsbruck
+OECOL,1989,78,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1989,78,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1989,78,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1989,78,1,EIC,Hermann,,Remmert,,Germany,M,EIC,,University of Marburg
+OECOL,1989,78,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1989,78,1,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,1989,78,1,EB,Michael,,Evenari,,Israel,M,SE,,Hebrew University of Jerusalem
+OECOL,1990,82,1,EB,Andreas,,Bertsch,,Germany,M,SE,,Philipp University of Marburg
+OECOL,1990,82,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1990,82,1,EB,Christian,,Korner,,Austria,M,SE,,University of Innsbruck
+OECOL,1990,82,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1990,82,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1990,82,1,EB,Frank,,Berendse,,Netherlands,M,SE,,Wageningen UR
+OECOL,1990,82,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1990,82,1,EB,Henk,,Wolda,,Panama,M,SE,,Smithsonian Tropical Research Institute
+OECOL,1990,82,1,EIC,Hermann,,Remmert,,Germany,M,EIC,,University of Marburg
+OECOL,1990,82,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1990,82,1,EB,Joel,,Kingsolver,,USA,M,SE,,University of Washington 
+OECOL,1990,82,1,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,1990,82,1,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1990,82,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1990,82,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1991,85,3,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1991,85,3,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1991,85,3,EB,Christian,,Korner,,Austria,M,SE,,University of Innsbruck
+OECOL,1991,85,3,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1991,85,3,EB,Elvira,,Cuevas,,Venezuela,F,SE,,Venezuelan Institute for Scientific Research (IVIC)
+OECOL,1991,85,3,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1991,85,3,EB,Frank,,Berendse,,Netherlands,M,SE,,Wageningen UR
+OECOL,1991,85,3,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1991,85,3,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1991,85,3,EB,Henk,,Wolda,,Panama,M,SE,,Smithsonian Tropical Research Institute
+OECOL,1991,85,3,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1991,85,3,EB,Joel,,Kingsolver,,USA,M,SE,,University of Washington 
+OECOL,1991,85,3,EB,Leslie,,Real,,USA,M,SE,,University of North Carolina
+OECOL,1991,85,3,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1991,85,3,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1991,85,3,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1991,85,3,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1992,89,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1992,89,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1992,89,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1992,89,1,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1992,89,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1992,89,1,EB,Elvira,,Cuevas,,Venezuela,F,SE,,Venezuelan Institute for Scientific Research (IVIC)
+OECOL,1992,89,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1992,89,1,EB,Frank,,Berendse,,Netherlands,M,SE,,Wageningen UR
+OECOL,1992,89,1,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1992,89,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1992,89,1,EB,Henk,,Wolda,,Panama,M,SE,,Smithsonian Tropical Research Institute
+OECOL,1992,89,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1992,89,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1992,89,1,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1992,89,1,EB,Joel,,Kingsolver,,USA,M,SE,,University of Washington 
+OECOL,1992,89,1,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1992,89,1,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1992,89,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1992,89,1,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1992,89,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1992,89,1,EB,Tomohiko,,Kikuchi,,Japan,M,SE,,Yokohama National University
+OECOL,1993,93,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1993,93,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1993,93,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1993,93,1,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1993,93,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1993,93,1,EB,Elvira,,Cuevas,,Venezuela,F,SE,,Venezuelan Institute for Scientific Research (IVIC)
+OECOL,1993,93,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1993,93,1,EB,Frank,,Berendse,,Netherlands,M,SE,,Wageningen UR
+OECOL,1993,93,1,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1993,93,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1993,93,1,EB,Henk,,Wolda,,Panama,M,SE,,Smithsonian Tropical Research Institute
+OECOL,1993,93,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1993,93,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1993,93,1,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1993,93,1,EB,Joel,,Kingsolver,,USA,M,SE,,University of Washington 
+OECOL,1993,93,1,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1993,93,1,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1993,93,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1993,93,1,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1993,93,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1994,97,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1994,97,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1994,97,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1994,97,1,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1994,97,1,EB,Daniel,,Simberloff,,USA,M,SE,,Florida State University
+OECOL,1994,97,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1994,97,1,EB,Elvira,,Cuevas,,Venezuela,F,SE,,Venezuelan Institute for Scientific Research (IVIC)
+OECOL,1994,97,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1994,97,1,EB,Frank,,Berendse,,Netherlands,M,SE,,Wageningen UR
+OECOL,1994,97,1,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1994,97,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1994,97,1,EB,Henk,,Wolda,,Panama,M,SE,,Smithsonian Tropical Research Institute
+OECOL,1994,97,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1994,97,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1994,97,1,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1994,97,1,EB,Karsten,,Reise,,Germany,M,SE,,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+OECOL,1994,97,1,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1994,97,1,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1994,97,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1994,97,1,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1994,97,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1995,101,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1995,101,1,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,1995,101,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1995,101,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1995,101,1,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1995,101,1,EB,Daniel,,Simberloff,,USA,M,SE,,Florida State University
+OECOL,1995,101,1,EB,David,,Hollinger,,USA,M,SE,,United States Department of Agriculture
+OECOL,1995,101,1,EB,David,,Lincoln,,USA,M,SE,,University of South Carolina
+OECOL,1995,101,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1995,101,1,EB,Elvira,,Cuevas,,Venezuela,F,SE,,Venezuelan Institute for Scientific Research (IVIC)
+OECOL,1995,101,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1995,101,1,EB,Frank,,Berendse,,Netherlands,M,SE,,Wageningen UR
+OECOL,1995,101,1,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1995,101,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1995,101,1,EB,Henk,,Wolda,,Panama,M,SE,,Smithsonian Tropical Research Institute
+OECOL,1995,101,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1995,101,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1995,101,1,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1995,101,1,EB,Karsten,,Reise,,Germany,M,SE,,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+OECOL,1995,101,1,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1995,101,1,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,1995,101,1,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1995,101,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1995,101,1,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1995,101,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1996,105,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1996,105,1,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,1996,105,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1996,105,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1996,105,1,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1996,105,1,EB,Daniel,,Simberloff,,USA,M,SE,,Florida State University
+OECOL,1996,105,1,EB,David,,Hollinger,,USA,M,SE,,United States Department of Agriculture
+OECOL,1996,105,1,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1996,105,1,EB,Elvira,,Cuevas,,Venezuela,F,SE,,Venezuelan Institute for Scientific Research (IVIC)
+OECOL,1996,105,1,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1996,105,1,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1996,105,1,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1996,105,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1996,105,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1996,105,1,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1996,105,1,EB,Karsten,,Reise,,Germany,M,SE,,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+OECOL,1996,105,1,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1996,105,1,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,1996,105,1,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1996,105,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1996,105,1,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1996,105,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1996,105,1,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,1997,109,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1997,109,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,1997,109,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1997,109,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1997,109,4,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1997,109,4,EB,Daniel,,Simberloff,,USA,M,SE,,Florida State University
+OECOL,1997,109,4,EB,David,,Hollinger,,USA,M,SE,,United States Department of Agriculture
+OECOL,1997,109,4,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1997,109,4,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1997,109,4,EB,Franz,,Bairlein,,Germany,M,SE,,Institute of Avian Research
+OECOL,1997,109,4,EB,Helmut,,Zwolfer,,Germany,M,SE,,University of Bayreuth
+OECOL,1997,109,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,Dresden University of Technology
+OECOL,1997,109,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1997,109,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1997,109,4,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1997,109,4,EB,Karsten,,Reise,,Germany,M,SE,,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+OECOL,1997,109,4,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1997,109,4,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,1997,109,4,EB,Peter,,Vitousek,,USA,M,SE,,Stanford University 
+OECOL,1997,109,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1997,109,4,EB,Roland,,Brandl,,Germany,M,SE,,UFZ Centre for Environmental Research Leipzig-Halle
+OECOL,1997,109,4,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1997,109,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,1997,109,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1997,109,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,1997,109,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,1998,113,4,EB,Alan,,Hastings,,USA,M,SE,,"University of California, Davis"
+OECOL,1998,113,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,1998,113,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1998,113,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,1998,113,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1998,113,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1998,113,4,EB,Christian,,Korner,,Switzerland,M,SE,,University of Basel
+OECOL,1998,113,4,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,1998,113,4,EB,David,,Hollinger,,USA,M,SE,,United States Department of Agriculture
+OECOL,1998,113,4,EB,Dietrich,,Neumann,,Germany,M,SE,,University of Cologne
+OECOL,1998,113,4,EIC,Ernst-Detlef,,Schulze,,Germany,M,EIC,,University of Bayreuth
+OECOL,1998,113,4,EB,Glenn,,Stewart,,Australia,M,SE,,Queensland University of Technology
+OECOL,1998,113,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,Dresden University of Technology
+OECOL,1998,113,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1998,113,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1998,113,4,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1998,113,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,1998,113,4,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,1998,113,4,EB,Ken,,Spitze,,USA,M,SE,,University of Miami
+OECOL,1998,113,4,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,1998,113,4,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1998,113,4,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,1998,113,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1998,113,4,EB,Roland,,Brandl,,Germany,M,SE,,UFZ Centre for Environmental Research Leipzig-Halle
+OECOL,1998,113,4,EB,Staffan,,Ulfstrand,,Sweden,M,SE,,Uppsala University
+OECOL,1998,113,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,1998,113,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,1998,113,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1998,113,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,1998,113,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,1999,118,4,EB,Alan,,Hastings,,USA,M,SE,,"University of California, Davis"
+OECOL,1999,118,4,EB,Allan,,Stewart-Oaten,,USA,M,SE,,"University of California, Santa Barbara"
+OECOL,1999,118,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,1999,118,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,1999,118,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,1999,118,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,1999,118,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,1999,118,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,1999,118,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,1999,118,4,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,1999,118,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,1999,118,4,EB,Glenn,,Stewart,,Australia,M,SE,,Queensland University of Technology
+OECOL,1999,118,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,1999,118,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,1999,118,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,1999,118,4,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,1999,118,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,1999,118,4,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,1999,118,4,EB,Ken,,Spitze,,USA,M,SE,,University of Miami
+OECOL,1999,118,4,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,1999,118,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,1999,118,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,1999,118,4,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,1999,118,4,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,1999,118,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,1999,118,4,EB,Roland,,Brandl,,Germany,M,SE,,UFZ Centre for Environmental Research Leipzig-Halle
+OECOL,1999,118,4,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,1999,118,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,1999,118,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,1999,118,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,1999,118,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,1999,118,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2000,122,4,EB,Alan,,Hastings,,USA,M,SE,,"University of California, Davis"
+OECOL,2000,122,4,EB,Allan,,Stewart-Oaten,,USA,M,SE,,"University of California, Santa Barbara"
+OECOL,2000,122,4,EB,Anders,,Forsman,,Sweden,M,SE,,Linnaeus University
+OECOL,2000,122,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2000,122,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2000,122,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2000,122,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,2000,122,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2000,122,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2000,122,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2000,122,4,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,2000,122,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2000,122,4,EB,Hendrik,,Poorter,,Netherlands,M,SE,,Utrecht University
+OECOL,2000,122,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2000,122,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2000,122,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2000,122,4,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,2000,122,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2000,122,4,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2000,122,4,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,2000,122,4,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,RWTH Aachen University
+OECOL,2000,122,4,EB,Ken,,Spitze,,USA,M,SE,,University of Miami
+OECOL,2000,122,4,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,2000,122,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2000,122,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2000,122,4,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,2000,122,4,EB,Michel,,Loreau,,France,M,SE,,Pierre and Marie Curie University
+OECOL,2000,122,4,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,2000,122,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2000,122,4,EB,Roland,,Brandl,,Germany,M,SE,,UFZ Centre for Environmental Research Leipzig-Halle
+OECOL,2000,122,4,EB,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2000,122,4,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2000,122,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2000,122,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2000,122,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2000,122,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,2000,122,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2001,126,4,EB,Alan,,Hastings,,USA,M,SE,,"University of California, Davis"
+OECOL,2001,126,4,EB,Allan,,Stewart-Oaten,,USA,M,SE,,"University of California, Santa Barbara"
+OECOL,2001,126,4,EB,Anders,,Forsman,,Sweden,M,SE,,Linnaeus University
+OECOL,2001,126,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2001,126,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2001,126,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2001,126,4,EB,Beverly,,Law,,USA,F,SE,,Oregon State University
+OECOL,2001,126,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,2001,126,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2001,126,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2001,126,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2001,126,4,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,2001,126,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2001,126,4,EB,Hendrik,,Poorter,,Netherlands,M,SE,,Utrecht University
+OECOL,2001,126,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2001,126,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2001,126,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2001,126,4,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,2001,126,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2001,126,4,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2001,126,4,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,2001,126,4,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,RWTH Aachen University
+OECOL,2001,126,4,EB,Ken,,Spitze,,USA,M,SE,,University of Miami
+OECOL,2001,126,4,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,2001,126,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2001,126,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2001,126,4,EIC,Matthias,,Schaefer,,Germany,M,EIC,,University of Gottingen
+OECOL,2001,126,4,EB,Michel,,Loreau,,France,M,SE,,Pierre and Marie Curie University
+OECOL,2001,126,4,EB,Peter,,Hogberg,,Sweden,M,SE,,Umea University
+OECOL,2001,126,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2001,126,4,EB,Robert,,Jackson,,USA,M,SE,,Duke University
+OECOL,2001,126,4,EB,Roland,,Brandl,,Germany,M,SE,,UFZ Centre for Environmental Research Leipzig-Halle
+OECOL,2001,126,4,EB,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2001,126,4,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2001,126,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2001,126,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2001,126,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2001,126,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,2001,126,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2001,126,4,EB,Whendee,,Silver,,USA,F,SE,,"University of California, Berkeley"
+OECOL,2002,130,4,EB,Anders,,Forsman,,Sweden,M,SE,,Linnaeus University
+OECOL,2002,130,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2002,130,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2002,130,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2002,130,4,EB,Beverly,,Law,,USA,F,SE,,Oregon State University
+OECOL,2002,130,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,2002,130,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2002,130,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2002,130,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2002,130,4,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,2002,130,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2002,130,4,EB,Hendrik,,Poorter,,Netherlands,M,SE,,Utrecht University
+OECOL,2002,130,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2002,130,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2002,130,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2002,130,4,EB,Jacques,,Blondel,,France,M,SE,,Center for Functional and Evolutionary Ecology (CEFE)
+OECOL,2002,130,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2002,130,4,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2002,130,4,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,2002,130,4,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,RWTH Aachen University
+OECOL,2002,130,4,EB,Ken,,Spitze,,USA,M,SE,,University of Miami
+OECOL,2002,130,4,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,2002,130,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2002,130,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2002,130,4,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2002,130,4,EB,Michel,,Loreau,,France,M,SE,,Pierre and Marie Curie University
+OECOL,2002,130,4,EB,Nina,,Buchmann,,Germany,F,SE,, Max Planck Institute for Biogeochemistry
+OECOL,2002,130,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2002,130,4,EB,Robert,,Jackson,,USA,M,SE,,Duke University
+OECOL,2002,130,4,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2002,130,4,EB,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2002,130,4,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2002,130,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2002,130,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2002,130,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2002,130,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,2002,130,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2002,130,4,EB,Whendee,,Silver,,USA,F,SE,,"University of California, Berkeley"
+OECOL,2003,134,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2003,134,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2003,134,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2003,134,4,EB,Beverly,,Law,,USA,F,SE,,Oregon State University
+OECOL,2003,134,4,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,2003,134,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2003,134,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2003,134,4,EB,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2003,134,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2003,134,4,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,2003,134,4,EB,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2003,134,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2003,134,4,EB,Hendrik,,Poorter,,Netherlands,M,SE,,Utrecht University
+OECOL,2003,134,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2003,134,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2003,134,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2003,134,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2003,134,4,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2003,134,4,EB,Jef,,Huisman,,Netherlands,M,SE,,University of Amsterdam
+OECOL,2003,134,4,EB,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2003,134,4,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,2003,134,4,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,RWTH Aachen University
+OECOL,2003,134,4,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,2003,134,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2003,134,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2003,134,4,EB,Mary,,Firestone,,USA,F,SE,,"University of California, Berkeley"
+OECOL,2003,134,4,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2003,134,4,EB,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2003,134,4,EB,Nina,,Buchmann,,Germany,F,SE,, Max Planck Institute for Biogeochemistry
+OECOL,2003,134,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2003,134,4,EB,Robert,,Jackson,,USA,M,SE,,Duke University
+OECOL,2003,134,4,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2003,134,4,EB,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2003,134,4,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2003,134,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2003,134,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2003,134,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2003,134,4,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,2003,134,4,EB,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2003,134,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2004,138,1,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2004,138,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2004,138,1,EB,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2004,138,1,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2004,138,1,EB,Beverly,,Law,,USA,F,SE,,Oregon State University
+OECOL,2004,138,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,2004,138,1,EB,Carol,,Vleck,,USA,F,SE,,Iowa State University
+OECOL,2004,138,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2004,138,1,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2004,138,1,EB,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2004,138,1,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2004,138,1,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,2004,138,1,EB,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2004,138,1,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2004,138,1,EB,Hendrik,,Poorter,,Netherlands,M,SE,,Utrecht University
+OECOL,2004,138,1,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2004,138,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2004,138,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2004,138,1,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2004,138,1,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2004,138,1,EB,Jef,,Huisman,,Netherlands,M,SE,,University of Amsterdam
+OECOL,2004,138,1,EB,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2004,138,1,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,2004,138,1,EB,Julia,,Koricheva,,Finland,F,SE,,University of Turku
+OECOL,2004,138,1,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,Johannes Gutenberg-University Mainz 
+OECOL,2004,138,1,EB,Konrad,,Fielder,,Germany,M,SE,,University of Bayreuth
+OECOL,2004,138,1,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2004,138,1,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2004,138,1,EB,Mary,,Firestone,,USA,F,SE,,"University of California, Berkeley"
+OECOL,2004,138,1,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2004,138,1,EB,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2004,138,1,EB,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2004,138,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2004,138,1,EB,Robert,,Jackson,,USA,M,SE,,Duke University
+OECOL,2004,138,1,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2004,138,1,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2004,138,1,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2004,138,1,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2004,138,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2004,138,1,EB,Teja,,Tscharntke,,Germany,M,SE,,University of Gottingen
+OECOL,2004,138,1,EB,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2004,138,1,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2005,142,1,EB,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2005,142,1,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2005,142,1,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2005,142,1,EB,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2005,142,1,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2005,142,1,EB,Beverly,,Law,,USA,F,SE,,Oregon State University
+OECOL,2005,142,1,EB,Brenda,,Casper,,USA,F,SE,,University of Pennsylvania
+OECOL,2005,142,1,EB,Carol,,Vleck,,USA,F,SE,,Iowa State University
+OECOL,2005,142,1,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2005,142,1,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2005,142,1,EB,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2005,142,1,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2005,142,1,EB,Daniel,,Simberloff,,USA,M,SE,,University of Tennessee
+OECOL,2005,142,1,EB,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2005,142,1,EB,Elizabeth,,Marschall,,USA,F,SE,,The Ohio State University
+OECOL,2005,142,1,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2005,142,1,EB,Hendrik,,Poorter,,Netherlands,M,SE,,Utrecht University
+OECOL,2005,142,1,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2005,142,1,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2005,142,1,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2005,142,1,EB,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen 
+OECOL,2005,142,1,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2005,142,1,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2005,142,1,EB,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2005,142,1,EB,Jose,,Sarukhan,,Mexico,M,SE,,National Autonomous University of Mexico 
+OECOL,2005,142,1,EB,Julia,,Koricheva,,Finland,F,SE,,University of Turku
+OECOL,2005,142,1,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,Johannes Gutenberg-University Mainz 
+OECOL,2005,142,1,EB,Konrad,,Fielder,,Austria,M,SE,,University of Vienna
+OECOL,2005,142,1,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2005,142,1,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2005,142,1,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2005,142,1,EB,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2005,142,1,EB,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2005,142,1,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2005,142,1,EB,Robert,,Jackson,,USA,M,SE,,Duke University
+OECOL,2005,142,1,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2005,142,1,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2005,142,1,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2005,142,1,EB,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2005,142,1,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2005,142,1,EB,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2005,142,1,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2005,142,1,EB,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2005,142,1,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2006,146,4,EB,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2006,146,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2006,146,4,EB,Andrew,,Watkinson,,UK,M,SE,,University of East Anglia
+OECOL,2006,146,4,EB,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2006,146,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2006,146,4,EB,Carol,,Vleck,,USA,F,SE,,Iowa State University
+OECOL,2006,146,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2006,146,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2006,146,4,EB,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2006,146,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2006,146,4,EB,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2006,146,4,EB,Elizabeth,,Marschall,,USA,F,SE,,The Ohio State University
+OECOL,2006,146,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2006,146,4,EB,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2006,146,4,EB,Hannu,,Ylonen,,Finland,M,SE,,University of Jyvaskyla
+OECOL,2006,146,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2006,146,4,EB,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2006,146,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2006,146,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2006,146,4,EB,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Gottingen 
+OECOL,2006,146,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2006,146,4,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2006,146,4,EB,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2006,146,4,EB,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2006,146,4,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,Johannes Gutenberg-University Mainz 
+OECOL,2006,146,4,EB,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2006,146,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2006,146,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2006,146,4,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2006,146,4,EB,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2006,146,4,EB,Michael,,Keough,,Australia,M,SE,,Univeristy of Melbourne
+OECOL,2006,146,4,EB,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2006,146,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2006,146,4,EB,Robert,,Jackson,,USA,M,SE,,Duke University
+OECOL,2006,146,4,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2006,146,4,EB,Stefan,,Halle,,Germany,M,SE,,University of Jena
+OECOL,2006,146,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2006,146,4,EB,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2006,146,4,EB,Sven,,Jonasson,,Denmark,M,SE,,University of Copenhagen
+OECOL,2006,146,4,EB,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2006,146,4,EB,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+OECOL,2006,146,4,EB,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2006,146,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2007,150,4,EB,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2007,150,4,EB,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2007,150,4,EB,Andrew,,Gonzalez,,Canada,M,SE,,McGill University 
+OECOL,2007,150,4,EB,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2007,150,4,EB,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2007,150,4,EB,Carol,,Vleck,,USA,F,SE,,Iowa State University
+OECOL,2007,150,4,EB,Christian,,Otto,,Sweden,M,SE,,Umea University
+OECOL,2007,150,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2007,150,4,EB,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2007,150,4,EB,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2007,150,4,EB,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2007,150,4,EB,Elizabeth,,Marschall,,USA,F,SE,,The Ohio State University
+OECOL,2007,150,4,EB,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2007,150,4,EB,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2007,150,4,EB,Hakan,,Wallander,,Sweden,M,SE,,Lund University
+OECOL,2007,150,4,EB,Hannu,,Ylonen,,Finland,M,SE,,University of Jyvaskyla
+OECOL,2007,150,4,EB,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2007,150,4,EB,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2007,150,4,EB,Hubert,,Ziegler,,Germany,M,SE,,Technical University of Munich
+OECOL,2007,150,4,EB,Ilkka,,Hanski,,Finland,M,SE,,University of Helsinki
+OECOL,2007,150,4,EB,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Bayreuth
+OECOL,2007,150,4,EB,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2007,150,4,EB,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2007,150,4,EB,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2007,150,4,EB,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2007,150,4,EB,Katrin,,Bohning-Gaese,,Germany,F,SE,,Johannes Gutenberg-University Mainz 
+OECOL,2007,150,4,EB,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2007,150,4,EB,Kouki,,Hikosaka,,Japan,M,SE,,Tohoku University
+OECOL,2007,150,4,EB,Mark,,Westoby,,Australia,M,SE,,Macquarie University
+OECOL,2007,150,4,EB,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2007,150,4,EB,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2007,150,4,EB,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2007,150,4,EB,Michael,,Keough,,Australia,M,SE,,Univeristy of Melbourne
+OECOL,2007,150,4,EB,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2007,150,4,EB,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2007,150,4,EB,Richard,,Karban,,USA,M,SE,,"University of California, Davis"
+OECOL,2007,150,4,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2007,150,4,EB,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2007,150,4,EB,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2007,150,4,EB,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2007,150,4,EB,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2007,150,4,EB,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2008,154,4,HE,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2008,154,4,HE,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2008,154,4,HE,Andrew,,Gonzalez,,Canada,M,SE,,McGill University 
+OECOL,2008,154,4,HE,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2008,154,4,HE,Carol,,Vleck,,USA,F,SE,,Iowa State University
+OECOL,2008,154,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2008,154,4,HE,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2008,154,4,HE,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2008,154,4,HE,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2008,154,4,HE,Elizabeth,,Marschall,,USA,F,SE,,The Ohio State University
+OECOL,2008,154,4,HE,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2008,154,4,HE,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2008,154,4,HE,Hakan,,Wallander,,Sweden,M,SE,,Lund University
+OECOL,2008,154,4,EIC,Hannu,,Ylonen,,Finland,M,EIC,,University of Jyvaskyla
+OECOL,2008,154,4,HE,Heli,,Siitari,,Finland,F,SE,,University of Jyvaskyla
+OECOL,2008,154,4,HE,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2008,154,4,HE,Herwig,,Leirs,,Belgium,M,SE,,University of Antwerp
+OECOL,2008,154,4,HE,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2008,154,4,HE,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Bayreuth
+OECOL,2008,154,4,HE,Jacek,,Radwan,,Poland,M,SE,,Jagiellonian University
+OECOL,2008,154,4,HE,Janne,,Sundell,,Finland,M,SE,,University of Helsinki
+OECOL,2008,154,4,HE,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2008,154,4,HE,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2008,154,4,HE,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2008,154,4,HE,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2008,154,4,HE,Katrin,,Bohning-Gaese,,Germany,F,SE,,Johannes Gutenberg-University Mainz 
+OECOL,2008,154,4,HE,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2008,154,4,HE,Kouki,,Hikosaka,,Japan,M,SE,,Tohoku University
+OECOL,2008,154,4,HE,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2008,154,4,HE,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2008,154,4,HE,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2008,154,4,HE,Michael,,Keough,,Australia,M,SE,,Univeristy of Melbourne
+OECOL,2008,154,4,HE,Miguel,,Franco,,UK,M,SE,,Plymouth University
+OECOL,2008,154,4,HE,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2008,154,4,HE,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2008,154,4,HE,Richard,,Karban,,USA,M,SE,,"University of California, Davis"
+OECOL,2008,154,4,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2008,154,4,HE,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2008,154,4,HE,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2008,154,4,HE,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2008,154,4,HE,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2008,154,4,HE,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2008,154,4,HE,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2009,158,4,HE,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2009,158,4,HE,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2009,158,4,HE,Andrew,,Gonzalez,,Canada,M,SE,,McGill University 
+OECOL,2009,158,4,HE,Andrew,,Hector,,Switzerland,M,SE,,University of Zurich
+OECOL,2009,158,4,HE,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2009,158,4,HE,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2009,158,4,HE,Brian,,Beckage,,USA,M,SE,,University of Vermont
+OECOL,2009,158,4,HE,Carol,,Vleck,,USA,F,SE,,Iowa State University
+OECOL,2009,158,4,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2009,158,4,HE,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2009,158,4,HE,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2009,158,4,HE,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2009,158,4,HE,Elizabeth,,Marschall,,USA,F,SE,,The Ohio State University
+OECOL,2009,158,4,HE,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2009,158,4,HE,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2009,158,4,HE,Hakan,,Wallander,,Sweden,M,SE,,Lund University
+OECOL,2009,158,4,EIC,Hannu,,Ylonen,,Finland,M,EIC,,University of Jyvaskyla
+OECOL,2009,158,4,HE,Heli,,Siitari,,Finland,F,SE,,University of Jyvaskyla
+OECOL,2009,158,4,HE,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2009,158,4,HE,Herwig,,Leirs,,Belgium,M,SE,,University of Antwerp
+OECOL,2009,158,4,HE,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2009,158,4,HE,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Bayreuth
+OECOL,2009,158,4,HE,Janne,,Sundell,,Finland,M,SE,,University of Helsinki
+OECOL,2009,158,4,HE,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2009,158,4,HE,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2009,158,4,HE,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2009,158,4,HE,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2009,158,4,HE,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2009,158,4,HE,Kouki,,Hikosaka,,Japan,M,SE,,Tohoku University
+OECOL,2009,158,4,HE,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2009,158,4,HE,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2009,158,4,HE,Meelis,,Partel,,Estonia,M,SE,,University of Tartu
+OECOL,2009,158,4,HE,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2009,158,4,HE,Michael,,Keough,,Australia,M,SE,,Univeristy of Melbourne
+OECOL,2009,158,4,HE,Miguel,,Franco,,UK,M,SE,,Plymouth University
+OECOL,2009,158,4,HE,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2009,158,4,HE,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2009,158,4,HE,Richard,,Karban,,USA,M,SE,,"University of California, Davis"
+OECOL,2009,158,4,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2009,158,4,HE,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2009,158,4,HE,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2009,158,4,HE,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2009,158,4,HE,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2009,158,4,HE,Timothy,,Seastedt,,USA,M,SE,,University of Colorado Boulder
+OECOL,2009,158,4,HE,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2009,158,4,HE,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2010,162,1,HE,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2010,162,1,HE,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2010,162,1,HE,Andrew,,Hector,,Switzerland,M,SE,,University of Zurich
+OECOL,2010,162,1,HE,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2010,162,1,HE,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2010,162,1,HE,Brian,,Beckage,,USA,M,SE,,University of Vermont
+OECOL,2010,162,1,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2010,162,1,HE,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2010,162,1,HE,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2010,162,1,HE,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2010,162,1,HE,Elizabeth,,Marschall,,USA,F,SE,,The Ohio State University
+OECOL,2010,162,1,HE,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2010,162,1,HE,Esa,,Lehikoinen,,Finland,M,SE,,University of Turku
+OECOL,2010,162,1,HE,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2010,162,1,HE,Gerardo,,Avalos,,Costa Rica,M,SE,,University of Costa Rica
+OECOL,2010,162,1,HE,Hakan,,Wallander,,Sweden,M,SE,,Lund University
+OECOL,2010,162,1,EIC,Hannu,,Ylonen,,Finland,M,EIC,,University of Jyvaskyla
+OECOL,2010,162,1,HE,Heli,,Siitari,,Finland,F,SE,,University of Jyvaskyla
+OECOL,2010,162,1,HE,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2010,162,1,HE,Herwig,,Leirs,,Belgium,M,SE,,University of Antwerp
+OECOL,2010,162,1,HE,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2010,162,1,HE,Ilpo,,Kojola,,Finland,M,SE,,Finnish Game and Fisheries Research Institute
+OECOL,2010,162,1,HE,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Bayreuth
+OECOL,2010,162,1,HE,Janne,,Sundell,,Finland,M,SE,,University of Helsinki
+OECOL,2010,162,1,HE,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2010,162,1,HE,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2010,162,1,HE,Jonathan,,Shurin,,Canada,M,SE,,University of British Columbia
+OECOL,2010,162,1,HE,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2010,162,1,HE,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2010,162,1,HE,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2010,162,1,HE,Kouki,,Hikosaka,,Japan,M,SE,,Tohoku University
+OECOL,2010,162,1,HE,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2010,162,1,HE,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2010,162,1,HE,Meelis,,Partel,,Estonia,M,SE,,University of Tartu
+OECOL,2010,162,1,HE,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2010,162,1,HE,Michael,,Keough,,Australia,M,SE,,Univeristy of Melbourne
+OECOL,2010,162,1,HE,Michael,,Madritch,,USA,M,SE,,Appalachian State University
+OECOL,2010,162,1,HE,Miguel,,Franco,,UK,M,SE,,Plymouth University
+OECOL,2010,162,1,HE,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2010,162,1,HE,Ola,,Olsson,,Sweden,M,SE,,Lund University
+OECOL,2010,162,1,HE,Oyvind,,Fiksen,,Norway,M,SE,,University of Bergen
+OECOL,2010,162,1,HE,Pawel,,Koteja,,Poland,M,SE,,Jagiellonian University
+OECOL,2010,162,1,HE,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2010,162,1,HE,Richard,,Karban,,USA,M,SE,,"University of California, Davis"
+OECOL,2010,162,1,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2010,162,1,HE,Sebastian,,Diehl,,Germany,M,SE,,Ludwig Maximilian University of Munich
+OECOL,2010,162,1,HE,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2010,162,1,HE,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2010,162,1,HE,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2010,162,1,HE,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2010,162,1,HE,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2011,165,1,HE,Carlos,,MartinezDelRio,,USA,M,SE,,University of Wyoming
+OECOL,2011,165,1,HE,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2011,165,1,HE,Andrew,,Hector,,Switzerland,M,SE,,University of Zurich
+OECOL,2011,165,1,HE,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2011,165,1,HE,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2011,165,1,HE,Caroline,,Muller,,Germany,F,SE,,Bielefeld University 
+OECOL,2011,165,1,HE,Catherine,,Gehring,,USA,F,SE,,Northern Arizona University
+OECOL,2011,165,1,HE,Christian,,Wirth,,Germany,M,SE,,Leipzig University
+OECOL,2011,165,1,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2011,165,1,HE,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2011,165,1,HE,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2011,165,1,HE,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2011,165,1,HE,Elena,,Litchman,,USA,F,SE,,Michigan State University
+OECOL,2011,165,1,HE,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2011,165,1,HE,Esa,,Lehikoinen,,Finland,M,SE,,University of Turku
+OECOL,2011,165,1,HE,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2011,165,1,HE,Gerardo,,Avalos,,Costa Rica,M,SE,,University of Costa Rica
+OECOL,2011,165,1,HE,Goran,,Ericsson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OECOL,2011,165,1,HE,Hakan,,Wallander,,Sweden,M,SE,,Lund University
+OECOL,2011,165,1,EIC,Hannu,,Ylonen,,Finland,M,EIC,,University of Jyvaskyla
+OECOL,2011,165,1,HE,Hannu,,Poysa,,Finland,M,SE,,Finnish Game and Fisheries Research Institute 
+OECOL,2011,165,1,HE,Helene,,Marsh,,Australia,F,SE,,James Cook University
+OECOL,2011,165,1,HE,Heli,,Siitari,,Finland,F,SE,,University of Jyvaskyla
+OECOL,2011,165,1,HE,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2011,165,1,HE,Herwig,,Leirs,,Belgium,M,SE,,University of Antwerp
+OECOL,2011,165,1,HE,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2011,165,1,HE,Ilpo,,Kojola,,Finland,M,SE,,Finnish Game and Fisheries Research Institute
+OECOL,2011,165,1,HE,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Bayreuth
+OECOL,2011,165,1,HE,Janne,,Sundell,,Finland,M,SE,,University of Helsinki
+OECOL,2011,165,1,HE,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2011,165,1,HE,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2011,165,1,HE,Jerome,,Casas,,France,M,SE,,Francois Rabelais University of Tours 
+OECOL,2011,165,1,HE,Jon,,Agren,,Sweden,M,SE,,Uppsala University
+OECOL,2011,165,1,HE,Jonathan,,Shurin,,USA,M,SE,,"University of California, San Diego"
+OECOL,2011,165,1,HE,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2011,165,1,HE,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2011,165,1,HE,Klaus,,Fischer,,Germany,M,SE,,University of Greifswald
+OECOL,2011,165,1,HE,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2011,165,1,HE,Kouki,,Hikosaka,,Japan,M,SE,,Tohoku University
+OECOL,2011,165,1,HE,Leon,,Barmuta,,Australia,M,SE,,University of Tasmania
+OECOL,2011,165,1,HE,Lin,,Schwarzkopf,,Australia,F,SE,,James Cook University
+OECOL,2011,165,1,HE,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2011,165,1,HE,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2011,165,1,HE,Meelis,,Partel,,Estonia,M,SE,,University of Tartu
+OECOL,2011,165,1,HE,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2011,165,1,HE,Michael,,Madritch,,USA,M,SE,,Appalachian State University
+OECOL,2011,165,1,HE,Miguel,,Franco,,UK,M,SE,,Plymouth University
+OECOL,2011,165,1,HE,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2011,165,1,HE,Ola,,Olsson,,Sweden,M,SE,,Lund University
+OECOL,2011,165,1,HE,Oyvind,,Fiksen,,Norway,M,SE,,University of Bergen
+OECOL,2011,165,1,HE,Pawel,,Koteja,,Poland,M,SE,,Jagiellonian University
+OECOL,2011,165,1,HE,Pedro,,Peres-Neto,,Canada,M,SE,, Universite du Quebec a Montreal (UQAM)
+OECOL,2011,165,1,HE,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2011,165,1,HE,Richard,,Karban,,USA,M,SE,,"University of California, Davis"
+OECOL,2011,165,1,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2011,165,1,HE,Sebastian,,Diehl,,Sweden,M,SE,,Umea University
+OECOL,2011,165,1,HE,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2011,165,1,HE,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2011,165,1,HE,Susan,,Schwinning,,USA,F,SE,,Texas State University
+OECOL,2011,165,1,HE,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2011,165,1,HE,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2011,165,1,HE,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2011,165,1,HE,Walter,,Carson,,USA,M,SE,,University of Pittsburg
+OECOL,2012,170,2,HE,Andrea,,Polle,,Germany,F,SE,,University of Gottingen
+OECOL,2012,170,2,HE,Andreas,,Bertsch,,Germany,,SE,,
+OECOL,2012,170,2,HE,Bernhard,,Stadler,,Germany,M,SE,,University of Bayreuth
+OECOL,2012,170,2,HE,Bernhard,,Schmid,,Switzerland,M,SE,,University of Zurich
+OECOL,2012,170,2,HE,Caroline,,Muller,,Germany,F,SE,,Bielefeld University 
+OECOL,2012,170,2,HE,Catherine,,Gehring,,USA,F,SE,,Northern Arizona University
+OECOL,2012,170,2,HE,Christian,,Wirth,,Germany,M,SE,,Leipzig University
+OECOL,2012,170,2,EIC,Christian,,Korner,,Switzerland,M,EIC,,University of Basel
+OECOL,2012,170,2,HE,Colin,,Orians,,USA,M,SE,,Tufts University
+OECOL,2012,170,2,HE,Dan,,Yakir,,Israel,M,SE,,Weizmann Institute of Science
+OECOL,2012,170,2,HE,Diethart,,Matthies,,Germany,M,SE,,Philipp University of Marburg
+OECOL,2012,170,2,HE,Elena,,Litchman,,USA,F,SE,,Michigan State University
+OECOL,2012,170,2,HE,Elizabeth,,Elle,,USA,,SE,This information is not clear in the picture,
+OECOL,2012,170,2,HE,Ernst-Detlef,,Schulze,,Germany,M,SE,,University of Jena
+OECOL,2012,170,2,HE,Esa,,Lehikoinen,,Finland,M,SE,,University of Turku
+OECOL,2012,170,2,HE,Evans,,S,,USA,,SE,This information is not clear in the picture,
+OECOL,2012,170,2,HE,Fernando,,Valladares,,Spain,M,SE,,National Museum of Natural Sciences
+OECOL,2012,170,2,HE,George,,H,,USA,,SE,This information is not clear in the picture,
+OECOL,2012,170,2,HE,Gerardo,,Avalos,,Costa Rica,M,SE,,University of Costa Rica
+OECOL,2012,170,2,HE,Goran,,Ericsson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OECOL,2012,170,2,HE,Hakan,,Wallander,,Sweden,M,SE,,Lund University
+OECOL,2012,170,2,EIC,Hannu,,Ylonen,,Finland,M,EIC,,University of Jyvaskyla
+OECOL,2012,170,2,HE,Hannu,,Poysa,,Finland,M,SE,,Finnish Game and Fisheries Research Institute 
+OECOL,2012,170,2,HE,Helene,,Marsh,,Australia,F,SE,,James Cook University
+OECOL,2012,170,2,HE,Hermann,,Heilmeier,,Germany,M,SE,,TU Bergakademie Freiberg (Freiberg University of Mining and Technology)
+OECOL,2012,170,2,HE,Herwig,,Leirs,,Belgium,M,SE,,University of Antwerp
+OECOL,2012,170,2,HE,Hormoz,,BassiriRad,,USA,M,SE,,University of Illinois
+OECOL,2012,170,2,HE,Ilpo,,Kojola,,Finland,M,SE,,Finnish Game and Fisheries Research Institute
+OECOL,2012,170,2,HE,Indiris,,K,,Latvia,,SE,This information is not clear in the picture,
+OECOL,2012,170,2,HE,Ines,,Ibanez,,USA,F,SE,This information is not clear in the picture,University of Michigan
+OECOL,2012,170,2,HE,Ingolf,,Steffan-Dewenter,,Germany,M,SE,,University of Wurzburg
+OECOL,2012,170,2,HE,James,,Bever,,USA,M,SE,This information is not clear in the picture,Indiana University
+OECOL,2012,170,2,HE,Janne,,Sundell,,Finland,M,SE,,University of Helsinki
+OECOL,2012,170,2,HE,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
+OECOL,2012,170,2,HE,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
+OECOL,2012,170,2,HE,Jeremy,,Lichstein,,USA,M,SE,,University of Florida
+OECOL,2012,170,2,HE,Jerome,,Casas,,France,M,SE,,Francois Rabelais University of Tours 
+OECOL,2012,170,2,HE,John,,Stark,,USA,,SE,,
+OECOL,2012,170,2,HE,Jon,,Agren,,Sweden,M,SE,,Uppsala University
+OECOL,2012,170,2,HE,Jonathan,,Shurin,,USA,M,SE,,"University of California, San Diego"
+OECOL,2012,170,2,HE,Jorg,,Ganzhorn,,Germany,M,SE,,University of Hamburg
+OECOL,2012,170,2,HE,Julia,,Koricheva,,UK,F,SE,,"Royal Holloway, University of London"
+OECOL,2012,170,2,HE,Klaus,,Fischer,,Germany,M,SE,,University of Greifswald
+OECOL,2012,170,2,HE,Konrad,,Fiedler,,Austria,M,SE,,University of Vienna
+OECOL,2012,170,2,HE,Kouki,,Hikosaka,,Japan,M,SE,,Tohoku University
+OECOL,2012,170,2,HE,Laura,,Gough,,USA,F,SE,This information is not clear in the picture,University of Texas at Arlington
+OECOL,2012,170,2,HE,Leon,,Barmuta,,Australia,M,SE,,University of Tasmania
+OECOL,2012,170,2,HE,Lin,,Schwarzkopf,,Australia,F,SE,,James Cook University
+OECOL,2012,170,2,HE,Manuel,,Lerdau,,USA,M,SE,,University of Virginia
+OECOL,2012,170,2,HE,Markku,,Orell,,Finland,M,SE,,University of Oulu
+OECOL,2012,170,2,HE,Matthias,,Schaefer,,Germany,M,SE,,University of Gottingen
+OECOL,2012,170,2,HE,Meelis,,Partel,,Estonia,M,SE,,University of Tartu
+OECOL,2012,170,2,HE,Mercedes,,Bustamante,,Brazil,F,SE,,University of Brasilia
+OECOL,2012,170,2,HE,Michael,,Madritch,,USA,M,SE,,Appalachian State University
+OECOL,2012,170,2,HE,Miguel,,Franco,,UK,M,SE,,Plymouth University
+OECOL,2012,170,2,HE,Nina,,Buchmann,,Switzerland,F,SE,,ETH Zurich (Swiss Federal Institute of Technology)
+OECOL,2012,170,2,HE,Ola,,Olsson,,Sweden,M,SE,,Lund University
+OECOL,2012,170,2,HE,Oyvind,,Fiksen,,Norway,M,SE,,University of Bergen
+OECOL,2012,170,2,HE,Pawel,,Koteja,,Poland,M,SE,,Jagiellonian University
+OECOL,2012,170,2,HE,Pedro,,Peres-Neto,,Canada,M,SE,, Universite du Quebec a Montreal (UQAM)
+OECOL,2012,170,2,HE,Peggy,,Ostrom,,USA,F,SE,This information is not clear in the picture,Michigan State University
+OECOL,2012,170,2,HE,R,,,,Sweden,,SE,This information is not clear in the picture,
+OECOL,2012,170,2,HE,Ram,,Oren,,USA,M,SE,,Duke University
+OECOL,2012,170,2,HE,Richard,,Karban,,USA,M,SE,,"University of California, Davis"
+OECOL,2012,170,2,EIC,Roland,,Brandl,,Germany,M,EIC,,Philipp University of Marburg
+OECOL,2012,170,2,HE,Stefan,,Scheu,,Germany,M,SE,,Technical University of Darmstadt
+OECOL,2012,170,2,HE,Stephan,,Hattenschwiler,,France,M,SE,,"French National Centre for Scientific Research (CNRS), Montpellier University"
+OECOL,2012,170,2,HE,Stuart,,Beashop,,UK,,SE,This information is not clear in the picture,
+OECOL,2012,170,2,HE,Susan,,Schwinning,,USA,F,SE,,Texas State University
+OECOL,2012,170,2,HE,Sven,,Bacher,,Switzerland,M,SE,,University of Berne
+OECOL,2012,170,2,HE,Ulo,,Niinemets,,Estonia,M,SE,This information is not clear in the picture,Estonian University of Life Sciences
+OECOL,2012,170,2,HE,Ulrich,,Sommer,,Germany,M,SE,,Kiel University
+OECOL,2012,170,2,HE,Volkmar,,Wolters,,Germany,M,SE,,University of Giessen
+OECOL,2012,170,2,HE,Walter,,Carson,,USA,M,SE,,University of Pittsburg

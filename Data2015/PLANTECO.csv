@@ -1,0 +1,562 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+PLANTECO,1991,91,1_2,Editor,Jelte,Van,Andel,,The Netherlands,M,SE,,University of Groningen
+PLANTECO,1992,98,1,Editor,Jelte,Van,Andel,,The Netherlands,M,SE,,University of Groningen
+PLANTECO,1993,104_105,1,Editor,Jelte,Van,Andel,,The Netherlands,M,SE,,University of Groningen
+PLANTECO,1994,110,1,Editor,Jelte,Van,Andel,,The Netherlands,M,SE,,University of Groningen
+PLANTECO,1996,122,1,Editor,Juan,J,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECO,1997,128,1_2,Editor,Juan,J,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECO,1998,134,1,Editor,Juan,J,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECO,1999,140,1,Editor,Juan,J,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECO,2000,146,1,Editor,Juan,J,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECO,1985,58,3,Editor,Mike,P,Austin,,Australia,M,SE,,CSIRO
+PLANTECO,1986,64,2_3,Editor,Mike,P,Austin,,Australia,M,SE,,CSIRO
+PLANTECO,1987,68,3,Editor,Mike,P,Austin,,Australia,M,SE,,CSIRO
+PLANTECO,1988,73,2,Editor,Mike,P,Austin,,Australia,M,SE,,CSIRO
+PLANTECO,2000,146,1,Editor,Richard,G,Baker,,United States,M,SE,,University of Iowa
+PLANTECO,2001,152,1,Editorial Board,Richard,G,Baker,,United States,M,SE,,University of Iowa
+PLANTECO,2002,158,1,Editorial Board,Richard,G,Baker,,United States,M,SE,,University of Iowa
+PLANTECO,2003,164,1,Editorial Board,Richard,G,Baker,,United States,M,SE,,University of Iowa
+PLANTECO,2004,170,1,Editorial Board,Richard,G,Baker,,United States,M,SE,,University of Iowa
+PLANTECO,1985,58,3,Editor,James,S,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECO,1986,64,2_3,Editor,James,S,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECO,1987,68,3,Editor,James,S,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECO,1988,73,2,Editor,James,S,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECO,2004,170,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of G_ttingen
+PLANTECO,2005,176,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of G_ttingen
+PLANTECO,1985,58,3,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECO,1986,64,2_3,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECO,1987,68,3,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECO,1988,73,2,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECO,1989,80,1,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECO,1990,86,1,Editor,Elgene,O,Box,,United States,M,SE,,"University of Georgia, Athens"
+PLANTECO,1991,91,1_2,Editor,Elgene,O,Box,,United States,M,SE,,"University of Georgia, Athens"
+PLANTECO,1992,98,1,Editor,Elgene,O,Box,,United States,M,SE,,"University of Georgia, Athens"
+PLANTECO,2000,146,1,Editor,Steve,,Brewer,,United States,M,SE,,University of Mississippi
+PLANTECO,2001,152,1,Editorial Board,Steve,,Brewer,,United States,M,SE,,University of Mississippi
+PLANTECO,2005,176,1,Editorial Board,James,F,Cahill,,Canada,M,SE,,University of Alberta
+PLANTECO,1993,104_105,1,Guest Editor,Marion,L,Cambridge,,Australia,F,Other,,University of Western Australia
+PLANTECO,2005,176,1,Editorial Board,Enrique,J,Chaneton,,Argentina,M,SE,,Universidad de Buenos Aires
+PLANTECO,1996,122,1,Editor,Gregory,P,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECO,1997,128,1_2,Editor,Gregory,P,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECO,1998,134,1,Editor,Gregory,P,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECO,1999,140,1,Editor,Gregory,P,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECO,1997,128,1_2,Editor,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,1998,134,1,Editor,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,1999,140,1,Editor,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,2000,146,1,Editor,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,2001,152,1,Editorial Board,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,2002,158,1,Editorial Board,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,2003,164,1,Editorial Board,Richard,M,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECO,2004,170,1,Editorial Board,Richard,M,Cowling,,South Africa,M,SE,,University of Port Elizabeth
+PLANTECO,2005,176,1,Editorial Board,Richard,M,Cowling,,South Africa,M,SE,,University of Port Elizabeth
+PLANTECO,2001,152,1,Editorial Board,Mick,J,Crawley,,England,M,SE,,Imperial College
+PLANTECO,2002,158,1,Editorial Board,Mick,J,Crawley,,England,M,SE,,Imperial College
+PLANTECO,1991,91,1_2,Editor,John,WH,Dacey,,United States,M,SE,,Woods Hole Oceanographic Institution
+PLANTECO,1992,98,1,Editor,John,WH,Dacey,,United States,M,SE,,Woods Hole Oceanographic Institution
+PLANTECO,1985,58,3,Editor,Michael,B,Dale,,Australia,M,SE,,CSIRO
+PLANTECO,1986,64,2_3,Editor,Michael,B,Dale,,Australia,M,SE,,CSIRO
+PLANTECO,1987,68,3,Editor,Michael,B,Dale,,Australia,M,SE,,CSIRO
+PLANTECO,1988,73,2,Editor,Michael,B,Dale,,Australia,M,SE,,CSIRO
+PLANTECO,1989,80,1,Editor,Michael,B,Dale,,Australia,M,SE,,CSIRO
+PLANTECO,1985,58,3,Editor,Antoni,WH,Damman,,United States,M,SE,,University of Connecticut
+PLANTECO,1986,64,2_3,Editor,Antoni,WH,Damman,,United States,M,SE,,University of Connecticut
+PLANTECO,1987,68,3,Editor,Antoni,WH,Damman,,United States,M,SE,,University of Connecticut
+PLANTECO,1988,73,2,Editor,Antoni,WH,Damman,,United States,M,SE,,University of Connecticut
+PLANTECO,1989,80,1,Editor,Antoni,WH,Damman,,United States,M,SE,,University of Connecticut
+PLANTECO,1987,68,3,Editor,Max,,Debussche,,France,M,SE,,Centre national de la recherche scientifique
+PLANTECO,1988,73,2,Editor,Max,,Debussche,,France,M,SE,,Centre national de la recherche scientifique
+PLANTECO,1989,80,1,Editor,Max,,Debussche,,France,M,SE,,Centre national de la recherche scientifique
+PLANTECO,1993,104_105,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1994,110,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1995,116,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1996,122,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1997,128,1_2,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1998,134,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1999,140,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,2000,146,1,Editor,Evan,H,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECO,1990,86,1,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1991,91,1_2,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1992,98,1,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1993,104_105,1,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1994,110,1,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1995,116,1,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1996,122,1,Editor,James,K,Detling,,United States,M,SE,,Colorado State University
+PLANTECO,1996,122,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,1997,128,1_2,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,1998,134,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,1999,140,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,2000,146,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,2003,164,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,2004,170,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,2005,176,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECO,1991,91,1_2,Editor,Bert,G,Drake,,United States,M,SE,,Smithsonian Environmental Research Center
+PLANTECO,1992,98,1,Editor,Bert,G,Drake,,United States,M,SE,,Smithsonian Environmental Research Center
+PLANTECO,1997,128,1_2,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECO,1998,134,1,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECO,1999,140,1,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECO,2000,146,1,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECO,1990,86,1,Editor,Kazue,,Fujiwara,,Japan,F,SE,,Yokohama National University
+PLANTECO,1991,91,1_2,Editor,Kazue,,Fujiwara,,Japan,F,SE,,Yokohama National University
+PLANTECO,1992,98,1,Editor,Kazue,,Fujiwara,,Japan,F,SE,,Yokohama National University
+PLANTECO,2001,152,1,Editorial Board,Susan,M,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECO,2002,158,1,Editorial Board,Susan,M,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECO,2003,164,1,Editorial Board,Susan,M,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECO,2004,170,1,Editorial Board,Susan,M,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECO,1985,58,3,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universit_ de Paris
+PLANTECO,1986,64,2_3,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universit_ de Paris
+PLANTECO,1987,68,3,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universit_ de Paris
+PLANTECO,1988,73,2,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universit_ de Paris
+PLANTECO,1991,91,1_2,Editor,Jean-Marie,,Gehu,,France,M,SE,,St. de Phytosociologie Fondamental
+PLANTECO,1992,98,1,Editor,Jean-Marie,,Gehu,,France,M,SE,,St. de Phytosociologie Fondamental
+PLANTECO,1985,58,3,Editor,Charles,H,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECO,1986,64,2_3,Editor,Charles,H,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECO,1987,68,3,Editor,Charles,H,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECO,1988,73,2,Editor,Charles,H,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECO,1989,80,1,Editor,Charles,H,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECO,1985,58,3,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1986,64,2_3,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1987,68,3,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1988,73,2,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1989,80,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1990,86,1,Associate Editor,David,C,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECO,1991,91,1_2,Associate Editor,David,C,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECO,1992,98,1,Associate Editor,David,C,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECO,1993,104_105,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1994,110,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1995,116,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1996,122,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1997,128,1_2,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1998,134,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,1999,140,1,Editor,David,C,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECO,2003,164,1,Advisory Board,David,C,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECO,2004,170,1,Advisory Board,David,C,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECO,2005,176,1,Advisory Board,David,C,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECO,1990,86,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1991,91,1_2,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1992,98,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1993,104_105,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1994,110,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1995,116,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1996,122,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1997,128,1_2,Editor,James,B,Grace,,United States,M,SE,,U.S. Geological Survey
+PLANTECO,1998,134,1,Editor,James,B,Grace,,United States,M,SE,,U.S. Geological Survey
+PLANTECO,1999,140,1,Editor,James,B,Grace,,United States,M,SE,,U.S. Geological Survey
+PLANTECO,1985,58,3,Editor,Peter,J,Grubb,,England,M,SE,,University of Cambridge
+PLANTECO,1986,64,2_3,Editor,Peter,J,Grubb,,England,M,SE,,University of Cambridge
+PLANTECO,1990,86,1,Editor,Otto,,Hegg,,Switzerland,M,SE,,University of Bern
+PLANTECO,1991,91,1_2,Editor,Otto,,Hegg,,Switzerland,M,SE,,University of Bern
+PLANTECO,1992,98,1,Editor,Otto,,Hegg,,Switzerland,M,SE,,University of Bern
+PLANTECO,1991,91,1_2,Guest Editor,Ann,,Henderson-Sellers,,Australia,F,Other,,Macquarie University
+PLANTECO,1993,104_105,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECO,1994,110,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECO,1995,116,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECO,1996,122,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECO,2003,164,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECO,2004,170,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECO,2005,176,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECO,1988,73,2,Editor,Richard,J,Hobbs,,Australia,M,SE,,CSIRO
+PLANTECO,1989,80,1,Editor,Richard,J,Hobbs,,Australia,M,SE,,CSIRO
+PLANTECO,1985,58,3,Editor,Wolfgang,,Holzner,,Austria,M,SE,,Universit_t fªr Bodenkultur
+PLANTECO,1986,64,2_3,Editor,Wolfgang,,Holzner,,Austria,M,SE,,Universit_t fªr Bodenkultur
+PLANTECO,1987,68,3,Editor,Wolfgang,,Holzner,,Austria,M,SE,,Universit_t fªr Bodenkultur
+PLANTECO,1997,128,1_2,Editor,Henry,F,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECO,1998,134,1,Editor,Henry,F,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECO,1999,140,1,Editor,Henry,F,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECO,2000,146,1,Editor,Henry,F,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECO,1997,128,1_2,Editor,Nancy,,Huntly,,United States,F,SE,,Idaho State University
+PLANTECO,1998,134,1,Editor,Nancy,,Huntly,,United States,F,SE,,Idaho State University
+PLANTECO,1993,104_105,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,1994,110,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,1995,116,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,1996,122,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,1997,128,1_2,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,1998,134,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,1999,140,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,2000,146,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECO,2003,164,1,Advisory Board,Michael,J,Hutchings,,England,M,AE,,University of Sussex
+PLANTECO,2004,170,1,Advisory Board,Michael,J,Hutchings,,England,M,AE,,University of Sussex
+PLANTECO,2005,176,1,Advisory Board,Michael,J,Hutchings,,England,M,AE,,University of Sussex
+PLANTECO,1993,104_105,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,1994,110,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,1995,116,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,1996,122,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,1997,128,1_2,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,1998,134,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,1999,140,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,2000,146,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECO,2003,164,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECO,2004,170,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECO,2005,176,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECO,1991,91,1_2,Editor,Robert,L,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECO,1992,98,1,Editor,Robert,L,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECO,1993,104_105,1,Editor,Robert,L,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECO,1994,110,1,Editor,Robert,L,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECO,1995,116,1,Editor,Robert,L,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECO,1996,122,1,Editor,Robert,L,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECO,2001,152,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECO,2002,158,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECO,2003,164,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECO,2004,170,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECO,2005,176,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECO,2001,152,1,Editorial Board,Norman,,Kenkel,,Canada,M,SE,,University of Manitoba
+PLANTECO,2002,158,1,Editorial Board,Norman,,Kenkel,,Canada,M,SE,,University of Manitoba
+PLANTECO,2003,164,1,Editorial Board,Norman,,Kenkel,,Canada,M,SE,,University of Manitoba
+PLANTECO,1985,58,3,Editor,Frank,,Klotzli,,Switzerland,M,SE,,Geobotanisches Institut
+PLANTECO,1986,64,2_3,Editor,Frank,,Klotzli,,Switzerland,M,SE,,Geobotanisches Institut
+PLANTECO,1987,68,3,Editor,Frank,,Klotzli,,Switzerland,M,SE,,Geobotanisches Institut
+PLANTECO,2000,146,1,Editor,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECO,2001,152,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECO,2002,158,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECO,2003,164,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECO,2004,170,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECO,2005,176,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECO,1997,128,1_2,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECO,1998,134,1,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECO,1999,140,1,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECO,2000,146,1,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECO,1990,86,1,Editor,Konstantin,O,Korotkov,,USSR,M,SE,,Institute of Animal Evolutionary Morphology and Ecology
+PLANTECO,1991,91,1_2,Editor,Konstantin,O,Korotkov,,USSR,M,SE,,Institute of Animal Evolutionary Morphology and Ecology
+PLANTECO,1992,98,1,Editor,Konstantin,O,Korotkov,,USSR,M,SE,,Institute of Animal Evolutionary Morphology and Ecology
+PLANTECO,1990,86,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1991,91,1_2,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1992,98,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1993,104_105,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1994,110,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1995,116,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1996,122,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1997,128,1_2,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1998,134,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1999,140,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,2000,146,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universit_t Freiburg
+PLANTECO,1993,104_105,1,Guest Editor,Hans,,Lambers,,Australia,M,Other,,University of Western Australia
+PLANTECO,1991,91,1_2,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1992,98,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1993,104_105,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1994,110,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1995,116,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1996,122,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1997,128,1_2,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1998,134,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1999,140,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,2000,146,1,Editor,William,K,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECO,1996,122,1,Editor,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,1997,128,1_2,Editor,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,1998,134,1,Editor,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,1999,140,1,Editor,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,2000,146,1,Editor,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,2001,152,1,Editorial Board,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,2002,158,1,Editorial Board,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,2003,164,1,Editorial Board,John,A,Lee,,England,M,SE,,University of Sheffield
+PLANTECO,2004,170,1,Editorial Board,John,A,Lee,,United States,M,SE,,University of Sheffield
+PLANTECO,2005,176,1,Editorial Board,John,A,Lee,,United States,M,SE,,University of Sheffield
+PLANTECO,1996,122,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universit_ de Montr_al
+PLANTECO,1997,128,1_2,Editor,Pierre,,Legendre,,Canada,M,SE,,Universit_ de Montr_al
+PLANTECO,1998,134,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universit_ de Montr_al
+PLANTECO,1999,140,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universit_ de Montr_al
+PLANTECO,2000,146,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universit_ de Montr_al
+PLANTECO,2003,164,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universit_ de Montr_al
+PLANTECO,2004,170,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universit_ de Montr_al
+PLANTECO,2005,176,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universit_ de Montr_al
+PLANTECO,1991,91,1_2,Editor-in-Chief,Helmut,,Lieth,,Germany,M,EIC,,Universit_t Osnabrªck
+PLANTECO,1992,98,1,Editor-in-Chief,Helmut,,Lieth,,Germany,M,EIC,,Universit_t Osnabrªck
+PLANTECO,1993,104_105,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universit_t Osnabrªck
+PLANTECO,1994,110,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universit_t Osnabrªck
+PLANTECO,1995,116,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universit_t Osnabrªck
+PLANTECO,1996,122,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universit_t Osnabrªck
+PLANTECO,1997,128,1_2,Editor,Craig,G,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECO,1998,134,1,Editor,Craig,G,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECO,1999,140,1,Editor,Craig,G,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECO,2000,146,1,Editor,Craig,G,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECO,1985,58,3,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1986,64,2_3,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1987,68,3,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1988,73,2,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1989,80,1,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1990,86,1,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1991,91,1_2,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1992,98,1,Editor,Ariel,E,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECO,1990,86,1,Editor,Leonid,I,Malyshev,,USSR,M,SE,,Siberian Central Botanical Garden
+PLANTECO,1991,91,1_2,Editor,Leonid,I,Malyshev,,USSR,M,SE,,Siberian Central Botanical Garden
+PLANTECO,1992,98,1,Editor,Leonid,I,Malyshev,,USSR,M,SE,,Siberian Central Botanical Garden
+PLANTECO,2000,146,1,Editor,Brian,C,McCarthy,,United States,M,SE,,Ohio University
+PLANTECO,2001,152,1,Editorial Board,Brian,C,McCarthy,,United States,M,SE,,Ohio University
+PLANTECO,1996,122,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,1997,128,1_2,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,1998,134,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,1999,140,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,2000,146,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,2001,152,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,2002,158,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,2003,164,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologa y Ciencias
+PLANTECO,2003,164,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,2004,170,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologa y Ciencias
+PLANTECO,2004,170,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologa y Ciencias
+PLANTECO,2005,176,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologa y Ciencias
+PLANTECO,1990,86,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1991,91,1_2,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1992,98,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1993,104_105,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1994,110,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1995,116,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1996,122,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,ócole normale sup_rieure (ENS)
+PLANTECO,1989,80,1,Editor,Peter,M,Minchin,,Australia,M,SE,,CSIRO
+PLANTECO,1990,86,1,Associate Editor,Atsushi,,Miyawaki,,Japan,M,AE,,Yokohama National University
+PLANTECO,1991,91,1_2,Associate Editor,Atsushi,,Miyawaki,,Japan,M,AE,,Yokohama National University
+PLANTECO,1992,98,1,Associate Editor,Atsushi,,Miyawaki,,Japan,M,AE,,Yokohama National University
+PLANTECO,1996,122,1,Editor,Roger,d_l,Moral,,United States,M,SE,,University of Washington 
+PLANTECO,1997,128,1_2,Editor,Roger,d_l,Moral,,United States,M,SE,,University of Washington 
+PLANTECO,1998,134,1,Editor,Roger,d_l,Moral,,United States,M,SE,,University of Washington 
+PLANTECO,1999,140,1,Editor,Roger,d_l,Moral,,United States,M,SE,,University of Washington 
+PLANTECO,2000,146,1,Editor,Roger,d_l,Moral,,United States,M,SE,,University of Washington 
+PLANTECO,2001,152,1,Editorial Board,Roger,d_l,Moral,,United States,M,SE,,University of Washington 
+PLANTECO,2003,164,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECO,2004,170,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECO,2005,176,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECO,2002,158,1,Editorial Board,David,M,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECO,2003,164,1,Editorial Board,David,M,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECO,2004,170,1,Editorial Board,David,M,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECO,1990,86,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1991,91,1_2,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1992,98,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1993,104_105,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1994,110,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1995,116,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1996,122,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1997,128,1_2,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1998,134,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,1999,140,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2000,146,1,Editor,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2001,152,1,Editorial Board,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2002,158,1,Editorial Board,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2003,164,1,Editorial Board,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2004,170,1,Editorial Board,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2005,176,1,Editorial Board,Pier,L,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECO,2005,176,1,Editorial Board,Martin,,Oesterheld,,Argentina,M,SE,,Universidad de Buenos Aires
+PLANTECO,1989,80,1,Editor,Jari,,Oksanen,,Finland,M,SE,,University of Kuopio
+PLANTECO,2002,158,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universit_ Montpellier
+PLANTECO,2003,164,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universit_ Montpellier
+PLANTECO,2004,170,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universit_ Montpellier
+PLANTECO,2005,176,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universit_ Montpellier
+PLANTECO,2000,146,1,Editor,Linda,S,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECO,2001,152,1,Editorial Board,Linda,S,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECO,2002,158,1,Editorial Board,Linda,S,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECO,2003,164,1,Editorial Board,Linda,S,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECO,2004,170,1,Editorial Board,Linda,S,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECO,2005,176,1,Editorial Board,Linda,S,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECO,1996,122,1,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECO,1997,128,1_2,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECO,1998,134,1,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECO,1999,140,1,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECO,1991,91,1_2,Editor,Franco,,Pedrotti,,Italy,M,SE,,Universit_ Camerino
+PLANTECO,1992,98,1,Editor,Franco,,Pedrotti,,Italy,M,SE,,Universit_ Camerino
+PLANTECO,1985,58,3,Editor,Robert,K,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1986,64,2_3,Editor,Robert,K,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1987,68,3,Editor,Robert,K,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1988,73,2,Editor,Robert,K,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1989,80,1,Editor,Robert,K,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2005,176,1,Editorial Board,Duane,A,Pelzer,,New Zealand,M,SE,,Landcare Research
+PLANTECO,1988,73,2,Editor,Steward,TA,Pickett,,United States,M,SE,,New York Botanical Garden
+PLANTECO,1989,80,1,Editor,Steward,TA,Pickett,,United States,M,SE,,New York Botanical Garden
+PLANTECO,1987,68,3,Editor,Francisco,D,Pineda,,Spain,M,SE,,Universidad Complutense
+PLANTECO,1988,73,2,Editor,Francisco,D,Pineda,,Spain,M,SE,,Universidad Complutense
+PLANTECO,1989,80,1,Editor,Francisco,D,Pineda,,Spain,M,SE,,Universidad Complutense
+PLANTECO,1991,91,1_2,Guest Editor,Andrew,J,Pitman,,Australia,M,Other,,Macquarie University
+PLANTECO,2001,152,1,Editorial Board,William,J,Platt,,United States,M,SE,,Lousiana State University
+PLANTECO,2002,158,1,Editorial Board,William,J,Platt,,United States,M,SE,,Lousiana State University
+PLANTECO,2003,164,1,Editorial Board,William,J,Platt,,United States,M,SE,,Lousiana State University
+PLANTECO,2004,170,1,Editorial Board,William,J,Platt,,United States,M,SE,,Lousiana State University
+PLANTECO,2004,170,1,Editorial Board,Peter,,Poschlod,,Germany,M,SE,,University of Regensburg
+PLANTECO,1985,58,3,Editor,Iain,C,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECO,1986,64,2_3,Editor,Iain,C,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECO,1987,68,3,Editor,Iain,C,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECO,1988,73,2,Editor,Iain,C,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECO,1989,80,1,Editor,Iain,C,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECO,1997,128,1_2,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,1998,134,1,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,1999,140,1,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,2000,146,1,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,2001,152,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,2002,158,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,2003,164,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,2004,170,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,2005,176,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECO,1993,104_105,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1994,110,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1995,116,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1996,122,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1997,128,1_2,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1998,134,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,1999,140,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,2000,146,1,Editor,Palayanoor,S,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECO,2003,164,1,Advisory Board,Palayanoor,S,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECO,2004,170,1,Advisory Board,Palayanoor,S,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECO,2005,176,1,Advisory Board,Palayanoor,S,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECO,1996,122,1,Editor,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,1997,128,1_2,Editor,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,1998,134,1,Editor,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,1999,140,1,Editor,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,2000,146,1,Editor,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,2001,152,1,Editorial Board,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,2002,158,1,Editorial Board,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,2003,164,1,Editorial Board,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,2004,170,1,Editorial Board,Richard,J,Reader,,Canada,M,SE,,University of Guelph
+PLANTECO,1996,122,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECO,1997,128,1_2,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECO,1998,134,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECO,1999,140,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECO,2000,146,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECO,1988,73,2,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1989,80,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1990,86,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1991,91,1_2,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1991,91,1_2,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1992,98,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1993,104_105,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1993,104_105,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1993,104_105,1,Guest Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1994,110,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1994,110,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1995,116,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1995,116,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1996,122,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1996,122,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1997,128,1_2,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1997,128,1_2,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1998,134,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1998,134,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1999,140,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1999,140,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,2000,146,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,2000,146,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,2001,152,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,2001,152,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,2002,158,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,2002,158,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,2003,164,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,2004,170,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,2005,176,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECO,1990,86,1,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,1991,91,1_2,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,1992,98,1,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,1993,104_105,1,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,1994,110,1,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,1995,116,1,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,1996,122,1,Editor,Michael,C,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECO,2001,152,1,Editorial Board,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+PLANTECO,2002,158,1,Editorial Board,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+PLANTECO,2003,164,1,Editorial Board,Rowan,F,Sage,,Canada,M,SE,,University of Toronto
+PLANTECO,2004,170,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECO,2005,176,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECO,1990,86,1,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1991,91,1_2,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1992,98,1,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1993,104_105,1,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1994,110,1,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1995,116,1,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1996,122,1,Editor,Osvaldo,E,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECO,1993,104_105,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,1994,110,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,1995,116,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,1996,122,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,1997,128,1_2,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,1998,134,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,1999,140,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,2000,146,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECO,2002,158,1,Editorial Board,Karle,V,Sykora,,The Netherlands,M,SE,,Wageningen University
+PLANTECO,2003,164,1,Editorial Board,Karle,V,Sykora,,The Netherlands,M,SE,,Wageningen University
+PLANTECO,1988,73,2,Editor,Cajo,JF,terBraak,,The Netherlands,M,SE,,Wageningen University
+PLANTECO,1989,80,1,Editor,Cajo,J,terBraak,,The Netherlands,M,SE,,Wageningen University
+PLANTECO,1990,86,1,Editor,Vadim,N,Tikhomirov,,USSR,M,SE,,Moscow State University
+PLANTECO,1991,91,1_2,Editor,Vadim,N,Tikhomirov,,USSR,M,SE,,Moscow State University
+PLANTECO,1992,98,1,Editor,Vadim,N,Tikhomirov,,USSR,M,SE,,Moscow State University
+PLANTECO,1985,58,3,Editor,Argenta,A,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECO,1986,64,2_3,Editor,Argenta,A,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECO,1987,68,3,Editor,Argenta,A,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECO,1988,73,2,Editor,Argenta,A,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECO,1989,80,1,Editor,Argenta,A,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECO,1993,104_105,1,Guest Editor,Siebe,C,VanDeGeijn,,The Netherlands,M,Other,,Research Institute for Agrobiology and Soil Fertility
+PLANTECO,2003,164,1,Book Review Editor,Marcel,GA,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,2004,170,1,Book Review Editor,Marcel,GA,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,2005,176,1,Book Review Editor,Marcel,GA,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECO,1985,58,3,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECO,1986,64,2_3,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECO,1987,68,3,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECO,1988,73,2,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECO,1989,80,1,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECO,1990,86,1,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECO,1990,86,1,Editor,Arnold,G,VanDerValk,,United States,M,SE,,Iowa State University
+PLANTECO,1992,98,1,Editor,Arnold,G,VanDerValk,,United States,M,SE,,Iowa State University
+PLANTECO,1993,104_105,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1994,110,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1995,116,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1996,122,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1997,128,1_2,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1998,134,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1999,140,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,2000,146,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,2001,152,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,2002,158,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,2003,164,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,2004,170,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,2005,176,1,Editor-in-Chief,Arnold,G,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECO,1989,80,1,Editor,Thomas,T,Veblen,,United States,M,SE,,"University of Colorado, Boulder"
+PLANTECO,1990,86,1,Editor,Dale,H,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECO,1991,91,1_2,Editor,Dale,H,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECO,1992,98,1,Editor,Dale,H,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECO,1993,104_105,1,Editor,Dale,H,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECO,1994,110,1,Editor,Dale,H,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECO,1990,86,1,Editor,Mohan,K,Wali,,United States,M,SE,,Ohio State University
+PLANTECO,1991,91,1_2,Editor,Mohan,K,Wali,,United States,M,SE,,Ohio State University
+PLANTECO,1992,98,1,Editor,Mohan,K,Wali,,United States,M,SE,,Ohio State University
+PLANTECO,2004,170,1,Editorial Board,Lawrence,R,Walker,,United States,M,SE,,University of Nevada
+PLANTECO,1997,128,1_2,Editor,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1998,134,1,Editor,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1999,140,1,Editor,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2000,146,1,Editor,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2001,152,1,Editorial Board,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2002,158,1,Editorial Board,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2003,164,1,Editorial Board,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2004,170,1,Editorial Board,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,2005,176,1,Editorial Board,Stephen,J,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECO,1985,58,3,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1986,64,2_3,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1987,68,3,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1988,73,2,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1989,80,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1990,86,1,Associate Editor,Marinus,JA,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECO,1991,91,1_2,Associate Editor,Marinus,JA,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECO,1992,98,1,Associate Editor,Marinus,JA,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECO,1993,104_105,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1994,110,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1995,116,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1996,122,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1997,128,1_2,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1998,134,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,1999,140,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,2000,146,1,Editor,Marinus,JA,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECO,2003,164,1,Advisory Board,Marinus,JA,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECO,2004,170,1,Advisory Board,Marinus,JA,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECO,2005,176,1,Advisory Board,Marinus,JA,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECO,1990,86,1,Editor,Neil,E,West,,United States,M,SE,,Utah State University
+PLANTECO,1991,91,1_2,Editor,Neil,E,West,,United States,M,SE,,Utah State University
+PLANTECO,1992,98,1,Editor,Neil,E,West,,United States,M,SE,,Utah State University
+PLANTECO,2005,176,1,Editorial Board,Paul,R,Wetzel,,United States,M,SE,,Smith College
+PLANTECO,1985,58,3,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECO,1986,64,2_3,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECO,1987,68,3,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECO,1988,73,2,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECO,1989,80,1,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECO,1988,73,2,Editor,Timothy,C,Whitmore,,England,M,SE,,Oxford Forestry Institute
+PLANTECO,1989,80,1,Editor,Timothy,C,Whitmore,,England,M,SE,,Oxford Forestry Institute
+PLANTECO,2004,170,1,Editorial Board,Scott,,Wilson,,United States,M,SE,,University of Regina
+PLANTECO,2005,176,1,Editorial Board,Scott,,Wilson,,United States,M,SE,,University of Regina
+PLANTECO,1990,86,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1991,91,1_2,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1992,98,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1993,104_105,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1994,110,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1995,116,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1996,122,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECO,1990,86,1,Editor,Kazimierz,,Zarzycki,,Poland,M,SE,,Polish Academy of Sciences
+PLANTECO,1991,91,1_2,Editor,Kazimierz,,Zarzycki,,Poland,M,SE,,Polish Academy of Sciences
+PLANTECO,1992,98,1,Editor,Kazimierz,,Zarzycki,,Poland,M,SE,,Polish Academy of Sciences
