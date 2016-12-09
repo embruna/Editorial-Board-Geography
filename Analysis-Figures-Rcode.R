@@ -205,42 +205,26 @@ ClassData$VOLUME<-as.integer(ClassData$VOLUME)
 ClassData$ISSUE<-as.integer(ClassData$ISSUE)
 
 
-
-
-CHECKFILE<-filter(CHECKFILE,CHECKFILE$FIRST_NAME!="Mar\x90a")
-CHECKFILE<-filter(CHECKFILE,CHECKFILE$FIRST_NAME!="J\xd3rg")
-
-######################################
-
-# BIND THEM UP
-
-# str(ChoData)
-# str(ClassData)
-
-ChoData<-ChoData %>% 
-  select(-NOTES, -GENDER)
-
-ClassData<-ClassData %>% 
-  select(-INSTITUTION,-NOTES,-GENDER,-SUFFIX)
-
-AllJournals<-rbind(ChoData,ClassData)
-str(AllJournals)
-summary(AllJournals)
-
+#DELETE THESE WHEN FIXED
+ClassData<-filter(ClassData,ClassData$FIRST_NAME!="Mar\x90a")
+ClassData<-filter(ClassData,ClassData$FIRST_NAME!="J\xd3rg")
 
 
 # NOW NEED TO MAKE SURE ALL NAMES ARE CONSISTENT, CASES, CATEGORRIES, ETC, Make Cap 1st letter, rest lowercase
 # THIS SHOULD BE CONVERETED TO A FUNCTION
 
-JrnlToClean<-ChoData
+JrnlToClean<-ClassData
 
-JrnlToClean$CATEGORY<-gsub(" ", "", JrnlToClean$CATEGORY, fixed=TRUE) #remove extra spaces, converts to chr
+#remove extra spaces, converts to chr
+JrnlToClean$CATEGORY<-gsub(" ", "", JrnlToClean$CATEGORY, fixed=TRUE) 
 
 
 ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
 ##SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
 # 3512   Briones   Mar\x90a          JI 10
 # 4099     Kudla    J\xd3rg        <NA> 1
+# BIOG: 2x check Brian ROsen and Huntley
+# EVOL: several titles missing
 
 # Several in NAMES1 are apparently wrong
 #Alan G
@@ -283,13 +267,6 @@ levels(JrnlToClean$CATEGORY)
 which(JrnlToClean$CATEGORY=="Other") 
 summary(JrnlToClean$CATEGORY)
 
-# 
-# JrnlToClean %>% group_by("LAST_NAME","FIRST_NAME","MIDDLE_NAME") %>% 
-#    summarise("count"=cumsum("LAST_NAME"))
-# JrnlToClean %>% tally(group_by("LAST_NAME","FIRST_NAME","MIDDLE_NAME")) %>% summarise(count=tally("LAST_NAME"))
-# str(JrnlToClean$LAST_NAME)
-# str(CHECKFILE)
-
 CHECKFILE<-JrnlToClean %>%
   group_by(LAST_NAME,FIRST_NAME,MIDDLE_NAME) %>% 
   tally(sort=FALSE)
@@ -328,8 +305,8 @@ NamesDF<-data.frame(
   Name1 = rep(names(NamesList), lapply(NamesList, length)),
   Name2 = unlist(NamesList))
 
-summary(NamesDF)
-str(NamesDF)
+# summary(NamesDF)
+# str(NamesDF)
 
 # Create a column to which you will add a logical condition telling you if the names are an EXACT match
 NamesDF$match<-NA
@@ -359,100 +336,19 @@ NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
 NamesDF<-arrange(NamesDF,Name_dist,Name1)
 write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck.csv", row.names = F) #export it as a csv file
 
-
-
-
-
-
-
-
-
-
-# NamesDF %>% distinct
-# 
-# 
-# a <- c("pear","pear","apple","kiwi")
-# b <- c("apple","apple","pear","watermelon")
-# df <-data.frame(a,b)
-# df[!duplicated(t(apply(df, 1, sort))),]
-
-
-# a <- c("pear","pear","apple","kiwi")
-# b <- c("apple","apple","pear","watermelon")
-# df <-data.frame(a,b)
-# distinct(NamesDF, Name1, Name2)
-# NamesDF[!duplicated(NamesDF[,c('Name1', 'Name2')]),]
-# NamesDF<-unique(NamesDF[,c('Name1','Name2')])
-
-
-NamesDF<-unique(NamesDF["Name1","Name2"],)
-NamesDF<-unique(t(apply(NamesDF, 1, sort)))
-NamesDF<-arrange(NamesDF,desc(Name_sim))
-head(NamesDF,40)
-# trying to run throws errors showing these have mistakes
-# Briones   Mar\x90a          
-# Kudla    J\xd3rg     
-
-CHECKFILE$last_sim<-levenshteinSim(CHECKFILE$LAST_NAME, CHECKFILE$LAST_NAME)
-CHECKFILE$both_sim<-levenshteinSim(CHECKFILE$COMPLETE_NAME, CHECKFILE$COMPLETE_NAME)
-# CHECKFILE<-arrange(CHECKFILE, desc(first_sim))
-NamesDF<-arrange(NamesDF, fullName_sim)
-head(NamesDF,50)
-
-
-
-sapply(CHECKFILE$LAST_NAME,agrep,CHECKFILE$LAST_NAME) #Trying to speedup the check for misspelled or duplicate names
-  
-
-sapply(CHECKFILE$LAST_NAME,agrep,CHECKFILE$LAST_NAME, value=TRUE)
-str(CHECKFILE$COMPLETE_NAME)
-foo<-sapply(CHECKFILE$COMPLETE_NAME,agrep,CHECKFILE$COMPLETE_NAME, value=TRUE) #MAKES A LIST
-
-# then convert to a dataframe  
-# https://aurelienmadouasse.wordpress.com/2012/05/22/r-code-how-to-convert-a-list-to-a-data-frame/
-NamesDF<-data.frame(
-  Name1 = rep(names(foo), lapply(foo, length)),
-  Name2 = unlist(foo))
-NamesDF$match<-NamesDF$Name1==NamesDF$Name2
-match2<-ifelse(NamesDF$match=="TRUE",1,0)
-NamesDF<-cbind(NamesDF,match2) #convert TRUE/FALSEto 0/1
-head(NamesDF,20)
-str(NamesDF)
-NamesDF<-arrange(NamesDF,desc(Name1,Name2))
-NamesDF<-filter(NamesDF, match2=="0")
-
-NamesDF$Name1<-as.character(NamesDF$Name1)
-NamesDF$Name2<-as.character(NamesDF$Name2)
-str(NamesDF)
-###HERE IT IS!!! HOW TO COMPARE NAMES
-
-# library(RecordLinkage)
-# NamesDF$similarity<-levenshteinSim(A, B)
-# NamesDF<-arrange(NamesDF, desc(similarity))
-# NamesDF<-arrange(NamesDF, similarity)
-# NamesDF[3,1]
-# NamesDF[3,2]
-# 
-# # DO THE FOLLOWING
-# 1. compare similarity of last name
-# 2. compare similarity of first Name
-# 3 compare similarity of 2 names together in one name
-
 # use high similarity of last name but low of first name to find misspelled or shortened first name
 # use high similarity of first name but low of last name to find misspelled last names
 # confirm with complete string similarity
 
 
+######################################################
+#
+# STANDARDINZING THE COUNTRY CODES ON CLEAN DATASETS
+# Make this a function
+#
+######################################################
 
-
-C<-compare.linkage (A,B, blockfld = FALSE,
-                 phonetic = FALSE, strcmp = FALSE,
-                 strcmpfun = jarowinkler, exclude = FALSE, identity1 = NA, identity2 = NA,
-                 n_match = NA, n_non_match = NA)
-
-
-
-
+DATASET<-ChoData OR DATASET<-ClassData
 
 #step3: change all the country names to the codes used in mapping
 #Add a column with the 3 letter country codes to be consistent with the other datasets
@@ -460,17 +356,17 @@ C<-compare.linkage (A,B, blockfld = FALSE,
 #The packahge countrycode will take your column of country names and convert them to ISO3166-3 Codes
 #I began by checking the values of COUNTRY to see if there are any mistakes. To do so I just created a vector 
 #called CODECHECK
-JrnlToClean$CODECHECK<-countrycode(JrnlToClean$COUNTRY, "country.name", "iso3c", warn = TRUE)
+DATASET$CODECHECK<-countrycode(DATASET$COUNTRY, "country.name", "iso3c", warn = TRUE)
 #By setting "warn=TRUE" it will tell you which ones it couldn't convert. Because of spelling mistakes, etc.
 #You can correct these as follows in the dataframe with all the data, then add a new column to the dataframe with the country codes
 
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots everywhere
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "Wales"]  <- "UK"
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "England"]  <- "UK"
-JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
+DATASET$COUNTRY[DATASET$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
+DATASET$COUNTRY[DATASET$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
+DATASET$COUNTRY[DATASET$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
+DATASET$COUNTRY[DATASET$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots everywhere
+DATASET$COUNTRY[DATASET$COUNTRY == "Wales"]  <- "UK"
+DATASET$COUNTRY[DATASET$COUNTRY == "England"]  <- "UK"
+DATASET$COUNTRY[DATASET$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
 
 #we need to change yugoslavia to what?
 #we need to add french guiana wold bank classficiation
@@ -483,35 +379,55 @@ JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "German Democratic Republic"]  <- "Ge
 
 #This line adds a column of country codes based on the country name
 #some countries may not be correctly coded
-JrnlToClean$COUNTRY.CODE<-countrycode(JrnlToClean$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
+DATASET$COUNTRY.CODE<-countrycode(DATASET$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
 
 
 #These lines add the income level and region level based on the editor country
-JrnlToClean$INCOME_LEVEL <- WDI_data[JrnlToClean$COUNTRY.CODE, 'income']  #Making a new column of income level by country
-JrnlToClean$REGION <- WDI_data[JrnlToClean$COUNTRY.CODE, 'region']  #Making a new column of income level by country
+DATASET$INCOME_LEVEL <- WDI_data[DATASET$COUNTRY.CODE, 'income']  #Making a new column of income level by country
+DATASET$REGION <- WDI_data[DATASET$COUNTRY.CODE, 'region']  #Making a new column of income level by country
 
 #subsetting data to only EIC, AE and SE classifications
-JrnlToClean <- JrnlToClean[JrnlToClean$CATEGORY %in% c('EIC', 'AE', 'SE'),]
+DATASET <- DATASET[DATASET$CATEGORY %in% c('EIC', 'AE', 'SE'),]
 
 #step 4: choose the temporal coverage
 #use only 1985 to 2013 
-JrnlToClean<-JrnlToClean[JrnlToClean$YEAR>=1985 & JrnlToClean$YEAR<=2013,]
+DATASET<-DATASET[DATASET$YEAR>=1985 & DATASET$YEAR<=2013,]
 
 #step 5: 2x that it all looks ok
-summary(JrnlToClean)
+summary(DATASET)
 
 #2x check - are there any with country missing?
-MISSING=subset(JrnlToClean, subset=(COUNTRY=="?"))
+MISSING=subset(DATASET, subset=(COUNTRY=="?"))
 MISSING
 
 #Deleting rows without country
-JrnlToClean <- JrnlToClean[!is.na(JrnlToClean$COUNTRY.CODE),] 
+DATASET <- DATASET[!is.na(DATASET$COUNTRY.CODE),] 
 
 
-##############################################
+############################################################################
+#
+# BIND THEM UP AND ANALYZE!
+#
+############################################################################
+
+# str(ChoData)
+# str(ClassData)
+
+ChoData<-ChoData %>% 
+  select(-NOTES, -GENDER)
+
+ClassData<-ClassData %>% 
+  select(-INSTITUTION,-NOTES,-GENDER,-SUFFIX)
+
+AllJournals<-rbind(ChoData,ClassData)
+str(AllJournals)
+summary(AllJournals)
+
+
+############################################################################################
 # BAR PLOT TOTAL EDITORIAL MEMBERS BY COUNTRY (ALL JOURNALS, ALL YEARS)
 # GROUPED COUNTRIES WITH SMALL SIZES
-##############################################
+############################################################################################
 #Group dataframe by COUNTRY.CODE
 byCOUNTRY <- dplyr::group_by(AllJournals, COUNTRY.CODE)
 
