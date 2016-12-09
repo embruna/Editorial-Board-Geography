@@ -1,0 +1,846 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+OIKOS,1985,44,1,Editorial board,S,T,Andersen,,Denmark,M,SE,,Copenhagen
+OIKOS,1985,44,1,Editorial board,C,Overgaard,Nielsen,,Denmark,M,SE,,Copenhagen
+OIKOS,1985,44,1,Editorial board,A,,Semb-Johansson,,Norway,M,SE,,Oslo
+OIKOS,1985,44,1,Editorial board,E,,Dahl,,Norway,M,SE,,As-NHL
+OIKOS,1985,44,1,Editorial board,E,,Haukioja,,Finland,M,SE,,Turku
+OIKOS,1985,44,1,Editorial board,F,,Andersson,,Sweden,M,SE,,Uppsala
+OIKOS,1985,44,1,Editors,Nils,,Malmer,,Sweden,M,AE,,University of Lund
+OIKOS,1985,44,1,Editorial board,O,,Jarvinen,,Finland,M,SE,,Helsinki
+OIKOS,1985,44,1,Editor in chief,Peter,,Brink,,Sweden,M,EIC,,Dept Animal Ecology
+OIKOS,1985,44,1,Editorial board,S,,Ulfstrand,,Sweden,M,SE,,Uppsala
+OIKOS,1985,44,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1985,44,1,Editors,Sven,,Bjork,,Sweden,M,AE,,University of Lund
+OIKOS,1985,44,1,Editors,Tom,,Fenchel,,Denmark,M,AE,,University of Aarhus
+OIKOS,1986,46,1,Editorial board,S,T,Andersen,,Denmark,M,SE,,Copenhagen
+OIKOS,1986,46,1,Editorial board,C,Overgaard,Nielsen,,Denmark,M,SE,,Copenhagen
+OIKOS,1986,46,1,Editorial board,A,,Semb-Johansson,,Norway,M,SE,,Oslo
+OIKOS,1986,46,1,Editorial board,E,,Dahl,,Norway,M,SE,,As-NHL
+OIKOS,1986,46,1,Editorial board,E,,Haukioja,,Finland,M,SE,,Turku
+OIKOS,1986,46,1,Editorial board,F,,Andersson,,Sweden,M,SE,,Uppsala
+OIKOS,1986,46,1,Editors,Nils,,Malmer,,Sweden,M,AE,,University of Lund
+OIKOS,1986,46,1,Editorial board,O,,Jarvinen,,Finland,M,SE,,Helsinki
+OIKOS,1986,46,1,Editor in chief,Peter,,Brink,,Sweden,M,EIC,,Dept Animal Ecology
+OIKOS,1986,46,1,Editorial board,S,,Ulfstrand,,Sweden,M,SE,,Uppsala
+OIKOS,1986,46,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1986,46,1,Editors,Sven,,Bjork,,Sweden,M,AE,,University of Lund
+OIKOS,1986,46,1,Editors,Tom,,Fenchel,,Denmark,M,AE,,University of Aarhus
+OIKOS,1987,48,1,Editorial board,S,T,Andersen,,Denmark,M,SE,,Copenhagen
+OIKOS,1987,48,1,Editorial board,C,Overgaard,Nielsen,,Denmark,M,SE,,Copenhagen
+OIKOS,1987,48,1,Editorial board,A,,Semb-Johansson,,Norway,M,SE,,Oslo
+OIKOS,1987,48,1,Editorial board,E,,Dahl,,Norway,M,SE,,As-NHL
+OIKOS,1987,48,1,Editorial board,E,,Haukioja,,Finland,M,SE,,Turku
+OIKOS,1987,48,1,Editorial board,F,,Andersson,,Sweden,M,SE,,Uppsala
+OIKOS,1987,48,1,Editors,Nils,,Malmer,,Sweden,M,AE,,University of Lund
+OIKOS,1987,48,1,Editorial board,O,,Jarvinen,,Finland,M,SE,,Helsinki
+OIKOS,1987,48,1,Editor in chief,Peter,,Brink,,Sweden,M,EIC,,Dept Animal Ecology
+OIKOS,1987,48,1,Editorial board,S,,Ulfstrand,,Sweden,M,SE,,Uppsala
+OIKOS,1987,48,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1987,48,1,Editors,Sven,,Bjork,,Sweden,M,AE,,University of Lund
+OIKOS,1987,48,1,Editors,Tom,,Fenchel,,Denmark,M,AE,,University of Aarhus
+OIKOS,1988,51,1,Editorial board,S,T,Andersen,,Denmark,M,SE,,Copenhagen
+OIKOS,1988,51,1,Editorial board,C,Overgaard,Nielsen,,Denmark,M,SE,,Copenhagen
+OIKOS,1988,51,1,Editorial board,A,,Semb-Johansson,,Norway,M,SE,,Oslo
+OIKOS,1988,51,1,Editorial board,E,,Dahl,,Norway,M,SE,,As-NHL
+OIKOS,1988,51,1,Editorial board,E,,Haukioja,,Finland,M,SE,,Turku
+OIKOS,1988,51,1,Editorial board,F,,Andersson,,Sweden,M,SE,,Uppsala
+OIKOS,1988,51,1,Editors,Nils,,Malmer,,Sweden,M,AE,,University of Lund
+OIKOS,1988,51,1,Editorial board,O,,Jarvinen,,Finland,M,SE,,Helsinki
+OIKOS,1988,51,1,Editor in chief,Peter,,Brink,,Sweden,M,EIC,,Dept Animal Ecology
+OIKOS,1988,51,1,Editorial board,S,,Ulfstrand,,Sweden,M,SE,,Uppsala
+OIKOS,1988,51,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1988,51,1,Editors,Sven,,Bjork,,Sweden,M,AE,,University of Lund
+OIKOS,1988,51,1,Editors,Tom,,Fenchel,,Denmark,M,AE,,University of Aarhus
+OIKOS,1989,54,1,Editorial board,S,T,Andersen,,Denmark,M,SE,,Copenhagen
+OIKOS,1989,54,1,Editorial board,C,Overgaard,Nielsen,,Denmark,M,SE,,Copenhagen
+OIKOS,1989,54,1,Editorial board,A,,Semb-Johansson,,Norway,M,SE,,Oslo
+OIKOS,1989,54,1,Editorial board,E,,Dahl,,Norway,M,SE,,As-NHL
+OIKOS,1989,54,1,Editorial board,E,,Haukioja,,Finland,M,SE,,Turku
+OIKOS,1989,54,1,Editorial board,F,,Andersson,,Sweden,M,SE,,Uppsala
+OIKOS,1989,54,1,Editors,Nils,,Malmer,,Sweden,M,AE,,University of Lund
+OIKOS,1989,54,1,Editorial board,Olli,,Jarvinen,,Finland,M,SE,,Helsinki
+OIKOS,1989,54,1,Editor in chief,Peter,,Brink,,Sweden,M,EIC,,Dept Animal Ecology
+OIKOS,1989,54,1,Editorial board,S,,Ulfstrand,,Sweden,M,SE,,Uppsala
+OIKOS,1989,54,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1989,54,1,Editors,Sven,,Bjork,,Sweden,M,AE,,University of Lund
+OIKOS,1989,54,1,Editors,Tom,,Fenchel,,Denmark,M,AE,,University of Aarhus
+OIKOS,1990,57,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1990,57,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1990,57,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1990,57,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1990,57,1,Publication Board,Kai,,Larsen,,Denmark,M,Other,,Aarhus
+OIKOS,1990,57,1,Publication Board,Mikael,,Munster-Swendsen,,Denmark,M,Other,,Copenhagen
+OIKOS,1990,57,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1990,57,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1990,57,1,Advisory Panel,Olli,,Jarvinen,,Finland,M,Other,,University of Helsinki
+OIKOS,1990,57,1,Publication Board,Olli,,Jarvinen,,Finland,M,Other,,Helsinki
+OIKOS,1990,57,1,Publication Board,Per,,Brink,,Sweden,M,Other,,Lund 
+OIKOS,1990,57,1,Publication Board,Rolf,,Vik,,Norway,M,Other,,Oslo
+OIKOS,1990,57,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1990,57,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1990,57,1,Publication Board,Sven-Axel,,Bengston,,Sweden,M,Other,,Lund 
+OIKOS,1990,57,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1990,57,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1991,60,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1991,60,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1991,60,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1991,60,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1991,60,1,Publication Board,Kai,,Larsen,,Denmark,M,Other,,Aarhus
+OIKOS,1991,60,1,Publication Board,Mikael,,Munster-Swendsen,,Denmark,M,Other,,Copenhagen
+OIKOS,1991,60,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1991,60,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1991,60,1,Publication Board,Per,,Brink,,Sweden,M,Other,,Lund 
+OIKOS,1991,60,1,Publication Board,Rolf,,Vik,,Norway,M,Other,,Oslo
+OIKOS,1991,60,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1991,60,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1991,60,1,Publication Board,Sven-Axel,,Bengston,,Sweden,M,Other,,Lund 
+OIKOS,1991,60,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1991,60,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1992,63,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1992,63,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1992,63,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1992,63,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1992,63,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1992,63,1,Publication Board,Kai,,Larsen,,Denmark,M,Other,,Aarhus
+OIKOS,1992,63,1,Publication Board,Mikael,,Munster-Swendsen,,Denmark,M,Other,,Copenhagen
+OIKOS,1992,63,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1992,63,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1992,63,1,Publication Board,Per,,Brink,,Sweden,M,Other,,Lund 
+OIKOS,1992,63,1,Publication Board,Rolf,,Vik,,Norway,M,Other,,Oslo
+OIKOS,1992,63,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1992,63,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1992,63,1,Publication Board,Sven-Axel,,Bengston,,Sweden,M,Other,,Lund 
+OIKOS,1992,63,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1992,63,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1993,66,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1993,66,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1993,66,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1993,66,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1993,66,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1993,66,1,Publication Board,Kai,,Larsen,,Denmark,M,Other,,Aarhus
+OIKOS,1993,66,1,Publication Board,Mikael,,Munster-Swendsen,,Denmark,M,Other,,Copenhagen
+OIKOS,1993,66,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1993,66,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1993,66,1,Publication Board,Per,,Brink,,Sweden,M,Other,,Lund 
+OIKOS,1993,66,1,Publication Board,Rolf,,Vik,,Norway,M,Other,,Oslo
+OIKOS,1993,66,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1993,66,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1993,66,1,Publication Board,Sven-Axel,,Bengston,,Sweden,M,Other,,Lund 
+OIKOS,1993,66,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1993,66,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1994,69,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1994,69,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1994,69,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1994,69,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,1994,69,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1994,69,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,1994,69,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,1994,69,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1994,69,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,1994,69,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1994,69,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1994,69,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1994,69,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1994,69,1,Publication Board,Sven,,Jonasson,,Denmark,M,Other,,Copenhagen
+OIKOS,1994,69,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1994,69,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1995,72,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1995,72,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1995,72,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1995,72,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,1995,72,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1995,72,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,1995,72,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,1995,72,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1995,72,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,1995,72,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1995,72,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1995,72,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1995,72,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1995,72,1,Publication Board,Sven,,Jonasson,,Denmark,M,Other,,Copenhagen
+OIKOS,1995,72,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1995,72,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1996,75,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1996,75,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1996,75,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1996,75,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,1996,75,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,1996,75,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1996,75,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,1996,75,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,1996,75,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1996,75,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,1996,75,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1996,75,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1996,75,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1996,75,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1996,75,1,Publication Board,Sven,,Jonasson,,Denmark,M,Other,,Copenhagen
+OIKOS,1996,75,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1996,75,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1997,79,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1997,79,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1997,79,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1997,79,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,1997,79,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,1997,79,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1997,79,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,1997,79,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,1997,79,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1997,79,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,1997,79,1,Publication Board,Jan,,Lindstrom,,Finland,M,Other,,Helsinki
+OIKOS,1997,79,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1997,79,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1997,79,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1997,79,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1997,79,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1997,79,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1998,81,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1998,81,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1998,81,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1998,81,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,1998,81,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,1998,81,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1998,81,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,1998,81,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,1998,81,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1998,81,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,1998,81,1,Publication Board,Jan,,Lindstrom,,Finland,M,Other,,Helsinki
+OIKOS,1998,81,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1998,81,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1998,81,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1998,81,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1998,81,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1998,81,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,1999,84,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,1999,84,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,1999,84,1,Advisory Panel,John,H,Lawton,,England,M,Other,,Imperial College
+OIKOS,1999,84,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,1999,84,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,1999,84,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,1999,84,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,1999,84,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,1999,84,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,1999,84,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,1999,84,1,Publication Board,Jan,,Lindstrom,,Finland,M,Other,,Helsinki
+OIKOS,1999,84,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,1999,84,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,1999,84,1,Deputy Editor in Chief,Staffan,,Ulfstrand,,Sweden,M,AE,,University of Uppsala
+OIKOS,1999,84,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,1999,84,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,1999,84,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,2000,88,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,2000,88,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2000,88,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,2000,88,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2000,88,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,2000,88,1,Publication Board,Esa,,Ranta,,Finland,M,Other,,Helsinki
+OIKOS,2000,88,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2000,88,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,2000,88,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,2000,88,1,Publication Board,Jan,,Lindstrom,,Finland,M,Other,,Helsinki
+OIKOS,2000,88,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,2000,88,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,2000,88,1,Advisory Panel,Staffan,,Ulfstrand,,Sweden,M,Other,,University of Uppsala
+OIKOS,2000,88,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,2000,88,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,2001,92,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund 
+OIKOS,2001,92,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2001,92,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,2001,92,1,Advisory Panel,Nils,Chr,Stenseth,,Norway,M,Other,,University of Oslo
+OIKOS,2001,92,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2001,92,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,2001,92,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,University of Helsinki
+OIKOS,2001,92,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,University of Jyvaskyla
+OIKOS,2001,92,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2001,92,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,2001,92,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Stockholm
+OIKOS,2001,92,1,Publication Board,Jan,,Lindstrom,,Finland,M,Other,,Helsinki
+OIKOS,2001,92,1,Subject Editors,Lennart,,Hansson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OIKOS,2001,92,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2001,92,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,2001,92,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,2001,92,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2001,92,1,Subject Editors,Per,,Lundberg,,Sweden,M,SE,,Lund University
+OIKOS,2001,92,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OIKOS,2001,92,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,2001,92,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,2002,96,1,Publication Board,Pehr,H,Enckell,,Iceland,M,Other,,Lund
+OIKOS,2002,96,1,Publication Board,Gisli,Mar,Gislason,,Finland,M,Other,,Reykjavik
+OIKOS,2002,96,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,2002,96,1,Advisory Panel,Nils,Chr,Stenseth,,Norway,M,Other,,University of Oslo
+OIKOS,2002,96,1,Publication Board,Anders,,Klemetsen,,Sweden,M,Other,,Tromso
+OIKOS,2002,96,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,2002,96,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,University of Helsinki
+OIKOS,2002,96,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,University of Jyvaskyla
+OIKOS,2002,96,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2002,96,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,2002,96,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2002,96,1,Subject Editors,Lennart,,Hansson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OIKOS,2002,96,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2002,96,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,2002,96,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,2002,96,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2002,96,1,Subject Editors,Per,,Lundberg,,Sweden,M,SE,,Lund University
+OIKOS,2002,96,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OIKOS,2002,96,1,Publication Board,Thomas,,Alerstam,,Sweden,M,Other,,Lund
+OIKOS,2002,96,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,2002,96,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,2003,100,1,Publication Board,Pehr,H,Enckell,,Iceland,M,Other,,Lund
+OIKOS,2003,100,1,Publication Board,Gisli,Mar,Gislason,,Finland,M,Other,,Reykjavik
+OIKOS,2003,100,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,2003,100,1,Advisory Panel,Nils,Chr,Stenseth,,Norway,M,Other,,University of Oslo
+OIKOS,2003,100,1,Publication Board,Anders,,Klemetsen,,Sweden,M,Other,,Tromso
+OIKOS,2003,100,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,2003,100,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,University of Helsinki
+OIKOS,2003,100,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,University of Helsinki
+OIKOS,2003,100,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2003,100,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,2003,100,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2003,100,1,Subject Editors,Lennart,,Hansson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OIKOS,2003,100,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2003,100,1,Editor in chief,Nils,,Malmer,,Sweden,M,EIC,,Lund University
+OIKOS,2003,100,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,2003,100,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2003,100,1,Subject Editors,Per,,Lundberg,,Sweden,M,SE,,Lund University
+OIKOS,2003,100,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Swedish University of Agricultural Sciences
+OIKOS,2003,100,1,Publication Board,Thomas,,Alerstam,,Sweden,M,Other,,Lund
+OIKOS,2003,100,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,2003,100,1,Advisory Panel,Torbjon,,Fagerstrom,,Sweden,M,Other,,Lund University
+OIKOS,2004,104,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2004,104,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2004,104,1,Publication Board,Pehr,H,Enckell,,Iceland,M,Other,,Lund
+OIKOS,2004,104,1,Publication Board,Pehr,H,Enckell,,Iceland,M,Other,,Lund
+OIKOS,2004,104,1,Publication Board,Gisli,Mar,Gislason,,Finland,M,Other,,Reykjavik
+OIKOS,2004,104,1,Publication Board,Gisli,Mar,Gislason,,Finland,M,Other,,Reykjavik
+OIKOS,2004,104,1,Subject Editors,Dag,O,Hessen,,Norway,M,SE,,Oslo
+OIKOS,2004,104,1,Subject Editors,Dag,O,Hessen,,Norway,M,SE,,Oslo
+OIKOS,2004,104,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,2004,104,1,Advisory Panel,Stuart,L,Pim,,USA,M,Other,,University of Tennesse
+OIKOS,2004,104,1,Advisory Panel,Nils,Chr,Stenseth,,Norway,M,Other,,University of Oslo
+OIKOS,2004,104,1,Advisory Panel,Nils,Chr,Stenseth,,Norway,M,Other,,University of Oslo
+OIKOS,2004,104,1,Publication Board,Anders,,Klemetsen,,Sweden,M,Other,,Tromso
+OIKOS,2004,104,1,Publication Board,Anders,,Klemetsen,,Sweden,M,Other,,Tromso
+OIKOS,2004,104,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,2004,104,1,Advisory Panel,Charles,,Krebs,,Canada,M,Other,,University of British Columbia
+OIKOS,2004,104,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,Helsinki
+OIKOS,2004,104,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,Helsinki
+OIKOS,2004,104,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2004,104,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2004,104,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2004,104,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2004,104,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,2004,104,1,Advisory Panel,Ikka,,Hanski,,Finland,M,Other,,University of Helsinki
+OIKOS,2004,104,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2004,104,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2004,104,1,Subject Editors,Jan,,Lindstrom,,England,M,SE,,Glasgow
+OIKOS,2004,104,1,Subject Editors,Jan,,Lindstrom,,England,M,SE,,Glasgow
+OIKOS,2004,104,1,Subject Editors,Lauri,,Oksanen,,Sweden,F,SE,,Umea University 
+OIKOS,2004,104,1,Subject Editors,Lauri,,Oksanen,,Sweden,F,SE,,Umea University 
+OIKOS,2004,104,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2004,104,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2004,104,1,Subject Editors,Mads,,Forchhammer,,Denmark,M,SE,,Copenhagen
+OIKOS,2004,104,1,Subject Editors,Mads,,Forchhammer,,Denmark,M,SE,,Copenhagen
+OIKOS,2004,104,1,Subject Editors,Mikael,,Ohlson,,Norway,M,SE,,As
+OIKOS,2004,104,1,Subject Editors,Mikael,,Ohlson,,Norway,M,SE,,As
+OIKOS,2004,104,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,2004,104,1,Publication Board,Nils,,Malmer,,Sweden,M,Other,,Lund
+OIKOS,2004,104,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2004,104,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2004,104,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2004,104,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2004,104,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Uppsala
+OIKOS,2004,104,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Uppsala
+OIKOS,2004,104,1,Publication Board,Thomas,,Alerstam,,Sweden,M,Other,,Lund
+OIKOS,2004,104,1,Publication Board,Thomas,,Alerstam,,Sweden,M,Other,,Lund
+OIKOS,2004,104,1,Subject Editors,Tim,,Benton,,UK,M,SE,,Aberdeen
+OIKOS,2004,104,1,Subject Editors,Tim,,Benton,,UK,M,SE,,Aberdeen
+OIKOS,2004,104,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,2004,104,1,Advisory Panel,Tom,,Fenchel,,Denmark,M,Other,,University of Copenhagen
+OIKOS,2004,104,1,Subject Editors,Veijo,,Kaitala,,Finland,M,SE,,Helsinki
+OIKOS,2004,104,1,Subject Editors,Veijo,,Kaitala,,Finland,M,SE,,Helsinki
+OIKOS,2004,104,1,Advisory Panel,,,,,Sweden,M,Other,,Lund University
+OIKOS,2004,104,1,Advisory Panel,,,,,Sweden,M,Other,,Lund University
+OIKOS,2005,108,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2005,108,1,Publication Board,Pehr,H,Enckell,,Sweden,M,Other,,Lund
+OIKOS,2005,108,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2005,108,1,Subject Editors,Dag,O,Hessen,,Norway,M,SE,,Oslo
+OIKOS,2005,108,1,Publication Board,Carsten,,Rahbek,,Denmark,F,Other,,Copenhagen
+OIKOS,2005,108,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2005,108,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,Helsinki
+OIKOS,2005,108,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2005,108,1,Publication Board,Henning,,Adsersen,,Denmark,M,Other,,Copenhagen
+OIKOS,2005,108,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2005,108,1,Subject Editors,Jan,,Lindstrom,,England,M,SE,,Glasgow
+OIKOS,2005,108,1,Subject Editors,Jane,,Memmott,,England,F,SE,,Bristol
+OIKOS,2005,108,1,Subject Editors,Lauri,,Oksanen,,Sweden,F,SE,,Umea University 
+OIKOS,2005,108,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2005,108,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2005,108,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2005,108,1,Publication Board,Per,,Lundberg,,Sweden,M,Other,,Lund
+OIKOS,2005,108,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Uppsala
+OIKOS,2005,108,1,Publication Board,Thomas,,Alerstam,,Sweden,M,Other,,Lund
+OIKOS,2005,108,1,Subject Editors,Tim,,Benton,,UK,M,SE,,Aberdeen
+OIKOS,2005,108,1,Subject Editors,Veijo,,Kaitala,,Finland,M,SE,,Helsinki
+OIKOS,2006,112,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2006,112,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2006,112,1,Subject Editors,Dag,O,Hessen,,Norway,M,SE,,Oslo
+OIKOS,2006,112,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2006,112,1,Publication Board,Carsten,,Rahbek,,Denmark,M,Other,,Copenhagen
+OIKOS,2006,112,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2006,112,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2006,112,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,Helsinki
+OIKOS,2006,112,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2006,112,1,Subject Editors,Henning,,Adsersen,,Denmark,M,SE,,Copenhagen
+OIKOS,2006,112,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2006,112,1,Subject Editors,Jan,,Lindstrom,,England,M,SE,,Glasgow
+OIKOS,2006,112,1,Subject Editors,Jane,,Memmott,,England,F,SE,,Bristol
+OIKOS,2006,112,1,Subject Editors,Kathy,,Sudig,,USA,F,SE,,Irvine
+OIKOS,2006,112,1,Subject Editors,Lauri,,Oksanen,,Sweden,F,SE,,Umea University 
+OIKOS,2006,112,1,Subject Editors,Lennart,,Persson,,Sweden,M,SE,,Umea University 
+OIKOS,2006,112,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2006,112,1,Subject Editors,Mike,,Bonsall,,England,M,SE,,Oxford
+OIKOS,2006,112,1,Subject Editors,Ove,,Ericksson,,Sweden,M,SE,,Stockholm University
+OIKOS,2006,112,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2006,112,1,Publication Board,Per,,Lundberg,,Sweden,M,Other,,Lund
+OIKOS,2006,112,1,Subject Editors,Pia,,Mutikainen,,Finland,F,SE,,Oulo
+OIKOS,2006,112,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Uppsala
+OIKOS,2006,112,1,Publication Board,Thomas,,Alerstam,,Sweden,M,Other,,Lund
+OIKOS,2006,112,1,Subject Editors,Tim,,Benton,,UK,M,SE,,Leeds 
+OIKOS,2006,112,1,Subject Editors,Veijo,,Kaitala,,Finland,M,SE,,Helsinki
+OIKOS,2007,116,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2007,116,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2007,116,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2007,116,1,Subject Editors,Dag,O,Hessen,,Norway,M,SE,,Oslo
+OIKOS,2007,116,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2007,116,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2007,116,1,Subject Editors,Christer,,Bronmark,,Sweden,M,SE,,Lund
+OIKOS,2007,116,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2007,116,1,Subject Editors,Esa,,Ranta,,Finland,M,SE,,Helsinki
+OIKOS,2007,116,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2007,116,1,Publication Board,Jan,,Ekman,,Sweden,M,Other,,Uppsala
+OIKOS,2007,116,1,Subject Editors,Jan,,Lindstrom,,England,M,SE,,Glasgow
+OIKOS,2007,116,1,Subject Editors,Jane,,Memmott,,England,F,SE,,Bristol
+OIKOS,2007,116,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2007,116,1,Subject Editors,John,,Vucetich,,USA,M,SE,,Michigan
+OIKOS,2007,116,1,Subject Editors,Jonathan,,Shurin,,Canada,M,SE,,Vancouver
+OIKOS,2007,116,1,Subject Editors,Kathy,,Sudig,,USA,F,SE,,Irvine
+OIKOS,2007,116,1,Subject Editors,Kenneth,,Schmidt,,USA,M,SE,,Lubbock
+OIKOS,2007,116,1,Subject Editors,Lauri,,Oksanen,,Sweden,F,SE,,Umea University 
+OIKOS,2007,116,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2007,116,1,Subject Editors,Mathew,,Ayres,,USA,M,SE,,New Hampshire
+OIKOS,2007,116,1,Subject Editors,Mike,,Bonsall,,England,M,SE,,Oxford
+OIKOS,2007,116,1,Subject Editors,Nicholas,,Gotelli,,USA,M,SE,,Vermont
+OIKOS,2007,116,1,Subject Editors,Owen,,Petchey,,England,M,SE,,Sheffield
+OIKOS,2007,116,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2007,116,1,Subject Editors,Pia,,Mutikainen,,Finland,F,SE,,Oulo
+OIKOS,2007,116,1,Subject Editors,Stig,,Larsson,,Sweden,M,SE,,Uppsala
+OIKOS,2007,116,1,Subject Editors,Tadashi,,Fukami,,USA,M,SE,,Honolulu
+OIKOS,2007,116,1,Subject Editors,Tim,,Benton,,England,M,SE,,Leeds
+OIKOS,2007,116,1,Subject Editors,Veijo,,Kaitala,,Finland,M,SE,,Helsinki
+OIKOS,2008,117,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2008,117,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2008,117,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2008,117,1,Subject Editors,Jose,Alexandre,Diaz-Filho,,Brazil,M,SE,,Goias
+OIKOS,2008,117,1,Subject Editors,Jeremy,W,Fox,,Canada,M,SE,,Calgary
+OIKOS,2008,117,1,Subject Editors,Jan,,VanGils,,Netherlands,M,SE,,Nieuwerluis
+OIKOS,2008,117,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2008,117,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2008,117,1,Subject Editors,Frank,van,Veen,,UK,M,SE,,Silkwood Park
+OIKOS,2008,117,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2008,117,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2008,117,1,Subject Editors,Beatrix,,Beisner,,Canada,F,SE,,Montreal
+OIKOS,2008,117,1,Subject Editors,Brad,,Hawkins,,USA,M,SE,,Irvine
+OIKOS,2008,117,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2008,117,1,Publication Board,Chrsiter,,Solbrek,,Sweden,M,Other,,Upsala 
+OIKOS,2008,117,1,Subject Editors,Daniel,,Gruner,,USA,M,SE,,Bodega Bay
+OIKOS,2008,117,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2008,117,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2008,117,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2008,117,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2008,117,1,Subject Editors,Franz,,Weissing,,Netherlands,M,SE,,Groningen
+OIKOS,2008,117,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2008,117,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2008,117,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2008,117,1,Subject Editors,Jennifer,,Dunne,,USA,F,SE,,Santa Fe 
+OIKOS,2008,117,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2008,117,1,Subject Editors,John,,Vucetich,,USA,M,SE,,Michigan
+OIKOS,2008,117,1,Subject Editors,Jonathan,,Shurin,,Canada,M,SE,,Vancouver
+OIKOS,2008,117,1,Subject Editors,Jordi,,Bascompte,,Spain,M,SE,,Sevilla
+OIKOS,2008,117,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2008,117,1,Subject Editors,Kenneth,,Schmidt,,USA,M,SE,,Lubbock
+OIKOS,2008,117,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2008,117,1,Subject Editors,Mark,,Vellend,,USA,M,SE,,Ithaca
+OIKOS,2008,117,1,Subject Editors,Martin,,Solan,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2008,117,1,Subject Editors,Mathew,,Ayres,,USA,M,SE,,New Hampshire
+OIKOS,2008,117,1,Subject Editors,Mike,,Bonsall,,England,M,SE,,Oxford
+OIKOS,2008,117,1,Subject Editors,Nicholas,,Gotelli,,USA,M,SE,,Vermont
+OIKOS,2008,117,1,Subject Editors,Owen,,Petchey,,England,M,SE,,Sheffield
+OIKOS,2008,117,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2008,117,1,Subject Editors,Pia,,Mutikainen,,Switzerland,F,SE,,Zurich 
+OIKOS,2008,117,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+OIKOS,2008,117,1,Subject Editors,Stan,,Boutin,,Canada,M,SE,,Edmonton 
+OIKOS,2008,117,1,Subject Editors,Tadashi,,Fukami,,USA,M,SE,,Honolulu
+OIKOS,2008,117,1,Subject Editors,Thomas,,Valone,,USA,M,SE,,St. Louis
+OIKOS,2008,117,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2008,117,1,Subject Editors,Tiffany,,Knight,,USA,F,SE,,St. Lous
+OIKOS,2008,117,1,Deputy editor in chief,Tim,,Benton,,England,M,AE,,Leeds
+OIKOS,2008,117,1,Subject Editors,Tim,,Benton,,England,M,SE,,Leeds
+OIKOS,2008,117,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+OIKOS,2009,118,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2009,118,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2009,118,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2009,118,1,Subject Editors,Jose,Alexandre,Diaz-Filho,,Brazil,M,SE,,Goias
+OIKOS,2009,118,1,Subject Editors,Jeremy,W,Fox,,Canada,M,SE,,Calgary
+OIKOS,2009,118,1,Subject Editors,Jan,,VanGils,,Netherlands,M,SE,,Nieuwerluis
+OIKOS,2009,118,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2009,118,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2009,118,1,Subject Editors,Frank,van,Veen,,UK,M,SE,,Silkwood Park
+OIKOS,2009,118,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2009,118,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2009,118,1,Subject Editors,Beatrix,,Beisner,,Canada,F,SE,,Montreal
+OIKOS,2009,118,1,Subject Editors,Brad,,Hawkins,,USA,M,SE,,Irvine
+OIKOS,2009,118,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2009,118,1,Publication Board,Chrsiter,,Solbrek,,Sweden,M,Other,,Upsala 
+OIKOS,2009,118,1,Subject Editors,Daniel,,Gruner,,USA,M,SE,,Bodega Bay
+OIKOS,2009,118,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2009,118,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2009,118,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2009,118,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2009,118,1,Subject Editors,Franz,,Weissing,,Netherlands,M,SE,,Groningen
+OIKOS,2009,118,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2009,118,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2009,118,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2009,118,1,Subject Editors,Jennifer,,Dunne,,USA,F,SE,,Santa Fe 
+OIKOS,2009,118,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2009,118,1,Subject Editors,John,,Vucetich,,USA,M,SE,,Michigan
+OIKOS,2009,118,1,Subject Editors,Jonathan,,Shurin,,Canada,M,SE,,Vancouver
+OIKOS,2009,118,1,Subject Editors,Jordi,,Bascompte,,Spain,M,SE,,Sevilla
+OIKOS,2009,118,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2009,118,1,Subject Editors,Kenneth,,Schmidt,,USA,M,SE,,Lubbock
+OIKOS,2009,118,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2009,118,1,Subject Editors,Mark,,Vellend,,USA,M,SE,,Ithaca
+OIKOS,2009,118,1,Subject Editors,Martin,,Solan,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2009,118,1,Subject Editors,Mathew,,Ayres,,USA,M,SE,,New Hampshire
+OIKOS,2009,118,1,Subject Editors,Mike,,Bonsall,,England,M,SE,,Oxford
+OIKOS,2009,118,1,Subject Editors,Nicholas,,Gotelli,,USA,M,SE,,Vermont
+OIKOS,2009,118,1,Subject Editors,Owen,,Petchey,,England,M,SE,,Sheffield
+OIKOS,2009,118,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2009,118,1,Subject Editors,Pia,,Mutikainen,,Switzerland,F,SE,,Zurich 
+OIKOS,2009,118,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+OIKOS,2009,118,1,Subject Editors,Stan,,Boutin,,Canada,M,SE,,Edmonton 
+OIKOS,2009,118,1,Subject Editors,Tadashi,,Fukami,,USA,M,SE,,Honolulu
+OIKOS,2009,118,1,Subject Editors,Thomas,,Valone,,USA,M,SE,,St. Louis
+OIKOS,2009,118,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2009,118,1,Subject Editors,Tiffany,,Knight,,USA,F,SE,,St. Lous
+OIKOS,2009,118,1,Deputy editor in chief,Tim,,Benton,,England,M,AE,,Leeds
+OIKOS,2009,118,1,Subject Editors,Tim,,Benton,,England,M,SE,,Leeds
+OIKOS,2009,118,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+OIKOS,2010,,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2010,,1,Subject Editors,Andre,M,DeRoos,,Netherlands,M,SE,,Amsterdam
+OIKOS,2010,,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2010,,1,Subject Editors,Jose,Alexandre,Diaz-Filho,,Brazil,M,SE,,Goias
+OIKOS,2010,,1,Subject Editors,Jeremy,W,Fox,,Canada,M,SE,,Calgary
+OIKOS,2010,,1,Subject Editors,Jan,,VanGils,,Netherlands,M,SE,,Nieuwerluis
+OIKOS,2010,,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2010,,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2010,,1,Subject Editors,Frank,van,Veen,,UK,M,SE,,Silkwood Park
+OIKOS,2010,,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2010,,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2010,,1,Subject Editors,Beatrix,,Beisner,,Canada,F,SE,,Montreal
+OIKOS,2010,,1,Subject Editors,Brad,,Hawkins,,USA,M,SE,,Irvine
+OIKOS,2010,,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2010,,1,Publication Board,Chrsiter,,Solbrek,,Sweden,M,Other,,Upsala 
+OIKOS,2010,,1,Subject Editors,Daniel,,Gruner,,USA,M,SE,,Bodega Bay
+OIKOS,2010,,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2010,,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2010,,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2010,,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2010,,1,Subject Editors,Franz,,Weissing,,Netherlands,M,SE,,Groningen
+OIKOS,2010,,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2010,,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2010,,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2010,,1,Subject Editors,Jennifer,,Dunne,,USA,F,SE,,Santa Fe 
+OIKOS,2010,,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2010,,1,Subject Editors,John,,Vucetich,,USA,M,SE,,Michigan
+OIKOS,2010,,1,Subject Editors,Jonathan,,Shurin,,Canada,M,SE,,Vancouver
+OIKOS,2010,,1,Subject Editors,Jordi,,Bascompte,,Spain,M,SE,,Sevilla
+OIKOS,2010,,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2010,,1,Subject Editors,Kenneth,,Schmidt,,USA,M,SE,,Lubbock
+OIKOS,2010,,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2010,,1,Subject Editors,Mark,,Vellend,,USA,M,SE,,Ithaca
+OIKOS,2010,,1,Subject Editors,Martin,,Solan,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2010,,1,Subject Editors,Mathew,,Ayres,,USA,M,SE,,New Hampshire
+OIKOS,2010,,1,Subject Editors,Mike,,Bonsall,,England,M,SE,,Oxford
+OIKOS,2010,,1,Subject Editors,Nicholas,,Gotelli,,USA,M,SE,,Vermont
+OIKOS,2010,,1,Subject Editors,Owen,,Petchey,,England,M,SE,,Sheffield
+OIKOS,2010,,1,Editor in chief,Per,,Lundberg,,Sweden,M,EIC,,Lund University
+OIKOS,2010,,1,Subject Editors,Pia,,Mutikainen,,Switzerland,F,SE,,Zurich 
+OIKOS,2010,,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+OIKOS,2010,,1,Subject Editors,Stan,,Boutin,,Canada,M,SE,,Edmonton 
+OIKOS,2010,,1,Subject Editors,Tadashi,,Fukami,,USA,M,SE,,Honolulu
+OIKOS,2010,,1,Subject Editors,Thomas,,Valone,,USA,M,SE,,St. Louis
+OIKOS,2010,,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2010,,1,Subject Editors,Tiffany,,Knight,,USA,F,SE,,St. Lous
+OIKOS,2010,,1,Deputy editor in chief,Tim,,Benton,,England,M,AE,,Leeds
+OIKOS,2010,,1,Subject Editors,Tim,,Benton,,England,M,SE,,Leeds
+OIKOS,2010,,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+OIKOS,2010,,,Subject Editors,Dustin,,Marshall,,Australia,M,SE,,Queensland
+OIKOS,2010,,,Subject Editors,Justin,,Travis,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2010,,,Subject Editors,Richard,,Stevens,,USA,M,SE,,Baton Rouge
+OIKOS,2010,,,Subject Editors,Robin,,Pakeman,,UK,M,SE,,Leeds
+OIKOS,2010,,,Subject Editors,Robin,,Wilson,,UK,M,SE,,Thetford
+OIKOS,2011,,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2011,,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2011,,1,Subject Editors,Jeremy,W,Fox,,Canada,M,SE,,Calgary
+OIKOS,2011,,1,Subject Editors,Jan,,VanGils,,Netherlands,M,SE,,Nieuwerluis
+OIKOS,2011,,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2011,,1,Subject Editors,Jonathan,W,Moore,,USA,M,SE,,Santa Cruz
+OIKOS,2011,,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2011,,1,Subject Editors,Frank,van,Veen,,UK,M,SE,,Silkwood Park
+OIKOS,2011,,1,Subject Editors,Anders,,Klemetsen,,Norway,M,SE,,Tromso
+OIKOS,2011,,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2011,,1,Subject Editors,Brad,,Hawkins,,USA,M,SE,,Irvine
+OIKOS,2011,,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2011,,1,Subject Editors,Chrsiter,,Solbrek,,Sweden,M,SE,,Upsala 
+OIKOS,2011,,1,Subject Editors,Daniel,,Gruner,,USA,M,SE,,Bodega Bay
+OIKOS,2011,,1,Subject Editors,Daniel,,Reuman,,UK,M,SE,,London
+,2011,,1,Subject Editors,David,,Chalcraft,,USA,M,SE,,Greenville 
+OIKOS,2011,,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2011,,1,Subject Editors,Dustin,,Marshall,,Australia,M,SE,,Queensland
+OIKOS,2011,,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2011,,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2011,,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2011,,1,Subject Editors,Franz,,Weissing,,Netherlands,M,SE,,Groningen
+OIKOS,2011,,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2011,,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2011,,1,Subject Editors,Jaobus,,Boomsma,,Denmark,M,SE,,Copenhagen
+OIKOS,2011,,1,Subject Editors,Jennifer,,Dunne,,USA,F,SE,,Santa Fe 
+OIKOS,2011,,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2011,,1,Subject Editors,John,,Vucetich,,USA,M,SE,,Michigan
+OIKOS,2011,,1,Subject Editors,Jonathan,,Shurin,,Canada,M,SE,,Vancouver
+,2011,,1,Subject Editors,Joseph,,Bailey,,USA,M,SE,,Tenesse
+OIKOS,2011,,1,Subject Editors,Jotaro,,Urabe,,Japan,M,SE,,Sendei
+OIKOS,2011,,1,Subject Editors,Justin,,Travis,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2011,,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2011,,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2011,,1,Subject Editors,Mark,,Vellend,,USA,M,SE,,Ithaca
+,2011,,1,Subject Editors,Martin,,Quigley,,USA,M,SE,,Denver
+OIKOS,2011,,1,Subject Editors,Martin,,Solan,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2011,,1,Subject Editors,Mathew,,Ayres,,USA,M,SE,,New Hampshire
+,2011,,1,Subject Editors,Matthijs,,Vos,,Germany,M,SE,,Postdam 
+OIKOS,2011,,1,Subject Editors,Mike,,Bonsall,,England,M,SE,,Oxford
+,2011,,1,Subject Editors,Paulo,,Guimaraes,,Brazil,M,SE,,Sao Paulo
+OIKOS,2011,,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+,2011,,1,Subject Editors,Regino,,Zamora,,Spain,M,SE,,Granada 
+OIKOS,2011,,1,Subject Editors,Richard,,Stevens,,USA,M,SE,,Baton Rouge
+OIKOS,2011,,1,Subject Editors,Robin,,Robinson,,UK,M,SE,,Thetford
+OIKOS,2011,,1,Subject Editors,Robin,,Pakeman,,UK,M,SE,,Leeds
+OIKOS,2011,,1,Subject Editors,Stan,,Boutin,,Canada,M,SE,,Edmonton 
+,2011,,1,Subject Editors,Stefano,,Allesina,,USA,M,SE,,Chicago 
+OIKOS,2011,,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2011,,1,Editor in chief,Tim,,Benton,,England,M,EIC,,Leeds
+OIKOS,2011,,1,Subject Editors,Tim,,Benton,,England,M,SE,,Leeds
+,2011,,1,Subject Editors,Tom,,Webb,,UK,M,SE,,Shefield
+OIKOS,2011,,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+,2011,,1,Subject Editors,Werner,,Ulrich,,Poland,M,SE,,Torun
+OIKOS,2012,,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2012,,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2012,,1,Subject Editors,Jeremy,W,Fox,,Canada,M,SE,,Calgary
+OIKOS,2012,,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2012,,1,Subject Editors,Jonathan,W,Moore,,USA,M,SE,,Santa Cruz
+OIKOS,2012,,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2012,,1,Subject Editors,Carry,Le,Roy,,USA,F,SE,,Olympia
+OIKOS,2012,,1,Subject Editors,Frank,van,Veen,,UK,M,SE,,Silkwood Park
+OIKOS,2012,,1,Subject Editors,Louie,H,Yang,,USA,M,SE,,Davis
+OIKOS,2012,,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2012,,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2012,,1,Subject Editors,Ben,,Chapman,,Sweden,M,SE,,Lund
+OIKOS,2012,,1,Subject Editors,Bente,,Grae,,Norway,M,SE,,Trondheim
+OIKOS,2012,,1,Subject Editors,Bruno,,Ernande,,France,M,SE,,Boulogne sur
+OIKOS,2012,,1,Subject Editors,Carlos,,Malian,,Switzerland,M,SE,,Kastanienbaum
+OIKOS,2012,,1,Deputy director in chief,Chris,,Lortie,,Canada,M,AE,,Toronto
+OIKOS,2012,,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2012,,1,Subject Editors,Christopher,,Swan,,USA,M,SE,,Baltimore 
+OIKOS,2012,,1,Publication Board,Chrsiter,,Solbrek,,Sweden,M,Other,,Upsala 
+OIKOS,2012,,1,Subject Editors,Daniel,,Gruner,,USA,M,SE,,College Park
+OIKOS,2012,,1,Subject Editors,Daniel,,Reuman,,UK,M,SE,,London
+OIKOS,2012,,1,Subject Editors,David,,Chalcraft,,USA,M,SE,,Greenville 
+OIKOS,2012,,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2012,,1,Acting director in chief,Drie,,Bonte,,Belgium,M,EIC,,Ghent
+OIKOS,2012,,1,Subject Editors,Dries,,Bonte,,Belgium,M,SE,,Ghent
+OIKOS,2012,,1,Deputy director in chief,Dustin,,Marshall,,Australia,M,AE,,Queensland
+OIKOS,2012,,1,Subject Editors,Dustin,,Marshall,,Australia,M,SE,,Queensland
+OIKOS,2012,,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2012,,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2012,,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2012,,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2012,,1,Subject Editors,Heikki,,Setala,,Finland,M,SE,,Helsinki
+OIKOS,2012,,1,Subject Editors,James,,Bullock,,UK,M,SE,,Wallingford 
+OIKOS,2012,,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2012,,1,Subject Editors,Jennifer,,Dunne,,USA,F,SE,,Santa Fe 
+OIKOS,2012,,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2012,,1,Subject Editors,Johan,,Kotze,,Finland,M,SE,,Helsinki 
+OIKOS,2012,,1,Subject Editors,Joseph,,Bailey,,USA,M,SE,,Tenesse
+OIKOS,2012,,1,Subject Editors,Joshep,,Bump,,USA,M,SE,,Houghton
+OIKOS,2012,,1,Subject Editors,Jotaro,,Urabe,,Japan,M,SE,,Sendei
+OIKOS,2012,,1,Subject Editors,Justin,,Travis,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2012,,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2012,,1,Subject Editors,Lars-Anders,,Hansson,,Sweden,M,SE,,Lund
+OIKOS,2012,,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2012,,1,Subject Editors,Margie,,Mayfield,,Australia,F,SE,,Queensland
+OIKOS,2012,,1,Subject Editors,Mark,,Vellend,,USA,M,SE,,Ithaca
+OIKOS,2012,,1,Subject Editors,Martin,,Quigley,,USA,M,SE,,Denver
+OIKOS,2012,,1,Subject Editors,Mathew,,Ayres,,USA,M,SE,,New Hampshire
+OIKOS,2012,,1,Subject Editors,Mathew,,Bracken,,USA,M,SE,,Nahant
+OIKOS,2012,,1,Subject Editors,Matthew,,Symonds,,Australia,M,SE,,Victoria
+OIKOS,2012,,1,Subject Editors,Matthijs,,Vos,,Germany,M,SE,,Postdam 
+OIKOS,2012,,1,Subject Editors,Paulo,,Guimaraes,,Brazil,M,SE,,Sao Paulo
+OIKOS,2012,,1,Subject Editors,Peter,,Todd,,Singapore,M,SE,,Singapore
+OIKOS,2012,,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+OIKOS,2012,,1,Subject Editors,Regino,,Zamora,,Spain,M,SE,,Granada 
+OIKOS,2012,,1,Subject Editors,Richard,,Michalet,,France,M,SE,,Bordeux
+OIKOS,2012,,1,Subject Editors,Richard,,Stevens,,USA,M,SE,,Baton Rouge
+OIKOS,2012,,1,Subject Editors,Robin,,Robinson,,UK,M,SE,,Thetford
+OIKOS,2012,,1,Subject Editors,Robin,,Pakeman,,UK,M,SE,,Leeds
+OIKOS,2012,,1,Subject Editors,Stan,,Boutin,,Canada,M,SE,,Edmonton 
+OIKOS,2012,,1,Subject Editors,Stefano,,Allesina,,USA,M,SE,,Chicago 
+OIKOS,2012,,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2012,,1,Subject Editors,Tom,,Webb,,UK,M,SE,,Shefield
+OIKOS,2012,,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+OIKOS,2012,,1,Subject Editors,Wendt,,Muller,,Belgium,M,SE,,Antwerp
+OIKOS,2012,,1,Subject Editors,Werner,,Ulrich,,Poland,M,SE,,Torun
+OIKOS,2013,,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2013,,1,Subject Editors,Matty,P,Berg,,Netherlands,M,SE,,Amsterdam 
+OIKOS,2013,,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2013,,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2013,,1,Subject Editors,Jonathan,W,Moore,,USA,M,SE,,Santa Cruz
+OIKOS,2013,,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2013,,1,Subject Editors,Carry,Le,Roy,,USA,F,SE,,Olympia
+OIKOS,2013,,1,Subject Editors,Frank,van,Veen,,UK,M,SE,,Silkwood Park
+OIKOS,2013,,1,Subject Editors,Louie,H,Yang,,USA,M,SE,,Davis
+OIKOS,2013,,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2013,,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2013,,1,Subject Editors,Ben,,Chapman,,Sweden,M,SE,,Lund
+OIKOS,2013,,1,Subject Editors,Bente,,Grae,,Norway,M,SE,,Trondheim
+OIKOS,2013,,1,Subject Editors,Bruno,,Ernande,,France,M,SE,,Boulogne sur
+OIKOS,2013,,1,Subject Editors,Carlos,,Malian,,Switzerland,M,SE,,Kastanienbaum
+OIKOS,2013,,1,Deputy director in chief,Chris,,Lortie,,Canada,M,AE,,Toronto
+OIKOS,2013,,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2013,,1,Subject Editors,Christopher,,Swan,,USA,M,SE,,Baltimore 
+OIKOS,2013,,1,Publication Board,Chrsiter,,Solbrek,,Sweden,M,Other,,Upsala 
+OIKOS,2013,,1,Subject Editors,Daniel,,Reuman,,UK,M,SE,,London
+OIKOS,2013,,1,Subject Editors,David,,Chalcraft,,USA,M,SE,,Greenville 
+OIKOS,2013,,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2013,,1,Acting director in chief,Drie,,Bonte,,Belgium,M,EIC,,Ghent
+OIKOS,2013,,1,Subject Editors,Dries,,Bonte,,Belgium,M,SE,,Ghent
+OIKOS,2013,,1,Deputy director in chief,Dustin,,Marshall,,Australia,M,AE,,Queensland
+OIKOS,2013,,1,Subject Editors,Dustin,,Marshall,,Australia,M,SE,,Queensland
+OIKOS,2013,,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2013,,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2013,,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2013,,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2013,,1,Subject Editors,James,,Bullock,,UK,M,SE,,Wallingford 
+OIKOS,2013,,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2013,,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2013,,1,Subject Editors,Jessica,,Abbot,,Sweden,F,SE,,Lund
+OIKOS,2013,,1,Subject Editors,Johan,,Kotze,,Finland,M,SE,,Helsinki 
+OIKOS,2013,,1,Subject Editors,Joshep,,Bump,,USA,M,SE,,Houghton
+OIKOS,2013,,1,Subject Editors,Jotaro,,Urabe,,Japan,M,SE,,Sendei
+OIKOS,2013,,1,Subject Editors,Justin,,Travis,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2013,,1,Subject Editors,Kailen,,Mooney,,USA,F,SE,,Irvine 
+OIKOS,2013,,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2013,,1,Subject Editors,Kenneth,,Schmidt,,USA,M,SE,,Lubbock
+OIKOS,2013,,1,Subject Editors,Koos,,Biesmeijer,,Netherlands,M,SE,,Leiden
+OIKOS,2013,,1,Subject Editors,Lars-Anders,,Hansson,,Sweden,M,SE,,Lund
+OIKOS,2013,,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2013,,1,Subject Editors,Margie,,Mayfield,,Australia,F,SE,,Queensland
+OIKOS,2013,,1,Subject Editors,Martin,,Quigley,,USA,M,SE,,Denver
+OIKOS,2013,,1,Subject Editors,Mathew,,Bracken,,USA,M,SE,,Nahant
+OIKOS,2013,,1,Subject Editors,Matthew,,Symonds,,Australia,M,SE,,Victoria
+OIKOS,2013,,1,Subject Editors,Monica,,Winder,,Sweden,F,SE,,Stockholm
+OIKOS,2013,,1,Subject Editors,Paulo,,Guimaraes,,Brazil,M,SE,,Sao Paulo
+OIKOS,2013,,1,Subject Editors,Peter,,Todd,,Singapore,M,SE,,Singapore
+OIKOS,2013,,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+OIKOS,2013,,1,Subject Editors,Regino,,Zamora,,Spain,M,SE,,Granada 
+OIKOS,2013,,1,Subject Editors,Rein,,Brys,,Belgium,,SE,,Leuven
+OIKOS,2013,,1,Subject Editors,Richard,,Michalet,,France,M,SE,,Bordeux
+OIKOS,2013,,1,Subject Editors,Richard,,Stevens,,USA,M,SE,,Baton Rouge
+OIKOS,2013,,1,Subject Editors,Robin,,Robinson,,UK,M,SE,,Thetford
+OIKOS,2013,,1,Subject Editors,Robin,,Pakeman,,UK,M,SE,,Leeds
+OIKOS,2013,,1,Subject Editors,Shawn,,Wilder,,Australia,F,SE,,New South Wales
+OIKOS,2013,,1,Subject Editors,Stefano,,Allesina,,USA,M,SE,,Chicago 
+OIKOS,2013,,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2013,,1,Subject Editors,Timothy,,Cavagnaro,,Australia,M,SE,,Victoria
+OIKOS,2013,,1,Subject Editors,Tom,,Webb,,UK,M,SE,,Shefield
+OIKOS,2013,,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+OIKOS,2013,,1,Subject Editors,Wendt,,Muller,,Belgium,M,SE,,Antwerp
+OIKOS,2013,,1,Subject Editors,Werner,,Ulrich,,Poland,M,SE,,Torun
+OIKOS,2014,,1,Subject Editors,Lonnie,W,Aarsen,,Canada,M,SE,,Ontario
+OIKOS,2014,,1,Subject Editors,Matty,P,Berg,,Netherlands,M,SE,,Amsterdam 
+OIKOS,2014,,1,Subject Editors,Wim,,VanDerPutten,,Netherlands,M,SE,,Hereten 
+OIKOS,2014,,1,Publication Board,Gisli,Mar,Gislason,,Iceland,M,Other,,Reykjavik
+OIKOS,2014,,1,Subject Editors,Jonathan,W,Moore,,USA,M,SE,,Santa Cruz
+OIKOS,2014,,1,Subject Editors,James,D,Roth,,USA,M,SE,,Orlando 
+OIKOS,2014,,1,Subject Editors,Carry,Le,Roy,,USA,F,SE,,Olympia
+OIKOS,2014,,1,Subject Editors,Louie,H,Yang,,USA,M,SE,,Davis
+OIKOS,2014,,1,Publication Board,Anders,,Klemetsen,,Norway,M,Other,,Tromso
+OIKOS,2014,,1,Subject Editors,Anna,,Traveser,,Spain,F,SE,,Mallorca
+OIKOS,2014,,1,Subject Editors,Anna-Liisa,,Laine,,Finland,F,SE,,Helsinki
+OIKOS,2014,,1,Subject Editors,Ben,,Chapman,,Sweden,M,SE,,Lund
+OIKOS,2014,,1,Subject Editors,Bente,,Grae,,Norway,M,SE,,Trondheim
+OIKOS,2014,,1,Subject Editors,Bruno,,Ernande,,France,M,SE,,Boulogne sur
+OIKOS,2014,,1,Subject Editors,Carlos,,Malian,,Switzerland,M,SE,,Kastanienbaum
+OIKOS,2014,,1,Deputy director in chief,Chris,,Lortie,,Canada,M,AE,,Toronto
+OIKOS,2014,,1,Subject Editors,Chris,,Lortie,,Canada,M,SE,,Vancouver
+OIKOS,2014,,1,Subject Editors,Christopher,,Swan,,USA,M,SE,,Baltimore 
+OIKOS,2014,,1,Publication Board,Chrsiter,,Solbrek,,Sweden,M,Other,,Upsala 
+OIKOS,2014,,1,Subject Editors,Daniel,,Mayor,,Scotland,M,SE,,Aberdeen
+OIKOS,2014,,1,Subject Editors,David,,Chalcraft,,USA,M,SE,,Greenville 
+OIKOS,2014,,1,Subject Editors,Diego,,Vazquez,,Argentina,M,SE,,Mendoza
+OIKOS,2014,,1,Acting director in chief,Drie,,Bonte,,Belgium,M,EIC,,Ghent
+OIKOS,2014,,1,Subject Editors,Dries,,Bonte,,Belgium,M,SE,,Ghent
+OIKOS,2014,,1,Deputy director in chief,Dustin,,Marshall,,Australia,M,AE,,Queensland
+OIKOS,2014,,1,Subject Editors,Dustin,,Marshall,,Australia,M,SE,,Queensland
+OIKOS,2014,,1,Subject Editors,Enrique,,Chaneton,,Argentina,M,SE,,Buenos Aires
+OIKOS,2014,,1,Subject Editors,Eric,,Seabloom,,USA,M,SE,,Corvalis 
+OIKOS,2014,,1,Publication Board,Erkki,,Korpimaki,,Finland,M,Other,,Turku
+OIKOS,2014,,1,Subject Editors,Hamish,,McCallum,,Australia,M,SE,,Hobart Tasmania
+OIKOS,2014,,1,Subject Editors,James,,Bullock,,UK,M,SE,,Wallingford 
+OIKOS,2014,,1,Publication Board,Jaobus,,Boomsma,,Denmark,M,Other,,Copenhagen
+OIKOS,2014,,1,Subject Editors,Jennifer,,Rudgers,,USA,F,SE,,Houston 
+OIKOS,2014,,1,Subject Editors,Jessica,,Abbot,,Sweden,F,SE,,Lund
+OIKOS,2014,,1,Subject Editors,Johan,,Kotze,,Finland,M,SE,,Helsinki 
+OIKOS,2014,,1,Subject Editors,Joshep,,Bump,,USA,M,SE,,Houghton
+OIKOS,2014,,1,Subject Editors,Jotaro,,Urabe,,Japan,M,SE,,Sendei
+OIKOS,2014,,1,Subject Editors,Justin,,Travis,,Scotland,M,SE,,Aberdeenshire
+OIKOS,2014,,1,Subject Editors,Kailen,,Mooney,,USA,F,SE,,Irvine 
+OIKOS,2014,,1,Subject Editors,Karin,,Johst,,Germany,F,SE,,Leipzig
+OIKOS,2014,,1,Subject Editors,Kenneth,,Schmidt,,USA,M,SE,,Lubbock
+OIKOS,2014,,1,Subject Editors,Lars-Anders,,Hansson,,Sweden,M,SE,,Lund
+OIKOS,2014,,1,Publication Board,Linus,,Svensson,,Sweden,M,Other,,Lund
+OIKOS,2014,,1,Subject Editors,Margie,,Mayfield,,Australia,F,SE,,Queensland
+OIKOS,2014,,1,Subject Editors,Martin,,Quigley,,USA,M,SE,,Denver
+OIKOS,2014,,1,Subject Editors,Mathew,,Bracken,,USA,M,SE,,Nahant
+OIKOS,2014,,1,Subject Editors,Matthew,,Symonds,,Australia,M,SE,,Victoria
+OIKOS,2014,,1,Subject Editors,Mei,,Sun,,China,F,SE,,Hongkong
+OIKOS,2014,,1,Subject Editors,Michael,,Scherer_Lorenzon,,Germany,M,SE,,Freiburg 
+OIKOS,2014,,1,Subject Editors,Monica,,Winder,,Sweden,F,SE,,Stockholm
+OIKOS,2014,,1,Subject Editors,Paulo,,Guimaraes,,Brazil,M,SE,,Sao Paulo
+OIKOS,2014,,1,Subject Editors,Peter,,Todd,,Singapore,M,SE,,Singapore
+OIKOS,2014,,1,Subject Editors,Rampal,,Etienne,,Netherlands,M,SE,,Groningen
+OIKOS,2014,,1,Subject Editors,Regino,,Zamora,,Spain,M,SE,,Granada 
+OIKOS,2014,,1,Subject Editors,Rein,,Brys,,Belgium,,SE,,Leuven
+OIKOS,2014,,1,Subject Editors,Richard,,Michalet,,France,M,SE,,Bordeux
+OIKOS,2014,,1,Subject Editors,Richard,,Stevens,,USA,M,SE,,Baton Rouge
+OIKOS,2014,,1,Subject Editors,Robin,,Robinson,,UK,M,SE,,Thetford
+OIKOS,2014,,1,Subject Editors,Robin,,Pakeman,,UK,M,SE,,Leeds
+OIKOS,2014,,1,Subject Editors,Sa,,Xiao,,China,F,SE,,Lanzhou
+OIKOS,2014,,1,Subject Editors,Shawn,,Wilder,,Australia,F,SE,,New South Wales
+OIKOS,2014,,1,Subject Editors,Stefano,,Allesina,,USA,M,SE,,Chicago 
+OIKOS,2014,,1,Subject Editors,Susan,,Harrison,,USA,F,SE,,Davis
+OIKOS,2014,,1,Subject Editors,Thorsten,,Wiegand,,Germany,M,SE,,Leipzing 
+OIKOS,2014,,1,Subject Editors,Timothy,,Cavagnaro,,Australia,M,SE,,Victoria
+OIKOS,2014,,1,Subject Editors,Tom,,Webb,,UK,M,SE,,Shefield
+OIKOS,2014,,1,Subject Editors,Ulrich,,Brose,,Germany,M,SE,,Darmstadt
+OIKOS,2014,,1,Subject Editors,Wendt,,Muller,,Belgium,M,SE,,Antwerp
+OIKOS,2014,,1,Subject Editors,Werner,,Ulrich,,Poland,M,SE,,Torun

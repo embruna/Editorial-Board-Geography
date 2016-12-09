@@ -1,0 +1,886 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+JANE,1991,60,1,SE,Mike,E,Begon,,England,M,SE,Main editors,Liverpool
+JANE,1992,61,1,SE,Mike,E,Begon,,England,M,SE,Review editor,Liverpool
+JANE,1993,62,1,SE,Mike,E,Begon,,England,M,SE,Review editor,Liverpool
+JANE,1987,56,1,SE,Tim,H,Clutton-Brock,,England,M,SE,Doesn't say what kinf of editor is ,Cambridge
+JANE,1988,57,1,SE,Tim,H,Clutton-Brock,,England,M,SE,Doesn't say what kind of editor is ,Cambridge
+JANE,1989,58,1,SE,Tim,H,Clutton-Brock,,England,M,SE,Doesn't say what kind of editor is ,Cambridge
+JANE,1990,59,1,SE,Tim,H,Clutton-Brock,,England,M,SE,Doesn't say what kind of editor is ,Cambridge
+JANE,1991,60,1,SE,Tim,H,Clutton-Brock,,England,M,SE,Review editor,Cambridge
+JANE,1992,61,1,SE,Tim,H,Clutton-Brock,,England,M,SE,Review editor,Cambridge
+JANE,1987,56,1,SE,Richard,M,Cormack,,Scotland,M,SE,Doesn't say what kinf of editor is ,St. Andrews
+JANE,1988,57,1,SE,Richard,M,Cormack,,Scotland,M,SE,Doesn't say what kind of editor is ,St. Andrews
+JANE,1989,58,1,SE,Richard,M,Cormack,,Scotland,M,SE,Doesn't say what kind of editor is ,St. Andrews
+JANE,1990,59,1,SE,Richard,M,Cormack,,Scotland,M,SE,Doesn't say what kind of editor is ,St. Andrews
+JANE,1991,60,1,SE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1992,61,1,SE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1993,62,1,SE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1994,63,1,SE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1995,64,1,SE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1996,65,1,SE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1997,66,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1998,67,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1999,68,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,2000,69,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,2001,70,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,2002,71,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,2003,72,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,2004,73,1,AE,Richard,M,Cormack,,Scotland,M,SE,Review editor,St. Andrews
+JANE,1987,56,1,SE,N,B,Davies,,England,M,SE,Doesn't say what kinf of editor is ,"Dept. of Zoology, University of Cambridge"
+JANE,1988,57,1,SE,N,B,Davies,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Zoology, University of Cambridge"
+JANE,1989,58,1,SE,N,B,Davies,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Zoology, University of Cambridge"
+JANE,1990,59,1,SE,N,B,Davies,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Zoology, University of Cambridge"
+JANE,1987,56,1,SE,G,M,Dunnet,,Scotland,M,SE,Doesn't say what kinf of editor is ,University of Aberdeen
+JANE,1988,57,1,SE,G,M,Dunnet,,Scotland,M,SE,Doesn't say what kind of editor is ,University of Aberdeen
+JANE,1989,58,1,SE,G,M,Dunnet,,Scotland,M,SE,Doesn't say what kind of editor is ,University of Aberdeen
+JANE,1990,59,1,SE,G,M,Dunnet,,Scotland,M,SE,Doesn't say what kind of editor is ,University of Aberdeen
+JANE,1986,55,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Main editor.,Freshwater biological association
+JANE,1987,56,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Main editors,Freshwater biological association
+JANE,1988,57,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Doesn't say what kinf of editor is ,Freshwater biological association
+JANE,1989,58,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Main editor.,Freshwater biological association
+JANE,1990,59,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Main editor.,Freshwater biological association
+JANE,1991,60,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Main editors,Freshwater biological association
+JANE,1992,61,1,EIC,J,Malcolm,Elliott,,England,M,EIC,Main editors,Freshwater biological association
+JANE,1991,60,1,SE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1992,61,1,SE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1993,62,1,SE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1994,63,1,SE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1995,64,1,SE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1996,65,1,SE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1999,68,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,2000,69,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,2001,70,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,2002,71,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,2003,72,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,2004,73,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,2005,74,1,AE,Paul,S,Giller,,Ireland,M,SE,Review editor,Cork
+JANE,1994,63,1,SE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,1995,64,1,SE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,1996,65,1,SE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,1997,66,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,1998,67,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,1999,68,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,2000,69,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,2001,70,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,2002,71,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,2003,72,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,2004,73,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,2005,74,1,AE,Bryan,T,Grenfell,,England,M,SE,Review editor,Cambridge
+JANE,1986,55,1,SE,M,P,Hassell,,England,M,SE,Doesn't say what kinf of editor is ,"Dept. of Biology, Imperial College at Silwood Park"
+JANE,1987,56,1,SE,M,P,Hassell,,England,M,SE,Doesn't say what kinf of editor is ,"Dept. of Biology, Imperial College at Silwood Park"
+JANE,1988,57,1,SE,M,P,Hassell,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Biology, Imperial College at Silwood Park"
+JANE,1989,58,1,SE,M,P,Hassell,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Biology, Imperial College at Silwood Park"
+JANE,1990,59,1,SE,M,P,Hassell,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Biology, Imperial College at Silwood Park"
+JANE,1991,60,1,SE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1992,61,1,SE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1993,62,1,SE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1994,63,1,SE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1995,64,1,SE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1996,65,1,SE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1997,66,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1998,67,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,1999,68,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,2000,69,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,2001,70,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Game Conservancy
+JANE,2002,71,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Stirling
+JANE,2003,72,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Stirling
+JANE,2004,73,1,AE,Pete,J,Hudson,,Scotland,M,SE,Review editor,Stirling
+JANE,2005,74,1,AE,Pete,J,Hudson,,USA,M,SE,Review editor,Philadelphia
+JANE,2006,75,1,AE,Pete,J,Hudson,,USA,M,SE,,Pennsylvania
+JANE,1991,60,1,SE,Roger,N,Hughes,,Wales,M,SE,Review editor,Bangor
+JANE,1992,61,1,SE,Roger,N,Hughes,,Wales,M,SE,Review editor,Bangor
+JANE,1993,62,1,SE,Roger,N,Hughes,,Wales,M,SE,Review editor,Bangor
+JANE,1994,63,1,SE,Roger,N,Hughes,,Wales,M,SE,Review editor,Bangor
+JANE,1995,64,1,SE,Roger,N,Hughes,,Wales,M,SE,Review editor,Bangor
+JANE,1996,65,1,SE,Roger,N,Hughes,,Wales,M,SE,Review editor,Bangor
+JANE,2011,80,1,AE,James,H,Jones,,USA,M,SE,,Stanford University
+JANE,2012,81,1,AE,James,H,Jones,,USA,M,SE,,Stanford University
+JANE,2013,82,1,AE,James,H,Jones,,USA,M,SE,,Stanford University
+JANE,2014,83,1,AE,James,H,Jones,,USA,M,SE,,Stanford University
+JANE,1986,55,1,SE,R,A,Kempton,,England,M,SE,Doesn't say what kinf of editor is ,AFRC Unit of Statistics
+JANE,1986,55,1,SE,C,J,Krebs,,Canada,M,SE,Doesn't say what kinf of editor is ,University of British Columbia
+JANE,1987,56,1,SE,C,J,Krebs,,Canada,M,SE,Doesn't say what kinf of editor is ,University of British Columbia
+JANE,1988,57,1,SE,C,J,Krebs,,Canada,M,SE,Doesn't say what kind of editor is ,University of British Columbia
+JANE,1989,58,1,SE,C,J,Krebs,,Canada,M,SE,Doesn't say what kind of editor is ,University of British Columbia
+JANE,1990,59,1,SE,C,J,Krebs,,Canada,M,SE,Doesn't say what kind of editor is ,University of British Columbia
+JANE,1986,55,1,SE,J,R,Krebs,,USA,M,SE,Doesn't say what kinf of editor is ,Princeton University
+JANE,1987,56,1,SE,J,R,Krebs,,USA,M,SE,Doesn't say what kinf of editor is ,Princeton University
+JANE,1988,57,1,SE,J,R,Krebs,,USA,M,SE,Doesn't say what kind of editor is ,Princeton University
+JANE,1989,58,1,SE,J,R,Krebs,,USA,M,SE,Doesn't say what kind of editor is ,Princeton University
+JANE,1990,59,1,SE,J,R,Krebs,,USA,M,SE,Doesn't say what kind of editor is ,Princeton University
+JANE,1986,55,1,SE,J,H,Lawton,,USA,M,SE,Doesn't say what kinf of editor is ,"Dept. of Biology, University of New York"
+JANE,1991,60,1,SE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1992,61,1,SE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1993,62,1,SE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1994,63,1,SE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1995,64,1,SE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1996,65,1,SE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1997,66,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1998,67,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1999,68,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,2000,69,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,2001,70,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,2002,71,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,2003,72,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,2004,73,1,AE,John,H,Lawton,,USA,M,SE,Review editor,"Dept. of Biology, University of New York"
+JANE,1986,55,1,SE,L,P,Lefkovitch,,Canada,M,SE,Doesn't say what kinf of editor is ,Beaverlodge res farm
+JANE,1990,59,1,SE,C,M,Lessells,,England,F,SE,Doesn't say what kind of editor is ,"Dept. of zoology, Edward Grey institute of field ornithology"
+JANE,1991,60,1,SE,C,M,Lessells,,England,F,SE,Review editor,"Dept. of zoology, Edward Grey institute of field ornithology"
+JANE,1986,55,1,SE,R,HK,Mann,,Poland,M,SE,Doesn't say what kinf of editor is ,University Lodz
+JANE,1987,56,1,SE,R,HK,Mann,,Poland,M,SE,Doesn't say what kinf of editor is ,University Lodz
+JANE,1988,57,1,SE,R,HK,Mann,,Poland,M,SE,Doesn't say what kind of editor is ,University Lodz
+JANE,1991,60,1,SE,Robert,M,May,,England,M,SE,Review editor,Oxford
+JANE,1992,61,1,SE,Robert,M,May,,England,M,SE,Review editor,Oxford
+JANE,1993,62,1,SE,Robert,M,May,,England,M,SE,Review editor,Oxford
+JANE,1994,63,1,SE,Robert,M,May,,England,M,SE,Review editor,Oxford
+JANE,1995,64,1,SE,Robert,M,May,,England,M,SE,Review editor,Oxford
+JANE,1996,65,1,SE,Robert,M,May,,England,M,SE,Review editor,Oxford
+JANE,1986,55,1,SE,A,D,McIntyre,,Scotland,M,SE,Doesn't say what kinf of editor is ,Dept. of Agriculture and Fisheries for Scotland
+JANE,1987,56,1,SE,A,D,McIntyre,,Scotland,M,SE,Doesn't say what kinf of editor is ,Dept. of Agriculture and Fisheries for Scotland
+JANE,1988,57,1,SE,A,D,McIntyre,,Scotland,M,SE,Doesn't say what kind of editor is ,Dept. of Agriculture and Fisheries for Scotland
+JANE,1989,58,1,SE,A,D,McIntyre,,Scotland,M,SE,Doesn't say what kind of editor is ,Dept. of Agriculture and Fisheries for Scotland
+JANE,1990,59,1,SE,A,D,McIntyre,,Scotland,M,SE,Doesn't say what kind of editor is ,Dept. of Agriculture and Fisheries for Scotland
+JANE,1987,56,1,SE,J,N,Perry,,England,M,SE,Doesn't say what kinf of editor is ,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1988,57,1,SE,J,N,Perry,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1989,58,1,SE,J,N,Perry,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1990,59,1,SE,J,N,Perry,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1991,60,1,SE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1992,61,1,SE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1993,62,1,SE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1994,63,1,SE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1995,64,1,SE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1996,65,1,SE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1997,66,1,AE,Stuart,L,Pimm,,USA,M,SE,Review editor,Knoxville
+JANE,1988,57,1,SE,D,J,Rogers,,England,M,SE,Doesn't say what kind of editor is ,University of Oxford
+JANE,1989,58,1,SE,D,J,Rogers,,England,M,SE,Doesn't say what kind of editor is ,University of Oxford
+JANE,1990,59,1,SE,D,J,Rogers,,England,M,SE,Doesn't say what kind of editor is ,University of Oxford
+JANE,1991,60,1,SE,D,J,Rogers,,England,M,SE,Review editor,University of Oxford
+JANE,1992,61,1,SE,D,J,Rogers,,England,M,SE,Review editor,University of Oxford
+JANE,1993,62,1,SE,D,J,Rogers,,England,M,SE,Review editor,University of Oxford
+JANE,1994,63,1,SE,David,J,Rogers,,England,M,SE,Review editor,University of Oxford
+JANE,1995,64,1,SE,David,J,Rogers,,England,M,SE,Review editor,University of Oxford
+JANE,1996,65,1,SE,David,J,Rogers,,England,M,SE,Review editor,University of Oxford
+JANE,1986,55,1,EIC,L,R,Taylor,,England,M,EIC,Doesn't say if it's EIC. Main editor.,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1987,56,1,EIC,L,R,Taylor,,England,M,EIC,Main editors,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1988,57,1,EIC,L,R,Taylor,,England,M,EIC,Doesn't say what kinf of editor is ,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1989,58,1,EIC,L,R,Taylor,,England,M,EIC,Main editor.,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1990,59,1,EIC,L,R,Taylor,,England,M,EIC,Main editor.,"Dept. of Statistics, Rothamsted experimental station"
+JANE,1989,58,1,SE,J,E,Thorpe,,Scotland,M,SE,Doesn't say what kind of editor is ,Pitlochry
+JANE,1990,59,1,SE,J,E,Thorpe,,Scotland,M,SE,Doesn't say what kind of editor is ,Pitlochry
+JANE,1991,60,1,SE,J,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,1992,61,1,SE,J,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,1993,62,1,SE,J,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,1994,63,1,SE,John,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,1995,64,1,SE,John,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,1996,65,1,SE,John,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,1997,66,1,AE,John,E,Thorpe,,Scotland,M,SE,Review editor,Pitlochry
+JANE,2013,82,1,AE,Martin,,VanDerPol,,Australia,M,SE,,Australian National University
+JANE,2014,83,1,AE,Martin,,VanDerPol,,Australia,M,SE,,Australian National University
+JANE,2009,78,1,AE,Frank,Van,Veen,,England,M,SE,,"Imperial College, London"
+JANE,2010,79,1,AE,Frank,Van,Veen,,England,M,SE,,"Imperial College, London"
+JANE,2011,80,1,AE,Frank,Van,Veen,,England,M,SE,,University of Exeter
+JANE,2012,81,1,AE,Frank,Van,Veen,,England,M,SE,,University of Exeter
+JANE,2013,82,1,AE,Frank,Van,Veen,,England,M,SE,,University of Exeter
+JANE,2014,83,1,AE,Frank,Van,Veen,,England,M,SE,,University of Exeter
+JANE,1986,55,1,SE,J,B,Whittaker,,England,M,SE,Doesn't say what kinf of editor is ,"Dept. of Biological Sciences, Lancaster University"
+JANE,1988,57,1,SE,J,B,Whittaker,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Biological Sciences, Lancaster University"
+JANE,1989,58,1,SE,J,B,Whittaker,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Biological Sciences, Lancaster University"
+JANE,1990,59,1,SE,J,B,Whittaker,,England,M,SE,Doesn't say what kind of editor is ,"Dept. of Biological Sciences, Lancaster University"
+JANE,2007,76,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2008,77,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2009,78,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2010,79,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2011,80,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2012,81,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2013,82,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2014,83,1,AE,Alex,,Roulin,,Switzerland,M,SE,,University of Lausanne
+JANE,2014,83,1,AE,Alice,,Hughes,,China,F,SE,,Chinese Academy of Science
+JANE,2001,70,1,AE,Andre,,Gilburn,,England,M,SE,Review editor,University of Leicester
+JANE,2002,71,1,AE,Andre,,Gilburn,,England,M,SE,Review editor,University of Leicester
+JANE,2003,72,1,AE,Andre,,Gilburn,,England,M,SE,Review editor,University of Leicester
+JANE,2004,73,1,AE,Andre,,Gilburn,,England,M,SE,Review editor,University of Leicester
+JANE,2005,74,1,AE,Andre,,Gilburn,,England,M,SE,Review editor,University of Leicester
+JANE,2006,75,1,AE,Andre,,Gilburn,,England,M,SE,,University of Leicester
+JANE,2007,76,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2008,77,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2009,78,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2010,79,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2011,80,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2012,81,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2013,82,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2014,83,1,AE,Andre,,Gilburn,,Scotland,M,SE,,Stirling
+JANE,2009,78,1,AE,Andrew,,Beckerman,,England,M,SE,,University of Sheffield
+JANE,2010,79,1,AE,Andrew,,Beckerman,,England,M,SE,,University of Sheffield
+JANE,2011,80,1,AE,Andrew,,Beckerman,,England,M,SE,,University of Sheffield
+JANE,2012,81,1,AE,Andrew,,Beckerman,,England,M,SE,,University of Sheffield
+JANE,2013,82,1,AE,Andrew,,Beckerman,,England,M,SE,,University of Sheffield
+JANE,1994,63,1,SE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,1995,64,1,SE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,1996,65,1,SE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,1997,66,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,1998,67,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,1999,68,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2000,69,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2001,70,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2002,71,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2003,72,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2004,73,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2005,74,1,AE,Andrew,,Illius,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2009,78,1,AE,Andrew,,White,,Scotland,M,SE,,Heriot-Watt University
+JANE,2010,79,1,AE,Andrew,,White,,Scotland,M,SE,,Heriot-Watt University
+JANE,2011,80,1,AE,Andrew,,White,,Scotland,M,SE,,Heriot-Watt University
+JANE,2012,81,1,AE,Andrew,,White,,Scotland,M,SE,,Heriot-Watt University
+JANE,2013,82,1,AE,Andrew,,White,,Scotland,M,SE,,Heriot-Watt University
+JANE,2014,83,1,AE,Andrew,,White,,Scotland,M,SE,,Heriot-Watt University
+JANE,2014,83,1,AE,Andy,,Fenton,,England,M,SE,,University of Liverpool
+JANE,2006,75,1,AE,Andy,,Gonzalez,,Canada,M,SE,,Montreal
+JANE,2007,76,1,AE,Andy,,Gonzalez,,Canada,M,SE,,Montreal
+JANE,2008,77,1,AE,Andy,,Gonzalez,,Canada,M,SE,,Montreal
+JANE,2009,78,1,AE,Andy,,Russell,,England,M,SE,,University of Sheffield
+JANE,2010,79,1,AE,Andy,,Russell,,England,M,SE,,University of Sheffield
+JANE,2011,80,1,AE,Andy,,Russell,,England,M,SE,,University of Exeter
+JANE,2012,81,1,AE,Andy,,Russell,,England,M,SE,,University of Exeter
+JANE,2013,82,1,AE,Andy,,Russell,,England,M,SE,,University of Exeter
+JANE,2014,83,1,AE,Andy,,Russell,,England,M,SE,,University of Exeter
+JANE,1992,61,1,SE,Anne,,Keymer,,England,F,SE,Review editor,Oxford
+JANE,1993,62,1,SE,Anne,,Keymer,,England,F,SE,Review editor,Oxford
+JANE,2007,76,1,AE,Anthony,,Richardson,,Australia,M,SE,,Queensland
+JANE,2005,74,1,AE,Atle,,Mysterud,,Norway,M,SE,Review editor,Oslo
+JANE,2006,75,1,AE,Atle,,Mysterud,,Norway,M,SE,,Oslo
+JANE,2007,76,1,AE,Atle,,Mysterud,,Norway,M,SE,,Oslo
+JANE,2008,77,1,AE,Atle,,Mysterud,,Norway,M,SE,,Oslo
+JANE,2009,78,1,AE,Atle,,Mysterud,,Norway,M,SE,,University of Oslo
+JANE,2010,79,1,AE,Atle,,Mysterud,,Norway,M,SE,,University of Oslo
+JANE,2011,80,1,AE,Atle,,Mysterud,,Norway,M,SE,,University of Oslo
+JANE,2012,81,1,AE,Atle,,Mysterud,,Norway,M,SE,,University of Oslo
+JANE,2013,82,1,AE,Atle,,Mysterud,,Norway,M,SE,,University of Oslo
+JANE,2014,83,1,AE,Atle,,Mysterud,,Norway,M,SE,,University of Oslo
+JANE,2006,75,1,AE,Ben,,Sheldon,,England,M,SE,,Oxford
+JANE,2007,76,1,AE,Ben,,Sheldon,,England,M,SE,,Oxford
+JANE,2008,77,1,AE,Ben,,Sheldon,,England,M,SE,,Oxford
+JANE,2009,78,1,AE,Ben,,Woodcock,,England,M,SE,,CEH
+JANE,2010,79,1,AE,Ben,,Woodcock,,England,M,SE,,CEH
+JANE,2011,80,1,AE,Ben,,Woodcock,,England,M,SE,,CEH
+JANE,2012,81,1,AE,Ben,,Woodcock,,England,M,SE,,CEH
+JANE,2013,82,1,AE,Ben,,Woodcock,,England,M,SE,,CEH
+JANE,2014,83,1,AE,Ben,,Woodcock,,England,M,SE,,CEH
+JANE,1999,68,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2000,69,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2001,70,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2002,71,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2003,72,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2004,73,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2005,74,1,AE,Bill,,Gurney,,Scotland,M,SE,Review editor,Strathclyde
+JANE,2006,75,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2007,76,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2008,77,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2009,78,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2010,79,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2011,80,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2012,81,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2013,82,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2014,83,1,AE,Bill,,Gurney,,Scotland,M,SE,,Strathclyde
+JANE,2007,76,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2008,77,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2009,78,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2010,79,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2011,80,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2012,81,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2013,82,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,2014,83,1,AE,Brett,,Sandercock,,USA,M,SE,,Kansas State University
+JANE,1998,67,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,1999,68,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2000,69,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2001,70,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2002,71,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2003,72,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2004,73,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2005,74,1,AE,Bror,,Jonsson,,Norway,M,SE,Review editor,Oslo
+JANE,2006,75,1,AE,Bror,,Jonsson,,Norway,M,SE,,Oslo
+JANE,2007,76,1,AE,Bror,,Jonsson,,Norway,M,SE,,Oslo
+JANE,2008,77,1,AE,Bror,,Jonsson,,Norway,M,SE,,Oslo
+JANE,2009,78,1,AE,Bror,,Jonsson,,Norway,M,SE,,Oslo
+JANE,2010,79,1,AE,Bror,,Jonsson,,Norway,M,SE,,Oslo
+JANE,2011,80,1,AE,Bror,,Jonsson,,Norway,M,SE,,Norwegian Institute for Nature research
+JANE,2012,81,1,AE,Bror,,Jonsson,,Norway,M,SE,,Norwegian Institute for Nature research
+JANE,2013,82,1,AE,Bror,,Jonsson,,Norway,M,SE,,Norwegian Institute for Nature research
+JANE,2014,83,1,AE,Bror,,Jonsson,,Norway,M,SE,,Norwegian Institute for Nature research
+JANE,2005,74,1,AE,Bryan,,Manly,,USA,M,SE,Review editor,Cheyenne
+JANE,2006,75,1,AE,Bryan,,Manly,,USA,M,SE,,Cheyenne
+JANE,2007,76,1,AE,Bryan,,Manly,,USA,M,SE,,Cheyenne
+JANE,2008,77,1,AE,Bryan,,Manly,,USA,M,SE,,Cheyenne
+JANE,2009,78,1,AE,Bryan,,Manly,,USA,M,SE,,Cheyenne
+JANE,2010,79,1,AE,Bryan,,Manly,,USA,M,SE,,Cheyenne
+JANE,2011,80,1,AE,Bryan,,Manly,,USA,M,SE,,West Inc.
+JANE,2012,81,1,AE,Bryan,,Manly,,USA,M,SE,,West Inc.
+JANE,2013,82,1,AE,Bryan,,Manly,,USA,M,SE,,West Inc.
+JANE,1991,60,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1992,61,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1993,62,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1994,63,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1995,64,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1996,65,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1997,66,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1998,67,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1999,68,1,EIC,Bryan,,Shorrocks,,England,M,EIC,Main editors,"Dept. of pure and applied biology, University of Leeds"
+JANE,1991,60,1,SE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1992,61,1,SE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1993,62,1,SE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1994,63,1,SE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1995,64,1,SE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1996,65,1,SE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1997,66,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1998,67,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,1999,68,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,2000,69,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,2001,70,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Imperial College, London"
+JANE,2002,71,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Silwood Park, Imperial College, London"
+JANE,2003,72,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Silwood Park, Imperial College, London"
+JANE,2004,73,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Silwood Park, Imperial College, London"
+JANE,2005,74,1,AE,Charles,,Godfray,,England,M,SE,Review editor,"Silwood Park, Imperial College, London"
+JANE,2006,75,1,AE,Charles,,Godfray,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2007,76,1,AE,Charles,,Godfray,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2008,77,1,AE,Charles,,Godfray,,England,M,SE,,Oxford
+JANE,2009,78,1,AE,Charlie,,Nunn,,USA,M,SE,,Harvard University
+JANE,1997,66,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,1998,67,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,1999,68,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,2000,69,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,2001,70,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,2002,71,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,2003,72,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,2004,73,1,AE,Chris,,Thomas,,England,M,SE,Review editor,Leeds
+JANE,2005,74,1,AE,Chris,,Thomas,,England,M,SE,Review editor,York
+JANE,2009,78,1,AE,Chris,,Thomas,,Wales,M,SE,,University of wales
+JANE,2010,79,1,AE,Chris,,Thomas,,Wales,M,SE,,University of wales
+JANE,2011,80,1,AE,Chris,,Thomas,,Wales,M,SE,,Aberystwyth University
+JANE,2012,81,1,AE,Chris,,Thomas,,Wales,M,SE,,Aberystwyth University
+JANE,2013,82,1,AE,Chris,,Thomas,,Wales,M,SE,,Aberystwyth University
+JANE,2007,76,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2008,77,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2009,78,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2010,79,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2011,80,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2012,81,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2013,82,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2014,83,1,AE,Christiaan,,Both,,Netherlands,M,SE,,Groningen
+JANE,2014,83,1,AE,Christophe,,Eizaguirre,,England,M,SE,,Queen Mary University of London
+JANE,2006,75,1,AE,Corey,,Bradshaw,,Australia,M,SE,,Darwin
+JANE,2007,76,1,AE,Corey,,Bradshaw,,Australia,M,SE,,Darwin
+JANE,2008,77,1,IFE,Corey,,Bradshaw,,Australia,M,Special,In focus editor. Section in the journal.,Charles Darwin University
+JANE,2009,78,1,IFE,Corey,,Bradshaw,,Australia,M,Special,In focus editor. Section in the journal.,University of Adelaide
+JANE,2009,78,1,AE,Corey,,Bradshaw,,Australia,M,SE,,University of Adelaide
+JANE,2010,79,1,AE,Corey,,Bradshaw,,Australia,M,SE,,University of Adelaide
+JANE,2011,80,1,AE,Corey,,Bradshaw,,Australia,M,SE,,University of Adelaide
+JANE,2012,81,1,AE,Corey,,Bradshaw,,Australia,M,SE,,University of Adelaide
+JANE,2013,82,1,AE,Corey,,Bradshaw,,Australia,M,SE,,University of Adelaide
+JANE,2014,83,1,AE,Corey,,Bradshaw,,Australia,M,SE,,University of Adelaide
+JANE,2011,80,1,AE,Dan,,Ardia,,USA,M,SE,"From now on it says associate editor, but they are subject editors",Franklin and Marshall University
+JANE,2012,81,1,AE,Dan,,Ardia,,USA,M,SE,"From now on it says associate editor, but they are subject editors",Franklin and Marshall University
+JANE,2013,82,1,AE,Dan,,Ardia,,USA,M,SE,"From now on it says associate editor, but they are subject editors",Franklin and Marshall University
+JANE,2014,83,1,AE,Dan,,Ardia,,USA,M,SE,"From now on it says associate editor, but they are subject editors",Franklin and Marshall University
+JANE,2009,78,1,AE,Dan,,Nussey,,Scotland,M,SE,,University of Edinburgh
+JANE,2010,79,1,AE,Dan,,Nussey,,Scotland,M,SE,,University of Edinburgh
+JANE,2011,80,1,AE,Dan,,Nussey,,Scotland,M,SE,,University of Edinburgh
+JANE,2011,80,1,AE,Dan,,Stouffer,,Spain,M,SE,,CSIC
+JANE,2012,81,1,AE,Dan,,Stouffer,,Spain,M,SE,,CSIC
+JANE,2013,82,1,AE,Dan,,Stouffer,,New Zealand,M,SE,,University of Canterbury
+JANE,2014,83,1,AE,Dan,,Stouffer,,New Zealand,M,SE,,University of Canterbury
+JANE,2008,77,1,AE,Dan,,Tomkins,,New Zealand,M,SE,,Landcare Research
+JANE,2009,78,1,AE,Dan,,Tomkins,,New Zealand,M,SE,,Landcare Research
+JANE,2010,79,1,AE,Dan,,Tomkins,,New Zealand,M,SE,,Landcare Research
+JANE,2011,80,1,AE,Dan,,Tomkins,,New Zealand,M,SE,,Landcare Research
+JANE,2012,81,1,AE,Dan,,Tomkins,,New Zealand,M,SE,,Landcare Research
+JANE,2013,82,1,AE,Dan,,Tomkins,,New Zealand,M,SE,,Landcare Research
+JANE,1997,66,1,AE,Dave,,Raffaelli,,Scotland,M,SE,Review editor,Aberdeen
+JANE,1998,67,1,AE,Dave,,Raffaelli,,Scotland,M,SE,Review editor,Aberdeen
+JANE,2000,69,1,EIC,Dave,,Raffaelli,,Scotland,M,EIC,Main editors,University of Aberdeen
+JANE,2001,70,1,EIC,Dave,,Raffaelli,,England,M,EIC,Main editors,University of York
+JANE,2002,71,1,EIC,Dave,,Raffaelli,,England,M,EIC,Main editors,University of York
+JANE,2003,72,1,EIC,Dave,,Raffaelli,,England,M,EIC,Main editors,University of York
+JANE,2004,73,1,EIC,Dave,,Raffaelli,,England,M,EIC,Main editors,University of York
+JANE,2005,74,1,EIC,Dave,,Raffaelli,,England,M,EIC,Main editors,University of York
+JANE,2006,75,1,EIC,Dave,,Raffaelli,,England,M,EIC,Main editors,University of York
+JANE,2006,75,1,AE,David,,Sims,,England,M,SE,,Plymouth
+JANE,2007,76,1,AE,David,,Sims,,England,M,SE,,Plymouth
+JANE,2008,77,1,AE,David,,Sims,,England,M,SE,,Plymouth
+JANE,2014,83,1,AE,Dehua,,Wang,,China,M,SE,,Chinese Academy of Science
+JANE,2013,82,1,AE,Eoin,,O'Gorman,,England,M,SE,,Queen Mary University of London
+JANE,2014,83,1,AE,Eoin,,O'Gorman,,England,M,SE,,Queen Mary University of London
+JANE,2010,79,1,AE,Fanie,,Pelletier,,Canada,F,SE,,University of Sherbrooke
+JANE,2011,80,1,AE,Fanie,,Pelletier,,Canada,F,SE,,University of Sherbrooke
+JANE,2012,81,1,AE,Fanie,,Pelletier,,Canada,F,SE,,University of Sherbrooke
+JANE,2013,82,1,AE,Fanie,,Pelletier,,Canada,F,SE,,University of Sherbrooke
+JANE,2014,83,1,AE,Fanie,,Pelletier,,Canada,F,SE,,University of Sherbrooke
+JANE,2010,79,1,AE,Frank,,Johansson,,Sweden,M,SE,,University of Umea
+JANE,2011,80,1,AE,Frank,,Johansson,,Sweden,M,SE,,University of Umea
+JANE,2012,81,1,AE,Frank,,Johansson,,Sweden,M,SE,,University of Umea
+JANE,2013,82,1,AE,Frank,,Johansson,,Sweden,M,SE,,University of Umea
+JANE,2014,83,1,AE,Frank,,Johansson,,Sweden,M,SE,,University of Umea
+JANE,1993,62,1,SE,Graeme,,Caughley,,Australia,M,SE,Review editor,Lyneham
+JANE,1994,63,1,SE,Graeme,,Caughley,,Australia,M,SE,Review editor,Lyneham
+JANE,2006,75,1,EIC,Graeme,,Hays,,Wales,M,EIC,Main editors,University of Wales
+JANE,2007,76,1,EIC,Graeme,,Hays,,Wales,M,EIC,Main editors,University of Wales
+JANE,2008,77,1,EIC,Graeme,,Hays,,Wales,M,EIC,Main editors,Swamsea University
+JANE,2009,78,1,EIC,Graeme,,Hays,,Wales,M,EIC,Main editors,Swansea University
+JANE,2010,79,1,EIC,Graeme,,Hays,,Wales,M,EIC,Editors,Swansea University
+JANE,2011,80,1,EIC,Graeme,,Hays,,Wales,M,EIC,Says Editors,Swansea University
+JANE,2012,81,1,EIC,Graeme,,Hays,,Wales,M,EIC,Says Editors,Swansea University
+JANE,2013,82,1,EIC,Graeme,,Hays,,Wales,M,EIC,Says Editors,Swansea University
+JANE,2014,83,1,EIC,Graeme,,Hays,,Wales,M,EIC,Says Editors,Swansea University
+JANE,2006,75,1,AE,Graeme,,Ruxton,,Scotland,M,SE,,Glasgow
+JANE,2007,76,1,AE,Graeme,,Ruxton,,Scotland,M,SE,,Glasgow
+JANE,2008,77,1,AE,Graeme,,Ruxton,,Scotland,M,SE,,Glasgow
+JANE,2014,83,1,AE,Guarino,,Colli,,Brazil,M,SE,,Universidade de Brasilia
+JANE,2006,75,1,AE,Guy,,Woodward,,England,M,SE,,London
+JANE,2007,76,1,AE,Guy,,Woodward,,England,M,SE,,London
+JANE,2008,77,1,AE,Guy,,Woodward,,England,M,SE,,London
+JANE,2009,78,1,AE,Guy,,Woodward,,England,M,SE,,London
+JANE,2010,79,1,AE,Guy,,Woodward,,England,M,SE,,London
+JANE,2011,80,1,AE,Guy,,Woodward,,England,M,SE,,Queen Mary University of London
+JANE,2012,81,1,AE,Guy,,Woodward,,England,M,SE,,Queen Mary University of London
+JANE,2013,82,1,AE,Guy,,Woodward,,England,M,SE,,Queen Mary University of London
+JANE,2006,75,1,AE,Henri,,Weimerskirch,,France,M,SE,,Paris
+JANE,2007,76,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2008,77,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2009,78,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2010,79,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2011,80,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2012,81,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2013,82,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2014,83,1,AE,Henri,,Weimerskirch,,France,M,SE,,Chize
+JANE,2010,79,1,AE,Ian,,Hardy,,England,M,SE,,University of Nottingham
+JANE,2011,80,1,AE,Ian,,Hardy,,England,M,SE,,University of Nottingham
+JANE,2012,81,1,AE,Ian,,Hardy,,England,M,SE,,University of Nottingham
+JANE,2013,82,1,AE,Ian,,Hardy,,England,M,SE,,University of Nottingham
+JANE,2012,81,1,AE,Ian,,Montgomery,,Ireland,M,SE,,"Queens University, Belfast"
+JANE,2013,82,1,AE,Ian,,Montgomery,,Ireland,M,SE,,"Queens University, Belfast"
+JANE,2014,83,1,AE,Ian,,Montgomery,,Ireland,M,SE,,"Queens University, Belfast"
+JANE,1991,60,1,SE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1992,61,1,SE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1993,62,1,SE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1994,63,1,SE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1995,64,1,SE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1996,65,1,SE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1997,66,1,AE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1998,67,1,AE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,1999,68,1,AE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,2000,69,1,AE,Ian,,Newton,,England,M,SE,Review editor,Monks wood
+JANE,2013,82,1,AE,Isabel,,Smallegange,,England,F,SE,,"Imperial College, London"
+JANE,2014,83,1,AE,Isabel,,Smallegange,,England,F,SE,,"Imperial College, London"
+JANE,2007,76,1,AE,Jane,,Reid,,Scotland,F,SE,,Aberdeen
+JANE,2008,77,1,AE,Jane,,Reid,,Scotland,F,SE,,Aberdeen
+JANE,2009,78,1,AE,Jane,,Reid,,Scotland,F,SE,,Aberdeen
+JANE,2010,79,1,AE,Jane,,Reid,,Scotland,F,SE,,Aberdeen
+JANE,2011,80,1,AE,Jane,,Reid,,Scotland,F,SE,,University of Aberdeen
+JANE,2012,81,1,AE,Jane,,Reid,,Scotland,F,SE,,University of Aberdeen
+JANE,2012,81,1,AE,Jason,,Tylianakis,,New Zealand,M,SE,,University of Canterbury
+JANE,2013,82,1,AE,Jason,,Tylianakis,,New Zealand,M,SE,,University of Canterbury
+JANE,2014,83,1,AE,Jason,,Tylianakis,,New Zealand,M,SE,,University of Canterbury
+JANE,1997,66,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,1998,67,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,1999,68,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2000,69,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2001,70,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2002,71,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2003,72,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2004,73,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2005,74,1,AE,Jean,,Clobert,,France,F,SE,Review editor,Paris
+JANE,2006,75,1,AE,Jean,,Clobert,,France,F,SE,,Paris
+JANE,2007,76,1,AE,Jean,,Clobert,,France,F,SE,,Paris
+JANE,2008,77,1,AE,Jean,,Clobert,,France,F,SE,,Paris
+JANE,2009,78,1,AE,Jean,,Clobert,,France,F,SE,,Station d Ecologi Experimentale du CNRS
+JANE,2010,79,1,AE,Jean,,Clobert,,France,F,SE,,Station d Ecologi Experimentale du CNRS
+JANE,2011,80,1,AE,Jean,,Clobert,,France,F,SE,,Station d Ecologi Experimentale du CNRS
+JANE,2012,81,1,AE,Jean,,Clobert,,France,F,SE,,Station d Ecologi Experimentale du CNRS
+JANE,2013,82,1,AE,Jean,,Clobert,,France,F,SE,,Station d Ecologi Experimentale du CNRS
+JANE,2014,83,1,AE,Jean,,Clobert,,France,F,SE,,Station d Ecologi Experimentale du CNRS
+JANE,2012,81,1,AE,John,,Fryxell,,Canada,M,SE,,University of Guelph
+JANE,2013,82,1,AE,John,,Fryxell,,Canada,M,SE,,University of Guelph
+JANE,2014,83,1,AE,John,,Fryxell,,Canada,M,SE,,University of Guelph
+JANE,2010,79,1,AE,John,,Fryxwell,,Canada,M,SE,,University of Guelph
+JANE,1997,66,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,1998,67,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,1999,68,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2000,69,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2001,70,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2002,71,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2003,72,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2004,73,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2005,74,1,AE,John,,Jaenike,,USA,M,SE,Review editor,"Rochester, NY"
+JANE,2009,78,1,AE,John,,Quinn,,England,M,SE,,University of Oxford
+JANE,2010,79,1,AE,John,,Quinn,,England,M,SE,,University of Oxford
+JANE,2011,80,1,AE,John,,Quinn,,England,M,SE,,University of Oxford
+JANE,2012,81,1,AE,John,,Quinn,,England,M,SE,,University of Oxford
+JANE,2013,82,1,AE,John,,Quinn,,England,M,SE,,University of Oxford
+JANE,2014,83,1,AE,John,,Quinn,,England,M,SE,,University of Oxford
+JANE,2007,76,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2008,77,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2009,78,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2010,79,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2011,80,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2012,81,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2013,82,1,AE,Jon,,Wright,,Norway,M,SE,,University of Trondheim
+JANE,2007,76,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2008,77,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2009,78,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2010,79,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2011,80,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2012,81,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2013,82,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2014,83,1,AE,Jonathan,,Newman,,Canada,M,SE,,University of Guelph
+JANE,2006,75,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,Alberta
+JANE,2007,76,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,Alberta
+JANE,2008,77,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,Alberta
+JANE,2009,78,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,Alberta
+JANE,2010,79,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,Alberta
+JANE,2011,80,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,Alberta
+JANE,2012,81,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,University of Lethbridge
+JANE,2013,82,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,University of Lethbridge
+JANE,2014,83,1,AE,Joseph,,Rasmussen,,Canada,M,SE,,University of Lethbridge
+JANE,1992,61,1,SE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1993,62,1,SE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1994,63,1,SE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1995,64,1,SE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1996,65,1,SE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1997,66,1,AE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1998,67,1,AE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,1999,68,1,AE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,2000,69,1,AE,Josephine,,Pemberton,,England,F,SE,Review editor,Cambridge
+JANE,2008,77,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,2009,78,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,2010,79,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,2011,80,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,2012,81,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,2013,82,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,2014,83,1,AE,Karl,,Cottenie,,Canada,M,SE,,University of Guelph
+JANE,1992,61,1,SE,Kate,,Lessells,,England,F,SE,Review editor,Sheffield
+JANE,1993,62,1,SE,Kate,,Lessells,,England,F,SE,Review editor,Sheffield
+JANE,1994,63,1,SE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,1995,64,1,SE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,1996,65,1,SE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,1997,66,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,1998,67,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,1999,68,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2000,69,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2001,70,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2002,71,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2003,72,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2004,73,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2005,74,1,AE,Kate,,Lessells,,Netherlands,F,SE,Review editor,Heteren
+JANE,2006,75,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Heteren
+JANE,2007,76,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Heteren
+JANE,2008,77,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Heteren
+JANE,2009,78,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Heteren
+JANE,2010,79,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Heteren
+JANE,2011,80,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Netherlands Institute of Ecology
+JANE,2012,81,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Netherlands Institute of Ecology
+JANE,2013,82,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Netherlands Institute of Ecology
+JANE,2014,83,1,AE,Kate,,Lessells,,Netherlands,F,SE,,Netherlands Institute of Ecology
+JANE,2001,70,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2002,71,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2003,72,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2004,73,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2005,74,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2006,75,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2007,76,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2008,77,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2009,78,1,EIC,Ken,,Norris,,England,M,EIC,Main editors,University of Reading
+JANE,2007,76,1,AE,Ken,,Wilson,,England,M,SE,,Lancaster
+JANE,2008,77,1,AE,Ken,,Wilson,,England,M,SE,,Lancaster
+JANE,2009,78,1,AE,Ken,,Wilson,,England,M,SE,,Lancaster University
+JANE,2010,79,1,EIC,Ken,,Wilson,,England,M,EIC,Editors,Lancaster University
+JANE,2011,80,1,EIC,Ken,,Wilson,,England,M,EIC,Says Editors,Lancaster University
+JANE,2012,81,1,EIC,Ken,,Wilson,,England,M,EIC,Says Editors,Lancaster University
+JANE,2013,82,1,EIC,Ken,,Wilson,,England,M,EIC,Says Editors,Lancaster University
+JANE,2014,83,1,EIC,Ken,,Wilson,,England,M,EIC,Says Editors,Lancaster University
+JANE,2005,74,1,EIC,Kevin,,McCann,,Canada,M,EIC,Main editors,University of Guelph
+JANE,2006,75,1,EIC,Kevin,,McCann,,Canada,M,EIC,Main editors,University of Guelph
+JANE,2007,76,1,EIC,Kevin,,McCann,,Canada,M,EIC,Main editors,University of Guelph
+JANE,2008,77,1,EIC,Kevin,,McCann,,Canada,M,EIC,Main editors,University of Guelph
+JANE,2009,78,1,AE,Kevin,,McCann,,Canada,M,SE,,University of Guelph
+JANE,2010,79,1,AE,Kevin,,McCann,,Canada,M,SE,,University of Guelph
+JANE,2011,80,1,AE,Kevin,,McCann,,Canada,M,SE,,University of Guelph
+JANE,2012,81,1,AE,Kevin,,McCann,,Canada,M,SE,,University of Guelph
+JANE,2012,81,1,AE,Kim,,Cuddington,,Canada,F,SE,,University of Waterloo
+JANE,2013,82,1,AE,Kim,,Cuddington,,Canada,F,SE,,University of Waterloo
+JANE,2014,83,1,AE,Kim,,Cuddington,,Canada,F,SE,,University of Waterloo
+JANE,2006,75,1,AE,Lennart,,Persson,,Sweden,M,SE,,Umea
+JANE,2007,76,1,AE,Lennart,,Persson,,Sweden,M,SE,,Umea
+JANE,2008,77,1,AE,Lennart,,Persson,,Sweden,M,SE,,Umea
+JANE,2009,78,1,AE,Lennart,,Persson,,Sweden,M,SE,,Umea
+JANE,2010,79,1,AE,Lennart,,Persson,,Sweden,M,SE,,University of Umea
+JANE,2011,80,1,AE,Lennart,,Persson,,Sweden,M,SE,,University of Umea
+JANE,2012,81,1,AE,Lennart,,Persson,,Sweden,M,SE,,University of Umea
+JANE,2013,82,1,AE,Lennart,,Persson,,Sweden,M,SE,,University of Umea
+JANE,2014,83,1,AE,Luca,,Borger,,France,M,SE,,INRA & CNRS
+JANE,2006,75,1,AE,Mark,,Emmerson,,Ireland,M,SE,,Cork
+JANE,2007,76,1,AE,Mark,,Emmerson,,Ireland,M,SE,,Cork
+JANE,2009,78,1,AE,Martin,,Genner,,England,M,SE,,University of Bristol
+JANE,2010,79,1,AE,Martin,,Genner,,England,M,SE,,University of Bristol
+JANE,2011,80,1,AE,Martin,,Genner,,England,M,SE,,University of Bristol
+JANE,2012,81,1,AE,Martin,,Genner,,England,M,SE,,University of Bristol
+JANE,2013,82,1,AE,Martin,,Genner,,England,M,SE,,University of Bristol
+JANE,2014,83,1,AE,Martin,,Genner,,England,M,SE,,University of Bristol
+JANE,2010,79,1,AE,Michael,,Wunder,,USA,M,SE,,University of Colorado
+JANE,2011,80,1,AE,Michael,,Wunder,,USA,M,SE,,University of Colorado
+JANE,2012,81,1,AE,Michael,,Wunder,,USA,M,SE,,University of Colorado
+JANE,2013,82,1,AE,Michael,,Wunder,,USA,M,SE,,University of Colorado
+JANE,2014,83,1,AE,Michael,,Wunder,,USA,M,SE,,University of Colorado
+JANE,2008,77,1,EIC,Mike,,Boots,,England,M,EIC,Main editors,University of Sheffield
+JANE,2009,78,1,EIC,Mike,,Boots,,England,M,EIC,Main editors,University of Sheffield
+JANE,2010,79,1,EIC,Mike,,Boots,,England,M,EIC,Editors,University of Sheffield
+JANE,2011,80,1,EIC,Mike,,Boots,,England,M,EIC,Says Editors,University of Sheffield
+JANE,2012,81,1,EIC,Mike,,Boots,,England,M,EIC,Says Editors,University of Sheffield
+JANE,2013,82,1,EIC,Mike,,Boots,,England,M,EIC,Says Editors,University of Sheffield
+JANE,2014,83,1,EIC,Mike,,Boots,,England,M,EIC,Says Editors,University of Sheffield
+JANE,2006,75,1,AE,Murray,,Humphries,,Canada,M,SE,,Montreal
+JANE,2007,76,1,AE,Murray,,Humphries,,Canada,M,SE,,Montreal
+JANE,2008,77,1,AE,Murray,,Humphries,,Canada,M,SE,,Montreal
+JANE,2009,78,1,AE,Murray,,Humphries,,Canada,M,SE,,McGill University
+JANE,2010,79,1,AE,Murray,,Humphries,,Canada,M,SE,,McGill University
+JANE,2011,80,1,AE,Murray,,Humphries,,Canada,M,SE,,McGill University
+JANE,2012,81,1,AE,Murray,,Humphries,,Canada,M,SE,,McGill University
+JANE,2013,82,1,AE,Murray,,Humphries,,Canada,M,SE,,McGill University
+JANE,2014,83,1,AE,Murray,,Humphries,,Canada,M,SE,,McGill University
+JANE,2009,78,1,AE,Nathalie,,Seddon,,England,F,SE,,University of Oxford
+JANE,2010,79,1,AE,Nathalie,,Seddon,,England,F,SE,,University of Oxford
+JANE,2011,80,1,AE,Nathalie,,Seddon,,England,F,SE,,University of Oxford
+JANE,2012,81,1,AE,Nathalie,,Seddon,,England,F,SE,,University of Oxford
+JANE,2013,82,1,AE,Nathalie,,Seddon,,England,F,SE,,University of Oxford
+JANE,2014,83,1,AE,Nathalie,,Seddon,,England,F,SE,,University of Oxford
+JANE,2006,75,1,AE,Ottar,,Bjornstad,,USA,M,SE,,Pennsylvania
+JANE,2007,76,1,AE,Ottar,,Bjornstad,,USA,M,SE,,Pennsylvania
+JANE,2008,77,1,AE,Ottar,,Bjornstad,,USA,M,SE,,Pennsylvania
+JANE,2007,76,1,AE,Peter,,Benett,,England,M,SE,,London
+JANE,2008,77,1,AE,Peter,,Benett,,England,M,SE,,London
+JANE,2009,78,1,AE,Peter,,Benett,,England,M,SE,,University of Kent
+JANE,2010,79,1,AE,Peter,,Benett,,England,M,SE,,University of Kent
+JANE,2011,80,1,AE,Peter,,Benett,,England,M,SE,,University of Kent
+JANE,2012,81,1,AE,Peter,,Benett,,England,M,SE,,University of Kent
+JANE,2013,82,1,AE,Peter,,Benett,,England,M,SE,,University of Kent
+JANE,2011,80,1,AE,Peter,,Hamback,,Sweden,M,SE,,Stockholm University
+JANE,2012,81,1,AE,Peter,,Hamback,,Sweden,M,SE,,Stockholm University
+JANE,2013,82,1,AE,Peter,,Hamback,,Sweden,M,SE,,Stockholm University
+JANE,2014,83,1,AE,Peter,,Hamback,,Sweden,M,SE,,Stockholm University
+JANE,1996,65,1,SE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,1997,66,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,1998,67,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,1999,68,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,2000,69,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,2001,70,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,2002,71,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,2003,72,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,2004,73,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,2005,74,1,AE,Peter,,Jarman,,Australia,M,SE,Review editor,Armidale
+JANE,1998,67,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,1999,68,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2000,69,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2001,70,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2002,71,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2003,72,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2004,73,1,AE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2005,74,1,SE,Philip,,Warren,,England,M,SE,Review editor,Sheffield
+JANE,2007,76,1,AE,Philip,,Warren,,England,M,SE,,Sheffield
+JANE,2008,77,1,AE,Philip,,Warren,,England,M,SE,,Sheffield
+JANE,2009,78,1,AE,Philip,,Warren,,England,M,SE,,Sheffield
+JANE,2010,79,1,AE,Philip,,Warren,,England,M,SE,,Sheffield
+JANE,2011,80,1,AE,Philip,,Warren,,England,M,SE,,University of Sheffield
+JANE,2012,81,1,AE,Philip,,Warren,,England,M,SE,,University of Sheffield
+JANE,2007,76,1,AE,Piran,,White,,England,M,SE,,University of York
+JANE,2008,77,1,AE,Piran,,White,,England,M,SE,,University of York
+JANE,2009,78,1,AE,Piran,,White,,England,M,SE,,University of York
+JANE,2014,83,1,AE,Priyanga,,Amarasekare,,USA,F,SE,,"University of California, Los Angeles"
+JANE,2008,77,1,AE,Rob,,Knell,,England,M,SE,,London
+JANE,2009,78,1,AE,Rob,,Knell,,England,M,SE,,London
+JANE,2010,79,1,AE,Rob,,Knell,,England,M,SE,,London
+JANE,2006,75,1,AE,Robert,,Poulin,,New Zealand,M,SE,,Dunedin
+JANE,2007,76,1,AE,Robert,,Poulin,,New Zealand,M,SE,,Dunedin
+JANE,2008,77,1,AE,Robert,,Poulin,,New Zealand,M,SE,,Dunedin
+JANE,2009,78,1,AE,Robert,,Poulin,,New Zealand,M,SE,,Dunedin
+JANE,2000,69,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2001,70,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2002,71,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2003,72,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2004,73,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2005,74,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2006,75,1,EIC,Robert,,Smith,,England,M,EIC,Main editors,University of Leicester
+JANE,2008,77,1,AE,Robin,,McCleery,,England,M,SE,,Oxford
+JANE,1997,66,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Oslo
+JANE,1998,67,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Oslo
+JANE,1999,68,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Oslo
+JANE,2000,69,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Oslo
+JANE,2001,70,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Oslo
+JANE,2002,71,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Oslo
+JANE,2003,72,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Tromso
+JANE,2004,73,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Tromso
+JANE,2005,74,1,AE,Rolf,,Ims,,Norway,M,SE,Review editor,Tromso
+JANE,2006,75,1,AE,Rolf,,Ims,,Norway,M,SE,,Tromso
+JANE,2007,76,1,AE,Rolf,,Ims,,Norway,M,SE,,Tromso
+JANE,2008,77,1,AE,Rolf,,Ims,,Norway,M,SE,,Tromso
+JANE,2009,78,1,AE,Rolf,,Ims,,Norway,M,SE,,University of Tromso
+JANE,2010,79,1,AE,Rolf,,Ims,,Norway,M,SE,,University of Tromso
+JANE,2011,80,1,AE,Rolf,,Ims,,Norway,M,SE,,University of Tromso
+JANE,2012,81,1,AE,Rolf,,Ims,,Norway,M,SE,,University of Tromso
+JANE,2013,82,1,AE,Rolf,,Ims,,Norway,M,SE,,University of Tromso
+JANE,2014,83,1,AE,Rolf,,Ims,,Norway,M,SE,,University of Tromso
+JANE,2009,78,1,AE,Ryan,,Norris,,Canada,M,SE,,University of Guelph
+JANE,2010,79,1,AE,Ryan,,Norris,,Canada,M,SE,,University of Guelph
+JANE,2011,80,1,AE,Ryan,,Norris,,Canada,M,SE,,University of Guelph
+JANE,2012,81,1,AE,Ryan,,Norris,,Canada,M,SE,,University of Guelph
+JANE,2013,82,1,AE,Ryan,,Norris,,Canada,M,SE,,University of Guelph
+JANE,2014,83,1,AE,Ryan,,Norris,,Canada,M,SE,,University of Guelph
+JANE,1997,66,1,AE,Sean,,Nee,,England,M,SE,Review editor,Oxford
+JANE,1998,67,1,AE,Sean,,Nee,,England,M,SE,Review editor,Oxford
+JANE,1999,68,1,AE,Sean,,Nee,,England,M,SE,Review editor,Oxford
+JANE,2000,69,1,AE,Sean,,Nee,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2001,70,1,AE,Sean,,Nee,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2002,71,1,AE,Sean,,Nee,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2003,72,1,AE,Sean,,Nee,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2004,73,1,AE,Sean,,Nee,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2005,74,1,AE,Sean,,Nee,,Scotland,M,SE,Review editor,Edinburgh
+JANE,2009,78,1,AE,Shai,,Meiri,,England,M,SE,,"Imperial College, London"
+JANE,2010,79,1,AE,Shai,,Meiri,,England,M,SE,,"Imperial College, London"
+JANE,2011,80,1,AE,Shai,,Meiri,,Israel,M,SE,,Tel Aviv University
+JANE,2012,81,1,AE,Shai,,Meiri,,Israel,M,SE,,Tel Aviv University
+JANE,2013,82,1,AE,Shai,,Meiri,,Israel,M,SE,,Tel Aviv University
+JANE,2014,83,1,AE,Shai,,Meiri,,Israel,M,SE,,Tel Aviv University
+JANE,2012,81,1,AE,Sheena,,Cotter,,Ireland,F,SE,,"Queens University, Belfast"
+JANE,2013,82,1,AE,Sheena,,Cotter,,Ireland,F,SE,,"Queens University, Belfast"
+JANE,2014,83,1,AE,Sheena,,Cotter,,Ireland,F,SE,,"Queens University, Belfast"
+JANE,2008,77,1,AE,Simon,,Butler,,England,M,SE,,University of Reading
+JANE,2009,78,1,AE,Simon,,Butler,,England,M,SE,,University of Reading
+JANE,2010,79,1,AE,Simon,,Butler,,England,M,SE,,University of Reading
+JANE,2011,80,1,AE,Simon,,Butler,,England,M,SE,,University of Reading
+JANE,2012,81,1,AE,Simon,,Butler,,England,M,SE,,University of Reading
+JANE,2013,82,1,AE,Simon,,Butler,,England,M,SE,,University of East Anglia
+JANE,2014,83,1,AE,Simon,,Butler,,England,M,SE,,University of East Anglia
+JANE,2012,81,1,AE,Simon,,Griffith,,Australia,M,SE,,Macquarie University
+JANE,2013,82,1,AE,Simon,,Griffith,,Australia,M,SE,,Macquarie University
+JANE,2014,83,1,AE,Simon,,Griffith,,Australia,M,SE,,Macquarie University
+JANE,2005,74,1,AE,Simon,,Leather,,England,M,SE,Review editor,"Silwood Park, Imperial College, London"
+JANE,2006,75,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2007,76,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2008,77,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2009,78,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2010,79,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2011,80,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2012,81,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2013,82,1,AE,Simon,,Leather,,England,M,SE,,"Silwood Park, Imperial College, London"
+JANE,2014,83,1,AE,Simon,,Leather,,England,M,SE,,Harper Adams University College
+JANE,2008,77,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2009,78,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2010,79,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2011,80,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2012,81,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2013,82,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2014,83,1,AE,Simon,,Verhulst,,Netherlands,M,SE,,Groningen
+JANE,2014,83,1,AE,Sonia,,Altizer,,USA,M,SE,"From now on it says associate editor, but they are subject editors",University of Georgia
+JANE,2014,83,1,AE,Spence,,Behmer,,USA,M,SE,,Texas A&M University
+JANE,1993,62,1,SE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,1994,63,1,SE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,1995,64,1,SE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,1996,65,1,SE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,1997,66,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,1998,67,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,1999,68,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2000,69,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2001,70,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2002,71,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2003,72,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2004,73,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2005,74,1,AE,Stan,,Boutin,,Canada,M,SE,Review editor,Edmonton
+JANE,2006,75,1,AE,Stan,,Boutin,,Canada,M,SE,,Edmonton
+JANE,2007,76,1,AE,Stan,,Boutin,,Canada,M,SE,,Edmonton
+JANE,2008,77,1,AE,Stan,,Boutin,,Canada,M,SE,,Edmonton
+JANE,2009,78,1,AE,Stan,,Boutin,,Canada,M,SE,,University of Alberta
+JANE,2010,79,1,AE,Stan,,Boutin,,Canada,M,SE,,University of Alberta
+JANE,2011,80,1,AE,Stan,,Boutin,,Canada,M,SE,,University of Alberta
+JANE,2012,81,1,AE,Stan,,Boutin,,Canada,M,SE,,University of Alberta
+JANE,2013,82,1,AE,Stan,,Boutin,,Canada,M,SE,,University of Alberta
+JANE,2014,83,1,AE,Stan,,Boutin,,Canada,M,SE,,University of Alberta
+JANE,1992,61,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1993,62,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1994,63,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1995,64,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1996,65,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1997,66,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1998,67,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,1999,68,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,2000,69,1,EIC,Steve,,Albon,,England,M,EIC,Main editors,Institute of Zoology
+JANE,2005,74,1,AE,Steve,,Albon,,Scotland,M,SE,Review editor,Macaulay Institute
+JANE,2006,75,1,AE,Steve,,Albon,,Scotland,M,SE,"From now on it says associate editor, but they are subject editors",Macaulay Institute
+JANE,2007,76,1,AE,Steve,,Albon,,Scotland,M,SE,"From now on it says associate editor, but they are subject editors",Macaulay Institute
+JANE,2008,77,1,AE,Steve,,Albon,,Scotland,M,SE,"From now on it says associate editor, but they are subject editors",Macaulay Institute
+JANE,2002,71,1,AE,Steve,,Ellner,,USA,M,SE,Review editor,Cornell
+JANE,2003,72,1,AE,Steve,,Ellner,,USA,M,SE,Review editor,Cornell
+JANE,2004,73,1,AE,Steve,,Ellner,,USA,M,SE,Review editor,Cornell
+JANE,2005,74,1,AE,Steve,,Ellner,,USA,M,SE,Review editor,Cornell
+JANE,1999,68,1,AE,Steve,,Hall,,Australia,M,SE,Review editor,Flinders
+JANE,2000,69,1,AE,Steve,,Hall,,Australia,M,SE,Review editor,Flinders
+JANE,2001,70,1,AE,Steve,,Hall,,Australia,M,SE,Review editor,Flinders
+JANE,2002,71,1,AE,Steve,,Hall,,Australia,M,SE,Review editor,Flinders
+JANE,2003,72,1,AE,Steve,,Hall,,Australia,M,SE,Review editor,Townsville MC
+JANE,2004,73,1,AE,Steve,,Hall,,Australia,M,SE,Review editor,Townsville MC
+JANE,2005,74,1,AE,Steve,,Hall,,Malaysia,M,SE,Review editor,Penang
+JANE,2006,75,1,AE,Steve,,Hall,,Malaysia,M,SE,,Penang
+JANE,2007,76,1,AE,Steve,,Hall,,Malaysia,M,SE,,Penang
+JANE,2008,77,1,AE,Steve,,Hall,,Malaysia,M,SE,,Penang
+JANE,2009,78,1,AE,Steve,,Hall,,Malaysia,M,SE,,WorldFish Centre
+JANE,2011,80,1,AE,Stewart,,Plaistow,,England,M,SE,,University of Liverpool
+JANE,2012,81,1,AE,Stewart,,Plaistow,,England,M,SE,,University of Liverpool
+JANE,2013,82,1,AE,Stewart,,Plaistow,,England,M,SE,,University of Liverpool
+JANE,2014,83,1,AE,Stewart,,Plaistow,,England,M,SE,,University of Liverpool
+JANE,2006,75,1,AE,Stuart,,Bearhop,,Ireland,M,SE,,Belfast
+JANE,2007,76,1,AE,Stuart,,Bearhop,,Ireland,M,SE,,Belfast
+JANE,2008,77,1,AE,Stuart,,Bearhop,,England,M,SE,,Exeter
+JANE,2009,78,1,AE,Stuart,,Bearhop,,England,M,SE,"From now on it says associate editor, but they are subject editors",University of Exeter
+JANE,2010,79,1,AE,Stuart,,Bearhop,,England,M,SE,"From now on it says associate editor, but they are subject editors",University of Exeter
+JANE,2011,80,1,AE,Stuart,,Bearhop,,England,M,SE,,University of Exeter
+JANE,2012,81,1,AE,Stuart,,Bearhop,,England,M,SE,,University of Exeter
+JANE,2013,82,1,AE,Stuart,,Bearhop,,England,M,SE,,University of Exeter
+JANE,2014,83,1,AE,Stuart,,Bearhop,,England,M,SE,,University of Exeter
+JANE,2006,75,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2007,76,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2008,77,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2009,78,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2010,79,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2011,80,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2012,81,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2013,82,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2014,83,1,AE,Stuart,,Piertney,,Scotland,M,SE,,Aberdeen
+JANE,2014,83,1,AE,Subhash,,Lele,,Canada,M,SE,,University of Alberta
+JANE,2008,77,1,AE,Takayoshi,,Nishida,,Japan,M,SE,,Kyoto
+JANE,2001,70,1,AE,Terry,,Burke,,England,M,SE,Review editor,Sheffield
+JANE,2002,71,1,AE,Terry,,Burke,,England,M,SE,Review editor,Sheffield
+JANE,2003,72,1,AE,Terry,,Burke,,England,M,SE,Review editor,Sheffield
+JANE,2004,73,1,AE,Terry,,Burke,,England,M,SE,Review editor,Sheffield
+JANE,2006,75,1,AE,Tim,,Benton,,England,M,SE,,Leeds
+JANE,2007,76,1,AE,Tim,,Benton,,England,M,SE,,Leeds
+JANE,2008,77,1,AE,Tim,,Benton,,England,M,SE,,Leeds
+JANE,2009,78,1,AE,Tim,,Benton,,England,M,SE,,Leeds
+JANE,2010,79,1,AE,Tim,,Benton,,England,M,SE,,Leeds
+JANE,2011,80,1,AE,Tim,,Benton,,England,M,SE,,Leeds
+JANE,2009,78,1,EIC,Tim,,Coulson,,England,M,EIC,Main editors,"Imperial College, London"
+JANE,2010,79,1,EIC,Tim,,Coulson,,England,M,EIC,Editors,"Imperial College, London"
+JANE,2011,80,1,EIC,Tim,,Coulson,,England,M,EIC,Says Editors,"Imperial College, London"
+JANE,2012,81,1,EIC,Tim,,Coulson,,England,M,EIC,Says Editors,"Imperial College, London"
+JANE,2013,82,1,EIC,Tim,,Coulson,,England,M,EIC,Says Editors,"Imperial College, London"
+JANE,2014,83,1,EIC,Tim,,Coulson,,England,M,EIC,Says Editors,"Imperial College, London"
+JANE,2009,78,1,AE,Tom,,Ings,,England,M,SE,,Queen Mary University of London
+JANE,2010,79,1,AE,Tom,,Ings,,England,M,SE,,Queen Mary University of London
+JANE,2011,80,1,AE,Tom,,Ings,,England,M,SE,,Queen Mary University of London
+JANE,2012,81,1,AE,Tom,,Ings,,England,M,SE,,Queen Mary University of London
+JANE,2013,82,1,AE,Tom,,Ings,,England,M,SE,,Anglia Ruskin University
+JANE,2014,83,1,AE,Tom,,Ings,,England,M,SE,,Anglia Ruskin University
+JANE,2010,79,1,AE,Tom,,Webb,,England,M,SE,,University of Sheffield
+JANE,2011,80,1,AE,Tom,,Webb,,England,M,SE,,University of Sheffield
+JANE,2012,81,1,AE,Tom,,Webb,,England,M,SE,,University of Sheffield
+JANE,2013,82,1,AE,Tom,,Webb,,England,M,SE,,University of Sheffield
+JANE,2014,83,1,AE,Tom,,Webb,,England,M,SE,,University of Sheffield
+JANE,2009,78,1,AE,Volker,,Rudolph,,USA,M,SE,,"Rice University, Texas"
+JANE,2010,79,1,AE,Volker,,Rudolph,,USA,M,SE,,"Rice University, Texas"
+JANE,2011,80,1,AE,Volker,,Rudolph,,USA,M,SE,,"Rice University, Texas"
+JANE,2012,81,1,AE,Volker,,Rudolph,,USA,M,SE,,"Rice University, Texas"
+JANE,2013,82,1,AE,Volker,,Rudolph,,USA,M,SE,,"Rice University, Texas"
+JANE,2014,83,1,AE,Volker,,Rudolph,,USA,M,SE,,"Rice University, Texas"
