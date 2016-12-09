@@ -10,6 +10,8 @@ rm(list=ls())
 #setwd("-------")
 library(countrycode)
 library(tidyverse)
+library(RecordLinkage)
+library(stringdist)
 #library(gdata)
 library(grid)
 library(gridExtra)
@@ -23,14 +25,12 @@ source("helpers.R")    #Code to plot all journals in one figure
 
 
 
-##################
-#################
-###DATA ENTRY AND CLEANUP
-##################
-#################
-#Step 1: load the individual CSV files and save them as dataframes
+######################################################
+# DATA UPLOAD 
+######################################################
+# Step 1: load the individual CSV files and save them as dataframes
 
-#IMPORT WORLD BANK INDICATORS (downloaded 2/Dec/2015)
+# IMPORT WORLD BANK INDICATORS (downloaded 2/Dec/2015)
 WDI_data<-read.csv("WDI_data.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 row.names(WDI_data) <- WDI_data$iso3c     #Assigning row names in table for later search
 
@@ -43,192 +43,198 @@ REGIONS <- c('North America', 'Europe & Central Asia','Sub-Saharan Africa',
              'East Asia & Pacific','Latin America & Caribbean',
              'South Asia','Middle East & North Africa')
 
-# ONCE GITHUB OK THEN ADD BEFORE FILE NAME: "./ChoData/NAME.csv"
+#Import data from Cho et al 2014 PeerJ
+BITR<-read.csv("./ChoData/Biotropica_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOCON<-read.csv("./ChoData/Biocon_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ARES<-read.csv("./ChoData/ARES_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+AGRON<-read.csv("./ChoData/Agronomy_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NAJFM<-read.csv("./ChoData/NAJFM_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+AJB<-read.csv("./ChoData/AJB_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+CONBIO<-read.csv("./ChoData/ConBio_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ECOLOGY<-read.csv("./ChoData/Ecology_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JECOL<-read.csv("./ChoData/JEcol_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JTE<-read.csv("./ChoData/JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
-#THESE ARE THE DATA FROM CHO ETAL
-BITR<-read.csv("Biotropica_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOCON<-read.csv("Biocon_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ARES<-read.csv("ARES_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AGRON<-read.csv("Agronomy_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NAJFM<-read.csv("NAJFM_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AJB<-read.csv("AJB_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-CONBIO<-read.csv("ConBio_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ECOLOGY<-read.csv("Ecology_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JECOL<-read.csv("JEcol_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JTE<-read.csv("JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+#Import Data collected by 2015 UF Scientific Publishing Seminar 
+AGRON2<-read.csv("./Data2015/AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+AMNAT<-read.csv("./Data2015/AMNAT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ARES2<-read.csv("./Data2015/ARES2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOCON2<-read.csv("./Data2015/BIOCON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BIOG<-read.csv("./Data2015/BIOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+BITR2<-read.csv("./Data2015/BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ECOG<-read.csv("./Data2015/ECOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+EVOL<-read.csv("./Data2015/EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still need to ID what an Editor vs EIC does when they transitoned to EIC
+FEM<-read.csv("./Data2015/FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+FUNECOL<-read.csv("./Data2015/FUNECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JANE<-read.csv("./Data2015/JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JAPE<-read.csv("./Data2015/JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JTE2<-read.csv("./Data2015/JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+OIKOS<-read.csv("./Data2015/OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
+PLANTECO<-read.csv("./Data2015/PLANTECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
-#THESE WERE COLLECTED BY THE 2015 EDITION OF THE COURSE
-AGRON2<-read.csv("AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AMNAT<-read.csv("AMNAT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ARES2<-read.csv("ARES2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOCON2<-read.csv("BIOCON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOG<-read.csv("BIOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BITR2<-read.csv("BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ECOG<-read.csv("ECOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-EVOL<-read.csv("EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still need to ID what an Editor vs EIC does when they transitoned to EIC
-FEM<-read.csv("FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-FUNECOL<-read.csv("FUNECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JANE<-read.csv("JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JAPE<-read.csv("JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JTE2<-read.csv("JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JZOOL<-read.csv("JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
-LECO<-read.csv("LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-MARECOL<-read.csv("MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NAJFM2<-read.csv("NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NEWPHYT<-read.csv("NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
-OECOL<-read.csv("OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-OIKOS<-read.csv("OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
-PLANTECO<-read.csv("PLANTECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-
-#STILL MISSING SOME DATA # WILL nEED TO 2x NAMES ON THESE AND ADD TO LIST BELOW
-GCB<-read.csv("GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-#Still missing years and putting eds into cats
-#LE is missing 2004, 2011-2014
-#Need to define as EIC, SE, AE, Other
-MEPS<-read.csv("MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-#Need to define as EIC, SE, AE, Other
-#INCOMPLETE
-
-#step 2: bind the dataframes of all journals together
-ALLJOURNALS_CHO<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) #Bind the data from Cho
-
-
-ALLJOURNALS_2015<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-                        JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS,PLANTECO) #Bind the data from 2015 workshop
-
-# CHANGE SOME DATA TYPES
-
-ALLJOURNALS_2015$VOLUME<-as.integer(ALLJOURNALS_2015$VOLUME)
-ALLJOURNALS_2015$ISSUE<-as.integer(ALLJOURNALS_2015$ISSUE)
 #
-# ADD CODE TO SPLIT NAMES OF CHO DATASETS INTO FIRST MIDDLE LAST 
-# NOTE THAT MAY NEED TO FIX COLUMN ORDERS BELOW IF ANY USE INDEX NUMBER
+# STILL MISSING SOME DATA # WILL nEED TO 2x NAMES ON THESE AND ADD TO LIST BELOW
 #
 
-# http://garrettgman.github.io/tidying/
-# separate(data, col, into, sep = " ", remove = TRUE, convert = FALSE)
+# GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+# #Still missing years and putting eds into cats
+# #LE is missing 2004, 2011-2014
+# #Need to define as EIC, SE, AE, Other
+# MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+# #Need to define as EIC, SE, AE, Other
+# #INCOMPLETE
 
-# which(ALLJOURNALS_CHO == "Vojtech Novotny ")
-# which(ALLJOURNALS_CHO == "Jason Warren ")
-# which(ALLJOURNALS_CHO=="_a_an H. _ekercio_lu")
-# which(ALLJOURNALS_CHO=="William Seaman, Jr.") 
-# which(ALLJOURNALS_CHO=="R Strong") 
-# which(ALLJOURNALS_CHO=="M Dixon ") 
-# which(ALLJOURNALS_CHO=="Richard  D. Bardgett")
-# which(ALLJOURNALS_CHO=="Frank J Messina ")
-# which(ALLJOURNALS_CHO=="William H Karasov ")
-# which(ALLJOURNALS_CHO=="Charles D.  Michener")
-# which(ALLJOURNALS_CHO=="Frances C. James")
-# which(ALLJOURNALS_CHO=="JC DE M CARVALHO")
 
-# Clean up of names
-# Step 1: remove any double spaces
-ALLJOURNALS_CHO$NAME<-gsub("  ", " ", ALLJOURNALS_CHO$NAME, fixed=TRUE)
+######################################################
+# DATA CLEANUP AND ORGANIZATION: CHODATA
+######################################################
 
-#Fix individual names
-ALLJOURNALS_CHO$NAME <- as.character(ALLJOURNALS_CHO$NAME)
-# ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Charles D.  Michener"] <- "Charles D. Michener"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "J.C. DE M. CARVALHO"] <- "JC DeM-Carvalho"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "William H Karasov "] <- "William H Karasov"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Frank J Messina "] <- "Frank J Messina"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Vojtech Novotny "] <- "Vojtech Novotny"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Jason Warren "] <- "Jason Warren"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "_a_an H. _ekercio_lu"] <-"Cagan Sekercioglu"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "A. DE VOS"] <- "A DeVos"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Andre M de Roos"] <- "Andre M DeRoos"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Anthony Di Fiore"] <- "Anthony DiFiore"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Arnold G van der Valk"] <- "Arnold G VanDerValk"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Arturo Gomez Pompa"] <- "Arturo Gomez-Pompa"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Ary T de Oliveira-Filho"] <- "Ary T DeOliveira-Filho"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "B.N.K.DAVIS"] <- "B. N. K. DAVIS"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Michael J. Van Den Avyle"] <- "Michael J. VanDenAvyle"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Eddy Van der Meijden"] <- "Eddy VanDerMeijden"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Jorge Meave del Castillo"] <- "Jorge Meave DelCastillo"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "William Seaman, Jr."] <- "William Seaman"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Nicole M Van Dam"] <- "Nicole M VanDam"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Nicole M van Dam"] <- "Nicole M VanDam"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Carlos Martinez del Rio"] <- "Carlos Martinez DelRio"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Marcel van der Heijden"] <- "Marcel VanDerHeijden"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Gerline Barbra de Deyn"] <- "Gerline Barbra DeDeyn"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Marcel van de Heijden"] <- "Marcel VanDeHeijden"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "MANUEL G. DE VIEDMA"] <- "Manuel G DeViedma"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Eddy van der Meijden"] <- "Eddy VanDerMeijden"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Rene van Der Wal"] <- "Rene VanDerWal"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Rene van Der Wal"] <- "Rene VanDerWal"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Philip M. Dixon "] <- "Philip M Dixon"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Philip M Dixon "] <- "Philip M Dixon"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Richard  D. Bardgett"] <- "Richard D Bardgett"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Hans de Kroon"] <- "Hans DeKroon"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Gerlinde de Deyn"] <- "Gerlinde DeDeyn"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Franciska De Vires"] <- "Franciska DeVires"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Diane DeSteven"] <- "Diane DeSteven"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Lindsey du Toit"] <- "Lindsey DuToit"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Marinus J A Werger"] <- "Marinus JA Werger"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Nathan Jared Boardman Kraft"] <- "Nathan JB Kraft"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Ralph Mac Nally"] <- "Ralph MacNally"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Chris van Kessel"] <- "Chris VanKessel"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Jan van Groenendael"] <- "Jan VanGroenendael"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Ellen van Donk"] <- "Ellen VanDonk"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Tara Van Toai"] <- "Tara VanToai"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Frits Van Evert"] <- "Frits VanEvert"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Geraldine Vander Haegen"] <- "Geraldine VanderHaegen"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Jay Ver Hoef"] <- "Jay VerHoef"
-ALLJOURNALS_CHO$NAME[ALLJOURNALS_CHO$NAME == "Li (Aster) Zhang"] <- "Li Aster Zhang"
+ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) #Bind the data from Cho
 
-#Remove the suffixes
-ALLJOURNALS_CHO$NAME<-gsub(", Jr", "", ALLJOURNALS_CHO$NAME, fixed=TRUE)
-ALLJOURNALS_CHO$NAME<-gsub(" Jr", "", ALLJOURNALS_CHO$NAME, fixed=TRUE)
-ALLJOURNALS_CHO$NAME<-gsub(" JR", "", ALLJOURNALS_CHO$NAME, fixed=TRUE)
-ALLJOURNALS_CHO$NAME<-gsub(" III", "", ALLJOURNALS_CHO$NAME, fixed=TRUE)
-ALLJOURNALS_CHO$NAME<-gsub(" II", "", ALLJOURNALS_CHO$NAME, fixed=TRUE)
+# Names are all in one cell. Split them so first, middle, and last name are in seperate columns. 
+# This requires some clean-up of the csv files archived at dryad first: 
+  # 1. remove some extra spaces from some of the names
+  # 2. Correct some spelling
+  # 3. Put multiple middle names together in one column  
+
+# separate(data, col, into, sep = " ", remove = TRUE, convert = FALSE) # http://garrettgman.github.io/tidying/
+# which(ChoData == "Rene van Der Wal")
+
+# remove any double spaces
+ChoData$NAME<-gsub("  ", " ", ChoData$NAME, fixed=TRUE)
+
+# Fix individual names
+ChoData$NAME <- as.character(ChoData$NAME) #Must first convert them from factor to string  
+ChoData$NAME[ChoData$NAME == "J.C. DE M. CARVALHO"] <- "JC DeM-Carvalho"
+ChoData$NAME[ChoData$NAME == "William H Karasov "] <- "William H Karasov"
+ChoData$NAME[ChoData$NAME == "Frank J Messina "] <- "Frank J Messina"
+ChoData$NAME[ChoData$NAME == "Vojtech Novotny "] <- "Vojtech Novotny"
+ChoData$NAME[ChoData$NAME == "Jason Warren "] <- "Jason Warren"
+ChoData$NAME[ChoData$NAME == "_a_an H. _ekercio_lu"] <-"Cagan Sekercioglu"
+ChoData$NAME[ChoData$NAME == "A. DE VOS"] <- "A DeVos"
+ChoData$NAME[ChoData$NAME == "Andre M de Roos"] <- "Andre M DeRoos"
+ChoData$NAME[ChoData$NAME == "Anthony Di Fiore"] <- "Anthony DiFiore"
+ChoData$NAME[ChoData$NAME == "Arnold G van der Valk"] <- "Arnold G VanDerValk"
+ChoData$NAME[ChoData$NAME == "Arturo Gomez Pompa"] <- "Arturo Gomez-Pompa"
+ChoData$NAME[ChoData$NAME == "Ary T de Oliveira-Filho"] <- "Ary T DeOliveira-Filho"
+ChoData$NAME[ChoData$NAME == "B.N.K.DAVIS"] <- "B. N. K. DAVIS"
+ChoData$NAME[ChoData$NAME == "Michael J. Van Den Avyle"] <- "Michael J. VanDenAvyle"
+ChoData$NAME[ChoData$NAME == "Eddy Van der Meijden"] <- "Eddy VanDerMeijden"
+ChoData$NAME[ChoData$NAME == "Jorge Meave del Castillo"] <- "Jorge Meave DelCastillo"
+ChoData$NAME[ChoData$NAME == "William Seaman, Jr."] <- "William Seaman"
+ChoData$NAME[ChoData$NAME == "Nicole M Van Dam"] <- "Nicole M VanDam"
+ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos Martinez DelRio"
+ChoData$NAME[ChoData$NAME == "Marcel van der Heijden"] <- "Marcel VanDerHeijden"
+ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerline Barbra DeDeyn"
+ChoData$NAME[ChoData$NAME == "Marcel van de Heijden"] <- "Marcel VanDeHeijden"
+ChoData$NAME[ChoData$NAME == "MANUEL G. DE VIEDMA"] <- "Manuel G DeViedma"
+ChoData$NAME[ChoData$NAME == "Eddy van der Meijden"] <- "Eddy VanDerMeijden"
+ChoData$NAME[ChoData$NAME == "Rene van Der Wal"] <- "Rene VanDerWal"
+ChoData$NAME[ChoData$NAME == "Philip M. Dixon "] <- "Philip M Dixon"
+ChoData$NAME[ChoData$NAME == "Philip M Dixon "] <- "Philip M Dixon"
+ChoData$NAME[ChoData$NAME == "Richard  D. Bardgett"] <- "Richard D Bardgett"
+ChoData$NAME[ChoData$NAME == "Hans de Kroon"] <- "Hans DeKroon"
+ChoData$NAME[ChoData$NAME == "Gerlinde de Deyn"] <- "Gerlinde DeDeyn"
+ChoData$NAME[ChoData$NAME == "Franciska De Vires"] <- "Franciska DeVires"
+ChoData$NAME[ChoData$NAME == "Diane DeSteven"] <- "Diane DeSteven"
+ChoData$NAME[ChoData$NAME == "Lindsey du Toit"] <- "Lindsey DuToit"
+ChoData$NAME[ChoData$NAME == "Marinus J A Werger"] <- "Marinus JA Werger"
+ChoData$NAME[ChoData$NAME == "Nathan Jared Boardman Kraft"] <- "Nathan JB Kraft"
+ChoData$NAME[ChoData$NAME == "Ralph Mac Nally"] <- "Ralph MacNally"
+ChoData$NAME[ChoData$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
+ChoData$NAME[ChoData$NAME == "Chris van Kessel"] <- "Chris VanKessel"
+ChoData$NAME[ChoData$NAME == "Jan van Groenendael"] <- "Jan VanGroenendael"
+ChoData$NAME[ChoData$NAME == "Ellen van Donk"] <- "Ellen VanDonk"
+ChoData$NAME[ChoData$NAME == "Tara Van Toai"] <- "Tara VanToai"
+ChoData$NAME[ChoData$NAME == "Frits Van Evert"] <- "Frits VanEvert"
+ChoData$NAME[ChoData$NAME == "Geraldine Vander Haegen"] <- "Geraldine VanderHaegen"
+ChoData$NAME[ChoData$NAME == "Jay Ver Hoef"] <- "Jay VerHoef"
+ChoData$NAME[ChoData$NAME == "Li (Aster) Zhang"] <- "Li Aster Zhang"
+
+# Remove the suffixes
+ChoData$NAME<-gsub(", Jr", "", ChoData$NAME, fixed=TRUE)
+ChoData$NAME<-gsub(" Jr", "", ChoData$NAME, fixed=TRUE)
+ChoData$NAME<-gsub(" JR", "", ChoData$NAME, fixed=TRUE)
+ChoData$NAME<-gsub(" III", "", ChoData$NAME, fixed=TRUE)
+ChoData$NAME<-gsub(" II", "", ChoData$NAME, fixed=TRUE)
 
 # Remove the periods from peoples names to make consistent accross all files
-ALLJOURNALS_CHO$NAME<-gsub(".", "", ALLJOURNALS_CHO$NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
+ChoData$NAME<-gsub(".", "", ChoData$NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
 
 # Split the names into first, middle, last
-ALLJOURNALS_CHO$NAME <- as.factor(ALLJOURNALS_CHO$NAME)
+ChoData$NAME <- as.factor(ChoData$NAME) # CHnage back to factor. Can also do with strings, but I learned this way first
 
-ALLJOURNALS_CHO<-separate(ALLJOURNALS_CHO, NAME, c("FIRST_NAME", "LAST_NAME"), sep = " ", remove = TRUE, convert = FALSE, extra = "merge", fill = "right")
-ALLJOURNALS_CHO<-separate(ALLJOURNALS_CHO, LAST_NAME, c("MIDDLE_NAME_1", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
-ALLJOURNALS_CHO<-separate(ALLJOURNALS_CHO, LAST_NAME, c("MIDDLE_NAME_2", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
-ALLJOURNALS_CHO$MIDDLE_NAME_TEMP<- with(ALLJOURNALS_CHO, (paste(MIDDLE_NAME_1, MIDDLE_NAME_2))) #Paste the two middle names together
-ALLJOURNALS_CHO$MIDDLE_NAME_TEMP<-gsub("NA", "", ALLJOURNALS_CHO$MIDDLE_NAME_TEMP, fixed=TRUE) #delete all the NA
-ALLJOURNALS_CHO$MIDDLE_NAME_TEMP<-gsub(" ", "", ALLJOURNALS_CHO$MIDDLE_NAME_TEMP, fixed=TRUE)  #remove any excess spaces
-ALLJOURNALS_CHO$MIDDLE_NAME_1 <- ALLJOURNALS_CHO$MIDDLE_NAME_TEMP
-ALLJOURNALS_CHO$MIDDLE_NAME_2 <- NULL
-ALLJOURNALS_CHO$MIDDLE_NAME_TEMP <- NULL
-ALLJOURNALS_CHO<-rename(ALLJOURNALS_CHO, MIDDLE_NAME=MIDDLE_NAME_1)
+ChoData<-separate(ChoData, NAME, c("FIRST_NAME", "LAST_NAME"), sep = " ", remove = TRUE, convert = FALSE, extra = "merge", fill = "right")
+ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_1", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
+ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_2", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
+ChoData$MIDDLE_NAME_TEMP<- with(ChoData, (paste(MIDDLE_NAME_1, MIDDLE_NAME_2))) #Paste the two middle names together
+ChoData$MIDDLE_NAME_TEMP<-gsub("NA", "", ChoData$MIDDLE_NAME_TEMP, fixed=TRUE) #delete all the NA
+ChoData$MIDDLE_NAME_TEMP<-gsub(" ", "", ChoData$MIDDLE_NAME_TEMP, fixed=TRUE)  #remove any excess spaces
+ChoData$MIDDLE_NAME_1 <- ChoData$MIDDLE_NAME_TEMP
+ChoData$MIDDLE_NAME_2 <- NULL
+ChoData$MIDDLE_NAME_TEMP <- NULL
+ChoData<-rename(ChoData, MIDDLE_NAME=MIDDLE_NAME_1)
 
-ALLJOURNALS_CHO$FIRST_NAME <- as.factor(ALLJOURNALS_CHO$FIRST_NAME)
-ALLJOURNALS_CHO$MIDDLE_NAME <- as.factor(ALLJOURNALS_CHO$MIDDLE_NAME)
-ALLJOURNALS_CHO$LAST_NAME <- as.factor(ALLJOURNALS_CHO$LAST_NAME)
+ChoData$FIRST_NAME <- as.factor(ChoData$FIRST_NAME) #They were converted to chr above, so convert back to factor
+ChoData$MIDDLE_NAME <- as.factor(ChoData$MIDDLE_NAME)
+ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 
 # WHY ISN"T THIS PIPING WORKING???
-# ALLJOURNALS_CHO %>% 
+# ChoData %>% 
 #   select(FIRST_NAME, MIDDLE_NAME, LAST_NAME)  %>% 
 #   mutate_each(funs(as.factor))
-# 
+ 
+
+
+############################################################
+# Organiation & Cleaning: CLASSDATA  
+############################################################
+
+ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS,PLANTECO) #Bind the data from 2015 workshop
+
+# Make the data types consistent with ChoData 
+
+ClassData$VOLUME<-as.integer(ClassData$VOLUME)
+ClassData$ISSUE<-as.integer(ClassData$ISSUE)
+
+
+
+
+CHECKFILE<-filter(CHECKFILE,CHECKFILE$FIRST_NAME!="Mar\x90a")
+CHECKFILE<-filter(CHECKFILE,CHECKFILE$FIRST_NAME!="J\xd3rg")
+
 ######################################
 
 # BIND THEM UP
 
-# str(ALLJOURNALS_CHO)
-# str(ALLJOURNALS_2015)
+# str(ChoData)
+# str(ClassData)
 
-ALLJOURNALS_CHO<-ALLJOURNALS_CHO %>% 
+ChoData<-ChoData %>% 
   select(-NOTES, -GENDER)
 
-ALLJOURNALS_2015<-ALLJOURNALS_2015 %>% 
+ClassData<-ClassData %>% 
   select(-INSTITUTION,-NOTES,-GENDER,-SUFFIX)
 
-ALLJOURNALS<-rbind(ALLJOURNALS_CHO,ALLJOURNALS_2015)
-str(ALLJOURNALS)
-summary(ALLJOURNALS)
+AllJournals<-rbind(ChoData,ClassData)
+str(AllJournals)
+summary(AllJournals)
+
+
 
 # NOW NEED TO MAKE SURE ALL NAMES ARE CONSISTENT, CASES, CATEGORRIES, ETC, Make Cap 1st letter, rest lowercase
+# THIS SHOULD BE CONVERETED TO A FUNCTION
 
-ALLJOURNALS$CATEGORY<-gsub(" ", "", ALLJOURNALS$CATEGORY, fixed=TRUE) #remove extra spaces, converts to chr
+JrnlToClean<-ChoData
+
+JrnlToClean$CATEGORY<-gsub(" ", "", JrnlToClean$CATEGORY, fixed=TRUE) #remove extra spaces, converts to chr
 
 
 ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
@@ -246,22 +252,22 @@ ALLJOURNALS$CATEGORY<-gsub(" ", "", ALLJOURNALS$CATEGORY, fixed=TRUE) #remove ex
 #Last name A, First KIMBERLY
 
 
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "Ae"] <- "AE"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "OTHER"] <- "Other"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "other"] <- "Other"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "SPECIAL"] <- "Special"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "Production editor"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "Production Staff"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "Journal Supervisor"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "JPS"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "JS"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "PE"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "Productioneditor"] <- "PS"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == "EDITOR-IN-CHIEF"] <- "EIC"
-ALLJOURNALS$CATEGORY[ALLJOURNALS$CATEGORY == ""] <- ""
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Ae"] <- "AE"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "OTHER"] <- "Other"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "other"] <- "Other"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "SPECIAL"] <- "Special"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Production editor"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Production Staff"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Journal Supervisor"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "JPS"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "JS"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "PE"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Productioneditor"] <- "PS"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "EDITOR-IN-CHIEF"] <- "EIC"
+JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == ""] <- ""
 
-ALLJOURNALS$CATEGORY <- as.factor(ALLJOURNALS$CATEGORY) #Convert back to factor
-ALLJOURNALS$CATEGORY<-droplevels(ALLJOURNALS$CATEGORY)
+JrnlToClean$CATEGORY <- as.factor(JrnlToClean$CATEGORY) #Convert back to factor
+JrnlToClean$CATEGORY<-droplevels(JrnlToClean$CATEGORY)
 # 
 # Trying to find names that are mispelled or close to correct close
 #   http://stackoverflow.com/questions/6683380/techniques-for-finding-near-duplicate-records
@@ -272,19 +278,19 @@ ALLJOURNALS$CATEGORY<-droplevels(ALLJOURNALS$CATEGORY)
 # http://stackoverflow.com/questions/11535625/similarity-scores-based-on-string-comparison-in-r-edit-distance
 # http://stackoverflow.com/questions/28952034/finding-partial-matches-on-strings-in-r
 
-str(ALLJOURNALS)
-levels(ALLJOURNALS$CATEGORY)
-which(ALLJOURNALS$CATEGORY=="Other") 
-summary(ALLJOURNALS$CATEGORY)
+str(JrnlToClean)
+levels(JrnlToClean$CATEGORY)
+which(JrnlToClean$CATEGORY=="Other") 
+summary(JrnlToClean$CATEGORY)
 
 # 
-# ALLJOURNALS %>% group_by("LAST_NAME","FIRST_NAME","MIDDLE_NAME") %>% 
+# JrnlToClean %>% group_by("LAST_NAME","FIRST_NAME","MIDDLE_NAME") %>% 
 #    summarise("count"=cumsum("LAST_NAME"))
-# ALLJOURNALS %>% tally(group_by("LAST_NAME","FIRST_NAME","MIDDLE_NAME")) %>% summarise(count=tally("LAST_NAME"))
-# str(ALLJOURNALS$LAST_NAME)
+# JrnlToClean %>% tally(group_by("LAST_NAME","FIRST_NAME","MIDDLE_NAME")) %>% summarise(count=tally("LAST_NAME"))
+# str(JrnlToClean$LAST_NAME)
 # str(CHECKFILE)
 
-CHECKFILE<-ALLJOURNALS %>%
+CHECKFILE<-JrnlToClean %>%
   group_by(LAST_NAME,FIRST_NAME,MIDDLE_NAME) %>% 
   tally(sort=FALSE)
 str(CHECKFILE)
@@ -300,58 +306,69 @@ CHECKFILE$LAST_NAME<-as.character(CHECKFILE$LAST_NAME)
 CHECKFILE$MIDDLE_NAME<-as.character(CHECKFILE$MIDDLE_NAME)
 CHECKFILE$COMPLETE_NAME<-as.character(CHECKFILE$COMPLETE_NAME)
 
-# FIRST COMPARE THE LAST NAMES: this should help pick up things like Abrams vs Abrasm
-CHECKFILE$LAST_NAME<-tolower(CHECKFILE$LAST_NAME) #drop all to lower case
 str(CHECKFILE)
 
-A<-CHECKFILE$COMPLETE_NAME
-A<-unique(A)
-# foo<-adist(A)
-# rownames(foo)<-A
-# colnames(foo)<-A
-# library(gdata)
-# upperTriangle(foo)
-# foo<-sapply(A,adist,A) #MAKES A MATRIX
-# foo
+# This will look over the names and check for mistakes, spelling errors, etc.
+# LAST NAMES: this should help pick up things like Abrams vs Abrasm
 
 
-foo<-sapply(A,agrep,A, value=TRUE) #MAKES A LIST
+CheckNames<-CHECKFILE$COMPLETE_NAME
+CheckNames<-tolower(CheckNames) #drop all to lower case - makes it easier to error check and analyze
+CheckNames<-unique(CheckNames)
+
+# This uses agrep to check similarity, then outputs a list of all names in your file compared to 
+# all other names. This is what will help find spelling mistakes, eg. "abrams" and "abrasm"  will be counted as unique, as will 
+# "e bruna" and "emilio bruna". You can use this info to error correct or make changes to correctly pool the people with multiple names
+NamesList<-sapply(CheckNames,agrep,CheckNames, value=TRUE) 
+
+# Convert this list to a dataframe (with help from this post:   
+# https://aurelienmadouasse.wordpress.com/2012/05/22/r-code-how-to-convert-a-list-to-a-data-frame/)
+
+NamesDF<-data.frame(
+  Name1 = rep(names(NamesList), lapply(NamesList, length)),
+  Name2 = unlist(NamesList))
+
+summary(NamesDF)
+str(NamesDF)
+
+# Create a column to which you will add a logical condition telling you if the names are an EXACT match
+NamesDF$match<-NA
+NamesDF$match<-NamesDF$Name1==NamesDF$Name2
+# match2<-ifelse(NamesDF$match=="TRUE",1,0) #convert TRUE/FALSEto 0/1
+# NamesDF<-cbind(NamesDF,match2) 
+# head(NamesDF,40)
+# str(NamesDF)
+NamesDF<-arrange(NamesDF,Name1,Name2) #organize in alphabetica order
+NamesDF<-filter(NamesDF, match==FALSE)  # THIS DELETES ALL NAMES THAT ARE 100% MATCH 
+
+# Convert to chr
+NamesDF$Name1<-as.character(NamesDF$Name1)
+NamesDF$Name2<-as.character(NamesDF$Name2)
+# str(NamesDF)
+
+# Calclulate the proportional similarity and # changes required to go from one name to another. Package RecordLinkage
+NamesDF$Name_sim<-levenshteinSim(NamesDF$Name1, NamesDF$Name2)
+NamesDF$Name_dist<-levenshteinDist(NamesDF$Name1, NamesDF$Name2)
+
+# Because this does all pairwise comparisons, it results in redundancy: "e bruna vs emilio bruna" and "emilio bruna vs e bruna"
+# are in different rows, even though they are the same "comparison". This deletes one of the two 
+NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
+# this arranges them in order from most similar (1 change required) to least similar.
+# look carefully at those with a few changes, as they are likely to be a tiny spelling mistake or difference in intials
+
+NamesDF<-arrange(NamesDF,Name_dist,Name1)
+write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck.csv", row.names = F) #export it as a csv file
 
 
-# then convert to a dataframe  
-# https://aurelienmadouasse.wordpress.com/2012/05/22/r-code-how-to-convert-a-list-to-a-data-frame/
 
-foo2<-data.frame(
-  Name1 = rep(names(foo), lapply(foo, length)),
-  Name2 = unlist(foo))
 
-summary(foo2)
-str(foo2)
-foo2$match<-NA
 
-foo2$match<-foo2$Name1==foo2$Name2
-# match2<-ifelse(foo2$match=="TRUE",1,0)
-# foo2<-cbind(foo2,match2) #convert TRUE/FALSEto 0/1
-head(foo2,40)
-str(foo2)
-foo2<-arrange(foo2,Name1,Name2)
 
-library(RecordLinkage)
-library(stringdist)
 
-foo2<-filter(foo2, match==FALSE)  # THIS DELETES ALL NAMES THAT ARE 100% MATCH 
 
-foo2$Name1<-as.character(foo2$Name1)
-foo2$Name2<-as.character(foo2$Name2)
-str(foo2)
 
-foo2$LastName_sim<-levenshteinSim(foo2$Name1, foo2$Name2)
-foo2$LastName_dist<-levenshteinDist(foo2$Name1, foo2$Name2)
 
-foo2<-foo2[!duplicated(t(apply(foo2, 1, sort))),]
-foo2<-arrange(foo2,LastName_dist,Name1)
-
-# foo2 %>% distinct
+# NamesDF %>% distinct
 # 
 # 
 # a <- c("pear","pear","apple","kiwi")
@@ -363,27 +380,24 @@ foo2<-arrange(foo2,LastName_dist,Name1)
 # a <- c("pear","pear","apple","kiwi")
 # b <- c("apple","apple","pear","watermelon")
 # df <-data.frame(a,b)
-# distinct(foo2, Name1, Name2)
-# foo2[!duplicated(foo2[,c('Name1', 'Name2')]),]
-# foo2<-unique(foo2[,c('Name1','Name2')])
+# distinct(NamesDF, Name1, Name2)
+# NamesDF[!duplicated(NamesDF[,c('Name1', 'Name2')]),]
+# NamesDF<-unique(NamesDF[,c('Name1','Name2')])
 
 
-foo2<-unique(foo2["Name1","Name2"],)
-foo2<-unique(t(apply(foo2, 1, sort)))
-foo2<-arrange(foo2,desc(fullName_sim))
-head(foo2,40)
+NamesDF<-unique(NamesDF["Name1","Name2"],)
+NamesDF<-unique(t(apply(NamesDF, 1, sort)))
+NamesDF<-arrange(NamesDF,desc(Name_sim))
+head(NamesDF,40)
 # trying to run throws errors showing these have mistakes
 # Briones   Mar\x90a          
-# Kudla    J\xd3rg        
-CHECKFILE<-filter(CHECKFILE,CHECKFILE$FIRST_NAME!="Mar\x90a")
-CHECKFILE<-filter(CHECKFILE,CHECKFILE$FIRST_NAME!="J\xd3rg")
-
+# Kudla    J\xd3rg     
 
 CHECKFILE$last_sim<-levenshteinSim(CHECKFILE$LAST_NAME, CHECKFILE$LAST_NAME)
 CHECKFILE$both_sim<-levenshteinSim(CHECKFILE$COMPLETE_NAME, CHECKFILE$COMPLETE_NAME)
 # CHECKFILE<-arrange(CHECKFILE, desc(first_sim))
-foo2<-arrange(foo2, fullName_sim)
-head(foo2,50)
+NamesDF<-arrange(NamesDF, fullName_sim)
+head(NamesDF,50)
 
 
 
@@ -396,28 +410,28 @@ foo<-sapply(CHECKFILE$COMPLETE_NAME,agrep,CHECKFILE$COMPLETE_NAME, value=TRUE) #
 
 # then convert to a dataframe  
 # https://aurelienmadouasse.wordpress.com/2012/05/22/r-code-how-to-convert-a-list-to-a-data-frame/
-foo2<-data.frame(
+NamesDF<-data.frame(
   Name1 = rep(names(foo), lapply(foo, length)),
   Name2 = unlist(foo))
-foo2$match<-foo2$Name1==foo2$Name2
-match2<-ifelse(foo2$match=="TRUE",1,0)
-foo2<-cbind(foo2,match2) #convert TRUE/FALSEto 0/1
-head(foo2,20)
-str(foo2)
-foo2<-arrange(foo2,desc(Name1,Name2))
-foo2<-filter(foo2, match2=="0")
+NamesDF$match<-NamesDF$Name1==NamesDF$Name2
+match2<-ifelse(NamesDF$match=="TRUE",1,0)
+NamesDF<-cbind(NamesDF,match2) #convert TRUE/FALSEto 0/1
+head(NamesDF,20)
+str(NamesDF)
+NamesDF<-arrange(NamesDF,desc(Name1,Name2))
+NamesDF<-filter(NamesDF, match2=="0")
 
-foo2$Name1<-as.character(foo2$Name1)
-foo2$Name2<-as.character(foo2$Name2)
-str(foo2)
+NamesDF$Name1<-as.character(NamesDF$Name1)
+NamesDF$Name2<-as.character(NamesDF$Name2)
+str(NamesDF)
 ###HERE IT IS!!! HOW TO COMPARE NAMES
 
 # library(RecordLinkage)
-# foo2$similarity<-levenshteinSim(A, B)
-# foo2<-arrange(foo2, desc(similarity))
-# foo2<-arrange(foo2, similarity)
-# foo2[3,1]
-# foo2[3,2]
+# NamesDF$similarity<-levenshteinSim(A, B)
+# NamesDF<-arrange(NamesDF, desc(similarity))
+# NamesDF<-arrange(NamesDF, similarity)
+# NamesDF[3,1]
+# NamesDF[3,2]
 # 
 # # DO THE FOLLOWING
 # 1. compare similarity of last name
@@ -446,17 +460,17 @@ C<-compare.linkage (A,B, blockfld = FALSE,
 #The packahge countrycode will take your column of country names and convert them to ISO3166-3 Codes
 #I began by checking the values of COUNTRY to see if there are any mistakes. To do so I just created a vector 
 #called CODECHECK
-ALLJOURNALS$CODECHECK<-countrycode(ALLJOURNALS$COUNTRY, "country.name", "iso3c", warn = TRUE)
+JrnlToClean$CODECHECK<-countrycode(JrnlToClean$COUNTRY, "country.name", "iso3c", warn = TRUE)
 #By setting "warn=TRUE" it will tell you which ones it couldn't convert. Because of spelling mistakes, etc.
 #You can correct these as follows in the dataframe with all the data, then add a new column to the dataframe with the country codes
 
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots everywhere
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "Wales"]  <- "UK"
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "England"]  <- "UK"
-ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots everywhere
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "Wales"]  <- "UK"
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "England"]  <- "UK"
+JrnlToClean$COUNTRY[JrnlToClean$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
 
 #we need to change yugoslavia to what?
 #we need to add french guiana wold bank classficiation
@@ -469,29 +483,29 @@ ALLJOURNALS$COUNTRY[ALLJOURNALS$COUNTRY == "German Democratic Republic"]  <- "Ge
 
 #This line adds a column of country codes based on the country name
 #some countries may not be correctly coded
-ALLJOURNALS$COUNTRY.CODE<-countrycode(ALLJOURNALS$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
+JrnlToClean$COUNTRY.CODE<-countrycode(JrnlToClean$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
 
 
 #These lines add the income level and region level based on the editor country
-ALLJOURNALS$INCOME_LEVEL <- WDI_data[ALLJOURNALS$COUNTRY.CODE, 'income']  #Making a new column of income level by country
-ALLJOURNALS$REGION <- WDI_data[ALLJOURNALS$COUNTRY.CODE, 'region']  #Making a new column of income level by country
+JrnlToClean$INCOME_LEVEL <- WDI_data[JrnlToClean$COUNTRY.CODE, 'income']  #Making a new column of income level by country
+JrnlToClean$REGION <- WDI_data[JrnlToClean$COUNTRY.CODE, 'region']  #Making a new column of income level by country
 
 #subsetting data to only EIC, AE and SE classifications
-ALLJOURNALS <- ALLJOURNALS[ALLJOURNALS$CATEGORY %in% c('EIC', 'AE', 'SE'),]
+JrnlToClean <- JrnlToClean[JrnlToClean$CATEGORY %in% c('EIC', 'AE', 'SE'),]
 
 #step 4: choose the temporal coverage
 #use only 1985 to 2013 
-ALLJOURNALS<-ALLJOURNALS[ALLJOURNALS$YEAR>=1985 & ALLJOURNALS$YEAR<=2013,]
+JrnlToClean<-JrnlToClean[JrnlToClean$YEAR>=1985 & JrnlToClean$YEAR<=2013,]
 
 #step 5: 2x that it all looks ok
-summary(ALLJOURNALS)
+summary(JrnlToClean)
 
 #2x check - are there any with country missing?
-MISSING=subset(ALLJOURNALS, subset=(COUNTRY=="?"))
+MISSING=subset(JrnlToClean, subset=(COUNTRY=="?"))
 MISSING
 
 #Deleting rows without country
-ALLJOURNALS <- ALLJOURNALS[!is.na(ALLJOURNALS$COUNTRY.CODE),] 
+JrnlToClean <- JrnlToClean[!is.na(JrnlToClean$COUNTRY.CODE),] 
 
 
 ##############################################
@@ -499,7 +513,7 @@ ALLJOURNALS <- ALLJOURNALS[!is.na(ALLJOURNALS$COUNTRY.CODE),]
 # GROUPED COUNTRIES WITH SMALL SIZES
 ##############################################
 #Group dataframe by COUNTRY.CODE
-byCOUNTRY <- dplyr::group_by(ALLJOURNALS, COUNTRY.CODE)
+byCOUNTRY <- dplyr::group_by(AllJournals, COUNTRY.CODE)
 
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each EIC only once
 byCOUNTRY <- unique( byCOUNTRY[ , c('NAME', 'COUNTRY.CODE', 'JOURNAL') ] )
@@ -566,7 +580,7 @@ dev.off()
 # (ALL JOURNALS, ALL YEARS)
 ##############################################
 #Group dataframe by COUNTRY.CODE
-byCOUNTRY <- dplyr::group_by(ALLJOURNALS, COUNTRY.CODE, CATEGORY)
+byCOUNTRY <- dplyr::group_by(AllJournals, COUNTRY.CODE, CATEGORY)
 
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each editor only once
 byCOUNTRY <- unique( byCOUNTRY[ , c('NAME', 'COUNTRY.CODE', 'JOURNAL', 'CATEGORY') ] )
@@ -650,7 +664,7 @@ round(100*byCOUNTRY[byCOUNTRY$COUNTRY.CODE == 'GBR',5:7], 1)
 # WITH LINE ADDING HIGH INCOME COUNTRIES (OECD AND NON-OECD)
 ##############################################
 #Group dataframe by CATEGORY, JOURNAL AND YEAR
-COUNTRYYEAR <- dplyr::group_by(ALLJOURNALS, JOURNAL, YEAR)
+COUNTRYYEAR <- dplyr::group_by(AllJournals, JOURNAL, YEAR)
 
 #Getting lists of high, med, low countries
 for (i in unique(WDI_data$income)){
@@ -730,9 +744,9 @@ dev.off()
 # CATEGORIES COMBINED
 ##############################################
 #Group dataframe by iNCOME CLASS, CATEGORY, YEAR 
-INCOME_byYEAR <- dplyr::group_by(ALLJOURNALS, INCOME_LEVEL, YEAR)
+INCOME_byYEAR <- dplyr::group_by(AllJournals, INCOME_LEVEL, YEAR)
 #Group dataframe by REGION, CATEGORY, YEAR 
-REGION_byYEAR <- dplyr::group_by(ALLJOURNALS, REGION, YEAR)
+REGION_byYEAR <- dplyr::group_by(AllJournals, REGION, YEAR)
 
 #Count the number of unique editors by category by country BY year by INCOME
 INCOME_byYEAR = summarize (INCOME_byYEAR,
@@ -800,7 +814,7 @@ byYEAR_subset$variable <- factor(x = byYEAR_subset$variable,
                                             'South Asia_perc'))
 
 # Creating and Saving plot
-tiff(file = "Plots/REGION_allJOURNALS.tiff",
+tiff(file = "Plots/REGION_AllJournals.tiff",
      width = 500,
      height = 400)
 ggplot(byYEAR_subset, 
@@ -839,7 +853,7 @@ byYEAR_subset <- melt(byYEAR_subset,
                       id.vars = c('YEAR'))
 
 # Creating and Saving plot
-tiff(file = "Plots/INCOME_allJOURNALS.tiff",
+tiff(file = "Plots/INCOME_AllJournals.tiff",
      width = 500,
      height = 400)
 ggplot(byYEAR_subset, 
@@ -862,9 +876,9 @@ dev.off()
 # PLOTS OF EDITORIAL BOARD BY INCOME OR REGION BY YEAR BY JOURNAL
 # EDITORIAL CATEGORIES COMBINED
 ##############################################
-INCOME_byYEARJOURNAL <- dplyr::group_by(ALLJOURNALS, 
+INCOME_byYEARJOURNAL <- dplyr::group_by(AllJournals, 
                                         JOURNAL, YEAR, INCOME_LEVEL)
-REGION_byYEARJOURNAL <- dplyr::group_by(ALLJOURNALS, 
+REGION_byYEARJOURNAL <- dplyr::group_by(AllJournals, 
                                         JOURNAL, YEAR, REGION)
 
 #Count the percentage of editors by category by income level
