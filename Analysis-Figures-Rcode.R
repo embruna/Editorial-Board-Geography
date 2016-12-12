@@ -189,52 +189,21 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 # ChoData %>% 
 #   select(FIRST_NAME, MIDDLE_NAME, LAST_NAME)  %>% 
 #   mutate_each(funs(as.factor))
- 
 
 
-############################################################
-# Organiation & Cleaning: CLASSDATA  
-############################################################
 
-ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS,PLANTECO) #Bind the data from 2015 workshop
-
-# Make the data types consistent with ChoData 
-
-ClassData$VOLUME<-as.integer(ClassData$VOLUME)
-ClassData$ISSUE<-as.integer(ClassData$ISSUE)
+# Now make sure all names, cases, categories, etc. are consistent
 
 
-#DELETE THESE WHEN FIXED
-ClassData<-filter(ClassData,ClassData$FIRST_NAME!="Mar\x90a")
-ClassData<-filter(ClassData,ClassData$FIRST_NAME!="J\xd3rg")
+#
+# THIS SHOULD BE CONVERETED TO A FUNCTION!!!!!
+#
 
-
-# NOW NEED TO MAKE SURE ALL NAMES ARE CONSISTENT, CASES, CATEGORRIES, ETC, Make Cap 1st letter, rest lowercase
-# THIS SHOULD BE CONVERETED TO A FUNCTION
-
-JrnlToClean<-ClassData
-
+JrnlToClean<-ChoData
+head(JrnlToClean)
+head(ChoData)
 #remove extra spaces, converts to chr
 JrnlToClean$CATEGORY<-gsub(" ", "", JrnlToClean$CATEGORY, fixed=TRUE) 
-
-
-##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
-##SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
-# 3512   Briones   Mar\x90a          JI 10
-# 4099     Kudla    J\xd3rg        <NA> 1
-# BIOG: 2x check Brian ROsen and Huntley
-# EVOL: several titles missing
-
-# Several in NAMES1 are apparently wrong
-#Alan G
-# E VanDer
-#Evan S
-# #R NA
-# George H
-#Allan G
-#Last name A, First KIMBERLY
-
 
 JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Ae"] <- "AE"
 JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "OTHER"] <- "Other"
@@ -317,7 +286,7 @@ NamesDF$match<-NamesDF$Name1==NamesDF$Name2
 # str(NamesDF)
 NamesDF<-arrange(NamesDF,Name1,Name2) #organize in alphabetica order
 NamesDF<-filter(NamesDF, match==FALSE)  # THIS DELETES ALL NAMES THAT ARE 100% MATCH 
-
+head(NamesDF)
 # Convert to chr
 NamesDF$Name1<-as.character(NamesDF$Name1)
 NamesDF$Name2<-as.character(NamesDF$Name2)
@@ -334,11 +303,171 @@ NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
 # look carefully at those with a few changes, as they are likely to be a tiny spelling mistake or difference in intials
 
 NamesDF<-arrange(NamesDF,Name_dist,Name1)
+NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it easier to id which row you need
 write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck.csv", row.names = F) #export it as a csv file
+
+head(NamesDF)
+
+#### END OF FUNCTION 1
+
+#look over the file, identify the names (rows) that eed to be fixed. Create a vector of those row numbers. That will be used in function 2 to pull them out of the file
+# CHO NAMES TO FIX
+NamesDFfix<-c(1,3:38,46:49,52,56:58,60,61,62,64,67:69,71,81,84,86,88,97,98,102:104,107,
+              111,122:123,129,142:144,146,147,153:155,158,159,161,168,170,171,185:189,
+              195,200,207,212,213,214,222,226,227,263,269,270,273:276,278,279,282,284,307)
+
+#Now select them out
+NamesDFfix<-slice(NamesDF,NamesDFfix)
+# split the Name1 and Name2 into seperate columns for 1st and last name
+NamesDFfix<-separate(NamesDFfix, Name1, c("Name1first", "Name1last"), sep = " ", remove = TRUE, convert = FALSE)
+NamesDFfix<-separate(NamesDFfix, Name2, c("Name2first", "Name2last"), sep = " ", remove = TRUE, convert = FALSE)
+# Do the 1st names match each other
+NamesDFfix$FirstNamesMatch<-NA
+NamesDFfix$FirstNamesMatch<-NamesDFfix$Name1first==NamesDFfix$Name2first
+# do the last names match each other
+NamesDFfix$LastNamesMatch<-NA
+NamesDFfix$LastNamesMatch<-NamesDFfix$Name1last==NamesDFfix$Name2last
+
+
+# THESE ARE THE ONES THAT NEED TO BE 2x in ChoData
+LastToFix<-filter(NamesDFfix,FirstNamesMatch==TRUE & LastNamesMatch==FALSE) #These suggest the last name is misspelled
+FirstToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==TRUE) #These suggest the first name is misspelled
+AllToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==FALSE) #either 1) first ÅND last name is mispelled OR  Something needs to be 2x
+# additional checks
+filter(NamesDFfix, index == 5 | index == 6) #all combos of spellings
+filter(NamesDFfix, index == 22 | index == 23) #all combos of spellings r wright rg wright
+filter(NamesDFfix, index == 25 | index == 26)
+filter(NamesDFfix, index == 102)
+filter(NamesDFfix, index == 146 | index == 147) #Huntley
+filter(NamesDFfix, index == 212| index == 213) #Scoot vs scott
+filter(NamesDFfix, index == 278| index == 279) #robert, robertl,rl
+
+
+foo<-cbind(LastToFix$Name1last,LastToFix$Name2last)
+
+
+filter(ChoData,tolower(LAST_NAME)==NamesDFfix$Name1last[1])
+filter(ChoData,LAST_NAME=="Simberhoff")
+filter(ChoData,tolower(LAST_NAME)=="simberhoff")
+filter(ChoData,tolower(LAST_NAME)==NamesDFfix[7,2])
+filter(ChoData,tolower(LAST_NAME)==LastToFix$Name1last)
+# tolower("Simberhoff")
+
+for
+ChoData %>% filter(tolower(LAST_NAME==Name1last))
+
+ChoData %>% filter(tolower(ChoData$LAST_NAME)==(LastToFix[1,2]) | LastToFix[1,4]))
+filtrt
+
+ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them from factor to string  
+# filter(ChoData,tolower(LAST_NAME)=="simberhoff")
+# filter(ChoData,(tolower(LAST_NAME)=="iriondo" | tolower(LAST_NAME)=="irlondo"))
+# filter(ChoData,(tolower(LAST_NAME)=="cahil" | tolower(LAST_NAME)=="cahill"))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[1] |tolower(LAST_NAME)== LastToFix$Name2last[1]))
+    ChoData$LAST_NAME[ChoData$LAST_NAME == "Simberhoff"] <- "Simberloff"
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[2] |tolower(LAST_NAME)== LastToFix$Name2last[2]))
+    ChoData$LAST_NAME[ChoData$LAST_NAME == "Cahil"] <- "Cahill"
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[3] |tolower(LAST_NAME)== LastToFix$Name2last[3]))
+    ChoData$LAST_NAME[ChoData$LAST_NAME == "IRIONDO"] <- "Iriondo"
+    ChoData$LAST_NAME[ChoData$LAST_NAME == "IRLONDO"] <- "Iriondo"
+    ChoData$MIDDLE_NAME[ChoData$FIRST_NAME == "JM" & ChoData$LAST_NAME == "Iriondo"  ] <- "M"
+    ChoData$FIRST_NAME[ChoData$FIRST_NAME == "JM" & ChoData$LAST_NAME == "Iriondo"  ] <- "Jose"
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[4] |tolower(LAST_NAME)== LastToFix$Name2last[4]))
+    ChoData$LAST_NAME[ChoData$LAST_NAME == "VanDeHeijden"] <- "VanDerHeijden"
+    
+    
+    
+  
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[5] |tolower(LAST_NAME)== LastToFix$Name2last[5]))
+
+
+
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[6] |tolower(LAST_NAME)== LastToFix$Name2last[6]))
+ChoData$LAST_NAME[ChoData$LAST_NAME == "Gowde"] <- "Gowda"
+
+
+
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[7] |tolower(LAST_NAME)== LastToFix$Name2last[7]))
+
+
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[8] |tolower(LAST_NAME)== LastToFix$Name2last[8]))
+ChoData$LAST_NAME[ChoData$LAST_NAME == "JEFFERIES"] <- "Jefferies"
+ChoData$LAST_NAME[ChoData$LAST_NAME == "JEFFERLES"] <- "Jefferies"
+ChoData$MIDDLE_NAME[ChoData$FIRST_NAME == "RobertL" & ChoData$LAST_NAME == "Jefferies"  ] <- "L"
+ChoData$FIRST_NAME[ChoData$FIRST_NAME == "RobertL" & ChoData$LAST_NAME == "Jefferies"  ] <- "Robert"
+ChoData$MIDDLE_NAME[ChoData$FIRST_NAME == "RL" & ChoData$LAST_NAME == "Jefferies"  ] <- "L"
+ChoData$FIRST_NAME[ChoData$FIRST_NAME == "RL" & ChoData$LAST_NAME == "Jefferies"  ] <- "Robert"
+#DOUBLE CHECK MIDDLE INITIALS
+
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[9] |tolower(LAST_NAME)== LastToFix$Name2last[9]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[10] |tolower(LAST_NAME)== LastToFix$Name2last[10]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[11] |tolower(LAST_NAME)== LastToFix$Name2last[11]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[12] |tolower(LAST_NAME)== LastToFix$Name2last[12]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[13] |tolower(LAST_NAME)== LastToFix$Name2last[13]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[14] |tolower(LAST_NAME)== LastToFix$Name2last[14]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[15] |tolower(LAST_NAME)== LastToFix$Name2last[15]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[16] |tolower(LAST_NAME)== LastToFix$Name2last[16]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[17] |tolower(LAST_NAME)== LastToFix$Name2last[17]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[18] |tolower(LAST_NAME)== LastToFix$Name2last[18]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[19] |tolower(LAST_NAME)== LastToFix$Name2last[19]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[20] |tolower(LAST_NAME)== LastToFix$Name2last[20]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[21] |tolower(LAST_NAME)== LastToFix$Name2last[21]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[22] |tolower(LAST_NAME)== LastToFix$Name2last[22]))
+filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[23] |tolower(LAST_NAME)== LastToFix$Name2last[23]))
+
+
 
 # use high similarity of last name but low of first name to find misspelled or shortened first name
 # use high similarity of first name but low of last name to find misspelled last names
 # confirm with complete string similarity
+
+
+
+############################################################
+# Organiation & Cleaning: CLASSDATA  
+############################################################
+
+ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS,PLANTECO) #Bind the data from 2015 workshop
+
+# Make the data types consistent with ChoData 
+
+ClassData$VOLUME<-as.integer(ClassData$VOLUME)
+ClassData$ISSUE<-as.integer(ClassData$ISSUE)
+
+
+#DELETE THESE WHEN FIXED
+
+#NamesDFfix<-c(3:5,9:11,13:33,35:54,59:60,66,68:70)
+
+
+ClassData<-filter(ClassData,ClassData$FIRST_NAME!="Mar\x90a")
+ClassData<-filter(ClassData,ClassData$FIRST_NAME!="J\xd3rg")
+
+##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
+##SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
+# 3512   Briones   Mar\x90a          JI 10
+# 4099     Kudla    J\xd3rg        <NA> 1
+# BIOG: 2x check Brian ROsen and Huntley
+# EVOL: several titles missing
+# Several in NAMES1 are apparently wrong
+#Alan G
+# E VanDer
+#Evan S
+# #R NA
+# George H
+#Allan G
+#Last name A, First KIMBERLY
+
+
+#REPEAT WHATS ABOVE FOR CHO DA 
+
+
+
+
+
+
+
 
 
 ######################################################
