@@ -68,7 +68,6 @@ JANE<-read.csv("./Data2015/JANE.csv", dec=".", header = TRUE, sep = ",", check.n
 JAPE<-read.csv("./Data2015/JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 JTE2<-read.csv("./Data2015/JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
-LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
@@ -76,17 +75,16 @@ OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check
 OIKOS<-read.csv("./Data2015/OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
 PLANTECO<-read.csv("./Data2015/PLANTECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
-#
-# STILL MISSING SOME DATA # WILL nEED TO 2x NAMES ON THESE AND ADD TO LIST BELOW
-#
+# STILL MISSING SOME DATA 
+GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+# ONLY HAS 1995-2007. 2007-2008 in dropbox. Wiley Journal
 
-# GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-# #Still missing years and putting eds into cats
-# #LE is missing 2004, 2011-2014
-# #Need to define as EIC, SE, AE, Other
-# MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-# #Need to define as EIC, SE, AE, Other
-# #INCOMPLETE
+LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+# #LE is missing 1985-1987 (started 1987), 2004, 2011-2014, 2015 Springer
+
+MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+# ONLY HAS 1989-1997. Have in folder 2010, 2011-2013, 2014-2015. what looks like 88,87,1985
+
 
 
 ######################################################
@@ -455,7 +453,7 @@ str(CHECKFILE)
 # LAST NAMES: this should help pick up things like Abrams vs Abrasm
 
 
-CheckNames<-CHECKFILE$NAME
+CheckNames<-CHECKFILE$NAME  #ClassData$FULL_NAME
 CheckNames<-tolower(CheckNames) #drop all to lower case - makes it easier to error check and analyze
 CheckNames<-unique(CheckNames)
 
@@ -502,7 +500,7 @@ NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
 NamesDF<-arrange(NamesDF,Name_dist,Name1)
 NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it easier to id which row you need'
 NamesDF
-write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheckCho-FIRST-LAST.csv", row.names = T) #export it as a csv file
+write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheckCLASS-FIRST-LAST.csv", row.names = T) #export it as a csv file
 
 head(NamesDF)
 
@@ -517,75 +515,59 @@ summary(ChoData)
 
 
 
-
-
-#### END OF FUNCTION 1
-
-#look over the file, identify the names (rows) that eed to be fixed. Create a vector of those row numbers. That will be used in function 2 to pull them out of the file
-# CHO NAMES TO FIX
-# NamesDFfix<-c(1,3:38,46:49,52,56:58,60,61,62,64,67:69,71,81,84,86,88,97,98,102:104,107,
-#               111,122:123,129,142:144,146,147,153:155,158,159,161,168,170,171,185:189,
-#               195,200,207,212,213,214,222,226,227,263,269,270,273:276,278,279,282,284,307)
-
-NamesDFfix<-NamesDF$index
-
-#Now select them out
-NamesDFfix<-slice(NamesDF,NamesDFfix)
-
-# split the Name1 and Name2 into seperate columns for 1st and last name
-NamesDFfix<-separate(NamesDFfix, Name1, c("Name1first", "Name1last"), sep = " ", remove = TRUE, convert = FALSE)
-NamesDFfix<-separate(NamesDFfix, Name2, c("Name2first", "Name2last"), sep = " ", remove = TRUE, convert = FALSE)
-# Do the 1st names match each other
-NamesDFfix$FirstNamesMatch<-NA
-NamesDFfix$FirstNamesMatch<-NamesDFfix$Name1first==NamesDFfix$Name2first
-# do the last names match each other
-NamesDFfix$LastNamesMatch<-NA
-NamesDFfix$LastNamesMatch<-NamesDFfix$Name1last==NamesDFfix$Name2last
-
-
-# THESE ARE THE ONES THAT NEED TO BE 2x in ChoData
-LastToFix<-filter(NamesDFfix,FirstNamesMatch==TRUE & LastNamesMatch==FALSE) #These suggest the last name is misspelled
-FirstToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==TRUE) #These suggest the first name is misspelled
-AllToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==FALSE) #either 1) first ÅND last name is mispelled OR  Something needs to be 2x
-
-# additional checks
-index == 146 | index == 147) #Huntley
-filter(NamesDFfix, index == 22 | index == 23) #all combos of spellings r wright rg wright
-
-
-
-filter(ChoData,tolower(LAST_NAME)==NamesDFfix$Name1last[1])
-filter(ChoData,LAST_NAME=="Simberhoff")
-filter(ChoData,tolower(LAST_NAME)=="simberhoff")
-filter(ChoData,tolower(LAST_NAME)==NamesDFfix[7,2])
-filter(ChoData,tolower(LAST_NAME)==LastToFix$Name1last)
-# tolower("Simberhoff")
-# ChoData %>% filter(tolower(LAST_NAME==Name1last))
-## ChoData %>% filter(tolower(ChoData$LAST_NAME)==(LastToFix[1,2]) | LastToFix[1,4]))
+# 
+# 
+# #### END OF FUNCTION 1
+# 
+# #look over the file, identify the names (rows) that eed to be fixed. Create a vector of those row numbers. That will be used in function 2 to pull them out of the file
+# # CHO NAMES TO FIX
+# # NamesDFfix<-c(1,3:38,46:49,52,56:58,60,61,62,64,67:69,71,81,84,86,88,97,98,102:104,107,
+# #               111,122:123,129,142:144,146,147,153:155,158,159,161,168,170,171,185:189,
+# #               195,200,207,212,213,214,222,226,227,263,269,270,273:276,278,279,282,284,307)
+# 
+# NamesDFfix<-NamesDF$index
+# 
+# #Now select them out
+# NamesDFfix<-slice(NamesDF,NamesDFfix)
+# 
+# # split the Name1 and Name2 into seperate columns for 1st and last name
+# NamesDFfix<-separate(NamesDFfix, Name1, c("Name1first", "Name1last"), sep = " ", remove = TRUE, convert = FALSE)
+# NamesDFfix<-separate(NamesDFfix, Name2, c("Name2first", "Name2last"), sep = " ", remove = TRUE, convert = FALSE)
+# # Do the 1st names match each other
+# NamesDFfix$FirstNamesMatch<-NA
+# NamesDFfix$FirstNamesMatch<-NamesDFfix$Name1first==NamesDFfix$Name2first
+# # do the last names match each other
+# NamesDFfix$LastNamesMatch<-NA
+# NamesDFfix$LastNamesMatch<-NamesDFfix$Name1last==NamesDFfix$Name2last
+# 
+# 
+# # THESE ARE THE ONES THAT NEED TO BE 2x in ChoData
+# LastToFix<-filter(NamesDFfix,FirstNamesMatch==TRUE & LastNamesMatch==FALSE) #These suggest the last name is misspelled
+# FirstToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==TRUE) #These suggest the first name is misspelled
+# AllToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==FALSE) #either 1) first ÅND last name is mispelled OR  Something needs to be 2x
+# 
+# # additional checks
+# index == 146 | index == 147) #Huntley
+# filter(NamesDFfix, index == 22 | index == 23) #all combos of spellings r wright rg wright
+# 
+# 
+# 
+# filter(ChoData,tolower(LAST_NAME)==NamesDFfix$Name1last[1])
+# filter(ChoData,LAST_NAME=="Simberhoff")
 # filter(ChoData,tolower(LAST_NAME)=="simberhoff")
-# filter(ChoData,(tolower(LAST_NAME)=="iriondo" | tolower(LAST_NAME)=="irlondo"))
-# filter(ChoData,(tolower(LAST_NAME)=="cahil" | tolower(LAST_NAME)=="cahill"))
-
-
-ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them from factor to string  
-
-
-
-
-
-# ###STILL CONFIRM
-# 
-# # STILL TO CORRECT
-# filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[7] |tolower(LAST_NAME)== LastToFix$Name2last[7]))
-# filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[10] |tolower(LAST_NAME)== LastToFix$Name2last[10]))
-# filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[12] |tolower(LAST_NAME)== LastToFix$Name2last[12]))
-# filter(ChoData,(tolower(LAST_NAME)==LastToFix$Name1last[16] |tolower(LAST_NAME)== LastToFix$Name2last[16]))
-# 
-# # FIRST NAME FIXES
-# index=77
-# filter(ChoData,(tolower(LAST_NAME)==FirstToFix$Name1last[index] |tolower(FIRST_NAME)== FirstToFix$Name2last[index]))
+# filter(ChoData,tolower(LAST_NAME)==NamesDFfix[7,2])
+# filter(ChoData,tolower(LAST_NAME)==LastToFix$Name1last)
+# # tolower("Simberhoff")
+# # ChoData %>% filter(tolower(LAST_NAME==Name1last))
+# ## ChoData %>% filter(tolower(ChoData$LAST_NAME)==(LastToFix[1,2]) | LastToFix[1,4]))
+# # filter(ChoData,tolower(LAST_NAME)=="simberhoff")
+# # filter(ChoData,(tolower(LAST_NAME)=="iriondo" | tolower(LAST_NAME)=="irlondo"))
+# # filter(ChoData,(tolower(LAST_NAME)=="cahil" | tolower(LAST_NAME)=="cahill"))
 # 
 # 
+# ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them from factor to string  
+
+ 
 
 
 
@@ -617,48 +599,80 @@ ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them fr
 # Organiation & Cleaning: CLASSDATA  
 ############################################################
 
-ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS,PLANTECO) #Bind the data from 2015 workshop
+#Bind the data from 2015 workshop
 
+ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, GCB,
+                 JANE, JAPE, JTE2, JZOOL, LECO, MEPS, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECO) 
+
+str(ClassData)
+
+####FIX THIS
+ClassData[which(ClassData$JOURNAL==""),] #several with no journal name
+ClassData$FIRST_NAME<-as.character(ClassData$FIRST_NAME)
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Mar\x90a"] <- "Mar-x90a"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "J\xd3rg"] <- "J-xd3rg"
+#####
+str(foo)
+summary(foo)
+
+foo<-ClassData %>%
+  select(JOURNAL, YEAR)  %>% 
+  filter(YEAR>1984 & YEAR<2015)
+summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
+missing_yrs<-filter(summary_table,Freq<1) %>% 
+  filter(Var2!="AGRONOMY") %>% 
+  filter(Var2!="ARES") %>% 
+filter(Var2!="BIOCON")%>% 
+filter(Var2!="BITR")%>% 
+filter(Var2!="JTE")%>% 
+filter(Var2!="NAJFM")
+write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
+
+
+
+str(ClassData)
 # Make the data types consistent with ChoData 
 
 ClassData$VOLUME<-as.integer(ClassData$VOLUME)
 ClassData$ISSUE<-as.integer(ClassData$ISSUE)
 
 
+#Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
+trim.trailing <- function (x) sub("\\s+$", "", x)
+ClassData$FIRST_NAME<-trim.trailing(ClassData$FIRST_NAME)
+ClassData$MIDDLE_NAME<-trim.trailing(ClassData$MIDDLE_NAME)
+ClassData$LAST_NAME<-trim.trailing(ClassData$LAST_NAME)
+trim.leading <- function (x)  sub("^\\s+", "", x)
+ClassData$FIRST_NAME<-trim.leading(ClassData$FIRST_NAME)
+ClassData$MIDDLE_NAME<-trim.leading(ClassData$MIDDLE_NAME)
+ClassData$LAST_NAME<-trim.leading(ClassData$LAST_NAME)
+# remove any double spaces
 
-# remove any double spaces (modify from above)
-ChoData$NAME<-gsub("  ", " ", ChoData$NAME, fixed=TRUE)
+ClassData$FIRST_NAME<-gsub("  ", " ", ClassData$FIRST_NAME, fixed=TRUE)
+ClassData$LAST_NAME<-gsub("  ", " ", ClassData$LAST_NAME, fixed=TRUE)
+ClassData$MIDDLE_NAME<-gsub("  ", " ", ClassData$MIDDLE_NAME, fixed=TRUE)
 
 # Remove the periods from peoples names to make consistent accross all files
-ChoData$NAME<-gsub(".", "", ChoData$NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
+ClassData$FIRST_NAME<-gsub(".", "", ClassData$FIRST_NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
+ClassData$MIDDLE_NAME<-gsub(".", "", ClassData$MIDDLE_NAME, fixed=TRUE)
+ClassData$LAST_NAME<-gsub(".", "", ClassData$LAST_NAME, fixed=TRUE)
 
-
-#DELETE THESE WHEN FIXED
-
-#NamesDFfix<-c(3:5,9:11,13:33,35:54,59:60,66,68:70)
-
-
-ClassData<-filter(ClassData,ClassData$FIRST_NAME!="Mar\x90a")
-ClassData<-filter(ClassData,ClassData$FIRST_NAME!="J\xd3rg")
+# Corrections to the database
+str(ClassData)
+ClassData$FULL_NAME<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$LAST_NAME, sep=" ")
+# Remove the periods from peoples names to make consistent accross all files
+ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME, fixed=TRUE)
 
 ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
 ##SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
-# 3512   Briones   Mar\x90a          JI 10
-# 4099     Kudla    J\xd3rg        <NA> 1
-# BIOG: 2x check Brian ROsen and Huntley
 # EVOL: several titles missing
-# Several in NAMES1 are apparently wrong
-#Alan G
-# E VanDer
-#Evan S
-# #R NA
-# George H
-#Allan G
-#Last name A, First KIMBERLY
 
 
-#REPEAT WHATS ABOVE FOR CHO DA 
+
+
+
+
+
 
 
 
