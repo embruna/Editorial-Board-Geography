@@ -1,819 +1,1475 @@
 JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
-AMNAT,2015,186,1,AE,G,Sander,VanDoorn,,Netherlands,NA,NA,NA,University of Groningen
-AMNAT,1995,146,1,AE,H,CJ,Godfray,,UK,NA,NA,NA,Imperial College London
-AMNAT,1996,147,1,AE,H,CJ,Godfray,,UK,NA,NA,NA,Imperial College London
-AMNAT,1996,148,1,AE,H,CJ,Godfray,,UK,NA,NA,NA,Imperial College London
-AMNAT,1997,149,1,AE,H,CJ,Godfray,,UK,NA,NA,NA,Imperial College London
-AMNAT,1998,151,1,AE,H,CJ,Godfray,,UK,NA,NA,NA,Imperial College London
-AMNAT,2015,186,1,AE,Edmund,D,Brodie,III,USA,NA,NA,NA,University of Virginia
-AMNAT,2002,159,1,AE,Edmund,D,Brodie,III,USA,NA,NA,NA,Indiana University
-AMNAT,1991,137,1,AE,F,Stuart,Chapin,III,USA,NA,NA,NA,University of California
-AMNAT,1991,138,1,AE,F,Stuart,Chapin,III,USA,NA,NA,NA,University of California
-AMNAT,1992,139,1,AE,F,Stuart,Chapin,III,USA,NA,NA,NA,University of California
-AMNAT,1992,140,1,AE,F,Stuart,Chapin,III,USA,NA,NA,NA,University of California
-AMNAT,1993,141,1,AE,F,Stuart,Chapin,III,USA,NA,NA,NA,University of California
-AMNAT,1993,142,1,AE,F,Stuart,Chapin,III,USA,NA,NA,NA,University of California
-AMNAT,2015,186,1,AE,Egbert,H,VanNes,,Netherlands,NA,NA,NA,Wageningen University
-AMNAT,2015,186,1,AE,Volker,HW,Rudolf,,USA,NA,NA,NA,Rice University
-AMNAT,2015,186,1,AE,J,AlbertC,Uy,,USA,NA,NA,NA,University of Miami
-AMNAT,2004,163,1,AE,Eldridge,S,Adams,,USA,NA,NA,NA,University of Connecticut
-AMNAT,2002,159,1,AE,Bradley,R,Anholt,,Canada,NA,NA,NA,University of Victoria
-AMNAT,2003,161,1,AE,Bradley,R,Anholt,,Canada,NA,NA,NA,University of Victoria
-AMNAT,2004,163,1,AE,Bradley,R,Anholt,,Canada,NA,NA,NA,University of Victoria
-AMNAT,1999,153,1,AE,Steven,N,Austad,,USA,NA,NA,NA,University of Idaho
-AMNAT,2000,155,1,AE,Steven,N,Austad,,USA,NA,NA,NA,University of Idaho
-AMNAT,2001,157,1,AE,Steven,N,Austad,,USA,NA,NA,NA,University of Idaho
-AMNAT,2015,186,1,AE,Charles,F,Baer,,USA,NA,NA,NA,University of Florida
-AMNAT,2001,157,1,AE,Christine,R,Boake,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2002,159,1,AE,Christine,R,Boake,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2003,161,1,AE,Christine,R,Boake,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2004,163,1,AE,Christine,R,Boake,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2003,161,1,AE,William,J,Boecklen,,USA,NA,NA,NA,New Mexico State University
-AMNAT,2004,163,1,AE,William,J,Boecklen,,USA,NA,NA,NA,New Mexico State University
-AMNAT,2015,186,1,AE,Daniel,I,Bolnick,,USA,NA,NA,NA,University of Texas
-AMNAT,2015,186,1,EIC,Judith,L,Bronstein,,USA,NA,NA,NA,University of Arizona
-AMNAT,2003,161,1,AE,Joel,S,Brown,,USA,NA,NA,NA,University of Illinois
-AMNAT,2004,163,1,AE,Joel,S,Brown,,USA,NA,NA,NA,University of Illinois
-AMNAT,2003,161,1,AE,Ann,C,Burke,,USA,NA,NA,NA,Westleyan University
-AMNAT,2004,163,1,AE,Ann,C,Burke,,USA,NA,NA,NA,Westleyan University
-AMNAT,1991,137,1,AE,Nancy,T,Burley,,USA,NA,NA,NA,University of Illinois
-AMNAT,2015,186,1,AE,Roger,K,Butlin,,UK,NA,NA,NA,University of Sheffield
-AMNAT,1998,151,1,AE,John,A,Byers,,USA,NA,NA,NA,University of Idaho
-AMNAT,1999,153,1,AE,John,A,Byers,,USA,NA,NA,NA,University of Idaho
-AMNAT,2003,161,1,AE,Sean,B,Carroll,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,2004,163,1,AE,Sean,B,Carroll,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,2015,186,1,AE,Christina,M,Caruso,,Canada,NA,NA,NA,University of Guelph
-AMNAT,2003,161,1,AE,Ted,J,Case,,USA,NA,NA,NA,Washington University
-AMNAT,2003,161,1,AE,Jonathan,M,Chase,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,AE,Jonathan,M,Chase,,USA,NA,NA,NA,Washington University
-AMNAT,2003,161,1,AE,James,M,Cheverud,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,AE,James,M,Cheverud,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,AE,Steven,L,Chown,,South Africa,NA,NA,NA,University of Stellenbosch
-AMNAT,2002,159,1,AE,Dale,H,Clayton,,USA,NA,NA,NA,University of Utah
-AMNAT,2004,163,1,AE,Dale,H,Clayton,,USA,NA,NA,NA,University of Utah
-AMNAT,2015,186,1,AE,David,C,Collar,,USA,NA,NA,NA,Christopher Newport University
-AMNAT,1991,137,1,AE,Robert,K,Colwel,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1991,138,1,AE,Robert,K,Colwel,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1992,139,1,AE,Robert,K,Colwel,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1992,140,1,AE,Robert,K,Colwel,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1993,141,1,AE,Robert,K,Colwel,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1993,142,1,AE,Robert,K,Colwel,,USA,NA,NA,NA,University of Connecticut
-AMNAT,2015,186,1,AE,Sean,R,Connolly,,Australiatralia,NA,NA,NA,James Cook University
-AMNAT,1991,137,1,AE,Jerry,A,Coyn,,USA,NA,NA,NA,University of Chicago
-AMNAT,1991,138,1,AE,Jerry,A,Coyn,,USA,NA,NA,NA,University of Chicago
-AMNAT,1992,139,1,AE,Jerry,A,Coyn,,USA,NA,NA,NA,University of Chicago
-AMNAT,1992,140,1,AE,Jerry,A,Coyn,,USA,NA,NA,NA,University of Chicago
-AMNAT,1993,141,1,AE,Jerry,A,Coyn,,USA,NA,NA,NA,University of Chicago
-AMNAT,1993,142,1,AE,Jerry,A,Coyn,,USA,NA,NA,NA,University of Chicago
-AMNAT,2004,163,1,AE,Bernard,J,Crespi,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,1999,153,1,AE,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2000,155,1,AE,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2001,157,1,AE,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2002,159,1,AE,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2003,161,1,AE,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2004,163,1,AE,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2005,165,1,Special,Donald,L,DeAngelis,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2015,186,1,AE,Gregory,E,Demas,,USA,NA,NA,NA,Indiana University
-AMNAT,2003,161,1,AE,Michael,J,Donoghue,,USA,NA,NA,NA,Yale University
-AMNAT,2004,163,1,AE,Michael,J,Donoghue,,USA,NA,NA,NA,Yale University
-AMNAT,2015,186,1,AE,Christopher,G,Eckert,,Canada,NA,NA,NA,Queen's University
-AMNAT,1985,125,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1985,126,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,127,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,128,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,129,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,130,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,131,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,132,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,133,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,134,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,135,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,136,1,AE,Paul,R,Ehrlich,,USA,NA,NA,NA,Stanford University
-AMNAT,1996,147,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,1996,148,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,1997,149,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,1998,151,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,1999,153,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,2000,155,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,2001,157,1,AE,Sharon,B,Emerson,,USA,NA,NA,NA,University of Utah
-AMNAT,1996,147,1,AE,John,A,Endler,,USA,NA,NA,NA,University of California
-AMNAT,1996,148,1,AE,John,A,Endler,,USA,NA,NA,NA,University of California
-AMNAT,1997,149,1,AE,John,A,Endler,,USA,NA,NA,NA,University of California
-AMNAT,1998,151,1,AE,John,A,Endler,,Australiatralia,NA,NA,NA,James Cook University
-AMNAT,1999,153,1,AE,John,A,Endler,,USA,NA,NA,NA,University of California
-AMNAT,2000,155,1,AE,John,A,Endler,,USA,NA,NA,NA,University of California
-AMNAT,2001,157,1,AE,John,A,Endler,,USA,NA,NA,NA,University of California
-AMNAT,2003,161,1,AE,Douglas,H,Erwin,,USA,NA,NA,NA,National Museum of Natural History
-AMNAT,2004,163,1,AE,Douglas,H,Erwin,,USA,NA,NA,NA,National Museum of Natural History
-AMNAT,2004,163,1,AE,William,F,Fagan,,USA,NA,NA,NA,University of Maryland
-AMNAT,1996,148,1,AE,Donald,H,Feener,,USA,NA,NA,NA,University of Utah
-AMNAT,1997,149,1,AE,Donald,H,Feener,,USA,NA,NA,NA,University of Utah
-AMNAT,1998,151,1,AE,Donald,H,Feener,,USA,NA,NA,NA,University of Utah
-AMNAT,1999,153,1,AE,Donald,H,Feener,,USA,NA,NA,NA,University of Utah
-AMNAT,2000,155,1,AE,Donald,H,Feener,,USA,NA,NA,NA,University of Utah
-AMNAT,1985,125,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1985,126,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,127,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,128,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,129,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,130,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,131,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,132,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,133,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,134,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,135,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,136,1,EIC,Marcus,W,Feldman,,USA,NA,NA,NA,Stanford University
-AMNAT,2003,161,1,AE,Curtis,H,Flather,,USA,NA,NA,NA,U.S. Forest Service
-AMNAT,2004,163,1,AE,Curtis,H,Flather,,USA,NA,NA,NA,U.S. Forest Service
-AMNAT,1994,143,1,AE,Steven,A,Frank,,USA,NA,NA,NA,University of California
-AMNAT,1994,144,1,AE,Steven,A,Frank,,USA,NA,NA,NA,University of California
-AMNAT,1995,145,1,AE,Steven,A,Frank,,USA,NA,NA,NA,University of California
-AMNAT,1995,146,1,AE,Steven,A,Frank,,USA,NA,NA,NA,University of California
-AMNAT,1998,151,1,AE,Steven,D,Gaines,,USA,NA,NA,NA,University of California
-AMNAT,1999,153,1,AE,Steven,D,Gaines,,USA,NA,NA,NA,University of California
-AMNAT,2000,155,1,AE,Steven,D,Gaines,,USA,NA,NA,NA,University of California
-AMNAT,2015,186,1,AE,Kevin,J,Gaston,,UK,NA,NA,NA,University of Exeter
-AMNAT,1996,147,1,AE,Monica,A,Geber,,USA,NA,NA,NA,Cornell University
-AMNAT,1996,148,1,AE,Monica,A,Geber,,USA,NA,NA,NA,Cornell University
-AMNAT,1997,149,1,AE,Monica,A,Geber,,USA,NA,NA,NA,Cornell University
-AMNAT,1998,151,1,AE,Monica,A,Geber,,USA,NA,NA,NA,Cornell University
-AMNAT,1999,153,1,AE,Monica,A,Geber,,USA,NA,NA,NA,Cornell University
-AMNAT,2000,155,1,AE,Monica,A,Geber,,USA,NA,NA,NA,Cornell University
-AMNAT,1994,143,1,AE,Deborah,E,Goldberg,,Israel,NA,NA,NA,Ben-Gurion University of the Negev
-AMNAT,1994,144,1,AE,Deborah,E,Goldberg,,Israel,NA,NA,NA,Ben-Gurion University of the Negev
-AMNAT,1995,145,1,AE,Deborah,E,Goldberg,,USA,NA,NA,NA,University of Michigan
-AMNAT,1995,146,1,AE,Deborah,E,Goldberg,,USA,NA,NA,NA,University of Michigan
-AMNAT,1996,147,1,AE,Deborah,E,Goldberg,,USA,NA,NA,NA,University of Michigan
-AMNAT,1996,148,1,AE,Deborah,E,Goldberg,,USA,NA,NA,NA,University of Michigan
-AMNAT,2015,186,1,AE,Charles,J,Goodnight,,USA,NA,NA,NA,University of Vermont
-AMNAT,2002,159,1,AE,Deborah,M,Gordon,,USA,NA,NA,NA,Stanford University
-AMNAT,2003,161,1,AE,Deborah,M,Gordon,,USA,NA,NA,NA,Stanford University
-AMNAT,2004,163,1,AE,Deborah,M,Gordon,,USA,NA,NA,NA,Stanford University
-AMNAT,1995,145,1,AE,Nicholas,J,Gotelli,,USA,NA,NA,NA,University of Vermont
-AMNAT,1995,146,1,AE,Nicholas,J,Gotelli,,USA,NA,NA,NA,University of Vermont
-AMNAT,1996,147,1,AE,Nicholas,J,Gotelli,,USA,NA,NA,NA,University of Vermont
-AMNAT,1996,148,1,AE,Nicholas,J,Gotelli,,USA,NA,NA,NA,University of Vermont
-AMNAT,1997,149,1,AE,Nicholas,J,Gotelli,,USA,NA,NA,NA,University of Vermont
-AMNAT,1998,151,1,AE,Nicholas,J,Gotelli,,USA,NA,NA,NA,University of Vermont
-AMNAT,1994,143,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1994,144,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1995,145,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1995,146,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1996,147,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1996,148,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1997,149,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1998,151,1,AE,Patricia,A,Gowaty,,USA,NA,NA,NA,University of Georgia
-AMNAT,1996,148,1,AE,James,B,Grace,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,1997,149,1,AE,James,B,Grace,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,1998,151,1,AE,James,B,Grace,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,1999,153,1,AE,James,B,Grace,,USA,NA,NA,NA,U.S. Geological survey
-AMNAT,2003,161,1,AE,Harry,W,Greene,,USA,NA,NA,NA,Cornell University
-AMNAT,2004,163,1,AE,Harry,W,Greene,,USA,NA,NA,NA,Cornell University
-AMNAT,1998,151,1,AE,Bryan,T,Grenfell,,UK,NA,NA,NA,Cambridge University
-AMNAT,1999,153,1,AE,Bryan,T,Grenfell,,UK,NA,NA,NA,Cambridge University
-AMNAT,2000,155,1,AE,Bryan,T,Grenfell,,UK,NA,NA,NA,Cambridge University
-AMNAT,2004,163,1,AE,James,P,Grover,,USA,NA,NA,NA,University of Texas
-AMNAT,2015,186,1,AE,Spencer,R,Hall,,USA,NA,NA,NA,Indiana University
-AMNAT,2015,186,1,AE,Lawrence,D,Harder,,Canada,NA,NA,NA,University of Calgary
-AMNAT,2015,186,1,AE,Luke,J,Harmon,,USA,NA,NA,NA,University of Idaho
-AMNAT,1995,145,1,AE,C,Drew,Harvell,,USA,NA,NA,NA,Cornell University
-AMNAT,1995,146,1,AE,C,Drew,Harvell,,USA,NA,NA,NA,Cornell University
-AMNAT,1996,147,1,AE,C,Drew,Harvell,,USA,NA,NA,NA,Cornell University
-AMNAT,1996,148,1,AE,C,Drew,Harvell,,USA,NA,NA,NA,Cornell University
-AMNAT,1997,149,1,AE,C,Drew,Harvell,,USA,NA,NA,NA,Cornell University
-AMNAT,2015,186,1,AE,Stephen,B,Heard,,Canada,NA,NA,NA,University of New Brunswick
-AMNAT,2004,163,1,AE,Stephen,B,Heard,,Canada,NA,NA,NA,University of New Brunswick
-AMNAT,1998,151,1,AE,Joan,M,Herbers,,USA,NA,NA,NA,Colorado State University
-AMNAT,1999,153,1,AE,Joan,M,Herbers,,USA,NA,NA,NA,Colorado State University
-AMNAT,2000,155,1,AE,Joan,M,Herbers,,USA,NA,NA,NA,Colorado State University
-AMNAT,2001,157,1,AE,Joan,M,Herbers,,USA,NA,NA,NA,Colorado State University
-AMNAT,2002,159,1,AE,Joan,M,Herbers,,USA,NA,NA,NA,Colorado State University
-AMNAT,2003,161,1,AE,David,M,Hillis,,USA,NA,NA,NA,University of Texas
-AMNAT,2004,163,1,AE,David,M,Hillis,,USA,NA,NA,NA,University of Texas
-AMNAT,1994,143,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1994,144,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1995,145,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1995,146,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1996,147,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1996,148,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1997,149,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1998,151,1,AE,Kent,E,Holsinger,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1994,143,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1994,144,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1995,145,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1995,146,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1996,147,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1997,149,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1998,151,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,1999,153,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,2000,155,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,2001,157,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Kansas
-AMNAT,2002,159,1,AE,Robert,D,Holt,,USA,NA,NA,NA,University of Florida
-AMNAT,1998,151,1,AE,Anne,E,Houde,,USA,NA,NA,NA,Lake Forest College
-AMNAT,1999,153,1,AE,Anne,E,Houde,,USA,NA,NA,NA,Lake Forest College
-AMNAT,2000,155,1,AE,Anne,E,Houde,,USA,NA,NA,NA,Lake Forest College
-AMNAT,2001,157,1,AE,Anne,E,Houde,,USA,NA,NA,NA,Lake Forest College
-AMNAT,1994,143,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1994,144,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1995,145,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1995,146,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1996,147,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1996,148,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1997,149,1,AE,Richard,D,Howard,,USA,NA,NA,NA,Purdue University
-AMNAT,1996,147,1,AE,Raymond,B,Huey,,USA,NA,NA,NA,University of Washington
-AMNAT,1996,148,1,AE,Raymond,B,Huey,,USA,NA,NA,NA,University of Washington
-AMNAT,1997,149,1,AE,Raymond,B,Huey,,USA,NA,NA,NA,University of Washington
-AMNAT,1998,151,1,AE,Raymond,B,Huey,,USA,NA,NA,NA,University of Washington
-AMNAT,2004,163,1,AE,Raymond,B,Huey,,USA,NA,NA,NA,University of Washington
-AMNAT,2002,159,1,AE,Rolf,A,Ims,,Norway,NA,NA,NA,University of Tromso
-AMNAT,2003,161,1,AE,Rolf,A,Ims,,Norway,NA,NA,NA,University of Tromso
-AMNAT,2004,163,1,AE,Rolf,A,Ims,,Norway,NA,NA,NA,University of Tromso
-AMNAT,1996,147,1,AE,Anthony,R,Ives,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1996,148,1,AE,Anthony,R,Ives,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1997,149,1,AE,Anthony,R,Ives,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1998,151,1,AE,Anthony,R,Ives,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1999,153,1,AE,Anthony,R,Ives,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,2000,155,1,AE,Anthony,R,Ives,,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1994,143,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1994,144,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1995,145,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1995,146,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1996,147,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1997,149,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1998,151,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,1999,153,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,2000,155,1,AE,Theodore,,Garland,Jr,USA,NA,NA,NA,University of Wisconsin
-AMNAT,2002,159,1,AE,Tadeusz,J,Kawecki,,Switzerland,NA,NA,NA,University of Fribourg
-AMNAT,2003,161,1,AE,Tadeusz,J,Kawecki,,Switzerland,NA,NA,NA,University of Fribourg
-AMNAT,2004,163,1,AE,Tadeusz,J,Kawecki,,Switzerland,NA,NA,NA,University of Fribourg
-AMNAT,2015,186,1,AE,Andrew,J,Kerkhoff,,USA,NA,NA,NA,Kenyon College
-AMNAT,2004,163,1,AE,Ellen,D,Ketterson,,USA,NA,NA,NA,Indiana University
-AMNAT,1992,139,1,AE,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1992,140,1,AE,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1993,141,1,AE,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1993,142,1,AE,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1994,143,1,AE,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1994,144,1,AE,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1996,147,1,EIC,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1996,148,1,EIC,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1997,149,1,EIC,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,1998,151,1,EIC,Joel,G,Kingsolver,,USA,NA,NA,NA,University of Washington
-AMNAT,2015,186,1,AE,Charlotte,T,Lee,,USA,NA,NA,NA,Duke University
-AMNAT,2015,186,1,AE,Mathew,A,Leibold,,USA,NA,NA,NA,University of Texas
-AMNAT,1996,147,1,AE,Richard,E,Lenski,,USA,NA,NA,NA,Michigan State University
-AMNAT,1996,148,1,AE,Richard,E,Lenski,,USA,NA,NA,NA,Michigan State University
-AMNAT,1997,149,1,AE,Richard,E,Lenski,,USA,NA,NA,NA,Michigan State University
-AMNAT,1998,151,1,AE,Richard,E,Lenski,,USA,NA,NA,NA,Michigan State University
-AMNAT,1999,153,1,AE,Bruce,R,Levin,,USA,NA,NA,NA,Emory University
-AMNAT,1999,153,1,AE,Don,R,Levitan,,USA,NA,NA,NA,Florida State University
-AMNAT,2000,155,1,AE,Don,R,Levitan,,USA,NA,NA,NA,Florida State University
-AMNAT,2001,157,1,AE,Don,R,Levitan,,USA,NA,NA,NA,Florida State University
-AMNAT,2003,161,1,AE,Bette,A,Loiselle,,USA,NA,NA,NA,University of Missouri
-AMNAT,2004,163,1,AE,Bette,A,Loiselle,,USA,NA,NA,NA,University of Missouri
-AMNAT,1999,153,1,AE,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,2000,155,1,AE,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,2001,157,1,AE,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,2002,159,1,AE,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,2003,161,1,EIC,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,EIC,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,2005,165,1,EIC,Jonathan,B,Losos,,USA,NA,NA,NA,Washington University
-AMNAT,1999,153,1,AE,David,E,McCauley,,USA,NA,NA,NA,Vanderbilt University
-AMNAT,2000,155,1,AE,David,E,McCauley,,USA,NA,NA,NA,Vanderbilt University
-AMNAT,2001,157,1,AE,David,E,McCauley,,USA,NA,NA,NA,Vanderbilt University
-AMNAT,2015,186,1,Special,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth College
-AMNAT,1998,151,1,AE,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth University
-AMNAT,1999,153,1,AE,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth University
-AMNAT,2000,155,1,AE,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth University
-AMNAT,2001,157,1,AE,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth University
-AMNAT,2002,159,1,AE,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth University
-AMNAT,2003,161,1,AE,Mark,A,McPeek,,USA,NA,NA,NA,Dartmouth University
-AMNAT,1991,137,1,AE,Thomas,R,Meaghe,,USA,NA,NA,NA,Rutgers University
-AMNAT,1991,138,1,AE,Thomas,R,Meaghe,,USA,NA,NA,NA,Rutgers University
-AMNAT,1992,139,1,AE,Thomas,R,Meaghe,,USA,NA,NA,NA,Rutgers University
-AMNAT,1992,140,1,AE,Thomas,R,Meaghe,,USA,NA,NA,NA,Rutgers University
-AMNAT,1993,141,1,AE,Thomas,R,Meaghe,,USA,NA,NA,NA,Rutgers University
-AMNAT,1993,142,1,AE,Thomas,R,Meaghe,,USA,NA,NA,NA,Rutgers University
-AMNAT,2000,155,1,AE,Michael,P,Mesterton-Gibbons,,USA,NA,NA,NA,Florida State University
-AMNAT,2001,157,1,AE,Michael,P,Mesterton-Gibbons,,USA,NA,NA,NA,Florida State University
-AMNAT,2002,159,1,AE,Michael,P,Mesterton-Gibbons,,USA,NA,NA,NA,Florida State University
-AMNAT,2015,186,1,AE,C,Jessica,Metcalf,,USA,NA,NA,NA,Princeton University
-AMNAT,2002,159,1,AE,Donald,B,Miles,,USA,NA,NA,NA,Ohio University
-AMNAT,2003,161,1,AE,Donald,B,Miles,,USA,NA,NA,NA,Ohio University
-AMNAT,2004,163,1,AE,Donald,B,Miles,,USA,NA,NA,NA,Ohio University
-AMNAT,1999,153,1,AE,Thomas,E,Miller,,USA,NA,NA,NA,Florida State University
-AMNAT,2000,155,1,AE,Thomas,E,Miller,,USA,NA,NA,NA,Florida State University
-AMNAT,2001,157,1,AE,Thomas,E,Miller,,USA,NA,NA,NA,Florida State University
-AMNAT,1991,137,1,AE,Brent,D,Mishle,,USA,NA,NA,NA,Duke University
-AMNAT,1991,138,1,AE,Brent,D,Mishle,,USA,NA,NA,NA,Duke University
-AMNAT,1992,139,1,AE,Brent,D,Mishle,,USA,NA,NA,NA,Duke University
-AMNAT,1992,140,1,AE,Brent,D,Mishle,,USA,NA,NA,NA,Duke University
-AMNAT,1993,141,1,AE,Brent,D,Mishle,,USA,NA,NA,NA,Duke University
-AMNAT,1993,142,1,AE,Brent,D,Mishle,,USA,NA,NA,NA,Duke University
-AMNAT,2015,186,1,AE,Wolf,M,Mooij,,Netherlands,NA,NA,NA,Netherlands Institute of Ecology
-AMNAT,1985,125,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1985,126,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,127,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,128,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,129,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,130,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,131,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,132,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,133,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,134,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,135,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,136,1,AE,Harol,A,Mooney,,USA,NA,NA,NA,Stanford University
-AMNAT,1998,151,1,AE,Allen,J,Moore,,USA,NA,NA,NA,University of Kentucky
-AMNAT,1999,153,1,AE,Allen,J,Moore,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2000,155,1,AE,Allen,J,Moore,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2001,157,1,AE,Allen,J,Moore,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2002,159,1,AE,Allen,J,Moore,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2003,161,1,AE,Allen,J,Moore,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2004,163,1,AE,Allen,J,Moore,,UK,NA,NA,NA,University of Manchester
-AMNAT,1994,143,1,AE,Nancy,A,Moran,,USA,NA,NA,NA,University of Arizona
-AMNAT,1994,144,1,AE,Nancy,A,Moran,,USA,NA,NA,NA,University of Arizona
-AMNAT,1995,145,1,AE,Nancy,A,Moran,,USA,NA,NA,NA,University of Arizona
-AMNAT,1995,146,1,AE,Nancy,A,Moran,,USA,NA,NA,NA,University of Arizona
-AMNAT,1996,147,1,AE,Nancy,A,Moran,,USA,NA,NA,NA,University of Arizona
-AMNAT,1996,148,1,AE,Nancy,A,Moran,,USA,NA,NA,NA,University of Arizona
-AMNAT,1999,153,1,AE,Peter,J,Morin,,USA,NA,NA,NA,Rutgers University
-AMNAT,2000,155,1,AE,Peter,J,Morin,,USA,NA,NA,NA,Rutgers University
-AMNAT,2001,157,1,AE,Peter,J,Morin,,USA,NA,NA,NA,Rutgers University
-AMNAT,2004,163,1,AE,Peter,J,Morin,,USA,NA,NA,NA,Rutgers University
-AMNAT,2001,157,1,AE,William,F,Morris,,USA,NA,NA,NA,Duke University
-AMNAT,2002,159,1,AE,William,F,Morris,,USA,NA,NA,NA,Duke University
-AMNAT,2003,161,1,AE,William,F,Morris,,USA,NA,NA,NA,Duke University
-AMNAT,2003,161,1,AE,Michael,W,Nachman,,USA,NA,NA,NA,University of Arizona
-AMNAT,2004,163,1,AE,Michael,W,Nachman,,USA,NA,NA,NA,University of Arizona
-AMNAT,2015,186,1,AE,Michael,G,Neubert,,USA,NA,NA,NA,Woods Hole Oceanographic Institution
-AMNAT,2015,186,1,AE,Scott,L,Nuismer,,USA,NA,NA,NA,University of Idaho
-AMNAT,1998,151,1,AE,Sarah,P,Otto,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,1999,153,1,AE,Sarah,P,Otto,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2000,155,1,AE,Sarah,P,Otto,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2001,157,1,AE,Sarah,P,Otto,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,1991,137,1,AE,Stephen,W,Pacal,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1991,138,1,AE,Stephen,W,Pacal,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1992,139,1,AE,Stephen,W,Pacal,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1992,140,1,AE,Stephen,W,Pacal,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1993,141,1,AE,Stephen,W,Pacal,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1993,142,1,AE,Stephen,W,Pacal,,USA,NA,NA,NA,University of Connecticut
-AMNAT,1996,147,1,AE,Robert,T,Paine,,USA,NA,NA,NA,University of Washington
-AMNAT,1996,148,1,AE,Robert,T,Paine,,USA,NA,NA,NA,University of Washington
-AMNAT,1997,149,1,AE,Robert,T,Paine,,USA,NA,NA,NA,University of Washington
-AMNAT,1996,147,1,AE,Stephen,R,Palumbi,,USA,NA,NA,NA,University of Hawaii
-AMNAT,1996,148,1,AE,Stephen,R,Palumbi,,USA,NA,NA,NA,University of Hawaii
-AMNAT,1997,149,1,AE,Stephen,R,Palumbi,,USA,NA,NA,NA,University of Hawaii
-AMNAT,1991,138,1,AE,Geoffrey,A,Parker,,UK,NA,NA,NA,University of Liverpool
-AMNAT,1992,139,1,AE,Geoffrey,A,Parker,,UK,NA,NA,NA,University of Liverpool
-AMNAT,1992,140,1,AE,Geoffrey,A,Parker,,UK,NA,NA,NA,University of Liverpool
-AMNAT,1993,141,1,AE,Geoffrey,A,Parker,,UK,NA,NA,NA,University of Liverpool
-AMNAT,1993,142,1,AE,Geoffrey,A,Parker,,UK,NA,NA,NA,University of Liverpool
-AMNAT,2004,163,1,AE,Nipam,H,Patel,,USA,NA,NA,NA,University of California
-AMNAT,2003,161,1,AE,Christopher,W,Petersen,,USA,NA,NA,NA,College of the Atlantic
-AMNAT,2004,163,1,AE,Christopher,W,Petersen,,USA,NA,NA,NA,College of the Atlantic
-AMNAT,2004,163,1,AE,Catherine,A,Pfister,,USA,NA,NA,NA,University of Chicago
-AMNAT,1994,143,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,1994,144,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,1995,145,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,1995,146,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,1996,147,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,1996,148,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,1997,149,1,AE,Wilfred,M,Post,,USA,NA,NA,NA,Oak Ridge National Laboratory
-AMNAT,2015,186,1,AE,Stephen,R,Proulx,,USA,NA,NA,NA,University of California
-AMNAT,1991,137,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1991,138,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1992,139,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1992,140,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1993,141,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1993,142,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1994,143,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1994,144,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1995,145,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1995,146,1,EIC,Mark,D,Rausher,,USA,NA,NA,NA,Duke University
-AMNAT,1991,137,1,AE,Leslie,A,Rea,,USA,NA,NA,NA,University of North Carolina
-AMNAT,1991,138,1,AE,Leslie,A,Rea,,USA,NA,NA,NA,University of North Carolina
-AMNAT,1992,139,1,AE,Leslie,A,Rea,,USA,NA,NA,NA,University of North Carolina
-AMNAT,1992,140,1,AE,Leslie,A,Rea,,USA,NA,NA,NA,University of North Carolina
-AMNAT,1993,141,1,AE,Leslie,A,Rea,,USA,NA,NA,NA,University of North Carolina
-AMNAT,1993,142,1,AE,Leslie,A,Rea,,USA,NA,NA,NA,University of North Carolina
-AMNAT,2003,161,1,AE,Susanne,S,Renner,,USA,NA,NA,NA,University of Missouri
-AMNAT,2004,163,1,AE,Susanne,S,Renner,,USA,NA,NA,NA,University of Missouri
-AMNAT,2015,186,1,AE,David,N,Reznick,,USA,NA,NA,NA,University of California
-AMNAT,1991,138,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1992,139,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1992,140,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1993,141,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1993,142,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1994,143,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1994,144,1,AE,William,R,Rice,,USA,NA,NA,NA,University of California
-AMNAT,1996,147,1,AE,Robert,E,Ricklefs,,USA,NA,NA,NA,University of Missouri
-AMNAT,1996,148,1,AE,Robert,E,Ricklefs,,USA,NA,NA,NA,University of Missouri
-AMNAT,1997,149,1,AE,Robert,E,Ricklefs,,USA,NA,NA,NA,University of Missouri
-AMNAT,2002,159,1,AE,Mark,E,Ritchie,,USA,NA,NA,NA,Utah State University
-AMNAT,2003,161,1,AE,Mark,E,Ritchie,,USA,NA,NA,NA,Utah State University
-AMNAT,2004,163,1,AE,Mark,E,Ritchie,,USA,NA,NA,NA,Utah State University
-AMNAT,2015,186,1,AE,Daniel,L,Roelke,,USA,NA,NA,NA,Texas A&M University
-AMNAT,1996,147,1,AE,Bernard,D,Roitberg,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,1996,148,1,AE,Bernard,D,Roitberg,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,1997,149,1,AE,Bernard,D,Roitberg,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,1998,151,1,AE,Bernard,D,Roitberg,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,1999,153,1,AE,Bernard,D,Roitberg,,Australiatralia,NA,NA,NA,Simon Fraser University
-AMNAT,2000,155,1,AE,Bernard,D,Roitberg,,Australiatralia,NA,NA,NA,Simon Fraser University
-AMNAT,2015,186,1,AE,Axel,G,Rossberg,,UK,NA,NA,NA,Queen Mary University of London
-AMNAT,1991,137,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1991,138,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1992,139,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1992,140,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1993,141,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1993,142,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1994,143,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,1994,144,1,AE,V,Louise,Rot,,USA,NA,NA,NA,Duke University
-AMNAT,2015,186,1,AE,Rebecca,Jo,Safran,,USA,NA,NA,NA,University of Colorado
-AMNAT,2002,159,1,AE,Robert,Craig,Sargent,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2003,161,1,AE,Robert,Craig,Sargent,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2004,163,1,AE,Robert,Craig,Sargent,,USA,NA,NA,NA,University of Kentucky
-AMNAT,1998,151,1,AE,Douglas,W,Schemske,,USA,NA,NA,NA,University of Washington
-AMNAT,1999,153,1,AE,Douglas,W,Schemske,,USA,NA,NA,NA,University of Washington
-AMNAT,1994,143,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1994,144,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1995,145,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1995,146,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1996,147,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1996,148,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1997,149,1,AE,Ruth,G,Shaw,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1991,137,1,AE,Paul,W,Sherma,,USA,NA,NA,NA,Cornell University
-AMNAT,1991,138,1,AE,Paul,W,Sherma,,USA,NA,NA,NA,Cornell University
-AMNAT,1992,139,1,AE,Paul,W,Sherma,,USA,NA,NA,NA,Cornell University
-AMNAT,1992,140,1,AE,Paul,W,Sherma,,USA,NA,NA,NA,Cornell University
-AMNAT,1993,141,1,AE,Paul,W,Sherma,,USA,NA,NA,NA,Cornell University
-AMNAT,1993,142,1,AE,Paul,W,Sherma,,USA,NA,NA,NA,Cornell University
-AMNAT,1995,145,1,AE,Joan,B,Silk,,USA,NA,NA,NA,University of California
-AMNAT,1995,146,1,AE,Joan,B,Silk,,USA,NA,NA,NA,University of California
-AMNAT,1991,138,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,1992,139,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,1992,140,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,1993,141,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,1993,142,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,1994,143,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,1994,144,1,AE,Wayne,P,Sousa,,USA,NA,NA,NA,University of California
-AMNAT,2015,186,1,AE,John,J,Stachowicz,,USA,NA,NA,NA,University of California
-AMNAT,1991,138,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1992,139,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1992,140,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1993,141,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1993,142,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1994,143,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1994,144,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1995,145,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,1995,146,1,AE,Judy,A,Stamps,,USA,NA,NA,NA,University of California
-AMNAT,2015,186,1,AE,Scott,J,Steppan,,USA,NA,NA,NA,Florida State University
-AMNAT,1996,147,1,AE,Robert,W,Sterner,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1996,148,1,AE,Robert,W,Sterner,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1997,149,1,AE,Robert,W,Sterner,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1998,151,1,AE,Robert,W,Sterner,,USA,NA,NA,NA,University of Minnesota
-AMNAT,2001,157,1,AE,Joan,E,Strassmann,,USA,NA,NA,NA,Rice University
-AMNAT,2002,159,1,AE,Joan,E,Strassmann,,USA,NA,NA,NA,Rice University
-AMNAT,2003,161,1,AE,Joan,E,Strassmann,,USA,NA,NA,NA,Rice University
-AMNAT,2002,159,1,AE,Douglas,R,Taylor,,USA,NA,NA,NA,University of Virginia
-AMNAT,2003,161,1,AE,Douglas,R,Taylor,,USA,NA,NA,NA,University of Virginia
-AMNAT,2004,163,1,AE,Douglas,R,Taylor,,USA,NA,NA,NA,University of Virginia
-AMNAT,2015,186,1,AE,Peter,D,Taylor,,Canada,NA,NA,NA,Queen's University
-AMNAT,2003,161,1,AE,Peter,D,Taylor,,Canada,NA,NA,NA,Queen's University
-AMNAT,2004,163,1,AE,Peter,D,Taylor,,Canada,NA,NA,NA,Queen's University
-AMNAT,2003,161,1,AE,Alan,R,Templeton,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,AE,Alan,R,Templeton,,USA,NA,NA,NA,Washington University
-AMNAT,1985,126,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,127,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,128,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,129,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,130,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,131,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,132,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,133,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,134,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,135,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,136,1,AE,Peter,M,Vitousek,,USA,NA,NA,NA,Stanford University
-AMNAT,1999,153,1,AE,Michael,J,Wade,,USA,NA,NA,NA,Indiana University
-AMNAT,2000,155,1,AE,Michael,J,Wade,,USA,NA,NA,NA,Indiana University
-AMNAT,2001,157,1,AE,Michael,J,Wade,,USA,NA,NA,NA,Indiana University
-AMNAT,2002,159,1,AE,Michael,J,Wade,,USA,NA,NA,NA,Indiana University
-AMNAT,2002,159,1,AE,Gunter,P,Wagner,,USA,NA,NA,NA,Yale University
-AMNAT,2003,161,1,AE,Gunter,P,Wagner,,USA,NA,NA,NA,Yale University
-AMNAT,2004,163,1,AE,Gunter,P,Wagner,,USA,NA,NA,NA,Yale University
-AMNAT,1994,143,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1994,144,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1995,145,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1995,146,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1996,147,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1996,148,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1997,149,1,AE,J,Bruce,Walsh,,USA,NA,NA,NA,University of Arizona
-AMNAT,1988,132,1,AE,Ward,B,Watt,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,133,1,AE,Ward,B,Watt,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,134,1,AE,Ward,B,Watt,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,135,1,AE,Ward,B,Watt,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,136,1,AE,Ward,B,Watt,,USA,NA,NA,NA,Stanford University
-AMNAT,2015,186,1,AE,William,T,Wcislo,,USA,NA,NA,NA,Smithsonian Tropical Research Institute
-AMNAT,1998,151,1,AE,David,A,Wedin,,Canada,NA,NA,NA,University of Toronto
-AMNAT,1999,153,1,AE,David,A,Wedin,,USA,NA,NA,NA,University of Nebraska
-AMNAT,2000,155,1,AE,David,A,Wedin,,USA,NA,NA,NA,University of Nebraska
-AMNAT,2015,186,1,AE,Franz,J,Weissing,,Netherlands,NA,NA,NA,University of Groningen
-AMNAT,2003,161,1,AE,Franz,J,Weissing,,Netherlands,NA,NA,NA,University of Groningen
-AMNAT,2004,163,1,AE,Franz,J,Weissing,,Netherlands,NA,NA,NA,University of Groningen
-AMNAT,1999,153,1,AE,Holly,A,Wichman,,USA,NA,NA,NA,University of Idaho
-AMNAT,2000,155,1,AE,Holly,A,Wichman,,USA,NA,NA,NA,University of Idaho
-AMNAT,2001,157,1,AE,Holly,A,Wichman,,USA,NA,NA,NA,University of Idaho
-AMNAT,2002,159,1,AE,Holly,A,Wichman,,USA,NA,NA,NA,University of Idaho
-AMNAT,1991,138,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,1992,139,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,1992,140,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,1993,141,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,1993,142,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,1994,143,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,1994,144,1,AE,Henry,M,Wilbur,,USA,NA,NA,NA,University of Virginia
-AMNAT,2015,186,1,AE,Tony,D,Williams,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,2002,159,1,AE,John,H,Willis,,USA,NA,NA,NA,Duke University
-AMNAT,2003,161,1,AE,John,H,Willis,,USA,NA,NA,NA,Duke University
-AMNAT,2004,163,1,AE,John,H,Willis,,USA,NA,NA,NA,Duke University
-AMNAT,2001,157,1,AE,Scott,D,Wilson,,Canada,NA,NA,NA,University of Regina
-AMNAT,2002,159,1,AE,Scott,D,Wilson,,Canada,NA,NA,NA,University of Regina
-AMNAT,2003,161,1,AE,Scott,D,Wilson,,Canada,NA,NA,NA,University of Regina
-AMNAT,2015,186,1,Special,Alice,A,Winn,,USA,NA,NA,NA,Florida State University
-AMNAT,2015,186,1,AE,H,Arthur,Woods,,USA,NA,NA,NA,University of Montana
-AMNAT,1998,151,1,AE,Gregory,A,Wray,,USA,NA,NA,NA,State University of New York
-AMNAT,1999,153,1,AE,Gregory,A,Wray,,USA,NA,NA,NA,State University of New York
-AMNAT,2000,155,1,AE,Gregory,A,Wray,,USA,NA,NA,NA,State University of New York
-AMNAT,2001,157,1,AE,Gregory,A,Wray,,USA,NA,NA,NA,State University of New York
-AMNAT,2003,161,1,AE,Gregory,A,Wray,,USA,NA,NA,NA,Duke University
-AMNAT,1992,139,1,AE,Alejandro,,Kacelnik,,UK,NA,NA,NA,University of Oxford
-AMNAT,1992,140,1,AE,Alejandro,,Kacelnik,,UK,NA,NA,NA,University of Oxford
-AMNAT,1993,141,1,AE,Alejandro,,Kacelnik,,UK,NA,NA,NA,University of Oxford
-AMNAT,1993,142,1,AE,Alejandro,,Kacelnik,,UK,NA,NA,NA,University of Oxford
-AMNAT,1994,143,1,AE,Alejandro,,Kacelnik,,UK,NA,NA,NA,University of Oxford
-AMNAT,1994,144,1,AE,Alejandro,,Kacelnik,,UK,NA,NA,NA,University of Oxford
-AMNAT,2003,161,1,AE,Allan,,Larson,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,AE,Allan,,Larson,,USA,NA,NA,NA,Washington University
-AMNAT,1998,151,1,AE,Andrew,,Sih,,USA,NA,NA,NA,University of Kentucky
-AMNAT,1999,153,1,AE,Andrew,,Sih,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2000,155,1,AE,Andrew,,Sih,,USA,NA,NA,NA,University of Kentucky
-AMNAT,2002,159,1,AE,Austin,,Burt,,UK,NA,NA,NA,Imperial College London
-AMNAT,2003,161,1,AE,Austin,,Burt,,UK,NA,NA,NA,Imperial College London
-AMNAT,2004,163,1,AE,Austin,,Burt,,UK,NA,NA,NA,Imperial College London
-AMNAT,2004,163,1,AE,Axel,,Meyer,,Germany,NA,NA,NA,University of Konstanz
-AMNAT,2003,161,1,AE,Barbara,,Schaal,,USA,NA,NA,NA,Washington University
-AMNAT,2004,163,1,AE,Barbara,,Schaal,,USA,NA,NA,NA,Washington University
-AMNAT,2002,159,1,AE,Ben,,Sheldon,,UK,NA,NA,NA,University of Oxford
-AMNAT,2003,161,1,AE,Ben,,Sheldon,,UK,NA,NA,NA,University of Oxford
-AMNAT,2004,163,1,AE,Ben,,Sheldon,,UK,NA,NA,NA,University of Oxford
-AMNAT,2015,186,1,AE,Benjamin,,Bolker,,USA,NA,NA,NA,University of Florida
-AMNAT,2004,163,1,AE,Benjamin,,Bolker,,USA,NA,NA,NA,University of Florida
-AMNAT,2002,159,1,AE,Chris,,Thomas,,UK,NA,NA,NA,University of Leeds
-AMNAT,2003,161,1,AE,Chris,,Thomas,,UK,NA,NA,NA,University of Leeds
-AMNAT,2004,163,1,AE,Chris,,Thomas,,UK,NA,NA,NA,University of Leeds
-AMNAT,2015,186,1,AE,Christopher,,Klausmeier,,USA,NA,NA,NA,Michigan State University
-AMNAT,1991,137,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Rochester
-AMNAT,1991,138,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Rochester
-AMNAT,1992,139,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Rochester
-AMNAT,1992,140,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Rochester
-AMNAT,1993,141,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Rochester
-AMNAT,1993,142,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Rochester
-AMNAT,1994,143,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Chicago
-AMNAT,1994,144,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Chicago
-AMNAT,1995,145,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Chicago
-AMNAT,1995,146,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Chicago
-AMNAT,2003,161,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Chicago
-AMNAT,2004,163,1,AE,Chung-I,,Wu,,USA,NA,NA,NA,University of Chicago
-AMNAT,2003,161,1,AE,Cliff,,Cunningham,,USA,NA,NA,NA,Duke University
-AMNAT,2004,163,1,AE,Cliff,,Cunningham,,USA,NA,NA,NA,Duke University
-AMNAT,2003,161,1,AE,Curt,,Lively,,USA,NA,NA,NA,Indiana University
-AMNAT,2004,163,1,AE,Curt,,Lively,,USA,NA,NA,NA,Indiana University
-AMNAT,2001,157,1,AE,Daniel,,Doak,,USA,NA,NA,NA,University of California
-AMNAT,2002,159,1,AE,Daniel,,Doak,,USA,NA,NA,NA,University of California
-AMNAT,2003,161,1,AE,Daniel,,Doak,,USA,NA,NA,NA,University of California
-AMNAT,2002,159,1,AE,Daniel,,Promislow,,USA,NA,NA,NA,University of Georgia
-AMNAT,2003,161,1,AE,Daniel,,Promislow,,USA,NA,NA,NA,University of Georgia
-AMNAT,2004,163,1,AE,Daniel,,Promislow,,USA,NA,NA,NA,University of Georgia
-AMNAT,1999,153,1,AE,Daniel,,Simberloff,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2000,155,1,AE,Daniel,,Simberloff,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2001,157,1,AE,Daniel,,Simberloff,,USA,NA,NA,NA,University of Tennessee
-AMNAT,1991,137,1,AE,David,,Tilma,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1994,143,1,AE,David,,Tilma,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1994,144,1,AE,David,,Tilma,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1991,137,1,AE,Deborah,,Charlesworth,,USA,NA,NA,NA,University of Chicago
-AMNAT,1991,138,1,AE,Deborah,,Charlesworth,,USA,NA,NA,NA,University of Chicago
-AMNAT,1992,139,1,AE,Deborah,,Charlesworth,,USA,NA,NA,NA,University of Chicago
-AMNAT,1992,140,1,AE,Deborah,,Charlesworth,,USA,NA,NA,NA,University of Chicago
-AMNAT,1993,141,1,AE,Deborah,,Charlesworth,,USA,NA,NA,NA,University of Chicago
-AMNAT,1993,142,1,AE,Deborah,,Charlesworth,,USA,NA,NA,NA,University of Chicago
-AMNAT,1998,151,1,AE,Dolph,,Schluter,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,1999,153,1,AE,Dolph,,Schluter,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2000,155,1,AE,Dolph,,Schluter,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2015,186,1,AE,Elizabeth,,Adkins-Regan,,USA,NA,NA,NA,Cornell University
-AMNAT,2015,186,1,AE,Elizabeth,,Elle,,Canada,NA,NA,NA,Simon Fraser University
-AMNAT,2015,186,1,AE,Erik,,Svensson,,Sweden,NA,NA,NA,Lund University
-AMNAT,2015,186,1,AE,Greg,,Dwyer,,USA,NA,NA,NA,University of Chicago
-AMNAT,1999,153,1,AE,Hugh,,Possingham,,Australiatralia,NA,NA,NA,University of Adelaide
-AMNAT,2000,155,1,AE,Hugh,,Possingham,,Australiatralia,NA,NA,NA,University of Adelaide
-AMNAT,2001,157,1,AE,Hugh,,Possingham,,Australiatralia,NA,NA,NA,University of Adelaide
-AMNAT,2002,159,1,AE,Hugh,,Possingham,,Australiatralia,NA,NA,NA,University of Adelaide
-AMNAT,2015,186,1,AE,Ian,,Dworkin,,USA,NA,NA,NA,Michigan State University
-AMNAT,1998,151,1,AE,Ilkka,,Hanski,,Finland,NA,NA,NA,University of Helsinki
-AMNAT,1999,153,1,AE,Ilkka,,Hanski,,Finland,NA,NA,NA,University of Helsinki
-AMNAT,2000,155,1,AE,Ilkka,,Hanski,,Finland,NA,NA,NA,University of Helsinki
-AMNAT,2002,159,1,AE,Isabel,,Olivieri,,France,NA,NA,NA,University of Montpellier
-AMNAT,2003,161,1,AE,Isabel,,Olivieri,,France,NA,NA,NA,University of Montpellier
-AMNAT,2004,163,1,AE,Isabel,,Olivieri,,France,NA,NA,NA,University of Montpellier
-AMNAT,2015,186,1,AE,J_rgen,,Groeneveld,,Germany,NA,NA,NA,Helmholtz Centre for Environmental Research
-AMNAT,2015,186,1,AE,Jean-Michel,,Gaillard,,France,NA,NA,NA,University of Lyon
-AMNAT,1991,138,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,1992,139,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,1992,140,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,1993,141,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,1993,142,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,1994,143,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,1994,144,1,AE,Jeanne,,Altmann,,USA,NA,NA,NA,University of Chicago
-AMNAT,2002,159,1,AE,Jef,,Huisman,,Netherlands,NA,NA,NA,University of Amsterdam
-AMNAT,2003,161,1,AE,Jef,,Huisman,,Netherlands,NA,NA,NA,University of Amsterdam
-AMNAT,2004,163,1,AE,Jef,,Huisman,,Netherlands,NA,NA,NA,University of Amsterdam
-AMNAT,2015,186,1,AE,Jeff,,Leips,,USA,NA,NA,NA,University of Maryland
-AMNAT,1999,153,1,AE,Jim,,Bull,,USA,NA,NA,NA,University of Texas
-AMNAT,2000,155,1,AE,Jim,,Bull,,USA,NA,NA,NA,University of Texas
-AMNAT,2001,157,1,AE,Jim,,Bull,,USA,NA,NA,NA,University of Texas
-AMNAT,2002,159,1,AE,Jim,,Bull,,USA,NA,NA,NA,University of Texas
-AMNAT,2001,157,1,AE,Jim,,Elser,,USA,NA,NA,NA,Arizona State University
-AMNAT,2002,159,1,AE,Jim,,Elser,,USA,NA,NA,NA,Arizona State University
-AMNAT,2003,161,1,AE,Jim,,Elser,,USA,NA,NA,NA,Arizona State University
-AMNAT,2001,157,1,AE,Johanna,,Schmitt,,USA,NA,NA,NA,Brown University
-AMNAT,1991,137,1,AE,John,,Pastor,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1991,138,1,AE,John,,Pastor,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1992,139,1,AE,John,,Pastor,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1992,140,1,AE,John,,Pastor,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1993,141,1,AE,John,,Pastor,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1993,142,1,AE,John,,Pastor,,USA,NA,NA,NA,University of Minnesota
-AMNAT,1991,137,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1991,138,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1992,139,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1992,140,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1993,141,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1993,142,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1994,143,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1994,144,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1995,145,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1995,146,1,AE,Jon,,Seger,,USA,NA,NA,NA,University of Utah
-AMNAT,1985,125,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1985,126,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,127,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1986,128,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,129,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1987,130,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,131,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1988,132,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,133,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1989,134,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,135,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1990,136,1,AE,Jonathan,,Roughgarden,,USA,NA,NA,NA,Stanford University
-AMNAT,1991,137,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1991,138,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1992,139,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1992,140,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1993,141,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1993,142,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1994,143,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1994,144,1,AE,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1999,153,1,EIC,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,2000,155,1,EIC,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,2001,157,1,EIC,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,2002,159,1,EIC,Joseph,,Travis,,USA,NA,NA,NA,Florida State University
-AMNAT,1997,149,1,AE,Joy,,Bergelson,,USA,NA,NA,NA,University of Chicago
-AMNAT,1998,151,1,AE,Joy,,Bergelson,,USA,NA,NA,NA,University of Chicago
-AMNAT,1999,153,1,AE,Joy,,Bergelson,,USA,NA,NA,NA,University of Chicago
-AMNAT,2000,155,1,AE,Joy,,Bergelson,,USA,NA,NA,NA,University of Chicago
-AMNAT,2003,161,1,AE,Kaustuv,,Roy,,USA,NA,NA,NA,University of California
-AMNAT,2004,163,1,AE,Kaustuv,,Roy,,USA,NA,NA,NA,University of California
-AMNAT,1999,153,1,AE,Kermit,,Ritland,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2000,155,1,AE,Kermit,,Ritland,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2001,157,1,AE,Kermit,,Ritland,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2015,186,1,AE,Kevin,,Gross,,USA,NA,NA,NA,North Carolina State University
-AMNAT,1999,153,1,AE,Lenore,,Fahrig,,Canada,NA,NA,NA,Carleton University
-AMNAT,2000,155,1,AE,Lenore,,Fahrig,,Canada,NA,NA,NA,Carleton University
-AMNAT,2001,157,1,AE,Lenore,,Fahrig,,Canada,NA,NA,NA,Carleton University
-AMNAT,2002,159,1,AE,Lenore,,Fahrig,,Canada,NA,NA,NA,Carleton University
-AMNAT,1999,153,1,AE,Lewi,,Stone,,Israel,NA,NA,NA,Tel Aviv University
-AMNAT,2000,155,1,AE,Lewi,,Stone,,Israel,NA,NA,NA,Tel Aviv University
-AMNAT,2001,157,1,AE,Lewi,,Stone,,Israel,NA,NA,NA,Tel Aviv University
-AMNAT,2015,186,1,AE,Locke,,Rowe,,Canada,NA,NA,NA,University of Toronto
-AMNAT,2001,157,1,AE,Locke,,Rowe,,Canada,NA,NA,NA,University of Toronto
-AMNAT,2002,159,1,AE,Locke,,Rowe,,Canada,NA,NA,NA,University of Toronto
-AMNAT,2003,161,1,AE,Locke,,Rowe,,Canada,NA,NA,NA,University of Toronto
-AMNAT,2004,163,1,AE,Locke,,Rowe,,Canada,NA,NA,NA,University of Toronto
-AMNAT,1992,139,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1992,140,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1993,141,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1993,142,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1994,143,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1994,144,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1995,145,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1995,146,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1996,147,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1996,148,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,1997,149,1,AE,Marcy,,Uyenoyama,,USA,NA,NA,NA,Duke University
-AMNAT,2004,163,1,AE,Mark,,Blows,,Australiatralia,NA,NA,NA,University of Queensland
-AMNAT,1991,137,1,AE,Mark,,Kirkpatric,,USA,NA,NA,NA,University of Texas
-AMNAT,1991,138,1,AE,Mark,,Kirkpatric,,USA,NA,NA,NA,University of Texas
-AMNAT,1992,139,1,AE,Mark,,Kirkpatric,,USA,NA,NA,NA,University of Texas
-AMNAT,1992,140,1,AE,Mark,,Kirkpatric,,USA,NA,NA,NA,University of Texas
-AMNAT,1993,141,1,AE,Mark,,Kirkpatric,,USA,NA,NA,NA,University of Texas
-AMNAT,1993,142,1,AE,Mark,,Kirkpatric,,USA,NA,NA,NA,University of Texas
-AMNAT,1996,148,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Oxford
-AMNAT,1997,149,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Oxford
-AMNAT,1999,153,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Reading
-AMNAT,2000,155,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Reading
-AMNAT,2001,157,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Reading
-AMNAT,2002,159,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Reading
-AMNAT,2003,161,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Reading
-AMNAT,2004,163,1,AE,Mark,,Pagel,,UK,NA,NA,NA,University of Reading
-AMNAT,2015,186,1,AE,Mark,,Vellend,,Canada,NA,NA,NA,University de Sherbrooke
-AMNAT,2002,159,1,AE,Mark,,Westoby,,Australiatralia,NA,NA,NA,Macquarie University
-AMNAT,2003,161,1,AE,Mark,,Westoby,,Australiatralia,NA,NA,NA,Macquarie University
-AMNAT,2004,163,1,AE,Mark,,Westoby,,Australiatralia,NA,NA,NA,Macquarie University
-AMNAT,1997,149,1,AE,Marlene,,Zuk,,USA,NA,NA,NA,University of California
-AMNAT,1998,151,1,AE,Marlene,,Zuk,,USA,NA,NA,NA,University of California
-AMNAT,1999,153,1,AE,Marlene,,Zuk,,USA,NA,NA,NA,University of California
-AMNAT,2000,155,1,AE,Marlene,,Zuk,,USA,NA,NA,NA,University of California
-AMNAT,2001,157,1,AE,Marlene,,Zuk,,USA,NA,NA,NA,University of California
-AMNAT,1999,153,1,AE,Mathew,,Leibold,,USA,NA,NA,NA,University of Chicago
-AMNAT,2000,155,1,AE,Mathew,,Leibold,,USA,NA,NA,NA,University of Chicago
-AMNAT,2001,157,1,AE,Mathew,,Leibold,,USA,NA,NA,NA,University of Chicago
-AMNAT,2002,159,1,AE,Mathew,,Leibold,,USA,NA,NA,NA,University of Chicago
-AMNAT,2015,186,1,AE,Megan,,Frederickson,,Canada,NA,NA,NA,University of Toronto
-AMNAT,2015,186,1,AE,Meghan,,Duffy,,USA,NA,NA,NA,University of Michigan
-AMNAT,2015,186,1,AE,Michael,,Kearney,,Australiatralia,NA,NA,NA,University of Melbourne
-AMNAT,2005,165,1,Special,Michael,,Whitlock,,Canada,NA,NA,NA,University of British Columbia
-AMNAT,2004,163,1,AE,Michel,,Loreau,,France,NA,NA,NA,Ecole Normale Superieure
-AMNAT,1998,151,1,AE,Nicholas,,Barton,,UK,NA,NA,NA,University of Edinburgh
-AMNAT,1999,153,1,AE,Nicholas,,Barton,,UK,NA,NA,NA,University of Edinburgh
-AMNAT,2000,155,1,AE,Nicholas,,Barton,,UK,NA,NA,NA,University of Edinburgh
-AMNAT,2002,159,1,AE,Nicolas,,Perrin,,France,NA,NA,NA,University of Lausanne
-AMNAT,2003,161,1,AE,Nicolas,,Perrin,,France,NA,NA,NA,University of Lausanne
-AMNAT,2004,163,1,AE,Nicolas,,Perrin,,France,NA,NA,NA,University of Lausanne
-AMNAT,2003,161,1,AE,Patricia,,Parker,,USA,NA,NA,NA,University of Missouri
-AMNAT,2004,163,1,AE,Patricia,,Parker,,USA,NA,NA,NA,University of Missouri
-AMNAT,1995,145,1,AE,Patsy,,Haccou,,Netherlands,NA,NA,NA,Leiden University
-AMNAT,1995,146,1,AE,Patsy,,Haccou,,Netherlands,NA,NA,NA,Leiden University
-AMNAT,1996,147,1,AE,Patsy,,Haccou,,Netherlands,NA,NA,NA,Leiden University
-AMNAT,1996,148,1,AE,Patsy,,Haccou,,Netherlands,NA,NA,NA,Leiden University
-AMNAT,1997,149,1,AE,Patsy,,Haccou,,Netherlands,NA,NA,NA,Leiden University
-AMNAT,1998,151,1,AE,Patsy,,Haccou,,Germany,NA,NA,NA,Leiden University
-AMNAT,2015,186,1,AE,Pej,,Rohani,,USA,NA,NA,NA,University of Michigan
-AMNAT,2002,159,1,AE,Per,,Lundberg,,Sweden,NA,NA,NA,Lund University
-AMNAT,2003,161,1,AE,Per,,Lundberg,,Sweden,NA,NA,NA,Lund University
-AMNAT,2004,163,1,AE,Per,,Lundberg,,Sweden,NA,NA,NA,Lund University
-AMNAT,1991,137,1,AE,Peter,,Chesso,,Australiatralia,NA,NA,NA,Australian National University
-AMNAT,1991,138,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1992,139,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1992,140,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1993,141,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1993,142,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1994,143,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1994,144,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1995,145,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1995,146,1,AE,Peter,,Chesso,,Australia,NA,NA,NA,Australian National University
-AMNAT,1998,151,1,AE,Peter,,Kareiva,,USA,NA,NA,NA,University of Washington
-AMNAT,1996,147,1,AE,Peter,,Karieva,,USA,NA,NA,NA,University of Washington
-AMNAT,1997,149,1,AE,Peter,,Karieva,,USA,NA,NA,NA,University of Washington
-AMNAT,2015,186,1,AE,Peter,,Nonacs,,USA,NA,NA,NA,University of California
-AMNAT,2004,163,1,AE,Peter,,Nonacs,,USA,NA,NA,NA,University of California
-AMNAT,2003,161,1,AE,Peter,,Wainwright,,USA,NA,NA,NA,University of California
-AMNAT,2004,163,1,AE,Peter,,Wainwright,,USA,NA,NA,NA,University of California
-AMNAT,2003,161,1,AE,Philloppe,,Jarne,,France,NA,NA,NA,CNRS
-AMNAT,2004,163,1,AE,Philloppe,,Jarne,,France,NA,NA,NA,CNRS
-AMNAT,2015,186,1,AE,Priyanga,,Amarasekare,,USA,NA,NA,NA,University of California
-AMNAT,2015,186,1,AE,Rebecca,,Fuller,,USA,NA,NA,NA,University of Illinois
-AMNAT,1992,139,1,AE,Richard,,Law,,UK,NA,NA,NA,University of York
-AMNAT,1992,140,1,AE,Richard,,Law,,UK,NA,NA,NA,University of York
-AMNAT,1993,141,1,AE,Richard,,Law,,UK,NA,NA,NA,University of York
-AMNAT,1993,142,1,AE,Richard,,Law,,UK,NA,NA,NA,University of York
-AMNAT,1994,143,1,AE,Richard,,Law,,UK,NA,NA,NA,University of York
-AMNAT,1994,144,1,AE,Richard,,Law,,UK,NA,NA,NA,University of York
-AMNAT,2015,186,1,AE,Robert,,Dudley,,USA,NA,NA,NA,University of California
-AMNAT,2015,186,1,AE,Russell,,Bonduriansky,,Australiatralia,NA,NA,NA,University of New South Wales
-AMNAT,2015,186,1,AE,Sean,,O'Donnell,,USA,NA,NA,NA,Drexel University
-AMNAT,2003,161,1,AE,Sebastian,,Diehl,,Germany,NA,NA,NA,University of Munich
-AMNAT,2004,163,1,AE,Sebastian,,Diehl,,Germany,NA,NA,NA,University of Munich
-AMNAT,2003,161,1,AE,Sergey,,Gavrilets,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2004,163,1,AE,Sergey,,Gavrilets,,USA,NA,NA,NA,University of Tennessee
-AMNAT,2015,186,1,AE,Susan,,Harrison,,USA,NA,NA,NA,University of California
-AMNAT,1996,147,1,AE,Susan,,Harrison,,USA,NA,NA,NA,University of California
-AMNAT,1996,148,1,AE,Susan,,Harrison,,USA,NA,NA,NA,University of California
-AMNAT,1997,149,1,AE,Susan,,Harrison,,USA,NA,NA,NA,University of California
-AMNAT,1998,151,1,AE,Susan,,Harrison,,USA,NA,NA,NA,University of California
-AMNAT,2002,159,1,AE,Trevor,,Price,,USA,NA,NA,NA,University of California
-AMNAT,2003,161,1,AE,Trevor,,Price,,USA,NA,NA,NA,University of California
-AMNAT,2004,163,1,AE,Trevor,,Price,,USA,NA,NA,NA,University of Chicago
-AMNAT,2015,186,1,AE,Uta,,Berger,,Germany,NA,NA,NA,Dresden University of Technology
-AMNAT,2015,186,1,AE,Vlastimil,,Krivan,,Czech Republicch Republic,NA,NA,NA,Biology Centre
-AMNAT,2015,186,1,Special,Yannis,,Michalakis,,France,NA,NA,NA,CNRS-IRD
-AMNAT,1992,139,1,AE,Yoh,,Iwasa,,Japan,NA,NA,NA,Kyushu University
-AMNAT,1992,140,1,AE,Yoh,,Iwasa,,Japan,NA,NA,NA,Kyushu University
-AMNAT,1993,141,1,AE,Yoh,,Iwasa,,Japan,NA,NA,NA,Kyushu University
-AMNAT,1993,142,1,AE,Yoh,,Iwasa,,Japan,NA,NA,NA,Kyushu University
-AMNAT,1994,143,1,AE,Yoh,,Iwasa,,Japan,NA,NA,NA,Kyushu University
-AMNAT,1994,144,1,AE,Yoh,,Iwasa,,Japan,NA,NA,NA,Kyushu University
+AMNAT,1985,125,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1985,126,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1985,125,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1985,126,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1985,126,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1985,125,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1985,126,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,127,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,128,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,127,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,128,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,127,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,128,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,127,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1986,128,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,129,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,130,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,129,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,130,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,129,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,130,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,129,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1987,130,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,131,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,132,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,131,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,132,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,131,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,132,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,132,1,AE,Ward,B,Watt,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,131,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1988,132,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,133,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,134,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,133,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,134,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,133,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,134,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,133,1,AE,Ward,B,Watt,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,134,1,AE,Ward,B,Watt,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,133,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1989,134,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,135,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,136,1,AE,Paul,R,Ehrlich,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,135,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,136,1,AE,Harol,A,Mooney,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,135,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,136,1,AE,Peter,M,Vitousek,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,135,1,AE,Ward,B,Watt,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,136,1,AE,Ward,B,Watt,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,135,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1990,136,1,AE,Jonathan,,Roughgarden,,USA,NA,AE,NA,Stanford University
+AMNAT,1991,137,1,AE,F,Stuart,Chapin,III,USA,NA,AE,NA,University of California
+AMNAT,1991,138,1,AE,F,Stuart,Chapin,III,USA,NA,AE,NA,University of California
+AMNAT,1991,137,1,AE,Nancy,T,Burley,,USA,NA,AE,NA,University of Illinois
+AMNAT,1991,137,1,AE,Robert,K,Colwel,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1991,138,1,AE,Robert,K,Colwel,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1991,137,1,AE,Jerry,A,Coyn,,USA,NA,AE,NA,University of Chicago
+AMNAT,1991,138,1,AE,Jerry,A,Coyn,,USA,NA,AE,NA,University of Chicago
+AMNAT,1991,137,1,AE,Thomas,R,Meaghe,,USA,NA,AE,NA,Rutgers University
+AMNAT,1991,138,1,AE,Thomas,R,Meaghe,,USA,NA,AE,NA,Rutgers University
+AMNAT,1991,137,1,AE,Brent,D,Mishle,,USA,NA,AE,NA,Duke University
+AMNAT,1991,138,1,AE,Brent,D,Mishle,,USA,NA,AE,NA,Duke University
+AMNAT,1991,137,1,AE,Stephen,W,Pacal,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1991,138,1,AE,Stephen,W,Pacal,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1991,138,1,AE,Geoffrey,A,Parker,,UK,NA,AE,NA,University of Liverpool
+AMNAT,1991,137,1,AE,Leslie,A,Rea,,USA,NA,AE,NA,University of North Carolina
+AMNAT,1991,138,1,AE,Leslie,A,Rea,,USA,NA,AE,NA,University of North Carolina
+AMNAT,1991,138,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1991,137,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1991,138,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1991,137,1,AE,Paul,W,Sherma,,USA,NA,AE,NA,Cornell University
+AMNAT,1991,138,1,AE,Paul,W,Sherma,,USA,NA,AE,NA,Cornell University
+AMNAT,1991,138,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1991,138,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1991,138,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1991,137,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Rochester
+AMNAT,1991,138,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Rochester
+AMNAT,1991,137,1,AE,David,,Tilma,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1991,137,1,AE,Deborah,,Charlesworth,,USA,NA,AE,NA,University of Chicago
+AMNAT,1991,138,1,AE,Deborah,,Charlesworth,,USA,NA,AE,NA,University of Chicago
+AMNAT,1991,138,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1991,137,1,AE,John,,Pastor,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1991,138,1,AE,John,,Pastor,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1991,137,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1991,138,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1991,137,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1991,138,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1991,137,1,AE,Mark,,Kirkpatric,,USA,NA,AE,NA,University of Texas
+AMNAT,1991,138,1,AE,Mark,,Kirkpatric,,USA,NA,AE,NA,University of Texas
+AMNAT,1991,137,1,AE,Peter,,Chesso,,Australiatralia,NA,AE,NA,Australian National University
+AMNAT,1991,138,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1992,139,1,AE,F,Stuart,Chapin,III,USA,NA,AE,NA,University of California
+AMNAT,1992,140,1,AE,F,Stuart,Chapin,III,USA,NA,AE,NA,University of California
+AMNAT,1992,139,1,AE,Robert,K,Colwel,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1992,140,1,AE,Robert,K,Colwel,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1992,139,1,AE,Jerry,A,Coyn,,USA,NA,AE,NA,University of Chicago
+AMNAT,1992,140,1,AE,Jerry,A,Coyn,,USA,NA,AE,NA,University of Chicago
+AMNAT,1992,139,1,AE,Joel,G,Kingsolver,,USA,NA,AE,NA,University of Washington
+AMNAT,1992,140,1,AE,Joel,G,Kingsolver,,USA,NA,AE,NA,University of Washington
+AMNAT,1992,139,1,AE,Thomas,R,Meaghe,,USA,NA,AE,NA,Rutgers University
+AMNAT,1992,140,1,AE,Thomas,R,Meaghe,,USA,NA,AE,NA,Rutgers University
+AMNAT,1992,139,1,AE,Brent,D,Mishle,,USA,NA,AE,NA,Duke University
+AMNAT,1992,140,1,AE,Brent,D,Mishle,,USA,NA,AE,NA,Duke University
+AMNAT,1992,139,1,AE,Stephen,W,Pacal,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1992,140,1,AE,Stephen,W,Pacal,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1992,139,1,AE,Geoffrey,A,Parker,,UK,NA,AE,NA,University of Liverpool
+AMNAT,1992,140,1,AE,Geoffrey,A,Parker,,UK,NA,AE,NA,University of Liverpool
+AMNAT,1992,139,1,AE,Leslie,A,Rea,,USA,NA,AE,NA,University of North Carolina
+AMNAT,1992,140,1,AE,Leslie,A,Rea,,USA,NA,AE,NA,University of North Carolina
+AMNAT,1992,139,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1992,140,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1992,139,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1992,140,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1992,139,1,AE,Paul,W,Sherma,,USA,NA,AE,NA,Cornell University
+AMNAT,1992,140,1,AE,Paul,W,Sherma,,USA,NA,AE,NA,Cornell University
+AMNAT,1992,139,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1992,140,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1992,139,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1992,140,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1992,139,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1992,140,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1992,139,1,AE,Alejandro,,Kacelnik,,UK,NA,AE,NA,University of Oxford
+AMNAT,1992,140,1,AE,Alejandro,,Kacelnik,,UK,NA,AE,NA,University of Oxford
+AMNAT,1992,139,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Rochester
+AMNAT,1992,140,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Rochester
+AMNAT,1992,139,1,AE,Deborah,,Charlesworth,,USA,NA,AE,NA,University of Chicago
+AMNAT,1992,140,1,AE,Deborah,,Charlesworth,,USA,NA,AE,NA,University of Chicago
+AMNAT,1992,139,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1992,140,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1992,139,1,AE,John,,Pastor,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1992,140,1,AE,John,,Pastor,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1992,139,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1992,140,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1992,139,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1992,140,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1992,139,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1992,140,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1992,139,1,AE,Mark,,Kirkpatric,,USA,NA,AE,NA,University of Texas
+AMNAT,1992,140,1,AE,Mark,,Kirkpatric,,USA,NA,AE,NA,University of Texas
+AMNAT,1992,139,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1992,140,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1992,139,1,AE,Richard,,Law,,UK,NA,AE,NA,University of York
+AMNAT,1992,140,1,AE,Richard,,Law,,UK,NA,AE,NA,University of York
+AMNAT,1992,139,1,AE,Yoh,,Iwasa,,Japan,NA,AE,NA,Kyushu University
+AMNAT,1992,140,1,AE,Yoh,,Iwasa,,Japan,NA,AE,NA,Kyushu University
+AMNAT,1993,141,1,AE,F,Stuart,Chapin,III,USA,NA,AE,NA,University of California
+AMNAT,1993,142,1,AE,F,Stuart,Chapin,III,USA,NA,AE,NA,University of California
+AMNAT,1993,141,1,AE,Robert,K,Colwel,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1993,142,1,AE,Robert,K,Colwel,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1993,141,1,AE,Jerry,A,Coyn,,USA,NA,AE,NA,University of Chicago
+AMNAT,1993,142,1,AE,Jerry,A,Coyn,,USA,NA,AE,NA,University of Chicago
+AMNAT,1993,141,1,AE,Joel,G,Kingsolver,,USA,NA,AE,NA,University of Washington
+AMNAT,1993,142,1,AE,Joel,G,Kingsolver,,USA,NA,AE,NA,University of Washington
+AMNAT,1993,141,1,AE,Thomas,R,Meaghe,,USA,NA,AE,NA,Rutgers University
+AMNAT,1993,142,1,AE,Thomas,R,Meaghe,,USA,NA,AE,NA,Rutgers University
+AMNAT,1993,141,1,AE,Brent,D,Mishle,,USA,NA,AE,NA,Duke University
+AMNAT,1993,142,1,AE,Brent,D,Mishle,,USA,NA,AE,NA,Duke University
+AMNAT,1993,141,1,AE,Stephen,W,Pacal,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1993,142,1,AE,Stephen,W,Pacal,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1993,141,1,AE,Geoffrey,A,Parker,,UK,NA,AE,NA,University of Liverpool
+AMNAT,1993,142,1,AE,Geoffrey,A,Parker,,UK,NA,AE,NA,University of Liverpool
+AMNAT,1993,141,1,AE,Leslie,A,Rea,,USA,NA,AE,NA,University of North Carolina
+AMNAT,1993,142,1,AE,Leslie,A,Rea,,USA,NA,AE,NA,University of North Carolina
+AMNAT,1993,141,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1993,142,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1993,141,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1993,142,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1993,141,1,AE,Paul,W,Sherma,,USA,NA,AE,NA,Cornell University
+AMNAT,1993,142,1,AE,Paul,W,Sherma,,USA,NA,AE,NA,Cornell University
+AMNAT,1993,141,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1993,142,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1993,141,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1993,142,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1993,141,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1993,142,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1993,141,1,AE,Alejandro,,Kacelnik,,UK,NA,AE,NA,University of Oxford
+AMNAT,1993,142,1,AE,Alejandro,,Kacelnik,,UK,NA,AE,NA,University of Oxford
+AMNAT,1993,141,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Rochester
+AMNAT,1993,142,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Rochester
+AMNAT,1993,141,1,AE,Deborah,,Charlesworth,,USA,NA,AE,NA,University of Chicago
+AMNAT,1993,142,1,AE,Deborah,,Charlesworth,,USA,NA,AE,NA,University of Chicago
+AMNAT,1993,141,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1993,142,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1993,141,1,AE,John,,Pastor,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1993,142,1,AE,John,,Pastor,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1993,141,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1993,142,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1993,141,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1993,142,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1993,141,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1993,142,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1993,141,1,AE,Mark,,Kirkpatric,,USA,NA,AE,NA,University of Texas
+AMNAT,1993,142,1,AE,Mark,,Kirkpatric,,USA,NA,AE,NA,University of Texas
+AMNAT,1993,141,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1993,142,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1993,141,1,AE,Richard,,Law,,UK,NA,AE,NA,University of York
+AMNAT,1993,142,1,AE,Richard,,Law,,UK,NA,AE,NA,University of York
+AMNAT,1993,141,1,AE,Yoh,,Iwasa,,Japan,NA,AE,NA,Kyushu University
+AMNAT,1993,142,1,AE,Yoh,,Iwasa,,Japan,NA,AE,NA,Kyushu University
+AMNAT,1994,143,1,AE,Steven,A,Frank,,USA,NA,AE,NA,University of California
+AMNAT,1994,144,1,AE,Steven,A,Frank,,USA,NA,AE,NA,University of California
+AMNAT,1994,143,1,AE,Deborah,E,Goldberg,,Israel,NA,AE,NA,Ben-Gurion University of the Negev
+AMNAT,1994,144,1,AE,Deborah,E,Goldberg,,Israel,NA,AE,NA,Ben-Gurion University of the Negev
+AMNAT,1994,143,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1994,144,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1994,143,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1994,144,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1994,143,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1994,144,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1994,143,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1994,144,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1994,143,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1994,144,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1994,143,1,AE,Joel,G,Kingsolver,,USA,NA,AE,NA,University of Washington
+AMNAT,1994,144,1,AE,Joel,G,Kingsolver,,USA,NA,AE,NA,University of Washington
+AMNAT,1994,143,1,AE,Nancy,A,Moran,,USA,NA,AE,NA,University of Arizona
+AMNAT,1994,144,1,AE,Nancy,A,Moran,,USA,NA,AE,NA,University of Arizona
+AMNAT,1994,143,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1994,144,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1994,143,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1994,144,1,AE,William,R,Rice,,USA,NA,AE,NA,University of California
+AMNAT,1994,143,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1994,144,1,AE,V,Louise,Rot,,USA,NA,AE,NA,Duke University
+AMNAT,1994,143,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1994,144,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1994,143,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1994,144,1,AE,Wayne,P,Sousa,,USA,NA,AE,NA,University of California
+AMNAT,1994,143,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1994,144,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1994,143,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1994,144,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1994,143,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1994,144,1,AE,Henry,M,Wilbur,,USA,NA,AE,NA,University of Virginia
+AMNAT,1994,143,1,AE,Alejandro,,Kacelnik,,UK,NA,AE,NA,University of Oxford
+AMNAT,1994,144,1,AE,Alejandro,,Kacelnik,,UK,NA,AE,NA,University of Oxford
+AMNAT,1994,143,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Chicago
+AMNAT,1994,144,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Chicago
+AMNAT,1994,143,1,AE,David,,Tilma,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1994,144,1,AE,David,,Tilma,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1994,143,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1994,144,1,AE,Jeanne,,Altmann,,USA,NA,AE,NA,University of Chicago
+AMNAT,1994,143,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1994,144,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1994,143,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1994,144,1,AE,Joseph,,Travis,,USA,NA,AE,NA,Florida State University
+AMNAT,1994,143,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1994,144,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1994,143,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1994,144,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1994,143,1,AE,Richard,,Law,,UK,NA,AE,NA,University of York
+AMNAT,1994,144,1,AE,Richard,,Law,,UK,NA,AE,NA,University of York
+AMNAT,1994,143,1,AE,Yoh,,Iwasa,,Japan,NA,AE,NA,Kyushu University
+AMNAT,1994,144,1,AE,Yoh,,Iwasa,,Japan,NA,AE,NA,Kyushu University
+AMNAT,1995,146,1,AE,H,CJ,Godfray,,UK,NA,AE,NA,Imperial College London
+AMNAT,1995,145,1,AE,Steven,A,Frank,,USA,NA,AE,NA,University of California
+AMNAT,1995,146,1,AE,Steven,A,Frank,,USA,NA,AE,NA,University of California
+AMNAT,1995,145,1,AE,Deborah,E,Goldberg,,USA,NA,AE,NA,University of Michigan
+AMNAT,1995,146,1,AE,Deborah,E,Goldberg,,USA,NA,AE,NA,University of Michigan
+AMNAT,1995,145,1,AE,Nicholas,J,Gotelli,,USA,NA,AE,NA,University of Vermont
+AMNAT,1995,146,1,AE,Nicholas,J,Gotelli,,USA,NA,AE,NA,University of Vermont
+AMNAT,1995,145,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1995,146,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1995,145,1,AE,C,Drew,Harvell,,USA,NA,AE,NA,Cornell University
+AMNAT,1995,146,1,AE,C,Drew,Harvell,,USA,NA,AE,NA,Cornell University
+AMNAT,1995,145,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1995,146,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1995,145,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1995,146,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1995,145,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1995,146,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1995,145,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1995,146,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1995,145,1,AE,Nancy,A,Moran,,USA,NA,AE,NA,University of Arizona
+AMNAT,1995,146,1,AE,Nancy,A,Moran,,USA,NA,AE,NA,University of Arizona
+AMNAT,1995,145,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1995,146,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1995,145,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1995,146,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1995,145,1,AE,Joan,B,Silk,,USA,NA,AE,NA,University of California
+AMNAT,1995,146,1,AE,Joan,B,Silk,,USA,NA,AE,NA,University of California
+AMNAT,1995,145,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1995,146,1,AE,Judy,A,Stamps,,USA,NA,AE,NA,University of California
+AMNAT,1995,145,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1995,146,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1995,145,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Chicago
+AMNAT,1995,146,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Chicago
+AMNAT,1995,145,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1995,146,1,AE,Jon,,Seger,,USA,NA,AE,NA,University of Utah
+AMNAT,1995,145,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1995,146,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1995,145,1,AE,Patsy,,Haccou,,Netherlands,NA,AE,NA,Leiden University
+AMNAT,1995,146,1,AE,Patsy,,Haccou,,Netherlands,NA,AE,NA,Leiden University
+AMNAT,1995,145,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1995,146,1,AE,Peter,,Chesso,,Australia,NA,AE,NA,Australian National University
+AMNAT,1996,147,1,AE,H,CJ,Godfray,,UK,NA,AE,NA,Imperial College London
+AMNAT,1996,148,1,AE,H,CJ,Godfray,,UK,NA,AE,NA,Imperial College London
+AMNAT,1996,147,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,1996,148,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,1996,147,1,AE,John,A,Endler,,USA,NA,AE,NA,University of California
+AMNAT,1996,148,1,AE,John,A,Endler,,USA,NA,AE,NA,University of California
+AMNAT,1996,148,1,AE,Donald,H,Feener,,USA,NA,AE,NA,University of Utah
+AMNAT,1996,147,1,AE,Monica,A,Geber,,USA,NA,AE,NA,Cornell University
+AMNAT,1996,148,1,AE,Monica,A,Geber,,USA,NA,AE,NA,Cornell University
+AMNAT,1996,147,1,AE,Deborah,E,Goldberg,,USA,NA,AE,NA,University of Michigan
+AMNAT,1996,148,1,AE,Deborah,E,Goldberg,,USA,NA,AE,NA,University of Michigan
+AMNAT,1996,147,1,AE,Nicholas,J,Gotelli,,USA,NA,AE,NA,University of Vermont
+AMNAT,1996,148,1,AE,Nicholas,J,Gotelli,,USA,NA,AE,NA,University of Vermont
+AMNAT,1996,147,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1996,148,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1996,148,1,AE,James,B,Grace,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,1996,147,1,AE,C,Drew,Harvell,,USA,NA,AE,NA,Cornell University
+AMNAT,1996,148,1,AE,C,Drew,Harvell,,USA,NA,AE,NA,Cornell University
+AMNAT,1996,147,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1996,148,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1996,147,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1996,147,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1996,148,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1996,147,1,AE,Raymond,B,Huey,,USA,NA,AE,NA,University of Washington
+AMNAT,1996,148,1,AE,Raymond,B,Huey,,USA,NA,AE,NA,University of Washington
+AMNAT,1996,147,1,AE,Anthony,R,Ives,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1996,148,1,AE,Anthony,R,Ives,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1996,147,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1996,147,1,AE,Richard,E,Lenski,,USA,NA,AE,NA,Michigan State University
+AMNAT,1996,148,1,AE,Richard,E,Lenski,,USA,NA,AE,NA,Michigan State University
+AMNAT,1996,147,1,AE,Nancy,A,Moran,,USA,NA,AE,NA,University of Arizona
+AMNAT,1996,148,1,AE,Nancy,A,Moran,,USA,NA,AE,NA,University of Arizona
+AMNAT,1996,147,1,AE,Robert,T,Paine,,USA,NA,AE,NA,University of Washington
+AMNAT,1996,148,1,AE,Robert,T,Paine,,USA,NA,AE,NA,University of Washington
+AMNAT,1996,147,1,AE,Stephen,R,Palumbi,,USA,NA,AE,NA,University of Hawaii
+AMNAT,1996,148,1,AE,Stephen,R,Palumbi,,USA,NA,AE,NA,University of Hawaii
+AMNAT,1996,147,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1996,148,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1996,147,1,AE,Robert,E,Ricklefs,,USA,NA,AE,NA,University of Missouri
+AMNAT,1996,148,1,AE,Robert,E,Ricklefs,,USA,NA,AE,NA,University of Missouri
+AMNAT,1996,147,1,AE,Bernard,D,Roitberg,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,1996,148,1,AE,Bernard,D,Roitberg,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,1996,147,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1996,148,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1996,147,1,AE,Robert,W,Sterner,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1996,148,1,AE,Robert,W,Sterner,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1996,147,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1996,148,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1996,147,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1996,148,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1996,148,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Oxford
+AMNAT,1996,147,1,AE,Patsy,,Haccou,,Netherlands,NA,AE,NA,Leiden University
+AMNAT,1996,148,1,AE,Patsy,,Haccou,,Netherlands,NA,AE,NA,Leiden University
+AMNAT,1996,147,1,AE,Peter,,Karieva,,USA,NA,AE,NA,University of Washington
+AMNAT,1996,147,1,AE,Susan,,Harrison,,USA,NA,AE,NA,University of California
+AMNAT,1996,148,1,AE,Susan,,Harrison,,USA,NA,AE,NA,University of California
+AMNAT,1997,149,1,AE,H,CJ,Godfray,,UK,NA,AE,NA,Imperial College London
+AMNAT,1997,149,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,1997,149,1,AE,John,A,Endler,,USA,NA,AE,NA,University of California
+AMNAT,1997,149,1,AE,Donald,H,Feener,,USA,NA,AE,NA,University of Utah
+AMNAT,1997,149,1,AE,Monica,A,Geber,,USA,NA,AE,NA,Cornell University
+AMNAT,1997,149,1,AE,Nicholas,J,Gotelli,,USA,NA,AE,NA,University of Vermont
+AMNAT,1997,149,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1997,149,1,AE,James,B,Grace,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,1997,149,1,AE,C,Drew,Harvell,,USA,NA,AE,NA,Cornell University
+AMNAT,1997,149,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1997,149,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1997,149,1,AE,Richard,D,Howard,,USA,NA,AE,NA,Purdue University
+AMNAT,1997,149,1,AE,Raymond,B,Huey,,USA,NA,AE,NA,University of Washington
+AMNAT,1997,149,1,AE,Anthony,R,Ives,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1997,149,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1997,149,1,AE,Richard,E,Lenski,,USA,NA,AE,NA,Michigan State University
+AMNAT,1997,149,1,AE,Robert,T,Paine,,USA,NA,AE,NA,University of Washington
+AMNAT,1997,149,1,AE,Stephen,R,Palumbi,,USA,NA,AE,NA,University of Hawaii
+AMNAT,1997,149,1,AE,Wilfred,M,Post,,USA,NA,AE,NA,Oak Ridge National Laboratory
+AMNAT,1997,149,1,AE,Robert,E,Ricklefs,,USA,NA,AE,NA,University of Missouri
+AMNAT,1997,149,1,AE,Bernard,D,Roitberg,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,1997,149,1,AE,Ruth,G,Shaw,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1997,149,1,AE,Robert,W,Sterner,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1997,149,1,AE,J,Bruce,Walsh,,USA,NA,AE,NA,University of Arizona
+AMNAT,1997,149,1,AE,Joy,,Bergelson,,USA,NA,AE,NA,University of Chicago
+AMNAT,1997,149,1,AE,Marcy,,Uyenoyama,,USA,NA,AE,NA,Duke University
+AMNAT,1997,149,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Oxford
+AMNAT,1997,149,1,AE,Marlene,,Zuk,,USA,NA,AE,NA,University of California
+AMNAT,1997,149,1,AE,Patsy,,Haccou,,Netherlands,NA,AE,NA,Leiden University
+AMNAT,1997,149,1,AE,Peter,,Karieva,,USA,NA,AE,NA,University of Washington
+AMNAT,1997,149,1,AE,Susan,,Harrison,,USA,NA,AE,NA,University of California
+AMNAT,1998,151,1,AE,H,CJ,Godfray,,UK,NA,AE,NA,Imperial College London
+AMNAT,1998,151,1,AE,John,A,Byers,,USA,NA,AE,NA,University of Idaho
+AMNAT,1998,151,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,1998,151,1,AE,John,A,Endler,,Australiatralia,NA,AE,NA,James Cook University
+AMNAT,1998,151,1,AE,Donald,H,Feener,,USA,NA,AE,NA,University of Utah
+AMNAT,1998,151,1,AE,Steven,D,Gaines,,USA,NA,AE,NA,University of California
+AMNAT,1998,151,1,AE,Monica,A,Geber,,USA,NA,AE,NA,Cornell University
+AMNAT,1998,151,1,AE,Nicholas,J,Gotelli,,USA,NA,AE,NA,University of Vermont
+AMNAT,1998,151,1,AE,Patricia,A,Gowaty,,USA,NA,AE,NA,University of Georgia
+AMNAT,1998,151,1,AE,James,B,Grace,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,1998,151,1,AE,Bryan,T,Grenfell,,UK,NA,AE,NA,Cambridge University
+AMNAT,1998,151,1,AE,Joan,M,Herbers,,USA,NA,AE,NA,Colorado State University
+AMNAT,1998,151,1,AE,Kent,E,Holsinger,,USA,NA,AE,NA,University of Connecticut
+AMNAT,1998,151,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1998,151,1,AE,Anne,E,Houde,,USA,NA,AE,NA,Lake Forest College
+AMNAT,1998,151,1,AE,Raymond,B,Huey,,USA,NA,AE,NA,University of Washington
+AMNAT,1998,151,1,AE,Anthony,R,Ives,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1998,151,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1998,151,1,AE,Richard,E,Lenski,,USA,NA,AE,NA,Michigan State University
+AMNAT,1998,151,1,AE,Mark,A,McPeek,,USA,NA,AE,NA,Dartmouth University
+AMNAT,1998,151,1,AE,Allen,J,Moore,,USA,NA,AE,NA,University of Kentucky
+AMNAT,1998,151,1,AE,Sarah,P,Otto,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,1998,151,1,AE,Bernard,D,Roitberg,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,1998,151,1,AE,Douglas,W,Schemske,,USA,NA,AE,NA,University of Washington
+AMNAT,1998,151,1,AE,Robert,W,Sterner,,USA,NA,AE,NA,University of Minnesota
+AMNAT,1998,151,1,AE,David,A,Wedin,,Canada,NA,AE,NA,University of Toronto
+AMNAT,1998,151,1,AE,Gregory,A,Wray,,USA,NA,AE,NA,State University of New York
+AMNAT,1998,151,1,AE,Andrew,,Sih,,USA,NA,AE,NA,University of Kentucky
+AMNAT,1998,151,1,AE,Dolph,,Schluter,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,1998,151,1,AE,Ilkka,,Hanski,,Finland,NA,AE,NA,University of Helsinki
+AMNAT,1998,151,1,AE,Joy,,Bergelson,,USA,NA,AE,NA,University of Chicago
+AMNAT,1998,151,1,AE,Marlene,,Zuk,,USA,NA,AE,NA,University of California
+AMNAT,1998,151,1,AE,Nicholas,,Barton,,UK,NA,AE,NA,University of Edinburgh
+AMNAT,1998,151,1,AE,Patsy,,Haccou,,Germany,NA,AE,NA,Leiden University
+AMNAT,1998,151,1,AE,Peter,,Kareiva,,USA,NA,AE,NA,University of Washington
+AMNAT,1998,151,1,AE,Susan,,Harrison,,USA,NA,AE,NA,University of California
+AMNAT,1999,153,1,AE,Steven,N,Austad,,USA,NA,AE,NA,University of Idaho
+AMNAT,1999,153,1,AE,John,A,Byers,,USA,NA,AE,NA,University of Idaho
+AMNAT,1999,153,1,AE,Donald,L,DeAngelis,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,1999,153,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,1999,153,1,AE,John,A,Endler,,USA,NA,AE,NA,University of California
+AMNAT,1999,153,1,AE,Donald,H,Feener,,USA,NA,AE,NA,University of Utah
+AMNAT,1999,153,1,AE,Steven,D,Gaines,,USA,NA,AE,NA,University of California
+AMNAT,1999,153,1,AE,Monica,A,Geber,,USA,NA,AE,NA,Cornell University
+AMNAT,1999,153,1,AE,James,B,Grace,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,1999,153,1,AE,Bryan,T,Grenfell,,UK,NA,AE,NA,Cambridge University
+AMNAT,1999,153,1,AE,Joan,M,Herbers,,USA,NA,AE,NA,Colorado State University
+AMNAT,1999,153,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,1999,153,1,AE,Anne,E,Houde,,USA,NA,AE,NA,Lake Forest College
+AMNAT,1999,153,1,AE,Anthony,R,Ives,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1999,153,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,1999,153,1,AE,Bruce,R,Levin,,USA,NA,AE,NA,Emory University
+AMNAT,1999,153,1,AE,Don,R,Levitan,,USA,NA,AE,NA,Florida State University
+AMNAT,1999,153,1,AE,Jonathan,B,Losos,,USA,NA,AE,NA,Washington University
+AMNAT,1999,153,1,AE,David,E,McCauley,,USA,NA,AE,NA,Vanderbilt University
+AMNAT,1999,153,1,AE,Mark,A,McPeek,,USA,NA,AE,NA,Dartmouth University
+AMNAT,1999,153,1,AE,Thomas,E,Miller,,USA,NA,AE,NA,Florida State University
+AMNAT,1999,153,1,AE,Allen,J,Moore,,USA,NA,AE,NA,University of Kentucky
+AMNAT,1999,153,1,AE,Peter,J,Morin,,USA,NA,AE,NA,Rutgers University
+AMNAT,1999,153,1,AE,Sarah,P,Otto,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,1999,153,1,AE,Bernard,D,Roitberg,,Australiatralia,NA,AE,NA,Simon Fraser University
+AMNAT,1999,153,1,AE,Douglas,W,Schemske,,USA,NA,AE,NA,University of Washington
+AMNAT,1999,153,1,AE,Michael,J,Wade,,USA,NA,AE,NA,Indiana University
+AMNAT,1999,153,1,AE,David,A,Wedin,,USA,NA,AE,NA,University of Nebraska
+AMNAT,1999,153,1,AE,Holly,A,Wichman,,USA,NA,AE,NA,University of Idaho
+AMNAT,1999,153,1,AE,Gregory,A,Wray,,USA,NA,AE,NA,State University of New York
+AMNAT,1999,153,1,AE,Andrew,,Sih,,USA,NA,AE,NA,University of Kentucky
+AMNAT,1999,153,1,AE,Daniel,,Simberloff,,USA,NA,AE,NA,University of Tennessee
+AMNAT,1999,153,1,AE,Dolph,,Schluter,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,1999,153,1,AE,Hugh,,Possingham,,Australiatralia,NA,AE,NA,University of Adelaide
+AMNAT,1999,153,1,AE,Ilkka,,Hanski,,Finland,NA,AE,NA,University of Helsinki
+AMNAT,1999,153,1,AE,Jim,,Bull,,USA,NA,AE,NA,University of Texas
+AMNAT,1999,153,1,AE,Joy,,Bergelson,,USA,NA,AE,NA,University of Chicago
+AMNAT,1999,153,1,AE,Kermit,,Ritland,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,1999,153,1,AE,Lenore,,Fahrig,,Canada,NA,AE,NA,Carleton University
+AMNAT,1999,153,1,AE,Lewi,,Stone,,Israel,NA,AE,NA,Tel Aviv University
+AMNAT,1999,153,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Reading
+AMNAT,1999,153,1,AE,Marlene,,Zuk,,USA,NA,AE,NA,University of California
+AMNAT,1999,153,1,AE,Mathew,,Leibold,,USA,NA,AE,NA,University of Chicago
+AMNAT,1999,153,1,AE,Nicholas,,Barton,,UK,NA,AE,NA,University of Edinburgh
+AMNAT,2000,155,1,AE,Steven,N,Austad,,USA,NA,AE,NA,University of Idaho
+AMNAT,2000,155,1,AE,Donald,L,DeAngelis,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,2000,155,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,2000,155,1,AE,John,A,Endler,,USA,NA,AE,NA,University of California
+AMNAT,2000,155,1,AE,Donald,H,Feener,,USA,NA,AE,NA,University of Utah
+AMNAT,2000,155,1,AE,Steven,D,Gaines,,USA,NA,AE,NA,University of California
+AMNAT,2000,155,1,AE,Monica,A,Geber,,USA,NA,AE,NA,Cornell University
+AMNAT,2000,155,1,AE,Bryan,T,Grenfell,,UK,NA,AE,NA,Cambridge University
+AMNAT,2000,155,1,AE,Joan,M,Herbers,,USA,NA,AE,NA,Colorado State University
+AMNAT,2000,155,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,2000,155,1,AE,Anne,E,Houde,,USA,NA,AE,NA,Lake Forest College
+AMNAT,2000,155,1,AE,Anthony,R,Ives,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,2000,155,1,AE,Theodore,,Garland,Jr,USA,NA,AE,NA,University of Wisconsin
+AMNAT,2000,155,1,AE,Don,R,Levitan,,USA,NA,AE,NA,Florida State University
+AMNAT,2000,155,1,AE,Jonathan,B,Losos,,USA,NA,AE,NA,Washington University
+AMNAT,2000,155,1,AE,David,E,McCauley,,USA,NA,AE,NA,Vanderbilt University
+AMNAT,2000,155,1,AE,Mark,A,McPeek,,USA,NA,AE,NA,Dartmouth University
+AMNAT,2000,155,1,AE,Michael,P,Mesterton-Gibbons,,USA,NA,AE,NA,Florida State University
+AMNAT,2000,155,1,AE,Thomas,E,Miller,,USA,NA,AE,NA,Florida State University
+AMNAT,2000,155,1,AE,Allen,J,Moore,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2000,155,1,AE,Peter,J,Morin,,USA,NA,AE,NA,Rutgers University
+AMNAT,2000,155,1,AE,Sarah,P,Otto,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,2000,155,1,AE,Bernard,D,Roitberg,,Australiatralia,NA,AE,NA,Simon Fraser University
+AMNAT,2000,155,1,AE,Michael,J,Wade,,USA,NA,AE,NA,Indiana University
+AMNAT,2000,155,1,AE,David,A,Wedin,,USA,NA,AE,NA,University of Nebraska
+AMNAT,2000,155,1,AE,Holly,A,Wichman,,USA,NA,AE,NA,University of Idaho
+AMNAT,2000,155,1,AE,Gregory,A,Wray,,USA,NA,AE,NA,State University of New York
+AMNAT,2000,155,1,AE,Andrew,,Sih,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2000,155,1,AE,Daniel,,Simberloff,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2000,155,1,AE,Dolph,,Schluter,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,2000,155,1,AE,Hugh,,Possingham,,Australiatralia,NA,AE,NA,University of Adelaide
+AMNAT,2000,155,1,AE,Ilkka,,Hanski,,Finland,NA,AE,NA,University of Helsinki
+AMNAT,2000,155,1,AE,Jim,,Bull,,USA,NA,AE,NA,University of Texas
+AMNAT,2000,155,1,AE,Joy,,Bergelson,,USA,NA,AE,NA,University of Chicago
+AMNAT,2000,155,1,AE,Kermit,,Ritland,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,2000,155,1,AE,Lenore,,Fahrig,,Canada,NA,AE,NA,Carleton University
+AMNAT,2000,155,1,AE,Lewi,,Stone,,Israel,NA,AE,NA,Tel Aviv University
+AMNAT,2000,155,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Reading
+AMNAT,2000,155,1,AE,Marlene,,Zuk,,USA,NA,AE,NA,University of California
+AMNAT,2000,155,1,AE,Mathew,,Leibold,,USA,NA,AE,NA,University of Chicago
+AMNAT,2000,155,1,AE,Nicholas,,Barton,,UK,NA,AE,NA,University of Edinburgh
+AMNAT,2001,157,1,AE,Steven,N,Austad,,USA,NA,AE,NA,University of Idaho
+AMNAT,2001,157,1,AE,Christine,R,Boake,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2001,157,1,AE,Donald,L,DeAngelis,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,2001,157,1,AE,Sharon,B,Emerson,,USA,NA,AE,NA,University of Utah
+AMNAT,2001,157,1,AE,John,A,Endler,,USA,NA,AE,NA,University of California
+AMNAT,2001,157,1,AE,Joan,M,Herbers,,USA,NA,AE,NA,Colorado State University
+AMNAT,2001,157,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Kansas
+AMNAT,2001,157,1,AE,Anne,E,Houde,,USA,NA,AE,NA,Lake Forest College
+AMNAT,2001,157,1,AE,Don,R,Levitan,,USA,NA,AE,NA,Florida State University
+AMNAT,2001,157,1,AE,Jonathan,B,Losos,,USA,NA,AE,NA,Washington University
+AMNAT,2001,157,1,AE,David,E,McCauley,,USA,NA,AE,NA,Vanderbilt University
+AMNAT,2001,157,1,AE,Mark,A,McPeek,,USA,NA,AE,NA,Dartmouth University
+AMNAT,2001,157,1,AE,Michael,P,Mesterton-Gibbons,,USA,NA,AE,NA,Florida State University
+AMNAT,2001,157,1,AE,Thomas,E,Miller,,USA,NA,AE,NA,Florida State University
+AMNAT,2001,157,1,AE,Allen,J,Moore,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2001,157,1,AE,Peter,J,Morin,,USA,NA,AE,NA,Rutgers University
+AMNAT,2001,157,1,AE,William,F,Morris,,USA,NA,AE,NA,Duke University
+AMNAT,2001,157,1,AE,Sarah,P,Otto,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,2001,157,1,AE,Joan,E,Strassmann,,USA,NA,AE,NA,Rice University
+AMNAT,2001,157,1,AE,Michael,J,Wade,,USA,NA,AE,NA,Indiana University
+AMNAT,2001,157,1,AE,Holly,A,Wichman,,USA,NA,AE,NA,University of Idaho
+AMNAT,2001,157,1,AE,Scott,D,Wilson,,Canada,NA,AE,NA,University of Regina
+AMNAT,2001,157,1,AE,Gregory,A,Wray,,USA,NA,AE,NA,State University of New York
+AMNAT,2001,157,1,AE,Daniel,,Doak,,USA,NA,AE,NA,University of California
+AMNAT,2001,157,1,AE,Daniel,,Simberloff,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2001,157,1,AE,Hugh,,Possingham,,Australiatralia,NA,AE,NA,University of Adelaide
+AMNAT,2001,157,1,AE,Jim,,Bull,,USA,NA,AE,NA,University of Texas
+AMNAT,2001,157,1,AE,Jim,,Elser,,USA,NA,AE,NA,Arizona State University
+AMNAT,2001,157,1,AE,Johanna,,Schmitt,,USA,NA,AE,NA,Brown University
+AMNAT,2001,157,1,AE,Kermit,,Ritland,,Canada,NA,AE,NA,University of British Columbia
+AMNAT,2001,157,1,AE,Lenore,,Fahrig,,Canada,NA,AE,NA,Carleton University
+AMNAT,2001,157,1,AE,Lewi,,Stone,,Israel,NA,AE,NA,Tel Aviv University
+AMNAT,2001,157,1,AE,Locke,,Rowe,,Canada,NA,AE,NA,University of Toronto
+AMNAT,2001,157,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Reading
+AMNAT,2001,157,1,AE,Marlene,,Zuk,,USA,NA,AE,NA,University of California
+AMNAT,2001,157,1,AE,Mathew,,Leibold,,USA,NA,AE,NA,University of Chicago
+AMNAT,2002,159,1,AE,Edmund,D,Brodie,III,USA,NA,AE,NA,Indiana University
+AMNAT,2002,159,1,AE,Bradley,R,Anholt,,Canada,NA,AE,NA,University of Victoria
+AMNAT,2002,159,1,AE,Christine,R,Boake,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2002,159,1,AE,Dale,H,Clayton,,USA,NA,AE,NA,University of Utah
+AMNAT,2002,159,1,AE,Donald,L,DeAngelis,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,2002,159,1,AE,Deborah,M,Gordon,,USA,NA,AE,NA,Stanford University
+AMNAT,2002,159,1,AE,Joan,M,Herbers,,USA,NA,AE,NA,Colorado State University
+AMNAT,2002,159,1,AE,Robert,D,Holt,,USA,NA,AE,NA,University of Florida
+AMNAT,2002,159,1,AE,Rolf,A,Ims,,Norway,NA,AE,NA,University of Tromso
+AMNAT,2002,159,1,AE,Tadeusz,J,Kawecki,,Switzerland,NA,AE,NA,University of Fribourg
+AMNAT,2002,159,1,AE,Jonathan,B,Losos,,USA,NA,AE,NA,Washington University
+AMNAT,2002,159,1,AE,Mark,A,McPeek,,USA,NA,AE,NA,Dartmouth University
+AMNAT,2002,159,1,AE,Michael,P,Mesterton-Gibbons,,USA,NA,AE,NA,Florida State University
+AMNAT,2002,159,1,AE,Donald,B,Miles,,USA,NA,AE,NA,Ohio University
+AMNAT,2002,159,1,AE,Allen,J,Moore,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2002,159,1,AE,William,F,Morris,,USA,NA,AE,NA,Duke University
+AMNAT,2002,159,1,AE,Mark,E,Ritchie,,USA,NA,AE,NA,Utah State University
+AMNAT,2002,159,1,AE,Robert,Craig,Sargent,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2002,159,1,AE,Joan,E,Strassmann,,USA,NA,AE,NA,Rice University
+AMNAT,2002,159,1,AE,Douglas,R,Taylor,,USA,NA,AE,NA,University of Virginia
+AMNAT,2002,159,1,AE,Michael,J,Wade,,USA,NA,AE,NA,Indiana University
+AMNAT,2002,159,1,AE,Gunter,P,Wagner,,USA,NA,AE,NA,Yale University
+AMNAT,2002,159,1,AE,Holly,A,Wichman,,USA,NA,AE,NA,University of Idaho
+AMNAT,2002,159,1,AE,John,H,Willis,,USA,NA,AE,NA,Duke University
+AMNAT,2002,159,1,AE,Scott,D,Wilson,,Canada,NA,AE,NA,University of Regina
+AMNAT,2002,159,1,AE,Austin,,Burt,,UK,NA,AE,NA,Imperial College London
+AMNAT,2002,159,1,AE,Ben,,Sheldon,,UK,NA,AE,NA,University of Oxford
+AMNAT,2002,159,1,AE,Chris,,Thomas,,UK,NA,AE,NA,University of Leeds
+AMNAT,2002,159,1,AE,Daniel,,Doak,,USA,NA,AE,NA,University of California
+AMNAT,2002,159,1,AE,Daniel,,Promislow,,USA,NA,AE,NA,University of Georgia
+AMNAT,2002,159,1,AE,Hugh,,Possingham,,Australiatralia,NA,AE,NA,University of Adelaide
+AMNAT,2002,159,1,AE,Isabel,,Olivieri,,France,NA,AE,NA,University of Montpellier
+AMNAT,2002,159,1,AE,Jef,,Huisman,,Netherlands,NA,AE,NA,University of Amsterdam
+AMNAT,2002,159,1,AE,Jim,,Bull,,USA,NA,AE,NA,University of Texas
+AMNAT,2002,159,1,AE,Jim,,Elser,,USA,NA,AE,NA,Arizona State University
+AMNAT,2002,159,1,AE,Lenore,,Fahrig,,Canada,NA,AE,NA,Carleton University
+AMNAT,2002,159,1,AE,Locke,,Rowe,,Canada,NA,AE,NA,University of Toronto
+AMNAT,2002,159,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Reading
+AMNAT,2002,159,1,AE,Mark,,Westoby,,Australiatralia,NA,AE,NA,Macquarie University
+AMNAT,2002,159,1,AE,Mathew,,Leibold,,USA,NA,AE,NA,University of Chicago
+AMNAT,2002,159,1,AE,Nicolas,,Perrin,,France,NA,AE,NA,University of Lausanne
+AMNAT,2002,159,1,AE,Per,,Lundberg,,Sweden,NA,AE,NA,Lund University
+AMNAT,2002,159,1,AE,Trevor,,Price,,USA,NA,AE,NA,University of California
+AMNAT,2003,161,1,AE,Bradley,R,Anholt,,Canada,NA,AE,NA,University of Victoria
+AMNAT,2003,161,1,AE,Christine,R,Boake,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2003,161,1,AE,William,J,Boecklen,,USA,NA,AE,NA,New Mexico State University
+AMNAT,2003,161,1,AE,Joel,S,Brown,,USA,NA,AE,NA,University of Illinois
+AMNAT,2003,161,1,AE,Ann,C,Burke,,USA,NA,AE,NA,Westleyan University
+AMNAT,2003,161,1,AE,Sean,B,Carroll,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,2003,161,1,AE,Ted,J,Case,,USA,NA,AE,NA,Washington University
+AMNAT,2003,161,1,AE,Jonathan,M,Chase,,USA,NA,AE,NA,Washington University
+AMNAT,2003,161,1,AE,James,M,Cheverud,,USA,NA,AE,NA,Washington University
+AMNAT,2003,161,1,AE,Donald,L,DeAngelis,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,2003,161,1,AE,Michael,J,Donoghue,,USA,NA,AE,NA,Yale University
+AMNAT,2003,161,1,AE,Douglas,H,Erwin,,USA,NA,AE,NA,National Museum of Natural History
+AMNAT,2003,161,1,AE,Curtis,H,Flather,,USA,NA,AE,NA,U.S. Forest Service
+AMNAT,2003,161,1,AE,Deborah,M,Gordon,,USA,NA,AE,NA,Stanford University
+AMNAT,2003,161,1,AE,Harry,W,Greene,,USA,NA,AE,NA,Cornell University
+AMNAT,2003,161,1,AE,David,M,Hillis,,USA,NA,AE,NA,University of Texas
+AMNAT,2003,161,1,AE,Rolf,A,Ims,,Norway,NA,AE,NA,University of Tromso
+AMNAT,2003,161,1,AE,Tadeusz,J,Kawecki,,Switzerland,NA,AE,NA,University of Fribourg
+AMNAT,2003,161,1,AE,Bette,A,Loiselle,,USA,NA,AE,NA,University of Missouri
+AMNAT,2003,161,1,AE,Mark,A,McPeek,,USA,NA,AE,NA,Dartmouth University
+AMNAT,2003,161,1,AE,Donald,B,Miles,,USA,NA,AE,NA,Ohio University
+AMNAT,2003,161,1,AE,Allen,J,Moore,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2003,161,1,AE,William,F,Morris,,USA,NA,AE,NA,Duke University
+AMNAT,2003,161,1,AE,Michael,W,Nachman,,USA,NA,AE,NA,University of Arizona
+AMNAT,2003,161,1,AE,Christopher,W,Petersen,,USA,NA,AE,NA,College of the Atlantic
+AMNAT,2003,161,1,AE,Susanne,S,Renner,,USA,NA,AE,NA,University of Missouri
+AMNAT,2003,161,1,AE,Mark,E,Ritchie,,USA,NA,AE,NA,Utah State University
+AMNAT,2003,161,1,AE,Robert,Craig,Sargent,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2003,161,1,AE,Joan,E,Strassmann,,USA,NA,AE,NA,Rice University
+AMNAT,2003,161,1,AE,Douglas,R,Taylor,,USA,NA,AE,NA,University of Virginia
+AMNAT,2003,161,1,AE,Peter,D,Taylor,,Canada,NA,AE,NA,Queen's University
+AMNAT,2003,161,1,AE,Alan,R,Templeton,,USA,NA,AE,NA,Washington University
+AMNAT,2003,161,1,AE,Gunter,P,Wagner,,USA,NA,AE,NA,Yale University
+AMNAT,2003,161,1,AE,Franz,J,Weissing,,Netherlands,NA,AE,NA,University of Groningen
+AMNAT,2003,161,1,AE,John,H,Willis,,USA,NA,AE,NA,Duke University
+AMNAT,2003,161,1,AE,Scott,D,Wilson,,Canada,NA,AE,NA,University of Regina
+AMNAT,2003,161,1,AE,Gregory,A,Wray,,USA,NA,AE,NA,Duke University
+AMNAT,2003,161,1,AE,Allan,,Larson,,USA,NA,AE,NA,Washington University
+AMNAT,2003,161,1,AE,Austin,,Burt,,UK,NA,AE,NA,Imperial College London
+AMNAT,2003,161,1,AE,Barbara,,Schaal,,USA,NA,AE,NA,Washington University
+AMNAT,2003,161,1,AE,Ben,,Sheldon,,UK,NA,AE,NA,University of Oxford
+AMNAT,2003,161,1,AE,Chris,,Thomas,,UK,NA,AE,NA,University of Leeds
+AMNAT,2003,161,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Chicago
+AMNAT,2003,161,1,AE,Cliff,,Cunningham,,USA,NA,AE,NA,Duke University
+AMNAT,2003,161,1,AE,Curt,,Lively,,USA,NA,AE,NA,Indiana University
+AMNAT,2003,161,1,AE,Daniel,,Doak,,USA,NA,AE,NA,University of California
+AMNAT,2003,161,1,AE,Daniel,,Promislow,,USA,NA,AE,NA,University of Georgia
+AMNAT,2003,161,1,AE,Isabel,,Olivieri,,France,NA,AE,NA,University of Montpellier
+AMNAT,2003,161,1,AE,Jef,,Huisman,,Netherlands,NA,AE,NA,University of Amsterdam
+AMNAT,2003,161,1,AE,Jim,,Elser,,USA,NA,AE,NA,Arizona State University
+AMNAT,2003,161,1,AE,Kaustuv,,Roy,,USA,NA,AE,NA,University of California
+AMNAT,2003,161,1,AE,Locke,,Rowe,,Canada,NA,AE,NA,University of Toronto
+AMNAT,2003,161,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Reading
+AMNAT,2003,161,1,AE,Mark,,Westoby,,Australiatralia,NA,AE,NA,Macquarie University
+AMNAT,2003,161,1,AE,Nicolas,,Perrin,,France,NA,AE,NA,University of Lausanne
+AMNAT,2003,161,1,AE,Patricia,,Parker,,USA,NA,AE,NA,University of Missouri
+AMNAT,2003,161,1,AE,Per,,Lundberg,,Sweden,NA,AE,NA,Lund University
+AMNAT,2003,161,1,AE,Peter,,Wainwright,,USA,NA,AE,NA,University of California
+AMNAT,2003,161,1,AE,Philloppe,,Jarne,,France,NA,AE,NA,CNRS
+AMNAT,2003,161,1,AE,Sebastian,,Diehl,,Germany,NA,AE,NA,University of Munich
+AMNAT,2003,161,1,AE,Sergey,,Gavrilets,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2003,161,1,AE,Trevor,,Price,,USA,NA,AE,NA,University of California
+AMNAT,2004,163,1,AE,Eldridge,S,Adams,,USA,NA,AE,NA,University of Connecticut
+AMNAT,2004,163,1,AE,Bradley,R,Anholt,,Canada,NA,AE,NA,University of Victoria
+AMNAT,2004,163,1,AE,Christine,R,Boake,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2004,163,1,AE,William,J,Boecklen,,USA,NA,AE,NA,New Mexico State University
+AMNAT,2004,163,1,AE,Joel,S,Brown,,USA,NA,AE,NA,University of Illinois
+AMNAT,2004,163,1,AE,Ann,C,Burke,,USA,NA,AE,NA,Westleyan University
+AMNAT,2004,163,1,AE,Sean,B,Carroll,,USA,NA,AE,NA,University of Wisconsin
+AMNAT,2004,163,1,AE,Jonathan,M,Chase,,USA,NA,AE,NA,Washington University
+AMNAT,2004,163,1,AE,James,M,Cheverud,,USA,NA,AE,NA,Washington University
+AMNAT,2004,163,1,AE,Steven,L,Chown,,South Africa,NA,AE,NA,University of Stellenbosch
+AMNAT,2004,163,1,AE,Dale,H,Clayton,,USA,NA,AE,NA,University of Utah
+AMNAT,2004,163,1,AE,Bernard,J,Crespi,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,2004,163,1,AE,Donald,L,DeAngelis,,USA,NA,AE,NA,U.S. Geological survey
+AMNAT,2004,163,1,AE,Michael,J,Donoghue,,USA,NA,AE,NA,Yale University
+AMNAT,2004,163,1,AE,Douglas,H,Erwin,,USA,NA,AE,NA,National Museum of Natural History
+AMNAT,2004,163,1,AE,William,F,Fagan,,USA,NA,AE,NA,University of Maryland
+AMNAT,2004,163,1,AE,Curtis,H,Flather,,USA,NA,AE,NA,U.S. Forest Service
+AMNAT,2004,163,1,AE,Deborah,M,Gordon,,USA,NA,AE,NA,Stanford University
+AMNAT,2004,163,1,AE,Harry,W,Greene,,USA,NA,AE,NA,Cornell University
+AMNAT,2004,163,1,AE,James,P,Grover,,USA,NA,AE,NA,University of Texas
+AMNAT,2004,163,1,AE,Stephen,B,Heard,,Canada,NA,AE,NA,University of New Brunswick
+AMNAT,2004,163,1,AE,David,M,Hillis,,USA,NA,AE,NA,University of Texas
+AMNAT,2004,163,1,AE,Raymond,B,Huey,,USA,NA,AE,NA,University of Washington
+AMNAT,2004,163,1,AE,Rolf,A,Ims,,Norway,NA,AE,NA,University of Tromso
+AMNAT,2004,163,1,AE,Tadeusz,J,Kawecki,,Switzerland,NA,AE,NA,University of Fribourg
+AMNAT,2004,163,1,AE,Ellen,D,Ketterson,,USA,NA,AE,NA,Indiana University
+AMNAT,2004,163,1,AE,Bette,A,Loiselle,,USA,NA,AE,NA,University of Missouri
+AMNAT,2004,163,1,AE,Donald,B,Miles,,USA,NA,AE,NA,Ohio University
+AMNAT,2004,163,1,AE,Allen,J,Moore,,UK,NA,AE,NA,University of Manchester
+AMNAT,2004,163,1,AE,Peter,J,Morin,,USA,NA,AE,NA,Rutgers University
+AMNAT,2004,163,1,AE,Michael,W,Nachman,,USA,NA,AE,NA,University of Arizona
+AMNAT,2004,163,1,AE,Nipam,H,Patel,,USA,NA,AE,NA,University of California
+AMNAT,2004,163,1,AE,Christopher,W,Petersen,,USA,NA,AE,NA,College of the Atlantic
+AMNAT,2004,163,1,AE,Catherine,A,Pfister,,USA,NA,AE,NA,University of Chicago
+AMNAT,2004,163,1,AE,Susanne,S,Renner,,USA,NA,AE,NA,University of Missouri
+AMNAT,2004,163,1,AE,Mark,E,Ritchie,,USA,NA,AE,NA,Utah State University
+AMNAT,2004,163,1,AE,Robert,Craig,Sargent,,USA,NA,AE,NA,University of Kentucky
+AMNAT,2004,163,1,AE,Douglas,R,Taylor,,USA,NA,AE,NA,University of Virginia
+AMNAT,2004,163,1,AE,Peter,D,Taylor,,Canada,NA,AE,NA,Queen's University
+AMNAT,2004,163,1,AE,Alan,R,Templeton,,USA,NA,AE,NA,Washington University
+AMNAT,2004,163,1,AE,Gunter,P,Wagner,,USA,NA,AE,NA,Yale University
+AMNAT,2004,163,1,AE,Franz,J,Weissing,,Netherlands,NA,AE,NA,University of Groningen
+AMNAT,2004,163,1,AE,John,H,Willis,,USA,NA,AE,NA,Duke University
+AMNAT,2004,163,1,AE,Allan,,Larson,,USA,NA,AE,NA,Washington University
+AMNAT,2004,163,1,AE,Austin,,Burt,,UK,NA,AE,NA,Imperial College London
+AMNAT,2004,163,1,AE,Axel,,Meyer,,Germany,NA,AE,NA,University of Konstanz
+AMNAT,2004,163,1,AE,Barbara,,Schaal,,USA,NA,AE,NA,Washington University
+AMNAT,2004,163,1,AE,Ben,,Sheldon,,UK,NA,AE,NA,University of Oxford
+AMNAT,2004,163,1,AE,Benjamin,,Bolker,,USA,NA,AE,NA,University of Florida
+AMNAT,2004,163,1,AE,Chris,,Thomas,,UK,NA,AE,NA,University of Leeds
+AMNAT,2004,163,1,AE,Chung-I,,Wu,,USA,NA,AE,NA,University of Chicago
+AMNAT,2004,163,1,AE,Cliff,,Cunningham,,USA,NA,AE,NA,Duke University
+AMNAT,2004,163,1,AE,Curt,,Lively,,USA,NA,AE,NA,Indiana University
+AMNAT,2004,163,1,AE,Daniel,,Promislow,,USA,NA,AE,NA,University of Georgia
+AMNAT,2004,163,1,AE,Isabel,,Olivieri,,France,NA,AE,NA,University of Montpellier
+AMNAT,2004,163,1,AE,Jef,,Huisman,,Netherlands,NA,AE,NA,University of Amsterdam
+AMNAT,2004,163,1,AE,Kaustuv,,Roy,,USA,NA,AE,NA,University of California
+AMNAT,2004,163,1,AE,Locke,,Rowe,,Canada,NA,AE,NA,University of Toronto
+AMNAT,2004,163,1,AE,Mark,,Blows,,Australiatralia,NA,AE,NA,University of Queensland
+AMNAT,2004,163,1,AE,Mark,,Pagel,,UK,NA,AE,NA,University of Reading
+AMNAT,2004,163,1,AE,Mark,,Westoby,,Australiatralia,NA,AE,NA,Macquarie University
+AMNAT,2004,163,1,AE,Michel,,Loreau,,France,NA,AE,NA,Ecole Normale Superieure
+AMNAT,2004,163,1,AE,Nicolas,,Perrin,,France,NA,AE,NA,University of Lausanne
+AMNAT,2004,163,1,AE,Patricia,,Parker,,USA,NA,AE,NA,University of Missouri
+AMNAT,2004,163,1,AE,Per,,Lundberg,,Sweden,NA,AE,NA,Lund University
+AMNAT,2004,163,1,AE,Peter,,Nonacs,,USA,NA,AE,NA,University of California
+AMNAT,2004,163,1,AE,Peter,,Wainwright,,USA,NA,AE,NA,University of California
+AMNAT,2004,163,1,AE,Philloppe,,Jarne,,France,NA,AE,NA,CNRS
+AMNAT,2004,163,1,AE,Sebastian,,Diehl,,Germany,NA,AE,NA,University of Munich
+AMNAT,2004,163,1,AE,Sergey,,Gavrilets,,USA,NA,AE,NA,University of Tennessee
+AMNAT,2004,163,1,AE,Trevor,,Price,,USA,NA,AE,NA,University of Chicago
+AMNAT,2015,186,1,AE,G,Sander,VanDoorn,,Netherlands,NA,AE,NA,University of Groningen
+AMNAT,2015,186,1,AE,Edmund,D,Brodie,III,USA,NA,AE,NA,University of Virginia
+AMNAT,2015,186,1,AE,Egbert,H,VanNes,,Netherlands,NA,AE,NA,Wageningen University
+AMNAT,2015,186,1,AE,Volker,HW,Rudolf,,USA,NA,AE,NA,Rice University
+AMNAT,2015,186,1,AE,J,AlbertC,Uy,,USA,NA,AE,NA,University of Miami
+AMNAT,2015,186,1,AE,Charles,F,Baer,,USA,NA,AE,NA,University of Florida
+AMNAT,2015,186,1,AE,Daniel,I,Bolnick,,USA,NA,AE,NA,University of Texas
+AMNAT,2015,186,1,AE,Roger,K,Butlin,,UK,NA,AE,NA,University of Sheffield
+AMNAT,2015,186,1,AE,Christina,M,Caruso,,Canada,NA,AE,NA,University of Guelph
+AMNAT,2015,186,1,AE,David,C,Collar,,USA,NA,AE,NA,Christopher Newport University
+AMNAT,2015,186,1,AE,Sean,R,Connolly,,Australiatralia,NA,AE,NA,James Cook University
+AMNAT,2015,186,1,AE,Gregory,E,Demas,,USA,NA,AE,NA,Indiana University
+AMNAT,2015,186,1,AE,Christopher,G,Eckert,,Canada,NA,AE,NA,Queen's University
+AMNAT,2015,186,1,AE,Kevin,J,Gaston,,UK,NA,AE,NA,University of Exeter
+AMNAT,2015,186,1,AE,Charles,J,Goodnight,,USA,NA,AE,NA,University of Vermont
+AMNAT,2015,186,1,AE,Spencer,R,Hall,,USA,NA,AE,NA,Indiana University
+AMNAT,2015,186,1,AE,Lawrence,D,Harder,,Canada,NA,AE,NA,University of Calgary
+AMNAT,2015,186,1,AE,Luke,J,Harmon,,USA,NA,AE,NA,University of Idaho
+AMNAT,2015,186,1,AE,Stephen,B,Heard,,Canada,NA,AE,NA,University of New Brunswick
+AMNAT,2015,186,1,AE,Andrew,J,Kerkhoff,,USA,NA,AE,NA,Kenyon College
+AMNAT,2015,186,1,AE,Charlotte,T,Lee,,USA,NA,AE,NA,Duke University
+AMNAT,2015,186,1,AE,Mathew,A,Leibold,,USA,NA,AE,NA,University of Texas
+AMNAT,2015,186,1,AE,C,Jessica,Metcalf,,USA,NA,AE,NA,Princeton University
+AMNAT,2015,186,1,AE,Wolf,M,Mooij,,Netherlands,NA,AE,NA,Netherlands Institute of Ecology
+AMNAT,2015,186,1,AE,Michael,G,Neubert,,USA,NA,AE,NA,Woods Hole Oceanographic Institution
+AMNAT,2015,186,1,AE,Scott,L,Nuismer,,USA,NA,AE,NA,University of Idaho
+AMNAT,2015,186,1,AE,Stephen,R,Proulx,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,David,N,Reznick,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,Daniel,L,Roelke,,USA,NA,AE,NA,Texas A&M University
+AMNAT,2015,186,1,AE,Axel,G,Rossberg,,UK,NA,AE,NA,Queen Mary University of London
+AMNAT,2015,186,1,AE,Rebecca,Jo,Safran,,USA,NA,AE,NA,University of Colorado
+AMNAT,2015,186,1,AE,John,J,Stachowicz,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,Scott,J,Steppan,,USA,NA,AE,NA,Florida State University
+AMNAT,2015,186,1,AE,Peter,D,Taylor,,Canada,NA,AE,NA,Queen's University
+AMNAT,2015,186,1,AE,William,T,Wcislo,,USA,NA,AE,NA,Smithsonian Tropical Research Institute
+AMNAT,2015,186,1,AE,Franz,J,Weissing,,Netherlands,NA,AE,NA,University of Groningen
+AMNAT,2015,186,1,AE,Tony,D,Williams,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,2015,186,1,AE,H,Arthur,Woods,,USA,NA,AE,NA,University of Montana
+AMNAT,2015,186,1,AE,Benjamin,,Bolker,,USA,NA,AE,NA,University of Florida
+AMNAT,2015,186,1,AE,Christopher,,Klausmeier,,USA,NA,AE,NA,Michigan State University
+AMNAT,2015,186,1,AE,Elizabeth,,Adkins-Regan,,USA,NA,AE,NA,Cornell University
+AMNAT,2015,186,1,AE,Elizabeth,,Elle,,Canada,NA,AE,NA,Simon Fraser University
+AMNAT,2015,186,1,AE,Erik,,Svensson,,Sweden,NA,AE,NA,Lund University
+AMNAT,2015,186,1,AE,Greg,,Dwyer,,USA,NA,AE,NA,University of Chicago
+AMNAT,2015,186,1,AE,Ian,,Dworkin,,USA,NA,AE,NA,Michigan State University
+AMNAT,2015,186,1,AE,J_rgen,,Groeneveld,,Germany,NA,AE,NA,Helmholtz Centre for Environmental Research
+AMNAT,2015,186,1,AE,Jean-Michel,,Gaillard,,France,NA,AE,NA,University of Lyon
+AMNAT,2015,186,1,AE,Jeff,,Leips,,USA,NA,AE,NA,University of Maryland
+AMNAT,2015,186,1,AE,Kevin,,Gross,,USA,NA,AE,NA,North Carolina State University
+AMNAT,2015,186,1,AE,Locke,,Rowe,,Canada,NA,AE,NA,University of Toronto
+AMNAT,2015,186,1,AE,Mark,,Vellend,,Canada,NA,AE,NA,University de Sherbrooke
+AMNAT,2015,186,1,AE,Megan,,Frederickson,,Canada,NA,AE,NA,University of Toronto
+AMNAT,2015,186,1,AE,Meghan,,Duffy,,USA,NA,AE,NA,University of Michigan
+AMNAT,2015,186,1,AE,Michael,,Kearney,,Australiatralia,NA,AE,NA,University of Melbourne
+AMNAT,2015,186,1,AE,Pej,,Rohani,,USA,NA,AE,NA,University of Michigan
+AMNAT,2015,186,1,AE,Peter,,Nonacs,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,Priyanga,,Amarasekare,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,Rebecca,,Fuller,,USA,NA,AE,NA,University of Illinois
+AMNAT,2015,186,1,AE,Robert,,Dudley,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,Russell,,Bonduriansky,,Australiatralia,NA,AE,NA,University of New South Wales
+AMNAT,2015,186,1,AE,Sean,,O'Donnell,,USA,NA,AE,NA,Drexel University
+AMNAT,2015,186,1,AE,Susan,,Harrison,,USA,NA,AE,NA,University of California
+AMNAT,2015,186,1,AE,Uta,,Berger,,Germany,NA,AE,NA,Dresden University of Technology
+AMNAT,2015,186,1,AE,Vlastimil,,Krivan,,Czech Republicch Republic,NA,AE,NA,Biology Centre
+AMNAT,2005,165,1,Editor,Donald,L,DeAngelis,,USA,NA,SE,NA,U.S. Geological survey
+AMNAT,2006,,,Editor,Donald,L.,DeAngelis,,USA,male,AE,NA, US Geological Survey and University of Miami
+AMNAT,2006,,,Editor,Michael,C.,Whitlock,,Canada,male,EIC,NA, University of British Columbia
+AMNAT,2007,,,Editor,Donald,L.,DeAngelis,,USA,male,AE,NA, US Geological Survey and University of Miami
+AMNAT,2007,,,Editor,Monica,A.,Gerber,,USA,female,AE,NA,Cornell University
+AMNAT,2008,,,Editor,Donald,L.,DeAngelis,,USA,male,AE,NA, US Geological Survey and University of Miami
+AMNAT,2008,,,Editor,Monica,A.,Gerber,,USA,female,AE,NA,Cornell University
+AMNAT,2009,,,Editor,Donald,L.,DeAngelis,,USA,male,AE,NA, US Geological Survey and University of Miami
+AMNAT,2009,,,Editor,Ruth,G.,Shaw,,USA,female,AE,NA,University of Minnesota
+AMNAT,2010,,,Editor,Judith,L.,Bronstein,,USA,female,AE,NA,University of Arizona
+AMNAT,2010,,,Editor,Ruth,G.,Shaw,,USA,female,AE,NA,University of Minnesota
+AMNAT,2011,,,Editor,Judith,L.,Bronstein,,USA,female,AE,NA,University of Arizona
+AMNAT,2011,,,Editor,Ruth,G.,Shaw,,USA,female,AE,NA,University of Minnesota
+AMNAT,2012,,,Editor,Judith,L.,Bronstein,,USA,female,AE,NA,University of Arizona
+AMNAT,2012,,,Editor,Troy,,Day,,Australia,male,AE,NA,Queens University
+AMNAT,2013,,,Editor,Susan,,Kalisz,,USA,female,AE,NA,University of Pittsburgh
+AMNAT,2013,,,Editor,Troy,,Day,,Australia,male,AE,NA,Queens University
+AMNAT,2014,,,Editor,Susan,,Kalisz,,USA,female,AE,NA,University of Pittsburgh
+AMNAT,2014,,,Editor,Troy,,Day,,Australia,male,AE,NA,Queens University
+AMNAT,2006,,,Editor-in-Chief,Jonathan,B.,Losos,,USA,male,EIC,NA, Washington University
+AMNAT,2007,,,Editor-in-Chief,Michael,C.,Whitlock,,Canada,male,EIC,NA, University of British Columbia
+AMNAT,2008,,,Editor-in-Chief,Michael,C.,Whitlock,,Canada,male,EIC,NA, University of British Columbia
+AMNAT,2009,,,Editor-in-Chief,Mark,A,McPeek,,USA,male,EIC,NA,Dartmouth College
+AMNAT,2010,,,Editor-in-Chief,Mark,A,McPeek,,USA,male,EIC,NA,Dartmouth College
+AMNAT,2011,,,Editor-in-Chief,Mark,A,McPeek,,USA,male,EIC,NA,Dartmouth College
+AMNAT,2012,,,Editor-in-Chief,Mark,A,McPeek,,USA,male,EIC,NA,Dartmouth College
+AMNAT,2013,,,Editor-in-Chief,Judith,L.,Bronstein,,USA,female,AE,NA,University of Arizona
+AMNAT,2014,,,Editor-in-Chief,Judith,L.,Bronstein,,USA,female,AE,NA,University of Arizona
+AMNAT,2006,,,Editorial Assistants,Rob,C.,Blixt,,NA,male,NA,NA,NA
+AMNAT,2006,,,Editorial Assistants,Alexa,,Bontrager,,NA,female,NA,NA,NA
+AMNAT,2007,,,Editorial Assistants,Rob,C.,Blixt,,NA,male,NA,NA,NA
+AMNAT,2007,,,Editorial Assistants,Alexa,,Bontrager,,NA,female,NA,NA,NA
+AMNAT,2008,,,Editorial Assistants,Philip,,Banning,,NA,male,NA,NA,NA
+AMNAT,2008,,,Editorial Assistants,Rob,C.,Blixt,,NA,male,NA,NA,NA
+AMNAT,2010,,,Editorial Assistants,Agnes ,,Littmann,,NA,female,NA,NA,NA
+AMNAT,2010,,,Editorial Assistants,Ashley ,,Hastings,,NA,female,NA,NA,NA
+AMNAT,2011,,,Editorial Assistants,Agnes ,,Littmann,,NA,female,NA,NA,NA
+AMNAT,2011,,,Editorial Assistants,Ashley ,,Hastings,,NA,female,NA,NA,NA
+AMNAT,2012,,,Editorial Assistants,Agnes ,,Littmann,,NA,female,NA,NA,NA
+AMNAT,2012,,,Editorial Assistants,Joseph,,Muszynski,,NA,male,NA,NA,NA
+AMNAT,2013,,,Editorial Assistants,Joseph,,Muszynski,,NA,male,NA,NA,NA
+AMNAT,2014,,,Editorial Assistants,Joseph,,Muszynski,,NA,male,NA,NA,NA
+AMNAT,2006,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2006,,,Editorial Board,Bradley,R.,Anholt,,Canada,male,SE,NA, University of Victoria
+AMNAT,2006,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2006,,,Editorial Board,Mark,,Blows,,Australia,male,SE,NA, University of Queensland
+AMNAT,2006,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2006,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2006,,,Editorial Board,Judith,L.,Bronstein,,USA,female,SE,NA, University ofArizona
+AMNAT,2006,,,Editorial Board,Armando,,Caballero,,Spain,male,SE,NA, Universidad de Vigo
+AMNAT,2006,,,Editorial Board,Jonathan,M.,Chase,,USA,male,SE,NA, Washington University
+AMNAT,2006,,,Editorial Board,Steven,L.,Chown,,South Africa,male,SE,NA, University of Stellenbosch 
+AMNAT,2006,,,Editorial Board,Hans,,Cornelissen,,Netherlands,male,SE,NA, Vrije Universiteit Amsterdam
+AMNAT,2006,,,Editorial Board,Tim,,Coulson,,England,male,SE,NA, Imperial College
+AMNAT,2006,,,Editorial Board,Bernard,J.,Crespi,,Canada,male,SE,NA, Simon Fraser University
+AMNAT,2006,,,Editorial Board,Troy,,Day,,Canada,male,SE,NA, Queens University
+AMNAT,2006,,,Editorial Board,Sebastian,,Diehl,,Germany,male,SE,NA, Ludwig-Maximilians-Universitat Munchen
+AMNAT,2006,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2006,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2006,,,Editorial Board,Douglas,H.,Erwin,,USA,male,SE,NA, National Museum of Natural History
+AMNAT,2006,,,Editorial Board,William,F.,Fagan,,USA,male,SE,NA, University of Maryland
+AMNAT,2006,,,Editorial Board,James,D.,Fry,,USA,male,SE,NA, University of Rochester
+AMNAT,2006,,,Editorial Board,Sergey,,Gavrilets,,USA,male,SE,NA, University of Tennessee
+AMNAT,2006,,,Editorial Board,Greg,,Gibson,,USA,male,SE,NA, North Carolina State University
+AMNAT,2006,,,Editorial Board,George,W.,Gilchrist,,USA,male,SE,NA, College of William and Mary
+AMNAT,2006,,,Editorial Board,Luc-Alain,,Giraldeau,,Canada,male,SE,NA, Universite de Quebec a Montreal
+AMNAT,2006,,,Editorial Board,Richard,,Gomulkiewicz,,USA,male,SE,NA, Washington State University
+AMNAT,2006,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2006,,,Editorial Board,James,P.,Grover,,USA,male,SE,NA, University of Texas Arlington
+AMNAT,2006,,,Editorial Board,James,P.,Grover,,USA,male,SE,NA, University of Texas at Arlington
+AMNAT,2006,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2006,,,Editorial Board,Michael,E.,Hellberg,,USA,male,SE,NA, Louisiana State University
+AMNAT,2006,,,Editorial Board,Marcel,,Holyoak,,USA,male,SE,NA, University of California-Davis
+AMNAT,2006,,,Editorial Board,Raymond,B.,Huey,,USA,male,SE,NA, University of Washington
+AMNAT,2006,,,Editorial Board,Jef,,Huisman,,Netherlands,male,SE,NA, University of Amsterdam
+AMNAT,2006,,,Editorial Board,Frederic,C.,Janzen,,USA,male,SE,NA, Iowa State University
+AMNAT,2006,,,Editorial Board,Philippe,,Jarne,,France,male,SE,NA, Centre National de la Recherche Scientifique
+AMNAT,2006,,,Editorial Board,Matt,J.,Keeling,,England,male,SE,NA, University of Warwick
+AMNAT,2006,,,Editorial Board,Ellen,D.,Ketterson,,USA,female,SE,NA, Indiana University
+AMNAT,2006,,,Editorial Board,Thomas,,Lenormand,,France,male,SE,NA, CNRS
+AMNAT,2006,,,Editorial Board,John,M.,McNamara,,England,male,SE,NA, Bristol University
+AMNAT,2006,,,Editorial Board,Axel,,Meyer,,Germany,male,SE,NA, University of Konstanz
+AMNAT,2006,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2006,,,Editorial Board,Robert,,Montgomerie,,Canada,male,SE,NA, Queens University
+AMNAT,2006,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2006,,,Editorial Board,Allen,L.,Moore,,England,male,SE,NA, University of Manchester
+AMNAT,2006,,,Editorial Board,Peter,J.,Morin,,USA,male,SE,NA, Rutgers University
+AMNAT,2006,,,Editorial Board,William,F.,Morris,,USA,male,SE,NA, Duke University
+AMNAT,2006,,,Editorial Board,Peter,,Nonacs,,USA,male,SE,NA, University of California-Los Angeles
+AMNAT,2006,,,Editorial Board,Mohamed,A.F.,Noor,,USA,male,SE,NA, Duke University
+AMNAT,2006,,,Editorial Board,Nipam,H.,Patel,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2006,,,Editorial Board,Nicolas,,Perrin,,Switzerland,male,SE,NA, Universite de Lausanne
+AMNAT,2006,,,Editorial Board,Christopher,W.,Petersen,,USA,male,SE,NA, College of the Atlantic
+AMNAT,2006,,,Editorial Board,Catherine,A.,Pfister,,USA,female,SE,NA, University of Chicago
+AMNAT,2006,,,Editorial Board,Susanne,S.,Renner,,USA,female,SE,NA, University of Missouri-St.Louis
+AMNAT,2006,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2006,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2006,,,Editorial Board,Kaustuv,,Roy,,USA,male,SE,NA, University of California-San Diego
+AMNAT,2006,,,Editorial Board,Michael,J.,Ryan,,USA,male,SE,NA, University of Texas at Austin
+AMNAT,2006,,,Editorial Board,Christopher,J.,Schneider,,USA,male,SE,NA, Boston University
+AMNAT,2006,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2006,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2006,,,Editorial Board,Judy,,Stamps,,USA,female,SE,NA, University of California-Davis
+AMNAT,2006,,,Editorial Board,Sonia,,Sultan,,USA,female,SE,NA, Wesleyan University
+AMNAT,2006,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2006,,,Editorial Board,David,,Waxman,,England,male,SE,NA, University of Sussex
+AMNAT,2006,,,Editorial Board,Stuart,,West,,Scotland,male,SE,NA, Edinburgh University
+AMNAT,2006,,,Editorial Board,John,J.,Wiens,,USA,male,SE,NA, Stony Brook University
+AMNAT,2006,,,Editorial Board,Will,,Wilson,,USA,male,SE,NA, Duke University
+AMNAT,2006,,,Editorial Board,Chung-I,,Wu,,USA,male,SE,NA, University of Chicago
+AMNAT,2007,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2007,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2007,,,Editorial Board,Goran,,Arnqvist,,Sweden,male,SE,NA,University of Uppsala
+AMNAT,2007,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2007,,,Editorial Board,Craig,W.,Benkman,,USA,male,SE,NA,University of Wyoming
+AMNAT,2007,,,Editorial Board,Mark,,Blows,,Australia,male,SE,NA, University of Queensland
+AMNAT,2007,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2007,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2007,,,Editorial Board,Judith,L.,Bronstein,,USA,female,SE,NA, University ofArizona
+AMNAT,2007,,,Editorial Board,Armando,,Caballero,,Spain,male,SE,NA, Universidad de Vigo
+AMNAT,2007,,,Editorial Board,Steven,L.,Chown,,South Africa,male,SE,NA, University of Stellenbosch 
+AMNAT,2007,,,Editorial Board,Andrew,,Clarke,,England,male,SE,NA,"British Antarctic Survey, Cambridge"
+AMNAT,2007,,,Editorial Board,Tim,,Coulson,,England,male,SE,NA, Imperial College
+AMNAT,2007,,,Editorial Board,Troy,,Day,,Canada,male,SE,NA, Queens University
+AMNAT,2007,,,Editorial Board,Claire,,deMezancourt,,England,female,SE,NA,"Imperial College,Silwood Park"
+AMNAT,2007,,,Editorial Board,Sebastian,,Diehl,,Germany,male,SE,NA, Ludwig-Maximilians-Universitat Munchen
+AMNAT,2007,,,Editorial Board,Kathleen,,Donohue,,USA,female,SE,NA,Harvard University
+AMNAT,2007,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2007,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2007,,,Editorial Board,Douglas,H.,Erwin,,USA,male,SE,NA, National Museum of Natural History
+AMNAT,2007,,,Editorial Board,William,F.,Fagan,,USA,male,SE,NA, University of Maryland
+AMNAT,2007,,,Editorial Board,James,D.,Fry,,USA,male,SE,NA, University of Rochester
+AMNAT,2007,,,Editorial Board,Greg,,Gibson,,USA,male,SE,NA, North Carolina State University
+AMNAT,2007,,,Editorial Board,George,W.,Gilchrist,,USA,male,SE,NA, College of William and Mary
+AMNAT,2007,,,Editorial Board,Luc-Alain,,Giraldeau,,Canada,male,SE,NA, Universite de Quebec a Montreal
+AMNAT,2007,,,Editorial Board,Richard,,Gomulkiewicz,,USA,male,SE,NA, Washington State University
+AMNAT,2007,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2007,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2007,,,Editorial Board,Michael,E.,Hellberg,,USA,male,SE,NA, Louisiana State University
+AMNAT,2007,,,Editorial Board,Marcel,,Holyoak,,USA,male,SE,NA, University of California-Davis
+AMNAT,2007,,,Editorial Board,Raymond,B.,Huey,,USA,male,SE,NA, University of Washington
+AMNAT,2007,,,Editorial Board,Jef,,Huisman,,Netherlands,male,SE,NA, University of Amsterdam
+AMNAT,2007,,,Editorial Board,Frederic,C.,Janzen,,USA,male,SE,NA, Iowa State University
+AMNAT,2007,,,Editorial Board,Philippe,,Jarne,,France,male,SE,NA, Centre National de la Recherche Scientifique
+AMNAT,2007,,,Editorial Board,Bruce,C.,Jayne,,USA,male,SE,NA,University of Cincinnati
+AMNAT,2007,,,Editorial Board,Matt,J.,Keeling,,England,male,SE,NA, University of Warwick
+AMNAT,2007,,,Editorial Board,Ellen,D.,Ketterson,,USA,female,SE,NA, Indiana University
+AMNAT,2007,,,Editorial Board,Christopher,A.,Klausmeier,,USA,male,SE,NA,Michigan State University
+AMNAT,2007,,,Editorial Board,Thomas,,Lenormand,,France,male,SE,NA, CNRS
+AMNAT,2007,,,Editorial Board,Justin,,Marshall,,Australia,male,SE,NA,University of Queensland
+AMNAT,2007,,,Editorial Board,Emilia,,Martins,,USA,female,SE,NA,Indiana University
+AMNAT,2007,,,Editorial Board,John,M.,McNamara,,England,male,SE,NA, Bristol University
+AMNAT,2007,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2007,,,Editorial Board,Robert,,Montgomerie,,Canada,male,SE,NA, Queens University
+AMNAT,2007,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2007,,,Editorial Board,Allen,L.,Moore,,England,male,SE,NA, University of Manchester
+AMNAT,2007,,,Editorial Board,Peter,J.,Morin,,USA,male,SE,NA, Rutgers University
+AMNAT,2007,,,Editorial Board,William,F.,Morris,,USA,male,SE,NA, Duke University
+AMNAT,2007,,,Editorial Board,Peter,,Nonacs,,USA,male,SE,NA, University of California-Los Angeles
+AMNAT,2007,,,Editorial Board,Sergey,,Nuzhdin,,USA,male,SE,NA,University of California-Davis
+AMNAT,2007,,,Editorial Board,Nipam,H.,Patel,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2007,,,Editorial Board,Nicolas,,Perrin,,Switzerland,male,SE,NA, Universite de Lausanne
+AMNAT,2007,,,Editorial Board,Christopher,W.,Petersen,,USA,male,SE,NA, College of the Atlantic
+AMNAT,2007,,,Editorial Board,Catherine,A.,Pfister,,USA,female,SE,NA, University of Chicago
+AMNAT,2007,,,Editorial Board,Anna,,Qvarnstrom,,Sweden,female,SE,NA,University of Uppsala
+AMNAT,2007,,,Editorial Board,Susanne,S.,Renner,,USA,female,SE,NA, University of Missouri-St.Louis
+AMNAT,2007,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2007,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2007,,,Editorial Board,Kaustuv,,Roy,,USA,male,SE,NA, University of California-San Diego
+AMNAT,2007,,,Editorial Board,Michael,J.,Ryan,,USA,male,SE,NA, University of Texas at Austin
+AMNAT,2007,,,Editorial Board,Christopher,J.,Schneider,,USA,male,SE,NA, Boston University
+AMNAT,2007,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2007,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2007,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2007,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2007,,,Editorial Board,David,,Waxman,,England,male,SE,NA, University of Sussex
+AMNAT,2007,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2007,,,Editorial Board,Stuart,,West,,Scotland,male,SE,NA, Edinburgh University
+AMNAT,2007,,,Editorial Board,John,J.,Wiens,,USA,male,SE,NA, Stony Brook University
+AMNAT,2007,,,Editorial Board,Will,,Wilson,,USA,male,SE,NA, Duke University
+AMNAT,2007,,,Editorial Board,Chung-I,,Wu,,USA,male,SE,NA, University of Chicago
+AMNAT,2008,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2008,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2008,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2008,,,Editorial Board,Goran,,Arnqvist,,Sweden,male,SE,NA,University of Uppsala
+AMNAT,2008,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2008,,,Editorial Board,Craig,W.,Benkman,,USA,male,SE,NA,University of Wyoming
+AMNAT,2008,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2008,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2008,,,Editorial Board,Armando,,Caballero,,Spain,male,SE,NA, Universidad de Vigo
+AMNAT,2008,,,Editorial Board,Steven,L.,Chown,,South Africa,male,SE,NA, University of Stellenbosch 
+AMNAT,2008,,,Editorial Board,Andrew,,Clarke,,England,male,SE,NA,"British Antarctic Survey, Cambridge"
+AMNAT,2008,,,Editorial Board,Tim,,Coulson,,England,male,SE,NA, Imperial College
+AMNAT,2008,,,Editorial Board,Troy,,Day,,Canada,male,SE,NA, Queens University
+AMNAT,2008,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2008,,,Editorial Board,Claire,,deMezancourt,,England,female,SE,NA,"Imperial College,Silwood Park"
+AMNAT,2008,,,Editorial Board,Sebastian,,Diehl,,Germany,male,SE,NA, Ludwig-Maximilians-Universitat Munchen
+AMNAT,2008,,,Editorial Board,Kathleen,,Donohue,,USA,female,SE,NA,Harvard University
+AMNAT,2008,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2008,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2008,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2008,,,Editorial Board,William,F.,Fagan,,USA,male,SE,NA, University of Maryland
+AMNAT,2008,,,Editorial Board,James,D.,Fry,,USA,male,SE,NA, University of Rochester
+AMNAT,2008,,,Editorial Board,Greg,,Gibson,,USA,male,SE,NA, North Carolina State University
+AMNAT,2008,,,Editorial Board,George,W.,Gilchrist,,USA,male,SE,NA, College of William and Mary
+AMNAT,2008,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2008,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2008,,,Editorial Board,Michael,E.,Hellberg,,USA,male,SE,NA, Louisiana State University
+AMNAT,2008,,,Editorial Board,Marcel,,Holyoak,,USA,male,SE,NA, University of California-Davis
+AMNAT,2008,,,Editorial Board,Raymond,B.,Huey,,USA,male,SE,NA, University of Washington
+AMNAT,2008,,,Editorial Board,Jef,,Huisman,,Netherlands,male,SE,NA, University of Amsterdam
+AMNAT,2008,,,Editorial Board,Frederic,C.,Janzen,,USA,male,SE,NA, Iowa State University
+AMNAT,2008,,,Editorial Board,Bruce,C.,Jayne,,USA,male,SE,NA,University of Cincinnati
+AMNAT,2008,,,Editorial Board,Jukka,,Jokela,,Switzerland,male,SE,NA,EAWAG/ETH-Zurich
+AMNAT,2008,,,Editorial Board,Susan,,Kalisz,,USA,female,SE,NA,University of Pittsburgh
+AMNAT,2008,,,Editorial Board,Matt,J.,Keeling,,England,male,SE,NA, University of Warwick
+AMNAT,2008,,,Editorial Board,Ellen,D.,Ketterson,,USA,female,SE,NA, Indiana University
+AMNAT,2008,,,Editorial Board,Christopher,A.,Klausmeier,,USA,male,SE,NA,Michigan State University
+AMNAT,2008,,,Editorial Board,Martin,J.,Lechowicz,,Canada,male,SE,NA,McGill University
+AMNAT,2008,,,Editorial Board,Thomas,,Lenormand,,France,male,SE,NA, CNRS
+AMNAT,2008,,,Editorial Board,Marc,,Mangel,,USA,male,SE,NA,University of California-Santa Cruz
+AMNAT,2008,,,Editorial Board,John,L.,Maron,,USA,male,SE,NA,University of Montana
+AMNAT,2008,,,Editorial Board,Justin,,Marshall,,Australia,male,SE,NA,University of Queensland
+AMNAT,2008,,,Editorial Board,Emilia,,Martins,,USA,female,SE,NA,Indiana University
+AMNAT,2008,,,Editorial Board,John,M.,McNamara,,England,male,SE,NA, Bristol University
+AMNAT,2008,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2008,,,Editorial Board,Robert,,Montgomerie,,Canada,male,SE,NA, Queens University
+AMNAT,2008,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2008,,,Editorial Board,Allen,L.,Moore,,England,male,SE,NA, University of Manchester
+AMNAT,2008,,,Editorial Board,Peter,J.,Morin,,USA,male,SE,NA, Rutgers University
+AMNAT,2008,,,Editorial Board,Sergey,,Nuzhdin,,USA,male,SE,NA,University of California-Davis
+AMNAT,2008,,,Editorial Board,Nipam,H.,Patel,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2008,,,Editorial Board,Catherine,A.,Pfister,,USA,female,SE,NA, University of Chicago
+AMNAT,2008,,,Editorial Board,Anna,,Qvarnstrom,,Sweden,female,SE,NA,University of Uppsala
+AMNAT,2008,,,Editorial Board,Susanne,S.,Renner,,USA,female,SE,NA, University of Missouri-St.Louis
+AMNAT,2008,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2008,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2008,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2008,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2008,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2008,,,Editorial Board,Kaustuv,,Roy,,USA,male,SE,NA, University of California-San Diego
+AMNAT,2008,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2008,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2008,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2008,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2008,,,Editorial Board,David,,Waxman,,England,male,SE,NA, University of Sussex
+AMNAT,2008,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2008,,,Editorial Board,Stuart,,West,,Scotland,male,SE,NA, Edinburgh University
+AMNAT,2008,,,Editorial Board,John,J.,Wiens,,USA,male,SE,NA, Stony Brook University
+AMNAT,2009,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2009,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2009,,,Editorial Board,Fredrick,R.,Adler,,USA,male,SE,NA,University of Utah
+AMNAT,2009,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2009,,,Editorial Board,Maydianne,CB,Andrade,,Canada,female,SE,NA,University of Toronto-Scarborough
+AMNAT,2009,,,Editorial Board,Goran,,Arnqvist,,Sweden,male,SE,NA,University of Uppsala
+AMNAT,2009,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2009,,,Editorial Board,Charles,F.,Baer,,USA,male,SE,NA,University of Florida
+AMNAT,2009,,,Editorial Board,Uta,,Berger,,Germany,female,SE,NA,Dresden Institute of Technology
+AMNAT,2009,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2009,,,Editorial Board,Daniel ,I.,Bolnick,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2009,,,Editorial Board,Janette,W.,Boughman,,USA,female,SE,NA,University of Wisconsin-Madison
+AMNAT,2009,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2009,,,Editorial Board,Judith,L.,Bronstein,,USA,female,SE,NA,University of Arizona
+AMNAT,2009,,,Editorial Board,Armando,,Caballero,,Spain,male,SE,NA, Universidad de Vigo
+AMNAT,2009,,,Editorial Board,Steven,L.,Chown,,South Africa,male,SE,NA, University of Stellenbosch 
+AMNAT,2009,,,Editorial Board,Andrew,,Clarke,,England,male,SE,NA,"British Antarctic Survey, Cambridge"
+AMNAT,2009,,,Editorial Board,Blaine,J.,Cole,,USA,male,SE,NA,University of Houston
+AMNAT,2009,,,Editorial Board,Tim,,Coulson,,England,male,SE,NA, Imperial College
+AMNAT,2009,,,Editorial Board,Ross,H.,Crozier,,Australia,male,SE,NA,James Cook University
+AMNAT,2009,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2009,,,Editorial Board,Claire,,deMezancourt,,England,female,SE,NA,"Imperial College,Silwood Park"
+AMNAT,2009,,,Editorial Board,Kathleen,,Donohue,,USA,female,SE,NA,Harvard University
+AMNAT,2009,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2009,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2009,,,Editorial Board,Christopher,G.,Eckert,,Canada,male,SE,NA,Queens University
+AMNAT,2009,,,Editorial Board,Santiago,F. ,Elena,,Spain,male,SE,NA,Consejo Superior de Investigaciones Cientificas
+AMNAT,2009,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2009,,,Editorial Board,James,D.,Fry,,USA,male,SE,NA, University of Rochester
+AMNAT,2009,,,Editorial Board,Greg,,Gibson,,USA,male,SE,NA, North Carolina State University
+AMNAT,2009,,,Editorial Board,George,W.,Gilchrist,,USA,male,SE,NA, College of William and Mary
+AMNAT,2009,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2009,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2009,,,Editorial Board,Michael,E.,Hellberg,,USA,male,SE,NA, Louisiana State University
+AMNAT,2009,,,Editorial Board,Carol,C.,Horvitz,,USA,female,SE,NA,University of Miami
+AMNAT,2009,,,Editorial Board,Lynn,D.,Houck,,USA,female,SE,NA,Oregon State University
+AMNAT,2009,,,Editorial Board,Jukka,,Jokela,,Switzerland,male,SE,NA,EAWAG/ETH-Zurich
+AMNAT,2009,,,Editorial Board,Susan,,Kalisz,,USA,female,SE,NA,University of Pittsburgh
+AMNAT,2009,,,Editorial Board,Matt,J.,Keeling,,England,male,SE,NA, University of Warwick
+AMNAT,2009,,,Editorial Board,Ellen,D.,Ketterson,,USA,female,SE,NA, Indiana University
+AMNAT,2009,,,Editorial Board,Christopher,A.,Klausmeier,,USA,male,SE,NA,Michigan State University
+AMNAT,2009,,,Editorial Board,Martin,J.,Lechowicz,,Canada,male,SE,NA,McGill University
+AMNAT,2009,,,Editorial Board,Matt,A,Leibold,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2009,,,Editorial Board,Marc,,Mangel,,USA,male,SE,NA,University of California-Santa Cruz
+AMNAT,2009,,,Editorial Board,John,L.,Maron,,USA,male,SE,NA,University of Montana
+AMNAT,2009,,,Editorial Board,Justin,,Marshall,,Australia,male,SE,NA,University of Queensland
+AMNAT,2009,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2009,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2009,,,Editorial Board,Allen,L.,Moore,,England,male,SE,NA, University of Manchester
+AMNAT,2009,,,Editorial Board,Peter,J.,Morin,,USA,male,SE,NA, Rutgers University
+AMNAT,2009,,,Editorial Board,Michael,G.,Neubert,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2009,,,Editorial Board,Nipam,H.,Patel,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2009,,,Editorial Board,Tommaso,,Pizzari,,UK,male,SE,NA, University of Oxford
+AMNAT,2009,,,Editorial Board,Anna,,Qvarnstrom,,Sweden,female,SE,NA,University of Uppsala
+AMNAT,2009,,,Editorial Board,Susanne,S.,Renner,,USA,female,SE,NA, University of Missouri-St.Louis
+AMNAT,2009,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2009,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2009,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2009,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2009,,,Editorial Board,Axel,G.,Rossberg,,Austria,male,SE,NA,International Institute for Applied Systems Analysis
+AMNAT,2009,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2009,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2009,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2009,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2009,,,Editorial Board,Diane,S.,Srivastava,,Canada,female,SE,NA,University of British Columbia
+AMNAT,2009,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2009,,,Editorial Board,Egbert,H.,VanNes,,Netherlands,male,SE,NA,Waginen University
+AMNAT,2009,,,Editorial Board,David,,Waxman,,England,male,SE,NA, University of Sussex
+AMNAT,2009,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2009,,,Editorial Board,Stuart,,West,,Scotland,male,SE,NA, Edinburgh University
+AMNAT,2009,,,Editorial Board,John,J.,Wiens,,USA,male,SE,NA, Stony Brook University
+AMNAT,2010,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2010,,,Editorial Board,Dean,C.,Adams,,USA,male,SE,NA,Iowa State University
+AMNAT,2010,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2010,,,Editorial Board,Fredrick,R.,Adler,,USA,male,SE,NA,University of Utah
+AMNAT,2010,,,Editorial Board,Suzanne,H. ,Alonzo,,USA,female,SE,NA,Yale University
+AMNAT,2010,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2010,,,Editorial Board,Maydianne,CB,Andrade,,Canada,female,SE,NA,University of Toronto-Scarborough
+AMNAT,2010,,,Editorial Board,Goran,,Arnqvist,,Sweden,male,SE,NA,University of Uppsala
+AMNAT,2010,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2010,,,Editorial Board,Charles,F.,Baer,,USA,male,SE,NA,University of Florida
+AMNAT,2010,,,Editorial Board,Uta,,Berger,,Germany,female,SE,NA,Dresden Institute of Technology
+AMNAT,2010,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2010,,,Editorial Board,Daniel ,I.,Bolnick,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2010,,,Editorial Board,Janette,W.,Boughman,,USA,female,SE,NA,University of Wisconsin-Madison
+AMNAT,2010,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2010,,,Editorial Board,Steven,L.,Chown,,South Africa,male,SE,NA, University of Stellenbosch 
+AMNAT,2010,,,Editorial Board,Blaine,J.,Cole,,USA,male,SE,NA,University of Houston
+AMNAT,2010,,,Editorial Board,Tim,,Coulson,,England,male,SE,NA, Imperial College
+AMNAT,2010,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2010,,,Editorial Board,Claire,,deMezancourt,,England,female,SE,NA,"Imperial College,Silwood Park"
+AMNAT,2010,,,Editorial Board,Kathleen,,Donohue,,USA,female,SE,NA,Harvard University
+AMNAT,2010,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2010,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2010,,,Editorial Board,Christopher,G.,Eckert,,Canada,male,SE,NA,Queens University
+AMNAT,2010,,,Editorial Board,Santiago,F. ,Elena,,Spain,male,SE,NA,Consejo Superior de Investigaciones Cientificas
+AMNAT,2010,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2010,,,Editorial Board,James,D.,Fry,,USA,male,SE,NA, University of Rochester
+AMNAT,2010,,,Editorial Board,Kevin,J. ,Gaston,,UK,male,SE,NA,University of Sheffield
+AMNAT,2010,,,Editorial Board,Greg,,Gibson,,USA,male,SE,NA, North Carolina State University
+AMNAT,2010,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2010,,,Editorial Board,Susan,,Harrison,,USA,female,SE,NA,University of California-Davis
+AMNAT,2010,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2010,,,Editorial Board,Michael,E.,Hellberg,,USA,male,SE,NA, Louisiana State University
+AMNAT,2010,,,Editorial Board,Ary,A,Hoffmann,,Australia,male,SE,NA,University of Melbourne
+AMNAT,2010,,,Editorial Board,Carol,C.,Horvitz,,USA,female,SE,NA,University of Miami
+AMNAT,2010,,,Editorial Board,Lynn,D.,Houck,,USA,female,SE,NA,Oregon State University
+AMNAT,2010,,,Editorial Board,Gregory ,,Hurst,,UK,male,SE,NA,University of Liverpool
+AMNAT,2010,,,Editorial Board,Darren,,Irwin,,Canada,male,SE,NA,University of British Columbia
+AMNAT,2010,,,Editorial Board,Jukka,,Jokela,,Switzerland,male,SE,NA,EAWAG/ETH-Zurich
+AMNAT,2010,,,Editorial Board,Susan,,Kalisz,,USA,female,SE,NA,University of Pittsburgh
+AMNAT,2010,,,Editorial Board,Matt,J.,Keeling,,England,male,SE,NA, University of Warwick
+AMNAT,2010,,,Editorial Board,Ellen,D.,Ketterson,,USA,female,SE,NA, Indiana University
+AMNAT,2010,,,Editorial Board,Christopher,A.,Klausmeier,,USA,male,SE,NA,Michigan State University
+AMNAT,2010,,,Editorial Board,Vlastimil,,Krivan,,Czech Republic,male,SE,NA,"Biology Centre, Ceske, Budejovice"
+AMNAT,2010,,,Editorial Board,Martin,J.,Lechowicz,,Canada,male,SE,NA,McGill University
+AMNAT,2010,,,Editorial Board,Matt,A,Leibold,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2010,,,Editorial Board,John,L.,Maron,,USA,male,SE,NA,University of Montana
+AMNAT,2010,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2010,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2010,,,Editorial Board,Allen,L.,Moore,,England,male,SE,NA, University of Manchester
+AMNAT,2010,,,Editorial Board,Peter,J.,Morin,,USA,male,SE,NA, Rutgers University
+AMNAT,2010,,,Editorial Board,Michael,G.,Neubert,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2010,,,Editorial Board,Tommaso,,Pizzari,,UK,male,SE,NA, University of Oxford
+AMNAT,2010,,,Editorial Board,Anna,,Qvarnstrom,,Sweden,female,SE,NA,University of Uppsala
+AMNAT,2010,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2010,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2010,,,Editorial Board,Sergio,,Rinaldi,,Italy,male,SE,NA,Politecnico di Milano
+AMNAT,2010,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2010,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2010,,,Editorial Board,Axel,G.,Rossberg,,Austria,male,SE,NA,International Institute for Applied Systems Analysis
+AMNAT,2010,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2010,,,Editorial Board,Oswald,J.,Schmitz,,USA,male,SE,NA,Yale University
+AMNAT,2010,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2010,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2010,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2010,,,Editorial Board,Diane,S.,Srivastava,,Canada,female,SE,NA,University of British Columbia
+AMNAT,2010,,,Editorial Board,Scott,J.,Steppan,,USA,male,SE,NA,Florida State University
+AMNAT,2010,,,Editorial Board,Erik,,Svensson,,Sweden,male,SE,NA,Lund University
+AMNAT,2010,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2010,,,Editorial Board,Egbert,H.,VanNes,,Netherlands,male,SE,NA,Waginen University
+AMNAT,2010,,,Editorial Board,David,,Waxman,,England,male,SE,NA, University of Sussex
+AMNAT,2010,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2010,,,Editorial Board,Stuart,,West,,Scotland,male,SE,NA, Edinburgh University
+AMNAT,2011,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2011,,,Editorial Board,Dean,C.,Adams,,USA,male,SE,NA,Iowa State University
+AMNAT,2011,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2011,,,Editorial Board,Fredrick,R.,Adler,,USA,male,SE,NA,University of Utah
+AMNAT,2011,,,Editorial Board,Anurag,,Agrawal,,USA,male,SE,NA,Cornell University
+AMNAT,2011,,,Editorial Board,Suzanne,H. ,Alonzo,,USA,female,SE,NA,Yale University
+AMNAT,2011,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2011,,,Editorial Board,Maydianne,CB,Andrade,,Canada,female,SE,NA,University of Toronto-Scarborough
+AMNAT,2011,,,Editorial Board,Michael,,Angilletta,,USA,male,SE,NA,Arizona State University
+AMNAT,2011,,,Editorial Board,Goran,,Arnqvist,,Sweden,male,SE,NA,University of Uppsala
+AMNAT,2011,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2011,,,Editorial Board,Charles,F.,Baer,,USA,male,SE,NA,University of Florida
+AMNAT,2011,,,Editorial Board,Uta,,Berger,,Germany,female,SE,NA,Dresden Institute of Technology
+AMNAT,2011,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2011,,,Editorial Board,Daniel ,I.,Bolnick,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2011,,,Editorial Board,Janette,W.,Boughman,,USA,female,SE,NA,University of Wisconsin-Madison
+AMNAT,2011,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2011,,,Editorial Board,Blaine,J.,Cole,,USA,male,SE,NA,University of Houston
+AMNAT,2011,,,Editorial Board,Troy,,Day,,Canada,male,SE,NA,Queens University
+AMNAT,2011,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2011,,,Editorial Board,Sebastian,,Diehl,,Sweden,male,SE,NA,Umea University
+AMNAT,2011,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2011,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2011,,,Editorial Board,Christopher,G.,Eckert,,Canada,male,SE,NA,Queens University
+AMNAT,2011,,,Editorial Board,Santiago,F. ,Elena,,Spain,male,SE,NA,Consejo Superior de Investigaciones Cientificas
+AMNAT,2011,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2011,,,Editorial Board,James,,Elser,,USA,male,SE,NA,Arizona State University
+AMNAT,2011,,,Editorial Board,James,D.,Fry,,USA,male,SE,NA, University of Rochester
+AMNAT,2011,,,Editorial Board,Jean-Michelle ,,Gaillard,,France,male,SE,NA,University Lyon 1-CNRS
+AMNAT,2011,,,Editorial Board,Kevin,J. ,Gaston,,UK,male,SE,NA,University of Sheffield
+AMNAT,2011,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2011,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2011,,,Editorial Board,Ary,A,Hoffmann,,Australia,male,SE,NA,University of Melbourne
+AMNAT,2011,,,Editorial Board,Carol,C.,Horvitz,,USA,female,SE,NA,University of Miami
+AMNAT,2011,,,Editorial Board,Lynn,D.,Houck,,USA,female,SE,NA,Oregon State University
+AMNAT,2011,,,Editorial Board,Gregory ,,Hurst,,UK,male,SE,NA,University of Liverpool
+AMNAT,2011,,,Editorial Board,Darren,,Irwin,,Canada,male,SE,NA,University of British Columbia
+AMNAT,2011,,,Editorial Board,Ellen,D.,Ketterson,,USA,female,SE,NA, Indiana University
+AMNAT,2011,,,Editorial Board,Vlastimil,,Krivan,,Czech Republic,male,SE,NA,"Biology Centre, Ceske, Budejovice"
+AMNAT,2011,,,Editorial Board,Matt,A,Leibold,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2011,,,Editorial Board,Marc,,Mangel,,USA,male,SE,NA,University of California-Santa Cruz
+AMNAT,2011,,,Editorial Board,Carlos ,,MartinezDelRio,,USA,male,SE,NA,University of Wyoming
+AMNAT,2011,,,Editorial Board,Brian,J.,McGill,,USA,male,SE,NA,University of Arizona
+AMNAT,2011,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2011,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2011,,,Editorial Board,William,F,Morris,,USA,male,SE,NA,Duke University
+AMNAT,2011,,,Editorial Board,Michael,G.,Neubert,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2011,,,Editorial Board,Tommaso,,Pizzari,,UK,male,SE,NA, University of Oxford
+AMNAT,2011,,,Editorial Board,Anna,,Qvarnstrom,,Sweden,female,SE,NA,University of Uppsala
+AMNAT,2011,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2011,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2011,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2011,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2011,,,Editorial Board,Axel,G.,Rossberg,,Austria,male,SE,NA,International Institute for Applied Systems Analysis
+AMNAT,2011,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2011,,,Editorial Board,Oswald,J.,Schmitz,,USA,male,SE,NA,Yale University
+AMNAT,2011,,,Editorial Board,Maria,,Servedio,,USA,female,SE,NA,UNC-Chapel Hill
+AMNAT,2011,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2011,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2011,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2011,,,Editorial Board,Diane,S.,Srivastava,,Canada,female,SE,NA,University of British Columbia
+AMNAT,2011,,,Editorial Board,Scott,J.,Steppan,,USA,male,SE,NA,Florida State University
+AMNAT,2011,,,Editorial Board,Erik,,Svensson,,Sweden,male,SE,NA,Lund University
+AMNAT,2011,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2011,,,Editorial Board,Egbert,H.,VanNes,,Netherlands,male,SE,NA,Waginen University
+AMNAT,2011,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2011,,,Editorial Board,Stuart,,West,,Scotland,male,SE,NA, Edinburgh University
+AMNAT,2012,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2012,,,Editorial Board,Dean,C.,Adams,,USA,male,SE,NA,Iowa State University
+AMNAT,2012,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2012,,,Editorial Board,Fredrick,R.,Adler,,USA,male,SE,NA,University of Utah
+AMNAT,2012,,,Editorial Board,Anurag,,Agrawal,,USA,male,SE,NA,Cornell University
+AMNAT,2012,,,Editorial Board,Suzanne,H. ,Alonzo,,USA,female,SE,NA,Yale University
+AMNAT,2012,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2012,,,Editorial Board,Michael,,Angilletta,,USA,male,SE,NA,Arizona State University
+AMNAT,2012,,,Editorial Board,Goran,,Arnqvist,,Sweden,male,SE,NA,University of Uppsala
+AMNAT,2012,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2012,,,Editorial Board,Charles,F.,Baer,,USA,male,SE,NA,University of Florida
+AMNAT,2012,,,Editorial Board,Uta,,Berger,,Germany,female,SE,NA,Dresden Institute of Technology
+AMNAT,2012,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2012,,,Editorial Board,Daniel ,I.,Bolnick,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2012,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2012,,,Editorial Board,Blaine,J.,Cole,,USA,male,SE,NA,University of Houston
+AMNAT,2012,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2012,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2012,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2012,,,Editorial Board,Christopher,G.,Eckert,,Canada,male,SE,NA,Queens University
+AMNAT,2012,,,Editorial Board,Santiago,F. ,Elena,,Spain,male,SE,NA,Consejo Superior de Investigaciones Cientificas
+AMNAT,2012,,,Editorial Board,Elizabeth,,Elle,,Canada,female,SE,NA, Simon Fraser University
+AMNAT,2012,,,Editorial Board,James,,Elser,,USA,male,SE,NA,Arizona State University
+AMNAT,2012,,,Editorial Board,Jean-Michelle ,,Gaillard,,France,male,SE,NA,University Lyon 1-CNRS
+AMNAT,2012,,,Editorial Board,Andy,,Gardner,,UK,male,SE,NA,University of Oxford
+AMNAT,2012,,,Editorial Board,Kevin,J. ,Gaston,,UK,male,SE,NA,University of Sheffield
+AMNAT,2012,,,Editorial Board,Volker,,Grimm,,Germany,male,SE,NA, UfZ Centre for Environmental Research Leipzig-Halle
+AMNAT,2012,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2012,,,Editorial Board,Kimberly ,A,Hughes,,USA,female,SE,NA,Florida State University
+AMNAT,2012,,,Editorial Board,Gregory ,,Hurst,,UK,male,SE,NA,University of Liverpool
+AMNAT,2012,,,Editorial Board,Darren,,Irwin,,Canada,male,SE,NA,University of British Columbia
+AMNAT,2012,,,Editorial Board,Susan,,Kalisz,,USA,female,SE,NA,University of Pittsburgh
+AMNAT,2012,,,Editorial Board,Vlastimil,,Krivan,,Czech Republic,male,SE,NA,"Biology Centre, Ceske, Budejovice"
+AMNAT,2012,,,Editorial Board,Matt,A,Leibold,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2012,,,Editorial Board,Marc,,Mangel,,USA,male,SE,NA,University of California-Santa Cruz
+AMNAT,2012,,,Editorial Board,John,L.,Maron,,USA,male,SE,NA,University of Montana
+AMNAT,2012,,,Editorial Board,Carlos ,,MartinezDelRio,,USA,male,SE,NA,University of Wyoming
+AMNAT,2012,,,Editorial Board,Brian,J.,McGill,,USA,male,SE,NA,University of Arizona
+AMNAT,2012,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2012,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2012,,,Editorial Board,William,F,Morris,,USA,male,SE,NA,Duke University
+AMNAT,2012,,,Editorial Board,Michael,G.,Neubert,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2012,,,Editorial Board,Tommaso,,Pizzari,,UK,male,SE,NA, University of Oxford
+AMNAT,2012,,,Editorial Board,Anna,,Qvarnstrom,,Sweden,female,SE,NA,University of Uppsala
+AMNAT,2012,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2012,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2012,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2012,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2012,,,Editorial Board,Axel,G.,Rossberg,,Austria,male,SE,NA,International Institute for Applied Systems Analysis
+AMNAT,2012,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2012,,,Editorial Board,Oswald,J.,Schmitz,,USA,male,SE,NA,Yale University
+AMNAT,2012,,,Editorial Board,Maria,,Servedio,,USA,female,SE,NA,UNC-Chapel Hill
+AMNAT,2012,,,Editorial Board,Ben,,Sheldon,,England,male,SE,NA, University of Oxford
+AMNAT,2012,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2012,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2012,,,Editorial Board,Diane,S.,Srivastava,,Canada,female,SE,NA,University of British Columbia
+AMNAT,2012,,,Editorial Board,John,J,Stachowicz,,USA,male,SE,NA,University of California-Davis
+AMNAT,2012,,,Editorial Board,Scott,J.,Steppan,,USA,male,SE,NA,Florida State University
+AMNAT,2012,,,Editorial Board,Erik,,Svensson,,Sweden,male,SE,NA,Lund University
+AMNAT,2012,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2012,,,Editorial Board,Egbert,H.,VanNes,,Netherlands,male,SE,NA,Waginen University
+AMNAT,2012,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2013,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2013,,,Editorial Board,Dean,C.,Adams,,USA,male,SE,NA,Iowa State University
+AMNAT,2013,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2013,,,Editorial Board,Fredrick,R.,Adler,,USA,male,SE,NA,University of Utah
+AMNAT,2013,,,Editorial Board,Anurag,,Agrawal,,USA,male,SE,NA,Cornell University
+AMNAT,2013,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2013,,,Editorial Board,Michael,,Angilletta,,USA,male,SE,NA,Arizona State University
+AMNAT,2013,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2013,,,Editorial Board,Charles,F.,Baer,,USA,male,SE,NA,University of Florida
+AMNAT,2013,,,Editorial Board,Uta,,Berger,,Germany,female,SE,NA,Dresden Institute of Technology
+AMNAT,2013,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2013,,,Editorial Board,Daniel ,I.,Bolnick,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2013,,,Editorial Board,Russel,,Bonduriansky,,Australia,male,SE,NA,University of New South Wales
+AMNAT,2013,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2013,,,Editorial Board,Blaine,J.,Cole,,USA,male,SE,NA,University of Houston
+AMNAT,2013,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2013,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2013,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2013,,,Editorial Board,Christopher,G.,Eckert,,Canada,male,SE,NA,Queens University
+AMNAT,2013,,,Editorial Board,James,,Elser,,USA,male,SE,NA,Arizona State University
+AMNAT,2013,,,Editorial Board,Jean-Michelle ,,Gaillard,,France,male,SE,NA,University Lyon 1-CNRS
+AMNAT,2013,,,Editorial Board,Andy,,Gardner,,UK,male,SE,NA,University of Oxford
+AMNAT,2013,,,Editorial Board,Kevin,J. ,Gaston,,UK,male,SE,NA,University of Sheffield
+AMNAT,2013,,,Editorial Board,Jurgen,,Groeneveld,,Germany,male,SE,NA,Helmholtz Centre for Environmental Research-UFZ
+AMNAT,2013,,,Editorial Board,Susan,,Harrison,,USA,female,SE,NA,University of California-Davis
+AMNAT,2013,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2013,,,Editorial Board,Kimberly ,A,Hughes,,USA,female,SE,NA,Florida State University
+AMNAT,2013,,,Editorial Board,Vlastimil,,Krivan,,Czech Republic,male,SE,NA,"Biology Centre, Ceske, Budejovice"
+AMNAT,2013,,,Editorial Board,Matt,A,Leibold,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2013,,,Editorial Board,Marc,,Mangel,,USA,male,SE,NA,University of California-Santa Cruz
+AMNAT,2013,,,Editorial Board,John,L.,Maron,,USA,male,SE,NA,University of Montana
+AMNAT,2013,,,Editorial Board,Carlos ,,MartinezDelRio,,USA,male,SE,NA,University of Wyoming
+AMNAT,2013,,,Editorial Board,Brian,J.,McGill,,USA,male,SE,NA,University of Arizona
+AMNAT,2013,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2013,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2013,,,Editorial Board,William,F,Morris,,USA,male,SE,NA,Duke University
+AMNAT,2013,,,Editorial Board,Michael,G.,Neubert,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2013,,,Editorial Board,Peter,,Nonacs,,USA,male,SE,NA,University of California-Los Angeles
+AMNAT,2013,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2013,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2013,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2013,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2013,,,Editorial Board,Axel,G.,Rossberg,,Austria,male,SE,NA,International Institute for Applied Systems Analysis
+AMNAT,2013,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2013,,,Editorial Board,Oswald,J.,Schmitz,,USA,male,SE,NA,Yale University
+AMNAT,2013,,,Editorial Board,Maria,,Servedio,,USA,female,SE,NA,UNC-Chapel Hill
+AMNAT,2013,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2013,,,Editorial Board,Andrew,,Solow,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2013,,,Editorial Board,Diane,S.,Srivastava,,Canada,female,SE,NA,University of British Columbia
+AMNAT,2013,,,Editorial Board,John,J,Stachowicz,,USA,male,SE,NA,University of California-Davis
+AMNAT,2013,,,Editorial Board,Scott,J.,Steppan,,USA,male,SE,NA,Florida State University
+AMNAT,2013,,,Editorial Board,Erik,,Svensson,,Sweden,male,SE,NA,Lund University
+AMNAT,2013,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2013,,,Editorial Board,J.,Albert C.,Uy,,USA,male,SE,NA,University of Miami
+AMNAT,2013,,,Editorial Board,Egbert,H.,VanNes,,Netherlands,male,SE,NA,Waginen University
+AMNAT,2013,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2013,,,Editorial Board,Tony,D.,Williams,,Canada,male,SE,NA,Simon Fraser University
+AMNAT,2014,,,Editorial Board,David,D.,Ackerly,,USA,male,SE,NA,University of California-Berkeley
+AMNAT,2014,,,Editorial Board,Elizabeth,,Adkins-Regan,,USA,female,SE,NA, Cornell University
+AMNAT,2014,,,Editorial Board,Fredrick,R.,Adler,,USA,male,SE,NA,University of Utah
+AMNAT,2014,,,Editorial Board,Priyanga,,Amarasekare,,USA,female,SE,NA,University of California-Los Angeles
+AMNAT,2014,,,Editorial Board,Tia-Lynn,,Ashman,,USA,female,SE,NA, University of Pittsburgh
+AMNAT,2014,,,Editorial Board,Charles,F.,Baer,,USA,male,SE,NA,University of Florida
+AMNAT,2014,,,Editorial Board,Uta,,Berger,,Germany,female,SE,NA,Dresden Institute of Technology
+AMNAT,2014,,,Editorial Board,Benjamin,,Bolker,,USA,male,SE,NA, University of Florida
+AMNAT,2014,,,Editorial Board,Daniel ,I.,Bolnick,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2014,,,Editorial Board,Russel,,Bonduriansky,,Australia,male,SE,NA,University of New South Wales
+AMNAT,2014,,,Editorial Board,Edmund,D.,Brodie,III,USA,male,SE,NA, Indiana University
+AMNAT,2014,,,Editorial Board,Blaine,J.,Cole,,USA,male,SE,NA,University of Houston
+AMNAT,2014,,,Editorial Board,Sean,R.,Connolly,,Australia,male,SE,NA,James Cook University
+AMNAT,2014,,,Editorial Board,Gregory,E.,Demas,,USA,male,SE,NA,Indiana University
+AMNAT,2014,,,Editorial Board,Sebastian,,Diehl,,Sweden,male,SE,NA,Umea University
+AMNAT,2014,,,Editorial Board,Robert,,Dudley,,USA,male,SE,NA, University of California-Berkeley
+AMNAT,2014,,,Editorial Board,Greg,,Dwyer,,USA,male,SE,NA,University of Chicago
+AMNAT,2014,,,Editorial Board,Christopher,G.,Eckert,,Canada,male,SE,NA,Queens University
+AMNAT,2014,,,Editorial Board,James,,Elser,,USA,male,SE,NA,Arizona State University
+AMNAT,2014,,,Editorial Board,Jean-Michelle ,,Gaillard,,France,male,SE,NA,University Lyon 1-CNRS
+AMNAT,2014,,,Editorial Board,Andy,,Gardner,,UK,male,SE,NA,University of Oxford
+AMNAT,2014,,,Editorial Board,Kevin,J. ,Gaston,,UK,male,SE,NA,University of Sheffield
+AMNAT,2014,,,Editorial Board,Jurgen,,Groeneveld,,Germany,male,SE,NA,Helmholtz Centre for Environmental Research-UFZ
+AMNAT,2014,,,Editorial Board,Kevin,,Gross,,USA,male,SE,NA,North Carolina State University
+AMNAT,2014,,,Editorial Board,Spencer ,R.,Hall,,USA,male,SE,NA,Indiana University
+AMNAT,2014,,,Editorial Board,Lawrence,,Harder,,Canada,male,SE,NA,University of Calgary
+AMNAT,2014,,,Editorial Board,Luke,,Harmon,,USA,male,SE,NA,University of Idaho
+AMNAT,2014,,,Editorial Board,Susan,,Harrison,,USA,female,SE,NA,University of California-Davis
+AMNAT,2014,,,Editorial Board,Stephen,B.,Heard,,Canada,male,SE,NA, University of New Brunswick
+AMNAT,2014,,,Editorial Board,J.,Nathaniel,Holland,,USA,male,SE,NA,University of Houston
+AMNAT,2014,,,Editorial Board,Kimberly ,A,Hughes,,USA,female,SE,NA,Florida State University
+AMNAT,2014,,,Editorial Board,Michael,,Kearney,,Australia,male,SE,NA,University of Melbourne
+AMNAT,2014,,,Editorial Board,Andrew,J,Kerkhoff,,USA,male,SE,NA,Kenyon College
+AMNAT,2014,,,Editorial Board,Vlastimil,,Krivan,,Czech Republic,male,SE,NA,"Biology Centre, Ceske, Budejovice"
+AMNAT,2014,,,Editorial Board,Matt,A,Leibold,,USA,male,SE,NA,University of Texas-Austin
+AMNAT,2014,,,Editorial Board,Marc,,Mangel,,USA,male,SE,NA,University of California-Santa Cruz
+AMNAT,2014,,,Editorial Board,John,L.,Maron,,USA,male,SE,NA,University of Montana
+AMNAT,2014,,,Editorial Board,Yannis,,Michalakis,,France,male,SE,NA, CNRS-IRI-Montpellier
+AMNAT,2014,,,Editorial Board,Wolf,M.,Mooij,,Netherlands,male,SE,NA, Netherlands Institute of Ecology
+AMNAT,2014,,,Editorial Board,Michael,G.,Neubert,,USA,male,SE,NA, Woods Hole Oceanographic Institute
+AMNAT,2014,,,Editorial Board,Peter,,Nonacs,,USA,male,SE,NA,University of California-Los Angeles
+AMNAT,2014,,,Editorial Board,Scott,L.,Nuismer,,USA,male,SE,NA,University of Idaho
+AMNAT,2014,,,Editorial Board,Sean,,Odonnell,,USA,male,SE,NA,Drexel University
+AMNAT,2014,,,Editorial Board,David,N.,Reznick,,USA,male,SE,NA, University of California-Riverside
+AMNAT,2014,,,Editorial Board,Sean,H.,Rice,,USA,male,SE,NA,Texas Tech University
+AMNAT,2014,,,Editorial Board,Daniel,L.,Roelke,,USA,male,SE,NA,Texas A&M University
+AMNAT,2014,,,Editorial Board,Pej,,Rohani,,USA,male,SE,NA,University of Georgia
+AMNAT,2014,,,Editorial Board,Axel,G.,Rossberg,,Austria,male,SE,NA,International Institute for Applied Systems Analysis
+AMNAT,2014,,,Editorial Board,Locke,,Rowe,,Canada,male,SE,NA, University of Toronto
+AMNAT,2014,,,Editorial Board,Volker,HW,Rudolf,,USA,male,SE,NA,Rice University
+AMNAT,2014,,,Editorial Board,Maria,,Servedio,,USA,female,SE,NA,UNC-Chapel Hill
+AMNAT,2014,,,Editorial Board,Thomas,N.,Sherratt,,Canada,male,SE,NA,Carleton University
+AMNAT,2014,,,Editorial Board,John,J,Stachowicz,,USA,male,SE,NA,University of California-Davis
+AMNAT,2014,,,Editorial Board,Scott,J.,Steppan,,USA,male,SE,NA,Florida State University
+AMNAT,2014,,,Editorial Board,Erik,,Svensson,,Sweden,male,SE,NA,Lund University
+AMNAT,2014,,,Editorial Board,Peter,D.,Taylor,,Canada,male,SE,NA, Queens University
+AMNAT,2014,,,Editorial Board,J.,Albert C.,Uy,,USA,male,SE,NA,University of Miami
+AMNAT,2014,,,Editorial Board,Mark,,Vellend,,Canada,male,SE,NA,Universite de Sherbrook
+AMNAT,2014,,,Editorial Board,Egbert,H.,VanNes,,Netherlands,male,SE,NA,Waginen University
+AMNAT,2014,,,Editorial Board,Franz,J.,Weissing,,Netherlands,male,SE,NA,University of Groningen
+AMNAT,2014,,,Editorial Board,Tony,D.,Williams,,Canada,male,SE,NA,Simon Fraser University
+AMNAT,2014,,,Editorial Board,Alice,A,Winn,,USA,female,SE,NA,Florida State University
+AMNAT,1985,125,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1985,126,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1986,127,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1986,128,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1987,129,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1987,130,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1988,131,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1988,132,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1989,133,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1989,134,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1990,135,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1990,136,1,EIC,Marcus,W,Feldman,,USA,NA,EIC,NA,Stanford University
+AMNAT,1991,137,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1991,138,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1992,139,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1992,140,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1993,141,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1993,142,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1994,143,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1994,144,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1995,145,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1995,146,1,EIC,Mark,D,Rausher,,USA,NA,EIC,NA,Duke University
+AMNAT,1996,147,1,EIC,Joel,G,Kingsolver,,USA,NA,EIC,NA,University of Washington
+AMNAT,1996,148,1,EIC,Joel,G,Kingsolver,,USA,NA,EIC,NA,University of Washington
+AMNAT,1997,149,1,EIC,Joel,G,Kingsolver,,USA,NA,EIC,NA,University of Washington
+AMNAT,1998,151,1,EIC,Joel,G,Kingsolver,,USA,NA,EIC,NA,University of Washington
+AMNAT,1999,153,1,EIC,Joseph,,Travis,,USA,NA,EIC,NA,Florida State University
+AMNAT,2000,155,1,EIC,Joseph,,Travis,,USA,NA,EIC,NA,Florida State University
+AMNAT,2001,157,1,EIC,Joseph,,Travis,,USA,NA,EIC,NA,Florida State University
+AMNAT,2002,159,1,EIC,Joseph,,Travis,,USA,NA,EIC,NA,Florida State University
+AMNAT,2003,161,1,EIC,Jonathan,B,Losos,,USA,NA,EIC,NA,Washington University
+AMNAT,2004,163,1,EIC,Jonathan,B,Losos,,USA,NA,EIC,NA,Washington University
+AMNAT,2005,165,1,EIC,Jonathan,B,Losos,,USA,NA,EIC,NA,Washington University
+AMNAT,2015,186,1,EIC,Judith,L,Bronstein,,USA,NA,EIC,NA,University of Arizona
+AMNAT,2006,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2007,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2008,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2010,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2011,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2012,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2013,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2014,,,Managing Editor,Patrica,L.,Morse,,NA,female,NA,NA,NA
+AMNAT,2007,,,Natural HistoryEditor ,Henry,M.,Wilbur,,USA,male,SE,NA,University of Virginia
+AMNAT,2008,,,Natural HistoryEditor ,Henry,M.,Wilbur,,USA,male,SE,NA,University of Virginia
+AMNAT,2009,,,Natural HistoryEditor ,Craig,W.,Benkman,,USA,male,SE,NA,University of Wyoming
+AMNAT,2010,,,Natural HistoryEditor ,Craig,W.,Benkman,,USA,male,SE,NA,University of Wyoming
+AMNAT,2011,,,Natural HistoryEditor ,Craig,W.,Benkman,,USA,male,SE,NA,University of Wyoming
+AMNAT,2012,,,Natural HistoryEditor ,Joshua,,Tewksbury,,USA,male,SE,NA,University of Wyoming
+AMNAT,2013,,,Natural HistoryEditor ,Mark,,McPeek,,USA,male,SE,NA,Dartmouth College
+AMNAT,2014,,,Natural HistoryEditor ,Mark,,McPeek,,USA,male,SE,NA,Dartmouth College
+AMNAT,2005,165,1,,Michael,,Whitlock,,Canada,NA,SE,NA,University of British Columbia
+AMNAT,2015,186,1,,Mark,A,McPeek,,USA,NA,SE,NA,Dartmouth College
+AMNAT,2015,186,1,,Alice,A,Winn,,USA,NA,SE,NA,Florida State University
+AMNAT,2015,186,1,,Yannis,,Michalakis,,France,NA,SE,NA,CNRS-IRD

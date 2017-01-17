@@ -1,0 +1,941 @@
+JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+PLANTECOL,1985,58,3,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1985,58,3,Editor,Mike,P.,Austin,,Australia,M,SE,,CSIRO
+PLANTECOL,1985,58,3,Editor,James,S.,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECOL,1985,58,3,Editor,Michael,B.,Dale,,Australia,M,SE,,CSIRO
+PLANTECOL,1985,58,3,Editor,Antoni,W.H.,Damman,,United States,M,SE,,University of Connecticut
+PLANTECOL,1985,58,3,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECOL,1985,58,3,Editor,Charles,H.,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECOL,1985,58,3,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1985,58,3,Editor,Peter,J.,Grubb,,England,M,SE,,University of Cambridge
+PLANTECOL,1985,58,3,Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1985,58,3,Editor,Robert,K.,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1985,58,3,Editor,Iain,C.,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECOL,1985,58,3,Editor,Argenta,A.,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECOL,1985,58,3,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECOL,1985,58,3,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universite de Paris
+PLANTECOL,1985,58,3,Editor,Wolfgang,,Holzner,,Austria,M,SE,,Universitat fur Bodenkultur
+PLANTECOL,1985,58,3,Editor,Frank,,Klotzli,,Switzerland,M,SE,,Geobotanisches Institut
+PLANTECOL,1985,58,3,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECOL,1986,64,"2,3",Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1986,64,"2,3",Editor,Mike,P.,Austin,,Australia,M,SE,,CSIRO
+PLANTECOL,1986,64,"2,3",Editor,James,S.,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECOL,1986,64,"2,3",Editor,Michael,B.,Dale,,Australia,M,SE,,CSIRO
+PLANTECOL,1986,64,"2,3",Editor,Antoni,W.H.,Damman,,United States,M,SE,,University of Connecticut
+PLANTECOL,1986,64,"2,3",Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECOL,1986,64,"2,3",Editor,Charles,H.,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECOL,1986,64,"2,3",Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1986,64,"2,3",Editor,Peter,J.,Grubb,,England,M,SE,,University of Cambridge
+PLANTECOL,1986,64,"2,3",Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1986,64,"2,3",Editor,Robert,K.,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1986,64,"2,3",Editor,Iain,C.,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECOL,1986,64,"2,3",Editor,Argenta,A.,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECOL,1986,64,"2,3",Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECOL,1986,64,"2,3",Editor,Jean-Marie,,Gehu,,France,M,SE,,Universite de Paris
+PLANTECOL,1986,64,"2,3",Editor,Wolfgang,,Holzner,,Austria,M,SE,,Universitat fur Bodenkultur
+PLANTECOL,1986,64,"2,3",Editor,Frank,,Klotzli,,Switzerland,M,SE,,Geobotanisches Institut
+PLANTECOL,1986,64,"2,3",Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECOL,1987,68,3,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1987,68,3,Editor,Mike,P.,Austin,,Australia,M,SE,,CSIRO
+PLANTECOL,1987,68,3,Editor,James,S.,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECOL,1987,68,3,Editor,Michael,B.,Dale,,Australia,M,SE,,CSIRO
+PLANTECOL,1987,68,3,Editor,Antoni,W.H.,Damman,,United States,M,SE,,University of Connecticut
+PLANTECOL,1987,68,3,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECOL,1987,68,3,Editor,Charles,H.,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECOL,1987,68,3,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1987,68,3,Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1987,68,3,Editor,Robert,K.,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1987,68,3,Editor,Francisco,D.,Pineda,,Spain,M,SE,,Universidad Complutense
+PLANTECOL,1987,68,3,Editor,Iain,C.,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECOL,1987,68,3,Editor,Argenta,A.,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECOL,1987,68,3,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECOL,1987,68,3,Editor,Max,,Debussche,,France,M,SE,,Centre national de la recherche scientifique
+PLANTECOL,1987,68,3,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universite de Paris
+PLANTECOL,1987,68,3,Editor,Wolfgang,,Holzner,,Austria,M,SE,,Universitat fur Bodenkultur
+PLANTECOL,1987,68,3,Editor,Frank,,Klotzli,,Switzerland,M,SE,,Geobotanisches Institut
+PLANTECOL,1987,68,3,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECOL,1988,73,2,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1988,73,2,Editor,Mike,P.,Austin,,Australia,M,SE,,CSIRO
+PLANTECOL,1988,73,2,Editor,James,S.,Beard,,Australia,M,SE,,Vegetation Survey of Western Australia
+PLANTECOL,1988,73,2,Editor,Michael,B.,Dale,,Australia,M,SE,,CSIRO
+PLANTECOL,1988,73,2,Editor,Antoni,W.H.,Damman,,United States,M,SE,,University of Connecticut
+PLANTECOL,1988,73,2,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECOL,1988,73,2,Editor,Cajo,JF,TerBraak,,The Netherlands,M,SE,,Wageningen University
+PLANTECOL,1988,73,2,Editor,Charles,H.,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECOL,1988,73,2,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1988,73,2,Editor,Richard,J.,Hobbs,,Australia,M,SE,,CSIRO
+PLANTECOL,1988,73,2,Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1988,73,2,Editor,Robert,K.,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1988,73,2,Editor,Steward,T.A.,Pickett,,United States,M,SE,,New York Botanical Garden
+PLANTECOL,1988,73,2,Editor,Francisco,D.,Pineda,,Spain,M,SE,,Universidad Complutense
+PLANTECOL,1988,73,2,Editor,Iain,C.,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECOL,1988,73,2,Editor,Argenta,A.,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECOL,1988,73,2,Editor,Timothy,C.,Whitmore,,England,M,SE,,Oxford Forestry Institute
+PLANTECOL,1988,73,2,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECOL,1988,73,2,Editor,Max,,Debussche,,France,M,SE,,Centre national de la recherche scientifique
+PLANTECOL,1988,73,2,Editor,Jean-Marie,,Gehu,,France,M,SE,,Universite de Paris
+PLANTECOL,1988,73,2,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,1988,73,2,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECOL,1989,80,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1989,80,1,Editor,Michael,B.,Dale,,Australia,M,SE,,CSIRO
+PLANTECOL,1989,80,1,Editor,Antoni,W.H.,Damman,,United States,M,SE,,University of Connecticut
+PLANTECOL,1989,80,1,Editor-in-Chief,Eddy,,VanDerMaarel,,Sweden,M,EIC,,Uppsala University
+PLANTECOL,1989,80,1,Editor,Cajo,JF,TerBraak,,The Netherlands,M,SE,,Wageningen University
+PLANTECOL,1989,80,1,Editor,Charles,H.,Gimingham,,Scotland,M,SE,,University of Aberdeen
+PLANTECOL,1989,80,1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1989,80,1,Editor,Richard,J.,Hobbs,,Australia,M,SE,,CSIRO
+PLANTECOL,1989,80,1,Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1989,80,1,Editor,Peter,M.,Minchin,,Australia,M,SE,,CSIRO
+PLANTECOL,1989,80,1,Editor,Robert,K.,Peet,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1989,80,1,Editor,Steward,T.A.,Pickett,,United States,M,SE,,New York Botanical Garden
+PLANTECOL,1989,80,1,Editor,Francisco,D.,Pineda,,Spain,M,SE,,Universidad Complutense
+PLANTECOL,1989,80,1,Editor,Iain,C.,Prentice,,Sweden,M,SE,,Uppsala University
+PLANTECOL,1989,80,1,Editor,Argenta,A.,Titlyanova,,USSR,F,SE,,Siberian Branch of the Academy of Sciences
+PLANTECOL,1989,80,1,Editor,Thomas,T.,Veblen,,United States,M,SE,,"University of Colorado, Boulder"
+PLANTECOL,1989,80,1,Editor,Timothy,C.,Whitmore,,England,M,SE,,Oxford Forestry Institute
+PLANTECOL,1989,80,1,Editor,Reinhard,,Bornkamm,,Germany,M,SE,,Technical University Berlin
+PLANTECOL,1989,80,1,Editor,Max,,Debussche,,France,M,SE,,Centre national de la recherche scientifique
+PLANTECOL,1989,80,1,Editor,Jari,,Oksanen,,Finland,M,SE,,University of Kuopio
+PLANTECOL,1989,80,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,1989,80,1,Editor,James,,White,,Ireland,M,SE,,University College Dublin
+PLANTECOL,1990,86,1,Associate Editor,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,1990,86,1,Editor,Elgene,O.,Box,,United States,M,SE,,"University of Georgia, Athens"
+PLANTECOL,1990,86,1,Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1990,86,1,Associate Editor,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,1990,86,1,Editor,Konstantin,O.,Korotkov,,USSR,M,SE,,Institute of Animal Evolutionary Morphology and Ecology
+PLANTECOL,1990,86,1,Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1990,86,1,Editor,Leonid,I.,Malyshev,,USSR,M,SE,,Siberian Central Botanical Garden
+PLANTECOL,1990,86,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1990,86,1,Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1990,86,1,Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1990,86,1,Editor,Vadim,N.,Tikhomirov,,USSR,M,SE,,Moscow State University
+PLANTECOL,1990,86,1,Editor,Arnold,G.,VanDerValk,,United States,M,SE,,Iowa State University
+PLANTECOL,1990,86,1,Editor,Dale,H.,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECOL,1990,86,1,Editor,Mohan,K.,Wali,,United States,M,SE,,Ohio State University
+PLANTECOL,1990,86,1,Editor,Neil,E.,West,,United States,M,SE,,Utah State University
+PLANTECOL,1990,86,1,Editor-in-Chief,Helmut,,Lieth,,Germany,M,EIC,,Universitat Osnabruck
+PLANTECOL,1990,86,1,Associate Editor,Atsushi,,Miyawaki,,Japan,M,AE,,Yokohama National University
+PLANTECOL,1990,86,1,Editor,Kazue,,Fujiwara,,Japan,F,SE,,Yokohama National University
+PLANTECOL,1990,86,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1990,86,1,Editor,Otto,,Hegg,,Switzerland,M,SE,,University of Bern
+PLANTECOL,1990,86,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1990,86,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1990,86,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,1990,86,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1990,86,1,Editor,Kazimierz,,Zarzycki,,Poland,M,SE,,Polish Academy of Sciences
+PLANTECOL,1991,91,"1,2",Associate Editor,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,1991,91,"1,2",Editor,Jelte,,VanAndel,,The Netherlands,M,SE,,University of Groningen
+PLANTECOL,1991,91,"1,2",Editor,Elgene,O.,Box,,United States,M,SE,,"University of Georgia, Athens"
+PLANTECOL,1991,91,"1,2",Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1991,91,"1,2",Editor,Bert,G.,Drake,,United States,M,SE,,Smithsonian Environmental Research Center
+PLANTECOL,1991,91,"1,2",Associate Editor,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,1991,91,"1,2",Editor,John,WH,Dacey,,United States,M,SE,,Woods Hole Oceanographic Institution
+PLANTECOL,1991,91,"1,2",Editor,Robert,L.,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECOL,1991,91,"1,2",Editor,Konstantin,O.,Korotkov,,USSR,M,SE,,Institute of Animal Evolutionary Morphology and Ecology
+PLANTECOL,1991,91,"1,2",Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1991,91,"1,2",Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1991,91,"1,2",Editor,Leonid,I.,Malyshev,,USSR,M,SE,,Siberian Central Botanical Garden
+PLANTECOL,1991,91,"1,2",Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1991,91,"1,2",Guest Editor,Andrew,J.,Pitman,,Australia,M,Other,,Macquarie University
+PLANTECOL,1991,91,"1,2",Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1991,91,"1,2",Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1991,91,"1,2",Editor,Vadim,N.,Tikhomirov,,USSR,M,SE,,Moscow State University
+PLANTECOL,1991,91,"1,2",Editor,Arnold,G.,VanDerValk,,United States,M,SE,,Iowa State University
+PLANTECOL,1991,91,"1,2",Editor,Dale,H.,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECOL,1991,91,"1,2",Editor,Mohan,K.,Wali,,United States,M,SE,,Ohio State University
+PLANTECOL,1991,91,"1,2",Editor,Neil,E.,West,,United States,M,SE,,Utah State University
+PLANTECOL,1991,91,"1,2",Editor-in-Chief,Helmut,,Lieth,,Germany,M,EIC,,Universitat Osnabruck
+PLANTECOL,1991,91,"1,2",Associate Editor,Atsushi,,Miyawaki,,Japan,M,AE,,Yokohama National University
+PLANTECOL,1991,91,"1,2",Editor,Kazue,,Fujiwara,,Japan,F,SE,,Yokohama National University
+PLANTECOL,1991,91,"1,2",Editor,Jean-Marie,,Gehu,,France,M,SE,,St. de Phytosociologie Fondamental
+PLANTECOL,1991,91,"1,2",Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1991,91,"1,2",Editor,Otto,,Hegg,,Switzerland,M,SE,,University of Bern
+PLANTECOL,1991,91,"1,2",Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1991,91,"1,2",Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1991,91,"1,2",Editor,Franco,,Pedrotti,,Italy,M,SE,,Universita Camerino
+PLANTECOL,1991,91,"1,2",Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1991,91,"1,2",Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1991,91,"1,2",Editor,Kazimierz,,Zarzycki,,Poland,M,SE,,Polish Academy of Sciences
+PLANTECOL,1991,91,"1,2",Guest Editor,Ann,,Henderson-Sellers,,Australia,F,Other,,Macquarie University
+PLANTECOL,1992,98,1,Associate Editor,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,1992,98,1,Editor,Jelte,,VanAndel,,The Netherlands,M,SE,,University of Groningen
+PLANTECOL,1992,98,1,Editor,Elgene,O.,Box,,United States,M,SE,,"University of Georgia, Athens"
+PLANTECOL,1992,98,1,Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1992,98,1,Editor,Bert,G.,Drake,,United States,M,SE,,Smithsonian Environmental Research Center
+PLANTECOL,1992,98,1,Associate Editor,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,1992,98,1,Editor,John,WH,Dacey,,United States,M,SE,,Woods Hole Oceanographic Institution
+PLANTECOL,1992,98,1,Editor,Robert,L.,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECOL,1992,98,1,Editor,Konstantin,O.,Korotkov,,USSR,M,SE,,Institute of Animal Evolutionary Morphology and Ecology
+PLANTECOL,1992,98,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1992,98,1,Editor,Ariel,E.,Lugo,,Puerto Rico,M,SE,,USDA Forest Service
+PLANTECOL,1992,98,1,Editor,Leonid,I.,Malyshev,,USSR,M,SE,,Siberian Central Botanical Garden
+PLANTECOL,1992,98,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1992,98,1,Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1992,98,1,Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1992,98,1,Editor,Vadim,N.,Tikhomirov,,USSR,M,SE,,Moscow State University
+PLANTECOL,1992,98,1,Editor,Arnold,G.,VanDerValk,,United States,M,SE,,Iowa State University
+PLANTECOL,1992,98,1,Editor,Dale,H.,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECOL,1992,98,1,Editor,Mohan,K.,Wali,,United States,M,SE,,Ohio State University
+PLANTECOL,1992,98,1,Editor,Neil,E.,West,,United States,M,SE,,Utah State University
+PLANTECOL,1992,98,1,Editor-in-Chief,Helmut,,Lieth,,Germany,M,EIC,,Universitat Osnabruck
+PLANTECOL,1992,98,1,Associate Editor,Atsushi,,Miyawaki,,Japan,M,AE,,Yokohama National University
+PLANTECOL,1992,98,1,Editor,Kazue,,Fujiwara,,Japan,F,SE,,Yokohama National University
+PLANTECOL,1992,98,1,Editor,Jean-Marie,,Gehu,,France,M,SE,,St. de Phytosociologie Fondamental
+PLANTECOL,1992,98,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1992,98,1,Editor,Otto,,Hegg,,Switzerland,M,SE,,University of Bern
+PLANTECOL,1992,98,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1992,98,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1992,98,1,Editor,Franco,,Pedrotti,,Italy,M,SE,,Universita Camerino
+PLANTECOL,1992,98,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,1992,98,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1992,98,1,Editor,Kazimierz,,Zarzycki,,Poland,M,SE,,Polish Academy of Sciences
+PLANTECOL,1993,"104, 105",1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1993,"104, 105",1,Editor,Jelte,,VanAndel,,The Netherlands,M,SE,,University of Groningen
+PLANTECOL,1993,"104, 105",1,Guest Editor,Marion,L.,Cambridge,,Australia,F,Other,,University of Western Australia
+PLANTECOL,1993,"104, 105",1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1993,"104, 105",1,Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1993,"104, 105",1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1993,"104, 105",1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1993,"104, 105",1,Editor,Robert,L.,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECOL,1993,"104, 105",1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1993,"104, 105",1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1993,"104, 105",1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1993,"104, 105",1,Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1993,"104, 105",1,Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1993,"104, 105",1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1993,"104, 105",1,Guest Editor,Siebe,C.,VanDeGeijn,,The Netherlands,M,Other,,Research Institute for Agrobiology and Soil Fertility
+PLANTECOL,1993,"104, 105",1,Editor,Dale,H.,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECOL,1993,"104, 105",1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1993,"104, 105",1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECOL,1993,"104, 105",1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1993,"104, 105",1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1993,"104, 105",1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universitat Osnabruck
+PLANTECOL,1993,"104, 105",1,Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1993,"104, 105",1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1993,"104, 105",1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1993,"104, 105",1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1993,"104, 105",1,Guest Editor,Hans,,Lambers,,Australia,M,Other,,University of Western Australia
+PLANTECOL,1993,"104, 105",1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,1994,110,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1994,110,1,Editor,Jelte,,VanAndel,,The Netherlands,M,SE,,University of Groningen
+PLANTECOL,1994,110,1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1994,110,1,Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1994,110,1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1994,110,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1994,110,1,Editor,Robert,L.,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECOL,1994,110,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1994,110,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1994,110,1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1994,110,1,Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1994,110,1,Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1994,110,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1994,110,1,Editor,Dale,H.,Vitt,,Canada,M,SE,,University of Alberta
+PLANTECOL,1994,110,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1994,110,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECOL,1994,110,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1994,110,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1994,110,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universitat Osnabruck
+PLANTECOL,1994,110,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1994,110,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1994,110,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1994,110,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1995,116,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1995,116,1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1995,116,1,Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1995,116,1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1995,116,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1995,116,1,Editor,Robert,L.,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECOL,1995,116,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1995,116,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1995,116,1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1995,116,1,Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1995,116,1,Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1995,116,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1995,116,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1995,116,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECOL,1995,116,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1995,116,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1995,116,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universitat Osnabruck
+PLANTECOL,1995,116,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1995,116,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1995,116,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1995,116,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1996,122,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1996,122,1,Editor,Juan,J.,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECOL,1996,122,1,Editor,Gregory,P.,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECOL,1996,122,1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1996,122,1,Editor,James,K.,Detling,,United States,M,SE,,Colorado State University
+PLANTECOL,1996,122,1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1996,122,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1996,122,1,Editor,Robert,L.,Jefferies,,Canada,M,SE,,University of Toronto
+PLANTECOL,1996,122,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1996,122,1,Editor,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,1996,122,1,Editor,Roger,del,Moral,,United States,M,SE,,University of Washington 
+PLANTECOL,1996,122,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1996,122,1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1996,122,1,Editor,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,1996,122,1,Editor,Michael,C.,Rutherford,,South Africa,M,SE,,National Botanical Institute
+PLANTECOL,1996,122,1,Editor,Osvaldo,E.,Sala,,Argentina,M,SE,,University of Buenos Aires
+PLANTECOL,1996,122,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1996,122,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,1996,122,1,Editor,Brij,,Gopal,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1996,122,1,Editor,Tadaki,,Hirose,,Japan,M,SE,,Tohoku University
+PLANTECOL,1996,122,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1996,122,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1996,122,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universite de Montreal
+PLANTECOL,1996,122,1,Editor,Helmut,,Lieth,,Germany,M,SE,,Universitat Osnabruck
+PLANTECOL,1996,122,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,1996,122,1,Editor,Jean-Claude,,Menaut,,France,M,SE,,Ecole Normale Superieure (ENS)
+PLANTECOL,1996,122,1,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECOL,1996,122,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECOL,1996,122,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1996,122,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1996,122,1,Editor,Kyoji,,Yoda,,Japan,M,SE,,Osaka City University
+PLANTECOL,1997,128,"1,2",Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1997,128,"1,2",Editor,Juan,J.,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECOL,1997,128,"1,2",Editor,Gregory,P.,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECOL,1997,128,"1,2",Editor,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,1997,128,"1,2",Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1997,128,"1,2",Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1997,128,"1,2",Editor,James,B.,Grace,,United States,M,SE,,U.S. Geological Survey
+PLANTECOL,1997,128,"1,2",Editor,Henry,F.,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECOL,1997,128,"1,2",Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1997,128,"1,2",Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1997,128,"1,2",Editor,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,1997,128,"1,2",Editor,Craig,G.,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECOL,1997,128,"1,2",Editor,Roger,del,Moral,,United States,M,SE,,University of Washington 
+PLANTECOL,1997,128,"1,2",Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1997,128,"1,2",Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1997,128,"1,2",Editor,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,1997,128,"1,2",Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1997,128,"1,2",Editor,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1997,128,"1,2",Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,1997,128,"1,2",Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECOL,1997,128,"1,2",Editor,Nancy,,Huntly,,United States,F,SE,,Idaho State University
+PLANTECOL,1997,128,"1,2",Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1997,128,"1,2",Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECOL,1997,128,"1,2",Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1997,128,"1,2",Editor,Pierre,,Legendre,,Canada,M,SE,,Universite de Montreal
+PLANTECOL,1997,128,"1,2",Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,1997,128,"1,2",Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECOL,1997,128,"1,2",Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,1997,128,"1,2",Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECOL,1997,128,"1,2",Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1997,128,"1,2",Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1998,134,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1998,134,1,Editor,Juan,J.,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECOL,1998,134,1,Editor,Gregory,P.,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECOL,1998,134,1,Editor,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,1998,134,1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1998,134,1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1998,134,1,Editor,James,B.,Grace,,United States,M,SE,,U.S. Geological Survey
+PLANTECOL,1998,134,1,Editor,Henry,F.,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECOL,1998,134,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1998,134,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1998,134,1,Editor,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,1998,134,1,Editor,Craig,G.,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECOL,1998,134,1,Editor,Roger,del,Moral,,United States,M,SE,,University of Washington 
+PLANTECOL,1998,134,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1998,134,1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1998,134,1,Editor,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,1998,134,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1998,134,1,Editor,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1998,134,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,1998,134,1,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECOL,1998,134,1,Editor,Nancy,,Huntly,,United States,F,SE,,Idaho State University
+PLANTECOL,1998,134,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1998,134,1,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECOL,1998,134,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1998,134,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universite de Montreal
+PLANTECOL,1998,134,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,1998,134,1,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECOL,1998,134,1,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,1998,134,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECOL,1998,134,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1998,134,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1999,140,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,1999,140,1,Editor,Juan,J.,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECOL,1999,140,1,Editor,Gregory,P.,Cheplick,,United States,M,SE,,College of Staten Island - CUNY
+PLANTECOL,1999,140,1,Editor,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,1999,140,1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,1999,140,1,Editor,David,C.,Glenn-Lewin,,United States,M,SE,,Iowa State University
+PLANTECOL,1999,140,1,Editor,James,B.,Grace,,United States,M,SE,,U.S. Geological Survey
+PLANTECOL,1999,140,1,Editor,Henry,F.,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECOL,1999,140,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,1999,140,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,1999,140,1,Editor,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,1999,140,1,Editor,Craig,G.,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECOL,1999,140,1,Editor,Roger,del,Moral,,United States,M,SE,,University of Washington 
+PLANTECOL,1999,140,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,1999,140,1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,1999,140,1,Editor,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,1999,140,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,1999,140,1,Editor,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,1999,140,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,1999,140,1,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECOL,1999,140,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,1999,140,1,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECOL,1999,140,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,1999,140,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universite de Montreal
+PLANTECOL,1999,140,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,1999,140,1,Editor,John,,Pastor,,United States,M,SE,,University of Minnesota
+PLANTECOL,1999,140,1,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,1999,140,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECOL,1999,140,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,1999,140,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,1999,140,1,Book Review Editor,Jelte,,Rozema,,The Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2000,146,1,Editor,Marinus,J. A.,Werger,,Netherlands,M,SE,,Utrecht University
+PLANTECOL,2000,146,1,Editor,Juan,J.,Armesto,,Chile,M,SE,,Universidad de Chile
+PLANTECOL,2000,146,1,Editor,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2000,146,1,Editor,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2000,146,1,Editor,Evan,H.,DeLucia,,United States,M,SE,,University of Illinois
+PLANTECOL,2000,146,1,Editor,Henry,F.,Howe,,United States,M,SE,,University of Illinois at Chicago
+PLANTECOL,2000,146,1,Editor,Michael,J,Hutchings,,England,M,SE,,University of Sussex
+PLANTECOL,2000,146,1,Editor,William,K.,Lauenroth,,United States,M,SE,,Colorado State University
+PLANTECOL,2000,146,1,Editor,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,2000,146,1,Editor,Craig,G.,Lorimer,,United States,M,SE,,"University of Wisconsin, Madison"
+PLANTECOL,2000,146,1,Editor,Brian,C.,McCarthy,,United States,M,SE,,Ohio University
+PLANTECOL,2000,146,1,Editor,Roger,del,Moral,,United States,M,SE,,University of Washington 
+PLANTECOL,2000,146,1,Editor,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2000,146,1,Editor,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2000,146,1,Editor,Palayanoor,S.,Ramakrishnan,,India,M,SE,,Jawaharial Nehru University
+PLANTECOL,2000,146,1,Editor,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2000,146,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2000,146,1,Editor,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2000,146,1,Editor,Steve,,Brewer,,United States,M,SE,,University of Mississippi
+PLANTECOL,2000,146,1,Editor,Rodolfo,,Dirzo,,Mexico,M,SE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2000,146,1,Editor,Ove,,Eriksson,,Sweden,M,SE,,Stockholm University
+PLANTECOL,2000,146,1,Editor,Yoh,,Iwasa,,Japan,M,SE,,Kyushu University
+PLANTECOL,2000,146,1,Editor,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2000,146,1,Editor,Takashi,,Kohyama,,Japan,M,SE,,Hokkaido University
+PLANTECOL,2000,146,1,Editor,Anslem,,Kratochwil,,Germany,M,SE,,Universitat Freiburg
+PLANTECOL,2000,146,1,Editor,Pierre,,Legendre,,Canada,M,SE,,Universite de Montreal
+PLANTECOL,2000,146,1,Editor,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,2000,146,1,Editor,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2000,146,1,Editor,Marcel,,Rejmanek,,United States,M,SE,,"University of California, Davis"
+PLANTECOL,2000,146,1,Editor,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,2000,146,1,Editor,Engkik,,Soepadmo,,Malaysia,M,SE,,University of Malaysia
+PLANTECOL,2001,152,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2001,152,1,Editorial Board,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2001,152,1,Editorial Board,Mick,J.,Crawley,,England,M,SE,,Imperial College
+PLANTECOL,2001,152,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2001,152,1,Editorial Board,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,2001,152,1,Editorial Board,Brian,C.,McCarthy,,United States,M,SE,,Ohio University
+PLANTECOL,2001,152,1,Editorial Board,Roger,del,Moral,,United States,M,SE,,University of Washington 
+PLANTECOL,2001,152,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2001,152,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2001,152,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2001,152,1,Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2001,152,1,Editorial Board,Rowan,F.,Sage,,Canada,M,SE,,University of Toronto
+PLANTECOL,2001,152,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2001,152,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2001,152,1,Editorial Board,Steve,,Brewer,,United States,M,SE,,University of Mississippi
+PLANTECOL,2001,152,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2001,152,1,Editorial Board,Norman,,Kenkel,,Canada,M,SE,,University of Manitoba
+PLANTECOL,2001,152,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2001,152,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,2001,152,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2001,152,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,2002,158,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2002,158,1,Editorial Board,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2002,158,1,Editorial Board,Mick,J.,Crawley,,England,M,SE,,Imperial College
+PLANTECOL,2002,158,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2002,158,1,Editorial Board,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,2002,158,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2002,158,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2002,158,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2002,158,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2002,158,1,Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2002,158,1,Editorial Board,Rowan,F.,Sage,,Canada,M,SE,,University of Toronto
+PLANTECOL,2002,158,1,Editorial Board,Karle,V.,Sykora,,The Netherlands,M,SE,,Wageningen University
+PLANTECOL,2002,158,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2002,158,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2002,158,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2002,158,1,Editorial Board,Norman,,Kenkel,,Canada,M,SE,,University of Manitoba
+PLANTECOL,2002,158,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2002,158,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,2002,158,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2002,158,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2002,158,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,Other,Vrije Universiteit
+PLANTECOL,2003,164,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,2003,164,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2003,164,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2003,164,1,Editorial Board,Richard,M.,Cowling,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2003,164,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2003,164,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2003,164,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2003,164,1,Editorial Board,John,A.,Lee,,England,M,SE,,University of Sheffield
+PLANTECOL,2003,164,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2003,164,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2003,164,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2003,164,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2003,164,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2003,164,1,Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2003,164,1,Editorial Board,Rowan,F.,Sage,,Canada,M,SE,,University of Toronto
+PLANTECOL,2003,164,1,Editorial Board,Karle,V.,Sykora,,The Netherlands,M,SE,,Wageningen University
+PLANTECOL,2003,164,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2003,164,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2003,164,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2003,164,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2003,164,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2003,164,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2003,164,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,SE,Centro de Ecologia y Ciencias
+PLANTECOL,2003,164,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2003,164,1,Editorial Board,Norman,,Kenkel,,Canada,M,SE,,University of Manitoba
+PLANTECOL,2003,164,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2003,164,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2003,164,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2003,164,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2003,164,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2004,170,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,2004,170,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2004,170,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2004,170,1,Editorial Board,William,J.,Bond,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2004,170,1,Editorial Board,Richard,M.,Cowling,,South Africa,M,SE,,University of Port Elizabeth
+PLANTECOL,2004,170,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2004,170,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2004,170,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2004,170,1,Editorial Board,John,A.,Lee,,United States,M,SE,,University of Sheffield
+PLANTECOL,2004,170,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2004,170,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2004,170,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2004,170,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2004,170,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2004,170,1,Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2004,170,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2004,170,1,Editorial Board,Lawrence,R.,Walker,,United States,M,SE,,University of Nevada
+PLANTECOL,2004,170,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2004,170,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2004,170,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2004,170,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2004,170,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2004,170,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2004,170,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Gottingen
+PLANTECOL,2004,170,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2004,170,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2004,170,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,2004,170,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2004,170,1,Editorial Board,Peter,,Poschlod,,Germany,M,SE,,University of Regensburg
+PLANTECOL,2004,170,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2004,170,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2004,170,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2004,170,1,Editorial Board,Scott,,Wilson,,United States,M,SE,,University of Regina
+PLANTECOL,2004,170,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2005,176,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,2005,176,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2005,176,1,Editorial Board,James,F.,Cahill,,Canada,M,SE,,University of Alberta
+PLANTECOL,2005,176,1,Editorial Board,Enrique,J.,Chaneton,,Argentina,M,SE,,Universidad de Buenos Aires
+PLANTECOL,2005,176,1,Editorial Board,Richard,M.,Cowling,,South Africa,M,SE,,University of Port Elizabeth
+PLANTECOL,2005,176,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2005,176,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2005,176,1,Editorial Board,John,A.,Lee,,United States,M,SE,,University of Sheffield
+PLANTECOL,2005,176,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2005,176,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2005,176,1,Editorial Board,Duane,A.,Peltzer,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2005,176,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2005,176,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2005,176,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2005,176,1,Editorial Board,Paul,R.,Wetzel,,United States,M,SE,,Smith College
+PLANTECOL,2005,176,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2005,176,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2005,176,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2005,176,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2005,176,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2005,176,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Gottingen
+PLANTECOL,2005,176,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2005,176,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2005,176,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2005,176,1,Editorial Board,Martin,,Oesterheld,,Argentina,M,SE,,Universidad de Buenos Aires
+PLANTECOL,2005,176,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2005,176,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2005,176,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2005,176,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2005,176,1,Editorial Board,Scott,,Wilson,,United States,M,SE,,University of Regina
+PLANTECOL,2006,182,"1,2",Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,Utrecht University
+PLANTECOL,2006,182,"1,2",Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2006,182,"1,2",Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2006,182,"1,2",Editorial Board,William,J.,Bond,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2006,182,"1,2",Editorial Board,Walter,P.,Carson,,United States,M,SE,,University of Pittsburgh
+PLANTECOL,2006,182,"1,2",Editorial Board,Enrique,J.,Chaneton,,Argentina,M,SE,,Institute for Agricultural Plant Physiology and Ecology
+PLANTECOL,2006,182,"1,2",Advisory Board,Richard,M.,Cowling,,South Africa,M,AE,,University of Cape Town
+PLANTECOL,2006,182,"1,2",Editorial Board,Neal,L.,Enright,,Austrailia,M,SE,,University of Melbourne
+PLANTECOL,2006,182,"1,2",Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2006,182,"1,2",Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2006,182,"1,2",Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2006,182,"1,2",Editorial Board,Kevin,L.,Griffin,,United States,M,SE,,Columbia University
+PLANTECOL,2006,182,"1,2",Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2006,182,"1,2",Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2006,182,"1,2",Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2006,182,"1,2",Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2006,182,"1,2",Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2006,182,"1,2",Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2006,182,"1,2",Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2006,182,"1,2",Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2006,182,"1,2",Editorial Board,Edward,W.,Stiles,,United States,M,SE,,Rutgers University
+PLANTECOL,2006,182,"1,2",Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2006,182,"1,2",Editorial Board,Lawrence,R.,Walker,,United States,M,SE,,University of Nevada
+PLANTECOL,2006,182,"1,2",Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2006,182,"1,2",Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2006,182,"1,2",Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2006,182,"1,2",Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2006,182,"1,2",Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2006,182,"1,2",Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2006,182,"1,2",Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Gottingen
+PLANTECOL,2006,182,"1,2",Editorial Board,Bryan,,Foster,,United States,M,SE,,University of Kansas
+PLANTECOL,2006,182,"1,2",Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2006,182,"1,2",Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2006,182,"1,2",Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Centro de Ecologia y Ciencias
+PLANTECOL,2006,182,"1,2",Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2006,182,"1,2",Editorial Board,Martin,,Oesterheld,,Argentina,M,SE,,Universidad de Buenos Aires
+PLANTECOL,2006,182,"1,2",Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2006,182,"1,2",Editorial Board,Peter,,Poschlod,,Germany,M,SE,,University of Regensburg
+PLANTECOL,2006,182,"1,2",Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2006,182,"1,2",Editorial Board,Victor,,Rico-Gray,,Mexico,M,SE,,Instituto de Ecologia
+PLANTECOL,2006,182,"1,2",Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2006,182,"1,2",Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2006,182,"1,2",Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2006,182,"1,2",Editorial Board,Scott,,Wilson,,United States,M,SE,,University of Regina
+PLANTECOL,2007,188,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2007,188,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2007,188,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2007,188,1,Editorial Board,William,J.,Bond,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2007,188,1,Editorial Board,Walter,P.,Carson,,United States,M,SE,,University of Pittsburgh
+PLANTECOL,2007,188,1,Editorial Board,Enrique,J.,Chaneton,,Argentina,M,SE,,Institute for Agricultural Plant Physiology and Ecology
+PLANTECOL,2007,188,1,Editorial Board,Neal,L.,Enright,,Austrailia,M,SE,,University of Melbourne
+PLANTECOL,2007,188,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2007,188,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2007,188,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2007,188,1,Editorial Board,Kevin,L.,Griffin,,United States,M,SE,,Columbia University
+PLANTECOL,2007,188,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2007,188,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2007,188,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2007,188,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2007,188,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2007,188,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2007,188,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2007,188,1,Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2007,188,1,Editorial Board,Edward,W.,Stiles,,United States,M,SE,,Rutgers University
+PLANTECOL,2007,188,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2007,188,1,Editorial Board,Lawrence,R.,Walker,,United States,M,SE,,University of Nevada
+PLANTECOL,2007,188,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2007,188,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2007,188,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2007,188,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2007,188,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2007,188,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2007,188,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Freiburg
+PLANTECOL,2007,188,1,Editorial Board,Evan,,Weiher,,United States,M,SE,,University of Wisconsin- Au Claire
+PLANTECOL,2007,188,1,Editorial Board,Bryan,,Foster,,United States,M,SE,,University of Kansas
+PLANTECOL,2007,188,1,Editorial Board,Fangliang,,He,,Canada,M,SE,,University of Alberta
+PLANTECOL,2007,188,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2007,188,1,Editorial Board,Johannes,,Kollmann,,Denmark,M,SE,,The Royal Veterinary and Agricultural University
+PLANTECOL,2007,188,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2007,188,1,Editorial Board,Karel,,Prach,,Czech Republic,M,SE,,University of Ceske Budejovice
+PLANTECOL,2007,188,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Instituto Venezolano de InvestigaciǏ_nes Cientificas
+PLANTECOL,2007,188,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2007,188,1,Editorial Board,Martin,,Oesterheld,,Argentina,M,SE,,Universidad de Buenos Aires
+PLANTECOL,2007,188,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2007,188,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2007,188,1,Editorial Board,Victor,,Rico-Gray,,Mexico,M,SE,,Instituto de Ecologia
+PLANTECOL,2007,188,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2007,188,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2007,188,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2007,188,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2008,194,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2008,194,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2008,194,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2008,194,1,Editorial Board,William,J.,Bond,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2008,194,1,Editorial Board,James,F.,Cahill,,Canada,M,SE,,University of Alberta
+PLANTECOL,2008,194,1,Editorial Board,Walter,P.,Carson,,United States,M,SE,,University of Pittsburgh
+PLANTECOL,2008,194,1,Editorial Board,Enrique,J.,Chaneton,,Argentina,M,SE,,Institute for Agricultural Plant Physiology and Ecology
+PLANTECOL,2008,194,1,Editorial Board,Neal,L.,Enright,,Austrailia,M,SE,,University of Melbourne
+PLANTECOL,2008,194,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2008,194,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2008,194,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2008,194,1,Editorial Board,Kevin,L.,Griffin,,United States,M,SE,,Columbia University
+PLANTECOL,2008,194,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2008,194,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2008,194,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2008,194,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2008,194,1,Editorial Board,Duane,A.,Peltzer,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2008,194,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2008,194,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2008,194,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2008,194,1,Editorial Board,Richard,J.,Reader,,Canada,M,SE,,University of Guelph
+PLANTECOL,2008,194,1,Editorial Board,Edward,W.,Stiles,,United States,M,SE,,Rutgers University
+PLANTECOL,2008,194,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2008,194,1,Editorial Board,Lawrence,R.,Walker,,United States,M,SE,,University of Nevada
+PLANTECOL,2008,194,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2008,194,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2008,194,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2008,194,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2008,194,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2008,194,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2008,194,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Freiburg
+PLANTECOL,2008,194,1,Editorial Board,Bryan,,Foster,,United States,M,SE,,University of Kansas
+PLANTECOL,2008,194,1,Editorial Board,Florian,,Jeltsch,,Germany,M,SE,,University of Potsdam
+PLANTECOL,2008,194,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2008,194,1,Editorial Board,Johannes,,Kollmann,,Denmark,M,SE,,The Royal Veterinary and Agricultural University
+PLANTECOL,2008,194,1,Editorial Board,Lauchlan,,Fraser,,Canada,M,SE,,Thompson Rivers University
+PLANTECOL,2008,194,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Instituto Venezolano de InvestigaciǏ_nes Cientificas
+PLANTECOL,2008,194,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2008,194,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2008,194,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2008,194,1,Editorial Board,Karel,,Prach,,Czech Republic,M,SE,,University of Ceske Budejovice
+PLANTECOL,2008,194,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2008,194,1,Editorial Board,Victor,,Rico-Gray,,Mexico,M,SE,,Instituto de Ecologia
+PLANTECOL,2008,194,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2008,194,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2008,194,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2008,194,1,Editorial Board,Evan,,Weiher,,United States,M,SE,,University of Wisconsin- Au Claire
+PLANTECOL,2009,200,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2009,200,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2009,200,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2009,200,1,Editorial Board,William,J.,Bond,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2009,200,1,Editorial Board,James,F.,Cahill,,Canada,M,SE,,University of Alberta
+PLANTECOL,2009,200,1,Editorial Board,Walter,P.,Carson,,United States,M,SE,,University of Pittsburgh
+PLANTECOL,2009,200,1,Editorial Board,Enrique,J.,Chaneton,,Argentina,M,SE,,Institute for Agricultural Plant Physiology and Ecology
+PLANTECOL,2009,200,1,Editorial Board,Neal,L.,Enright,,Austrailia,M,SE,,University of Melbourne
+PLANTECOL,2009,200,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2009,200,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2009,200,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2009,200,1,Editorial Board,Kevin,L.,Griffin,,United States,M,SE,,Columbia University
+PLANTECOL,2009,200,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2009,200,1,Editorial Board,Scott,J.,Meiners,,United States,M,SE,,Eastern Illinois University
+PLANTECOL,2009,200,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2009,200,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2009,200,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2009,200,1,Editorial Board,Duane,A.,Peltzer,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2009,200,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2009,200,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2009,200,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2009,200,1,Editorial Board,Edward,W.,Stiles,,United States,M,SE,,Rutgers University
+PLANTECOL,2009,200,1,Editor-in-Chief,Arnold,G.,VanDerValk,,United States,M,EIC,,Iowa State University
+PLANTECOL,2009,200,1,Editorial Board,Lawrence,R.,Walker,,United States,M,SE,,University of Nevada
+PLANTECOL,2009,200,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2009,200,1,Editorial Board,Brian,J.,Wilsey,,United States,M,SE,,Iowa State University
+PLANTECOL,2009,200,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2009,200,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2009,200,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2009,200,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2009,200,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2009,200,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Freiburg
+PLANTECOL,2009,200,1,Editorial Board,Bryan,,Foster,,United States,M,SE,,University of Kansas
+PLANTECOL,2009,200,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2009,200,1,Editorial Board,Johannes,,Kollmann,,Denmark,M,SE,,The Royal Veterinary and Agricultural University
+PLANTECOL,2009,200,1,Editorial Board,Ingolf,,Kuhn,,Germany,M,SE,,Helmholtz Centre for Environmental Research-UFZ
+PLANTECOL,2009,200,1,Editorial Board,Lauchlan,,Fraser,,Canada,M,SE,,Thompson Rivers University
+PLANTECOL,2009,200,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Instituto Venezolano de InvestigaciǏ_nes Cientificas
+PLANTECOL,2009,200,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2009,200,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2009,200,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2009,200,1,Editorial Board,John,,Proctor,,Scotland,M,SE,,University of Stirling
+PLANTECOL,2009,200,1,Editorial Board,Victor,,Rico-Gray,,Mexico,M,SE,,Instituto de Ecologia
+PLANTECOL,2009,200,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2009,200,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2009,200,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2010,206,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2010,206,1,Book Review Editor,Marcel,G. A.,VanDerHaijden,,Netherlands,M,Other,,Vrije Universiteit
+PLANTECOL,2010,206,1,Editorial Board,Richard,G.,Baker,,United States,M,SE,,University of Iowa
+PLANTECOL,2010,206,1,Editorial Board,William,J.,Bond,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2010,206,1,Editorial Board,James,F.,Cahill,,Canada,M,SE,,University of Alberta
+PLANTECOL,2010,206,1,Editorial Board,Walter,P.,Carson,,United States,M,SE,,University of Pittsburgh
+PLANTECOL,2010,206,1,Editorial Board,Enrique,J.,Chaneton,,Argentina,M,SE,,Institute for Agricultural Plant Physiology and Ecology
+PLANTECOL,2010,206,1,Editor-in-Chief,Neal,L.,Enright,,Austrailia,M,EIC,SE,Murdoch University
+PLANTECOL,2010,206,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2010,206,1,Editorial Board,Susan,M.,Galatowitsch,,United States,F,SE,,University of Minnesota
+PLANTECOL,2010,206,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2010,206,1,Editorial Board,Kevin,L.,Griffin,,United States,M,SE,,Columbia University
+PLANTECOL,2010,206,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2010,206,1,Editorial Board,Scott,J.,Meiners,,United States,M,SE,,Eastern Illinois University
+PLANTECOL,2010,206,1,Editorial Board,Peter,R.,Minchin,,United States,M,SE,,Southern Illinois University
+PLANTECOL,2010,206,1,Editorial Board,David,M.,Newbery,,Switzerland,M,SE,,University of Bern 
+PLANTECOL,2010,206,1,Editorial Board,Pier,L.,Nimis,,Italy,M,SE,,University of Trieste
+PLANTECOL,2010,206,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2010,206,1,Editorial Board,Duane,A.,Peltzer,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2010,206,1,Editorial Board,William,J.,Platt,,United States,M,SE,,Lousiana State University
+PLANTECOL,2010,206,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2010,206,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2010,206,1,Editorial Board,Glenn,H.,Stewart,,New Zealand,M,SE,,Lincoln University
+PLANTECOL,2010,206,1,Editorial Board,Edward,W.,Stiles,,United States,M,SE,,Rutgers University
+PLANTECOL,2010,206,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2010,206,1,Editorial Board,Brian,J.,Wilsey,,United States,M,SE,,Iowa State University
+PLANTECOL,2010,206,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2010,206,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2010,206,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2010,206,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2010,206,1,Advisory Board,Ernesto,,Medina,,Venezuela,M,AE,,Centro de Ecologia y Ciencias
+PLANTECOL,2010,206,1,Editorial Board,Edwin,,Bergmeier,,Germany,M,SE,,University of Freiburg
+PLANTECOL,2010,206,1,Editorial Board,Xiaofeng,,Cao,,China,F,SE,,Chinese Academy of Sciences
+PLANTECOL,2010,206,1,Editorial Board,Kenneth,,Koehler,,United States,M,SE,,Iowa State University
+PLANTECOL,2010,206,1,Editorial Board,Ingolf,,Kuhn,,Germany,M,SE,,Helmholtz Centre for Environmental Research-UFZ
+PLANTECOL,2010,206,1,Editorial Board,Lauchlan,,Fraser,,Canada,M,SE,,Thompson Rivers University
+PLANTECOL,2010,206,1,Editorial Board,Ernesto,,Medina,,Venezuela,M,SE,,Instituto Venezolano de InvestigaciǏ_nes Cientificas
+PLANTECOL,2010,206,1,Editorial Board,Jeremy,,Midgley,,South Africa,M,SE,,University of Cape Town
+PLANTECOL,2010,206,1,Editorial Board,Laszlo,,Nagy,,Scotland,M,SE,,EcoScience Scotland
+PLANTECOL,2010,206,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2010,206,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2010,206,1,Editorial Board,Rebecca,,Ostertag,,United States,F,SE,,University of Hawaii
+PLANTECOL,2010,206,1,Editorial Board,Victor,,Parra-Tabla,,Mexico,M,SE,,Universidad Autonoma de Yucatan
+PLANTECOL,2010,206,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2010,206,1,Editorial Board,George,,Perry,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2010,206,1,Editorial Board,Victor,,Rico-Gray,,Mexico,M,SE,,Instituto de Ecologia
+PLANTECOL,2010,206,1,Editorial Board,Lesley,,Rigg,,United States,F,SE,,Northern Illinois University
+PLANTECOL,2010,206,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2010,206,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2010,206,1,Editorial Board,Ian,,Thomas,,Austrailia,M,SE,,University of Melbourne
+PLANTECOL,2010,206,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2011,212,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2011,212,1,Editorial Board,Lori,A.,Biederman,,United States,F,SE,,Iowa State University
+PLANTECOL,2011,212,1,Editorial Board,Ian,A.,Dickie,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2011,212,1,Editor-in-Chief,Neal,L.,Enright,,Austrailia,M,EIC,,Murdoch University
+PLANTECOL,2011,212,1,Editorial Board,Howard,E.,Epstein,,United States,M,SE,,University of Virginia
+PLANTECOL,2011,212,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2011,212,1,Editorial Board,Anthony,M.,Fowler,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2011,212,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2011,212,1,Editorial Board,Santiago,C.,Gonzales-Martinez,,United States,M,SE,,USDA Forest Service
+PLANTECOL,2011,212,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2011,212,1,Editorial Board,John,A.,Kupfer,,United States,M,SE,,University of South Carolina
+PLANTECOL,2011,212,1,Editorial Board,Philip,G.,Ladd,,Austrailia,M,SE,,Murdoch University
+PLANTECOL,2011,212,1,Editorial Board,Christopher,H.,Lusk,,Austrailia,M,SE,,Macquarie University
+PLANTECOL,2011,212,1,Editorial Board,Joy,N.,Mast,,United States,F,SE,,Carthage College
+PLANTECOL,2011,212,1,Editorial Board,Scott,J.,Meiners,,United States,M,SE,,Eastern Illinois University
+PLANTECOL,2011,212,1,Editorial Board,Peter,R.,Minchin,,United States,M,SE,,Southern Illinois University
+PLANTECOL,2011,212,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2011,212,1,Editorial Board,Duane,A.,Peltzer,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2011,212,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2011,212,1,Editorial Board,Jodi,N.,Price,,Austrailia,F,SE,,University of New England
+PLANTECOL,2011,212,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2011,212,1,Editorial Board,William,E.,Rogers,,United States,M,SE,,Texas A&M University
+PLANTECOL,2011,212,1,Editorial Board,Glenn,H.,Stewart,,New Zealand,M,SE,,Lincoln University
+PLANTECOL,2011,212,1,Editorial Board,Benjamin,L.,Turner,,Panama,M,SE,,Smithsonian Tropical Research Institute
+PLANTECOL,2011,212,1,Editorial Board,Stephen,J.,Walsh,,United States,M,SE,,University of North Carolina at Chapel Hill
+PLANTECOL,2011,212,1,Editorial Board,Glenda,M.,Wardle,,Austrailia,F,SE,,University of Sydney
+PLANTECOL,2011,212,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2011,212,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2011,212,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2011,212,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2011,212,1,Editorial Board,Uta,,Berger,,Germany,F,SE,,Technische Universitat Dresden
+PLANTECOL,2011,212,1,Editorial Board,Anne,,Bonis,,France,F,SE,,Universite de Rennes
+PLANTECOL,2011,212,1,Editorial Board,Xiaofeng,,Cao,,China,F,SE,,Chinese Academy of Sciences
+PLANTECOL,2011,212,1,Editorial Board,Jennifer,,Firn,,Austrailia,F,SE,,CSIRO
+PLANTECOL,2011,212,1,Editorial Board,Lauchlan,,Fraser,,Canada,M,SE,,Thompson Rivers University
+PLANTECOL,2011,212,1,Editorial Board,Ray,,Froend,,Austrailia,M,SE,,Edith Cowan University
+PLANTECOL,2011,212,1,Editorial Board,Steven,,Higgins,,Germany,M,SE,,J.W. Goethe University 
+PLANTECOL,2011,212,1,Editorial Board,Olivier,,Honnay,,Belgium,M,SE,,University of Leuven
+PLANTECOL,2011,212,1,Editorial Board,Siegy,,Krauss,,Austrailia,M,SE,,Western Australian Ecology Centre
+PLANTECOL,2011,212,1,Editorial Board,Laszlo,,Nagy,,Scotland,M,SE,,EcoScience Scotland
+PLANTECOL,2011,212,1,Editorial Board,Gidi,,Ne'eman,,Israel,M,SE,,University of Haifa
+PLANTECOL,2011,212,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2011,212,1,Editorial Board,Rebecca,,Ostertag,,United States,F,SE,,University of Hawaii
+PLANTECOL,2011,212,1,Editorial Board,Victor,,Parra-Tabla,,Mexico,M,SE,,Universidad Autonoma de Yucatan
+PLANTECOL,2011,212,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2011,212,1,Editorial Board,George,,Perry,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2011,212,1,Editorial Board,Lesley,,Rigg,,United States,F,SE,,Northern Illinois University
+PLANTECOL,2011,212,1,Editorial Board,Jelte,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2011,212,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2011,212,1,Editorial Board,Katja,,Schiffers,,France,F,SE,,Universite Joseph Fourier
+PLANTECOL,2011,212,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2011,212,1,Editorial Board,Dick,,Williams,,Austrailia,M,SE,,CSIRO
+PLANTECOL,2013,214,1,Advisory Board,Marinus,J. A.,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2013,214,1,Editorial Board,Lori,A.,Biederman,,United States,F,SE,,Iowa State University
+PLANTECOL,2013,214,1,Editorial Board,Ian,A.,Dickie,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2013,214,1,Editor-in-Chief,Neal,L.,Enright,,Austrailia,M,EIC,,Murdoch University
+PLANTECOL,2013,214,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2013,214,1,Editorial Board,Anthony,M.,Fowler,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2013,214,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Iowa State University
+PLANTECOL,2013,214,1,Editorial Board,Santiago,C.,Gonzales-Martinez,,United States,M,SE,,USDA Forest Service
+PLANTECOL,2013,214,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2013,214,1,Editorial Board,Shayne,M.,Jacobs,,South Africa,M,SE,,Stellenbosch University
+PLANTECOL,2013,214,1,Editorial Board,John,A.,Kupfer,,United States,M,SE,,University of South Carolina
+PLANTECOL,2013,214,1,Editorial Board,Philip,G.,Ladd,,Austrailia,M,SE,,Murdoch University
+PLANTECOL,2013,214,1,Editorial Board,Mike,J.,Lawes,,Austrailia,M,SE,,Charles Darwin University
+PLANTECOL,2013,214,1,Editorial Board,Christopher,H.,Lusk,,Austrailia,M,SE,,Macquarie University
+PLANTECOL,2013,214,1,Editorial Board,Joy,N.,Mast,,United States,F,SE,,Carthage College
+PLANTECOL,2013,214,1,Editorial Board,Scott,J.,Meiners,,United States,M,SE,,Eastern Illinois University
+PLANTECOL,2013,214,1,Editorial Board,Joseph,P.,Messina,,United States,M,SE,,Michigan State University
+PLANTECOL,2013,214,1,Editorial Board,Peter,R.,Minchin,,United States,M,SE,,Southern Illinois University
+PLANTECOL,2013,214,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2013,214,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2013,214,1,Editorial Board,Jodi,N.,Price,,Austrailia,F,SE,,University of New England
+PLANTECOL,2013,214,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2013,214,1,Editorial Board,William,E.,Rogers,,United States,M,SE,,Texas A&M University
+PLANTECOL,2013,214,1,Editorial Board,Glenn,H.,Stewart,,New Zealand,M,SE,,Lincoln University
+PLANTECOL,2013,214,1,Editorial Board,Benjamin,L.,Turner,,Panama,M,SE,,Smithsonian Tropical Research Institute
+PLANTECOL,2013,214,1,Editorial Board,Glenda,M.,Wardle,,Austrailia,F,SE,,University of Sydney
+PLANTECOL,2013,214,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2013,214,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2013,214,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2013,214,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2013,214,1,Editorial Board,Uta,,Berger,,Germany,F,SE,,Technische Universitat Dresden
+PLANTECOL,2013,214,1,Editorial Board,Anne,,Bonis,,France,F,SE,,Universite de Rennes
+PLANTECOL,2013,214,1,Editorial Board,Xiaofeng,,Cao,,China,F,SE,,Chinese Academy of Sciences
+PLANTECOL,2013,214,1,Editorial Board,Jennifer,,Firn,,Austrailia,F,SE,,CSIRO
+PLANTECOL,2013,214,1,Editorial Board,Lauchlan,,Fraser,,Canada,M,SE,,Thompson Rivers University
+PLANTECOL,2013,214,1,Editorial Board,Ray,,Froend,,Austrailia,M,SE,,Edith Cowan University
+PLANTECOL,2013,214,1,Editorial Board,Karen,,Harper,,Canada,F,SE,,Dalhousie University
+PLANTECOL,2013,214,1,Editorial Board,Steven,,Higgins,,Germany,M,SE,,J.W. Goethe University 
+PLANTECOL,2013,214,1,Editorial Board,Siegy,,Krauss,,Austrailia,M,SE,,Western Australian Ecology Centre
+PLANTECOL,2013,214,1,Editorial Board,Laszlo,,Nagy,,Scotland,M,SE,,EcoScience Scotland
+PLANTECOL,2013,214,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2013,214,1,Editorial Board,Rebecca,,Ostertag,,United States,F,SE,,University of Hawaii
+PLANTECOL,2013,214,1,Editorial Board,Victor,,Parra-Tabla,,Mexico,M,SE,,Universidad Autonoma de Yucatan
+PLANTECOL,2013,214,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2013,214,1,Editorial Board,George,,Perry,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2013,214,1,Editorial Board,Lesley,,Rigg,,United States,F,SE,,Northern Illinois University
+PLANTECOL,2013,214,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2013,214,1,Editorial Board,Katja,,Schiffers,,France,F,SE,,Universite Joseph Fourier
+PLANTECOL,2013,214,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2013,214,1,Editorial Board,Kathryn,,Yurkonis,,United States,M,SE,,University of North Dakota Grand Froks
+PLANTECOL,2012,213,1,Editor-in-Chief,Neal,L.,Enright,,Australia,M,EIC,,Murdoch University
+PLANTECOL,2012,213,1,Advisory Board,Rodolfo,,Dirzo,,Mexico,M,AE,,Universidad Nacional Autonoma de Mexico
+PLANTECOL,2012,213,1,Advisory Board,David,C.,Glenn-Lewin,,United States,M,AE,,Unity College
+PLANTECOL,2012,213,1,Advisory Board,Tadaki,,Hirose,,Japan,M,AE,,Tohoku University
+PLANTECOL,2012,213,1,Advisory Board,Michael,J.,Hutchings,,England,M,AE,,University of Sussex
+PLANTECOL,2012,213,1,Advisory Board,Yoh,,Iwasa,,Japan,M,AE,,Kyushu University
+PLANTECOL,2012,213,1,Advisory Board,Pierre,,Legendre,,Canada,M,AE,,Universite de Montreal
+PLANTECOL,2012,213,1,Advisory Board,Palayanoor,S.,Ramakrishnan,,India,M,AE,,Jawaharial Nehru University
+PLANTECOL,2012,213,1,Advisory Board,Marinus,JA,Werger,,Netherlands,M,AE,,University of Utrecht
+PLANTECOL,2012,213,1,Editorial Board,Uta,,Berger,,Germany,F,SE,,Technische Universitat Dresden
+PLANTECOL,2012,213,1,Editorial Board,Lori,A.,Biederman,,United States,F,SE,,Iowa State University
+PLANTECOL,2012,213,1,Editorial Board,Anne,,Bonis,,France,F,SE,,Universite de Rennes
+PLANTECOL,2012,213,1,Editorial Board,Xiaofeng,,Cao,,China,F,SE,,Chinese Academy of Sciences
+PLANTECOL,2012,213,1,Editorial Board,Ian,A.,Dickie,,New Zealand,M,SE,,Landcare Research
+PLANTECOL,2012,213,1,Editorial Board,H.,E.,Epstein,,United States,M,SE,,University of Virginia
+PLANTECOL,2012,213,1,Editorial Board,Jennifer,,Firn,,Australia,F,SE,,CSIRO
+PLANTECOL,2012,213,1,Editorial Board,Anthony,M.,Fowler,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2012,213,1,Editorial Board,Lauchlan,,Fraser,,Canada,M,SE,,Thompson Rivers University
+PLANTECOL,2012,213,1,Editorial Board,Ray,,Froend,,Australia,M,SE,,Edith Cowan University
+PLANTECOL,2012,213,1,Editorial Board,Santiago,C.,Gonzales-Martinez,,United States,M,SE,,USDA Forest Service
+PLANTECOL,2012,213,1,Editorial Board,Steven,,Higgins,,Germany,M,SE,,J.W. Goethe University 
+PLANTECOL,2012,213,1,Editorial Board,Shayne,M.,Jacobs,,South Africa,M,SE,,Stellenbosch University
+PLANTECOL,2012,213,1,Editorial Board,Siegy,,Krauss,,Australia,M,SE,,Western Australian Ecology Centre
+PLANTECOL,2012,213,1,Editorial Board,John,A.,Kupfer,,United States,M,SE,,University of South Carolina
+PLANTECOL,2012,213,1,Editorial Board,Philip,G.,Ladd,,Australia,M,SE,,Murdoch University
+PLANTECOL,2012,213,1,Editorial Board,Mike,J.,Lawes,,Australia,M,SE,,Charles Darwin University
+PLANTECOL,2012,213,1,Editorial Board,Christopher,H.,Lusk,,Australia,M,SE,,Macquarie University
+PLANTECOL,2012,213,1,Editorial Board,Joy,N.,Mast,,United States,F,SE,,Carthage College
+PLANTECOL,2012,213,1,Editorial Board,Scott,J.,Meiners,,United States,M,SE,,Eastern Illinois University
+PLANTECOL,2012,213,1,Editorial Board,Peter,R.,Minchin,,United States,M,SE,,Southern Illinois University
+PLANTECOL,2012,213,1,Editorial Board,Laszlo,,Nagy,,Scotland,M,SE,,EcoScience Scotland
+PLANTECOL,2012,213,1,Editorial Board,G.,,Ne'eman,,Israel,M,SE,,University of Haifa-Oranim
+PLANTECOL,2012,213,1,Editorial Board,Isabelle,,Oliveri,,France,F,SE,,Universite Montpellier
+PLANTECOL,2012,213,1,Editorial Board,Linda,S.,Olsvig-Whittaker,,Israel,F,SE,,Israel Nature and National Parks Protection Authority
+PLANTECOL,2012,213,1,Editorial Board,Rebecca,,Ostertag,,United States,F,SE,,University of Hawaii
+PLANTECOL,2012,213,1,Editorial Board,Victor,,Parra-Tabla,,Mexico,M,SE,,Universidad Autonoma de Yucatan
+PLANTECOL,2012,213,1,Editorial Board,Serge,,Payette,,Canada,M,SE,,Universite Laval 
+PLANTECOL,2012,213,1,Editorial Board,George,,Perry,,New Zealand,M,SE,,University of Auckland
+PLANTECOL,2012,213,1,Editorial Board,Thijs,L.,Pons,,The Netherlands,M,SE,,Utrecht University
+PLANTECOL,2012,213,1,Editorial Board,Jodi,N.,Price,,Australia,F,SE,,University of New England
+PLANTECOL,2012,213,1,Editorial Board,Lesley,,Rigg,,United States,F,SE,,Northern Illinois University
+PLANTECOL,2012,213,1,Editorial Board,William,E.,Rogers,,United States,M,SE,,Texas A&M University
+PLANTECOL,2012,213,1,Editorial Board,J.,,Rozema,,The Netherlands,M,SE,,Vrije Universiteit
+PLANTECOL,2012,213,1,Editorial Board,Satoki,,Sakai,,Japan,M,SE,,Tohoku University
+PLANTECOL,2012,213,1,Editorial Board,Katja,,Schiffers,,France,F,SE,,Universite Joseph Fourier
+PLANTECOL,2012,213,1,Editorial Board,Glenn,H.,Stewart,,New Zealand,M,SE,,Lincoln University
+PLANTECOL,2012,213,1,Editorial Board,Benjamin,L.,Turner,,Panama,M,SE,,Smithsonian Tropical Research Institute
+PLANTECOL,2012,213,1,Editorial Board,S.,J.,Walsh,,United States,M,SE,,The University of North Carolina at Chapel Hill
+PLANTECOL,2012,213,1,Editorial Board,Glenda,M.,Wardle,,Australia,F,SE,,University of Sydney
+PLANTECOL,2012,213,1,Editorial Board,Barry,,Warner,,Canada,M,SE,,University of Waterloo
+PLANTECOL,2012,213,1,Editorial Board,Edward,TF,Witkowski,,South Africa,M,SE,,University of the Witwatersrand
+PLANTECOL,2012,213,1,Editorial Board,Kathryn,,Yurkonis,,United States,M,SE,,University of North Dakota Grand Froks

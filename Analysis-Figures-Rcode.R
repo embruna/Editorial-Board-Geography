@@ -73,7 +73,7 @@ NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", che
 NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
 OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 OIKOS<-read.csv("./Data2015/OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
-PLANTECO<-read.csv("./Data2015/PLANTECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+PLANTECOL<-read.csv("./Data2015/PLANTECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
 
 # STILL MISSING SOME DATA 
 GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
@@ -392,7 +392,8 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 # THIS SHOULD BE CONVERETED TO A FUNCTION!!!!!
 #
 
-JrnlToClean<-ChoData
+# JrnlToClean<-ChoData
+JrnlToClean<-ClassData 
 head(JrnlToClean)
 head(ChoData)
 #remove extra spaces, converts to chr
@@ -430,7 +431,7 @@ which(JrnlToClean$CATEGORY=="Other")
 summary(JrnlToClean$CATEGORY)
 
 CHECKFILE<-JrnlToClean %>%
-  group_by(NAME,LAST_NAME,FIRST_NAME,MIDDLE_NAME) %>% 
+  group_by(FULL_NAME,LAST_NAME,FIRST_NAME,MIDDLE_NAME) %>% 
   tally(sort=FALSE)
 str(CHECKFILE)
 CHECKFILE<-as.data.frame(CHECKFILE)
@@ -441,7 +442,7 @@ CHECKFILE$FIRSTLAST_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$LAST_NAME, sep=" 
 str(CHECKFILE)
 summary(CHECKFILE)
 
-CHECKFILE$NAME<-as.character(CHECKFILE$NAME)
+CHECKFILE$NAME<-as.character(CHECKFILE$FULL_NAME)
 CHECKFILE$FIRST_NAME<-as.character(CHECKFILE$FIRST_NAME)
 CHECKFILE$LAST_NAME<-as.character(CHECKFILE$LAST_NAME)
 CHECKFILE$MIDDLE_NAME<-as.character(CHECKFILE$MIDDLE_NAME)
@@ -601,31 +602,39 @@ summary(ChoData)
 
 #Bind the data from 2015 workshop
 
-ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, GCB,
-                 JANE, JAPE, JTE2, JZOOL, LECO, MEPS, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECO) 
+ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
 
 str(ClassData)
+summary(ClassData)
+ClassData$JOURNAL<-as.factor(ClassData$JOURNAL)
 
 ####FIX THIS
-ClassData[which(ClassData$JOURNAL==""),] #several with no journal name
+ClassData[which(ClassData$JOURNAL==""),] #are there any with no journal?
+ClassData[which(ClassData$FIRST_NAME==""),] #are there any with no 1st name?
+ClassData[which(ClassData$LAST_NAME==""),] #are there any with no 1st name?
+
 ClassData$FIRST_NAME<-as.character(ClassData$FIRST_NAME)
 ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Mar\x90a"] <- "Mar-x90a"
 ClassData$FIRST_NAME[ClassData$FIRST_NAME == "J\xd3rg"] <- "J-xd3rg"
 #####
-str(foo)
-summary(foo)
+
 
 foo<-ClassData %>%
   select(JOURNAL, YEAR)  %>% 
   filter(YEAR>1984 & YEAR<2015)
+str(foo)
+summary(foo)
 summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
-missing_yrs<-filter(summary_table,Freq<1) %>% 
-  filter(Var2!="AGRONOMY") %>% 
-  filter(Var2!="ARES") %>% 
+missing_yrs<-filter(summary_table,Freq<1) %>% #Filters the summary table to include years for whihc zero records
+  filter(Var2!="AGRONOMY") %>%  # Eliminates the ones that are extnsions of Cho et al data
+  filter(Var2!="AREES") %>% 
 filter(Var2!="BIOCON")%>% 
 filter(Var2!="BITR")%>% 
 filter(Var2!="JTE")%>% 
-filter(Var2!="NAJFM")
+  filter(Var2!="NAJFM")%>% 
+filter(Var2!="") # Eliminates any missing journal
+
 write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
 
 
@@ -664,8 +673,20 @@ ClassData$FULL_NAME<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$
 ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME, fixed=TRUE)
 
 ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
-##SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
-# EVOL: several titles missing
+# 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
+# 2) EVOL: several titles missing 
+# 3) AMNAT: 1985-1992 has two volumes for each year. use oone? both? 
+# 4) AMNAT: some missing volume and issue data
+# 5) AMNAT: Need to correct AE for Editor
+# 6) Oecologia has several EIC's (plants, animals, etc)
+# 7 One name missing in Oecologia due to blurry pic
+#8) Removed MEPS, GCB because so many years missing.
+
+
+
+
+
+
 
 
 
