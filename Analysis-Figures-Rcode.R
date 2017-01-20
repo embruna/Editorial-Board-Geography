@@ -376,17 +376,280 @@ ChoData$MIDDLE_NAME <- as.factor(ChoData$MIDDLE_NAME)
 ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 
 
-
-
-
-
-
 # WHY ISN"T THIS PIPING WORKING???
 # ChoData %>% 
 #   select(FIRST_NAME, MIDDLE_NAME, LAST_NAME)  %>% 
 #   mutate_each(funs(as.factor))
 
 
+
+
+# 
+# 
+# #### END OF FUNCTION 1
+# 
+# #look over the file, identify the names (rows) that eed to be fixed. Create a vector of those row numbers. That will be used in function 2 to pull them out of the file
+# # CHO NAMES TO FIX
+# # NamesDFfix<-c(1,3:38,46:49,52,56:58,60,61,62,64,67:69,71,81,84,86,88,97,98,102:104,107,
+# #               111,122:123,129,142:144,146,147,153:155,158,159,161,168,170,171,185:189,
+# #               195,200,207,212,213,214,222,226,227,263,269,270,273:276,278,279,282,284,307)
+# 
+# NamesDFfix<-NamesDF$index
+# 
+# #Now select them out
+# NamesDFfix<-slice(NamesDF,NamesDFfix)
+# 
+# # split the Name1 and Name2 into seperate columns for 1st and last name
+# NamesDFfix<-separate(NamesDFfix, Name1, c("Name1first", "Name1last"), sep = " ", remove = TRUE, convert = FALSE)
+# NamesDFfix<-separate(NamesDFfix, Name2, c("Name2first", "Name2last"), sep = " ", remove = TRUE, convert = FALSE)
+# # Do the 1st names match each other
+# NamesDFfix$FirstNamesMatch<-NA
+# NamesDFfix$FirstNamesMatch<-NamesDFfix$Name1first==NamesDFfix$Name2first
+# # do the last names match each other
+# NamesDFfix$LastNamesMatch<-NA
+# NamesDFfix$LastNamesMatch<-NamesDFfix$Name1last==NamesDFfix$Name2last
+# 
+# 
+# # THESE ARE THE ONES THAT NEED TO BE 2x in ChoData
+# LastToFix<-filter(NamesDFfix,FirstNamesMatch==TRUE & LastNamesMatch==FALSE) #These suggest the last name is misspelled
+# FirstToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==TRUE) #These suggest the first name is misspelled
+# AllToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==FALSE) #either 1) first ÅND last name is mispelled OR  Something needs to be 2x
+# 
+# # additional checks
+# index == 146 | index == 147) #Huntley
+# filter(NamesDFfix, index == 22 | index == 23) #all combos of spellings r wright rg wright
+# 
+# 
+# 
+# filter(ChoData,tolower(LAST_NAME)==NamesDFfix$Name1last[1])
+# filter(ChoData,LAST_NAME=="Simberhoff")
+# filter(ChoData,tolower(LAST_NAME)=="simberhoff")
+# filter(ChoData,tolower(LAST_NAME)==NamesDFfix[7,2])
+# filter(ChoData,tolower(LAST_NAME)==LastToFix$Name1last)
+# # tolower("Simberhoff")
+# # ChoData %>% filter(tolower(LAST_NAME==Name1last))
+# ## ChoData %>% filter(tolower(ChoData$LAST_NAME)==(LastToFix[1,2]) | LastToFix[1,4]))
+# # filter(ChoData,tolower(LAST_NAME)=="simberhoff")
+# # filter(ChoData,(tolower(LAST_NAME)=="iriondo" | tolower(LAST_NAME)=="irlondo"))
+# # filter(ChoData,(tolower(LAST_NAME)=="cahil" | tolower(LAST_NAME)=="cahill"))
+# 
+# 
+# ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them from factor to string  
+
+ 
+
+# use high similarity of last name but low of first name to find misspelled or shortened first name
+# use high similarity of first name but low of last name to find misspelled last names
+# confirm with complete string similarity
+
+
+
+############################################################
+# Organiation & Cleaning: CLASSDATA  
+############################################################
+
+#Bind the data from 2015 workshop
+
+ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
+
+str(ClassData)
+summary(ClassData)
+ClassData$JOURNAL<-as.factor(ClassData$JOURNAL)
+#write.csv(ClassData, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData.csv", row.names = T) #export it as a csv file
+
+
+# Error Correction
+
+####FIX THIS
+# ClassData[which(ClassData$JOURNAL==""),] #are there any with no journal?
+# ClassData[which(ClassData$FIRST_NAME==""),] #are there any with no 1st name?
+# ClassData[which(ClassData$LAST_NAME==""),] #are there any with no 1st name?
+
+ClassData$FIRST_NAME<-as.character(ClassData$FIRST_NAME)
+#####
+
+
+foo<-ClassData %>%
+  select(JOURNAL, YEAR)  %>% 
+  filter(YEAR>1984 & YEAR<2015)
+str(foo)
+summary(foo)
+summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
+missing_yrs<-filter(summary_table,Freq<1) %>% #Filters the summary table to include years for whihc zero records
+  filter(Var2!="AGRONOMY") %>%  # Eliminates the ones that are extnsions of Cho et al data
+  filter(Var2!="AREES") %>% 
+filter(Var2!="BIOCON")%>% 
+filter(Var2!="BITR")%>% 
+filter(Var2!="JTE")%>% 
+  filter(Var2!="NAJFM")%>% 
+filter(Var2!="") # Eliminates any missing journal
+
+write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
+
+
+
+str(ClassData)
+# Make the data types consistent with ChoData 
+
+ClassData$VOLUME<-as.integer(ClassData$VOLUME)
+ClassData$ISSUE<-as.integer(ClassData$ISSUE)
+
+
+#Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
+trim.trailing <- function (x) sub("\\s+$", "", x)
+ClassData$FIRST_NAME<-trim.trailing(ClassData$FIRST_NAME)
+ClassData$MIDDLE_NAME<-trim.trailing(ClassData$MIDDLE_NAME)
+ClassData$LAST_NAME<-trim.trailing(ClassData$LAST_NAME)
+trim.leading <- function (x)  sub("^\\s+", "", x)
+ClassData$FIRST_NAME<-trim.leading(ClassData$FIRST_NAME)
+ClassData$MIDDLE_NAME<-trim.leading(ClassData$MIDDLE_NAME)
+ClassData$LAST_NAME<-trim.leading(ClassData$LAST_NAME)
+
+# remove any double spaces
+ClassData$FIRST_NAME<-gsub("  ", " ", ClassData$FIRST_NAME)
+ClassData$LAST_NAME<-gsub("  ", " ", ClassData$LAST_NAME, fixed=TRUE)
+ClassData$MIDDLE_NAME<-gsub("  ", " ", ClassData$MIDDLE_NAME, fixed=TRUE)
+
+# Remove the periods from peoples names to make consistent accross all files
+ClassData$FIRST_NAME<-gsub("[.]","", ClassData$FIRST_NAME) # . is a wildcard, so [.] removes only the period.
+ClassData$MIDDLE_NAME<-gsub(".", "", ClassData$MIDDLE_NAME, fixed=TRUE)
+ClassData$LAST_NAME<-gsub(".", "", ClassData$LAST_NAME, fixed=TRUE)
+
+
+# which(ClassData$FIRST_NAME=="Marc-Andr_")
+# which(ClassData$MIDDLE_NAME=="JT")
+# which(ClassData$LAST_NAME=="Selosse")
+
+
+# FIRST NAMES TO BE CORRECTED
+ClassData$FIRST_NAME[ClassData$LAST_NAME == "Briones"] <- "Maria"
+ClassData$FIRST_NAME[ClassData$LAST_NAME == "Kudla"] <- "Jorg" 
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Aliastair"] <- "Alastair"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Marc-Andr_"] <- "Marc-Andre"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "J_rgen"] <- "Jurgen"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Pihilip"] <- "Philip"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ricardo"] <- "Riccardo"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Daphnew"] <- "Daphne"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Emflia"] <- "Emilia"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Clharles"] <- "Charles"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Daniei"] <- "Daniel"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Dianne"] <- "Diane"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Harol"] <- "Harold"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jefery"] <- "Jeffry"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Natalie"] <- "Nathalie"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Candance"] <- "Candace"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Pfter"] <- "Peter"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Rolbert"] <- "Robert"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Andr_"] <- "Andre"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Vejo"] <- "Veijo"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ikka"] <- "Ilkka"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Drie"] <- "Dries"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jean-Michelle"] <- "Jean-Michel"
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Neal"] <- "Neil" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
+ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "Neil"] <- "J" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
+ClassData$FIRST_NAME[ClassData$FIRST == "Charles" & ClassData$LAST_NAME == "Godfray"] <- "H" #WORKING?
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+
+# MIDDLE NAMES TO BE CORRECTED
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "J A"] <- "JA"
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Richiard"] <- "Richard"
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "AlbertC"] <- "Albert C"
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "GA"] <- "G A"
+ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "H" & ClassData$LAST_NAME == "Godfray"] <- "CharlesJ" #WORKING?
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Paolo"] <- ""
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "G"] <- "Green"
+ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == ""] <- ""
+
+# LAST NAMES TO BE CORRECTED
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Saltzburger"] <- "Salzburger"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Ballar_"] <- "Ballare"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "JD"] <- "JT"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Mueller" & ClassData$FIRST_NAME == "Caroline"] <- "Muller" #WORKING?
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Fairburn"] <- "Fairbairn"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Buerger"] <- "Burger"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Colwel"] <- "Colwell"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Abrecht"] <- "Albrecht"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Meaghe"] <- "Meagher"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "McCailum"] <- "McCallum"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Mit[On"] <- "Mitton"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Gerber"] <- "Geber"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Harevey"] <- "Harvey"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "O'Donnell"] <- "ODonnell"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Odonnell"] <- "ODonnell"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Beashop"] <- "Bearhop"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Plnero"] <- "Pinero"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Coyn"] <- "Coyne"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Fryxwell"] <- "Fryxell"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillim"] <- "Lill"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Ericksson"] <- "Eriksson"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Bennet"] <- "Bennett"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Pim"] <- "Pimm"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Rot"] <- "Roth"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Sieman"] <- "Siemann"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Yl_nen"] <- "Ylonen"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Niemala"] <- "Niemela"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Schmid"] <- "Schmitz"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Fielder"] <- "Fiedler"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Karieva"] <- "Kareiva"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Diaz-Filho"] <- "Diniz-Filho"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Diniz-Filho"
+ClassData$FIRST_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Jose" #WORKING?
+ClassData$MIDDLE_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Alexandre" #WORKING?
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Rea"] <- "Real"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Paolo"] <- "Paolo-Patti"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "Patti"] <- "Paolo-Patti"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "H" & ClassData$FIRST_NAME=="George"] <- "Heimpel"
+ClassData$LAST_NAME[ClassData$LAST_NAME == "vanderhaijden"] <- "vanderheijden"
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+
+
+
+
+##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
+# 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
+# 2) EVOL: several titles missing 
+# 3) AMNAT: 1985-1992 has two volumes for each year. use oone? both? 
+# 4) AMNAT: some missing volume and issue data
+# 5) AMNAT: Need to correct AE for Editor
+# 6) Oecologia has several EIC's (plants, animals, etc)
+# 7 One name missing in Oecologia due to blurry pic
+#8) Removed MEPS, GCB because so many years missing.
+
+
+
+
+
+# Corrections to the database
+str(ClassData)
+ClassData$FULL_NAME<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$LAST_NAME, sep=" ")
+# Remove the periods from peoples names to make consistent accross all files
+ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME)
 
 # Now make sure all names, cases, categories, etc. are consistent
 # THIS SHOULD BE CONVERETED TO A FUNCTION!!!!!
@@ -395,7 +658,7 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 # JrnlToClean<-ChoData
 JrnlToClean<-ClassData 
 head(JrnlToClean)
-head(ChoData)
+head(JrnlToClean)
 #remove extra spaces, converts to chr
 JrnlToClean$CATEGORY<-gsub(" ", "", JrnlToClean$CATEGORY, fixed=TRUE) 
 
@@ -500,190 +763,16 @@ NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
 
 NamesDF<-arrange(NamesDF,Name_dist,Name1)
 NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it easier to id which row you need'
-NamesDF
+head(NamesDF)
 write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheckCLASS-FIRST-LAST.csv", row.names = T) #export it as a csv file
 
-head(NamesDF)
 
-
-summary(ChoData)
-
-
-
-
-
-
-
-
-
-# 
-# 
-# #### END OF FUNCTION 1
-# 
-# #look over the file, identify the names (rows) that eed to be fixed. Create a vector of those row numbers. That will be used in function 2 to pull them out of the file
-# # CHO NAMES TO FIX
-# # NamesDFfix<-c(1,3:38,46:49,52,56:58,60,61,62,64,67:69,71,81,84,86,88,97,98,102:104,107,
-# #               111,122:123,129,142:144,146,147,153:155,158,159,161,168,170,171,185:189,
-# #               195,200,207,212,213,214,222,226,227,263,269,270,273:276,278,279,282,284,307)
-# 
-# NamesDFfix<-NamesDF$index
-# 
-# #Now select them out
-# NamesDFfix<-slice(NamesDF,NamesDFfix)
-# 
-# # split the Name1 and Name2 into seperate columns for 1st and last name
-# NamesDFfix<-separate(NamesDFfix, Name1, c("Name1first", "Name1last"), sep = " ", remove = TRUE, convert = FALSE)
-# NamesDFfix<-separate(NamesDFfix, Name2, c("Name2first", "Name2last"), sep = " ", remove = TRUE, convert = FALSE)
-# # Do the 1st names match each other
-# NamesDFfix$FirstNamesMatch<-NA
-# NamesDFfix$FirstNamesMatch<-NamesDFfix$Name1first==NamesDFfix$Name2first
-# # do the last names match each other
-# NamesDFfix$LastNamesMatch<-NA
-# NamesDFfix$LastNamesMatch<-NamesDFfix$Name1last==NamesDFfix$Name2last
-# 
-# 
-# # THESE ARE THE ONES THAT NEED TO BE 2x in ChoData
-# LastToFix<-filter(NamesDFfix,FirstNamesMatch==TRUE & LastNamesMatch==FALSE) #These suggest the last name is misspelled
-# FirstToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==TRUE) #These suggest the first name is misspelled
-# AllToFix<-filter(NamesDFfix,FirstNamesMatch==FALSE & LastNamesMatch==FALSE) #either 1) first ÅND last name is mispelled OR  Something needs to be 2x
-# 
-# # additional checks
-# index == 146 | index == 147) #Huntley
-# filter(NamesDFfix, index == 22 | index == 23) #all combos of spellings r wright rg wright
-# 
-# 
-# 
-# filter(ChoData,tolower(LAST_NAME)==NamesDFfix$Name1last[1])
-# filter(ChoData,LAST_NAME=="Simberhoff")
-# filter(ChoData,tolower(LAST_NAME)=="simberhoff")
-# filter(ChoData,tolower(LAST_NAME)==NamesDFfix[7,2])
-# filter(ChoData,tolower(LAST_NAME)==LastToFix$Name1last)
-# # tolower("Simberhoff")
-# # ChoData %>% filter(tolower(LAST_NAME==Name1last))
-# ## ChoData %>% filter(tolower(ChoData$LAST_NAME)==(LastToFix[1,2]) | LastToFix[1,4]))
-# # filter(ChoData,tolower(LAST_NAME)=="simberhoff")
-# # filter(ChoData,(tolower(LAST_NAME)=="iriondo" | tolower(LAST_NAME)=="irlondo"))
-# # filter(ChoData,(tolower(LAST_NAME)=="cahil" | tolower(LAST_NAME)=="cahill"))
-# 
-# 
-# ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them from factor to string  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# use high similarity of last name but low of first name to find misspelled or shortened first name
-# use high similarity of first name but low of last name to find misspelled last names
-# confirm with complete string similarity
-
-
-
-############################################################
-# Organiation & Cleaning: CLASSDATA  
-############################################################
-
-#Bind the data from 2015 workshop
-
-ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
-
-str(ClassData)
-summary(ClassData)
-ClassData$JOURNAL<-as.factor(ClassData$JOURNAL)
-
-####FIX THIS
-ClassData[which(ClassData$JOURNAL==""),] #are there any with no journal?
-ClassData[which(ClassData$FIRST_NAME==""),] #are there any with no 1st name?
-ClassData[which(ClassData$LAST_NAME==""),] #are there any with no 1st name?
-
-ClassData$FIRST_NAME<-as.character(ClassData$FIRST_NAME)
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Mar\x90a"] <- "Mar-x90a"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "J\xd3rg"] <- "J-xd3rg"
-#####
-
-
-foo<-ClassData %>%
-  select(JOURNAL, YEAR)  %>% 
-  filter(YEAR>1984 & YEAR<2015)
-str(foo)
-summary(foo)
-summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
-missing_yrs<-filter(summary_table,Freq<1) %>% #Filters the summary table to include years for whihc zero records
-  filter(Var2!="AGRONOMY") %>%  # Eliminates the ones that are extnsions of Cho et al data
-  filter(Var2!="AREES") %>% 
-filter(Var2!="BIOCON")%>% 
-filter(Var2!="BITR")%>% 
-filter(Var2!="JTE")%>% 
-  filter(Var2!="NAJFM")%>% 
-filter(Var2!="") # Eliminates any missing journal
-
-write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
-
-
-
-str(ClassData)
-# Make the data types consistent with ChoData 
-
-ClassData$VOLUME<-as.integer(ClassData$VOLUME)
-ClassData$ISSUE<-as.integer(ClassData$ISSUE)
-
-
-#Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
-trim.trailing <- function (x) sub("\\s+$", "", x)
-ClassData$FIRST_NAME<-trim.trailing(ClassData$FIRST_NAME)
-ClassData$MIDDLE_NAME<-trim.trailing(ClassData$MIDDLE_NAME)
-ClassData$LAST_NAME<-trim.trailing(ClassData$LAST_NAME)
-trim.leading <- function (x)  sub("^\\s+", "", x)
-ClassData$FIRST_NAME<-trim.leading(ClassData$FIRST_NAME)
-ClassData$MIDDLE_NAME<-trim.leading(ClassData$MIDDLE_NAME)
-ClassData$LAST_NAME<-trim.leading(ClassData$LAST_NAME)
-# remove any double spaces
-
-ClassData$FIRST_NAME<-gsub("  ", " ", ClassData$FIRST_NAME, fixed=TRUE)
-ClassData$LAST_NAME<-gsub("  ", " ", ClassData$LAST_NAME, fixed=TRUE)
-ClassData$MIDDLE_NAME<-gsub("  ", " ", ClassData$MIDDLE_NAME, fixed=TRUE)
-
-# Remove the periods from peoples names to make consistent accross all files
-ClassData$FIRST_NAME<-gsub(".", "", ClassData$FIRST_NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
-ClassData$MIDDLE_NAME<-gsub(".", "", ClassData$MIDDLE_NAME, fixed=TRUE)
-ClassData$LAST_NAME<-gsub(".", "", ClassData$LAST_NAME, fixed=TRUE)
-
-# Corrections to the database
-str(ClassData)
-ClassData$FULL_NAME<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$LAST_NAME, sep=" ")
-# Remove the periods from peoples names to make consistent accross all files
-ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME, fixed=TRUE)
-
-##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
-# 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
-# 2) EVOL: several titles missing 
-# 3) AMNAT: 1985-1992 has two volumes for each year. use oone? both? 
-# 4) AMNAT: some missing volume and issue data
-# 5) AMNAT: Need to correct AE for Editor
-# 6) Oecologia has several EIC's (plants, animals, etc)
-# 7 One name missing in Oecologia due to blurry pic
-#8) Removed MEPS, GCB because so many years missing.
-
-
-
+##########################################################
+##########################################################
+## End of section cleaning up the data and putting it
+## in similar format for comparison and analysis
+##########################################################
+##########################################################
 
 
 
@@ -710,7 +799,9 @@ ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME, fixed=TRUE)
 #
 ######################################################
 
-DATASET<-ChoData OR DATASET<-ClassData
+DATASET<-ChoData #OR 
+DATASET<-ClassData #OR
+
 
 #step3: change all the country names to the codes used in mapping
 #Add a column with the 3 letter country codes to be consistent with the other datasets
@@ -729,12 +820,10 @@ DATASET$COUNTRY[DATASET$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots
 DATASET$COUNTRY[DATASET$COUNTRY == "Wales"]  <- "UK"
 DATASET$COUNTRY[DATASET$COUNTRY == "England"]  <- "UK"
 DATASET$COUNTRY[DATASET$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
+DATASET$COUNTRY[DATASET$COUNTRY == "Austrailia"]  <- "Australia" #removing old names
 
 #we need to change yugoslavia to what?
 #we need to add french guiana wold bank classficiation
-
-
-
 
 
 

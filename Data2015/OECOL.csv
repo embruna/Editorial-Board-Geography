@@ -499,7 +499,7 @@ OECOL,2009,158,4,HandlingEditor,Raoul,,VanDamme,,Belgium,M,SE,,University of Ant
 OECOL,2010,162,1,HandlingEditor,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
 OECOL,2011,165,1,HandlingEditor,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
 OECOL,2012,170,2,HandlingEditor,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
-OECOL,2013,171,1,HandlingEditor,Raoul,van,Damme,,Belgium,M,SE,,University of Antwerp
+OECOL,2013,171,1,HandlingEditor,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
 OECOL,2014,174,1,HandlingEditor,Raoul,,VanDamme,,Belgium,M,SE,,University of Antwerp
 OECOL,1990,82,1,EditorialBoard,Ram,,Oren,,USA,M,SE,,Duke University
 OECOL,1991,85,3,EditorialBoard,Ram,,Oren,,USA,M,SE,,Duke University
@@ -1288,9 +1288,9 @@ OECOL,2011,165,1,HandlingEditor,Jean-Michel,,Gaillard,,France,M,SE,,University C
 OECOL,2012,170,2,HandlingEditor,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
 OECOL,2013,171,1,HandlingEditor,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
 OECOL,2014,174,1,HandlingEditor,Jean-Michel,,Gaillard,,France,M,SE,,University Claude Bernard Lyon 1
-OECOL,2012,170,2,HandlingEditor,Jean-Francois,Le,Galliard,,France,M,SE,This information is not clear in the picture,University of Paris 6
-OECOL,2013,171,1,HandlingEditor,Jean-Francois,Le,Gaillard,,France,M,SE,,CEREEP-Ecotron IleDeFrance 
-OECOL,2014,174,1,HandlingEditor,Jean-Francois,Le,Galliard,,France,M,SE,This information is not clear in the picture,University of Paris 6
+OECOL,2012,170,2,HandlingEditor,Jean-Francois,,LeGalliard,,France,M,SE,This information is not clear in the picture,University of Paris 6
+OECOL,2013,171,1,HandlingEditor,Jean-Francois,,LeGalliard,,France,M,SE,,CEREEP-Ecotron IleDeFrance 
+OECOL,2014,174,1,HandlingEditor,Jean-Francois,,LeGalliard,,France,M,SE,This information is not clear in the picture,University of Paris 6
 OECOL,1998,113,4,EditorialBoard,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
 OECOL,1999,118,4,EditorialBoard,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
 OECOL,2000,122,4,EditorialBoard,Jay,,Rosenheim,,USA,M,SE,,"University of California, Davis"
