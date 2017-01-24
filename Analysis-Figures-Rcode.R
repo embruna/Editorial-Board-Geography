@@ -458,7 +458,8 @@ summary(ClassData)
 ClassData$JOURNAL<-as.factor(ClassData$JOURNAL)
 #write.csv(ClassData, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData.csv", row.names = T) #export it as a csv file
 
-
+# THIS REMOVEAS A FEW WITH BLANKS IN THE NAMES
+ClassData <-filter(ClassData, ClassData$FIRST_NAME!="" & ClassData$LAST_NAME!="")
 # Error Correction
 
 ####FIX THIS
@@ -549,22 +550,7 @@ ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jean-Michelle"] <- "Jean-Michel"
 ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Neal"] <- "Neil" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
 ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "Neil"] <- "J" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
 ClassData$FIRST_NAME[ClassData$FIRST == "Charles" & ClassData$LAST_NAME == "Godfray"] <- "H" #WORKING?
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == ""] <- ""
+
 
 # MIDDLE NAMES TO BE CORRECTED
 ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "J A"] <- "JA"
@@ -574,7 +560,6 @@ ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "GA"] <- "G A"
 ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "H" & ClassData$LAST_NAME == "Godfray"] <- "CharlesJ" #WORKING?
 ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Paolo"] <- ""
 ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "G"] <- "Green"
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == ""] <- ""
 
 # LAST NAMES TO BE CORRECTED
 ClassData$LAST_NAME[ClassData$LAST_NAME == "Saltzburger"] <- "Salzburger"
@@ -618,15 +603,7 @@ ClassData$LAST_NAME[ClassData$LAST_NAME == "Paolo"] <- "Paolo-Patti"
 ClassData$LAST_NAME[ClassData$LAST_NAME == "Patti"] <- "Paolo-Patti"
 ClassData$LAST_NAME[ClassData$LAST_NAME == "H" & ClassData$FIRST_NAME=="George"] <- "Heimpel"
 ClassData$LAST_NAME[ClassData$LAST_NAME == "vanderhaijden"] <- "vanderheijden"
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
-ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
+
 
 
 
@@ -643,20 +620,43 @@ ClassData$LAST_NAME[ClassData$LAST_NAME == ""] <- ""
 
 
 
-
-
 # Corrections to the database
 str(ClassData)
 ClassData$FULL_NAME<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$LAST_NAME, sep=" ")
 # Remove the periods from peoples names to make consistent accross all files
 ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME)
 
+
+
+
+######################################################
+#
+# BIND YOUR DATASETS TOGETHER. CAN THE DISAMBIGUATE & 
+# ERROR CORRECT EACH ONE OR THE BOUND ONE USING THE
+# BLOCK OF CODE AFTER THIS
+#
+######################################################
+
+str(ChoData)
+str(ClassData)
+
+ChoData$INSTITUTION<-NA
+ChoData$NAME<-NULL
+ChoData$DATASET<-"Cho"
+
+ClassData$SUFFIX<-NULL
+ClassData$DATASET<-"Class"
+ALLDATA<-rbind(ChoData,ClassData)
+
 # Now make sure all names, cases, categories, etc. are consistent
 # THIS SHOULD BE CONVERETED TO A FUNCTION!!!!!
 #
 
+
+
 # JrnlToClean<-ChoData
-JrnlToClean<-ClassData 
+# JrnlToClean<-ClassData 
+JrnlToClean<-ALLDATA
 head(JrnlToClean)
 head(JrnlToClean)
 #remove extra spaces, converts to chr
@@ -694,7 +694,7 @@ which(JrnlToClean$CATEGORY=="Other")
 summary(JrnlToClean$CATEGORY)
 
 CHECKFILE<-JrnlToClean %>%
-  group_by(FULL_NAME,LAST_NAME,FIRST_NAME,MIDDLE_NAME) %>% 
+  group_by(LAST_NAME,FIRST_NAME,MIDDLE_NAME, COUNTRY) %>% 
   tally(sort=FALSE)
 str(CHECKFILE)
 CHECKFILE<-as.data.frame(CHECKFILE)
@@ -702,14 +702,18 @@ which(CHECKFILE == "")
 CHECKFILE[CHECKFILE == ""] <- NA
 CHECKFILE<-droplevels(CHECKFILE)
 CHECKFILE$FIRSTLAST_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$LAST_NAME, sep=" ")
+CHECKFILE$FIRSTLASTMIDDLE_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$FIRST_NAME,CHECKFILE$LAST_NAME, sep=" ")
 str(CHECKFILE)
 summary(CHECKFILE)
 
-CHECKFILE$NAME<-as.character(CHECKFILE$FULL_NAME)
+# CHECKFILE$NAME<-as.character(CHECKFILE$NAME)
+CHECKFILE$COUNTRY<-as.character(CHECKFILE$COUNTRY)
 CHECKFILE$FIRST_NAME<-as.character(CHECKFILE$FIRST_NAME)
 CHECKFILE$LAST_NAME<-as.character(CHECKFILE$LAST_NAME)
 CHECKFILE$MIDDLE_NAME<-as.character(CHECKFILE$MIDDLE_NAME)
 CHECKFILE$FIRSTLAST_NAME<-as.character(CHECKFILE$FIRSTLAST_NAME)
+CHECKFILE$FIRSTLASTMIDDLE_NAME<-as.character(CHECKFILE$FIRSTLASTMIDDLE_NAME)
+
 
 str(CHECKFILE)
 
@@ -717,7 +721,9 @@ str(CHECKFILE)
 # LAST NAMES: this should help pick up things like Abrams vs Abrasm
 
 
-CheckNames<-CHECKFILE$NAME  #ClassData$FULL_NAME
+# CheckNames<-CHECKFILE$NAME  #FOR CHO DATA
+# CheckNames<-CHECKFILE$FULL_NAME #FOR CLASS DATA
+CheckNames<-CHECKFILE$FIRSTLASTMIDDLE_NAME #FOR ALL DATA
 CheckNames<-tolower(CheckNames) #drop all to lower case - makes it easier to error check and analyze
 CheckNames<-unique(CheckNames)
 
@@ -749,7 +755,7 @@ head(NamesDF)
 # Convert to chr
 NamesDF$Name1<-as.character(NamesDF$Name1)
 NamesDF$Name2<-as.character(NamesDF$Name2)
-# str(NamesDF)
+str(NamesDF)
 
 # Calclulate the proportional similarity and # changes required to go from one name to another. Package RecordLinkage
 NamesDF$Name_sim<-levenshteinSim(NamesDF$Name1, NamesDF$Name2)
@@ -761,18 +767,21 @@ NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
 # this arranges them in order from most similar (1 change required) to least similar.
 # look carefully at those with a few changes, as they are likely to be a tiny spelling mistake or difference in intials
 
-NamesDF<-arrange(NamesDF,Name_dist,Name1)
+
 NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it easier to id which row you need'
-head(NamesDF)
-write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheckCLASS-FIRST-LAST.csv", row.names = T) #export it as a csv file
+NamesDF <- NamesDF %>% select(index, Name1, Name2, Name_sim,Name_dist) #It's kinda ugly, but this rearranges columns (and dumps the "FALSE")
+NamesDF <- arrange(NamesDF, desc(Name_sim))
+# head(NamesDF)
+write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA.csv", row.names = T) #export it as a csv file
 
 
 ##########################################################
 ##########################################################
 ## End of section cleaning up the data and putting it
-## in similar format for comparison and analysis
+## in similar format for comparison and analysis 
 ##########################################################
 ##########################################################
+
 
 
 
@@ -800,7 +809,7 @@ write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Edi
 ######################################################
 
 DATASET<-ChoData #OR 
-DATASET<-ClassData #OR
+# DATASET<-ClassData #OR
 
 
 #step3: change all the country names to the codes used in mapping
