@@ -1,11 +1,11 @@
 JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
-LECO,1999,14,1,SE,Kimberly,,A,,US,,SE,,Bowling Green State Univ.
-LECO,2000,15,1,SE,Kimberly,,A,,US,,SE,,Bowling Green State Univ.
-LECO,2001,17,1,SE,Kimberly,,A,,US,,SE,,Bowling Green State Univ.
-LECO,2002,18,1,SE,Kimberly,,A,,US,,SE,,Bowling Green State Univ.
-LECO,2003,19,1,SE,Kimberly,,A,,US,,SE,,Bowling Green State Univ.
-LECO,2005,20,1,SE,Kimberly,,A,,US,,SE,,Kansas State Univ. 
-LECO,2006,21,1,SE,Kimberly,,A,,US,,SE,,Kansas State Univ. 
+LECO,1999,14,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2000,15,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2001,17,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2002,18,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2003,19,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2005,20,1,SE,Kimberly,A,With,,US,,SE,,Kansas State Univ. 
+LECO,2006,21,1,SE,Kimberly,A,With,,US,,SE,,Kansas State Univ. 
 LECO,1999,14,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
 LECO,2000,15,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
 LECO,2001,17,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
@@ -380,7 +380,7 @@ LECO,2008,23,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
 LECO,2009,24,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
 LECO,2010,25,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
 LECO,2015,30,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2003,19,1,SE,Jean,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2003,19,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
 LECO,1999,14,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
 LECO,2000,15,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
 LECO,2001,17,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology

@@ -5,8 +5,6 @@
 #CLear out everything from the environment 
 rm(list=ls())
 
-
-
 #Set WD and load packages you need. Not all of which you need after all.
 #setwd("-------")
 library(countrycode)
@@ -144,7 +142,6 @@ ChoData$NAME <- as.character(ChoData$NAME) #Must first convert them from factor 
 
 # Error Correction
 ChoData$NAME[ChoData$NAME == "_a_an H _ekercio_lu"] <-"Cagan Sekercioglu"
-ChoData$NAME[ChoData$NAME == "Ralph Mac Nally"] <- "Ralph MacNally"
 ChoData$NAME[ChoData$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
 ChoData$NAME[ChoData$NAME == "Li (Aster) Zhang"] <- "Li Aster Zhang"
 ChoData$NAME[ChoData$NAME == "Allan Blaylock"] <- "Alan Blaylock"
@@ -175,6 +172,10 @@ ChoData$NAME[ChoData$NAME == "Roberto Salquero-Gomez"] <- "Roberto Salguero-Gome
 ChoData$NAME[ChoData$NAME == "STEVE J HAWKIN"] <- "Steve J Hawkings"
 ChoData$NAME[ChoData$NAME == "Anthony J Felder"] <- "Anthony J Fedler"
 ChoData$NAME[ChoData$NAME == "Micahel Proctor"] <- "Michael CF Proctor"
+ChoData$NAME[ChoData$NAME == "Saeid Soufizadeh_"] <- "Saeid Soufizadeh"
+ChoData$NAME[ChoData$NAME == "Spencer H. C. Barrett"] <- "Spencer C.H. Barrett"
+
+
 
 # Changes made to account for multiple middle or last names
 ChoData$NAME[ChoData$NAME == "JC DE M CARVALHO"] <- "JC DeM-Carvalho"
@@ -215,7 +216,18 @@ ChoData$NAME[ChoData$NAME == "EJ Milner-Gullard"] <- "E J Milner-Gulland"
 ChoData$NAME[ChoData$NAME == "Diane De Steven"] <- "Diane DeSteven"
 ChoData$NAME[ChoData$NAME == "MJ SCOTT"] <- "M J Scott"
 ChoData$NAME[ChoData$NAME == "SIR PETER SCOTT"] <- "Peter Scott"
-
+ChoData$NAME[ChoData$NAME == "Kim Wllliams-Guillen"] <- "Kim Williams-Guillen"
+ChoData$NAME[ChoData$NAME == "Daniel Issermann"] <- "Daniel Isermann"
+ChoData$NAME[ChoData$NAME == "STEVE J. HAWKINGS"] <- "STEVE J. HAWKINS"
+ChoData$NAME[ChoData$NAME == "Johnathan Holman"] <- "Johnathon Holman"
+ChoData$NAME[ChoData$NAME == "J. P. METZGER"] <- "Jean-Paul Metzger"
+ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos MartinezDelRio"
+ChoData$NAME[ChoData$NAME == "Prasanna Gowde"] <- "Prasanna Gowda"
+ChoData$NAME[ChoData$NAME == "Victoria Stork"] <- "Victoria Sork"
+ChoData$NAME[ChoData$NAME == "Kasutuv Roy"] <- "Kaustuv Roy"
+ChoData$NAME[ChoData$NAME == "Ferry Silk"] <- "Ferry Slik"
+ChoData$NAME[ChoData$NAME == "P.A.R. HOCKEY"] <- "Philip AR Hockey"
+ChoData$NAME[ChoData$NAME == "Phil A R Hockey"] <- "Philip AR Hockey"
 
 
 #Changes made to make names consistent accross journals 
