@@ -217,9 +217,13 @@ ChoData$NAME[ChoData$NAME == "Kasutuv Roy"] <- "Kaustuv Roy"
 ChoData$NAME[ChoData$NAME == "Ferry Silk"] <- "Ferry Slik"
 ChoData$NAME[ChoData$NAME == "P.A.R. HOCKEY"] <- "Philip AR Hockey"
 ChoData$NAME[ChoData$NAME == "Phil A R Hockey"] <- "Philip AR Hockey"
+ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerlinde Barbra de Deyn"
 
 
 #Changes made to make names consistent accross journals 
+
+ChoData$NAME[ChoData$NAME == "M.J. COE"] <- "M. J. COE"
+ChoData$NAME[ChoData$NAME == "Steve Bonser"] <- "Stephen P. Bonser" # NEED TO CONFIRM
 ChoData$NAME[ChoData$NAME == "Arnold Bruns"] <- "H Arnold Bruns"
 ChoData$NAME[ChoData$NAME == "Arthur Willis"] <- "Arthur J Willis"
 ChoData$NAME[ChoData$NAME == "Carlos Herrera"] <- "Carlos M Herrera"
@@ -332,7 +336,7 @@ ChoData$NAME[ChoData$NAME == "Roberth A Raguso"] <- "Robert A Raguso"
 ChoData$NAME[ChoData$NAME == "Robert Raguso"] <- "Robert A Raguso"
 ChoData$NAME[ChoData$NAME == "Steveb Evett"] <- "Steven Evett"
 ChoData$NAME[ChoData$NAME == "John Young"] <- "John R Young"
-ChoData$NAME[ChoData$NAME == "Steve Hawkings"] <- "Steve J Hawkings"
+ChoData$NAME[ChoData$NAME == "Steve Hawkings"] <- "Steve J Hawkins"
 ChoData$NAME[ChoData$NAME == "FB GOLDSMITH"] <- "F B Goldsmith"
 ChoData$NAME[ChoData$NAME == "Amy Austin"] <- "Amy T Austin"
 ChoData$NAME[ChoData$NAME == "Robert Salguero-Gomez"] <- "Roberto Salguero-Gomez"
@@ -341,15 +345,20 @@ ChoData$NAME[ChoData$NAME == "S J ANDELMAN"] <- "Sandy J Andelman"
 ChoData$NAME[ChoData$NAME == "Sandy Andelman"] <- "Sandy J Andelman"
 ChoData$NAME[ChoData$NAME == "Michael C F Proctor"] <- "Michael CF Proctor"  
 ChoData$NAME[ChoData$NAME == "Michael Proctor"] <- "Michael CF Proctor"
+ChoData$NAME[ChoData$NAME == "Judie Bronstein"] <- "Judith L. Bronstein"
 
 #Found a few with incorrect country where based and added a few notes 
 ChoData$COUNTRY[ChoData$NAME == "J Grace"] <- "UK"
 ChoData$COUNTRY[ChoData$NAME == "David J Gibson"] <- "USA"
 ChoData$COUNTRY[ChoData$NAME == "Richard D Bardgett"] <- "UK"
+ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
+
 #for notes must first convert them from factor to string  
 ChoData$NOTES <- as.character(ChoData$NOTES) 
 ChoData$NOTES[ChoData$NAME == "J Grace"] <- "probJohnGraceUofEdinborough"
 ChoData$NOTES[ChoData$NAME == "Robert Jenkins"] <- "RobertEJenkins-TNC"
+ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
+
 
 # Remove the suffixes
 ChoData$NAME<-gsub(", Jr", "", ChoData$NAME, fixed=TRUE)
@@ -646,6 +655,7 @@ ChoData$INSTITUTION<-NA
 ChoData$NAME<-NULL
 ChoData$DATASET<-"Cho"
 
+ClassData$FULL_NAME<-NULL
 ClassData$SUFFIX<-NULL
 ClassData$DATASET<-"Class"
 ALLDATA<-rbind(ChoData,ClassData)
@@ -705,6 +715,12 @@ which(CHECKFILE == "")
 CHECKFILE<-droplevels(CHECKFILE)
 CHECKFILE$FIRSTLAST_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$LAST_NAME, sep=" ")
 CHECKFILE$FIRSTLASTMIDDLE_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$MIDDLE_NAME,CHECKFILE$LAST_NAME, sep=" ")
+# First initial 1st name + last name": 
+CHECKFILE$FIRST_INIT<-as.character(CHECKFILE$FIRST_NAME)
+CHECKFILE$FIRST_INIT<-substring(CHECKFILE$FIRST_INIT,1,1)
+CHECKFILE$INITIALLAST<-paste(CHECKFILE$FIRST_INIT,CHECKFILE$LAST_NAME, sep=" ")
+
+
 str(CHECKFILE)
 summary(CHECKFILE)
 head(CHECKFILE)
@@ -716,7 +732,7 @@ CHECKFILE$LAST_NAME<-as.character(CHECKFILE$LAST_NAME)
 CHECKFILE$MIDDLE_NAME<-as.character(CHECKFILE$MIDDLE_NAME)
 CHECKFILE$FIRSTLAST_NAME<-as.character(CHECKFILE$FIRSTLAST_NAME)
 CHECKFILE$FIRSTLASTMIDDLE_NAME<-as.character(CHECKFILE$FIRSTLASTMIDDLE_NAME)
-
+CHECKFILE$INITIALLAST<-as.character(CHECKFILE$INITIALLAST)
 
 str(CHECKFILE)
 
@@ -725,8 +741,10 @@ str(CHECKFILE)
 
 
 # CheckNames<-CHECKFILE$NAME  #FOR CHO DATA
-# CheckNames<-CHECKFILE$FULL_NAME #FOR CLASS DATA
-CheckNames<-CHECKFILE$FIRSTLASTMIDDLE_NAME #FOR ALL DATA
+CheckNames<-CHECKFILE$FIRSTLAST_NAME 
+# CheckNames<-CHECKFILE$FIRSTLASTMIDDLE_NAME #FOR ALL DATA
+# CheckNames<-CHECKFILE$INITIALLAST #FOR ALL DATA
+
 CheckNames<-tolower(CheckNames) #drop all to lower case - makes it easier to error check and analyze
 CheckNames<-unique(CheckNames)
 
@@ -775,7 +793,7 @@ NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it ea
 NamesDF <- NamesDF %>% select(index, Name1, Name2, Name_sim,Name_dist) #It's kinda ugly, but this rearranges columns (and dumps the "FALSE")
 NamesDF <- arrange(NamesDF, desc(Name_sim))
 # head(NamesDF)
-write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA.csv", row.names = T) #export it as a csv file
+write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_FIRST_LAST.csv", row.names = T) #export it as a csv file
 
 
 ##########################################################
