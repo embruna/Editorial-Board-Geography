@@ -2,8 +2,10 @@
 #R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
 #This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
 
+
 #CLear out everything from the environment 
 rm(list=ls())
+
 
 #Set WD and load packages you need. Not all of which you need after all.
 #setwd("-------")
@@ -125,19 +127,6 @@ ChoData$NAME<-gsub(".", "", ChoData$NAME, fixed=TRUE) #Fixed makes it replace th
 
 # Corrections to the database
 ChoData$NAME <- as.character(ChoData$NAME) #Must first convert them from factor to string  
-
-# are these necessary? DOESNT LOOK LIKE IT: DELETE
-# ChoData$NAME[ChoData$NAME == "William Seaman, Jr"] <- "William Seaman"
-# ChoData$NAME[ChoData$NAME == "Richard  D. Bardgett"] <- "Richard D Bardgett"
-# ChoData$NAME[ChoData$NAME == "MW SCHUARTZ"] <- "Mark W Schwartz"
-# ChoData$NAME[ChoData$NAME == "RL JEFFERIES"] <- "Robert L Jefferies"
-# #Remove extra space at end of name
-# ChoData$NAME[ChoData$NAME == "William H Karasov "] <- "William H Karasov"
-# ChoData$NAME[ChoData$NAME == "Frank J Messina "] <- "Frank J Messina"
-# ChoData$NAME[ChoData$NAME == "Vojtech Novotny "] <- "Vojtech Novotny"
-# ChoData$NAME[ChoData$NAME == "Jason Warren "] <- "Jason Warren"
-# ChoData$NAME[ChoData$NAME == "Philip M Dixon "] <- "Philip M Dixon"
-# ChoData$NAME[ChoData$NAME == "Philip M Dixon "] <- "Philip M Dixon"
 
 
 # Error Correction
