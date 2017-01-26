@@ -2,10 +2,6 @@
 #R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
 #This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
 
-# git config --global user.name "embruna"
-# git config --global user.email "embruna@ufl.edu"
-# ssh-keygen -t rsa -C "embruna@ufl.edu" 
-
 #CLear out everything from the environment 
 rm(list=ls())
 
