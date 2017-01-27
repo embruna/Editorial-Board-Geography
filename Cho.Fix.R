@@ -1,4 +1,20 @@
 Cho.Fix <- function(A) {
+  #Data cleanup of Dryad Files proceeds as follows:
+  
+  # 1. Bind the csv files you want together. 
+  # 2. Remove any spaces at the start or end of names, which will mess up the splitting of the names column into first, middle, last
+  # 3. remove some double spaces between or after names (i.e., "  ") 
+  # 4. Remove all the periods (some journals use them, others don't)
+  # 5. Correct a few errors in the names. These are mostly due to accent marks that 
+  #       were converted incorrectly or spelling mistakes in a subset of records for the same name (e.g., Cagan Sekercioglu was saved as "_a_an H _ekercio_lu")
+  # 6. For editors with multiple last names or that use multiple first or middle initials put names in a consistent "first middle last format 
+  #       (e.g., "Manuel G de Viedma"->"Manuel G DeViedma", "B N K Davis"->"B NK Davis"
+  # 7. Make the author names consistent accross journals (eg "E M Bruna", "Emilio Bruna", and "Emilio M. Bruna" all become "Emilio M Bruna"). This section
+  #       also conveerts names in ALL CAPS to Proper Case (EMILIO BRUNA -> Emilio Bruna). 
+  #       Best thing to o is actually to convert all to lower case prior to analysis to make sure none were missed
+  # 8. Correct a few locations and added a few notes to some records
+  # 9. Remove the suffixes (Jr. II, III)
+  # 10. Can now split names into 3 seperate columns: first name, middle name, last name
   
   
   #Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
@@ -273,6 +289,34 @@ Cho.Fix <- function(A) {
   ChoData$FIRST_NAME <- as.factor(ChoData$FIRST_NAME) #They were converted to chr above, so convert back to factor
   ChoData$MIDDLE_NAME <- as.factor(ChoData$MIDDLE_NAME)
   ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
+  
+  
+  
+  # Adding combinations of names to the database
+  # First Name, Last Name
+  ChoData$FirstLast<-paste(ChoData$FIRST_NAME,ChoData$LAST_NAME, sep=" ") 
+  # First Name, Middle Name, Last Name
+  ChoData$FirstMiddleLast<-paste(ChoData$FIRST_NAME,ChoData$MIDDLE_NAME,ChoData$LAST_NAME, sep=" ")
+  # First initial 1st name + last name": 
+  ChoData$FIRST_INIT<-as.character(ChoData$FIRST_NAME)
+  ChoData$FIRST_INIT<-substring(ChoData$FIRST_INIT,1,1)
+  ChoData$FirstInitialLast<-paste(ChoData$FIRST_INIT,ChoData$LAST_NAME, sep=" ")
+  ChoData$FIRST_INIT<-NULL #delete it out now that we don't need it
+  #Delete column with suffix
+  ChoData$SUFFIX<-NULL #delete it out now that we don't need it
+  #Delete column with original Name
+  ChoData$NAME<-NULL #delete it out now that we don't need it
+  
+  
+  # Remove the periods from peoples names to make consistent accross all files
+  ChoData$FirstLast<-gsub("  ", " ", ChoData$FirstLast)
+  ChoData$FirstMiddleLast<-gsub("  ", " ", ChoData$FirstMiddleLast)
+  ChoData$FirstInitialLast<-gsub("  ", " ", ChoData$FirstInitialLast)
+  
+  ChoData$FIRST_NAME<-as.character(ChoData$FIRST_NAME)
+  ChoData$MIDDLE_NAME<-as.character(ChoData$MIDDLE_NAME)
+  ChoData$LAST_NAME<-as.character(ChoData$LAST_NAME)
+  ChoData$NOTES<-as.factor(ChoData$NOTES)
   
   ChoData_clean<-ChoData
 

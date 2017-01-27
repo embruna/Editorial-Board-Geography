@@ -1,4 +1,4 @@
-Class.Fix <- function(A) {
+Name.Disambig <- function(A) {
   
   str(ClassData)
   summary(ClassData)
@@ -226,14 +226,6 @@ Class.Fix <- function(A) {
   levels(ClassData$CATEGORY)
   
   
-  # Make Gender Consistent
-  ClassData$GENDER[ClassData$GENDER == "F"] <- "female"
-  ClassData$GENDER[ClassData$GENDER == "M"] <- "male"
-  ClassData$GENDER[ClassData$GENDER == "U"] <- NA
-  ClassData$GENDER[ClassData$GENDER == "Unkown"] <- NA
-  ClassData$GENDER[ClassData$GENDER == "Unknown"] <- NA
-  ClassData$GENDER[ClassData$GENDER == ""] <- NA
-  ClassData$GENDER<-droplevels(ClassData$GENDER)
   
   ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
   # 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
@@ -247,24 +239,13 @@ Class.Fix <- function(A) {
   
   
   
-  # Adding combinations of names to the database
-  # First Name, Last Name
-  ClassData$FirstLast<-paste(ClassData$FIRST_NAME,ClassData$LAST_NAME, sep=" ") 
-  # First Name, Middle Name, Last Name
-  ClassData$FirstMiddleLast<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$LAST_NAME, sep=" ")
-  # First initial 1st name + last name": 
-  ClassData$FIRST_INIT<-as.character(ClassData$FIRST_NAME)
-  ClassData$FIRST_INIT<-substring(ClassData$FIRST_INIT,1,1)
-  ClassData$FirstInitialLast<-paste(ClassData$FIRST_INIT,ClassData$LAST_NAME, sep=" ")
-  ClassData$FIRST_INIT<-NULL #delete it out now that we don't need it
-  #Delete column with suffix
-  ClassData$SUFFIX<-NULL #delete it out now that we don't need it
-  
-  
+  # Corrections to the database
+  str(ClassData)
+  ClassData$FULL_NAME<-paste(ClassData$FIRST_NAME,ClassData$MIDDLE_NAME,ClassData$LAST_NAME, sep=" ")
   # Remove the periods from peoples names to make consistent accross all files
-  ClassData$FirstLast<-gsub("  ", " ", ClassData$FirstLast)
-  ClassData$FirstMiddleLast<-gsub("  ", " ", ClassData$FirstMiddleLast)
-  ClassData$FirstInitialLast<-gsub("  ", " ", ClassData$FirstInitialLast)
+  ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME)
+  
+  
   
   # 
   ClassData_clean<-ClassData
