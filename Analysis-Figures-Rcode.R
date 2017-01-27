@@ -2,11 +2,6 @@
 #R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
 #This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
 
-
-#CLear out everything from the environment 
-rm(list=ls())
-
-
 #Set WD and load packages you need. Not all of which you need after all.
 #setwd("-------")
 library(countrycode)
@@ -23,6 +18,12 @@ require(rworldmap)
 library(WDI)
 
 source("helpers.R")    #Code to plot all journals in one figure
+
+
+
+#CLear out everything from the environment 
+rm(list=ls())
+
 
 ######################################################
 # DATA UPLOAD 
@@ -99,6 +100,8 @@ source("Cho.Fix.R")
 ChoData_clean<-Cho.Fix(ChoData)
 ChoData_clean
 
+#Don't Need the original files or Messy ChoData cluttering up the Env't so lets delete
+rm(ChoData, BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
 
 
 ############################################################
@@ -112,11 +115,14 @@ ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FU
 source("Class.Fix.R")
 ClassData_clean<-Class.Fix(ClassData)
 
+#Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
+rm(ClassData,GCB, MEPS,AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+   JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL)
 
 str(ClassData_clean)
 summary(ClassData_clean)
 
-#write.csv(ClassData, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData.csv", row.names = T) #export it as a csv file
+write.csv(ClassData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData.csv", row.names = T) #export it as a csv file
 
 # THIS REMOVEAS A FEW WITH BLANKS IN THE NAMES
 ClassData_clean <-filter(ClassData_clean, ClassData_clean$FIRST_NAME!="" & ClassData_clean$LAST_NAME!="")
@@ -133,26 +139,11 @@ ClassData_clean <-filter(ClassData_clean, ClassData_clean$FIRST_NAME!="" & Class
 # Function to determine the years missing in your dataset
 # yrs.missing(dataset,first year of interest,last year of interest)
 source("yrs.missing.R")
-yrs.missing(ClassData,1985,2014)
+yrs.missing<-yrs.missing(ClassData_clean,1985,2014)
 write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
-
-# foo<-ClassData %>%
-#   select(JOURNAL, YEAR)  %>% 
-#   filter(YEAR>1984 & YEAR<2015)
-# str(foo)
-# summary(foo)
-# summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
-# missing_yrs<-filter(summary_table,Freq<1) %>% #Filters the summary table to include years for whihc zero records
-#   filter(Var2!="AGRONOMY") %>%  # Eliminates the ones that are extnsions of Cho et al data
-#   filter(Var2!="AREES") %>% 
-# filter(Var2!="BIOCON")%>% 
-# filter(Var2!="BITR")%>% 
-# filter(Var2!="JTE")%>% 
-#   filter(Var2!="NAJFM")%>% 
-# filter(Var2!="") # Eliminates any missing journal
+#
 #
 ######################################################
-
 
 
 ######################################################
@@ -163,140 +154,24 @@ write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS
 #
 ######################################################
 
-
-str(ChoData_clean)
-str(ClassData_clean)
-
 ChoData_clean$DATASET<-"Cho"
 ClassData_clean$DATASET<-"Class"
-ClassData_clean$INSTITUTION<-NULL
 ALLDATA<-rbind(ChoData_clean,ClassData_clean)
 
 
+# Add an idnex based on whatever name you want.
+# First need to convert it to a factor
+ALLDATA<-arrange(ALLDATA,FirstLast)
+ALLDATA$FirstInitialLast<-as.factor(ALLDATA$FirstInitialLast)
+ALLDATA <- transform(ALLDATA,author_id=as.numeric(FirstInitialLast))
 
-ALLDATA <- transform(ALLDATA,id=as.numeric(LAST_NAME))
-ALLDATA <- transform(ALLDATA,id=as.numeric(FIRST_NAME))
+
+
 # Now make sure all names, cases, categories, etc. are consistent
-# THIS SHOULD BE CONVERETED TO A FUNCTION!!!!!
-#
-
 source("Name.Disambig.R")
-Name.Disambig(ALLDATA,FIRSTLASTMIDDLE_NAME)
-
-# JrnlToClean<-ChoData
-# JrnlToClean<-ClassData 
-JrnlToClean<-ALLDATA
-head(JrnlToClean)
-head(JrnlToClean)
-
-# Trying to find names that are mispelled or close to correct close
-#   http://stackoverflow.com/questions/6683380/techniques-for-finding-near-duplicate-records
-# # https://cran.r-project.org/web/packages/RecordLinkage/index.html AND
-# # https://cran.r-project.org/web/packages/stringdist/stringdist.pdf
-# # https://cran.r-project.org/web/packages/RecordLinkage/RecordLinkage.pdf
-# https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Sariyar+Borg.pdf
-# http://stackoverflow.com/questions/11535625/similarity-scores-based-on-string-comparison-in-r-edit-distance
-# http://stackoverflow.com/questions/28952034/finding-partial-matches-on-strings-in-r
-
-str(JrnlToClean)
-levels(JrnlToClean$CATEGORY)
-which(JrnlToClean$CATEGORY=="Other") 
-summary(JrnlToClean$CATEGORY)
-
-# 
-# ADD THE First Middle Last last, First Initial etc options to code for checking first. That will simplify choices here
-
-
-
-CHECKFILE<-JrnlToClean %>%
-  group_by(LAST_NAME,FIRST_NAME,MIDDLE_NAME, COUNTRY) %>% 
-  tally(sort=FALSE)
-str(CHECKFILE)
-CHECKFILE<-as.data.frame(CHECKFILE)
-which(CHECKFILE == "")
-# CHECKFILE[CHECKFILE == ""] <- NA
-CHECKFILE<-droplevels(CHECKFILE)
-CHECKFILE$FIRSTLAST_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$LAST_NAME, sep=" ")
-CHECKFILE$FIRSTLASTMIDDLE_NAME<-paste(CHECKFILE$FIRST_NAME,CHECKFILE$MIDDLE_NAME,CHECKFILE$LAST_NAME, sep=" ")
-# First initial 1st name + last name": 
-CHECKFILE$FIRST_INIT<-as.character(CHECKFILE$FIRST_NAME)
-CHECKFILE$FIRST_INIT<-substring(CHECKFILE$FIRST_INIT,1,1)
-CHECKFILE$INITIALLAST<-paste(CHECKFILE$FIRST_INIT,CHECKFILE$LAST_NAME, sep=" ")
-
-
-str(CHECKFILE)
-summary(CHECKFILE)
-head(CHECKFILE)
-
-# CHECKFILE$NAME<-as.character(CHECKFILE$NAME)
-CHECKFILE$COUNTRY<-as.character(CHECKFILE$COUNTRY)
-CHECKFILE$FIRST_NAME<-as.character(CHECKFILE$FIRST_NAME)
-CHECKFILE$LAST_NAME<-as.character(CHECKFILE$LAST_NAME)
-CHECKFILE$MIDDLE_NAME<-as.character(CHECKFILE$MIDDLE_NAME)
-CHECKFILE$FIRSTLAST_NAME<-as.character(CHECKFILE$FIRSTLAST_NAME)
-CHECKFILE$FIRSTLASTMIDDLE_NAME<-as.character(CHECKFILE$FIRSTLASTMIDDLE_NAME)
-CHECKFILE$INITIALLAST<-as.character(CHECKFILE$INITIALLAST)
-
-str(CHECKFILE)
-
-# This will look over the names and check for mistakes, spelling errors, etc.
-# LAST NAMES: this should help pick up things like Abrams vs Abrasm
-
-
-# CheckNames<-CHECKFILE$NAME  #FOR CHO DATA
-#CheckNames<-CHECKFILE$FIRSTLAST_NAME 
-CheckNames<-CHECKFILE$FIRSTLASTMIDDLE_NAME #FOR ALL DATA
-# CheckNames<-CHECKFILE$INITIALLAST #FOR ALL DATA
-
-CheckNames<-tolower(CheckNames) #drop all to lower case - makes it easier to error check and analyze
-CheckNames<-unique(CheckNames)
-
-# This uses agrep to check similarity, then outputs a list of all names in your file compared to 
-# all other names. This is what will help find spelling mistakes, eg. "abrams" and "abrasm"  will be counted as unique, as will 
-# "e bruna" and "emilio bruna". You can use this info to error correct or make changes to correctly pool the people with multiple names
-NamesList<-sapply(CheckNames,agrep,CheckNames, value=TRUE) 
-
-# Convert this list to a dataframe (with help from this post:   
-# https://aurelienmadouasse.wordpress.com/2012/05/22/r-code-how-to-convert-a-list-to-a-data-frame/)
-
-NamesDF<-data.frame(
-  Name1 = rep(names(NamesList), lapply(NamesList, length)),
-  Name2 = unlist(NamesList))
-
-# summary(NamesDF)
-# str(NamesDF)
-
-# Create a column to which you will add a logical condition telling you if the names are an EXACT match
-NamesDF$match<-NA
-NamesDF$match<-NamesDF$Name1==NamesDF$Name2
-# match2<-ifelse(NamesDF$match=="TRUE",1,0) #convert TRUE/FALSEto 0/1
-# NamesDF<-cbind(NamesDF,match2) 
-# head(NamesDF,40)
-# str(NamesDF)
-NamesDF<-arrange(NamesDF,Name1,Name2) #organize in alphabetica order
-NamesDF<-filter(NamesDF, match==FALSE)  # THIS DELETES ALL NAMES THAT ARE 100% MATCH 
-head(NamesDF)
-# Convert to chr
-NamesDF$Name1<-as.character(NamesDF$Name1)
-NamesDF$Name2<-as.character(NamesDF$Name2)
-str(NamesDF)
-
-# Calclulate the proportional similarity and # changes required to go from one name to another. Package RecordLinkage
-NamesDF$Name_sim<-levenshteinSim(NamesDF$Name1, NamesDF$Name2)
-NamesDF$Name_dist<-levenshteinDist(NamesDF$Name1, NamesDF$Name2)
-
-# Because this does all pairwise comparisons, it results in redundancy: "e bruna vs emilio bruna" and "emilio bruna vs e bruna"
-# are in different rows, even though they are the same "comparison". This deletes one of the two 
-NamesDF<-NamesDF[!duplicated(t(apply(NamesDF, 1, sort))),]
-# this arranges them in order from most similar (1 change required) to least similar.
-# look carefully at those with a few changes, as they are likely to be a tiny spelling mistake or difference in intials
-
-
-NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it easier to id which row you need'
-NamesDF <- NamesDF %>% select(index, Name1, Name2, Name_sim,Name_dist) #It's kinda ugly, but this rearranges columns (and dumps the "FALSE")
-NamesDF <- arrange(NamesDF, desc(Name_sim))
-# head(NamesDF)
+NameSimilarityDF<-Name.Disambig(ALLDATA,ALLDATA$FirstInitialLast)
 write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_2.csv", row.names = T) #export it as a csv file
+
 
 
 ##########################################################
@@ -332,8 +207,10 @@ write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Edi
 #
 ######################################################
 
-DATASET<-ChoData #OR 
+# DATASET<-ChoData #OR 
 # DATASET<-ClassData #OR
+DATASET<-ALLDATA #OR 
+
 
 
 #step3: change all the country names to the codes used in mapping
@@ -397,15 +274,9 @@ DATASET <- DATASET[!is.na(DATASET$COUNTRY.CODE),]
 # str(ChoData)
 # str(ClassData)
 
-ChoData<-ChoData %>% 
-  select(-NOTES, -GENDER)
+AnalysisData<-ALLDATA %>% 
+  select(-INSTITUTION,-NOTES,-GENDER)
 
-ClassData<-ClassData %>% 
-  select(-INSTITUTION,-NOTES,-GENDER,-SUFFIX)
-
-AllJournals<-rbind(ChoData,ClassData)
-str(AllJournals)
-summary(AllJournals)
 
 
 ############################################################################################
@@ -413,7 +284,7 @@ summary(AllJournals)
 # GROUPED COUNTRIES WITH SMALL SIZES
 ############################################################################################
 #Group dataframe by COUNTRY.CODE
-byCOUNTRY <- dplyr::group_by(AllJournals, COUNTRY.CODE)
+byCOUNTRY <- dplyr::group_by(AnalysisData, COUNTRY.CODE)
 
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each EIC only once
 byCOUNTRY <- unique( byCOUNTRY[ , c('NAME', 'COUNTRY.CODE', 'JOURNAL') ] )
@@ -480,7 +351,7 @@ dev.off()
 # (ALL JOURNALS, ALL YEARS)
 ##############################################
 #Group dataframe by COUNTRY.CODE
-byCOUNTRY <- dplyr::group_by(AllJournals, COUNTRY.CODE, CATEGORY)
+byCOUNTRY <- dplyr::group_by(AnalysisData, COUNTRY.CODE, CATEGORY)
 
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each editor only once
 byCOUNTRY <- unique( byCOUNTRY[ , c('NAME', 'COUNTRY.CODE', 'JOURNAL', 'CATEGORY') ] )
@@ -564,7 +435,7 @@ round(100*byCOUNTRY[byCOUNTRY$COUNTRY.CODE == 'GBR',5:7], 1)
 # WITH LINE ADDING HIGH INCOME COUNTRIES (OECD AND NON-OECD)
 ##############################################
 #Group dataframe by CATEGORY, JOURNAL AND YEAR
-COUNTRYYEAR <- dplyr::group_by(AllJournals, JOURNAL, YEAR)
+COUNTRYYEAR <- dplyr::group_by(AnalysisData, JOURNAL, YEAR)
 
 #Getting lists of high, med, low countries
 for (i in unique(WDI_data$income)){
@@ -644,9 +515,9 @@ dev.off()
 # CATEGORIES COMBINED
 ##############################################
 #Group dataframe by iNCOME CLASS, CATEGORY, YEAR 
-INCOME_byYEAR <- dplyr::group_by(AllJournals, INCOME_LEVEL, YEAR)
+INCOME_byYEAR <- dplyr::group_by(AnalysisData, INCOME_LEVEL, YEAR)
 #Group dataframe by REGION, CATEGORY, YEAR 
-REGION_byYEAR <- dplyr::group_by(AllJournals, REGION, YEAR)
+REGION_byYEAR <- dplyr::group_by(AnalysisData, REGION, YEAR)
 
 #Count the number of unique editors by category by country BY year by INCOME
 INCOME_byYEAR = summarize (INCOME_byYEAR,
@@ -714,7 +585,7 @@ byYEAR_subset$variable <- factor(x = byYEAR_subset$variable,
                                             'South Asia_perc'))
 
 # Creating and Saving plot
-tiff(file = "Plots/REGION_AllJournals.tiff",
+tiff(file = "Plots/REGION_AnalysisData.tiff",
      width = 500,
      height = 400)
 ggplot(byYEAR_subset, 
@@ -753,7 +624,7 @@ byYEAR_subset <- melt(byYEAR_subset,
                       id.vars = c('YEAR'))
 
 # Creating and Saving plot
-tiff(file = "Plots/INCOME_AllJournals.tiff",
+tiff(file = "Plots/INCOME_AnalysisData.tiff",
      width = 500,
      height = 400)
 ggplot(byYEAR_subset, 
@@ -776,9 +647,9 @@ dev.off()
 # PLOTS OF EDITORIAL BOARD BY INCOME OR REGION BY YEAR BY JOURNAL
 # EDITORIAL CATEGORIES COMBINED
 ##############################################
-INCOME_byYEARJOURNAL <- dplyr::group_by(AllJournals, 
+INCOME_byYEARJOURNAL <- dplyr::group_by(AnalysisData, 
                                         JOURNAL, YEAR, INCOME_LEVEL)
-REGION_byYEARJOURNAL <- dplyr::group_by(AllJournals, 
+REGION_byYEARJOURNAL <- dplyr::group_by(AnalysisData, 
                                         JOURNAL, YEAR, REGION)
 
 #Count the percentage of editors by category by income level

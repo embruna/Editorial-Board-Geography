@@ -318,6 +318,9 @@ Cho.Fix <- function(A) {
   ChoData$LAST_NAME<-as.character(ChoData$LAST_NAME)
   ChoData$NOTES<-as.factor(ChoData$NOTES)
   
+  #Add a column for Institution in case you need it later
+  ChoData$INSTITUTION<-NA
+  
   ChoData_clean<-ChoData
 
   return(ChoData_clean)
