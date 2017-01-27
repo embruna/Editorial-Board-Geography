@@ -113,278 +113,282 @@ MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.n
 #Bind the data from Cho
 ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) 
 
-#Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
-trim.trailing <- function (x) sub("\\s+$", "", x)
-ChoData$NAME<-trim.trailing(ChoData$NAME)
-trim.leading <- function (x)  sub("^\\s+", "", x)
-ChoData$NAME<-trim.leading(ChoData$NAME)
-
-# remove any double spaces
-ChoData$NAME<-gsub("  ", " ", ChoData$NAME, fixed=TRUE)
-
-# Remove the periods from peoples names to make consistent accross all files
-ChoData$NAME<-gsub(".", "", ChoData$NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
-
-# Corrections to the database
-ChoData$NAME <- as.character(ChoData$NAME) #Must first convert them from factor to string  
-
-
-# Error Correction
-ChoData$NAME[ChoData$NAME == "_a_an H _ekercio_lu"] <-"Cagan Sekercioglu"
-ChoData$NAME[ChoData$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
-ChoData$NAME[ChoData$NAME == "Li (Aster) Zhang"] <- "Li Aster Zhang"
-ChoData$NAME[ChoData$NAME == "Allan Blaylock"] <- "Alan Blaylock"
-ChoData$NAME[ChoData$NAME == "Biswapti Mandal"] <- "Biswapati Mandal"
-ChoData$NAME[ChoData$NAME == "Bret Dickson"] <- "Brett Dickson"
-ChoData$NAME[ChoData$NAME == "Chister Nilsson"] <- "Christer Nilsson"
-ChoData$NAME[ChoData$NAME == "Chirster Nilsson"] <- "Christer Nilsson"
-ChoData$NAME[ChoData$NAME == "Cristopher Tingle"] <- "Christopher Tingle"
-ChoData$NAME[ChoData$NAME == "DavidR Foster"] <- "David R Foster"
-ChoData$NAME[ChoData$NAME == "Gerline Barbra DeDeyn"] <- "Gerlinde Barbra DeDeyn"
-ChoData$NAME[ChoData$NAME == "Gerlinde DeDeyn"] <- "Gerlinde Barbra DeDeyn"
-ChoData$NAME[ChoData$NAME == "Herman Urcola"] <- "Hernan Urcola"
-ChoData$NAME[ChoData$NAME == "Johnathan A Newman"] <- "Jonathan A Newman"
-ChoData$NAME[ChoData$NAME == "Josua Drew"] <- "Joshua Drew"
-ChoData$NAME[ChoData$NAME == "Kiaas Metselaar"] <- "Klaas Metselaar"
-ChoData$NAME[ChoData$NAME == "Loyd Stone"] <- "Lloyd Stone"
-ChoData$NAME[ChoData$NAME == "Nthya Rajan"] <- "Nithya Rajan"
-ChoData$NAME[ChoData$NAME == "Scoot D Wilson"] <- "Scott D Wilson"
-ChoData$NAME[ChoData$NAME == "Tomas"  & ChoData$JOURNAL == "BITR"] <- "Tomas Carlo"
-ChoData$NAME[ChoData$NAME == "Phill Watt"] <- "Phill Watts"
-ChoData$NAME[ChoData$NAME == "Daniel Simberhoff"] <- "Daniel Simberloff"
-ChoData$NAME[ChoData$NAME == "JM IRLONDO"] <- "Jose M Iriondo"
-ChoData$NAME[ChoData$NAME == "MW SCHUARTZ"] <- "Mark W Schwartz"
-ChoData$NAME[ChoData$NAME == "Marcel VanDeHeijden"] <- "Marcel VanDerHeijden"
-ChoData$NAME[ChoData$NAME == "Prasanna Gowda"] <- "Prasanna Gowde"
-ChoData$NAME[ChoData$NAME == "RL JEFFERLES"] <- "Robert L Jefferies"
-ChoData$NAME[ChoData$NAME == "Roberto Salquero-Gomez"] <- "Roberto Salguero-Gomez"
-ChoData$NAME[ChoData$NAME == "STEVE J HAWKIN"] <- "Steve J Hawkings"
-ChoData$NAME[ChoData$NAME == "Anthony J Felder"] <- "Anthony J Fedler"
-ChoData$NAME[ChoData$NAME == "Micahel Proctor"] <- "Michael CF Proctor"
-ChoData$NAME[ChoData$NAME == "Saeid Soufizadeh_"] <- "Saeid Soufizadeh"
-ChoData$NAME[ChoData$NAME == "Spencer H. C. Barrett"] <- "Spencer C.H. Barrett"
-
-
-
-# Changes made to account for multiple middle or last names
-ChoData$NAME[ChoData$NAME == "JC DE M CARVALHO"] <- "JC DeM-Carvalho"
-ChoData$NAME[ChoData$NAME == "A DE VOS"] <- "A DeVos"
-ChoData$NAME[ChoData$NAME == "Andre M de Roos"] <- "Andre M DeRoos"
-ChoData$NAME[ChoData$NAME == "Anthony Di Fiore"] <- "Anthony DiFiore"
-ChoData$NAME[ChoData$NAME == "Arnold G van der Valk"] <- "Arnold G VanDerValk"
-ChoData$NAME[ChoData$NAME == "Arturo Gomez Pompa"] <- "Arturo Gomez-Pompa"
-ChoData$NAME[ChoData$NAME == "Ary T de Oliveira-Filho"] <- "Ary T DeOliveira-Filho"
-ChoData$NAME[ChoData$NAME == "B N K Davis"] <- "B NK Davis"
-ChoData$NAME[ChoData$NAME == "BNKDAVIS"] <- "B NK Davis"
-ChoData$NAME[ChoData$NAME == "Michael J Van Den Avyle"] <- "Michael J VanDenAvyle"
-ChoData$NAME[ChoData$NAME == "Eddy Van der Meijden"] <- "Eddy VanDerMeijden"
-ChoData$NAME[ChoData$NAME == "Jorge Meave del Castillo"] <- "Jorge Meave DelCastillo"
-ChoData$NAME[ChoData$NAME == "Nicole M Van Dam"] <- "Nicole M VanDam"
-ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos Martinez DelRio"
-ChoData$NAME[ChoData$NAME == "Marcel van der Heijden"] <- "Marcel VanDerHeijden"
-ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerline Barbra DeDeyn"
-ChoData$NAME[ChoData$NAME == "Marcel van de Heijden"] <- "Marcel VanDerHeijden"
-ChoData$NAME[ChoData$NAME == "MANUEL G DE VIEDMA"] <- "Manuel G DeViedma"
-ChoData$NAME[ChoData$NAME == "Eddy van der Meijden"] <- "Eddy VanDerMeijden"
-ChoData$NAME[ChoData$NAME == "Rene van Der Wal"] <- "Rene VanDerWal"
-ChoData$NAME[ChoData$NAME == "Hans de Kroon"] <- "Hans DeKroon"
-ChoData$NAME[ChoData$NAME == "Gerlinde de Deyn"] <- "Gerlinde DeDeyn"
-ChoData$NAME[ChoData$NAME == "Franciska De Vires"] <- "Franciska DeVires"
-ChoData$NAME[ChoData$NAME == "Lindsey du Toit"] <- "Lindsey DuToit"
-ChoData$NAME[ChoData$NAME == "Marinus J A Werger"] <- "Marinus JA Werger"
-ChoData$NAME[ChoData$NAME == "Nathan Jared Boardman Kraft"] <- "Nathan JB Kraft"
-ChoData$NAME[ChoData$NAME == "Chris van Kessel"] <- "Chris VanKessel"
-ChoData$NAME[ChoData$NAME == "Jan van Groenendael"] <- "Jan VanGroenendael"
-ChoData$NAME[ChoData$NAME == "Ellen van Donk"] <- "Ellen VanDonk"
-ChoData$NAME[ChoData$NAME == "Tara Van Toai"] <- "Tara VanToai"
-ChoData$NAME[ChoData$NAME == "Frits Van Evert"] <- "Frits VanEvert"
-ChoData$NAME[ChoData$NAME == "Geraldine Vander Haegen"] <- "Geraldine VanderHaegen"
-ChoData$NAME[ChoData$NAME == "Jay Ver Hoef"] <- "Jay VerHoef"
-ChoData$NAME[ChoData$NAME == "James E M Watson"] <- "James EM Watson"
-ChoData$NAME[ChoData$NAME == "EJ Milner-Gullard"] <- "E J Milner-Gulland"
-ChoData$NAME[ChoData$NAME == "Diane De Steven"] <- "Diane DeSteven"
-ChoData$NAME[ChoData$NAME == "MJ SCOTT"] <- "M J Scott"
-ChoData$NAME[ChoData$NAME == "SIR PETER SCOTT"] <- "Peter Scott"
-ChoData$NAME[ChoData$NAME == "Kim Wllliams-Guillen"] <- "Kim Williams-Guillen"
-ChoData$NAME[ChoData$NAME == "Daniel Issermann"] <- "Daniel Isermann"
-ChoData$NAME[ChoData$NAME == "STEVE J. HAWKINGS"] <- "STEVE J. HAWKINS"
-ChoData$NAME[ChoData$NAME == "Johnathan Holman"] <- "Johnathon Holman"
-ChoData$NAME[ChoData$NAME == "J. P. METZGER"] <- "Jean-Paul Metzger"
-ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos MartinezDelRio"
-ChoData$NAME[ChoData$NAME == "Prasanna Gowde"] <- "Prasanna Gowda"
-ChoData$NAME[ChoData$NAME == "Victoria Stork"] <- "Victoria Sork"
-ChoData$NAME[ChoData$NAME == "Kasutuv Roy"] <- "Kaustuv Roy"
-ChoData$NAME[ChoData$NAME == "Ferry Silk"] <- "Ferry Slik"
-ChoData$NAME[ChoData$NAME == "P.A.R. HOCKEY"] <- "Philip AR Hockey"
-ChoData$NAME[ChoData$NAME == "Phil A R Hockey"] <- "Philip AR Hockey"
-ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerlinde Barbra de Deyn"
-
-
-#Changes made to make names consistent accross journals 
-
-ChoData$NAME[ChoData$NAME == "M.J. COE"] <- "M. J. COE"
-ChoData$NAME[ChoData$NAME == "Steve Bonser"] <- "Stephen P. Bonser" # NEED TO CONFIRM
-ChoData$NAME[ChoData$NAME == "Arnold Bruns"] <- "H Arnold Bruns"
-ChoData$NAME[ChoData$NAME == "Arthur Willis"] <- "Arthur J Willis"
-ChoData$NAME[ChoData$NAME == "Carlos Herrera"] <- "Carlos M Herrera"
-ChoData$NAME[ChoData$NAME == "David Wardle"] <- "David A Wardle"
-ChoData$NAME[ChoData$NAME == "David Gibson"] <- "David J Gibson"
-ChoData$NAME[ChoData$NAME == "David Pearson"] <- "David L Pearson"
-ChoData$NAME[ChoData$NAME == "Donald Feener"] <- "Donald H Feener"
-ChoData$NAME[ChoData$NAME == "Douglas Schemske"] <- "Douglas W Schemske"
-ChoData$NAME[ChoData$NAME == "Emilio Bruna"] <- "Emilio M Bruna"
-ChoData$NAME[ChoData$NAME == "Gary Meffe"] <- "Gary K Meffe"
-ChoData$NAME[ChoData$NAME == "Gene Huntsman"] <- "Gene R Huntsman"
-ChoData$NAME[ChoData$NAME == "Glenn Matlack"] <- "Glenn R Matlack"
-ChoData$NAME[ChoData$NAME == "Herman Shugart"] <- "Herman H Shugart"
-ChoData$NAME[ChoData$NAME == "James Hamrick"] <- "James L Hamrick"
-ChoData$NAME[ChoData$NAME == "Jim Hamrick"] <- "James L Hamrick"
-ChoData$NAME[ChoData$NAME == "John Etherington"] <- "John R Etherington"
-ChoData$NAME[ChoData$NAME == "John Robinson"] <- "John G Robinson"
-ChoData$NAME[ChoData$NAME == "John Ewel"] <- "John J Ewel"
-ChoData$NAME[ChoData$NAME == "Ken Paige"] <- "Ken N Paige"
-ChoData$NAME[ChoData$NAME == "Kurt Pregitzer"] <- "Kurt S Pregitzer"
-ChoData$NAME[ChoData$NAME == "Lian P Koh"] <- "Lian Pin Koh"
-ChoData$NAME[ChoData$NAME == "Malcolm Press"] <- "Malcolm C Press"
-ChoData$NAME[ChoData$NAME == "Michael Usher"] <- "Michael B Usher"
-ChoData$NAME[ChoData$NAME == "Navjot Sodhi"] <- "Navjot S Sodhi"
-ChoData$NAME[ChoData$NAME == "Paul Angermeier"] <- "Paul L Angermeier"
-ChoData$NAME[ChoData$NAME == "Peter Bellingham"] <- "Peter J Bellingham"
-ChoData$NAME[ChoData$NAME == "Peter Moore"] <- "Peter D Moore"
-ChoData$NAME[ChoData$NAME == "Philip Hedrick"] <- "Philip W Hedrick"
-ChoData$NAME[ChoData$NAME == "Pieter Zuidema"] <- "Pieter A Zuidema"
-ChoData$NAME[ChoData$NAME == "Richard Bardgett"] <- "Richard D Bardgett"
-ChoData$NAME[ChoData$NAME == "Richard Mack"] <- "Richard N Mack"
-ChoData$NAME[ChoData$NAME == "Richard Shefferson"] <- "Richard P Shefferson"
-ChoData$NAME[ChoData$NAME == "Robert Jackson"] <- "Robert B Jackson"
-ChoData$NAME[ChoData$NAME == "Robert Jones"] <- "Robert J Jones"
-ChoData$NAME[ChoData$NAME == "Robert Marquis"] <- "Robert J Marquis"
-ChoData$NAME[ChoData$NAME == "Scott Robinson"] <- "Scott K Robinson"
-ChoData$NAME[ChoData$NAME == "Steven Gaines"] <- "Steven D Gaines"
-ChoData$NAME[ChoData$NAME == "Will Cornwell"] <- "Will K Cornwell"
-ChoData$NAME[ChoData$NAME == "Walter Carson"] <- "Walter P Carson"
-ChoData$NAME[ChoData$NAME == "Willaim Raun"] <- "William Raun"
-ChoData$NAME[ChoData$NAME == "William Lauenroth"] <- "William K Lauenroth"
-ChoData$NAME[ChoData$NAME == "AW FABIO CASSOLA"] <- "AW Fabio Cassola"
-ChoData$NAME[ChoData$NAME == "Fabio Cassola"] <- "AW Fabio Cassola"
-ChoData$NAME[ChoData$NAME == "JL CRAIG"] <- "John L Craig"
-ChoData$NAME[ChoData$NAME == "TR NEW"] <- "Tim R New"
-ChoData$NAME[ChoData$NAME == "Matt mcGlone"] <- "Matthew McGlone"
-ChoData$NAME[ChoData$NAME == "KR LIPS"] <- "Karen R Lips"
-ChoData$NAME[ChoData$NAME == "MR WILLIG"] <- "Michael R Willig"
-ChoData$NAME[ChoData$NAME == "Jonathan Newman"] <- "Jonathan A Newman"
-ChoData$NAME[ChoData$NAME == "FG BERNALDEZ"] <- "F G Bernaldez"
-ChoData$NAME[ChoData$NAME == "R GERALD WRIGHT"] <- "R Gerald Wright"
-ChoData$NAME[ChoData$NAME == "FABIO CASSOLA"] <- "AW Fabio Cassola"
-ChoData$NAME[ChoData$NAME == "F CASSOLA"] <- "AW Fabio Cassola"
-ChoData$NAME[ChoData$NAME == "AP DOBSON"] <- "Andrew P Dobson"
-ChoData$NAME[ChoData$NAME == "R H MARRS"] <- "R H Marrs"
-ChoData$NAME[ChoData$NAME == "T CARO"] <- "Tim Caro"
-ChoData$NAME[ChoData$NAME == "T SPARKS"] <- "Tim Sparks"
-ChoData$NAME[ChoData$NAME == "E DUFFEY"] <- "Eric Duffey"
-ChoData$NAME[ChoData$NAME == "F RUMSEY"] <- "Fred Rumsey"
-ChoData$NAME[ChoData$NAME == "RG WRIGHT"] <- "R Gerald Wright"
-ChoData$NAME[ChoData$NAME == "Scott Wilson"] <- "Scott D Wilson"
-ChoData$NAME[ChoData$NAME == "Steve Gutreuter"] <- "Steven J Gutreuter"
-ChoData$NAME[ChoData$NAME == "Steveb Evett "] <- "Steven Evett "
-ChoData$NAME[ChoData$NAME == "B PRESSEY"] <- "Bob Pressey"
-ChoData$NAME[ChoData$NAME == "Charles Canham"] <- "Charles D Canham"
-ChoData$NAME[ChoData$NAME == "Charlie D Canham"] <- "Charles D Canham"
-ChoData$NAME[ChoData$NAME == "Andrew Dobson"] <- "Andrew P Dobson"
-ChoData$NAME[ChoData$NAME == "Phil Rundel"] <- "Philip Rundel"
-ChoData$NAME[ChoData$NAME == "Rob Marrs"] <- "R H Marrs"
-ChoData$NAME[ChoData$NAME == "J P METZGER"] <- "Jean Paul Metzger"
-ChoData$NAME[ChoData$NAME == "L GUSTAFSSON"] <- "Lena Gustafsson"
-ChoData$NAME[ChoData$NAME == "Mark Burgman"] <- "Mark A Burgman"
-ChoData$NAME[ChoData$NAME == "M BURGMAN"] <- "Mark A Burgman"
-ChoData$NAME[ChoData$NAME == "MW SCHWARTZ"] <- "Mark W Schwartz"
-ChoData$NAME[ChoData$NAME == "Ray Callaway"] <- "Ragan M Callaway"
-ChoData$NAME[ChoData$NAME == "Ray M Callaway"] <- "Ragan M Callaway"
-ChoData$NAME[ChoData$NAME == "Tony Davy"] <- "Anthony J Davy"
-ChoData$NAME[ChoData$NAME == "Anthony Davy"] <- "Anthony J Davy"
-ChoData$NAME[ChoData$NAME == "B MOSS"] <- "Brian Moss"
-ChoData$NAME[ChoData$NAME == "C GUYER"] <- "Craig Guyer"
-ChoData$NAME[ChoData$NAME == "D A SAUNDERS"] <- "Denis A Saunders"
-ChoData$NAME[ChoData$NAME == "DB LINDENMAYER"] <- "David B Lindenmayer"
-ChoData$NAME[ChoData$NAME == "James Clark"] <- "James S Clark"
-ChoData$NAME[ChoData$NAME == "K KIRBY"] <- "Keith Kirby"
-ChoData$NAME[ChoData$NAME == "P POSCHLOD"] <- "Peter Poschlod"
-ChoData$NAME[ChoData$NAME == "P WATTS"] <- "Phill Watts"
-ChoData$NAME[ChoData$NAME == "A B GILL"] <- "Andrew B Gill"
-ChoData$NAME[ChoData$NAME == "A S PULLIN"] <- "Andrew S Pullin"
-ChoData$NAME[ChoData$NAME == "A TAYLOR"] <- "Andrea Taylor"
-ChoData$NAME[ChoData$NAME == "A YOUNG"] <- "Andrew Young"
-ChoData$NAME[ChoData$NAME == "GF PETERKEN"] <- "George F Peterken"
-ChoData$NAME[ChoData$NAME == "R CORLETT"] <- "Richard T Corlett"
-ChoData$NAME[ChoData$NAME == "R DIRZO"] <- "Rodolfo Dirzo"
-ChoData$NAME[ChoData$NAME == "R FRANKHAM"] <- "Richard Frankham"
-ChoData$NAME[ChoData$NAME == "R B PRIMACK"] <- "Richard B Primack"
-ChoData$NAME[ChoData$NAME == "S WALDREN"] <- "Stephen Waldren"
-ChoData$NAME[ChoData$NAME == "WF LAURANCE"] <- "William F Laurance"
-ChoData$NAME[ChoData$NAME == "K A WITH"] <- "Kimberly A With"
-ChoData$NAME[ChoData$NAME == "AJT JOHNSINGH"] <- "A JT Johnsingh"
-ChoData$NAME[ChoData$NAME == "James Cahil"] <- "James Cahill"
-ChoData$NAME[ChoData$NAME == "JM IRIONDO"] <- "Jose M Iriondo"
-ChoData$NAME[ChoData$NAME == "MW SCHWARTZ"] <- "Mark W Schwartz"
-ChoData$NAME[ChoData$NAME == "RL JEFFERIES"] <- "Robert L Jefferies"
-ChoData$NAME[ChoData$NAME == "Robert Jefferies"] <- "Robert L Jefferies"
-ChoData$NAME[ChoData$NAME == "RobertL Jefferies"] <- "Robert L Jefferies"
-ChoData$NAME[ChoData$NAME == "Robert J Jefferies"] <- "Robert L Jefferies"
-ChoData$NAME[ChoData$NAME == "Eelke Jonegejanns"] <- "Eelke Jongejans"
-ChoData$NAME[ChoData$NAME == "Michelle Lesihman"] <- "Michelle Leishman"
-ChoData$NAME[ChoData$NAME == "Roberth A Raguso"] <- "Robert A Raguso"
-ChoData$NAME[ChoData$NAME == "Robert Raguso"] <- "Robert A Raguso"
-ChoData$NAME[ChoData$NAME == "Steveb Evett"] <- "Steven Evett"
-ChoData$NAME[ChoData$NAME == "John Young"] <- "John R Young"
-ChoData$NAME[ChoData$NAME == "Steve Hawkings"] <- "Steve J Hawkins"
-ChoData$NAME[ChoData$NAME == "FB GOLDSMITH"] <- "F B Goldsmith"
-ChoData$NAME[ChoData$NAME == "Amy Austin"] <- "Amy T Austin"
-ChoData$NAME[ChoData$NAME == "Robert Salguero-Gomez"] <- "Roberto Salguero-Gomez"
-ChoData$NAME[ChoData$NAME == "E Duffey"] <- "Eric Duffey"
-ChoData$NAME[ChoData$NAME == "S J ANDELMAN"] <- "Sandy J Andelman"
-ChoData$NAME[ChoData$NAME == "Sandy Andelman"] <- "Sandy J Andelman"
-ChoData$NAME[ChoData$NAME == "Michael C F Proctor"] <- "Michael CF Proctor"  
-ChoData$NAME[ChoData$NAME == "Michael Proctor"] <- "Michael CF Proctor"
-ChoData$NAME[ChoData$NAME == "Judie Bronstein"] <- "Judith L. Bronstein"
-
-#Found a few with incorrect country where based and added a few notes 
-ChoData$COUNTRY[ChoData$NAME == "J Grace"] <- "UK"
-ChoData$COUNTRY[ChoData$NAME == "David J Gibson"] <- "USA"
-ChoData$COUNTRY[ChoData$NAME == "Richard D Bardgett"] <- "UK"
-ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
-
-#for notes must first convert them from factor to string  
-ChoData$NOTES <- as.character(ChoData$NOTES) 
-ChoData$NOTES[ChoData$NAME == "J Grace"] <- "probJohnGraceUofEdinborough"
-ChoData$NOTES[ChoData$NAME == "Robert Jenkins"] <- "RobertEJenkins-TNC"
-ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
-
-
-# Remove the suffixes
-ChoData$NAME<-gsub(", Jr", "", ChoData$NAME, fixed=TRUE)
-ChoData$NAME<-gsub(" Jr", "", ChoData$NAME, fixed=TRUE)
-ChoData$NAME<-gsub(" JR", "", ChoData$NAME, fixed=TRUE)
-ChoData$NAME<-gsub(" III", "", ChoData$NAME, fixed=TRUE)
-ChoData$NAME<-gsub(" II", "", ChoData$NAME, fixed=TRUE)
-
-
-# Split the names into first, middle, last
-ChoData$NAME <- as.factor(ChoData$NAME) # CHnage back to factor. Can also do with strings, but I learned this way first
-
-ChoData<-separate(ChoData, NAME, c("FIRST_NAME", "LAST_NAME"), sep = " ", remove = FALSE, convert = FALSE, extra = "merge", fill = "right")
-ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_1", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
-ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_2", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
-ChoData$MIDDLE_NAME_TEMP<- with(ChoData, (paste(MIDDLE_NAME_1, MIDDLE_NAME_2))) #Paste the two middle names together
-ChoData$MIDDLE_NAME_TEMP<-gsub("NA", "", ChoData$MIDDLE_NAME_TEMP, fixed=TRUE) #delete all the NA
-ChoData$MIDDLE_NAME_TEMP<-gsub(" ", "", ChoData$MIDDLE_NAME_TEMP, fixed=TRUE)  #remove any excess spaces
-ChoData$MIDDLE_NAME_1 <- ChoData$MIDDLE_NAME_TEMP
-ChoData$MIDDLE_NAME_2 <- NULL
-ChoData$MIDDLE_NAME_TEMP <- NULL
-ChoData<-rename(ChoData, MIDDLE_NAME=MIDDLE_NAME_1)
-
-ChoData$FIRST_NAME <- as.factor(ChoData$FIRST_NAME) #They were converted to chr above, so convert back to factor
-ChoData$MIDDLE_NAME <- as.factor(ChoData$MIDDLE_NAME)
-ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
+source("Cho.Fix.R")
+ChoData_clean<-Cho.Fix(ChoData)
+ChoData_clean
+# 
+# #Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
+# trim.trailing <- function (x) sub("\\s+$", "", x)
+# ChoData$NAME<-trim.trailing(ChoData$NAME)
+# trim.leading <- function (x)  sub("^\\s+", "", x)
+# ChoData$NAME<-trim.leading(ChoData$NAME)
+# 
+# # remove any double spaces
+# ChoData$NAME<-gsub("  ", " ", ChoData$NAME, fixed=TRUE)
+# 
+# # Remove the periods from peoples names to make consistent accross all files
+# ChoData$NAME<-gsub(".", "", ChoData$NAME, fixed=TRUE) #Fixed makes it replace the ".", which is otherwise a wildcard
+# 
+# # Corrections to the database
+# ChoData$NAME <- as.character(ChoData$NAME) #Must first convert them from factor to string  
+# 
+# 
+# # Error Correction
+# ChoData$NAME[ChoData$NAME == "_a_an H _ekercio_lu"] <-"Cagan Sekercioglu"
+# ChoData$NAME[ChoData$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
+# ChoData$NAME[ChoData$NAME == "Li (Aster) Zhang"] <- "Li Aster Zhang"
+# ChoData$NAME[ChoData$NAME == "Allan Blaylock"] <- "Alan Blaylock"
+# ChoData$NAME[ChoData$NAME == "Biswapti Mandal"] <- "Biswapati Mandal"
+# ChoData$NAME[ChoData$NAME == "Bret Dickson"] <- "Brett Dickson"
+# ChoData$NAME[ChoData$NAME == "Chister Nilsson"] <- "Christer Nilsson"
+# ChoData$NAME[ChoData$NAME == "Chirster Nilsson"] <- "Christer Nilsson"
+# ChoData$NAME[ChoData$NAME == "Cristopher Tingle"] <- "Christopher Tingle"
+# ChoData$NAME[ChoData$NAME == "DavidR Foster"] <- "David R Foster"
+# ChoData$NAME[ChoData$NAME == "Gerline Barbra DeDeyn"] <- "Gerlinde Barbra DeDeyn"
+# ChoData$NAME[ChoData$NAME == "Gerlinde DeDeyn"] <- "Gerlinde Barbra DeDeyn"
+# ChoData$NAME[ChoData$NAME == "Herman Urcola"] <- "Hernan Urcola"
+# ChoData$NAME[ChoData$NAME == "Johnathan A Newman"] <- "Jonathan A Newman"
+# ChoData$NAME[ChoData$NAME == "Josua Drew"] <- "Joshua Drew"
+# ChoData$NAME[ChoData$NAME == "Kiaas Metselaar"] <- "Klaas Metselaar"
+# ChoData$NAME[ChoData$NAME == "Loyd Stone"] <- "Lloyd Stone"
+# ChoData$NAME[ChoData$NAME == "Nthya Rajan"] <- "Nithya Rajan"
+# ChoData$NAME[ChoData$NAME == "Scoot D Wilson"] <- "Scott D Wilson"
+# ChoData$NAME[ChoData$NAME == "Tomas"  & ChoData$JOURNAL == "BITR"] <- "Tomas Carlo"
+# ChoData$NAME[ChoData$NAME == "Phill Watt"] <- "Phill Watts"
+# ChoData$NAME[ChoData$NAME == "Daniel Simberhoff"] <- "Daniel Simberloff"
+# ChoData$NAME[ChoData$NAME == "JM IRLONDO"] <- "Jose M Iriondo"
+# ChoData$NAME[ChoData$NAME == "MW SCHUARTZ"] <- "Mark W Schwartz"
+# ChoData$NAME[ChoData$NAME == "Marcel VanDeHeijden"] <- "Marcel VanDerHeijden"
+# ChoData$NAME[ChoData$NAME == "Prasanna Gowda"] <- "Prasanna Gowde"
+# ChoData$NAME[ChoData$NAME == "RL JEFFERLES"] <- "Robert L Jefferies"
+# ChoData$NAME[ChoData$NAME == "Roberto Salquero-Gomez"] <- "Roberto Salguero-Gomez"
+# ChoData$NAME[ChoData$NAME == "STEVE J HAWKIN"] <- "Steve J Hawkings"
+# ChoData$NAME[ChoData$NAME == "Anthony J Felder"] <- "Anthony J Fedler"
+# ChoData$NAME[ChoData$NAME == "Micahel Proctor"] <- "Michael CF Proctor"
+# ChoData$NAME[ChoData$NAME == "Saeid Soufizadeh_"] <- "Saeid Soufizadeh"
+# ChoData$NAME[ChoData$NAME == "Spencer H. C. Barrett"] <- "Spencer C.H. Barrett"
+# 
+# 
+# 
+# # Changes made to account for multiple middle or last names
+# ChoData$NAME[ChoData$NAME == "JC DE M CARVALHO"] <- "JC DeM-Carvalho"
+# ChoData$NAME[ChoData$NAME == "A DE VOS"] <- "A DeVos"
+# ChoData$NAME[ChoData$NAME == "Andre M de Roos"] <- "Andre M DeRoos"
+# ChoData$NAME[ChoData$NAME == "Anthony Di Fiore"] <- "Anthony DiFiore"
+# ChoData$NAME[ChoData$NAME == "Arnold G van der Valk"] <- "Arnold G VanDerValk"
+# ChoData$NAME[ChoData$NAME == "Arturo Gomez Pompa"] <- "Arturo Gomez-Pompa"
+# ChoData$NAME[ChoData$NAME == "Ary T de Oliveira-Filho"] <- "Ary T DeOliveira-Filho"
+# ChoData$NAME[ChoData$NAME == "B N K Davis"] <- "B NK Davis"
+# ChoData$NAME[ChoData$NAME == "BNKDAVIS"] <- "B NK Davis"
+# ChoData$NAME[ChoData$NAME == "Michael J Van Den Avyle"] <- "Michael J VanDenAvyle"
+# ChoData$NAME[ChoData$NAME == "Eddy Van der Meijden"] <- "Eddy VanDerMeijden"
+# ChoData$NAME[ChoData$NAME == "Jorge Meave del Castillo"] <- "Jorge Meave DelCastillo"
+# ChoData$NAME[ChoData$NAME == "Nicole M Van Dam"] <- "Nicole M VanDam"
+# ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos Martinez DelRio"
+# ChoData$NAME[ChoData$NAME == "Marcel van der Heijden"] <- "Marcel VanDerHeijden"
+# ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerline Barbra DeDeyn"
+# ChoData$NAME[ChoData$NAME == "Marcel van de Heijden"] <- "Marcel VanDerHeijden"
+# ChoData$NAME[ChoData$NAME == "MANUEL G DE VIEDMA"] <- "Manuel G DeViedma"
+# ChoData$NAME[ChoData$NAME == "Eddy van der Meijden"] <- "Eddy VanDerMeijden"
+# ChoData$NAME[ChoData$NAME == "Rene van Der Wal"] <- "Rene VanDerWal"
+# ChoData$NAME[ChoData$NAME == "Hans de Kroon"] <- "Hans DeKroon"
+# ChoData$NAME[ChoData$NAME == "Gerlinde de Deyn"] <- "Gerlinde DeDeyn"
+# ChoData$NAME[ChoData$NAME == "Franciska De Vires"] <- "Franciska DeVires"
+# ChoData$NAME[ChoData$NAME == "Lindsey du Toit"] <- "Lindsey DuToit"
+# ChoData$NAME[ChoData$NAME == "Marinus J A Werger"] <- "Marinus JA Werger"
+# ChoData$NAME[ChoData$NAME == "Nathan Jared Boardman Kraft"] <- "Nathan JB Kraft"
+# ChoData$NAME[ChoData$NAME == "Chris van Kessel"] <- "Chris VanKessel"
+# ChoData$NAME[ChoData$NAME == "Jan van Groenendael"] <- "Jan VanGroenendael"
+# ChoData$NAME[ChoData$NAME == "Ellen van Donk"] <- "Ellen VanDonk"
+# ChoData$NAME[ChoData$NAME == "Tara Van Toai"] <- "Tara VanToai"
+# ChoData$NAME[ChoData$NAME == "Frits Van Evert"] <- "Frits VanEvert"
+# ChoData$NAME[ChoData$NAME == "Geraldine Vander Haegen"] <- "Geraldine VanderHaegen"
+# ChoData$NAME[ChoData$NAME == "Jay Ver Hoef"] <- "Jay VerHoef"
+# ChoData$NAME[ChoData$NAME == "James E M Watson"] <- "James EM Watson"
+# ChoData$NAME[ChoData$NAME == "EJ Milner-Gullard"] <- "E J Milner-Gulland"
+# ChoData$NAME[ChoData$NAME == "Diane De Steven"] <- "Diane DeSteven"
+# ChoData$NAME[ChoData$NAME == "MJ SCOTT"] <- "M J Scott"
+# ChoData$NAME[ChoData$NAME == "SIR PETER SCOTT"] <- "Peter Scott"
+# ChoData$NAME[ChoData$NAME == "Kim Wllliams-Guillen"] <- "Kim Williams-Guillen"
+# ChoData$NAME[ChoData$NAME == "Daniel Issermann"] <- "Daniel Isermann"
+# ChoData$NAME[ChoData$NAME == "STEVE J. HAWKINGS"] <- "STEVE J. HAWKINS"
+# ChoData$NAME[ChoData$NAME == "Johnathan Holman"] <- "Johnathon Holman"
+# ChoData$NAME[ChoData$NAME == "J. P. METZGER"] <- "Jean-Paul Metzger"
+# ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos MartinezDelRio"
+# ChoData$NAME[ChoData$NAME == "Prasanna Gowde"] <- "Prasanna Gowda"
+# ChoData$NAME[ChoData$NAME == "Victoria Stork"] <- "Victoria Sork"
+# ChoData$NAME[ChoData$NAME == "Kasutuv Roy"] <- "Kaustuv Roy"
+# ChoData$NAME[ChoData$NAME == "Ferry Silk"] <- "Ferry Slik"
+# ChoData$NAME[ChoData$NAME == "P.A.R. HOCKEY"] <- "Philip AR Hockey"
+# ChoData$NAME[ChoData$NAME == "Phil A R Hockey"] <- "Philip AR Hockey"
+# ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerlinde Barbra de Deyn"
+# 
+# 
+# #Changes made to make names consistent accross journals 
+# 
+# ChoData$NAME[ChoData$NAME == "M.J. COE"] <- "M. J. COE"
+# ChoData$NAME[ChoData$NAME == "Steve Bonser"] <- "Stephen P. Bonser" # NEED TO CONFIRM
+# ChoData$NAME[ChoData$NAME == "Arnold Bruns"] <- "H Arnold Bruns"
+# ChoData$NAME[ChoData$NAME == "Arthur Willis"] <- "Arthur J Willis"
+# ChoData$NAME[ChoData$NAME == "Carlos Herrera"] <- "Carlos M Herrera"
+# ChoData$NAME[ChoData$NAME == "David Wardle"] <- "David A Wardle"
+# ChoData$NAME[ChoData$NAME == "David Gibson"] <- "David J Gibson"
+# ChoData$NAME[ChoData$NAME == "David Pearson"] <- "David L Pearson"
+# ChoData$NAME[ChoData$NAME == "Donald Feener"] <- "Donald H Feener"
+# ChoData$NAME[ChoData$NAME == "Douglas Schemske"] <- "Douglas W Schemske"
+# ChoData$NAME[ChoData$NAME == "Emilio Bruna"] <- "Emilio M Bruna"
+# ChoData$NAME[ChoData$NAME == "Gary Meffe"] <- "Gary K Meffe"
+# ChoData$NAME[ChoData$NAME == "Gene Huntsman"] <- "Gene R Huntsman"
+# ChoData$NAME[ChoData$NAME == "Glenn Matlack"] <- "Glenn R Matlack"
+# ChoData$NAME[ChoData$NAME == "Herman Shugart"] <- "Herman H Shugart"
+# ChoData$NAME[ChoData$NAME == "James Hamrick"] <- "James L Hamrick"
+# ChoData$NAME[ChoData$NAME == "Jim Hamrick"] <- "James L Hamrick"
+# ChoData$NAME[ChoData$NAME == "John Etherington"] <- "John R Etherington"
+# ChoData$NAME[ChoData$NAME == "John Robinson"] <- "John G Robinson"
+# ChoData$NAME[ChoData$NAME == "John Ewel"] <- "John J Ewel"
+# ChoData$NAME[ChoData$NAME == "Ken Paige"] <- "Ken N Paige"
+# ChoData$NAME[ChoData$NAME == "Kurt Pregitzer"] <- "Kurt S Pregitzer"
+# ChoData$NAME[ChoData$NAME == "Lian P Koh"] <- "Lian Pin Koh"
+# ChoData$NAME[ChoData$NAME == "Malcolm Press"] <- "Malcolm C Press"
+# ChoData$NAME[ChoData$NAME == "Michael Usher"] <- "Michael B Usher"
+# ChoData$NAME[ChoData$NAME == "Navjot Sodhi"] <- "Navjot S Sodhi"
+# ChoData$NAME[ChoData$NAME == "Paul Angermeier"] <- "Paul L Angermeier"
+# ChoData$NAME[ChoData$NAME == "Peter Bellingham"] <- "Peter J Bellingham"
+# ChoData$NAME[ChoData$NAME == "Peter Moore"] <- "Peter D Moore"
+# ChoData$NAME[ChoData$NAME == "Philip Hedrick"] <- "Philip W Hedrick"
+# ChoData$NAME[ChoData$NAME == "Pieter Zuidema"] <- "Pieter A Zuidema"
+# ChoData$NAME[ChoData$NAME == "Richard Bardgett"] <- "Richard D Bardgett"
+# ChoData$NAME[ChoData$NAME == "Richard Mack"] <- "Richard N Mack"
+# ChoData$NAME[ChoData$NAME == "Richard Shefferson"] <- "Richard P Shefferson"
+# ChoData$NAME[ChoData$NAME == "Robert Jackson"] <- "Robert B Jackson"
+# ChoData$NAME[ChoData$NAME == "Robert Jones"] <- "Robert J Jones"
+# ChoData$NAME[ChoData$NAME == "Robert Marquis"] <- "Robert J Marquis"
+# ChoData$NAME[ChoData$NAME == "Scott Robinson"] <- "Scott K Robinson"
+# ChoData$NAME[ChoData$NAME == "Steven Gaines"] <- "Steven D Gaines"
+# ChoData$NAME[ChoData$NAME == "Will Cornwell"] <- "Will K Cornwell"
+# ChoData$NAME[ChoData$NAME == "Walter Carson"] <- "Walter P Carson"
+# ChoData$NAME[ChoData$NAME == "Willaim Raun"] <- "William Raun"
+# ChoData$NAME[ChoData$NAME == "William Lauenroth"] <- "William K Lauenroth"
+# ChoData$NAME[ChoData$NAME == "AW FABIO CASSOLA"] <- "AW Fabio Cassola"
+# ChoData$NAME[ChoData$NAME == "Fabio Cassola"] <- "AW Fabio Cassola"
+# ChoData$NAME[ChoData$NAME == "JL CRAIG"] <- "John L Craig"
+# ChoData$NAME[ChoData$NAME == "TR NEW"] <- "Tim R New"
+# ChoData$NAME[ChoData$NAME == "Matt mcGlone"] <- "Matthew McGlone"
+# ChoData$NAME[ChoData$NAME == "KR LIPS"] <- "Karen R Lips"
+# ChoData$NAME[ChoData$NAME == "MR WILLIG"] <- "Michael R Willig"
+# ChoData$NAME[ChoData$NAME == "Jonathan Newman"] <- "Jonathan A Newman"
+# ChoData$NAME[ChoData$NAME == "FG BERNALDEZ"] <- "F G Bernaldez"
+# ChoData$NAME[ChoData$NAME == "R GERALD WRIGHT"] <- "R Gerald Wright"
+# ChoData$NAME[ChoData$NAME == "FABIO CASSOLA"] <- "AW Fabio Cassola"
+# ChoData$NAME[ChoData$NAME == "F CASSOLA"] <- "AW Fabio Cassola"
+# ChoData$NAME[ChoData$NAME == "AP DOBSON"] <- "Andrew P Dobson"
+# ChoData$NAME[ChoData$NAME == "R H MARRS"] <- "R H Marrs"
+# ChoData$NAME[ChoData$NAME == "T CARO"] <- "Tim Caro"
+# ChoData$NAME[ChoData$NAME == "T SPARKS"] <- "Tim Sparks"
+# ChoData$NAME[ChoData$NAME == "E DUFFEY"] <- "Eric Duffey"
+# ChoData$NAME[ChoData$NAME == "F RUMSEY"] <- "Fred Rumsey"
+# ChoData$NAME[ChoData$NAME == "RG WRIGHT"] <- "R Gerald Wright"
+# ChoData$NAME[ChoData$NAME == "Scott Wilson"] <- "Scott D Wilson"
+# ChoData$NAME[ChoData$NAME == "Steve Gutreuter"] <- "Steven J Gutreuter"
+# ChoData$NAME[ChoData$NAME == "Steveb Evett "] <- "Steven Evett "
+# ChoData$NAME[ChoData$NAME == "B PRESSEY"] <- "Bob Pressey"
+# ChoData$NAME[ChoData$NAME == "Charles Canham"] <- "Charles D Canham"
+# ChoData$NAME[ChoData$NAME == "Charlie D Canham"] <- "Charles D Canham"
+# ChoData$NAME[ChoData$NAME == "Andrew Dobson"] <- "Andrew P Dobson"
+# ChoData$NAME[ChoData$NAME == "Phil Rundel"] <- "Philip Rundel"
+# ChoData$NAME[ChoData$NAME == "Rob Marrs"] <- "R H Marrs"
+# ChoData$NAME[ChoData$NAME == "J P METZGER"] <- "Jean Paul Metzger"
+# ChoData$NAME[ChoData$NAME == "L GUSTAFSSON"] <- "Lena Gustafsson"
+# ChoData$NAME[ChoData$NAME == "Mark Burgman"] <- "Mark A Burgman"
+# ChoData$NAME[ChoData$NAME == "M BURGMAN"] <- "Mark A Burgman"
+# ChoData$NAME[ChoData$NAME == "MW SCHWARTZ"] <- "Mark W Schwartz"
+# ChoData$NAME[ChoData$NAME == "Ray Callaway"] <- "Ragan M Callaway"
+# ChoData$NAME[ChoData$NAME == "Ray M Callaway"] <- "Ragan M Callaway"
+# ChoData$NAME[ChoData$NAME == "Tony Davy"] <- "Anthony J Davy"
+# ChoData$NAME[ChoData$NAME == "Anthony Davy"] <- "Anthony J Davy"
+# ChoData$NAME[ChoData$NAME == "B MOSS"] <- "Brian Moss"
+# ChoData$NAME[ChoData$NAME == "C GUYER"] <- "Craig Guyer"
+# ChoData$NAME[ChoData$NAME == "D A SAUNDERS"] <- "Denis A Saunders"
+# ChoData$NAME[ChoData$NAME == "DB LINDENMAYER"] <- "David B Lindenmayer"
+# ChoData$NAME[ChoData$NAME == "James Clark"] <- "James S Clark"
+# ChoData$NAME[ChoData$NAME == "K KIRBY"] <- "Keith Kirby"
+# ChoData$NAME[ChoData$NAME == "P POSCHLOD"] <- "Peter Poschlod"
+# ChoData$NAME[ChoData$NAME == "P WATTS"] <- "Phill Watts"
+# ChoData$NAME[ChoData$NAME == "A B GILL"] <- "Andrew B Gill"
+# ChoData$NAME[ChoData$NAME == "A S PULLIN"] <- "Andrew S Pullin"
+# ChoData$NAME[ChoData$NAME == "A TAYLOR"] <- "Andrea Taylor"
+# ChoData$NAME[ChoData$NAME == "A YOUNG"] <- "Andrew Young"
+# ChoData$NAME[ChoData$NAME == "GF PETERKEN"] <- "George F Peterken"
+# ChoData$NAME[ChoData$NAME == "R CORLETT"] <- "Richard T Corlett"
+# ChoData$NAME[ChoData$NAME == "R DIRZO"] <- "Rodolfo Dirzo"
+# ChoData$NAME[ChoData$NAME == "R FRANKHAM"] <- "Richard Frankham"
+# ChoData$NAME[ChoData$NAME == "R B PRIMACK"] <- "Richard B Primack"
+# ChoData$NAME[ChoData$NAME == "S WALDREN"] <- "Stephen Waldren"
+# ChoData$NAME[ChoData$NAME == "WF LAURANCE"] <- "William F Laurance"
+# ChoData$NAME[ChoData$NAME == "K A WITH"] <- "Kimberly A With"
+# ChoData$NAME[ChoData$NAME == "AJT JOHNSINGH"] <- "A JT Johnsingh"
+# ChoData$NAME[ChoData$NAME == "James Cahil"] <- "James Cahill"
+# ChoData$NAME[ChoData$NAME == "JM IRIONDO"] <- "Jose M Iriondo"
+# ChoData$NAME[ChoData$NAME == "MW SCHWARTZ"] <- "Mark W Schwartz"
+# ChoData$NAME[ChoData$NAME == "RL JEFFERIES"] <- "Robert L Jefferies"
+# ChoData$NAME[ChoData$NAME == "Robert Jefferies"] <- "Robert L Jefferies"
+# ChoData$NAME[ChoData$NAME == "RobertL Jefferies"] <- "Robert L Jefferies"
+# ChoData$NAME[ChoData$NAME == "Robert J Jefferies"] <- "Robert L Jefferies"
+# ChoData$NAME[ChoData$NAME == "Eelke Jonegejanns"] <- "Eelke Jongejans"
+# ChoData$NAME[ChoData$NAME == "Michelle Lesihman"] <- "Michelle Leishman"
+# ChoData$NAME[ChoData$NAME == "Roberth A Raguso"] <- "Robert A Raguso"
+# ChoData$NAME[ChoData$NAME == "Robert Raguso"] <- "Robert A Raguso"
+# ChoData$NAME[ChoData$NAME == "Steveb Evett"] <- "Steven Evett"
+# ChoData$NAME[ChoData$NAME == "John Young"] <- "John R Young"
+# ChoData$NAME[ChoData$NAME == "Steve Hawkings"] <- "Steve J Hawkins"
+# ChoData$NAME[ChoData$NAME == "FB GOLDSMITH"] <- "F B Goldsmith"
+# ChoData$NAME[ChoData$NAME == "Amy Austin"] <- "Amy T Austin"
+# ChoData$NAME[ChoData$NAME == "Robert Salguero-Gomez"] <- "Roberto Salguero-Gomez"
+# ChoData$NAME[ChoData$NAME == "E Duffey"] <- "Eric Duffey"
+# ChoData$NAME[ChoData$NAME == "S J ANDELMAN"] <- "Sandy J Andelman"
+# ChoData$NAME[ChoData$NAME == "Sandy Andelman"] <- "Sandy J Andelman"
+# ChoData$NAME[ChoData$NAME == "Michael C F Proctor"] <- "Michael CF Proctor"  
+# ChoData$NAME[ChoData$NAME == "Michael Proctor"] <- "Michael CF Proctor"
+# ChoData$NAME[ChoData$NAME == "Judie Bronstein"] <- "Judith L. Bronstein"
+# 
+# #Found a few with incorrect country where based and added a few notes 
+# ChoData$COUNTRY[ChoData$NAME == "J Grace"] <- "UK"
+# ChoData$COUNTRY[ChoData$NAME == "David J Gibson"] <- "USA"
+# ChoData$COUNTRY[ChoData$NAME == "Richard D Bardgett"] <- "UK"
+# ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
+# 
+# #for notes must first convert them from factor to string  
+# ChoData$NOTES <- as.character(ChoData$NOTES) 
+# ChoData$NOTES[ChoData$NAME == "J Grace"] <- "probJohnGraceUofEdinborough"
+# ChoData$NOTES[ChoData$NAME == "Robert Jenkins"] <- "RobertEJenkins-TNC"
+# ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
+# 
+# 
+# # Remove the suffixes
+# ChoData$NAME<-gsub(", Jr", "", ChoData$NAME, fixed=TRUE)
+# ChoData$NAME<-gsub(" Jr", "", ChoData$NAME, fixed=TRUE)
+# ChoData$NAME<-gsub(" JR", "", ChoData$NAME, fixed=TRUE)
+# ChoData$NAME<-gsub(" III", "", ChoData$NAME, fixed=TRUE)
+# ChoData$NAME<-gsub(" II", "", ChoData$NAME, fixed=TRUE)
+# 
+# 
+# # Split the names into first, middle, last
+# ChoData$NAME <- as.factor(ChoData$NAME) # CHnage back to factor. Can also do with strings, but I learned this way first
+# 
+# ChoData<-separate(ChoData, NAME, c("FIRST_NAME", "LAST_NAME"), sep = " ", remove = FALSE, convert = FALSE, extra = "merge", fill = "right")
+# ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_1", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
+# ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_2", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
+# ChoData$MIDDLE_NAME_TEMP<- with(ChoData, (paste(MIDDLE_NAME_1, MIDDLE_NAME_2))) #Paste the two middle names together
+# ChoData$MIDDLE_NAME_TEMP<-gsub("NA", "", ChoData$MIDDLE_NAME_TEMP, fixed=TRUE) #delete all the NA
+# ChoData$MIDDLE_NAME_TEMP<-gsub(" ", "", ChoData$MIDDLE_NAME_TEMP, fixed=TRUE)  #remove any excess spaces
+# ChoData$MIDDLE_NAME_1 <- ChoData$MIDDLE_NAME_TEMP
+# ChoData$MIDDLE_NAME_2 <- NULL
+# ChoData$MIDDLE_NAME_TEMP <- NULL
+# ChoData<-rename(ChoData, MIDDLE_NAME=MIDDLE_NAME_1)
+# 
+# ChoData$FIRST_NAME <- as.factor(ChoData$FIRST_NAME) #They were converted to chr above, so convert back to factor
+# ChoData$MIDDLE_NAME <- as.factor(ChoData$MIDDLE_NAME)
+# ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 
 
 # WHY ISN"T THIS PIPING WORKING???
@@ -392,7 +396,8 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 #   select(FIRST_NAME, MIDDLE_NAME, LAST_NAME)  %>% 
 #   mutate_each(funs(as.factor))
 
-
+##### CORRECT THE EDITOR CATEGORIES
+levels(ChoData$CATEGORY)
 
 
 # 
@@ -430,8 +435,6 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 # index == 146 | index == 147) #Huntley
 # filter(NamesDFfix, index == 22 | index == 23) #all combos of spellings r wright rg wright
 # 
-# 
-# 
 # filter(ChoData,tolower(LAST_NAME)==NamesDFfix$Name1last[1])
 # filter(ChoData,LAST_NAME=="Simberhoff")
 # filter(ChoData,tolower(LAST_NAME)=="simberhoff")
@@ -447,11 +450,6 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 # 
 # ChoData$LAST_NAME <- as.character(ChoData$LAST_NAME) #Must first convert them from factor to string  
 
- 
-
-# use high similarity of last name but low of first name to find misspelled or shortened first name
-# use high similarity of first name but low of last name to find misspelled last names
-# confirm with complete string similarity
 
 
 
@@ -463,14 +461,20 @@ ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
 
 ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
                  JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
+source("Class.Fix.R")
+ClassData_clean<-Class.Fix(ClassData)
 
-str(ClassData)
-summary(ClassData)
-ClassData$JOURNAL<-as.factor(ClassData$JOURNAL)
+
+str(ClassData_clean)
+summary(ClassData_clean)
+
+
+
+ClassData_clean$JOURNAL<-as.factor(ClassData_clean$JOURNAL)
 #write.csv(ClassData, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData.csv", row.names = T) #export it as a csv file
 
 # THIS REMOVEAS A FEW WITH BLANKS IN THE NAMES
-ClassData <-filter(ClassData, ClassData$FIRST_NAME!="" & ClassData$LAST_NAME!="")
+ClassData_clean <-filter(ClassData_clean, ClassData_clean$FIRST_NAME!="" & ClassData_clean$LAST_NAME!="")
 # Error Correction
 
 ####FIX THIS
@@ -478,145 +482,217 @@ ClassData <-filter(ClassData, ClassData$FIRST_NAME!="" & ClassData$LAST_NAME!=""
 # ClassData[which(ClassData$FIRST_NAME==""),] #are there any with no 1st name?
 # ClassData[which(ClassData$LAST_NAME==""),] #are there any with no 1st name?
 
-ClassData$FIRST_NAME<-as.character(ClassData$FIRST_NAME)
+ClassData_clean$FIRST_NAME<-as.character(ClassData_clean$FIRST_NAME)
 #####
+# 
+# str(ClassData)
+# # Make the data types consistent with ChoData 
+# 
+# ClassData$VOLUME<-as.integer(ClassData$VOLUME)
+# ClassData$ISSUE<-as.integer(ClassData$ISSUE)
+# 
+# 
+# #Remove (trim) the leading and trailing white spaces (note can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
+# trim.trailing <- function (x) sub("\\s+$", "", x)
+# ClassData$FIRST_NAME<-trim.trailing(ClassData$FIRST_NAME)
+# ClassData$MIDDLE_NAME<-trim.trailing(ClassData$MIDDLE_NAME)
+# ClassData$LAST_NAME<-trim.trailing(ClassData$LAST_NAME)
+# ClassData$TITLE<-trim.trailing(ClassData$TITLE)
+# 
+# trim.leading <- function (x)  sub("^\\s+", "", x)
+# ClassData$FIRST_NAME<-trim.leading(ClassData$FIRST_NAME)
+# ClassData$MIDDLE_NAME<-trim.leading(ClassData$MIDDLE_NAME)
+# ClassData$LAST_NAME<-trim.leading(ClassData$LAST_NAME)
+# ClassData$TITLE<-trim.leading(ClassData$TITLE)
+# 
+# # remove any double spaces
+# ClassData$FIRST_NAME<-gsub("  ", " ", ClassData$FIRST_NAME)
+# ClassData$LAST_NAME<-gsub("  ", " ", ClassData$LAST_NAME, fixed=TRUE)
+# ClassData$MIDDLE_NAME<-gsub("  ", " ", ClassData$MIDDLE_NAME, fixed=TRUE)
+# 
+# # Remove the periods from peoples names to make consistent accross all files
+# ClassData$FIRST_NAME<-gsub("[.]","", ClassData$FIRST_NAME) # . is a wildcard, so [.] removes only the period.
+# ClassData$MIDDLE_NAME<-gsub(".", "", ClassData$MIDDLE_NAME, fixed=TRUE)
+# ClassData$LAST_NAME<-gsub(".", "", ClassData$LAST_NAME, fixed=TRUE)
+# 
+# 
+# # which(ClassData$FIRST_NAME=="Marc-Andr_")
+# # which(ClassData$MIDDLE_NAME=="JT")
+# # which(ClassData$LAST_NAME=="Selosse")
+# 
+# 
+# # FIRST NAMES TO BE CORRECTED
+# ClassData$FIRST_NAME[ClassData$LAST_NAME == "Briones"] <- "Maria"
+# ClassData$FIRST_NAME[ClassData$LAST_NAME == "Kudla"] <- "Jorg" 
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Aliastair"] <- "Alastair"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Marc-Andr_"] <- "Marc-Andre"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "J_rgen"] <- "Jurgen"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Pihilip"] <- "Philip"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ricardo"] <- "Riccardo"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Daphnew"] <- "Daphne"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Emflia"] <- "Emilia"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Clharles"] <- "Charles"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Daniei"] <- "Daniel"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Dianne"] <- "Diane"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Harol"] <- "Harold"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jefery"] <- "Jeffry"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Natalie"] <- "Nathalie"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Candance"] <- "Candace"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Pfter"] <- "Peter"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Rolbert"] <- "Robert"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Andr_"] <- "Andre"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Vejo"] <- "Veijo"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ikka"] <- "Ilkka"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Drie"] <- "Dries"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jean-Michelle"] <- "Jean-Michel"
+# ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Neal"] <- "Neil" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
+# ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "Neil"] <- "J" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
+# ClassData$FIRST_NAME[ClassData$FIRST == "Charles" & ClassData$LAST_NAME == "Godfray"] <- "H" #WORKING?
+# 
+# 
+# # MIDDLE NAMES TO BE CORRECTED
+# ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "J A"] <- "JA"
+# ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Richiard"] <- "Richard"
+# ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "AlbertC"] <- "Albert C"
+# ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "GA"] <- "G A"
+# ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "H" & ClassData$LAST_NAME == "Godfray"] <- "CharlesJ" #WORKING?
+# ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Paolo"] <- ""
+# ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "G"] <- "Green"
+# 
+# # LAST NAMES TO BE CORRECTED
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Saltzburger"] <- "Salzburger"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Ballar_"] <- "Ballare"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "JD"] <- "JT"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Mueller" & ClassData$FIRST_NAME == "Caroline"] <- "Muller" #WORKING?
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Fairburn"] <- "Fairbairn"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Buerger"] <- "Burger"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Colwel"] <- "Colwell"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Abrecht"] <- "Albrecht"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Meaghe"] <- "Meagher"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "McCailum"] <- "McCallum"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Mit[On"] <- "Mitton"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Gerber"] <- "Geber"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Harevey"] <- "Harvey"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "O'Donnell"] <- "ODonnell"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Odonnell"] <- "ODonnell"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Beashop"] <- "Bearhop"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Plnero"] <- "Pinero"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Coyn"] <- "Coyne"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Fryxwell"] <- "Fryxell"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillim"] <- "Lill"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Ericksson"] <- "Eriksson"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Bennet"] <- "Bennett"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Pim"] <- "Pimm"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Rot"] <- "Roth"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Sieman"] <- "Siemann"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Yl_nen"] <- "Ylonen"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Niemala"] <- "Niemela"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Schmid"] <- "Schmitz"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Fielder"] <- "Fiedler"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Karieva"] <- "Kareiva"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Diaz-Filho"] <- "Diniz-Filho"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Diniz-Filho"
+# ClassData$FIRST_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Jose" #WORKING?
+# ClassData$MIDDLE_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Alexandre" #WORKING?
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Rea"] <- "Real"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Paolo"] <- "Paolo-Patti"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "Patti"] <- "Paolo-Patti"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "H" & ClassData$FIRST_NAME=="George"] <- "Heimpel"
+# ClassData$LAST_NAME[ClassData$LAST_NAME == "vanderhaijden"] <- "vanderheijden"
+# 
+# # Cleaning up the titles
+# # #remove extra spaces, converts to chr
+# # ClassData$TITLE<-gsub(" ", "", ClassData$TITLE, fixed=TRUE) 
+# 
+# ClassData$TITLE<-gsub("\\ ", ".", ClassData$TITLE) #Replace spaces with period
+# ClassData$TITLE<-gsub(":", "", ClassData$TITLE) #Replace : with period
+# ClassData$TITLE[ClassData$TITLE == "Editor-in-Chief"] <- "EIC"
+# ClassData$TITLE[ClassData$TITLE == "Editor-In-Chief"] <- "EIC"
+# ClassData$TITLE[ClassData$TITLE == "Natural.HistoryEditor"] <- "Natural.History.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Deputy.Editor-In-Chief"] <- "Deputy.EIC"
+# ClassData$TITLE[ClassData$TITLE == "Deputy.Editor.in.Chief"] <- "Deputy.EIC"
+# ClassData$TITLE[ClassData$TITLE == "Editor-in-Chief"] <- "EIC"
+# ClassData$TITLE[ClassData$TITLE == "SPECIAL.EDITORS"] <- "Special.Editors"
+# ClassData$TITLE[ClassData$TITLE == "editor"] <- "Editor"
+# ClassData$TITLE[ClassData$TITLE == "guest.editor"] <- "Guest.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Associate.Editors"] <- "Associate.Editor"
+# ClassData$TITLE[ClassData$TITLE == "EIC "] <- "EIC"
+# ClassData$TITLE[ClassData$TITLE == "Acting.director.in.chief"] <- "Acting.Director.In.Chief"
+# ClassData$TITLE[ClassData$TITLE == "Co-Editor"] <- "CoEditor"
+# ClassData$TITLE[ClassData$TITLE == "Deputy.director.in.chief"] <- "Deputy.Director.In.Chief"
+# ClassData$TITLE[ClassData$TITLE == "editor"] <- "Editor"
+# ClassData$TITLE[ClassData$TITLE == "Editor.-.Executive.Editor"] <- "Editor-Executive.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Editorial.board"] <- "Editorial.Board"
+# ClassData$TITLE[ClassData$TITLE == "Editors"] <- "Editor"
+# ClassData$TITLE[ClassData$TITLE == "Executive.Sevretary"] <- "Executive.Secretary"
+# ClassData$TITLE[ClassData$TITLE == "Production.editor"] <- "Production.Editor"
+# ClassData$TITLE[ClassData$TITLE == "ReviewsEditor"] <- "Review.Editor"
+# ClassData$TITLE[ClassData$TITLE == "editorial.review.board"] <- "Editorial.Review.Board"
+# ClassData$TITLE[ClassData$TITLE == "EditorialBoard"] <- "Editorial.Board"
+# ClassData$TITLE[ClassData$TITLE == "HandlingEditor"] <- "Handling.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Section.Editors..Environment"] <- "Section.Editors.Environment"
+# ClassData$TITLE[ClassData$TITLE == "Section.Editors..Physiology.&.Development"] <- "Section.Editors.Physiology.&.Development"
+# ClassData$TITLE[ClassData$TITLE == "Tansley.review.Editor"] <- "Tansley.Review.Editor"
+# ClassData$TITLE[ClassData$TITLE == "associate.editor"] <- "Associate.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Deputy.editor.in.chief"] <- "Deputy.EIC"
+# ClassData$TITLE[ClassData$TITLE == "Editor.In.Chief"] <- "EIC"
+# ClassData$TITLE[ClassData$TITLE == "Editorial.board"] <- "Editorial.Board"
+# ClassData$TITLE[ClassData$TITLE == "Production.editor"] <- "Production.Editor"
+# ClassData$TITLE[ClassData$TITLE == "ReviewsEditor"] <- "Review.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Section.Editor.Physiology.&.Development"] <- "Section.Editor.Physiology.Development"
+# ClassData$TITLE[ClassData$TITLE == "Section.Editors..Function"] <- "Section.Editors.Function"
+# ClassData$TITLE[ClassData$TITLE == "Sections.Editor"] <- "Section.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Subject.Editors"] <- "Subject.Editor"
+# ClassData$TITLE[ClassData$TITLE == "Editor.in.chief"] <- "EIC"
+# ClassData$TITLE[ClassData$TITLE == "TE"] <- "Technical.Editor"
+# ClassData$TITLE[ClassData$TITLE == "WA"] <- "Website.Administrator"
+# ClassData$TITLE[ClassData$TITLE == "JPS"] <- "Journal.Production.Supervisor"
+# ClassData$TITLE[ClassData$TITLE == "JES"] <- "Journal.Editorial.Supervisor"
+# ClassData$TITLE[ClassData$TITLE == "JS"] <- "Journal.Supervisor"
+# ClassData$TITLE[ClassData$TITLE == "PE"] <- "Production.Editor"
+# ClassData$TITLE[ClassData$TITLE == "ME"] <- "Managing.Editor"
+# ClassData$TITLE[ClassData$TITLE == ""] <- ""
+# ClassData$TITLE[ClassData$TITLE == ""] <- ""
+# ClassData$TITLE[ClassData$TITLE == ""] <- ""
+# ClassData$TITLE[ClassData$TITLE == ""] <- ""
+# ClassData$TITLE[ClassData$TITLE == ""] <- ""
+# ClassData$TITLE[ClassData$TITLE == ""] <- ""
+# 
+# # Convert to factor and drop levels
+# ClassData$TITLE<-as.factor(ClassData$TITLE)
+# droplevels(ClassData$TITLE)
+# levels(ClassData$TITLE)
+# 
+# 
+# #Clean Up Categories
+# ClassData$CATEGORY<-as.character(ClassData$CATEGORY)
+# ClassData$CATEGORY[ClassData$CATEGORY == "Ae"] <- "AE"
+# ClassData$CATEGORY[ClassData$CATEGORY == "OTHER"] <- "other"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Other"] <- "other"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Other "] <- "other"
+# ClassData$CATEGORY[ClassData$CATEGORY == "EDITOR-IN-CHIEF"] <- "EIC"
+# ClassData$CATEGORY[ClassData$CATEGORY == "SE "] <- "SE"
+# ClassData$CATEGORY[ClassData$CATEGORY == "EIC "] <- "EIC"
+# ClassData$CATEGORY[ClassData$CATEGORY == "None"] <- "none"
+# ClassData$CATEGORY[ClassData$CATEGORY == "SPECIAL"] <- "special"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Special"] <- "special"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Production editor"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Production Staff"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Journal Supervisor"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "JPS"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "JS"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "PE"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "Productioneditor"] <- "production"
+# ClassData$CATEGORY[ClassData$CATEGORY == "other"] <- "production"
+# 
+# #Convert back to factor and drop levels
+# ClassData$CATEGORY <- as.factor(ClassData$CATEGORY) 
+# ClassData$CATEGORY<-droplevels(ClassData$CATEGORY)
+# levels(ClassData$CATEGORY)
 
-
-foo<-ClassData %>%
-  select(JOURNAL, YEAR)  %>% 
-  filter(YEAR>1984 & YEAR<2015)
-str(foo)
-summary(foo)
-summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
-missing_yrs<-filter(summary_table,Freq<1) %>% #Filters the summary table to include years for whihc zero records
-  filter(Var2!="AGRONOMY") %>%  # Eliminates the ones that are extnsions of Cho et al data
-  filter(Var2!="AREES") %>% 
-filter(Var2!="BIOCON")%>% 
-filter(Var2!="BITR")%>% 
-filter(Var2!="JTE")%>% 
-  filter(Var2!="NAJFM")%>% 
-filter(Var2!="") # Eliminates any missing journal
-
-write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
-
-
-
-str(ClassData)
-# Make the data types consistent with ChoData 
-
-ClassData$VOLUME<-as.integer(ClassData$VOLUME)
-ClassData$ISSUE<-as.integer(ClassData$ISSUE)
-
-
-#Remove (trim) the leading and trailing white spaces (not can do with one command as per: http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r)
-trim.trailing <- function (x) sub("\\s+$", "", x)
-ClassData$FIRST_NAME<-trim.trailing(ClassData$FIRST_NAME)
-ClassData$MIDDLE_NAME<-trim.trailing(ClassData$MIDDLE_NAME)
-ClassData$LAST_NAME<-trim.trailing(ClassData$LAST_NAME)
-trim.leading <- function (x)  sub("^\\s+", "", x)
-ClassData$FIRST_NAME<-trim.leading(ClassData$FIRST_NAME)
-ClassData$MIDDLE_NAME<-trim.leading(ClassData$MIDDLE_NAME)
-ClassData$LAST_NAME<-trim.leading(ClassData$LAST_NAME)
-
-# remove any double spaces
-ClassData$FIRST_NAME<-gsub("  ", " ", ClassData$FIRST_NAME)
-ClassData$LAST_NAME<-gsub("  ", " ", ClassData$LAST_NAME, fixed=TRUE)
-ClassData$MIDDLE_NAME<-gsub("  ", " ", ClassData$MIDDLE_NAME, fixed=TRUE)
-
-# Remove the periods from peoples names to make consistent accross all files
-ClassData$FIRST_NAME<-gsub("[.]","", ClassData$FIRST_NAME) # . is a wildcard, so [.] removes only the period.
-ClassData$MIDDLE_NAME<-gsub(".", "", ClassData$MIDDLE_NAME, fixed=TRUE)
-ClassData$LAST_NAME<-gsub(".", "", ClassData$LAST_NAME, fixed=TRUE)
-
-
-# which(ClassData$FIRST_NAME=="Marc-Andr_")
-# which(ClassData$MIDDLE_NAME=="JT")
-# which(ClassData$LAST_NAME=="Selosse")
-
-
-# FIRST NAMES TO BE CORRECTED
-ClassData$FIRST_NAME[ClassData$LAST_NAME == "Briones"] <- "Maria"
-ClassData$FIRST_NAME[ClassData$LAST_NAME == "Kudla"] <- "Jorg" 
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Aliastair"] <- "Alastair"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Marc-Andr_"] <- "Marc-Andre"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "J_rgen"] <- "Jurgen"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Pihilip"] <- "Philip"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ricardo"] <- "Riccardo"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Daphnew"] <- "Daphne"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Emflia"] <- "Emilia"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Clharles"] <- "Charles"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Daniei"] <- "Daniel"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Dianne"] <- "Diane"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Harol"] <- "Harold"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jefery"] <- "Jeffry"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Natalie"] <- "Nathalie"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Candance"] <- "Candace"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Pfter"] <- "Peter"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Rolbert"] <- "Robert"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Andr_"] <- "Andre"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Vejo"] <- "Veijo"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ikka"] <- "Ilkka"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Drie"] <- "Dries"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jean-Michelle"] <- "Jean-Michel"
-ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Neal"] <- "Neil" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
-ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "Neil"] <- "J" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
-ClassData$FIRST_NAME[ClassData$FIRST == "Charles" & ClassData$LAST_NAME == "Godfray"] <- "H" #WORKING?
-
-
-# MIDDLE NAMES TO BE CORRECTED
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "J A"] <- "JA"
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Richiard"] <- "Richard"
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "AlbertC"] <- "Albert C"
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "GA"] <- "G A"
-ClassData$MIDDLE_NAME[ClassData$FIRST_NAME == "H" & ClassData$LAST_NAME == "Godfray"] <- "CharlesJ" #WORKING?
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "Paolo"] <- ""
-ClassData$MIDDLE_NAME[ClassData$MIDDLE_NAME == "G"] <- "Green"
-
-# LAST NAMES TO BE CORRECTED
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Saltzburger"] <- "Salzburger"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Ballar_"] <- "Ballare"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "JD"] <- "JT"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Mueller" & ClassData$FIRST_NAME == "Caroline"] <- "Muller" #WORKING?
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Fairburn"] <- "Fairbairn"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Buerger"] <- "Burger"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Colwel"] <- "Colwell"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Abrecht"] <- "Albrecht"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Meaghe"] <- "Meagher"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "McCailum"] <- "McCallum"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Mit[On"] <- "Mitton"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Gerber"] <- "Geber"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Harevey"] <- "Harvey"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "O'Donnell"] <- "ODonnell"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Odonnell"] <- "ODonnell"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Beashop"] <- "Bearhop"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Plnero"] <- "Pinero"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Coyn"] <- "Coyne"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Fryxwell"] <- "Fryxell"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillim"] <- "Lill"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Ericksson"] <- "Eriksson"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Bennet"] <- "Bennett"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Pim"] <- "Pimm"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Rot"] <- "Roth"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Sieman"] <- "Siemann"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Yl_nen"] <- "Ylonen"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Niemala"] <- "Niemela"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Schmid"] <- "Schmitz"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Fielder"] <- "Fiedler"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Karieva"] <- "Kareiva"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Diaz-Filho"] <- "Diniz-Filho"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Diniz-Filho"
-ClassData$FIRST_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Jose" #WORKING?
-ClassData$MIDDLE_NAME[ClassData$LAST_NAME == "Diniz-Filho"] <- "Alexandre" #WORKING?
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Rea"] <- "Real"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Paolo"] <- "Paolo-Patti"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "Patti"] <- "Paolo-Patti"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "H" & ClassData$FIRST_NAME=="George"] <- "Heimpel"
-ClassData$LAST_NAME[ClassData$LAST_NAME == "vanderhaijden"] <- "vanderheijden"
-
-
-
+# 
 
 
 ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
@@ -642,14 +718,42 @@ ClassData$FULL_NAME<-gsub("  ", " ", ClassData$FULL_NAME)
 
 ######################################################
 #
+# Function to determine the years missing in your dataset
+# yrs.missing(dataset,first year of interest,last year of interest)
+source("yrs.missing.R")
+yrs.missing(ClassData,1985,2014)
+write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
+
+# foo<-ClassData %>%
+#   select(JOURNAL, YEAR)  %>% 
+#   filter(YEAR>1984 & YEAR<2015)
+# str(foo)
+# summary(foo)
+# summary_table<-as.data.frame(table(foo$YEAR, foo$JOURNAL))
+# missing_yrs<-filter(summary_table,Freq<1) %>% #Filters the summary table to include years for whihc zero records
+#   filter(Var2!="AGRONOMY") %>%  # Eliminates the ones that are extnsions of Cho et al data
+#   filter(Var2!="AREES") %>% 
+# filter(Var2!="BIOCON")%>% 
+# filter(Var2!="BITR")%>% 
+# filter(Var2!="JTE")%>% 
+#   filter(Var2!="NAJFM")%>% 
+# filter(Var2!="") # Eliminates any missing journal
+#
+######################################################
+
+
+
+######################################################
+#
 # BIND YOUR DATASETS TOGETHER. CAN THE DISAMBIGUATE & 
 # ERROR CORRECT EACH ONE OR THE BOUND ONE USING THE
 # BLOCK OF CODE AFTER THIS
 #
 ######################################################
 
-str(ChoData)
-str(ClassData)
+
+str(ChoData_clean)
+str(ClassData_clean)
 
 ChoData$INSTITUTION<-NA
 ChoData$NAME<-NULL
@@ -660,6 +764,10 @@ ClassData$SUFFIX<-NULL
 ClassData$DATASET<-"Class"
 ALLDATA<-rbind(ChoData,ClassData)
 
+
+
+ALLDATA <- transform(ALLDATA,id=as.numeric(LAST_NAME))
+ALLDATA <- transform(ALLDATA,id=as.numeric(FIRST_NAME))
 # Now make sure all names, cases, categories, etc. are consistent
 # THIS SHOULD BE CONVERETED TO A FUNCTION!!!!!
 #
@@ -671,26 +779,7 @@ ALLDATA<-rbind(ChoData,ClassData)
 JrnlToClean<-ALLDATA
 head(JrnlToClean)
 head(JrnlToClean)
-#remove extra spaces, converts to chr
-JrnlToClean$CATEGORY<-gsub(" ", "", JrnlToClean$CATEGORY, fixed=TRUE) 
 
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Ae"] <- "AE"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "OTHER"] <- "Other"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "other"] <- "Other"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "SPECIAL"] <- "Special"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Production editor"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Production Staff"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Journal Supervisor"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "JPS"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "JS"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "PE"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "Productioneditor"] <- "PS"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == "EDITOR-IN-CHIEF"] <- "EIC"
-JrnlToClean$CATEGORY[JrnlToClean$CATEGORY == ""] <- ""
-
-JrnlToClean$CATEGORY <- as.factor(JrnlToClean$CATEGORY) #Convert back to factor
-JrnlToClean$CATEGORY<-droplevels(JrnlToClean$CATEGORY)
-# 
 # Trying to find names that are mispelled or close to correct close
 #   http://stackoverflow.com/questions/6683380/techniques-for-finding-near-duplicate-records
 # # https://cran.r-project.org/web/packages/RecordLinkage/index.html AND
@@ -741,8 +830,8 @@ str(CHECKFILE)
 
 
 # CheckNames<-CHECKFILE$NAME  #FOR CHO DATA
-CheckNames<-CHECKFILE$FIRSTLAST_NAME 
-# CheckNames<-CHECKFILE$FIRSTLASTMIDDLE_NAME #FOR ALL DATA
+#CheckNames<-CHECKFILE$FIRSTLAST_NAME 
+CheckNames<-CHECKFILE$FIRSTLASTMIDDLE_NAME #FOR ALL DATA
 # CheckNames<-CHECKFILE$INITIALLAST #FOR ALL DATA
 
 CheckNames<-tolower(CheckNames) #drop all to lower case - makes it easier to error check and analyze
@@ -793,7 +882,7 @@ NamesDF$index<-seq.int(nrow(NamesDF)) #adds a column with an index to make it ea
 NamesDF <- NamesDF %>% select(index, Name1, Name2, Name_sim,Name_dist) #It's kinda ugly, but this rearranges columns (and dumps the "FALSE")
 NamesDF <- arrange(NamesDF, desc(Name_sim))
 # head(NamesDF)
-write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_FIRST_LAST.csv", row.names = T) #export it as a csv file
+write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_2.csv", row.names = T) #export it as a csv file
 
 
 ##########################################################
