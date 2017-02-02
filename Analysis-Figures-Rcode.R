@@ -4,7 +4,7 @@
 
 #Set WD and load packages you need. Not all of which you need after all.
 #setwd("-------")
-library(countrycode)
+
 library(tidyverse)
 library(RecordLinkage)
 library(stringdist)
@@ -20,184 +20,217 @@ library(WDI)
 source("helpers.R")    #Code to plot all journals in one figure
 
 
+  
+  #CLear out everything from the environment 
+  rm(list=ls())
+  
+  
+  ######################################################
+  # DATA UPLOAD 
+  ######################################################
+  
+  # : load the individual CSV files and save them as dataframes
+  
+  # IMPORT WORLD BANK INDICATORS (downloaded 2/Dec/2015)
+  WDI_data<-read.csv("WDI_data.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  row.names(WDI_data) <- WDI_data$iso3c     #Assigning row names in table for later search
+  
+  #list of categories of income, useful for analysis
+  INCOMES <- c(  'High income: OECD', 'High income: nonOECD',
+                 'Upper middle income','Lower middle income','Low income')
+  
+  #list of geographical regions, useful for analysis
+  REGIONS <- c('North America', 'Europe & Central Asia','Sub-Saharan Africa',
+               'East Asia & Pacific','Latin America & Caribbean',
+               'South Asia','Middle East & North Africa')
+  
+  
+  
+  # IMPORT JOURNAL DATA
+  
+  # Import data from Cho et al 2014 PeerJ
+  BITR<-read.csv("./ChoData/Biotropica_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  BIOCON<-read.csv("./ChoData/Biocon_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  ARES<-read.csv("./ChoData/ARES_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  AGRON<-read.csv("./ChoData/Agronomy_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  NAJFM<-read.csv("./ChoData/NAJFM_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  AJB<-read.csv("./ChoData/AJB_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  CONBIO<-read.csv("./ChoData/ConBio_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  ECOLOGY<-read.csv("./ChoData/Ecology_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JECOL<-read.csv("./ChoData/JEcol_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JTE<-read.csv("./ChoData/JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  
+  # Import Data collected by 2015 UF Scientific Publishing Seminar 
+  AGRON2<-read.csv("./Data2015/AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  AMNAT<-read.csv("./Data2015/AMNAT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  ARES2<-read.csv("./Data2015/ARES2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  BIOCON2<-read.csv("./Data2015/BIOCON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  BIOG<-read.csv("./Data2015/BIOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  BITR2<-read.csv("./Data2015/BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  ECOG<-read.csv("./Data2015/ECOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  EVOL<-read.csv("./Data2015/EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still need to ID what an Editor vs EIC does when they transitoned to EIC
+  FEM<-read.csv("./Data2015/FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  FUNECOL<-read.csv("./Data2015/FUNECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JANE<-read.csv("./Data2015/JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JAPE<-read.csv("./Data2015/JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JTE2<-read.csv("./Data2015/JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+  MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+  OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  OIKOS<-read.csv("./Data2015/OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
+  PLANTECOL<-read.csv("./Data2015/PLANTECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  
+  # STILL MISSING SOME DATA 
+  GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  # ONLY HAS 1995-2007. 2007-2008 in dropbox. Wiley Journal
+  
+  LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  # #LE is missing 1985-1987 (started 1987), 2004, 2011-2014, 2015 Springer
+  
+  MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  # ONLY HAS 1989-1997. Have in folder 2010, 2011-2013, 2014-2015. what looks like 88,87,1985
+  
+  
+  ######################################################
+  # DATA CLEANUP AND ORGANIZATION: CHODATA
+  ######################################################
+  
+  #Bind the data from Cho
+  ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) 
+  
+  source("Cho.Fix.R")
+  ChoData_clean<-Cho.Fix(ChoData)
+  ChoData_clean
+  # write.csv(ChoData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ChoData_clean.csv", row.names = T) #export it as a csv file
+  
+  #Don't Need the original files or Messy ChoData cluttering up the Env't so lets delete
+  rm(ChoData, BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
+  
+  
+  ############################################################
+  # DATA CLEANUP AND ORGANIZATION: CLASSDATA  
+  ############################################################
+  
+  #Bind the data from 2015 workshop
+  ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+                   JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
+  source("Class.Fix.R")
+  ClassData_clean<-Class.Fix(ClassData)
+  # write.csv(ClassData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_clean.csv", row.names = T) #export it as a csv file
+  
+  # Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
+  rm(ClassData,GCB, MEPS,AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
+     JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL)
+  
+  # NEED TO Double check if tansley review, book review editors, IFE, also act as subject editors. 
+  # OIKOS ADVISOR PANEL - are they also handling MSS? 
+  # Evolution - the same TITLE (Editor) is often allocated to different categories (AE, SE, EIC)
+  # 2x all special editors
+  ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
+  # 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
+  # 2) EVOL: several titles missing 
+  # 3) AMNAT: 1985-1992 has two volumes for each year. use oone? both? 
+  # 4) AMNAT: some missing volume and issue data
+  # 5) AMNAT: Need to correct AE for Editor
+  # 6) Oecologia has several EIC's (plants, animals, etc)
+  # 7 One name missing in Oecologia due to blurry pic
+  #8) Removed MEPS, GCB because so many years missing.
+  #Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
+  
+  
+  str(ClassData_clean)
+  summary(ClassData_clean)
+  levels(ClassData_clean$CATEGORY)
+  
+  # THIS REMOVEA A FEW WITH BLANKS IN THE NAMES
+  ClassData_clean <-filter(ClassData_clean, ClassData_clean$FIRST_NAME!="" & ClassData_clean$LAST_NAME!="")
+  # Error Correction
+  ####FIX THIS
+  # ClassData[which(ClassData$JOURNAL==""),] #are there any with no journal?
+  # ClassData[which(ClassData$FIRST_NAME==""),] #are there any with no 1st name?
+  # ClassData[which(ClassData$LAST_NAME==""),] #are there any with no 1st name?
+  
+  
+  #############################################################
+  #
+  # Function to determine the years missing in your dataset
+  # yrs.missing(dataset,first year of interest,last year of interest)
+  source("yrs.missing.R")
+  yrs.missing<-yrs.missing(ClassData_clean,1985,2014)
+  write.csv(yrs.missing, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
+  #
+  #############################################################
+  
+  
+  #############################################################
+  # WHAT DATASETS WILL YOU DO ANALYSES WITH? BIND THEM TOGETHER 
+  ##############################################################
+  
+  # Add an identifier for each dataset
+  ChoData_clean$DATASET<-"Cho"
+  ClassData_clean$DATASET<-"Class"
+  #bind them together
+  ALLDATA<-rbind(ChoData_clean,ClassData_clean)
+  # convert your dataset identifier to a factor
+  ALLDATA$DATASET<-as.factor(ALLDATA$DATASET)
+  
+  
+  #############################################################
+  # DO YOU WANT TO SUBSET TO CERTAIN GROUPS?
 
-#CLear out everything from the environment 
-rm(list=ls())
-
-
-######################################################
-# DATA UPLOAD 
-######################################################
-# Step 1: load the individual CSV files and save them as dataframes
-
-# IMPORT WORLD BANK INDICATORS (downloaded 2/Dec/2015)
-WDI_data<-read.csv("WDI_data.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-row.names(WDI_data) <- WDI_data$iso3c     #Assigning row names in table for later search
-
-#list of categories of income, useful for analysis
-INCOMES <- c(  'High income: OECD', 'High income: nonOECD',
-               'Upper middle income','Lower middle income','Low income')
-
-#list of geographical regions, useful for analysis
-REGIONS <- c('North America', 'Europe & Central Asia','Sub-Saharan Africa',
-             'East Asia & Pacific','Latin America & Caribbean',
-             'South Asia','Middle East & North Africa')
-
-#Import data from Cho et al 2014 PeerJ
-BITR<-read.csv("./ChoData/Biotropica_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOCON<-read.csv("./ChoData/Biocon_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ARES<-read.csv("./ChoData/ARES_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AGRON<-read.csv("./ChoData/Agronomy_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NAJFM<-read.csv("./ChoData/NAJFM_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AJB<-read.csv("./ChoData/AJB_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-CONBIO<-read.csv("./ChoData/ConBio_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ECOLOGY<-read.csv("./ChoData/Ecology_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JECOL<-read.csv("./ChoData/JEcol_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JTE<-read.csv("./ChoData/JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-
-#Import Data collected by 2015 UF Scientific Publishing Seminar 
-AGRON2<-read.csv("./Data2015/AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-AMNAT<-read.csv("./Data2015/AMNAT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ARES2<-read.csv("./Data2015/ARES2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOCON2<-read.csv("./Data2015/BIOCON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BIOG<-read.csv("./Data2015/BIOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-BITR2<-read.csv("./Data2015/BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-ECOG<-read.csv("./Data2015/ECOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-EVOL<-read.csv("./Data2015/EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still need to ID what an Editor vs EIC does when they transitoned to EIC
-FEM<-read.csv("./Data2015/FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-FUNECOL<-read.csv("./Data2015/FUNECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JANE<-read.csv("./Data2015/JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JAPE<-read.csv("./Data2015/JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JTE2<-read.csv("./Data2015/JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
-MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
-OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-OIKOS<-read.csv("./Data2015/OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
-PLANTECOL<-read.csv("./Data2015/PLANTECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-
-# STILL MISSING SOME DATA 
-GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-# ONLY HAS 1995-2007. 2007-2008 in dropbox. Wiley Journal
-
-LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-# #LE is missing 1985-1987 (started 1987), 2004, 2011-2014, 2015 Springer
-
-MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-# ONLY HAS 1989-1997. Have in folder 2010, 2011-2013, 2014-2015. what looks like 88,87,1985
-
-
-
-######################################################
-# DATA CLEANUP AND ORGANIZATION: CHODATA
-######################################################
-
-#Bind the data from Cho
-ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) 
-
-source("Cho.Fix.R")
-ChoData_clean<-Cho.Fix(ChoData)
-ChoData_clean
-
-#Don't Need the original files or Messy ChoData cluttering up the Env't so lets delete
-rm(ChoData, BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
-
-
-############################################################
-# Organiation & Cleaning: CLASSDATA  
-############################################################
-
-#Bind the data from 2015 workshop
-
-ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-                 JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
-source("Class.Fix.R")
-ClassData_clean<-Class.Fix(ClassData)
-
-#Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
-rm(ClassData,GCB, MEPS,AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-   JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL)
-
-str(ClassData_clean)
-summary(ClassData_clean)
-
-write.csv(ClassData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData.csv", row.names = T) #export it as a csv file
-
-# THIS REMOVEAS A FEW WITH BLANKS IN THE NAMES
-ClassData_clean <-filter(ClassData_clean, ClassData_clean$FIRST_NAME!="" & ClassData_clean$LAST_NAME!="")
-# Error Correction
-
-####FIX THIS
-# ClassData[which(ClassData$JOURNAL==""),] #are there any with no journal?
-# ClassData[which(ClassData$FIRST_NAME==""),] #are there any with no 1st name?
-# ClassData[which(ClassData$LAST_NAME==""),] #are there any with no 1st name?
-
-
-######################################################
-#
-# Function to determine the years missing in your dataset
-# yrs.missing(dataset,first year of interest,last year of interest)
-source("yrs.missing.R")
-yrs.missing<-yrs.missing(ClassData_clean,1985,2014)
-write.csv(missing_yrs, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
-#
-#
-######################################################
-
-
-######################################################
-#
-# BIND YOUR DATASETS TOGETHER. CAN THE DISAMBIGUATE & 
-# ERROR CORRECT EACH ONE OR THE BOUND ONE USING THE
-# BLOCK OF CODE AFTER THIS
-#
-######################################################
-
-ChoData_clean$DATASET<-"Cho"
-ClassData_clean$DATASET<-"Class"
-ALLDATA<-rbind(ChoData_clean,ClassData_clean)
-
-
-# Add an idnex based on whatever name you want.
-# First need to convert it to a factor
-ALLDATA<-arrange(ALLDATA,FirstLast)
-ALLDATA$FirstInitialLast<-as.factor(ALLDATA$FirstInitialLast)
-ALLDATA <- transform(ALLDATA,author_id=as.numeric(FirstInitialLast))
-
-
-
-# Now make sure all names, cases, categories, etc. are consistent
-source("Name.Disambig.R")
-NameSimilarityDF<-Name.Disambig(ALLDATA,ALLDATA$FirstInitialLast)
-write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_2.csv", row.names = T) #export it as a csv file
-
-
-
+  # filter our the production staff
+  ALLDATA <-filter(ALLDATA, ALLDATA$CATEGORY!="production")
+  ALLDATA<-droplevels(ALLDATA)
+  str(ALLDATA)
+  #############################################################
+  
+  #############################################################
+  # ADD AN INDEX TO SUBSET OF DATASET YOU WANT TO ANALYZE BASED
+  # ON ANY CATEGORY OF INTEREST 
+  
+  # Add idnex based on NAME
+  # First convert name to a factor
+  ALLDATA<-arrange(ALLDATA,FirstInitialLast)
+  ALLDATA$FirstInitialLast<-as.factor(ALLDATA$FirstInitialLast)
+  ALLDATA <- transform(ALLDATA,author_id=as.numeric(FirstInitialLast))
+  
+  # Now make sure all names, cases, categories, etc. are consistent
+  source("Name.check.R")
+  NameSimilarityDF<-Name.Disambig(ALLDATA,ALLDATA$FirstMiddleLast)
+  write.csv(NameSimilarityDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_ALLYRS.csv", row.names = T) #export it as a csv file
+  # 
+  
+  
+  # AFER YOU HAVE CHECKED THE NAMES FOR CONSISTENCY, NEED TO DISAMBIGUATE
+  # The best way to disambiguate is as follows: 
+  # 1. assign a different index to entries with different First Initial+Last Name (there aren't too many of there)
+  # 2. Search for all that have same index BUT different first name
+  
+  
+  
+  foo<-ALLDATA
+  foo2<-select(foo,author_id, FIRST_NAME,FirstInitialLast, FirstLast)
+  foo3<-distinct(foo2) 
+  foo4<-count(foo3,author_id=author_id) 
+  foo4<-filter(foo4, n > 1)
+  foo4$flag<-"DUPE_CHECK"
+  foo5<-inner_join(foo, foo4, by = "author_id")
+  foo6<-group_by(foo5,FirstLast)%>%filter(row_number()==1)
+  foo6<-select(foo6,-VOLUME,-ISSUE,-NOTES)
+  foo6<-group_by(foo6,INSTITUTION)%>%filter(row_number()==1)
+  
+  
+  
+write.csv(disamb.file, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/disamb.file.index.csv", row.names = T) #export it as a csv file
+# 
 ##########################################################
 ##########################################################
 ## End of section cleaning up the data and putting it
 ## in similar format for comparison and analysis 
 ##########################################################
 ##########################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ######################################################
@@ -210,42 +243,33 @@ write.csv(NamesDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Edi
 # DATASET<-ChoData #OR 
 # DATASET<-ClassData #OR
 DATASET<-ALLDATA #OR 
+str(DATASET)
 
+#2x check - are there any with country missing?
+MISSING=subset(DATASET, COUNTRY=="Unknown")
+MISSING
 
-
-#step3: change all the country names to the codes used in mapping
-#Add a column with the 3 letter country codes to be consistent with the other datasets
-#Maptools uses the ISO 3166 three letter codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
-#The packahge countrycode will take your column of country names and convert them to ISO3166-3 Codes
-#I began by checking the values of COUNTRY to see if there are any mistakes. To do so I just created a vector 
-#called CODECHECK
-DATASET$CODECHECK<-countrycode(DATASET$COUNTRY, "country.name", "iso3c", warn = TRUE)
-#By setting "warn=TRUE" it will tell you which ones it couldn't convert. Because of spelling mistakes, etc.
-#You can correct these as follows in the dataframe with all the data, then add a new column to the dataframe with the country codes
-
-DATASET$COUNTRY[DATASET$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
-DATASET$COUNTRY[DATASET$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
-DATASET$COUNTRY[DATASET$COUNTRY == "Scotland"]  <- "UK" #With apologies to Scots everywhere
-DATASET$COUNTRY[DATASET$COUNTRY == "SCOTLAND"]  <- "UK" #With apologies to Scots everywhere
-DATASET$COUNTRY[DATASET$COUNTRY == "Wales"]  <- "UK"
-DATASET$COUNTRY[DATASET$COUNTRY == "England"]  <- "UK"
-DATASET$COUNTRY[DATASET$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
-DATASET$COUNTRY[DATASET$COUNTRY == "Austrailia"]  <- "Australia" #removing old names
-
+source("Country.Codes.R")
+DATASET<-Country.Codes(DATASET)
+str(DATASET)
+levels(DATASET$geo.code)
 #we need to change yugoslavia to what?
 #we need to add french guiana wold bank classficiation
 
 
 
 
-#This line adds a column of country codes based on the country name
-#some countries may not be correctly coded
-DATASET$COUNTRY.CODE<-countrycode(DATASET$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
 
+
+# 
+# #This line adds a column of country codes based on the country name
+# #some countries may not be correctly coded
+# DATASET$COUNTRY.CODE<-countrycode(DATASET$COUNTRY, "country.name", "iso3c", warn = TRUE)   #create new column with country ISO code
+# 
 
 #These lines add the income level and region level based on the editor country
-DATASET$INCOME_LEVEL <- WDI_data[DATASET$COUNTRY.CODE, 'income']  #Making a new column of income level by country
-DATASET$REGION <- WDI_data[DATASET$COUNTRY.CODE, 'region']  #Making a new column of income level by country
+DATASET$INCOME_LEVEL <- WDI_data[DATASET$geo.code, 'income']  #Making a new column of income level by country
+DATASET$REGION <- WDI_data[DATASET$geo.code, 'region']  #Making a new column of income level by country
 
 #subsetting data to only EIC, AE and SE classifications
 DATASET <- DATASET[DATASET$CATEGORY %in% c('EIC', 'AE', 'SE'),]
@@ -257,14 +281,6 @@ DATASET<-DATASET[DATASET$YEAR>=1985 & DATASET$YEAR<=2013,]
 #step 5: 2x that it all looks ok
 summary(DATASET)
 
-#2x check - are there any with country missing?
-MISSING=subset(DATASET, subset=(COUNTRY=="?"))
-MISSING
-
-#Deleting rows without country
-DATASET <- DATASET[!is.na(DATASET$COUNTRY.CODE),] 
-
-
 ############################################################################
 #
 # BIND THEM UP AND ANALYZE!
@@ -274,8 +290,8 @@ DATASET <- DATASET[!is.na(DATASET$COUNTRY.CODE),]
 # str(ChoData)
 # str(ClassData)
 
-AnalysisData<-ALLDATA %>% 
-  select(-INSTITUTION,-NOTES,-GENDER)
+AnalysisData<-DATASET %>% 
+  select(-INSTITUTION,-NOTES,-GENDER, -VOLUME, -ISSUE, -TITLE, -INSTITUTION)
 
 
 
@@ -283,15 +299,15 @@ AnalysisData<-ALLDATA %>%
 # BAR PLOT TOTAL EDITORIAL MEMBERS BY COUNTRY (ALL JOURNALS, ALL YEARS)
 # GROUPED COUNTRIES WITH SMALL SIZES
 ############################################################################################
-#Group dataframe by COUNTRY.CODE
-byCOUNTRY <- dplyr::group_by(AnalysisData, COUNTRY.CODE)
+#Group dataframe by geo.code
+byCOUNTRY <- dplyr::group_by(AnalysisData, geo.code)
 
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each EIC only once
-byCOUNTRY <- unique( byCOUNTRY[ , c('NAME', 'COUNTRY.CODE', 'JOURNAL') ] )
+byCOUNTRY <- unique( byCOUNTRY[ , c('FirstMiddleLast', 'geo.code', 'JOURNAL') ] )
 
 #Count the number of unique editors by country
 byCOUNTRY = summarize (byCOUNTRY,
-                       number = length(unique(NAME)))
+                       number = length(unique(FirstMiddleLast)))
 
 #See countries with highest representations
 byCOUNTRY[order(byCOUNTRY$number,decreasing = TRUE),][1:10,]
@@ -310,8 +326,8 @@ highest_n[n + 1,] <- c('Others', grouped_number)
 highest_n$number <- strtoi(highest_n$number)
 
 #order countries in a factor mode
-highest_n$COUNTRY.CODE <- factor(x = highest_n$COUNTRY.CODE,
-                                levels = highest_n$COUNTRY.CODE)
+highest_n$geo.code <- factor(x = highest_n$geo.code,
+                                levels = highest_n$geo.code)
 
 highest_n$total=sum(highest_n$number) #this will allow you to calclulate % and plot that way
 highest_n$percent=highest_n$number/highest_n$total*100
@@ -321,7 +337,7 @@ tiff(file = "Plots/COUNTRY_Editors.tiff",
      height = 500)
 #Plot of EIC numbers by country in decreasing number
 
-country_plot<-ggplot(data=highest_n, aes(x=COUNTRY.CODE, y=percent)) +   #changed this to % instead of absolute #
+country_plot<-ggplot(data=highest_n, aes(x=geo.code, y=percent)) +   #changed this to % instead of absolute #
   geom_bar(stat="identity") + 
   ylab('Editors (%)') +
   xlab('Country')+
@@ -350,19 +366,19 @@ dev.off()
 # TABLE OF TOTAL EDITORIAL MEMBERS BY COUNTRY BY CATEGORY BY INCOME OR REGION
 # (ALL JOURNALS, ALL YEARS)
 ##############################################
-#Group dataframe by COUNTRY.CODE
-byCOUNTRY <- dplyr::group_by(AnalysisData, COUNTRY.CODE, CATEGORY)
+#Group dataframe by geo.code
+byCOUNTRY <- dplyr::group_by(AnalysisData, geo.code, CATEGORY)
 
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each editor only once
-byCOUNTRY <- unique( byCOUNTRY[ , c('NAME', 'COUNTRY.CODE', 'JOURNAL', 'CATEGORY') ] )
+byCOUNTRY <- unique( byCOUNTRY[ , c('FirstMiddleLast', 'geo.code', 'JOURNAL', 'CATEGORY') ] )
 
 #Count the number of unique editors by country
 byCOUNTRY = summarize (byCOUNTRY,
-                       number = length(unique(NAME)))
+                       number = length(unique(FirstMiddleLast)))
 
 #Reshape the table from long to wide
 byCOUNTRY <- dcast(data = byCOUNTRY,
-                   formula = COUNTRY.CODE ~ CATEGORY, 
+                   formula = geo.code ~ CATEGORY, 
                    value.var = 'number')
 
 #changing NA to 0
@@ -374,8 +390,8 @@ byCOUNTRY['AE_perc'] <-  byCOUNTRY$AE / sum(byCOUNTRY$AE)
 byCOUNTRY['SE_perc'] <-  byCOUNTRY$SE / sum(byCOUNTRY$SE)
 
 #Assign each country a WDI income and region
-byCOUNTRY$INCOME_LEVEL <- WDI_data[byCOUNTRY$COUNTRY.CODE, 'income']  #Making a new column of income level by country
-byCOUNTRY$REGION <- WDI_data[byCOUNTRY$COUNTRY.CODE, 'region']  #Making a new column of income level by country
+byCOUNTRY$INCOME_LEVEL <- WDI_data[byCOUNTRY$geo.code, 'income']  #Making a new column of income level by country
+byCOUNTRY$REGION <- WDI_data[byCOUNTRY$geo.code, 'region']  #Making a new column of income level by country
 
 #Analyze by income all the countries
 byCOUNTRY_income <- dplyr::group_by(byCOUNTRY, INCOME_LEVEL)
@@ -426,8 +442,8 @@ byCOUNTRY_income_table
 byCOUNTRY_region_table
 
 #printing USA and GBR values to add to table
-round(100*byCOUNTRY[byCOUNTRY$COUNTRY.CODE == 'USA',5:7], 1)
-round(100*byCOUNTRY[byCOUNTRY$COUNTRY.CODE == 'GBR',5:7], 1)
+round(100*byCOUNTRY[byCOUNTRY$geo.code == 'USA',5:7], 1)
+round(100*byCOUNTRY[byCOUNTRY$geo.code == 'GBR',5:7], 1)
 
 
 ##############################################
@@ -449,8 +465,8 @@ head(COUNTRYYEAR)
 # Table of number of countries represented by journal by country in all categories
 # It also estimates the number of high income countries represented by year
 COUNTRYYEAR_SUMMARY <- summarize (COUNTRYYEAR,
-                                  COUNTRIES = length(unique(COUNTRY.CODE)),
-                                  HIGHINCOME = sum(unique(COUNTRY.CODE) %in% 
+                                  COUNTRIES = length(unique(geo.code)),
+                                  HIGHINCOME = sum(unique(geo.code) %in% 
                                                      c(array(`High income: OECD list`)))
 )
 
