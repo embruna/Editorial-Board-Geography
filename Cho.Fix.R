@@ -34,7 +34,9 @@ Cho.Fix <- function(A) {
   
   
   # Error Correction
+  
   ChoData$NAME[ChoData$NAME == "_a_an H _ekercio_lu"] <-"Cagan Sekercioglu"
+  ChoData$NAME[ChoData$NAME == "STEVE J HAWKINGS"] <-"Stephen J Hawkins"
   ChoData$NAME[ChoData$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
   ChoData$NAME[ChoData$NAME == "Li (Aster) Zhang"] <- "Li Aster Zhang"
   ChoData$NAME[ChoData$NAME == "Allan Blaylock"] <- "Alan Blaylock"
@@ -62,11 +64,11 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "Prasanna Gowda"] <- "Prasanna Gowde"
   ChoData$NAME[ChoData$NAME == "RL JEFFERLES"] <- "Robert L Jefferies"
   ChoData$NAME[ChoData$NAME == "Roberto Salquero-Gomez"] <- "Roberto Salguero-Gomez"
-  ChoData$NAME[ChoData$NAME == "STEVE J HAWKIN"] <- "Steve J Hawkings"
+  ChoData$NAME[ChoData$NAME == "STEVE J HAWKIN"] <- "Stephen J Hawkins"
   ChoData$NAME[ChoData$NAME == "Anthony J Felder"] <- "Anthony J Fedler"
   ChoData$NAME[ChoData$NAME == "Micahel Proctor"] <- "Michael CF Proctor"
   ChoData$NAME[ChoData$NAME == "Saeid Soufizadeh_"] <- "Saeid Soufizadeh"
-  ChoData$NAME[ChoData$NAME == "Spencer H. C. Barrett"] <- "Spencer C.H. Barrett"
+  ChoData$NAME[ChoData$NAME == "Spencer H C Barrett"] <- "Spencer CH Barrett"
   
   
   
@@ -84,7 +86,6 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "Eddy Van der Meijden"] <- "Eddy VanDerMeijden"
   ChoData$NAME[ChoData$NAME == "Jorge Meave del Castillo"] <- "Jorge Meave DelCastillo"
   ChoData$NAME[ChoData$NAME == "Nicole M Van Dam"] <- "Nicole M VanDam"
-  ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos Martinez DelRio"
   ChoData$NAME[ChoData$NAME == "Marcel van der Heijden"] <- "Marcel VanDerHeijden"
   ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerline Barbra DeDeyn"
   ChoData$NAME[ChoData$NAME == "Marcel van de Heijden"] <- "Marcel VanDerHeijden"
@@ -111,7 +112,7 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "SIR PETER SCOTT"] <- "Peter Scott"
   ChoData$NAME[ChoData$NAME == "Kim Wllliams-Guillen"] <- "Kim Williams-Guillen"
   ChoData$NAME[ChoData$NAME == "Daniel Issermann"] <- "Daniel Isermann"
-  ChoData$NAME[ChoData$NAME == "STEVE J. HAWKINGS"] <- "STEVE J. HAWKINS"
+  ChoData$NAME[ChoData$NAME == "STEVE J HAWKINGS"] <- "Steve J Hawkins"
   ChoData$NAME[ChoData$NAME == "Johnathan Holman"] <- "Johnathon Holman"
   ChoData$NAME[ChoData$NAME == "J. P. METZGER"] <- "Jean-Paul Metzger"
   ChoData$NAME[ChoData$NAME == "Carlos Martinez del Rio"] <- "Carlos MartinezDelRio"
@@ -126,8 +127,8 @@ Cho.Fix <- function(A) {
   
   #Changes made to make names consistent accross journals 
   
-  ChoData$NAME[ChoData$NAME == "M.J. COE"] <- "M. J. COE"
-  ChoData$NAME[ChoData$NAME == "Steve Bonser"] <- "Stephen P. Bonser" # NEED TO CONFIRM
+  ChoData$NAME[ChoData$NAME == "MJ COE"] <- "M J COE"
+  ChoData$NAME[ChoData$NAME == "Steve Bonser"] <- "Stephen P Bonser" # NEED TO CONFIRM
   ChoData$NAME[ChoData$NAME == "Arnold Bruns"] <- "H Arnold Bruns"
   ChoData$NAME[ChoData$NAME == "Arthur Willis"] <- "Arthur J Willis"
   ChoData$NAME[ChoData$NAME == "Carlos Herrera"] <- "Carlos M Herrera"
@@ -249,19 +250,22 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "Sandy Andelman"] <- "Sandy J Andelman"
   ChoData$NAME[ChoData$NAME == "Michael C F Proctor"] <- "Michael CF Proctor"  
   ChoData$NAME[ChoData$NAME == "Michael Proctor"] <- "Michael CF Proctor"
-  ChoData$NAME[ChoData$NAME == "Judie Bronstein"] <- "Judith L. Bronstein"
+  ChoData$NAME[ChoData$NAME == "Judie Bronstein"] <- "Judith L Bronstein"
+  ChoData$NAME[ChoData$NAME == "Jean Paul Metzger"] <- "Jean-Paul Metzger"
+  ChoData$NAME[ChoData$NAME == "LENNART HANSSON"] <- "Lennart Hansson"
+  
   
   #Found a few with incorrect country where based and added a few notes 
   ChoData$COUNTRY[ChoData$NAME == "J Grace"] <- "UK"
   ChoData$COUNTRY[ChoData$NAME == "David J Gibson"] <- "USA"
   ChoData$COUNTRY[ChoData$NAME == "Richard D Bardgett"] <- "UK"
-  ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
+  ChoData$COUNTRY[ChoData$NAME == "Steven P Bonser"] <- "Australia"
   
   #for notes must first convert them from factor to string  
   ChoData$NOTES <- as.character(ChoData$NOTES) 
   ChoData$NOTES[ChoData$NAME == "J Grace"] <- "probJohnGraceUofEdinborough"
   ChoData$NOTES[ChoData$NAME == "Robert Jenkins"] <- "RobertEJenkins-TNC"
-  ChoData$COUNTRY[ChoData$NAME == "Steven P. Bonser"] <- "Australia"
+  ChoData$COUNTRY[ChoData$NAME == "Steven P Bonser"] <- "Australia"
   
   
   # Remove the suffixes
@@ -321,6 +325,26 @@ Cho.Fix <- function(A) {
   #Add a column for Institution in case you need it later
   ChoData$INSTITUTION<-NA
   
+  # Correct some of the countries
+  ChoData$COUNTRY[ChoData$COUNTRY == "Austrailia"]  <- "Australia" #removing old names
+  ChoData$COUNTRY[ChoData$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
+  ChoData$COUNTRY[ChoData$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
+  ChoData$COUNTRY[ChoData$COUNTRY == "?"]  <- NA
+  ChoData$COUNTRY[ChoData$COUNTRY == "Unknown"]  <- NA
+
+
+  # Make Gender Consistent
+  ChoData$GENDER <- as.character(ChoData$GENDER) 
+  ChoData$GENDER[ChoData$GENDER == "F"] <- "female"
+  ChoData$GENDER[ChoData$GENDER == "M"] <- "male"
+  ChoData$GENDER[ChoData$GENDER == "U"] <- NA
+  ChoData$GENDER[ChoData$GENDER == "Unkown"] <- NA
+  ChoData$GENDER[ChoData$GENDER == "Unknown"] <- NA
+  ChoData$GENDER[ChoData$GENDER == ""] <- NA
+  ChoData$GENDER <- as.factor(ChoData$GENDER)
+  ChoData$GENDER<-droplevels(ChoData$GENDER)
+
+
   ChoData_clean<-ChoData
 
   return(ChoData_clean)

@@ -161,7 +161,7 @@ Class.Fix <- function(A) {
   ClassData$TITLE[ClassData$TITLE == "Editors"] <- "Editor"
   ClassData$TITLE[ClassData$TITLE == "Executive.Sevretary"] <- "Executive.Secretary"
   ClassData$TITLE[ClassData$TITLE == "Production.editor"] <- "Production.Editor"
-  ClassData$TITLE[ClassData$TITLE == "ReviewsEditor"] <- "Review.Editor"
+  ClassData$TITLE[ClassData$TITLE == "ReviewsEditor"] <- "Reviews.Editor"
   ClassData$TITLE[ClassData$TITLE == "editorial.review.board"] <- "Editorial.Review.Board"
   ClassData$TITLE[ClassData$TITLE == "EditorialBoard"] <- "Editorial.Board"
   ClassData$TITLE[ClassData$TITLE == "HandlingEditor"] <- "Handling.Editor"
@@ -173,7 +173,8 @@ Class.Fix <- function(A) {
   ClassData$TITLE[ClassData$TITLE == "Editor.In.Chief"] <- "EIC"
   ClassData$TITLE[ClassData$TITLE == "Editorial.board"] <- "Editorial.Board"
   ClassData$TITLE[ClassData$TITLE == "Production.editor"] <- "Production.Editor"
-  ClassData$TITLE[ClassData$TITLE == "ReviewsEditor"] <- "Review.Editor"
+  ClassData$TITLE[ClassData$TITLE == "ReviewsEditor"] <- "Reviews.Editor"
+  ClassData$TITLE[ClassData$TITLE == "Review.Editor"] <- "Reviews.Editor"
   ClassData$TITLE[ClassData$TITLE == "Section.Editor.Physiology.&.Development"] <- "Section.Editor.Physiology.Development"
   ClassData$TITLE[ClassData$TITLE == "Section.Editors..Function"] <- "Section.Editors.Function"
   ClassData$TITLE[ClassData$TITLE == "Sections.Editor"] <- "Section.Editor"
@@ -186,17 +187,35 @@ Class.Fix <- function(A) {
   ClassData$TITLE[ClassData$TITLE == "JS"] <- "Journal.Supervisor"
   ClassData$TITLE[ClassData$TITLE == "PE"] <- "Production.Editor"
   ClassData$TITLE[ClassData$TITLE == "ME"] <- "Managing.Editor"
-  ClassData$TITLE[ClassData$TITLE == ""] <- ""
-  ClassData$TITLE[ClassData$TITLE == ""] <- ""
-  ClassData$TITLE[ClassData$TITLE == ""] <- ""
-  ClassData$TITLE[ClassData$TITLE == ""] <- ""
-  ClassData$TITLE[ClassData$TITLE == ""] <- ""
-  ClassData$TITLE[ClassData$TITLE == ""] <- ""
+  ClassData$TITLE[ClassData$TITLE == "PD"] <- "Publications.Director"
+  ClassData$TITLE[ClassData$TITLE == "BRE"] <- "Book.Review.Editor"
+
+
   
-  # Convert to factor and drop levels
-  ClassData$TITLE<-as.factor(ClassData$TITLE)
-  droplevels(ClassData$TITLE)
-  levels(ClassData$TITLE)
+
+  
+  ClassData$CATEGORY<-as.character(ClassData$CATEGORY)
+  
+  ClassData$CATEGORY[ClassData$TITLE == "Editor" & ClassData$JOURNAL=="JBIOG"] <- "SE"   # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Senior.Editor" & ClassData$JOURNAL=="JBIOG"] <- "AE" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Associate.Editor" & ClassData$JOURNAL=="JBIOG"] <- "SE" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Journal.Editorial.Supervisor"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Publications.Director"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Book.Review.Editor"] <- "special"
+  ClassData$CATEGORY[ClassData$TITLE == "Reviews.Editor"] <- "SE"
+  ClassData$CATEGORY[ClassData$TITLE == "Production.Staff"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Assistant"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Office.Manager"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Technical.Editor"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Board" & ClassData$JOURNAL == "AMNAT" ] <- "SE"
+  ClassData$CATEGORY[ClassData$TITLE == "Special.Editor" & ClassData$JOURNAL=="EVOL"] <- "special" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Academic.Associate" & ClassData$JOURNAL=="EVOL"] <- "2xCheck" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Advisory.Panel" & ClassData$JOURNAL=="OIKOS"] <- "2xCheck" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Publication.Board" & ClassData$JOURNAL=="OIKOS"] <- "2xCheck" # NEED to 2x
+  ClassData$CATEGORY[ClassData$CATEGORY == "" & ClassData$JOURNAL=="EVOL"] <- "2xCheck" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Guest.Editor"] <- "special"
   
   
   #Clean Up Categories
@@ -220,10 +239,18 @@ Class.Fix <- function(A) {
   ClassData$CATEGORY[ClassData$CATEGORY == "Productioneditor"] <- "production"
   ClassData$CATEGORY[ClassData$CATEGORY == "other"] <- "production"
   
-  #Convert back to factor and drop levels
-  ClassData$CATEGORY <- as.factor(ClassData$CATEGORY) 
+  #make  special->SPECIAL to match with CHO
+  ClassData$CATEGORY[ClassData$CATEGORY == "special"] <- "SPECIAL"
+  
+  # Convert to factor and drop levels
+  ClassData$TITLE<-as.factor(ClassData$TITLE)
+  ClassData$TITLE<-droplevels(ClassData$TITLE)
+  ClassData$CATEGORY<-as.factor(ClassData$CATEGORY)
   ClassData$CATEGORY<-droplevels(ClassData$CATEGORY)
-  levels(ClassData$CATEGORY)
+  # levels(ClassData$CATEGORY)
+  # levels(ClassData$TITLE) 
+
+  
   
   
   # Make Gender Consistent
@@ -235,15 +262,9 @@ Class.Fix <- function(A) {
   ClassData$GENDER[ClassData$GENDER == ""] <- NA
   ClassData$GENDER<-droplevels(ClassData$GENDER)
   
-  ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
-  # 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
-  # 2) EVOL: several titles missing 
-  # 3) AMNAT: 1985-1992 has two volumes for each year. use oone? both? 
-  # 4) AMNAT: some missing volume and issue data
-  # 5) AMNAT: Need to correct AE for Editor
-  # 6) Oecologia has several EIC's (plants, animals, etc)
-  # 7 One name missing in Oecologia due to blurry pic
-  #8) Removed MEPS, GCB because so many years missing.
+
+  # Correct some of the countries
+  ClassData$COUNTRY[ClassData$COUNTRY == "Austrailia"]  <- "Australia" #removing old names
   
   
   
