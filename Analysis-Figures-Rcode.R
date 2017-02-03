@@ -15,6 +15,7 @@ library(maps)
 library(RColorBrewer)
 library(reshape2)
 require(rworldmap)
+library(vegan)
 library(WDI)
 
 source("helpers.R")    #Code to plot all journals in one figure
@@ -320,6 +321,31 @@ AnalysisData<-DATASET %>%
 
 
 str(AnalysisData)
+############################################################################################
+# SHANNON DIVERSITY INDEX
+############################################################################################
+
+#subset to only 2014 data (with most journals with complete data)
+AllJournals2014 <- AllJournals[AllJournals$YEAR == 2014,]
+
+#cast data to the format accepted by the 'diversity' function
+AllJournals2014cast <- dcast(data = AllJournals2014, JOURNAL ~ COUNTRY)
+
+#Save journals list for using in the table
+AllJournals2014JOURNAL.LIST <- AllJournals2014cast$JOURNAL 
+
+#deleting journal column because 'diversity' function will fail if present
+AllJournals2014cast <- AllJournals2014cast %>%  select(-JOURNAL)
+
+#computing diversity
+AllJournals2014Shannon <- diversity(AllJournals2014cast)
+
+#Table with Results and Journals
+AllJournals2014ShannonTable <- data.frame(AllJournals2014Shannon, row.names = AllJournals2014JOURNAL.LIST)
+
+
+
+
 ############################################################################################
 # BAR PLOT TOTAL EDITORIAL MEMBERS BY COUNTRY (ALL JOURNALS, ALL YEARS)
 # GROUPED COUNTRIES WITH SMALL SIZES
