@@ -26,6 +26,7 @@ Country.Codes <- function(DATASET) {
   DATASET$COUNTRY[DATASET$COUNTRY == "Wales"]  <- "UK"
   DATASET$COUNTRY[DATASET$COUNTRY == "England"]  <- "UK"
   DATASET$COUNTRY[DATASET$COUNTRY == "German Democratic Republic"]  <- "Germany" #removing old names
+  DATASET$COUNTRY[DATASET$COUNTRY == "US"]  <- "USA" #in case any snuck in
   
   #step3: change all the country names to the codes used in mapping
   #Add a column with the 3 letter country codes to be consistent with the other datasets

@@ -189,16 +189,16 @@ source("helpers.R")    #Code to plot all journals in one figure
   #############################################################
   # ADD AN INDEX TO SUBSET OF DATASET YOU WANT TO ANALYZE BASED
   # ON ANY CATEGORY OF INTEREST 
-  
-  # Add idnex based on NAME
+
+  # Add index based on NAME
   # First convert name to a factor
   ALLDATA<-arrange(ALLDATA,FirstInitialLast)
   ALLDATA$FirstInitialLast<-as.factor(ALLDATA$FirstInitialLast)
   ALLDATA <- transform(ALLDATA,author_id=as.numeric(FirstInitialLast))
-  
+
   # Now make sure all names, cases, categories, etc. are consistent
   source("Name.check.R")
-  NameSimilarityDF<-Name.Disambig(ALLDATA,ALLDATA$FirstMiddleLast)
+  NameSimilarityDF<-Name.check(ALLDATA,ALLDATA$FirstMiddleLast)
   write.csv(NameSimilarityDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_ALLYRS.csv", row.names = T) #export it as a csv file
   # 
   
@@ -209,22 +209,44 @@ source("helpers.R")    #Code to plot all journals in one figure
   # 2. Search for all that have same index BUT different first name
   
   
-  
-  foo<-ALLDATA
-  foo2<-select(foo,author_id, FIRST_NAME,FirstInitialLast, FirstLast)
-  foo3<-distinct(foo2) 
-  foo4<-count(foo3,author_id=author_id) 
-  foo4<-filter(foo4, n > 1)
-  foo4$flag<-"DUPE_CHECK"
-  foo5<-inner_join(foo, foo4, by = "author_id")
-  foo6<-group_by(foo5,FirstLast)%>%filter(row_number()==1)
-  foo6<-select(foo6,-VOLUME,-ISSUE,-NOTES)
-  foo6<-group_by(foo6,INSTITUTION)%>%filter(row_number()==1)
-  
-  
-  
-write.csv(disamb.file, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/disamb.file.index.csv", row.names = T) #export it as a csv file
+  source("Name.disambig.R")
+  DisambigFile<-Name.disambig(ALLDATA)
+  DisambigFile<-select(DisambigFile,-VOLUME,-ISSUE,-NOTES)
+  write.csv(DisambigFile, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/DisambigList.csv", row.names = T) #export it as a csv file
+
+  # Look over the DisambigFile and identify those that should have different author_id numbers.  
+  # Delete the author_id from the one that needs a new one (ie Ånurag Agrawal and Aneil Agrawal have
+  # author_id "2".  Keep to for Anurage and leave a blank cell for Aneil's author_id). Renumber the first column
+  # from 1:nrows. call that column index then Save that as a csv file called FixList.csv
+  # all columns must have a name
+#   
+#  FixList<-read.csv(file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/FixList.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+# rm(foo,foo2)
+#  foo2<-ALLDATA
+#  ALLDATA$FirstMiddleLast<-as.character(ALLDATA$FirstMiddleLast)
+#  for (i in 1:nrow(FixList)) {
+#    name_to_id<-slice(FixList,i)
+#    name_to_id<-name_to_id$FirstMiddleLast
+#    name_to_id<-as.character(name_to_id)
+#    foo<-ALLDATA%>%filter(FirstMiddleLast==name_to_id) %>% mutate(author_id, max(ALLDATA$author_id)+1)
+#    foo2<-rbind(foo,foo2)
+#  }
+#  
 # 
+#    
+#    
+#     if (ALLDATA$FirstMiddleLast==name_to_id){
+#      ALLDATA$author_id<- max(ALLDATA$author_id)+1 #WORKING?
+#    }
+#  }
+#    
+#  
+#     # name_to_id$FirstMiddleLast<-as.character(name_to_id$FirstMiddleLast)
+#    
+#    if (filter(ALLDATA$FirstMiddleLast==name_to_id$FirstMiddleLast)){
+#       slice_(ALLDATA$author_id<-max(ALLDATA$author_id)+1)
+#       }
+#  } 
 ##########################################################
 ##########################################################
 ## End of section cleaning up the data and putting it
@@ -233,6 +255,8 @@ write.csv(disamb.file, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS
 ##########################################################
 
 
+  
+  
 ######################################################
 #
 # STANDARDINZING THE COUNTRY CODES ON CLEAN DATASETS
@@ -280,6 +304,7 @@ DATASET<-DATASET[DATASET$YEAR>=1985 & DATASET$YEAR<=2013,]
 
 #step 5: 2x that it all looks ok
 summary(DATASET)
+str(DATASET)
 
 ############################################################################
 #
@@ -294,7 +319,7 @@ AnalysisData<-DATASET %>%
   select(-INSTITUTION,-NOTES,-GENDER, -VOLUME, -ISSUE, -TITLE, -INSTITUTION)
 
 
-
+str(AnalysisData)
 ############################################################################################
 # BAR PLOT TOTAL EDITORIAL MEMBERS BY COUNTRY (ALL JOURNALS, ALL YEARS)
 # GROUPED COUNTRIES WITH SMALL SIZES

@@ -31,12 +31,14 @@ Class.Fix <- function(A) {
   ClassData$MIDDLE_NAME<-trim.trailing(ClassData$MIDDLE_NAME)
   ClassData$LAST_NAME<-trim.trailing(ClassData$LAST_NAME)
   ClassData$TITLE<-trim.trailing(ClassData$TITLE)
+  ClassData$INSTITUTION<-trim.trailing(ClassData$INSTITUTION)
   
   trim.leading <- function (x)  sub("^\\s+", "", x)
   ClassData$FIRST_NAME<-trim.leading(ClassData$FIRST_NAME)
   ClassData$MIDDLE_NAME<-trim.leading(ClassData$MIDDLE_NAME)
   ClassData$LAST_NAME<-trim.leading(ClassData$LAST_NAME)
   ClassData$TITLE<-trim.leading(ClassData$TITLE)
+  ClassData$INSTITUTION<-trim.leading(ClassData$INSTITUTION)
   
   # remove any double spaces
   ClassData$FIRST_NAME<-gsub("  ", " ", ClassData$FIRST_NAME)
@@ -76,6 +78,7 @@ Class.Fix <- function(A) {
   ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Andr_"] <- "Andre"
   ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Vejo"] <- "Veijo"
   ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Ikka"] <- "Ilkka"
+  ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Mxrrhew"] <- "Matthew"
   ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Drie"] <- "Dries"
   ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Jean-Michelle"] <- "Jean-Michel"
   ClassData$FIRST_NAME[ClassData$FIRST_NAME == "Neal"] <- "Neil" #JBIOG has his name wrong in the journal - corrct is Neil j enright, not neal l enright
@@ -265,7 +268,7 @@ Class.Fix <- function(A) {
 
   # Correct some of the countries
   ClassData$COUNTRY[ClassData$COUNTRY == "Austrailia"]  <- "Australia" #removing old names
-  
+  ClassData$COUNTRY[ClassData$COUNTRY == "US"]  <- "USA" #removing old names
   
   
   # Adding combinations of names to the database

@@ -69,8 +69,7 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "Micahel Proctor"] <- "Michael CF Proctor"
   ChoData$NAME[ChoData$NAME == "Saeid Soufizadeh_"] <- "Saeid Soufizadeh"
   ChoData$NAME[ChoData$NAME == "Spencer H C Barrett"] <- "Spencer CH Barrett"
-  
-  
+  ChoData$NAME[ChoData$NAME == "Soo-hyung Kim"] <- "Soo-Hyung Kim"  
   
   # Changes made to account for multiple middle or last names
   ChoData$NAME[ChoData$NAME == "JC DE M CARVALHO"] <- "JC DeM-Carvalho"
@@ -87,7 +86,7 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "Jorge Meave del Castillo"] <- "Jorge Meave DelCastillo"
   ChoData$NAME[ChoData$NAME == "Nicole M Van Dam"] <- "Nicole M VanDam"
   ChoData$NAME[ChoData$NAME == "Marcel van der Heijden"] <- "Marcel VanDerHeijden"
-  ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerline Barbra DeDeyn"
+  ChoData$NAME[ChoData$NAME == "Gerline Barbra de Deyn"] <- "Gerlinde Barbra DeDeyn"
   ChoData$NAME[ChoData$NAME == "Marcel van de Heijden"] <- "Marcel VanDerHeijden"
   ChoData$NAME[ChoData$NAME == "MANUEL G DE VIEDMA"] <- "Manuel G DeViedma"
   ChoData$NAME[ChoData$NAME == "Eddy van der Meijden"] <- "Eddy VanDerMeijden"
@@ -343,6 +342,8 @@ Cho.Fix <- function(A) {
   ChoData$GENDER[ChoData$GENDER == ""] <- NA
   ChoData$GENDER <- as.factor(ChoData$GENDER)
   ChoData$GENDER<-droplevels(ChoData$GENDER)
+  
+  ChoData$COUNTRY[ChoData$COUNTRY == "USa"]  <- "USA" # correcting names
 
 
   ChoData_clean<-ChoData

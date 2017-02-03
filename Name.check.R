@@ -1,4 +1,4 @@
-Name.Check <- function(DataToClean,NameComboColumn) {
+Name.check <- function(DataToClean,NameComboColumn) {
   
   # Trying to find names that are mispelled or close to correct close
   #   http://stackoverflow.com/questions/6683380/techniques-for-finding-near-duplicate-records
