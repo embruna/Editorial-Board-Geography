@@ -339,8 +339,7 @@ library(vegan)
 
 
 
-AnalysisData2014 <-filter(AnalysisData, YEAR == 2000)
-
+AnalysisDiv <-AnalysisData
 
 
 #cast data to the format accepted by the 'diversity' function
@@ -353,29 +352,73 @@ AnalysisData2014 <-filter(AnalysisData, YEAR == 2000)
 
 # more efficient to pipe:
   
-AnalysisData2014wide<-AnalysisData2014 %>% count(JOURNAL, divmetric = INCOME_LEVEL) %>% spread(divmetric, n)
-AnalysisData2014wide[is.na(AnalysisData2014wide)] <- 0
-AnalysisData2014wide<-as.data.frame(AnalysisData2014wide)
+AnalysisDivwide<-AnalysisDiv %>% count(JOURNAL, YEAR, divmetric = geo.code) %>% spread(divmetric, n)
+AnalysisDivwide[is.na(AnalysisDivwide)] <- 0
+AnalysisDivwide<-as.data.frame(AnalysisDivwide)
 
 #Save journals list for using in the table
-AnalysisData2014JOURNAL.LIST <- AnalysisData2014wide$JOURNAL 
-
+AnalysisDivJOURNAL.LIST <- AnalysisDivwide$JOURNAL 
+AnalysisDivYEAR.LIST <- AnalysisDivwide$YEAR 
 #deleting journal column because 'diversity' function will fail if present
-# AnalysisData2014cast <- AnalysisData2014cast %>%  select(-JOURNAL)
-AnalysisData2014wide<-as.data.frame(AnalysisData2014wide)
-AnalysisData2014wide <-select(AnalysisData2014wide,-JOURNAL)
-# colnames(AnalysisData2014wide)
+# AnalysisDivcast <- AnalysisDivcast %>%  select(-JOURNAL)
+AnalysisDivwide<-as.data.frame(AnalysisDivwide)
+# AnalysisDivwide <-select(AnalysisDivwide,-JOURNAL, -YEAR)
+# colnames(AnalysisDivwide)
 
 #computing diversity
-AnalysisData2014Shannon <- diversity(AnalysisData2014wide)
+AnalysisDivShannon <- diversity(AnalysisDivwide %>% select(-JOURNAL, -YEAR)) #Need to strip away the journal and year columns for vegan to do the analysis
 
-#Table with Results and Journals
-AnalysisData2014ShannonTable <- data.frame(AnalysisData2014Shannon)
-AnalysisData2014ShannonTable$JOURNAL <-AnalysisData2014JOURNAL.LIST  #Add jourmal name as a column
-AnalysisData2014ShannonTable<-rename(AnalysisData2014ShannonTable, ShannonDiv=AnalysisData2014Shannon) #rename the columns
-AnalysisData2014ShannonTable <- AnalysisData2014ShannonTable[c("JOURNAL","ShannonDiv")] #reorder the columns
-AnalysisData2014ShannonTable<-arrange(AnalysisData2014ShannonTable, desc(ShannonDiv)) # sort in descending order
-AnalysisData2014ShannonTable
+# Table DIVERSITY with Results and Journals
+AnalysisDivShannonTable <- data.frame(AnalysisDivShannon)
+AnalysisDivShannonTable$JOURNAL <-AnalysisDivJOURNAL.LIST  #Add journal name as a column
+AnalysisDivShannonTable$YEAR <-AnalysisDivYEAR.LIST #Add year as a column
+AnalysisDivShannonTable<-rename(AnalysisDivShannonTable, ShannonDiv=AnalysisDivShannon) #rename the columns
+AnalysisDivShannonTable <- AnalysisDivShannonTable[c("JOURNAL","YEAR","ShannonDiv")] #reorder the columns
+AnalysisDivShannonTable<-arrange(AnalysisDivShannonTable, YEAR, desc(ShannonDiv)) # sort in descending order
+AnalysisDivShannonTable
+
+# Fig Shannon
+divPlot<-ggplot(data=AnalysisDiv_subset, aes(x=YEAR, y=ShannonDiv, group=JOURNAL, colour=JOURNAL)) +
+  geom_line() +
+  geom_point()
+
+
+# Count by country, year, and journal
+ED.COUNTS<-gather(AnalysisDivwide, "COUNTRY", "N_Editors", 3:ncol(AnalysisDivwide))
+N_Countries<-ED.COUNTS %>% group_by(JOURNAL, YEAR) %>%  tally(N_Editors>=1)
+N_Countries<-as.data.frame(N_Countries)
+# Fig countries
+
+#if you want to subset
+N_subset <-filter(N_Countries, JOURNAL == "EVOL")
+
+
+
+countPlot<-ggplot(data=N_subset, aes(x=YEAR, y=n, group=JOURNAL, colour=JOURNAL)) +
+  geom_line() +
+  geom_point()
+
+countPlot
+
+
+# GLM
+summary(m1 <- glm(n ~ YEAR + JOURNAL, family="poisson", data=N_Countries))
+
+with(m1, cbind(res.deviance = deviance, df = df.residual,
+               p = pchisq(deviance, df.residual, lower.tail=FALSE)))
+
+## update m1 model dropping prog
+m2 <- update(m1, . ~ . - prog)
+## test model differences with chi square test
+anova(m2, m1, test="Chisq")
+
+
+# AnalysisDiv_subset <-filter(AnalysisDivShannonTable, YEAR == 2000)
+# AnalysisDiv_subset <-filter(AnalysisDivShannonTable, JOURNAL == "EVOL")
+
+
+
+
 
 
 ############################################################################################
