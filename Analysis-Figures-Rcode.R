@@ -300,8 +300,8 @@ DATASET$REGION <- WDI_data[DATASET$geo.code, 'region']  #Making a new column of 
 DATASET <- DATASET[DATASET$CATEGORY %in% c('EIC', 'AE', 'SE'),]
 
 #step 4: choose the temporal coverage
-#use only 1985 to 2013 
-DATASET<-DATASET[DATASET$YEAR>=1985 & DATASET$YEAR<=2013,]
+#use only 1985 to 2015 
+DATASET<-DATASET[DATASET$YEAR>=1985 & DATASET$YEAR<=2015,]
 
 #step 5: 2x that it all looks ok
 summary(DATASET)
@@ -321,29 +321,61 @@ AnalysisData<-DATASET %>%
 
 
 str(AnalysisData)
+summary(AnalysisData)
+
+
 ############################################################################################
 # SHANNON DIVERSITY INDEX
 ############################################################################################
-
+library(vegan)
 #subset to only 2014 data (with most journals with complete data)
-AllJournals2014 <- AllJournals[AllJournals$YEAR == 2014,]
+
+# What year do you want to anlayze?
+# div_year<-2000
+# what do you want to measure diversity of? 
+# indicator=geo.code 
+# indicator=INCOME_LEVEL
+# indicator=REGION
+
+
+
+AnalysisData2014 <-filter(AnalysisData, YEAR == 2000)
+
+
 
 #cast data to the format accepted by the 'diversity' function
-AllJournals2014cast <- dcast(data = AllJournals2014, JOURNAL ~ COUNTRY)
+# AnalysisData2014cast <- dcast(data = AnalysisData2014, JOURNAL ~ geo.code)
+# 
+# # OR using tidyr
+# AnalysisData2014long<-count(AnalysisData2014, JOURNAL, country = geo.code)
+# AnalysisData2014wide<-spread(AnalysisData2014long, country, n)
+# AnalysisData2014wide[is.na(AnalysisData2014wide)] <- 0
+
+# more efficient to pipe:
+  
+AnalysisData2014wide<-AnalysisData2014 %>% count(JOURNAL, divmetric = INCOME_LEVEL) %>% spread(divmetric, n)
+AnalysisData2014wide[is.na(AnalysisData2014wide)] <- 0
+AnalysisData2014wide<-as.data.frame(AnalysisData2014wide)
 
 #Save journals list for using in the table
-AllJournals2014JOURNAL.LIST <- AllJournals2014cast$JOURNAL 
+AnalysisData2014JOURNAL.LIST <- AnalysisData2014wide$JOURNAL 
 
 #deleting journal column because 'diversity' function will fail if present
-AllJournals2014cast <- AllJournals2014cast %>%  select(-JOURNAL)
+# AnalysisData2014cast <- AnalysisData2014cast %>%  select(-JOURNAL)
+AnalysisData2014wide<-as.data.frame(AnalysisData2014wide)
+AnalysisData2014wide <-select(AnalysisData2014wide,-JOURNAL)
+# colnames(AnalysisData2014wide)
 
 #computing diversity
-AllJournals2014Shannon <- diversity(AllJournals2014cast)
+AnalysisData2014Shannon <- diversity(AnalysisData2014wide)
 
 #Table with Results and Journals
-AllJournals2014ShannonTable <- data.frame(AllJournals2014Shannon, row.names = AllJournals2014JOURNAL.LIST)
-
-
+AnalysisData2014ShannonTable <- data.frame(AnalysisData2014Shannon)
+AnalysisData2014ShannonTable$JOURNAL <-AnalysisData2014JOURNAL.LIST  #Add jourmal name as a column
+AnalysisData2014ShannonTable<-rename(AnalysisData2014ShannonTable, ShannonDiv=AnalysisData2014Shannon) #rename the columns
+AnalysisData2014ShannonTable <- AnalysisData2014ShannonTable[c("JOURNAL","ShannonDiv")] #reorder the columns
+AnalysisData2014ShannonTable<-arrange(AnalysisData2014ShannonTable, desc(ShannonDiv)) # sort in descending order
+AnalysisData2014ShannonTable
 
 
 ############################################################################################
