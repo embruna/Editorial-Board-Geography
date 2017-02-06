@@ -171,7 +171,7 @@ source("helpers.R")    #Code to plot all journals in one figure
   # DO YOU WANT TO SUBSET TO CERTAIN GROUPS?
 
   # filter our the production staff
-  ALLDATA <-filter(ALLDATA, ALLDATA$CATEGORY!="production")
+  ALLDATA <-filter(ALLDATA, -ALLDATA$CATEGORY!="production")
   ALLDATA<-droplevels(ALLDATA)
   str(ALLDATA)
   #############################################################
@@ -210,19 +210,22 @@ source("helpers.R")    #Code to plot all journals in one figure
   # from 1:nrows. call that column index then Save that as a csv file called FixList.csv
   # all columns must have a name
 #   
-#  FixList<-read.csv(file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/FixList.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-# rm(foo,foo2)
-#  foo2<-ALLDATA
-#  ALLDATA$FirstMiddleLast<-as.character(ALLDATA$FirstMiddleLast)
-#  for (i in 1:nrow(FixList)) {
-#    name_to_id<-slice(FixList,i)
-#    name_to_id<-name_to_id$FirstMiddleLast
-#    name_to_id<-as.character(name_to_id)
-#    foo<-ALLDATA%>%filter(FirstMiddleLast==name_to_id) %>% mutate(author_id, max(ALLDATA$author_id)+1)
-#    foo2<-rbind(foo,foo2)
-#  }
-#  
-# 
+ FixList<-read.csv(file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/FixList.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ original<-ALLDATA
+ # ALLDATA$FirstMiddleLast<-as.character(ALLDATA$FirstMiddleLast)
+ # 
+# foo2$author_id<-FixList[match(foo2$FirstMiddleLast, FixList$FirstMiddleLast),17]
+
+for (i in 1:nrow(FixList)){
+  newid=max(original$author_id)+1
+  for (j in 1:nrow(original)){
+if(FixList$FirstMiddleLast[i]==original$FirstMiddleLast[j]) {
+  original$author_id[j] <- newid
+}
+}
+}
+ALLDATA<-original
+# dplyr::group_by(iris, Species)
 #    
 #    
 #     if (ALLDATA$FirstMiddleLast==name_to_id){
@@ -326,9 +329,58 @@ str(DATASET)
 AnalysisData<-DATASET %>% 
   select(-INSTITUTION,-NOTES,-GENDER, -VOLUME, -ISSUE, -TITLE, -INSTITUTION)
 
-
+# TOTAL COUNTRIES 1985-2015
 str(AnalysisData)
 summary(AnalysisData)
+AnalysisData$geo.code
+
+# TOTAL COUNTRIES 1985-1995
+Countries8595<-filter(AnalysisData, YEAR >1984 & YEAR< 1996)
+Countries8595<-droplevels(Countries8595)
+summary(Countries8595$geo.code)
+str(Countries8595$geo.code)
+
+# TOTAL COUNTRIES 1996-2005
+Countries9605<-filter(AnalysisData, YEAR >1995 & YEAR< 2006)
+Countries9605<-droplevels(Countries9605)
+summary(Countries9605$geo.code)
+str(Countries9605$geo.code)
+# TOTAL COUNTRIES 2006-2015
+Countries0615<-filter(AnalysisData, YEAR >2005 & YEAR< 2016)
+Countries0615<-droplevels(Countries0615)
+summary(Countries0615$geo.code)
+str(Countries0615$geo.code)
+
+
+
+# TOTAL Editors 1985-2015
+str(AnalysisData)
+summary(AnalysisData$author_id)
+
+
+# TOTAL Editors 1985-1995
+Editors8595<-filter(AnalysisData, YEAR >1984 & YEAR< 1996)
+Editors8595<-droplevels(Editors8595)
+summary(Editors8595$author_id)
+str(Editors8595)
+
+# TOTAL Editors 1996-2005
+Editors9605<-filter(AnalysisData, YEAR >1995 & YEAR< 2006)
+Editors9605<-droplevels(Editors9605$author_id)
+summary(Editors9605$author_id)
+str(Editors9605)
+
+
+# TOTAL Editors 2006-2015
+Editors0615<-filter(AnalysisData, YEAR >2005 & YEAR< 2016)
+Editors0615<-droplevels(Editors0615)
+summary(Editors0615$author_id)
+str(Editors0615)
+
+
+
+
+
 
 
 ############################################################################################
@@ -360,6 +412,7 @@ AnalysisDiv <-AnalysisData
 # more efficient to pipe:
   
 AnalysisDivwide<-AnalysisDiv %>% count(JOURNAL, YEAR, divmetric = geo.code) %>% spread(divmetric, n)
+
 AnalysisDivwide[is.na(AnalysisDivwide)] <- 0
 AnalysisDivwide<-as.data.frame(AnalysisDivwide)
 
@@ -464,12 +517,27 @@ plotB
 # GROUPED COUNTRIES WITH SMALL SIZES
 ############################################################################################
 
+
 #Getting a unique authors list (Authors can be in >1 Year and >1 Journal)
 #Should sum to 3895
 UniqueAuthors <- unique( AnalysisData[ , c('FirstMiddleLast', 'geo.code') ] )
 
 #Count geo.code based on authors 
 CountryEditorsCount <- as.data.frame(UniqueAuthors %>% count(geo.code = geo.code))
+
+#Group dataframe by geo.code
+byCOUNTRY <- group_by(AnalysisData, author_id)
+byCOUNTRY<-as.data.frame(byCOUNTRY)
+
+#Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each EIC only once
+byCOUNTRY <- unique( byCOUNTRY[ , c('author_id', 'geo.code', 'JOURNAL', 'FirstInitialLast') ] ) 
+byCOUNTRY<- arrange(byCOUNTRY, author_id)
+
+foo<-byCOUNTRY %>% count(author_id)
+foo<-byCOUNTRY %>% count(geo.code)
+#Count the number of unique editors by country
+byCOUNTRY = summarize (byCOUNTRY,
+                       number = length(unique(author_id)))
 
 #See countries with highest representations
 CountryEditorsCount[order(CountryEditorsCount$n,decreasing = TRUE),][1:10,]
@@ -487,17 +555,23 @@ highest_n <- CountryEditorsCount[order(CountryEditorsCount$n,decreasing = TRUE),
 grouped_n <- sum(CountryEditorsCount$n) - sum(highest_n$n)
 
 #appending the value to the table
-highest_n <-  rbind(highest_n, c('Others', grouped_n))
 
-#Change Column to integers
-highest_n$n <- strtoi(highest_n$n)
+highest_n<-add_row(highest_n, geo.code = "Others", number = grouped_number)
+# highest_n$number <- strtoi(highest_n$number)
 
 #order countries in a factor mode
-highest_n$geo.code <- factor(x = highest_n$geo.code,
-                                levels = highest_n$geo.code)
+# highest_n$geo.code <- factor(x = highest_n$geo.code,
+#                                 levels = highest_n$geo.code)
+# 
+# highest_n$total=sum(highest_n$number) #this will allow you to calclulate % and plot that way
+highest_n$percent=highest_n$number/sum(highest_n$number)*100
 
-#highest_n$total=sum(highest_n$number) #this will allow you to calclulate % and plot that way
-#highest_n$percent=highest_n$number/highest_n$total*100
+sum(highest_n[2])
+tiff(file = "Plots/COUNTRY_Editors.tiff",
+     width = 500,
+     height = 500)
+#Plot of EIC numbers by country in decreasing number
+
 
 #Final Plot to be pasted in multipanel plot
 plotC<-ggplot(data=highest_n, aes(x=geo.code, y=n)) +
