@@ -177,7 +177,7 @@ source("helpers.R")    #Code to plot all journals in one figure
   # convert your dataset identifier to a factor
   ALLDATA$DATASET<-as.factor(ALLDATA$DATASET)
   
-  
+  str(ALLDATA)
   #############################################################
   # DO YOU WANT TO SUBSET TO CERTAIN GROUPS?
 
@@ -488,7 +488,7 @@ byCOUNTRY<-as.data.frame(byCOUNTRY)
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each EIC only once
 byCOUNTRY <- unique( byCOUNTRY[ , c('author_id', 'geo.code', 'JOURNAL', 'FirstInitialLast') ] ) 
 byCOUNTRY<- arrange(byCOUNTRY, author_id)
-
+distinct_df = byCOUNTRY %>% first(author_id)
 foo<-byCOUNTRY %>% count(author_id)
 foo<-byCOUNTRY %>% count(geo.code)
 #Count the number of unique editors by country
