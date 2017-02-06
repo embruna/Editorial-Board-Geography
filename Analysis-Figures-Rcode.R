@@ -444,18 +444,24 @@ plotA <- ggplot(data = RepresentedCountriesCount, aes(x = YEAR, y = n)) +
   scale_x_continuous(limits=c(1985, 2013),
                      breaks=c(1985, 1990, 1995, 2000, 2005, 2010),
                      labels=c('1985', '1990', '1995', '2000', '2005', '2010')) + 
-  ylab("Countries in Ed. Board") + 
+  ylab("Countries on Ed. Board (median)") + 
+  xlab("Year") + 
   scale_colour_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
                                "#F0E442", "#0072B2", "#D55E00"), name = '') +
   scale_fill_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
                              "#F0E442", "#0072B2", "#D55E00"), name = '') + 
-  theme_minimal() +
   annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf) +
   annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf) + 
-  guides(col = guide_legend(ncol = 1)) + 
-  theme(panel.grid.minor = element_blank())
+  guides(col = guide_legend(ncol = 1))
+
+  plotA <-plotA + theme_classic()+
+    theme(axis.text=element_text(colour="black", size = 14),
+            axis.title.x=element_text(colour="black", size = 18),           #Sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+            axis.title.y=element_text(colour="black", size = 18))
 
 plotA
+
+
 
 ############################################################################################
 # MEDIAN, MIN AND MAX SHANNON IN EDITORIAL BOARDS
@@ -470,11 +476,18 @@ plotB <- ggplot(data = ShannonDivTable, aes(x = YEAR, y = ShannonDiv)) +
                      breaks=c(1985, 1990, 1995, 2000, 2005, 2010),
                      labels=c('1985', '1990', '1995', '2000', '2005', '2010')) + 
   ylab("Shannon Div. Index") + 
-  theme_minimal() +
+  xlab("Year") + 
   annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf) +
   annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf) + 
   guides(col = guide_legend(ncol = 1)) + 
   theme(panel.grid.minor = element_blank())
+
+
+plotB <-plotB + theme_classic()+
+  theme(axis.text=element_text(colour="black", size = 14),
+        axis.title.x=element_text(colour="black", size = 18),           #Sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 18))
+
 
 plotB
 
@@ -484,10 +497,9 @@ plotB
 # GROUPED COUNTRIES WITH SMALL SIZES
 ############################################################################################
 
-
 #Getting a unique authors list (Authors can be in >1 Year and >1 Journal)
 #Should sum to 3895
-UniqueAuthors <- unique( AnalysisData[ , c('FirstMiddleLast', 'geo.code') ] )
+UniqueAuthors <- unique( AnalysisData[ , c('editor_id', 'geo.code') ] )
 
 #Count geo.code based on authors 
 CountryEditorsCount <- as.data.frame(UniqueAuthors %>% count(geo.code = geo.code))
@@ -496,8 +508,10 @@ CountryEditorsCount <- as.data.frame(UniqueAuthors %>% count(geo.code = geo.code
 byCOUNTRY <- group_by(AnalysisData, editor_id)
 byCOUNTRY<-as.data.frame(byCOUNTRY)
 
+# THIS IS STILL COUNTING THE SAME EDITOR MULTIPLE TIMES
+
 #Editors can perform duties for >1 year, so we remove the duplicate names to make sure we count each EIC only once
-byCOUNTRY <- unique( byCOUNTRY[ , c('editor_id', 'geo.code', 'JOURNAL', 'FirstInitialLast') ] ) 
+byCOUNTRY <- unique( byCOUNTRY[ , c('editor_id', 'geo.code', 'JOURNAL') ] ) 
 byCOUNTRY<- arrange(byCOUNTRY, editor_id)
 distinct_df = byCOUNTRY %>% first(editor_id)
 foo<-byCOUNTRY %>% count(editor_id)
