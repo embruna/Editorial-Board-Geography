@@ -306,7 +306,8 @@ ALLDATA<-AddIncomeRegion(ALLDATA)
 # 9: No. of editors on each journal's boardin each year
 # 10: No. of countries on each journal's board in each year
 # 11: 9 and 10 bound into a single dataframe
-# 12: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
+# 12: Add "InternationalRatio": countries/editor tp #11
+# 13: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
 ######################################################
 ######################################################
 
@@ -405,10 +406,15 @@ TotalCountriesPerJrnlPerYr<-AnalysisData %>% group_by(JOURNAL, YEAR) %>% summari
 # 11: 9 and 10 bound into a single dataframe
 ##############################################################
 EdsCountriesPerJrnlPerYr<-full_join(TotalEdsPerJrnlPerYr,TotalCountriesPerJrnlPerYr, by=c("JOURNAL", "YEAR"))
+
+##############################################################
+# 12: Add "InternationalRatio": countries/editor
+##############################################################
+EdsCountriesPerJrnlPerYr<-mutate(EdsCountriesPerJrnlPerYr, IntlRatio = TotalCountries/TotalEditors)
 rm(TotalEdsPerJrnlPerYr,TotalCountriesPerJrnlPerYr)
 
 ##############################################################
-# 12: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
+# 13: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
 ##############################################################
 # LONG
 EdsPerCountryPerJrnlPerYr.LONG<-AnalysisData %>% group_by(JOURNAL, YEAR, geo.code) %>% summarize(Total = n_distinct(editor_id))
@@ -418,6 +424,205 @@ EdsPerCountryPerJrnlPerYr.WIDE<-spread(EditorsPerCountryPerJrnlPerYr, geo.code, 
 
 
 
+######################################################
+######################################################
+#
+# FIGURES AND TABLES
+#
+######################################################
+######################################################
+
+
+######################################################
+# bar chart: countries with the most unique editors  
+######################################################
+
+cutoff=9 # This is how many countries you want on the chart, all the rest will be in "OTHER"
+editor.Geo<-arrange(Pooled.Geo, desc(Pcnt_editors)) %>% select(geo.code,N_editors,Pcnt_editors)
+most.common.editors<-slice(editor.Geo, 1:cutoff)
+least.common.editors<-slice(editor.Geo, (cutoff+1):nrow(editor.Geo)) 
+least.common.editors$geo.code<-"OTHER"
+least.common.editors<-least.common.editors %>% 
+  mutate(sum(N_editors)) %>%
+  mutate(sum(Pcnt_editors)) %>% 
+  select(-N_editors) %>% 
+  select(-Pcnt_editors) %>% 
+  rename(N_editors = `sum(N_editors)`) %>% 
+  rename(Pcnt_editors = `sum(Pcnt_editors)`) %>% 
+  slice(1:1)
+most.common.editors<-bind_rows(most.common.editors, least.common.editors)
+most.common.editors$geo.code<-as.factor(most.common.editors$geo.code)
+most.common.editors
+#Bar  chart editors
+# #If you needed to reorder in descending order you would do this.
+# arrange(most.common.editors) %>%  ggplot(aes(x=reorder(geo.code,-N_editors), y=Pcnt_editors)) +
+#   geom_bar(colour="black", stat="identity")
+
+# This is needed to put them in order in the plot with OTHER at the end of the graph
+order<-seq(1:nrow(most.common.editors))
+most.common.editors$geo.code <- factor(most.common.editors$geo.code,most.common.editors$geo.code[levels = order])
+# levels(most.common.editors$geo.code)
+rm(order)
+arrange(most.common.editors) %>%  ggplot(aes(x=geo.code, y=Pcnt_editors)) +
+  geom_bar(colour="black", stat="identity")
+
+
+
+######################################################
+# bar chart: countries with the most unique authors  
+######################################################
+cutoff=9 # This is how many countries you want on the chart, all the rest will be in "OTHER"
+author.Geo<-arrange(Pooled.Geo, desc(Pcnt_Authors)) %>% select(geo.code,N_Authors,Pcnt_Authors)
+most.common.authors<-slice(author.Geo, 1:cutoff)
+least.common.authors<-slice(author.Geo, (cutoff+1):nrow(author.Geo)) 
+least.common.authors$geo.code<-"OTHER"
+least.common.authors<-least.common.authors %>% 
+  mutate(sum(N_Authors)) %>%
+  mutate(sum(Pcnt_Authors)) %>% 
+  select(-N_Authors) %>% 
+  select(-Pcnt_Authors) %>% 
+  rename(N_Authors = `sum(N_Authors)`) %>% 
+  rename(Pcnt_Authors = `sum(Pcnt_Authors)`) %>% 
+  slice(1:1)
+most.common.authors<-bind_rows(most.common.authors, least.common.authors)
+most.common.authors$geo.code<-as.factor(most.common.authors$geo.code)
+most.common.authors
+#Bar  chart authors
+# #If you needed to reorder in descending order you would do this.
+# arrange(most.common.authors) %>%  ggplot(aes(x=reorder(geo.code,-N_authors), y=Pcnt_authors)) +
+#   geom_bar(colour="black", stat="identity")
+
+# This is needed to put them in order in the plot with OTHER at the end of the graph
+order<-seq(1:nrow(most.common.authors))
+most.common.authors$geo.code <- factor(most.common.authors$geo.code,most.common.authors$geo.code[levels = order])
+# levels(most.common.authors$geo.code)
+rm(order)
+arrange(most.common.authors) %>%  ggplot(aes(x=geo.code, y=Pcnt_Authors)) +
+  geom_bar(colour="black", stat="identity")
+
+
+
+######################################################
+# Plot: Editorial Board Size vs. Year
+######################################################
+
+plotEDvYear<-ggplot(EdsCountriesPerJrnlPerYr, aes(x=YEAR, y=TotalEditors)) +
+  geom_point(shape=1) + # Use hollow circles
+  ylab("No. of Board Editors") +
+  xlab("Year")+
+  geom_smooth()#Add a loess smoothed fit curve with confidence region (by default includes 95% confidence region)
+plotEDvYear<-plotEDvYear+theme_classic()+
+  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
+        legend.title = element_blank(),   #Removes the Legend title
+        legend.text = element_text(color="black", size=10),  
+        legend.position = c(0.9,0.8),
+        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+plotEDvYear
+
+
+
+
+######################################################
+# Plot: Split Bar chart with author and editor region
+######################################################
+
+Author.ED.Region<-arrange(Pooled.Geo, desc(Pcnt_Authors)) %>% select(REGION,N_Authors,Pcnt_Authors,N_editors,Pcnt_editors)
+
+Author.Region<-Pooled.Geo %>%
+  select(REGION, N_Authors, Pcnt_Authors) %>% 
+  filter(N_Authors>0) %>% 
+  group_by(REGION) %>% 
+  summarize(Pcnt = sum(Pcnt_Authors))
+Author.Region$category<-"Author"
+Author.Region
+
+Editor.Region<-Pooled.Geo %>%
+  select(REGION, N_editors, Pcnt_editors) %>% 
+  filter(N_editors>0) %>% 
+  group_by(REGION) %>% 
+  summarize(Pcnt = sum(Pcnt_editors))
+Editor.Region$category<-"Editor"
+Editor.Region
+RegionFig<-bind_rows(Editor.Region,Author.Region)
+
+
+EdvAuRegion<-ggplot(data=RegionFig, aes(x=REGION, y=Pcnt, fill=category)) +
+  geom_bar(stat="identity", position=position_dodge())+
+  ylab("No. of Editors / Authors") +
+  xlab("Region")
+EdvAuRegion<-EdvAuRegion+theme_classic()+
+  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+  axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+  axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
+  legend.title = element_blank(),   #Removes the Legend title
+  legend.text = element_text(color="black", size=10),  
+  legend.position = c(0.9,0.8),
+  legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+EdvAuRegion
+
+
+######################################################
+# Plot: Editorial Board Size vs. # of countries on the board
+######################################################
+### EB 8 FEB 2016 : absolute number of countries is deceptive because it will be a function of editorial board size
+plotEDvCountries<-ggplot(EdsCountriesPerJrnlPerYr, aes(x=TotalEditors, y=TotalCountries)) +
+  geom_point(shape=1) + # Use hollow circles
+  ylab("Countries on Board") +
+  xlab("Size of Board")+
+  geom_smooth()#Add a loess smoothed fit curve with confidence region (by default includes 95% confidence region)
+# plotEDvCountries<-plotEDvCountries + scale_y_continuous(breaks = seq(0, 30, 5), limits = c(0, 30))
+# plotEDvCountries<-plotEDvCountries + scale_x_continuous(breaks = seq(0, 240, 20), limits = c(0, 230))
+plotEDvCountries<-plotEDvCountries+theme_classic()+
+  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
+        legend.title = element_blank(),   #Removes the Legend title
+        legend.text = element_text(color="black", size=10),  
+        legend.position = c(0.9,0.8),
+        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+plotEDvCountries
+
+
+
+
+######################################################
+# Plots: MEDIAN, MIN AND MAX NUMBER OF Metrics vs. Year
+######################################################
+
+# tocomment out and in as needed)
+# response.variable=EdsCountriesPerJrnlPerYr$N_editors
+# response.variable=EdsCountriesPerJrnlPerYr$N_countries
+# response.variable=EdsCountriesPerJrnlPerYr$Geo.Eveness
+response.variable=EdsCountriesPerJrnlPerYr$IntlRatio
+
+plotA <- ggplot(data = EdsCountriesPerJrnlPerYr, aes(x = YEAR, y = response.variable)) + 
+  stat_summary(geom="ribbon", fun.ymin="min", fun.ymax="max", alpha=0.3, colour = NA) +
+  stat_summary(fun.y = median, geom='line', size = 1.1) + 
+  ggtitle('A') + 
+  scale_x_continuous(limits=c(1985, 2013),
+                     breaks=c(1985, 1990, 1995, 2000, 2005, 2010),
+                     labels=c('1985', '1990', '1995', '2000', '2005', '2010')) + 
+  ylab("Countries on Ed. Board (median)") + 
+  xlab("Year") + 
+  scale_colour_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
+                               "#F0E442", "#0072B2", "#D55E00"), name = '') +
+  scale_fill_manual(values=c("#000000", "#E69F00", "#56B4E9", "#009E73",
+                             "#F0E442", "#0072B2", "#D55E00"), name = '') + 
+  annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf) +
+  annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf) + 
+  guides(col = guide_legend(ncol = 1))
+
+plotA <-plotA + theme_classic()+
+  theme(axis.text=element_text(colour="black", size = 14),
+        axis.title.x=element_text(colour="black", size = 18),           #Sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 18))
+
+plotA
 
 
 
@@ -439,18 +644,6 @@ EdsPerCountryPerJrnlPerYr.WIDE<-spread(EditorsPerCountryPerJrnlPerYr, geo.code, 
 
 
 
-AnalysisDivwide<-AnalysisData %>% count(JOURNAL, YEAR, divmetric = geo.code) %>% spread(divmetric, n)
-AnalysisDivwide[is.na(AnalysisDivwide)] <- 0
-AnalysisDivwide<-as.data.frame(AnalysisDivwide)
-
-#Save journals list for using in the table
-AnalysisDivJOURNAL.LIST <- AnalysisDivwide$JOURNAL 
-AnalysisDivYEAR.LIST <- AnalysisDivwide$YEAR 
-#deleting journal column because 'diversity' function will fail if present
-# AnalysisDivcast <- AnalysisDivcast %>%  select(-JOURNAL)
-AnalysisDivwide<-as.data.frame(AnalysisDivwide)
-# AnalysisDivwide <-select(AnalysisDivwide,-JOURNAL, -YEAR)
-# colnames(AnalysisDivwide)
 
 
 
@@ -458,25 +651,9 @@ AnalysisDivwide<-as.data.frame(AnalysisDivwide)
 
 
 
-# Count by how many countries on each board each year for each journal 
-N_Countries<-AnalysisDivwide %>% gather("COUNTRY", "N_Editors", 3:ncol(AnalysisDivwide)) %>% 
-  group_by(JOURNAL, YEAR) %>% 
-  tally(N_Editors>=1)  %>% rename(N_countries=n)
-N_Countries<-as.data.frame(N_Countries)
 
-# Count by how many people on the Ed Board each year for each journal 
-N_Editors<-mutate(AnalysisDivwide, N_editors = rowSums(select(AnalysisDivwide,3:ncol(AnalysisDivwide)))) %>% select(JOURNAL, YEAR, N_editors)
 
-# Put them together in 1 file dataframe 
-ED.GEO.COUNTS<-full_join(N_Countries, N_Editors,by = c("YEAR" = "YEAR", "JOURNAL" = "JOURNAL")) 
-ED.GEO.COUNTS<-full_join(ED.GEO.COUNTS, ShannonDivTable,by = c("YEAR" = "YEAR", "JOURNAL" = "JOURNAL")) 
-# Pielou’s evenness J = H0/log(S) is easily found as: H/log(specnumber(BCI))
-# where specnumber is a simple vegan function to find the numbers of species.
 
-ED.GEO.COUNTS<-mutate(ED.GEO.COUNTS, ratio = N_countries/N_editors)
-ED.GEO.COUNTS<-mutate(ED.GEO.COUNTS, Geo.Eveness = ShannonDiv/log(N_countries))
-
-# rm(N_Editors,N_Countries,AnalysisDivwide,AnalysisDiv,ShannonDivTable)
 
 
 
@@ -608,6 +785,21 @@ abline(0, 1)
 rarecurve(rarefaction.data, step = 20, sample = raremax, col = "blue", cex = 0.6)
 
 
+##############################################################
+# 14: EVENESS added to EdsCountriesPerJrnlPerYr (#12)
+##############################################################
+
+# Pielou’s evenness J = H0/log(S) is easily found as: H/log(specnumber(BCI))
+# where specnumber is a simple vegan function to find the numbers of species.
+
+EdsCountriesPerJrnlPerYr<-mutate(EdsCountriesPerJrnlPerYr, Geo.Eveness = ShannonDiv/log(N_countries))
+
+
+
+
+
+
+
 ######################################################
 ######################################################
 #
@@ -616,58 +808,6 @@ rarecurve(rarefaction.data, step = 20, sample = raremax, col = "blue", cex = 0.6
 ######################################################
 ######################################################
 
-# Total Unique Editor Countries all time periods and journals
-#TotalEdCountries
-#TotalAuCountries
-
-#bar chart 
-cutoff=14
-Author.Geo<-arrange(Pooled.Geo, desc(Pcnt_Authors)) %>% select(geo.code,N_Authors,Pcnt_Authors)
-most.common.authors<-slice(Author.Geo, 1:cutoff)
-least.common.authors<-slice(Author.Geo, (cutoff+1):nrow(Author.Geo)) 
-least.common.authors$geo.code<-"OTHER"
-least.common.authors<-least.common.authors %>% 
-  mutate(sum(N_Authors)) %>%
-  mutate(sum(Pcnt_Authors)) %>% 
-  select(-N_Authors) %>% 
-  select(-Pcnt_Authors) %>% 
-  rename(N_Authors = `sum(N_Authors)`) %>% 
-  rename(Pcnt_Authors = `sum(Pcnt_Authors)`) %>% 
-  slice(1:1)
-
-most.common.authors<-bind_rows(most.common.authors, least.common.authors)
-most.common.authors$geo.code<-as.factor(most.common.authors$geo.code)
-
-#Bar  chart Authors
-arrange(most.common.authors, desc(N_Authors)) %>%  ggplot(aes(x=reorder(geo.code,-N_Authors), y=Pcnt_Authors)) +
-  geom_bar(colour="black", stat="identity")
-
-
-
-#Bar  chart REGION AUTHOR AND ENDITOR
-
-Author.ED.Region<-arrange(Pooled.Geo, desc(Pcnt_Authors)) %>% select(REGION,N_Authors,Pcnt_Authors,N_editors,Pcnt_editors)
-
-Author.Region<-Pooled.Geo %>%
-  select(REGION, N_Authors, Pcnt_Authors) %>% 
-  filter(N_Authors>0) %>% 
-  group_by(REGION) %>% 
-  summarize(Pcnt = sum(Pcnt_Authors))
-Author.Region$category<-"Author"
-Author.Region
-
-Editor.Region<-Pooled.Geo %>%
-  select(REGION, N_editors, Pcnt_editors) %>% 
-  filter(N_editors>0) %>% 
-  group_by(REGION) %>% 
-  summarize(Pcnt = sum(Pcnt_editors))
-Editor.Region$category<-"Editor"
-Editor.Region
-RegionFig<-bind_rows(Editor.Region,Author.Region)
-
-
-  ggplot(data=RegionFig, aes(x=REGION, y=Pcnt, fill=category)) +
-    geom_bar(stat="identity", position=position_dodge())
 
 #Table 1
 
@@ -692,60 +832,6 @@ TABLE1<-full_join(TABLE1, EdsLastYr, by = "JOURNAL")
 
 
 
-
-
-
-
-
-
-######################################################
-# Plot: Editorial Board Size vs. # of countries on the board
-######################################################
-
-
-### EB 8 FEB 2016 : absolute number of countries is deceptive because it will be a function of editorial board size
-
-plotEDvCountries<-ggplot(ED.GEO.COUNTS, aes(x=N_editors, y=N_countries)) +
-  geom_point(shape=1) + # Use hollow circles
-  ylab("Countries on Board") +
-  xlab("Size of Board")+
-  geom_smooth()#Add a loess smoothed fit curve with confidence region (by default includes 95% confidence region)
-plotEDvCountries<-plotEDvCountries + scale_y_continuous(breaks = seq(0, 30, 5), limits = c(0, 30))
-plotEDvCountries<-plotEDvCountries + scale_x_continuous(breaks = seq(0, 240, 20), limits = c(0, 230))
-plotEDvCountries<-plotEDvCountries+theme_classic()+
-  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
-        legend.title = element_blank(),   #Removes the Legend title
-        legend.text = element_text(color="black", size=10),  
-        legend.position = c(0.9,0.8),
-        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
-        #plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
-plotEDvCountries
-
-
-######################################################
-# Plot: Editorial Board Size vs. Year
-######################################################
-
-
-plotEDvYear<-ggplot(ED.GEO.COUNTS, aes(x=YEAR, y=N_editors)) +
-  geom_point(shape=1) + # Use hollow circles
-  ylab("Countries on Board") +
-  xlab("Year")+
-  geom_smooth()#Add a loess smoothed fit curve with confidence region (by default includes 95% confidence region)
-plotEDvYear<-plotEDvYear + scale_y_continuous(breaks = seq(0, 30, 5), limits = c(0, 30))
-plotEDvYear<-plotEDvYear + scale_x_continuous(breaks = seq(0, 240, 20), limits = c(0, 230))
-plotEDvYear<-plotEDvYear+theme_classic()+
-  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
-        legend.title = element_blank(),   #Removes the Legend title
-        legend.text = element_text(color="black", size=10),  
-        legend.position = c(0.9,0.8),
-        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
-#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
-plotEDvYear
 
 
 
@@ -777,6 +863,12 @@ plotEDvCountriesSHANNON
 
 # How to deal with this??! GLM with temporal autocorrelation
 
+
+
+
+
+
+# SEBAS FIGS
 ######################################################
 # Plots: MEDIAN, MIN AND MAX NUMBER OF Metrics vs. Year
 ######################################################
