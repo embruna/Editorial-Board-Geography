@@ -22,22 +22,37 @@ source("helpers.R")    #Code to plot all journals in one figure
 
 
     
-  #CLear out everything from the environment 
+  # Clear out everything from the environment 
   rm(list=ls())
 
-  ######################################################
-  ######################################################
+  ##############################################################
+  ##############################################################
   #
-  # DATA UPLOAD 
+  # SET UP THE TEMPORAL FRAME OF YOUR STUDY
+  # This avoids mistakes, esnures consistent analyses and figures
   #
-  ######################################################
-  ######################################################
+  FirstYear=1985
+  LastYear=2014
+  #
+  ###############################################################
+  ##############################################################
+
+  
+  
+  
+  
+  ##############################################################
+  ##############################################################
+  #
+  # DATA UPLOAD & ORGANIZATION
   # load the individual CSV files and save them as dataframes
-  
-  # IMPORT WORLD BANK INDICATORS (downloaded 2/Dec/2015)
-  WDI_data<-read.csv("WDI_data.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-  row.names(WDI_data) <- WDI_data$iso3c     #Assigning row names in table for later search
-  
+  #
+  ##############################################################
+  ##############################################################
+
+  ##############################################################
+  # DATA CLEANUP & ORGANIZATION: Data from Cho et al. 2014
+  ##############################################################
   
   # Import data on Editorial Boards from Cho et al 2014 PeerJ
   BITR<-read.csv("./ChoData/Biotropica_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
@@ -50,6 +65,23 @@ source("helpers.R")    #Code to plot all journals in one figure
   ECOLOGY<-read.csv("./ChoData/Ecology_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JECOL<-read.csv("./ChoData/JEcol_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JTE<-read.csv("./ChoData/JTE_EB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  
+  
+  #Bind the data from Cho
+  ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) 
+  
+  source("Cho.Fix.R")
+  ChoData_clean<-Cho.Fix(ChoData)
+  ChoData_clean
+  # write.csv(ChoData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ChoData_clean.csv", row.names = T) #export it as a csv file
+  
+  #Don't Need the original files or Messy ChoData cluttering up the Env't so lets delete
+  rm(ChoData, BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
+  
+  ############################################################
+  # DATA CLEANUP & ORGANIZATION: Data from 2015 UF CLass  
+  ############################################################
+  
   
   # Import Data on Editorial Boards collected by 2015 UF Scientific Publishing Seminar 
   AGRON2<-read.csv("./Data2015/AGRON2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
@@ -84,29 +116,10 @@ source("helpers.R")    #Code to plot all journals in one figure
   # ONLY HAS 1989-1997. Have in folder 2010, 2011-2013, 2014-2015. what looks like 88,87,1985
   
   
-
-  ######################################################
-  # DATA CLEANUP AND ORGANIZATION: CHO et al DATA
-  ######################################################
-  
-  #Bind the data from Cho
-  ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) 
-  
-  source("Cho.Fix.R")
-  ChoData_clean<-Cho.Fix(ChoData)
-  ChoData_clean
-  # write.csv(ChoData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ChoData_clean.csv", row.names = T) #export it as a csv file
-  
-  #Don't Need the original files or Messy ChoData cluttering up the Env't so lets delete
-  rm(ChoData, BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE)
-  
-  ############################################################
-  # DATA CLEANUP AND ORGANIZATION: 2015 CLASS  
-  ############################################################
-  
   #Bind the data from 2015 workshop
   ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
                    JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
+  
   source("Class.Fix.R")
   ClassData_clean<-Class.Fix(ClassData)
   # write.csv(ClassData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_clean.csv", row.names = T) #export it as a csv file
@@ -134,19 +147,10 @@ source("helpers.R")    #Code to plot all journals in one figure
   #8) Removed MEPS, GCB because so many years missing.
   #Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
 
-  #############################################################
+  ##############################################################
   #
-  # Function to determine the years missing in your dataset
-  # yrs.missing(dataset,first year of interest,last year of interest)
-  source("yrs.missing.R")
-  yrs.missing<-yrs.missing(ClassData_clean,1985,2014)
-  write.csv(yrs.missing, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
+  # CHOOSE DATASETS TO ANALYSE AND BIND THEM TOGETHER 
   #
-  #############################################################
-  
-  
-  #############################################################
-  # CHOSE DATASETS TO ANALYSE AND BIND THEM TOGETHER 
   ##############################################################
 
   # Add an identifier for each dataset
@@ -159,6 +163,15 @@ source("helpers.R")    #Code to plot all journals in one figure
   
   #SImplify by removing the original datasets from the environment
   rm(ChoData_clean,ClassData_clean)
+  
+  #############################################################
+  # Function to determine the years missing in your dataset
+  # yrs.missing(dataset,first year of interest,last year of interest)
+  #############################################################
+  source("yrs.missing.R")
+  yrs.missing<-yrs.missing(ALLDATA,FirstYear,LastYear)
+  write.csv(yrs.missing, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_missingYrs.csv", row.names = T) #export it as a csv file
+  
   
   #############################################################
   # DELETE PRODUCTION STAFF
@@ -178,6 +191,7 @@ source("helpers.R")    #Code to plot all journals in one figure
   ALLDATA <- transform(ALLDATA,editor_id=as.numeric(FirstInitialLast))
   
   
+  
   ######################################################
   ######################################################
   #
@@ -186,8 +200,6 @@ source("helpers.R")    #Code to plot all journals in one figure
   ######################################################
   ######################################################
  
-  
-  
   #############################################################
   # NAME COMPARISON AND SPELL CHECK
   ##############################################################
@@ -196,12 +208,10 @@ source("helpers.R")    #Code to plot all journals in one figure
   # 2x, middle initials, etc. This will makeit easier to assign a ID 
   # number to each editor for disambiguation
   
-  
   source("Name.check.R")
   NameSimilarityDF<-Name.check(ALLDATA,ALLDATA$FirstMiddleLast)
   write.csv(NameSimilarityDF, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/NameCheck_ALLDATA_ALLYRS.csv", row.names = T) #export it as a csv file
 
-  
   # AFER YOU HAVE CHECKED THE NAMES FOR CONSISTENCY, NEED TO DISAMBIGUATE
   # The best way to disambiguate is as follows: 
   # 1. assign a different index to entries with different First Initial+Last Name (there aren't too many of there)
@@ -209,7 +219,7 @@ source("helpers.R")    #Code to plot all journals in one figure
   
   
   #############################################################
-  # NAME DISAMBIGUATION AND ASSIGNING ID NUMBER TO EACH EDITOR 
+  # NAME DISAMBIGUATION & ASSIGNING UNIQUE ID NUMBER TO EACH EDITOR 
   ##############################################################
   
   source("Name.disambig.R")
@@ -224,22 +234,31 @@ source("helpers.R")    #Code to plot all journals in one figure
   # all columns must have a name
 #   
  FixList<-read.csv(file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/FixList.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+ FixList<-select(FixList,FirstMiddleLast)
+ FixList$editor_id<-seq(max(ALLDATA$editor_id+1), length.out=nrow(FixList), by = 1)
+ FixList$FirstMiddleLast<-as.character(FixList$FirstMiddleLast)
  
- # ALLDATA$FirstMiddleLast<-as.character(ALLDATA$FirstMiddleLast)
- # 
-# foo2$editor_id<-FixList[match(foo2$FirstMiddleLast, FixList$FirstMiddleLast),17]
+# join the two together, if there is a real number (i.e., not NA) in the 2nd editor id column just replace it)
+# HT: http://stackoverflow.com/questions/36433757/conditionally-replace-values-in-data-frame-from-separate-data-frame-in-r
+# This saved me from the gnarly nested loop below
+ALLDATA <- full_join(ALLDATA, FixList, by = "FirstMiddleLast", all = T) %>% mutate(editor_id = ifelse(is.na(editor_id.y), editor_id.x, editor_id.y)) %>% select(-editor_id.x,-editor_id.y)
+rm(FixList)
 
-for (i in 1:nrow(FixList)){
-  newid=max(ALLDATA$editor_id)+1
-  for (j in 1:nrow(ALLDATA)){
-if(FixList$FirstMiddleLast[i]==ALLDATA$FirstMiddleLast[j]) {
-  ALLDATA$editor_id[j] <- newid
-}
-}
-}
-ALLDATA$editor_id<-as.factor(ALLDATA$editor_id) #COnvert author id to factor to make it easier to count
+#
+# for (i in 1:nrow(FixList)){
+#   newid=max(ALLDATA$editor_id)+1
+#   for (j in 1:nrow(ALLDATA)){
+# if(FixList$FirstMiddleLast[i]==ALLDATA$FirstMiddleLast[j]) {
+#   ALLDATA$editor_id[j] <- newid
+# }
+# }
+# }
+# ALLDATA$editor_id<-as.factor(ALLDATA$editor_id) #COnvert author id to factor to make it easier to count
+# 
+# rm(FixList,i,j,newid)
 
-rm(FixList,i,j,newid)
+
+
 
 ######################################################
 ######################################################
@@ -267,106 +286,160 @@ levels(ALLDATA$geo.code)
 #
 ######################################################
 ######################################################
-
-#These lines add the income level and region level based on the editor country
-ALLDATA$INCOME_LEVEL <- WDI_data[as.character(ALLDATA$geo.code), 'income']  #Making a new column of income level by country
-ALLDATA$REGION <- WDI_data[as.character(ALLDATA$geo.code), 'region']  #Making a new column of income level by country
-
-#step 4: Changing the order of CATEGORY, INCOME_LEVEL, REGION and JOURNAL factors.
-#This is then used to have always the same order of the lines in future plots and tables
-INCOMES.ORDERED.LIST <- c(  'High income: OECD', 'High income: nonOECD',
-                            'Upper middle income','Lower middle income','Low income')
-
-#list of geographical regions, useful for analysis and to give them an order in plots
-REGIONS.ORDERED.LIST <- c('North America', 'Europe & Central Asia','East Asia & Pacific',
-                          'Latin America & Caribbean', 'Sub-Saharan Africa',
-                          'South Asia','Middle East & North Africa')
-
-ALLDATA$CATEGORY <- factor(x = ALLDATA$CATEGORY, levels = c('EIC', 'AE', 'SE'))
-ALLDATA$INCOME_LEVEL <-  factor(x =  ALLDATA$INCOME_LEVEL, levels = INCOMES.ORDERED.LIST)
-ALLDATA$REGION <-  factor(x =  ALLDATA$REGION, levels = REGIONS.ORDERED.LIST)
-ALLDATA$JOURNAL <- factor (x = ALLDATA$JOURNAL, levels = sort(levels(ALLDATA$JOURNAL)))  #Sorted Alphabetically
-
-rm(WDI_data,REGIONS.ORDERED.LIST,INCOMES.ORDERED.LIST)
+source("AddIncomeRegion.R")
+ALLDATA<-AddIncomeRegion(ALLDATA)
+# ALLDATA
 
 ######################################################
 ######################################################
 #
 # ANALYSES
 #
+# 1: Total Papers Published by Each Journal (all years pooled)
+# 2. Number of Authors from Each Country (all journals and years pooled)
+# 3. Number of Editors from Each Country (all journals pooled)
+# 4. 2 & 3 put together in a single dataframe 
+# 5: Total Unique Editor Countries (all years and journals pooled)
+# 6: Total Unique Authors Countries (all years and journals pooled)
+# 7: No. of editors on each journal's board over the entire study period
+# 8: No. of countries on each journal's board over the entire study period
+# 9: No. of editors on each journal's boardin each year
+# 10: No. of countries on each journal's board in each year
+# 11: 9 and 10 bound into a single dataframe
+# 12: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
 ######################################################
 ######################################################
 
-# SELECT temporal coverage for analyses
-AnalysisData<-ALLDATA[ALLDATA$YEAR>=1985 & ALLDATA$YEAR<=2015,]
+# FIRST: Select temporal coverage for analyses
+AnalysisData<-ALLDATA[ALLDATA$YEAR>=FirstYear & ALLDATA$YEAR<=LastYear,]
 
-
-#subsetting data to only EIC, AE and SE classifications
+# AND subsett data to only EIC, AE and SE classifications
 AnalysisData <- AnalysisData[AnalysisData$CATEGORY %in% c('EIC', 'AE', 'SE'),]
 
-
-# DELETE unecessary columns 
+# AND delete unecessary columns 
 AnalysisData<-AnalysisData %>% 
   select(-INSTITUTION,-NOTES,-GENDER, -VOLUME, -ISSUE, -TITLE, -INSTITUTION)
-
-
 #############################################################
-# TOTAL NUMBER OR COUNTRIES &  EDITORS
-##############################################################
-# 
-# # 1985-2015 TOTAL EDITORS AND COUNTRIES
-TOTAL.NO.EDITORS<-AnalysisData %>% group_by(editor_id) %>% filter(row_number()==1)
-TOTAL.NO.EDITORS<-as.data.frame(TOTAL.NO.EDITORS)
-str(TOTAL.NO.EDITORS$editor_id)
-str(TOTAL.NO.EDITORS$geo.code)
 
-# TOTAL COUNTRIES 1985-1995
-# Countries8595<-filter(TOTAL.NO.EDITORS, YEAR >1984 & YEAR< 1996)
-# Countries8595<-droplevels(Countries8595)
-# str(Countries8595$geo.code)
-# str(Countries8595$editor_id)
-# 
-# # TOTAL COUNTRIES  & Editors 1996-2005
-# Countries9605<-filter(TOTAL.NO.EDITORS, YEAR >1995 & YEAR< 2006)
-# Countries9605<-droplevels(Countries9605)
-# str(Countries9605$geo.code)
-# str(Countries9605$editor_id)
-# 
-# # TOTAL COUNTRIES  & Editors 2006-2015
-# Countries0615<-filter(TOTAL.NO.EDITORS, YEAR >2005 & YEAR< 2016)
-# Countries0615<-droplevels(Countries0615)
-# str(Countries0615$geo.code)
-# str(Countries0615$editor_id)
-# 
 
 ##############################################################
-# DIVERSITY (SHANNON) OF COUNTRIES ON ED BOARD IN EACH YEAR  
+# 1: Total Papers Published by Each Journal (all years pooled)
+
+# Upload Data on number of papers published in each journal (FirstYear-LastYear)
+TotalPubs<-read_delim("./SupplementaryData/ArticlesPerJournal_1985-2014.txt", delim="\t", col_names=TRUE)
+TotalPubs<-TotalPubs %>% select(-Percent) %>% mutate(Pcnt_Pubs= (Articles/sum(Articles)*100)) %>% rename(N_Articles = Articles)
 ##############################################################
 
-library(vegan)
-#subset to only 2014 data (with most journals with complete data)
+##############################################################
+# 2. Number of Authors from Each Country (all journals and years pooled)
 
-# What year do you want to anlayze?
-# div_year<-2000
-# what do you want to measure diversity of? 
-# indicator=geo.code 
-# indicator=INCOME_LEVEL
-# indicator=REGION
+#Upload Data on author country for papers published in each journal (FirstYear-LastYear)
+Author.Geo<-read_delim("./SupplementaryData/AuthorCountries_AllJournals_1985-2014.txt", delim="\t", col_names=TRUE)
+Author.Geo<-Author.Geo %>% select(-Percent) 
+source("Country.Codes.R")
+# Take Author.Geo, add the country codes, summarize the number of authors from each country, 
+# and then calculate the percentage of the total no. of authors from each country
+Author.Geo<-Country.Codes(Author.Geo)
+Author.Geo<-select(Author.Geo,-COUNTRY)
+Author.Geo<-Author.Geo %>% group_by(geo.code) %>% 
+  summarize(N_Authors = sum(Count)) %>% 
+  mutate(Pcnt_Authors= (N_Authors/sum(N_Authors)*100)) 
+##############################################################
 
-AnalysisDiv <-AnalysisData
+##############################################################
+# 3. Number of Editors from Each Country (all journals pooled)
+Editor.Geo<-AnalysisData %>%  group_by(geo.code) %>% 
+  summarize(N_editors = n_distinct(editor_id)) %>% 
+  mutate(Pcnt_editors= (N_editors/sum(N_editors)*100)) 
+##############################################################
+
+##############################################################
+# 4: Auhtors per country and  & editors per country can be put together in a single dataframe 
+# to simplify making figures and doing analyses
+Pooled.Geo<-full_join(Editor.Geo,Author.Geo, by="geo.code")
+Pooled.Geo<-filter(Pooled.Geo, Pooled.Geo$geo.code!="NA") #this removes the NA for West Indies
+Pooled.Geo[is.na(Pooled.Geo)] <- 0
+Pooled.Geo$geo.code<-as.factor(Pooled.Geo$geo.code)
+# sum(Pooled.Geo$Pcnt_Authors) # make sure sums to 100%
+# sum(Pooled.Geo$Pcnt_editors) # make sure sums to 100%
+
+# add the region and income category
+source("AddIncomeRegion.R")
+Pooled.Geo<-AddIncomeRegion(Pooled.Geo)
+rm(Author.Geo, Editor.Geo) #No longer need them
 
 
-#cast data to the format accepted by the 'diversity' function
-# AnalysisData2014cast <- dcast(data = AnalysisData2014, JOURNAL ~ geo.code)
-# 
-# # OR using tidyr
-# AnalysisData2014long<-count(AnalysisData2014, JOURNAL, country = geo.code)
-# AnalysisData2014wide<-spread(AnalysisData2014long, country, n)
-# AnalysisData2014wide[is.na(AnalysisData2014wide)] <- 0
+##############################################################
+# 5: Total Unique Editor Countries (all years and journals pooled)
+TotalEdCountries<-Pooled.Geo %>% filter(N_editors>0) %>% summarize(TotalEdCountries = n_distinct(geo.code))
+TotalEdCountries
+##############################################################
 
-# more efficient to pipe:
-  
-AnalysisDivwide<-AnalysisDiv %>% count(JOURNAL, YEAR, divmetric = geo.code) %>% spread(divmetric, n)
+##############################################################
+# 6: Total Unique Authors Countries (all years and journals pooled)
+TotalAuCountries<-Pooled.Geo %>% filter(N_Authors>0) %>% summarize(TotalAuCountries = n_distinct(geo.code))
+TotalAuCountries
+##############################################################
+
+##############################################################
+# 7: No. of editors on each journal's board over the entire study period
+##############################################################
+TotalEdsPerJrnl<-AnalysisData %>% group_by(JOURNAL) %>% summarize(TotalEditors = n_distinct(editor_id))
+
+##############################################################
+# 8: No. of countries on each journal's board over the entire study period
+##############################################################
+TotalCountriesPerJrnl<-AnalysisData %>% group_by(JOURNAL) %>% summarize(TotalCountries = n_distinct(geo.code))
+
+##############################################################
+# 9: No. of editors on each journal's board in each year
+##############################################################
+TotalEdsPerJrnlPerYr<-AnalysisData %>% group_by(JOURNAL, YEAR) %>% summarize(TotalEditors = n_distinct(editor_id))
+
+##############################################################
+# 10: No. of countries on each journal's board in each year
+##############################################################
+TotalCountriesPerJrnlPerYr<-AnalysisData %>% group_by(JOURNAL, YEAR) %>% summarize(TotalCountries = n_distinct(geo.code))
+
+##############################################################
+# 11: 9 and 10 bound into a single dataframe
+##############################################################
+EdsCountriesPerJrnlPerYr<-full_join(TotalEdsPerJrnlPerYr,TotalCountriesPerJrnlPerYr, by=c("JOURNAL", "YEAR"))
+rm(TotalEdsPerJrnlPerYr,TotalCountriesPerJrnlPerYr)
+
+##############################################################
+# 12: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
+##############################################################
+# LONG
+EdsPerCountryPerJrnlPerYr.LONG<-AnalysisData %>% group_by(JOURNAL, YEAR, geo.code) %>% summarize(Total = n_distinct(editor_id))
+#WIDE
+EdsPerCountryPerJrnlPerYr.WIDE<-spread(EditorsPerCountryPerJrnlPerYr, geo.code, Total) #NOTE need to replace NA with zeros for some things
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AnalysisDivwide<-AnalysisData %>% count(JOURNAL, YEAR, divmetric = geo.code) %>% spread(divmetric, n)
 AnalysisDivwide[is.na(AnalysisDivwide)] <- 0
 AnalysisDivwide<-as.data.frame(AnalysisDivwide)
 
@@ -379,22 +452,11 @@ AnalysisDivwide<-as.data.frame(AnalysisDivwide)
 # AnalysisDivwide <-select(AnalysisDivwide,-JOURNAL, -YEAR)
 # colnames(AnalysisDivwide)
 
-#computing diversity
-ShannonDiv <- diversity(AnalysisDivwide %>% select(-JOURNAL, -YEAR)) #Need to strip away the journal and year columns for vegan to do the analysis
 
 
-# Table DIVERSITY with Results and Journals
-ShannonDivTable <- data.frame(ShannonDiv)
-ShannonDivTable$JOURNAL <-AnalysisDivJOURNAL.LIST  #Add journal name as a column
-ShannonDivTable$YEAR <-AnalysisDivYEAR.LIST #Add year as a column
-ShannonDivTable<-rename(ShannonDivTable, ShannonDiv=ShannonDiv) #rename the columns
-ShannonDivTable <- ShannonDivTable[c("JOURNAL","YEAR","ShannonDiv")] #reorder the columns
-# ShannonDivTable<-arrange(ShannonDivTable, YEAR, desc(ShannonDiv)) # sort in descending order
-# ShannonDivTable
 
-##############################################################
-# COUNT OF NO. OF EDITORS AND COUNTRIES EACH BOARD IN EACH YEAR
-##############################################################
+
+
 
 # Count by how many countries on each board each year for each journal 
 N_Countries<-AnalysisDivwide %>% gather("COUNTRY", "N_Editors", 3:ncol(AnalysisDivwide)) %>% 
@@ -414,7 +476,136 @@ ED.GEO.COUNTS<-full_join(ED.GEO.COUNTS, ShannonDivTable,by = c("YEAR" = "YEAR", 
 ED.GEO.COUNTS<-mutate(ED.GEO.COUNTS, ratio = N_countries/N_editors)
 ED.GEO.COUNTS<-mutate(ED.GEO.COUNTS, Geo.Eveness = ShannonDiv/log(N_countries))
 
-rm(N_Editors,N_Countries,AnalysisDivwide,AnalysisDiv,ShannonDivTable)
+# rm(N_Editors,N_Countries,AnalysisDivwide,AnalysisDiv,ShannonDivTable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# TOTAL COUNTRIES FirstYear-1995
+# Countries8595<-filter(TOTAL.NO.EDITORS, YEAR >1984 & YEAR< 1996)
+# Countries8595<-droplevels(Countries8595)
+# str(Countries8595$geo.code)
+# str(Countries8595$editor_id)
+# 
+# # TOTAL COUNTRIES  & Editors 1996-2005
+# Countries9605<-filter(TOTAL.NO.EDITORS, YEAR >1995 & YEAR< 2006)
+# Countries9605<-droplevels(Countries9605)
+# str(Countries9605$geo.code)
+# str(Countries9605$editor_id)
+# 
+# # TOTAL COUNTRIES  & Editors 2006-LastYear
+# Countries0615<-filter(TOTAL.NO.EDITORS, YEAR >2005 & YEAR< 2016)
+# Countries0615<-droplevels(Countries0615)
+# str(Countries0615$geo.code)
+# str(Countries0615$editor_id)
+# 
+
+##############################################################
+# DIVERSITY (SHANNON) OF COUNTRIES ON ED BOARD IN EACH YEAR  
+##############################################################
+
+library(vegan)
+#subset to only 2014 data (with most journals with complete data)
+
+# What year do you want to anlayze?
+# div_year<-2000
+# what do you want to measure diversity of? 
+# indicator=geo.code 
+# indicator=INCOME_LEVEL
+# indicator=REGION
+#cast data to the format accepted by the 'diversity' function
+# AnalysisData2014cast <- dcast(data = AnalysisData2014, JOURNAL ~ geo.code)
+# 
+# # OR using tidyr
+# AnalysisData2014long<-count(AnalysisData2014, JOURNAL, country = geo.code)
+# AnalysisData2014wide<-spread(AnalysisData2014long, country, n)
+# AnalysisData2014wide[is.na(AnalysisData2014wide)] <- 0
+
+# more efficient to pipe:
+  
+#computing diversity
+ShannonDiv <- diversity(AnalysisDivwide %>% select(-JOURNAL, -YEAR)) #Need to strip away the journal and year columns for vegan to do the analysis
+
+
+# Table DIVERSITY with Results and Journals
+ShannonDivTable <- data.frame(ShannonDiv)
+ShannonDivTable$JOURNAL <-AnalysisDivJOURNAL.LIST  #Add journal name as a column
+ShannonDivTable$YEAR <-AnalysisDivYEAR.LIST #Add year as a column
+ShannonDivTable<-rename(ShannonDivTable, ShannonDiv=ShannonDiv) #rename the columns
+ShannonDivTable <- ShannonDivTable[c("JOURNAL","YEAR","ShannonDiv")] #reorder the columns
+# ShannonDivTable<-arrange(ShannonDivTable, YEAR, desc(ShannonDiv)) # sort in descending order
+ShannonDivTable
+
+##### RAREFACTIONS
+
+rarefaction.data<-AnalysisDivwide %>% filter(YEAR=="2014" & (JOURNAL=="BITR"|JOURNAL=="JTE"|JOURNAL=="CONBIO"|JOURNAL=="BIOCON")) 
+jrnls<-rarefaction.data$JOURNAL
+row.names(rarefaction.data)<-jrnls
+rarefaction.data <- select(rarefaction.data, -JOURNAL,-YEAR)
+str(rarefaction.data)
+
+S <- specnumber(rarefaction.data)
+(raremax <- min(rowSums(rarefaction.data)))
+Srare <- rarefy(rarefaction.data, raremax)
+
+
+#Plot rarefaction results
+par(mfrow = c(1,2))
+plot(S, Srare, xlab = "Observed No. of Countries", 
+     ylab = "Rarefied No. of Countries",
+     main = " plot(rarefy(rarefaction.data, raremax))")
+abline(0, 1)
+rarecurve(rarefaction.data, step = 20, 
+          sample = raremax, 
+          col = "blue", 
+          cex = 0.6,
+          main = "rarecurve()", label = TRUE)
+
+
+plot(S, Srare, xlab = "Observed No. of Countries", ylab = "Rarefied No. of Countries")
+abline(0, 1)
+rarecurve(rarefaction.data, step = 20, sample = raremax, col = "blue", cex = 0.6)
 
 
 ######################################################
@@ -425,9 +616,94 @@ rm(N_Editors,N_Countries,AnalysisDivwide,AnalysisDiv,ShannonDivTable)
 ######################################################
 ######################################################
 
+# Total Unique Editor Countries all time periods and journals
+#TotalEdCountries
+#TotalAuCountries
 
-### EB 8 FEB 2016 ### 
-# absolute number of countries is deceptive because it will be a function of editorial board size
+#bar chart 
+cutoff=14
+Author.Geo<-arrange(Pooled.Geo, desc(Pcnt_Authors)) %>% select(geo.code,N_Authors,Pcnt_Authors)
+most.common.authors<-slice(Author.Geo, 1:cutoff)
+least.common.authors<-slice(Author.Geo, (cutoff+1):nrow(Author.Geo)) 
+least.common.authors$geo.code<-"OTHER"
+least.common.authors<-least.common.authors %>% 
+  mutate(sum(N_Authors)) %>%
+  mutate(sum(Pcnt_Authors)) %>% 
+  select(-N_Authors) %>% 
+  select(-Pcnt_Authors) %>% 
+  rename(N_Authors = `sum(N_Authors)`) %>% 
+  rename(Pcnt_Authors = `sum(Pcnt_Authors)`) %>% 
+  slice(1:1)
+
+most.common.authors<-bind_rows(most.common.authors, least.common.authors)
+most.common.authors$geo.code<-as.factor(most.common.authors$geo.code)
+
+#Bar  chart Authors
+arrange(most.common.authors, desc(N_Authors)) %>%  ggplot(aes(x=reorder(geo.code,-N_Authors), y=Pcnt_Authors)) +
+  geom_bar(colour="black", stat="identity")
+
+
+
+#Bar  chart REGION AUTHOR AND ENDITOR
+
+Author.ED.Region<-arrange(Pooled.Geo, desc(Pcnt_Authors)) %>% select(REGION,N_Authors,Pcnt_Authors,N_editors,Pcnt_editors)
+
+Author.Region<-Pooled.Geo %>%
+  select(REGION, N_Authors, Pcnt_Authors) %>% 
+  filter(N_Authors>0) %>% 
+  group_by(REGION) %>% 
+  summarize(Pcnt = sum(Pcnt_Authors))
+Author.Region$category<-"Author"
+Author.Region
+
+Editor.Region<-Pooled.Geo %>%
+  select(REGION, N_editors, Pcnt_editors) %>% 
+  filter(N_editors>0) %>% 
+  group_by(REGION) %>% 
+  summarize(Pcnt = sum(Pcnt_editors))
+Editor.Region$category<-"Editor"
+Editor.Region
+RegionFig<-bind_rows(Editor.Region,Author.Region)
+
+
+  ggplot(data=RegionFig, aes(x=REGION, y=Pcnt, fill=category)) +
+    geom_bar(stat="identity", position=position_dodge())
+
+#Table 1
+
+Eds1stYr<-AnalysisData %>% 
+  filter(YEAR == FirstYear) %>% 
+  group_by(JOURNAL) %>%   #collect the data into groups by country
+  summarize(EditorsFirstYr = n_distinct(editor_id))
+
+EdsLastYr<-AnalysisData %>% 
+  filter(YEAR == LastYear) %>% 
+  group_by(JOURNAL) %>%   #collect the data into groups by country
+  summarize(EditorsLastYr5 = n_distinct(editor_id))
+
+TotalEdCountriesJrnl<-AnalysisData %>% 
+  group_by(JOURNAL) %>%   #collect the data into groups by country
+  summarize(TotalEdCountriesJrnl = n_distinct(geo.code))
+
+TABLE1<-full_join(TotalEdCountriesJrnl, Eds1stYr, EdsLastYr, by = "JOURNAL")
+TABLE1<-full_join(TABLE1, EdsLastYr, by = "JOURNAL")
+
+
+
+
+
+
+
+
+
+
+
+######################################################
+# Plot: Editorial Board Size vs. # of countries on the board
+######################################################
+
+
+### EB 8 FEB 2016 : absolute number of countries is deceptive because it will be a function of editorial board size
 
 plotEDvCountries<-ggplot(ED.GEO.COUNTS, aes(x=N_editors, y=N_countries)) +
   geom_point(shape=1) + # Use hollow circles
@@ -448,8 +724,38 @@ plotEDvCountries<-plotEDvCountries+theme_classic()+
 plotEDvCountries
 
 
-# DIVERSITY: it is also known that Shannon's index is sample size dependent, whihc is the case
-# Here as well.
+######################################################
+# Plot: Editorial Board Size vs. Year
+######################################################
+
+
+plotEDvYear<-ggplot(ED.GEO.COUNTS, aes(x=YEAR, y=N_editors)) +
+  geom_point(shape=1) + # Use hollow circles
+  ylab("Countries on Board") +
+  xlab("Year")+
+  geom_smooth()#Add a loess smoothed fit curve with confidence region (by default includes 95% confidence region)
+plotEDvYear<-plotEDvYear + scale_y_continuous(breaks = seq(0, 30, 5), limits = c(0, 30))
+plotEDvYear<-plotEDvYear + scale_x_continuous(breaks = seq(0, 240, 20), limits = c(0, 230))
+plotEDvYear<-plotEDvYear+theme_classic()+
+  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
+        legend.title = element_blank(),   #Removes the Legend title
+        legend.text = element_text(color="black", size=10),  
+        legend.position = c(0.9,0.8),
+        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+plotEDvYear
+
+
+
+
+
+######################################################
+# Plot: Editorial Board Size vs. # of Shannons Diversity on the Board
+######################################################
+
+# DIVERSITY: Shannon's index is sample-size dependent; sure enough it is true here as well
 
 plotEDvCountriesSHANNON<-ggplot(ED.GEO.COUNTS, aes(x=N_editors, y=ShannonDiv)) +
   geom_point(shape=1) + # Use hollow circles
@@ -469,21 +775,18 @@ plotEDvCountriesSHANNON<-plotEDvCountriesSHANNON+theme_classic()+
 #plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
 plotEDvCountriesSHANNON
 
+# How to deal with this??! GLM with temporal autocorrelation
 
-# How to deal with this??!
+######################################################
+# Plots: MEDIAN, MIN AND MAX NUMBER OF Metrics vs. Year
+######################################################
 
+# tocomment out and in as needed)
 
-
-# Regardless, here are lots of various measures over time
-# the number of countries increases over time. But remeber richness and ed board size are correlated
-# And sure enough, ed board size increases over time. when correcting for this with eveness, you see very similar 
-# median values over time.
-
-# to verify plot the following (just comment out and in as needed)
-response.variable=ED.GEO.COUNTS$N_editors
+# response.variable=ED.GEO.COUNTS$N_editors
 # response.variable=ED.GEO.COUNTS$N_countries
 # response.variable=ED.GEO.COUNTS$Geo.Eveness
-# response.variable=ED.GEO.COUNTS$ratio
+ response.variable=ED.GEO.COUNTS$ratio
 
 plotA <- ggplot(data = ED.GEO.COUNTS, aes(x = YEAR, y = response.variable)) + 
   stat_summary(geom="ribbon", fun.ymin="min", fun.ymax="max", alpha=0.3, colour = NA) +
@@ -626,15 +929,14 @@ plotB
 TOTAL.NO.EDITORS<-AnalysisData %>% group_by(editor_id) %>% filter(row_number()==1)
 TOTAL.NO.EDITORS<-as.data.frame(TOTAL.NO.EDITORS)
 str(TOTAL.NO.EDITORS)
-UniqueAuthors.EB<-select(TOTAL.NO.EDITORS, JOURNAL, YEAR,CATEGORY,editor_id,FirstMiddleLast,geo.code, INCOME_LEVEL, REGION) %>% count(geo.code)
+UniqueEditors.EB<-select(TOTAL.NO.EDITORS, JOURNAL, YEAR,CATEGORY,editor_id,FirstMiddleLast,geo.code, INCOME_LEVEL, REGION) %>% count(geo.code)
+
 
 
 
 #Getting a unique authors list (Authors can be in >1 Year and >1 Journal)
 #Should sum to 3895
 UniqueAuthors <- unique( AnalysisData[ , c('editor_id', 'geo.code') ] )
-
-
 
 #Count geo.code based on authors 
 CountryEditorsCount <- as.data.frame(UniqueAuthors %>% count(geo.code = geo.code))
@@ -978,38 +1280,12 @@ dev.off()
 
 
 
-##########################################################################
-#
-# AUTHOR DIVERSITY (ALLYEARS POOLED) vs. EDITOR DIVERSITY
-#
-##########################################################################
-
-#Upload Data on number of papers published in each journal (1985-2015)
-TotalPubs<-read_delim("./Data2015/ArticlesPerJournal_1985-2015.txt", delim="\t", col_names=TRUE)
-TotalPubs<-TotalPubs %>% select(-Percent) %>% mutate(Pcnt= (Articles/sum(Articles)*100))
-
-#Upload Data on author country for papers published in each journal (1985-2015)
-Author.Geo<-read_delim("./Data2015/AuthorCountries_AllJournals_1985-2013.txt", delim="\t", col_names=TRUE)
-Author.Geo<-Author.Geo %>% select(-Percent) %>% mutate(Pcnt= (Count/sum(Count)*100))
 
 
-source("Country.Codes.R")
-Author.Geo<-Country.Codes(Author.Geo)
 
-Author.Geo<-Author.Geo %>% group_by(geo.code) %>% summarise(total_n=sum(Count)) %>% rename(n_author = total_n) #some countries are in table >1 time do to changes in status (eg S African republics)
-# editor from each country, All journals and years pooled
-Editor.Geo<-AnalysisData %>% group_by(editor_id) %>% filter(row_number()==1)
-Editor.Geo<-as.data.frame(Editor.Geo)
-Editor.Geo<-Editor.Geo %>% count(geo.code = geo.code) %>% rename(n_editor = n)  
 
-str(Author.Geo) # levels of geo.code tells how many countries
-str(Editor.Geo) # levels of geo.code tells how many countries
 
-###########
-Pooled.Geo<-full_join(Author.Geo, Editor.Geo, by = "geo.code")
-Pooled.Geo<-filter(Pooled.Geo, Pooled.Geo$geo.code!="NA") #this removes the NA for West Indies
-Pooled.Geo[is.na(Pooled.Geo)] <- 0
-Pooled.Geo$geo.code<-as.factor(Pooled.Geo$geo.code)
+
 
 
 Author.Geo.Wide<-Pooled.Geo %>% select(-n_editor) %>%  spread(geo.code,n_author) 
