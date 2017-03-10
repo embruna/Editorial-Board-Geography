@@ -1123,19 +1123,36 @@ plotA
 ##############################################################
 
 library(vegan)
-#computing diversity
+#computing diversity (inv. simpsons)
 DivData<-as.data.frame(EdsPerCountryPerJrnlPerYr.WIDE)
-ShannonDiv <- diversity((DivData %>% select(-JOURNAL, -YEAR)), index="invsimpson") #Need to strip away the journal and year columns for vegan to do the analysis
+InvSimpsonDiv <- diversity((DivData %>% select(-JOURNAL, -YEAR)), index="invsimpson") #Need to strip away the journal and year columns for vegan to do the analysis
 #Using simposns inverse 
 
 # Table DIVERSITY with Results and Journals
-ShannonDivTable <- data.frame(ShannonDiv)
-ShannonDivTable$JOURNAL <-DivData$JOURNAL  #Add journal name as a column
-ShannonDivTable$YEAR <-DivData$YEAR #Add year as a column
-ShannonDivTable<-rename(ShannonDivTable, ShannonDiv=ShannonDiv) #rename the columns
-ShannonDivTable <- ShannonDivTable[c("JOURNAL","YEAR","ShannonDiv")] #reorder the columns
-# ShannonDivTable<-arrange(ShannonDivTable, YEAR, desc(ShannonDiv)) # sort in descending order
-ShannonDivTable
+InvSimpsonDivTable <- data.frame(InvSimpsonDiv)
+InvSimpsonDivTable$JOURNAL <-DivData$JOURNAL  #Add journal name as a column
+InvSimpsonDivTable$YEAR <-DivData$YEAR #Add year as a column
+InvSimpsonDivTable<-rename(InvSimpsonDivTable, InvSimpsonDiv=InvSimpsonDiv) #rename the columns
+InvSimpsonDivTable <- InvSimpsonDivTable[c("JOURNAL","YEAR","InvSimpsonDiv")] #reorder the columns
+# InvSimpsonDivTable<-arrange(InvSimpsonDivTable, YEAR, desc(InvSimpsonDiv)) # sort in descending order
+InvSimpsonDivTable
+
+##### Calculate eveness and add it to the table
+# first add species richness
+even<-AnalysisData %>% group_by(YEAR,geo.code) %>% summarize(yr_tot=n_distinct(geo.code))
+# simposns eveness
+InvSimpsonDivTable<-full_join(EdsCountriesPerJrnlPerYr,InvSimpsonDivTable, by=c("JOURNAL","YEAR"))
+InvSimpsonDivTable<-mutate(InvSimpsonDivTable, Geo.Evenness = InvSimpsonDiv/TotalCountries)
+
+InvSimpsonDivTable<-InvSimpsonDivTable %>% rename(Editors=TotalEditors) %>% rename(Countries=TotalCountries) %>% rename(Diversity=InvSimpsonDiv) %>% rename(Evenness=Geo.Evenness)
+
+
+
+
+
+
+
+
 
 ##### RAREFACTIONS
 

@@ -1,9 +1,11 @@
 yrs.missing <- function(A,B,C) {
   
-  
-  A %>%
+  filteryrs<-c(seq(B,C, by=1))
+  A<-A %>%
     select(JOURNAL, YEAR)  %>% 
-    filter(YEAR>(B-1) & YEAR<(C-1))
+    filter(YEAR%in% filteryrs)
+  A$YEAR<-as.factor(A$YEAR)
+  A$YEAR<-droplevels(A$YEAR)
   # str(A)
   # summary(A)
   summary_table<-as.data.frame(table(A$YEAR, A$JOURNAL))
