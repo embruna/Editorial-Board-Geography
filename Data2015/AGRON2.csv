@@ -27,7 +27,7 @@ AGRONOMY,2014,106,1,TE,Dorivar,Ruiz,Diaz,,USA,M,SE,Technical Editor (TE),Kansas 
 AGRONOMY,2014,106,1,EIC,Warren,A,Dick,,USA,M,EIC,,The Ohio State University
 AGRONOMY,2014,106,1,AE,Michael,,Dodd,,New Zealand,M,SE,,AgResearch Ltd
 AGRONOMY,2014,106,1,AE,Hezhong,,Dong,,China,M,SE,,Shandong Academy of Agricultural Sciences
-AGRONOMY,2014,106,1,ME,Susan,,Ernst,,USA,F,OTHER,Managing Editor (ME),The Agronomy Journal
+AGRONOMY,2014,106,1,ME,Susan,,Ernst,,USA,F,Production,Managing Editor (ME),The Agronomy Journal
 AGRONOMY,2014,106,1,AE,Vasilia,,Fasoula,,USA,F,SE,,University of Georgia
 AGRONOMY,2014,106,1,AE,Guanglong,,Feng,,USA,M,SE,,Washington State University
 AGRONOMY,2014,106,1,AE,Steven,,Fransen,,USA,M,SE,,Washington State University
@@ -75,7 +75,7 @@ AGRONOMY,2014,106,1,AE,Daniel,,Long,,USA,M,SE,* Columbia Plateau Conservation Re
 AGRONOMY,2014,106,1,AE,Andrea,L,Maas,,USA,F,SE,,Monsanto
 AGRONOMY,2014,106,1,AE,Dirk,,Mallants,,Australia,M,SE,,CSIRO Land and Water
 AGRONOMY,2014,106,1,AE,Biswapati,,Mandal,,India,F,SE,,University of Kalyani
-AGRONOMY,2014,106,1,PD,Mark,,Mandelbaum,,USA,M,OTHER,Publications Director (PD),The Agronomy Journal
+AGRONOMY,2014,106,1,PD,Mark,,Mandelbaum,,USA,M,Production,Publications Director (PD),The Agronomy Journal
 AGRONOMY,2014,106,1,AE,Mark,,Marsalis,,USA,M,SE,,"New Mexico State University, Los Lunas"
 AGRONOMY,2014,106,1,AE,Jack,,Martin,,USA,M,SE,,Montana State University
 AGRONOMY,2014,106,1,AE,Nicolas,,Martin,,USA,M,SE,,"Syngenta Seeds, Inc."
@@ -84,7 +84,7 @@ AGRONOMY,2014,106,1,AE,Ray,,Massey,,USA,M,SE,,University of Missouri
 AGRONOMY,2014,106,1,AE,Jean,E,McLain,,USA,F,SE,,University of Arizona 
 AGRONOMY,2014,106,1,AE,Manyowa,N,Meki,,USA,M,SE,,Texas A&M University
 AGRONOMY,2014,106,1,AE,Klaas,,Metselaar,,Netherlands,M,SE,,Wageningen University & Research Centre
-AGRONOMY,2014,106,1,AE,Fernando,H,Miguez,,Argentina,M,SE,,Pontificia Universidad Cat¾lica Argentina
+AGRONOMY,2014,106,1,AE,Fernando,H,Miguez,,Argentina,M,SE,,Pontificia Universidad Cat_lica Argentina
 AGRONOMY,2014,106,1,AE,Umakant,,Mishra,,USA,M,SE,,Argonne National Laboratory
 AGRONOMY,2014,106,1,AE,Jagadeesh,,Mosali,,USA,M,SE,,Oklahoma State University
 AGRONOMY,2014,106,1,AE,Kevin,M,Murphy,,USA,M,SE,,Washington State University

@@ -125,7 +125,7 @@ Class.Fix <- function(A) {
   ClassData$LAST_NAME[ClassData$LAST_NAME == "Yl_nen"] <- "Ylonen"
   ClassData$LAST_NAME[ClassData$LAST_NAME == "Lillm"] <- "Lill"
   ClassData$LAST_NAME[ClassData$LAST_NAME == "Niemala"] <- "Niemela"
-  ClassData$LAST_NAME[ClassData$LAST_NAME == "Schmid"] <- "Schmitz"
+  #ClassData$LAST_NAME[ClassData$LAST_NAME == "Schmid"] <- "Schmitz"
   ClassData$LAST_NAME[ClassData$LAST_NAME == "Fielder"] <- "Fiedler"
   ClassData$LAST_NAME[ClassData$LAST_NAME == "Karieva"] <- "Kareiva"
   ClassData$LAST_NAME[ClassData$LAST_NAME == "Diaz-Filho"] <- "Diniz-Filho"
@@ -150,7 +150,7 @@ Class.Fix <- function(A) {
   ClassData$TITLE[ClassData$TITLE == "Deputy.Editor-In-Chief"] <- "Deputy.EIC"
   ClassData$TITLE[ClassData$TITLE == "Deputy.Editor.in.Chief"] <- "Deputy.EIC"
   ClassData$TITLE[ClassData$TITLE == "Editor-in-Chief"] <- "EIC"
-  ClassData$TITLE[ClassData$TITLE == "SPECIAL.EDITORS"] <- "Special.Editors"
+  ClassData$TITLE[ClassData$TITLE == "SPECIAL.EDITORS"] <- "Special.Editor"
   ClassData$TITLE[ClassData$TITLE == "editor"] <- "Editor"
   ClassData$TITLE[ClassData$TITLE == "guest.editor"] <- "Guest.Editor"
   ClassData$TITLE[ClassData$TITLE == "Associate.Editors"] <- "Associate.Editor"
@@ -202,24 +202,31 @@ Class.Fix <- function(A) {
   ClassData$CATEGORY[ClassData$TITLE == "Editor" & ClassData$JOURNAL=="JBIOG"] <- "SE"   # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Senior.Editor" & ClassData$JOURNAL=="JBIOG"] <- "AE" # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Associate.Editor" & ClassData$JOURNAL=="JBIOG"] <- "SE" # NEED to 2x
-  ClassData$CATEGORY[ClassData$TITLE == "Journal.Editorial.Supervisor"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Publications.Director"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Book.Review.Editor"] <- "special"
-  ClassData$CATEGORY[ClassData$TITLE == "Reviews.Editor"] <- "SE"
-  ClassData$CATEGORY[ClassData$TITLE == "Production.Staff"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Assistant"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Office.Manager"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "production"
-  ClassData$CATEGORY[ClassData$TITLE == "Technical.Editor"] <- "production"
+  ClassData$CATEGORY[ClassData$TITLE == "Journal.Editorial.Supervisor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Publications.Director"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Book.Review.Editor"] <- "SPECIAL"
+  ClassData$CATEGORY[ClassData$TITLE == "Reviews.Editor"] <- "SPECIAL"
+  ClassData$CATEGORY[ClassData$TITLE == "Production.Staff"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Assistant"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Secretary"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Office.Manager"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Technical.Editor"] <- "AE"
   ClassData$CATEGORY[ClassData$TITLE == "Editorial.Board" & ClassData$JOURNAL == "AMNAT" ] <- "SE"
-  ClassData$CATEGORY[ClassData$TITLE == "Special.Editor" & ClassData$JOURNAL=="EVOL"] <- "special" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Special.Editor" & ClassData$JOURNAL=="EVOL"] <- "SPECIAL" # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Academic.Associate" & ClassData$JOURNAL=="EVOL"] <- "2xCheck" # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Advisory.Panel" & ClassData$JOURNAL=="OIKOS"] <- "2xCheck" # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Publication.Board" & ClassData$JOURNAL=="OIKOS"] <- "2xCheck" # NEED to 2x
   ClassData$CATEGORY[ClassData$CATEGORY == "" & ClassData$JOURNAL=="EVOL"] <- "2xCheck" # NEED to 2x
-  ClassData$CATEGORY[ClassData$TITLE == "Guest.Editor"] <- "special"
-  
+  ClassData$CATEGORY[ClassData$TITLE == "Guest.Editor"] <- "SPECIAL"
+  ClassData$CATEGORY[ClassData$TITLE == "Managing.Editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Executive.Secretary"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Staff"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Copy.Editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Assistant.Managing.Editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Assistant.Editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Academic.Associate"] <- "Production"
   
   #Clean Up Categories
   ClassData$CATEGORY<-as.character(ClassData$CATEGORY)
@@ -231,16 +238,16 @@ Class.Fix <- function(A) {
   ClassData$CATEGORY[ClassData$CATEGORY == "SE "] <- "SE"
   ClassData$CATEGORY[ClassData$CATEGORY == "EIC "] <- "EIC"
   ClassData$CATEGORY[ClassData$CATEGORY == "None"] <- "none"
-  ClassData$CATEGORY[ClassData$CATEGORY == "SPECIAL"] <- "special"
-  ClassData$CATEGORY[ClassData$CATEGORY == "Special"] <- "special"
-  ClassData$CATEGORY[ClassData$CATEGORY == "Production editor"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "Production Staff"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "Journal Supervisor"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "JPS"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "JS"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "PE"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "Productioneditor"] <- "production"
-  ClassData$CATEGORY[ClassData$CATEGORY == "other"] <- "production"
+  # ClassData$CATEGORY[ClassData$CATEGORY == "SPECIAL"] <- "special"
+  ClassData$CATEGORY[ClassData$CATEGORY == "Special"] <- "SPECIAL"
+  ClassData$CATEGORY[ClassData$CATEGORY == "Production editor"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "Production Staff"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "Journal Supervisor"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "JPS"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "JS"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "PE"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "Productioneditor"] <- "Production"
+  ClassData$CATEGORY[ClassData$CATEGORY == "other"] <- "OTHER"
   
   #make  special->SPECIAL to match with CHO
   ClassData$CATEGORY[ClassData$CATEGORY == "special"] <- "SPECIAL"

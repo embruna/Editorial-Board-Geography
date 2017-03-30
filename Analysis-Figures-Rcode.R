@@ -91,61 +91,67 @@ source(multiplot.R) #Code to plot all journals in one figure
   BIOG<-read.csv("./Data2015/BIOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   BITR2<-read.csv("./Data2015/BITR2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   ECOG<-read.csv("./Data2015/ECOG.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  ECOLOGY2<-read.csv("./Data2015/Ecology2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   EVOL<-read.csv("./Data2015/EVOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Still need to ID what an Editor vs EIC does when they transitoned to EIC
   FEM<-read.csv("./Data2015/FEM.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   FUNECOL<-read.csv("./Data2015/FUNECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JANE<-read.csv("./Data2015/JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JAPE<-read.csv("./Data2015/JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JTE2<-read.csv("./Data2015/JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-  JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
   MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
   OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   OIKOS<-read.csv("./Data2015/OIKOS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #5 are missing country
+  LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   PLANTECOL<-read.csv("./Data2015/PLANTECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
+  MIX<-read.csv("./Data2015/MAU_EB_MIX.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Agronomy 1985 1986, JTE 1986, JZOOL 1985, LECO 1987 2014, PLANTECO 2014  
   
-  # STILL MISSING SOME DATA 
+
+  
+  # MISSING TOO MUCH DATA TO INCLUDE IN THIS STUDY 
   GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   # ONLY HAS 1995-2007. 2007-2008 in dropbox. Wiley Journal
-  
-  LECO<-read.csv("./Data2015/LECO.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-  # #LE is missing 1985-1987 (started 1987), 2004, 2011-2014, 2015 Springer
-  
+
   MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   # ONLY HAS 1989-1997. Have in folder 2010, 2011-2013, 2014-2015. what looks like 88,87,1985
   
+
   
-  #Bind the data from 2015 workshop
-  ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-                   JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL) 
+  #Bind the data from 2015 workshop to be used in this paper
+  ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, ECOLOGY2, EVOL, FEM, FUNECOL, 
+                   JANE, JAPE, JTE2, JZOOL, LECO, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL, MIX) 
   
   source("Class.Fix.R")
   ClassData_clean<-Class.Fix(ClassData)
   # write.csv(ClassData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_clean.csv", row.names = T) #export it as a csv file
   
   # Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
-  rm(ClassData,GCB, MEPS,AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, EVOL, FEM, FUNECOL, 
-     JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL)
+  rm(ClassData,GCB, MEPS,AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, ECOLOGY2, EVOL, FEM, FUNECOL, 
+     JANE, JAPE, JTE2, JZOOL, LECO, MARECOL, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL, MIX)
   
   # THIS REMOVEA A FEW WITH BLANKS IN THE NAMES
   ClassData_clean <-filter(ClassData_clean, ClassData_clean$FIRST_NAME!="" & ClassData_clean$LAST_NAME!="")
-  # Error Correction
   
-  # NEED TO Double check if tansley review, book review editors, IFE, also act as subject editors. 
-  # OIKOS ADVISOR PANEL - are they also handling MSS? 
-  # Evolution - the same TITLE (Editor) is often allocated to different categories (AE, SE, EIC)
-  # 2x all special editors
-  ##DOUBLE CHECK WHICH THESE ARE IN. IF THEY ARE IN NEW DATA CAN CORRECT!!!!!
-  # 1) SYSTEMATIZE OTHER, SPECIAL, PRODUCTION in CATEGORY COLUMN
+  #NOTE: In this paper all "Special Editors" will be included (book review, data, stats, etc.)
+  # AGRONOMY<-As Per https://dl.sciencesocieties.org/files/publications/editor-handbook/editors-handbook.pdf
+    #Technical Editors = AE, Associate Editors<-SE
+  
+  
+  
+  # Error Correction
+  # 1) OIKOS ADVISOR PANEL - are they also handling MSS? 
   # 2) EVOL: several titles missing 
   # 3) AMNAT: 1985-1992 has two volumes for each year. use oone? both? 
   # 4) AMNAT: some missing volume and issue data
   # 5) AMNAT: Need to correct AE for Editor
   # 6) Oecologia has several EIC's (plants, animals, etc)
-  # 7 One name missing in Oecologia due to blurry pic
-  #8) Removed MEPS, GCB because so many years missing.
-  #Don't Need the original files or Messy ClassData cluttering up the Env't so lets delete
+  # 7) One name missing in Oecologia due to blurry pic
+  # 8) Evolution - the same TITLE (Editor) is often allocated to different categories (AE, SE, EIC)
+  
+  
+
 
   ##############################################################
   #
@@ -177,7 +183,8 @@ source(multiplot.R) #Code to plot all journals in one figure
   # DELETE PRODUCTION STAFF
   #############################################################
   
-  ALLDATA<-filter(ALLDATA, ALLDATA$CATEGORY!="production")
+  AnalysisCategories <-c("AE","EIC","SE","SPECIAL")
+  ALLDATA <- ALLDATA %>% filter(CATEGORY %in% AnalysisCategories)
   ALLDATA<-droplevels(ALLDATA)
   str(ALLDATA)
   
@@ -281,7 +288,8 @@ ALLDATA<-AddIncomeRegion(ALLDATA)
 #
 # 1: Total Papers Published by Each Journal (all years pooled)
 # 2. Number of Authors from Each Country (all journals and years pooled)
-# 3. Number of Editors from Each Country (all journals pooled)
+# 3a. Number of Editors from Each Country (all journals pooled) all years pooled
+# 3b. Number of Editors from Each Country (all journals pooled) by year
 # 4. 2 & 3 put together in a single dataframe 
 # 5: Total Unique Editor Countries (all years and journals pooled)
 # 6: Total Unique Authors Countries (all years and journals pooled)
@@ -293,6 +301,7 @@ ALLDATA<-AddIncomeRegion(ALLDATA)
 # 12: Add "InternationalRatio": countries/editor tp #11
 # 13: No. of editors from each country on each journal's board in each year (LONG AND WIDE FORMATS)
 # 14: Total number of unique editors in our dataset
+# 15: Editors by category, region, and country
 ######################################################
 ######################################################
 
@@ -305,6 +314,9 @@ AnalysisData <- AnalysisData[AnalysisData$CATEGORY %in% c('EIC', 'AE', 'SE'),]
 # AND delete unecessary columns 
 AnalysisData<-AnalysisData %>% 
   select(-INSTITUTION,-NOTES,-GENDER, -VOLUME, -ISSUE, -TITLE, -INSTITUTION)
+
+# Convert editor ID to a factor
+AnalysisData$editor_id<-as.factor(AnalysisData$editor_id)
 #############################################################
 
 
@@ -333,10 +345,16 @@ Author.Geo<-Author.Geo %>% group_by(geo.code) %>%
 ##############################################################
 
 ##############################################################
-# 3. Number of Editors from Each Country (all journals pooled)
+# 3a. Number of Editors from Each Country (all journals pooled) all years pooled
 Editor.Geo<-AnalysisData %>%  group_by(geo.code) %>% 
   summarize(N_editors = n_distinct(editor_id)) %>% 
   mutate(Pcnt_editors= (N_editors/sum(N_editors)*100)) 
+
+# 3b. Number of Editors from Each Country (all journals pooled) by year
+Editor.Geo.Annual<-AnalysisData %>%  group_by(YEAR, geo.code) %>%  
+  summarize(N_editors = n_distinct(editor_id))  %>% 
+  mutate(Pcnt_editors= (N_editors/sum(N_editors)*100)) 
+
 ##############################################################
 
 ##############################################################
@@ -419,7 +437,12 @@ edsRegion<-AnalysisData %>% group_by(REGION) %>% summarise(n_distinct(editor_id)
 
 ##############################################################
 
+# 15: Editors by category, region, and country
+EIC.proportion<-AnalysisData %>% group_by(CATEGORY)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
 
+
+EIC.proportion.region<-AnalysisData %>% group_by(CATEGORY, REGION)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
+EIC.proportion.income<-AnalysisData %>% group_by(CATEGORY, INCOME_LEVEL)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
 
 
 ######################################################

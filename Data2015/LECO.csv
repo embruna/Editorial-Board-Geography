@@ -1,355 +1,356 @@
 JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+LECO,1988,1,3,EIC,Frank,,Golley,,US,M,EIC,,
+LECO,1988,1,3,SE,R,TT,Forman,,US,M,SE,,
+LECO,1988,1,3,SE,M,,Godron,,France,M,SE,,
+LECO,1988,1,3,SE,G,,Haase,,Germany,M,SE,,
+LECO,1988,1,3,SE,W,,Haber,,Germany,M,SE,,
+LECO,1988,1,3,SE,S,,Levin,,US,M,SE,,
+LECO,1988,1,3,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1988,1,3,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1988,1,3,SE,M,,Numata,,Japan,M,SE,,
 LECO,1988,1,3,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1988,1,3,SE,P,G,Risser,,US,M,SE,,
+LECO,1988,1,3,SE,T,,Rosswall,,Sweden,M,SE,,
+LECO,1988,1,3,SE,M,,Ruzicka,,Russia,F,SE,,
+LECO,1988,1,3,SE,K,F,Schreiber,,Germany,M,SE,,
+LECO,1988,1,3,SE,H,H,Shugart,,US,M,SE,,
 LECO,1988,1,3,SE,C,,Steinitz,,US,M,SE,,
 LECO,1988,1,3,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1988,1,3,SE,E,H,Zube,,US,M,SE,,
-LECO,1988,1,3,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1988,1,3,SE,G,,Haase,,Germany,M,SE,,
-LECO,1988,1,3,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1988,1,3,SE,H,H,Shugart,,US,M,SE,,
 LECO,1988,1,3,SE,I,S,Zonneveld,,Netherlands,M,SE,,
-LECO,1988,1,3,SE,K,F,Schreiber,,Germany,M,SE,,
-LECO,1988,1,3,SE,M,,Godron,,France,M,SE,,
-LECO,1988,1,3,SE,M,,Numata,,Japan,M,SE,,
-LECO,1988,1,3,SE,M,,Ruzicka,,Russia,F,SE,,
-LECO,1988,1,3,SE,P,G,Risser,,US,M,SE,,
-LECO,1988,1,3,SE,R,TT,Forman,,US,M,SE,,
-LECO,1988,1,3,SE,S,,Levin,,US,M,SE,,
-LECO,1988,1,3,SE,T,,Rosswall,,Sweden,M,SE,,
-LECO,1988,1,3,SE,W,,Haber,,Germany,M,SE,,
-LECO,1988,1,3,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1988,1,3,SE,E,H,Zube,,US,M,SE,,
+LECO,1989,2,3,EIC,Frank,,Golley,,US,M,EIC,,
+LECO,1989,2,3,SE,R,TT,Forman,,US,M,SE,,
+LECO,1989,2,3,SE,M,,Godron,,France,M,SE,,
+LECO,1989,2,3,SE,G,,Haase,,Germany,M,SE,,
+LECO,1989,2,3,SE,W,,Haber,,Germany,M,SE,,
+LECO,1989,2,3,SE,S,,Levin,,US,M,SE,,
+LECO,1989,2,3,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1989,2,3,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1989,2,3,SE,M,,Numata,,Japan,M,SE,,
 LECO,1989,2,3,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1989,2,3,SE,P,G,Risser,,US,M,SE,,
+LECO,1989,2,3,SE,T,,Rosswall,,Sweden,M,SE,,
+LECO,1989,2,3,SE,M,,Ruzicka,,Russia,F,SE,,
+LECO,1989,2,3,SE,K,F,Schreiber,,Germany,M,SE,,
+LECO,1989,2,3,SE,H,H,Shugart,,US,M,SE,,
 LECO,1989,2,3,SE,C,,Steinitz,,US,M,SE,,
 LECO,1989,2,3,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1989,2,3,SE,E,H,Zube,,US,M,SE,,
-LECO,1989,2,3,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1989,2,3,SE,G,,Haase,,Germany,M,SE,,
-LECO,1989,2,3,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1989,2,3,SE,H,H,Shugart,,US,M,SE,,
 LECO,1989,2,3,SE,I,S,Zonneveld,,Netherlands,M,SE,,
-LECO,1989,2,3,SE,K,F,Schreiber,,Germany,M,SE,,
-LECO,1989,2,3,SE,M,,Godron,,France,M,SE,,
-LECO,1989,2,3,SE,M,,Numata,,Japan,M,SE,,
-LECO,1989,2,3,SE,M,,Ruzicka,,Russia,F,SE,,
-LECO,1989,2,3,SE,P,G,Risser,,US,M,SE,,
-LECO,1989,2,3,SE,R,TT,Forman,,US,M,SE,,
-LECO,1989,2,3,SE,S,,Levin,,US,M,SE,,
-LECO,1989,2,3,SE,T,,Rosswall,,Sweden,M,SE,,
-LECO,1989,2,3,SE,W,,Haber,,Germany,M,SE,,
-LECO,1989,2,3,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1989,2,3,SE,E,H,Zube,,US,M,SE,,
+LECO,1990,5,1,EIC,Frank,,Golley,,US,M,EIC,,
+LECO,1990,5,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1990,5,1,SE,M,,Godron,,France,M,SE,,
+LECO,1990,5,1,SE,G,,Haase,,Germany,M,SE,,
+LECO,1990,5,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1990,5,1,SE,S,,Levin,,US,M,SE,,
+LECO,1990,5,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1990,5,1,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1990,5,1,SE,M,,Numata,,Japan,M,SE,,
 LECO,1990,5,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1990,5,1,SE,P,G,Risser,,US,M,SE,,
+LECO,1990,5,1,SE,T,,Rosswall,,Sweden,M,SE,,
+LECO,1990,5,1,SE,M,,Ruzicka,,Russia,F,SE,,
+LECO,1990,5,1,SE,K,F,Schreiber,,Germany,M,SE,,
+LECO,1990,5,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1990,5,1,SE,C,,Steinitz,,US,M,SE,,
 LECO,1990,5,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1990,5,1,SE,E,H,Zube,,US,M,SE,,
-LECO,1990,5,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1990,5,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1990,5,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1990,5,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1990,5,1,SE,I,S,Zonneveld,,Netherlands,M,SE,,
-LECO,1990,5,1,SE,K,F,Schreiber,,Germany,M,SE,,
-LECO,1990,5,1,SE,M,,Godron,,France,M,SE,,
-LECO,1990,5,1,SE,M,,Numata,,Japan,M,SE,,
-LECO,1990,5,1,SE,M,,Ruzicka,,Russia,F,SE,,
-LECO,1990,5,1,SE,P,G,Risser,,US,M,SE,,
-LECO,1990,5,1,SE,R,TT,Forman,,US,M,SE,,
-LECO,1990,5,1,SE,S,,Levin,,US,M,SE,,
-LECO,1990,5,1,SE,T,,Rosswall,,Sweden,M,SE,,
-LECO,1990,5,1,SE,W,,Haber,,Germany,M,SE,,
-LECO,1990,5,1,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1990,5,1,SE,E,H,Zube,,US,M,SE,,
+LECO,1991,6,1,EIC,Frank,,Golley,,US,M,EIC,,
+LECO,1991,6,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1991,6,1,SE,M,,Godron,,France,M,SE,,
+LECO,1991,6,1,SE,G,,Haase,,Germany,M,SE,,
+LECO,1991,6,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1991,6,1,SE,S,,Levin,,US,M,SE,,
+LECO,1991,6,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1991,6,1,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1991,6,1,SE,M,,Numata,,Japan,M,SE,,
 LECO,1991,6,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1991,6,1,SE,P,G,Risser,,US,M,SE,,
+LECO,1991,6,1,SE,T,,Rosswall,,Sweden,M,SE,,
+LECO,1991,6,1,SE,M,,Ruzicka,,Russia,F,SE,,
+LECO,1991,6,1,SE,K,F,Schreiber,,Germany,M,SE,,
+LECO,1991,6,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1991,6,1,SE,C,,Steinitz,,US,M,SE,,
 LECO,1991,6,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1991,6,1,SE,E,H,Zube,,US,M,SE,,
-LECO,1991,6,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1991,6,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1991,6,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1991,6,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1991,6,1,SE,I,S,Zonneveld,,Netherlands,M,SE,,
-LECO,1991,6,1,SE,K,F,Schreiber,,Germany,M,SE,,
-LECO,1991,6,1,SE,M,,Godron,,France,M,SE,,
-LECO,1991,6,1,SE,M,,Numata,,Japan,M,SE,,
-LECO,1991,6,1,SE,M,,Ruzicka,,Russia,F,SE,,
-LECO,1991,6,1,SE,P,G,Risser,,US,M,SE,,
-LECO,1991,6,1,SE,R,TT,Forman,,US,M,SE,,
-LECO,1991,6,1,SE,S,,Levin,,US,M,SE,,
-LECO,1991,6,1,SE,T,,Rosswall,,Sweden,M,SE,,
-LECO,1991,6,1,SE,W,,Haber,,Germany,M,SE,,
-LECO,1991,6,1,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1991,6,1,SE,E,H,Zube,,US,M,SE,,
+LECO,1992,7,1,EIC,Frank,,Golley,,US,M,EIC,,
+LECO,1992,7,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1992,7,1,SE,M,,Godron,,France,M,SE,,
+LECO,1992,7,1,SE,G,,Haase,,Germany,M,SE,,
+LECO,1992,7,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1992,7,1,SE,S,,Levin,,US,M,SE,,
+LECO,1992,7,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1992,7,1,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1992,7,1,SE,M,,Numata,,Japan,M,SE,,
 LECO,1992,7,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1992,7,1,SE,P,G,Risser,,US,M,SE,,
+LECO,1992,7,1,SE,T,,Rosswall,,Sweden,M,SE,,
+LECO,1992,7,1,SE,M,,Ruzicka,,Russia,F,SE,,
+LECO,1992,7,1,SE,K,F,Schreiber,,Germany,M,SE,,
+LECO,1992,7,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1992,7,1,SE,C,,Steinitz,,US,M,SE,,
 LECO,1992,7,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1992,7,1,SE,E,H,Zube,,US,M,SE,,
-LECO,1992,7,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1992,7,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1992,7,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1992,7,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1992,7,1,SE,I,S,Zonneveld,,Netherlands,M,SE,,
-LECO,1992,7,1,SE,K,F,Schreiber,,Germany,M,SE,,
-LECO,1992,7,1,SE,M,,Godron,,France,M,SE,,
-LECO,1992,7,1,SE,M,,Numata,,Japan,M,SE,,
-LECO,1992,7,1,SE,M,,Ruzicka,,Russia,F,SE,,
-LECO,1992,7,1,SE,P,G,Risser,,US,M,SE,,
-LECO,1992,7,1,SE,R,TT,Forman,,US,M,SE,,
-LECO,1992,7,1,SE,S,,Levin,,US,M,SE,,
-LECO,1992,7,1,SE,T,,Rosswall,,Sweden,M,SE,,
-LECO,1992,7,1,SE,W,,Haber,,Germany,M,SE,,
-LECO,1992,7,1,SE,Z,,Naveh,,Israel,M,SE,,
-LECO,1993,8,1,SE,A,F,Ramos,,Spain,M,SE,,
-LECO,1993,8,1,SE,E,,Fuentes,,Chile,M,SE,,
-LECO,1993,8,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1993,8,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1992,7,1,SE,E,H,Zube,,US,M,SE,,
 LECO,1993,8,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1993,8,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1993,8,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1993,8,1,SE,H,,Decamps,,France,M,SE,,
-LECO,1993,8,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1993,8,1,SE,J,,Brandt,,Denmark,M,SE,,
-LECO,1993,8,1,SE,J,,Nassauer,,US,M,SE,,
-LECO,1993,8,1,SE,J,A,Wiens,,US,M,SE,,
-LECO,1993,8,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
-LECO,1993,8,1,SE,M,,Turner,,US,F,SE,,
-LECO,1993,8,1,SE,N,,Nakagoshi,,Japan,M,SE,,
-LECO,1993,8,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1993,8,1,SE,H,,Decamps,,France,M,SE,,
 LECO,1993,8,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1993,8,1,SE,E,,Fuentes,,Chile,M,SE,,
+LECO,1993,8,1,SE,G,,Haase,,Germany,M,SE,,
 LECO,1993,8,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1993,8,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1993,8,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1993,8,1,SE,N,,Nakagoshi,,Japan,M,SE,,
+LECO,1993,8,1,SE,J,,Nassauer,,US,M,SE,,
 LECO,1993,8,1,SE,Z,,Naveh,,Israel,M,SE,,
-LECO,1994,9,1,SE,A,F,Ramos,,Spain,M,SE,,
-LECO,1994,9,1,SE,E,,Fuentes,,Chile,M,SE,,
-LECO,1994,9,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1994,9,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1993,8,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1993,8,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1993,8,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
+LECO,1993,8,1,SE,H,H,Shugart,,US,M,SE,,
+LECO,1993,8,1,SE,M,,Turner,,US,F,SE,,
+LECO,1993,8,1,SE,E,,VanDer,,Sweden,M,SE,,
+LECO,1993,8,1,SE,J,A,Wiens,,US,M,SE,,
 LECO,1994,9,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1994,9,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1994,9,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1994,9,1,SE,H,,Decamps,,France,M,SE,,
-LECO,1994,9,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1994,9,1,SE,J,,Brandt,,Denmark,M,SE,,
-LECO,1994,9,1,SE,J,,Nassauer,,US,M,SE,,
-LECO,1994,9,1,SE,J,A,Wiens,,US,M,SE,,
-LECO,1994,9,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
-LECO,1994,9,1,SE,M,,Turner,,US,F,SE,,
-LECO,1994,9,1,SE,N,,Nakagoshi,,Japan,M,SE,,
-LECO,1994,9,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1994,9,1,SE,H,,Decamps,,France,M,SE,,
 LECO,1994,9,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1994,9,1,SE,E,,Fuentes,,Chile,M,SE,,
+LECO,1994,9,1,SE,G,,Haase,,Germany,M,SE,,
 LECO,1994,9,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1994,9,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1994,9,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1994,9,1,SE,N,,Nakagoshi,,Japan,M,SE,,
+LECO,1994,9,1,SE,J,,Nassauer,,US,M,SE,,
 LECO,1994,9,1,SE,Z,,Naveh,,Israel,M,SE,,
-LECO,1995,10,1,SE,A,F,Ramos,,Spain,M,SE,,
-LECO,1995,10,1,SE,E,,Fuentes,,Chile,M,SE,,
-LECO,1995,10,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1995,10,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1994,9,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1994,9,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1994,9,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
+LECO,1994,9,1,SE,H,H,Shugart,,US,M,SE,,
+LECO,1994,9,1,SE,M,,Turner,,US,F,SE,,
+LECO,1994,9,1,SE,E,,VanDer,,Sweden,M,SE,,
+LECO,1994,9,1,SE,J,A,Wiens,,US,M,SE,,
 LECO,1995,10,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1995,10,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1995,10,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1995,10,1,SE,H,,Decamps,,France,M,SE,,
-LECO,1995,10,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1995,10,1,SE,J,,Brandt,,Denmark,M,SE,,
-LECO,1995,10,1,SE,J,,Nassauer,,US,M,SE,,
-LECO,1995,10,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
-LECO,1995,10,1,SE,M,,Turner,,US,F,SE,,
-LECO,1995,10,1,SE,N,,Nakagoshi,,Japan,M,SE,,
-LECO,1995,10,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1995,10,1,SE,H,,Decamps,,France,M,SE,,
 LECO,1995,10,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1995,10,1,SE,E,,Fuentes,,Chile,M,SE,,
+LECO,1995,10,1,SE,G,,Haase,,Germany,M,SE,,
 LECO,1995,10,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1995,10,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1995,10,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1995,10,1,SE,N,,Nakagoshi,,Japan,M,SE,,
+LECO,1995,10,1,SE,J,,Nassauer,,US,M,SE,,
 LECO,1995,10,1,SE,Z,,Naveh,,Israel,M,SE,,
-LECO,1996,11,1,SE,A,F,Ramos,,Spain,M,SE,,
-LECO,1996,11,1,SE,E,,Fuentes,,Chile,M,SE,,
-LECO,1996,11,1,SE,E,,VanDer,,Sweden,M,SE,,
-LECO,1996,11,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1995,10,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1995,10,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1995,10,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
+LECO,1995,10,1,SE,H,H,Shugart,,US,M,SE,,
+LECO,1995,10,1,SE,M,,Turner,,US,F,SE,,
+LECO,1995,10,1,SE,E,,VanDer,,Sweden,M,SE,,
 LECO,1996,11,1,EIC,Frank,,Golley,,US,M,EIC,,
-LECO,1996,11,1,SE,G,,Haase,,Germany,M,SE,,
-LECO,1996,11,1,SE,G,,Merriam,,Canada,M,SE,,
-LECO,1996,11,1,SE,H,,Decamps,,France,M,SE,,
-LECO,1996,11,1,SE,H,H,Shugart,,US,M,SE,,
 LECO,1996,11,1,SE,J,,Brandt,,Denmark,M,SE,,
+LECO,1996,11,1,SE,H,,Decamps,,France,M,SE,,
+LECO,1996,11,1,SE,R,TT,Forman,,US,M,SE,,
+LECO,1996,11,1,SE,E,,Fuentes,,Chile,M,SE,,
+LECO,1996,11,1,SE,G,,Haase,,Germany,M,SE,,
+LECO,1996,11,1,SE,W,,Haber,,Germany,M,SE,,
+LECO,1996,11,1,SE,F,,Kienast,,Switzerland,M,SE,,
+LECO,1996,11,1,SE,G,,Merriam,,Canada,M,SE,,
+LECO,1996,11,1,SE,N,,Nakagoshi,,Japan,M,SE,,
 LECO,1996,11,1,SE,J,,Nassauer,,US,M,SE,,
+LECO,1996,11,1,SE,Z,,Naveh,,Israel,M,SE,,
+LECO,1996,11,1,SE,P,,Opdam,,Netherlands,M,SE,,
+LECO,1996,11,1,SE,A,F,Ramos,,Spain,M,SE,,
+LECO,1996,11,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
+LECO,1996,11,1,SE,H,H,Shugart,,US,M,SE,,
+LECO,1996,11,1,SE,M,,Turner,,US,F,SE,,
+LECO,1996,11,1,SE,E,,VanDer,,Sweden,M,SE,,
 LECO,1996,10,1,SE,J,A,Wiens,,US,M,SE,,
 LECO,1996,11,1,SE,J,A,Wiens,,US,M,SE,,
-LECO,1996,11,1,SE,M,,Ruzicka,,Slovakia,F,SE,,
-LECO,1996,11,1,SE,M,,Turner,,US,F,SE,,
-LECO,1996,11,1,SE,N,,Nakagoshi,,Japan,M,SE,,
-LECO,1996,11,1,SE,P,,Opdam,,Netherlands,M,SE,,
-LECO,1996,11,1,SE,R,TT,Forman,,US,M,SE,,
-LECO,1996,11,1,SE,W,,Haber,,Germany,M,SE,,
-LECO,1996,11,1,SE,Z,,Naveh,,Israel,M,SE,,
-LECO,1997,12,1,SE,A,F,Ramos,,Spain,,SE,,
-LECO,1997,12,1,SE,C,W,Johnson,,US,,SE,,
-LECO,1997,12,1,SE,E,,Fuentes,,Chile,,SE,,
-LECO,1997,12,1,SE,E,,VanDer,,Sweden,,SE,,
-LECO,1997,12,1,SE,F,,Kienast,,Switzerland,,SE,,
-LECO,1997,12,1,SE,Frank,,Golley,,US,,SE,,
-LECO,1997,12,1,SE,G,,Merriam,,Canada,,SE,,
-LECO,1997,12,1,SE,H,,Decamps,,France,,SE,,
+LECO,1997,12,1,EIC,R,H,Gardner,,US,,EIC,,
 LECO,1997,12,1,SE,J,,Brandt,,Denmark,,SE,,
+LECO,1997,12,1,SE,H,,Decamps,,France,,SE,,
+LECO,1997,12,1,SE,R,TT,Forman,,US,,SE,,
+LECO,1997,12,1,SE,E,,Fuentes,,Chile,,SE,,
+LECO,1997,12,1,SE,Frank,,Golley,,US,,SE,,
+LECO,1997,12,1,SE,W,,Haber,,Germany,,SE,,
+LECO,1997,12,1,SE,C,W,Johnson,,US,,SE,,
+LECO,1997,12,1,SE,F,,Kienast,,Switzerland,,SE,,
+LECO,1997,12,1,SE,G,,Merriam,,Canada,,SE,,
+LECO,1997,12,1,SE,N,,Nakagoshi,,Japan,,SE,,
 LECO,1997,12,1,SE,J,,Nassauer,,US,,SE,,
-LECO,1997,12,1,SE,J,A,Wiens,,US,,SE,,
+LECO,1997,12,1,SE,Z,,Naveh,,Israel,,SE,,
+LECO,1997,12,1,SE,P,,Opdam,,Netherlands,,SE,,
+LECO,1997,12,1,SE,A,F,Ramos,,Spain,,SE,,
 LECO,1997,12,1,SE,M,,Ruzicka,,Slovakia,,SE,,
 LECO,1997,12,1,SE,M,,Turner,,US,,SE,,
-LECO,1997,12,1,SE,N,,Nakagoshi,,Japan,,SE,,
-LECO,1997,12,1,SE,P,,Opdam,,Netherlands,,SE,,
-LECO,1997,12,1,SE,R,TT,Forman,,US,,SE,,
-LECO,1997,12,1,EIC,R,H,Gardner,,US,,EIC,,
-LECO,1997,12,1,SE,W,,Haber,,Germany,,SE,,
-LECO,1997,12,1,SE,Z,,Naveh,,Israel,,SE,,
-LECO,1998,13,1,SE,A,F,Ramos,,Spain,,SE,,Ciudad Universitaria
-LECO,1998,13,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
-LECO,1998,13,1,SE,E,,Fuentes,,Chile,,SE,,Universidad Catolica de Chile
-LECO,1998,13,1,SE,E,,VanDer,,Sweden,,SE,,Institute of ecological botany
-LECO,1998,13,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,1998,13,1,SE,Frank,,Golley,,US,,SE,,Univ. of Georgia
-LECO,1998,13,1,SE,G,,Merriam,,Canada,,SE,,Carleton University
-LECO,1998,13,1,SE,H,,Decamps,,France,,SE,,Centre de Ecologie des resources
+LECO,1997,12,1,SE,E,,VanDer,,Sweden,,SE,,
+LECO,1997,12,1,SE,J,A,Wiens,,US,,SE,,
+LECO,1998,13,1,EIC,R,H,Gardner,,US,,EIC,,University of Maryland
 LECO,1998,13,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
+LECO,1998,13,1,SE,H,,Decamps,,France,,SE,,Centre de Ecologie des resources
+LECO,1998,13,1,SE,R,TT,Forman,,US,,SE,,Harvard University
+LECO,1998,13,1,SE,E,,Fuentes,,Chile,,SE,,Universidad Catolica de Chile
+LECO,1998,13,1,SE,Frank,,Golley,,US,,SE,,Univ. of Georgia
+LECO,1998,13,1,SE,W,,Haber,,Germany,,SE,,Universitat Munchen
+LECO,1998,13,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
+LECO,1998,13,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,1998,13,1,SE,G,,Merriam,,Canada,,SE,,Carleton University
+LECO,1998,13,1,SE,N,,Nakagoshi,,Japan,,SE,,Hiroshima University
 LECO,1998,13,1,SE,J,,Nassauer,,US,,SE,,University of Minnesota
-LECO,1998,13,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
+LECO,1998,13,1,SE,Z,,Naveh,,Israel,,SE,,Technion Israel inst. Of Technology
+LECO,1998,13,1,SE,P,,Opdam,,Netherlands,,SE,,Institute of forestry and nature research
+LECO,1998,13,1,SE,A,F,Ramos,,Spain,,SE,,Ciudad Universitaria
 LECO,1998,13,1,SE,M,,Ruzicka,,Slovakia,,SE,,Center of biological and ecological sciences
 LECO,1998,13,1,SE,M,,Turner,,US,,SE,,Oak Ridge national laboratory
-LECO,1998,13,1,SE,N,,Nakagoshi,,Japan,,SE,,Hiroshima University
-LECO,1998,13,1,SE,P,,Opdam,,Netherlands,,SE,,Institute of forestry and nature research
-LECO,1998,13,1,SE,R,TT,Forman,,US,,SE,,Harvard University
-LECO,1998,13,1,EIC,R,H,Gardner,,US,,EIC,,University of Maryland
-LECO,1998,13,1,SE,W,,Haber,,Germany,,SE,,Universitat Munchen
-LECO,1998,13,1,SE,Z,,Naveh,,Israel,,SE,,Technion Israel inst. Of Technology
-LECO,1999,14,1,SE,Bruce,,Milne,,US,,SE,,Univ. of New Mexico
-LECO,1999,14,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
-LECO,1999,14,1,SE,D,,Lindenmayer,,Australia,,SE,,The Australian National Univ.
-LECO,1999,14,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
-LECO,1999,14,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
-LECO,1999,14,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,1999,14,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
-LECO,1999,14,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
-LECO,1999,14,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
-LECO,1999,14,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
-LECO,1999,14,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
-LECO,1999,14,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
-LECO,1999,14,1,SE,L,,Hannson,,Sweden,,SE,,"Department of Conservation Biology, SLU"
-LECO,1999,14,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
-LECO,1999,14,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
-LECO,1999,14,1,SE,Louis,,Iverson,,US,,SE,,USDA Forest Service
-LECO,1999,14,1,SE,M,,Fortin,,Canada,,SE,,University of Montreal
+LECO,1998,13,1,SE,E,,VanDer,,Sweden,,SE,,Institute of ecological botany
+LECO,1998,13,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
 LECO,1999,14,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
 LECO,1999,14,1,EIC,R,H,Gardner,,US,,EIC,,University of Maryland
-LECO,1999,14,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
+LECO,1999,14,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
+LECO,1999,14,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
+LECO,1999,14,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
 LECO,1999,14,1,SE,Robert,,Bunce,,UK,,SE,,Inst. Of Terrestrial Ecology
-LECO,1999,14,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
-LECO,1999,14,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,1999,14,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
 LECO,1999,14,1,SE,Virginia,,Dale,,US,,SE,,Oak Ridge national laboratory
+LECO,1999,14,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
+LECO,1999,14,1,SE,M,,Fortin,,Canada,,SE,,University of Montreal
+LECO,1999,14,1,SE,L,,Hannson,,Sweden,,SE,,"Department of Conservation Biology, SLU"
+LECO,1999,14,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
+LECO,1999,14,1,SE,Louis,,Iverson,,US,,SE,,USDA Forest Service
+LECO,1999,14,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
+LECO,1999,14,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,1999,14,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
+LECO,1999,14,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,1999,14,1,SE,D,,Lindenmayer,,Australia,,SE,,The Australian National Univ.
+LECO,1999,14,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
+LECO,1999,14,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
+LECO,1999,14,1,SE,Bruce,,Milne,,US,,SE,,Univ. of New Mexico
+LECO,1999,14,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
 LECO,1999,14,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
-LECO,2000,15,1,SE,Bruce,,Milne,,US,,SE,,Univ. of New Mexico
-LECO,2000,15,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
-LECO,2000,15,1,SE,D,,Lindenmayer,,Australia,,SE,,The Australian National Univ.
-LECO,2000,15,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
-LECO,2000,15,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
+LECO,1999,14,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
+LECO,1999,14,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2000,15,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
 LECO,2000,15,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
+LECO,2000,15,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
+LECO,2000,15,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
+LECO,2000,15,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
+LECO,2000,15,1,SE,Robert,,Bunce,,UK,,SE,,Inst. Of Terrestrial Ecology
+LECO,2000,15,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
+LECO,2000,15,1,SE,Virginia,,Dale,,US,,SE,,Oak Ridge national laboratory
+LECO,2000,15,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
+LECO,2000,15,1,SE,M,,Fortin,,Canada,,SE,,University of Montreal
+LECO,2000,15,1,SE,L,,Hannson,,Sweden,,SE,,"Department of Conservation Biology, SLU"
+LECO,2000,15,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
+LECO,2000,15,1,SE,Louis,,Iverson,,US,,SE,,USDA Forest Service
+LECO,2000,15,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
 LECO,2000,15,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
 LECO,2000,15,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
-LECO,2000,15,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
-LECO,2000,15,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
-LECO,2000,15,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
-LECO,2000,15,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
-LECO,2000,15,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
-LECO,2000,15,1,SE,L,,Hannson,,Sweden,,SE,,"Department of Conservation Biology, SLU"
-LECO,2000,15,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
-LECO,2000,15,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
-LECO,2000,15,1,SE,Louis,,Iverson,,US,,SE,,USDA Forest Service
-LECO,2000,15,1,SE,M,,Fortin,,Canada,,SE,,University of Montreal
-LECO,2000,15,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
-LECO,2000,15,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
-LECO,2000,15,1,SE,Robert,,Bunce,,UK,,SE,,Inst. Of Terrestrial Ecology
-LECO,2000,15,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
 LECO,2000,15,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
-LECO,2000,15,1,SE,Virginia,,Dale,,US,,SE,,Oak Ridge national laboratory
+LECO,2000,15,1,SE,D,,Lindenmayer,,Australia,,SE,,The Australian National Univ.
+LECO,2000,15,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
+LECO,2000,15,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
+LECO,2000,15,1,SE,Bruce,,Milne,,US,,SE,,Univ. of New Mexico
+LECO,2000,15,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
 LECO,2000,15,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
-LECO,2001,17,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
-LECO,2001,17,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
-LECO,2001,17,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
+LECO,2000,15,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
+LECO,2000,15,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2001,17,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
 LECO,2001,16,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
-LECO,2001,17,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2001,17,1,SE,Frank,,Golley,,US,,SE,,Univ. of Georgia
-LECO,2001,17,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
-LECO,2001,17,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
-LECO,2001,17,1,SE,H,,Decamps,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2001,17,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
 LECO,2001,17,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
 LECO,2001,17,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
-LECO,2001,17,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
-LECO,2001,17,1,SE,Janet,,Franklin,,US,,SE,,San Diego State Univ
-LECO,2001,17,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ.-West
-LECO,2001,17,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
-LECO,2001,17,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
-LECO,2001,17,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
-LECO,2001,17,1,SE,L,,Hannson,,Sweden,,SE,,"Department of Conservation Biology, SLU"
-LECO,2001,17,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
-LECO,2001,17,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
-LECO,2001,17,1,SE,Louis,,Iverson,,US,,SE,,USDA Forest Service
-LECO,2001,17,1,SE,M,,Fortin,,Canada,,SE,,University of Montreal
-LECO,2001,17,1,SE,M,,Turner,,US,,SE,,Univ. of Wisconsin 
-LECO,2001,17,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
-LECO,2001,17,1,SE,N,,Nakagoshi,,Japan,,SE,,Hiroshima University
-LECO,2001,17,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
-LECO,2001,17,1,SE,R,TT,Forman,,US,,SE,,Harvard University
-LECO,2001,17,1,SE,R,H,Gardner,,US,,SE,,Univ. of Maryland
-LECO,2001,17,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
+LECO,2001,17,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
 LECO,2001,17,1,SE,Robert,,Bunce,,UK,,SE,,Inst. Of Terrestrial Ecology
-LECO,2001,17,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
-LECO,2001,17,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2001,17,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
 LECO,2001,17,1,SE,Virginia,,Dale,,US,,SE,,Oak Ridge national laboratory
-LECO,2001,17,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
+LECO,2001,17,1,SE,H,,Decamps,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2001,17,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
+LECO,2001,17,1,SE,R,TT,Forman,,US,,SE,,Harvard University
+LECO,2001,17,1,SE,M,,Fortin,,Canada,,SE,,University of Montreal
+LECO,2001,17,1,SE,Janet,,Franklin,,US,,SE,,San Diego State Univ
+LECO,2001,17,1,SE,R,H,Gardner,,US,,SE,,Univ. of Maryland
+LECO,2001,17,1,SE,Frank,,Golley,,US,,SE,,Univ. of Georgia
+LECO,2001,17,1,SE,L,,Hannson,,Sweden,,SE,,"Department of Conservation Biology, SLU"
+LECO,2001,17,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
+LECO,2001,17,1,SE,Louis,,Iverson,,US,,SE,,USDA Forest Service
+LECO,2001,17,1,SE,C,W,Johnson,,US,,SE,,South Dakota State Univ.
+LECO,2001,17,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2001,17,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
+LECO,2001,17,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2001,17,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
+LECO,2001,17,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
+LECO,2001,17,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
+LECO,2001,17,1,SE,N,,Nakagoshi,,Japan,,SE,,Hiroshima University
 LECO,2001,17,1,SE,Z,,Naveh,,Israel,,SE,,Technion Israel inst. Of Technology
-LECO,2002,18,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
-LECO,2002,18,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
+LECO,2001,17,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
+LECO,2001,17,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
+LECO,2001,17,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
+LECO,2001,17,1,SE,M,,Turner,,US,,SE,,Univ. of Wisconsin 
+LECO,2001,17,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
+LECO,2001,17,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2001,17,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ.-West
+LECO,2002,18,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
 LECO,2002,18,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
-LECO,2002,18,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2002,18,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
-LECO,2002,18,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
-LECO,2002,18,1,SE,H,,Decamps,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2002,18,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
 LECO,2002,18,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
 LECO,2002,18,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
-LECO,2002,18,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
-LECO,2002,18,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
-LECO,2002,18,1,SE,Janet,,Franklin,,US,,SE,,San Diego State Univ
-LECO,2002,18,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ.-West
-LECO,2002,18,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
-LECO,2002,18,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2002,18,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
+LECO,2002,18,1,SE,Robert,,Bunce,,UK,,SE,,Inst. Of Terrestrial Ecology
+LECO,2002,18,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
+LECO,2002,18,1,SE,Virginia,,Dale,,US,,SE,,Oak Ridge national laboratory
+LECO,2002,18,1,SE,H,,Decamps,,France,,SE,,Centre National De la Recherche Scientifique
 LECO,2002,18,1,SE,L,,Fahrig,,Canada,,SE,,Carleton University
+LECO,2002,18,1,SE,Janet,,Franklin,,US,,SE,,San Diego State Univ
+LECO,2002,18,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
+LECO,2002,18,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2002,18,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
+LECO,2002,18,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2002,18,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
 LECO,2002,18,1,SE,Ladislav,,Miklos,,Slovakia,,SE,,Inst. Of Lanscape Ecology
+LECO,2002,18,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
+LECO,2002,18,1,SE,N,,Nakagoshi,,Japan,,SE,,Hiroshima University
+LECO,2002,18,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
+LECO,2002,18,1,SE,Z,,Naveh,,Israel,,SE,,Technion Israel inst. Of Technology
+LECO,2002,18,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
+LECO,2002,18,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
 LECO,2002,18,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
 LECO,2002,18,1,SE,M,,Turner,,US,,SE,,Univ. of Wisconsin 
-LECO,2002,18,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
-LECO,2002,18,1,SE,N,,Nakagoshi,,Japan,,SE,,Hiroshima University
-LECO,2002,18,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
-LECO,2002,18,1,SE,R,,Hobbs,,Australia,,SE,,CSIRO Wildlife and Ecology
-LECO,2002,18,1,SE,Robert,,Bunce,,UK,,SE,,Inst. Of Terrestrial Ecology
-LECO,2002,18,1,SE,Robert,,Naiman,,US,,SE,,Univ. of Washington
-LECO,2002,18,1,SE,Sandra,,Lavorel,,France,,SE,,Centre National De la Recherche Scientifique
-LECO,2002,18,1,SE,Virginia,,Dale,,US,,SE,,Oak Ridge national laboratory
-LECO,2002,18,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
-LECO,2002,18,1,SE,Z,,Naveh,,Israel,,SE,,Technion Israel inst. Of Technology
+LECO,2002,18,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
+LECO,2002,18,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2002,18,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ.-West
+LECO,2003,19,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
+LECO,2003,19,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
+LECO,2003,19,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
+LECO,2003,19,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
+LECO,2003,19,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
 LECO,2003,19,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
 LECO,2003,19,1,SE,David,,Butler,,US,,SE,,Southwest Texas State Univ
-LECO,2003,19,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
-LECO,2003,19,1,SE,Dean,,Urban,,US,,SE,,Duke University
+LECO,2003,19,1,SE,H,,Decamps,,France,,SE,,Centre National De la Recherche Scientifique
+LECO,2003,19,1,SE,Janet,,Franklin,,US,,SE,,San Diego State Univ
+LECO,2003,19,1,SE,Qiong,,Gao,,China,,SE,,Beijing Normal University
+LECO,2003,19,1,SE,Lucinda,B,Johnson,,US,F,SE,,University of Minnesota
 LECO,2003,19,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
 LECO,2003,19,1,SE,Frans,,Klijn,,Netherlands,,SE,,Delft Hydraulica
 LECO,2003,19,1,SE,George,,Malanson,,US,,SE,,Univ. of Iowa
-LECO,2003,19,1,SE,H,,Decamps,,France,,SE,,Centre National De la Recherche Scientifique
-LECO,2003,19,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
-LECO,2003,19,1,SE,J,,Breuste,,Germany,,SE,,Univ. of Leipzig
-LECO,2003,19,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
-LECO,2003,19,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
-LECO,2003,19,1,SE,James,,Wickham,,US,,SE,,National Exposure Research Laboratory
-LECO,2003,19,1,SE,Janet,,Franklin,,US,,SE,,San Diego State Univ
-LECO,2003,19,1,SE,Jari,,Niemela,,Finland,,SE,,Univ. of Helsinki
 LECO,2003,19,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2003,19,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ.-West
-LECO,2003,19,1,SE,Juan,,Abad,,Spain,,SE,,Universidad de Alicante
-LECO,2003,19,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
-LECO,2003,19,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
-LECO,2003,19,1,SE,Lucinda,B,Johnson,,US,F,SE,,University of Minnesota
-LECO,2003,19,1,SE,M,,Turner,,US,F,SE,,Univ. of Wisconsin 
-LECO,2003,19,1,AE,Marc,,Antrop,,Belgium,,AE,,University of Ghent
+LECO,2003,19,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
+LECO,2003,19,1,SE,Jari,,Niemela,,Finland,,SE,,Univ. of Helsinki
 LECO,2003,19,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
-LECO,2003,19,1,SE,Qiong,,Gao,,China,,SE,,Beijing Normal University
 LECO,2003,19,1,SE,W,,Romme,,US,,SE,,Fort Lewis College
-LECO,2004,19,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
+LECO,2003,19,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
+LECO,2003,19,1,SE,M,,Turner,,US,F,SE,,Univ. of Wisconsin 
+LECO,2003,19,1,SE,Dean,,Urban,,US,,SE,,Duke University
+LECO,2003,19,1,SE,James,,Wickham,,US,,SE,,National Exposure Research Laboratory
+LECO,2003,19,1,SE,J,A,Wiens,,US,,SE,,Colorado state university
+LECO,2003,19,1,SE,Kimberly,A,With,,US,,SE,,Bowling Green State Univ.
+LECO,2003,19,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ.-West
 LECO,2004,19,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
+LECO,2004,19,1,EIC,David,,Mladenoff,,US,,EIC,,Univ. of Wisconsin 
+LECO,2004,19,1,SE,Kimberly,,A.,,US,,SE,,Kansas State Univ. 
 LECO,2004,19,1,SE,Juan,,Abad,,Spain,,SE,,Univ. of Alicante
 LECO,2004,19,1,SE,Jesper ,,Brandt,,Denmark,,SE,,Roskilde University
 LECO,2004,19,1,SE,Daniel,,Brown,,US,,SE,,Univ. of Michigan
@@ -370,310 +371,496 @@ LECO,2004,19,1,SE,Monica,,Turner,,US,,SE,,Univ. of Wisconsin
 LECO,2004,19,1,SE,Dean,,Urban,,US,,SE,,Duke University
 LECO,2004,19,1,SE,James,,Wickham,,US,,SE,,Environment Protection Agency
 LECO,2004,19,1,SE,John,,Wiens,,US,,SE,,The nature conservancy 
-LECO,2004,19,1,SE,Kimberly,,A.,,US,,SE,,Kansas State Univ. 
 LECO,2004,19,1,SE,Jianguo,,Wu,,US,,SE,,Arizona State Univ. Tempe
-LECO,2005,20,1,SE,C,H,Flather,,US,,SE,,USDA Forest Service
-LECO,2005,20,1,SE,D,,Brown,,US,,SE,,Univ. of Michigan
-LECO,2005,20,1,SE,D,L,Urban,,US,,SE,,Duke University
-LECO,2005,20,1,SE,David,,Mladenoff,,US,,SE,,Univ. of Wisconsin 
-LECO,2005,20,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
-LECO,2005,20,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2005,20,1,SE,F,KA,Schmiegelow,,Canada,,SE,,Univ. of Alberta
-LECO,2005,20,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2005,20,1,SE,G,P,Malanson,,US,,SE,,Univ. of Iowa
-LECO,2005,20,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
-LECO,2005,20,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
-LECO,2005,20,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
-LECO,2005,20,1,SE,J,,Franklin,,US,,SE,,San Diego State Univ
-LECO,2005,20,1,SE,J,,Liu,,US,,SE,,Michigan State Univ.
-LECO,2005,20,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
-LECO,2005,20,1,SE,J,,Niemala,,Finland,,SE,,Univ. of Helsinki
-LECO,2005,20,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
-LECO,2005,20,1,SE,J,A,Wiens,,US,,SE,,The nature conservancy Vienna
-LECO,2005,20,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2005,20,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
 LECO,2005,20,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
 LECO,2005,20,1,SE,Juan,,Abad,,Spain,,SE,,Univ. of Alicante
-LECO,2005,20,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2005,20,1,SE,Kimberly,A,With,,US,,SE,,Kansas State Univ. 
-LECO,2005,20,1,SE,L,,Walker,,US,,SE,,Univ. of Nevada
-LECO,2005,20,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
-LECO,2005,20,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2005,20,1,SE,M,A,Bowers,,US,,SE,,Univ. of Virginia
-LECO,2005,20,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
-LECO,2005,20,1,SE,O,,Mander,,Estonia,,SE,,Univ. of Tartu
-LECO,2005,20,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
-LECO,2005,20,1,SE,Qiong,,Gao,,China,,SE,,Beijing Normal University
-LECO,2005,20,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
-LECO,2005,20,1,SE,T,,Kratz,,US,,SE,,Univ. of Wisconsin 
-LECO,2005,20,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
-LECO,2005,20,1,SE,W,,Romme,,US,,SE,,Colorado state university
+LECO,2005,20,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
 LECO,2005,20,1,SE,Y,,Bergeron,,Canada,,SE,,Univ. of Quebec
-LECO,2006,21,1,SE,C,H,Flather,,US,,SE,,USDA Forest Service
-LECO,2006,21,1,SE,D,,Brown,,US,,SE,,Univ. of Michigan
-LECO,2006,21,1,SE,D,L,Urban,,US,,SE,,Duke University
-LECO,2006,21,1,SE,David,,Mladenoff,,US,,SE,,Univ. of Wisconsin 
-LECO,2006,21,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
-LECO,2006,21,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2006,21,1,SE,F,KA,Schmiegelow,,Canada,,SE,,Univ. of Alberta
-LECO,2006,21,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2006,21,1,SE,G,P,Malanson,,US,,SE,,Univ. of Iowa
-LECO,2006,21,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
-LECO,2006,21,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
-LECO,2006,21,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
-LECO,2006,21,1,SE,J,,Franklin,,US,,SE,,San Diego State Univ
-LECO,2006,21,1,SE,J,,Liu,,US,,SE,,Michigan State Univ.
-LECO,2006,21,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
-LECO,2006,21,1,SE,J,,Niemala,,Finland,,SE,,Univ. of Helsinki
-LECO,2006,21,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
-LECO,2006,21,1,SE,J,A,Wiens,,US,,SE,,The nature conservancy Vienna
-LECO,2006,21,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2005,20,1,SE,M,A,Bowers,,US,,SE,,Univ. of Virginia
+LECO,2005,20,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
+LECO,2005,20,1,SE,D,,Brown,,US,,SE,,Univ. of Michigan
+LECO,2005,20,1,SE,C,H,Flather,,US,,SE,,USDA Forest Service
+LECO,2005,20,1,SE,J,,Franklin,,US,,SE,,San Diego State Univ
+LECO,2005,20,1,SE,Qiong,,Gao,,China,,SE,,Beijing Normal University
+LECO,2005,20,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2005,20,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
+LECO,2005,20,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2005,20,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2005,20,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2005,20,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2005,20,1,SE,T,,Kratz,,US,,SE,,Univ. of Wisconsin 
+LECO,2005,20,1,SE,J,,Liu,,US,,SE,,Michigan State Univ.
+LECO,2005,20,1,SE,G,P,Malanson,,US,,SE,,Univ. of Iowa
+LECO,2005,20,1,SE,O,,Mander,,Estonia,,SE,,Univ. of Tartu
+LECO,2005,20,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2005,20,1,SE,David,,Mladenoff,,US,,SE,,Univ. of Wisconsin 
+LECO,2005,20,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
+LECO,2005,20,1,SE,J,,Niemala,,Finland,,SE,,Univ. of Helsinki
+LECO,2005,20,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
+LECO,2005,20,1,SE,W,,Romme,,US,,SE,,Colorado state university
+LECO,2005,20,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
+LECO,2005,20,1,SE,F,KA,Schmiegelow,,Canada,,SE,,Univ. of Alberta
+LECO,2005,20,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
+LECO,2005,20,1,SE,D,L,Urban,,US,,SE,,Duke University
+LECO,2005,20,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2005,20,1,SE,L,,Walker,,US,,SE,,Univ. of Nevada
+LECO,2005,20,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
+LECO,2005,20,1,SE,J,A,Wiens,,US,,SE,,The nature conservancy Vienna
+LECO,2005,20,1,SE,Kimberly,A,With,,US,,SE,,Kansas State Univ. 
+LECO,2006,21,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
 LECO,2006,21,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
 LECO,2006,21,1,SE,Juan,,Abad,,Spain,,SE,,Univ. of Alicante
-LECO,2006,21,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2006,21,1,SE,Kimberly,A,With,,US,,SE,,Kansas State Univ. 
-LECO,2006,21,1,SE,L,,Walker,,US,,SE,,Univ. of Nevada
-LECO,2006,21,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
-LECO,2006,21,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2006,21,1,SE,M,A,Bowers,,US,,SE,,Univ. of Virginia
-LECO,2006,21,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
-LECO,2006,21,1,SE,O,,Mander,,Estonia,,SE,,Univ. of Tartu
-LECO,2006,21,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
-LECO,2006,21,1,SE,Qiong,,Gao,,China,,SE,,Beijing Normal University
-LECO,2006,21,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
-LECO,2006,21,1,SE,T,,Kratz,,US,,SE,,Univ. of Wisconsin 
-LECO,2006,21,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
-LECO,2006,21,1,SE,W,,Romme,,US,,SE,,Colorado state university
+LECO,2006,21,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
 LECO,2006,21,1,SE,Y,,Bergeron,,Canada,,SE,,Univ. of Quebec
-LECO,2007,22,1,SE,A,,Farina,,Italy,,SE,,Univ. of Arbino
-LECO,2007,22,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
-LECO,2007,22,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
-LECO,2007,22,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
-LECO,2007,22,1,SE,C,H,Flather,,US,,SE,,USDA Forest Service
-LECO,2007,22,1,SE,D,P,Anderson,,US,,SE,,Univ. of Wisconsin 
-LECO,2007,22,1,SE,D,E,Jelinski,,Canada,,SE,,Queen's University
-LECO,2007,22,1,SE,D,L,Urban,,US,,SE,,Duke University
-LECO,2007,22,1,SE,E,,Gustafson,,US,,SE,,Landscape ecology unit Rhinelander
-LECO,2007,22,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2007,22,1,SE,G,,Foody,,UK,,SE,,Univ. of Southampton
-LECO,2007,22,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2007,22,1,SE,H,,Li,,US,,SE,,USDA Forest Service
-LECO,2007,22,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2006,21,1,SE,M,A,Bowers,,US,,SE,,Univ. of Virginia
+LECO,2006,21,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
+LECO,2006,21,1,SE,D,,Brown,,US,,SE,,Univ. of Michigan
+LECO,2006,21,1,SE,C,H,Flather,,US,,SE,,USDA Forest Service
+LECO,2006,21,1,SE,J,,Franklin,,US,,SE,,San Diego State Univ
+LECO,2006,21,1,SE,Qiong,,Gao,,China,,SE,,Beijing Normal University
+LECO,2006,21,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2006,21,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
+LECO,2006,21,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2006,21,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2006,21,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2006,21,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2006,21,1,SE,T,,Kratz,,US,,SE,,Univ. of Wisconsin 
+LECO,2006,21,1,SE,J,,Liu,,US,,SE,,Michigan State Univ.
+LECO,2006,21,1,SE,G,P,Malanson,,US,,SE,,Univ. of Iowa
+LECO,2006,21,1,SE,O,,Mander,,Estonia,,SE,,Univ. of Tartu
+LECO,2006,21,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2006,21,1,SE,David,,Mladenoff,,US,,SE,,Univ. of Wisconsin 
+LECO,2006,21,1,SE,J,,Nassauer,,US,,SE,,Univ. of Michigan
+LECO,2006,21,1,SE,J,,Niemala,,Finland,,SE,,Univ. of Helsinki
+LECO,2006,21,1,SE,P,,Opdam,,Netherlands,,SE,,Department of Landscape Ecoloy
+LECO,2006,21,1,SE,W,,Romme,,US,,SE,,Colorado state university
+LECO,2006,21,1,SE,Lech,,Ryszkowski,,Poland,,SE,,Polish Academy of Science
+LECO,2006,21,1,SE,F,KA,Schmiegelow,,Canada,,SE,,Univ. of Alberta
+LECO,2006,21,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
+LECO,2006,21,1,SE,D,L,Urban,,US,,SE,,Duke University
+LECO,2006,21,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2006,21,1,SE,L,,Walker,,US,,SE,,Univ. of Nevada
+LECO,2006,21,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
+LECO,2006,21,1,SE,J,A,Wiens,,US,,SE,,The nature conservancy Vienna
+LECO,2006,21,1,SE,Kimberly,A,With,,US,,SE,,Kansas State Univ. 
+LECO,2007,22,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
+LECO,2007,22,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
 LECO,2007,22,1,SE,J,,Ahem,,US,,SE,,Univ. of Massachusetts
+LECO,2007,22,1,SE,D,P,Anderson,,US,,SE,,Univ. of Wisconsin 
 LECO,2007,22,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
+LECO,2007,22,1,SE,M,A,Bowers,,US,,SE,,USDA Forest Service
 LECO,2007,22,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
 LECO,2007,22,1,SE,J,,Briggs,,US,,SE,,Arizona State Univ.-Tempe
-LECO,2007,22,1,SE,J,,Ludwig,,Australia,,SE,,CSIRO sustainable ecosystems
-LECO,2007,22,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
-LECO,2007,22,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
-LECO,2007,22,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2007,22,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
-LECO,2007,22,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2007,22,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
-LECO,2007,22,1,SE,K,,Riitters,,US,,SE,,USDA Forest Service
-LECO,2007,22,1,SE,L,,Gillson,,UK,,SE,,Univ. of Oxford
-LECO,2007,22,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2007,22,1,SE,M,A,Bowers,,US,,SE,,USDA Forest Service
-LECO,2007,22,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
-LECO,2007,22,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallia"
-LECO,2007,22,1,SE,O,,Mander,,Estonia,,SE,,Univ. of Tartu
-LECO,2007,22,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
-LECO,2007,22,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
-LECO,2007,22,1,SE,S,,Harrison,,US,,SE,,"Univ. of California, Davis"
 LECO,2007,22,1,SE,T,,Crist,,US,,SE,,Miami University
+LECO,2007,22,1,SE,A,,Farina,,Italy,,SE,,Univ. of Arbino
+LECO,2007,22,1,SE,C,H,Flather,,US,,SE,,USDA Forest Service
+LECO,2007,22,1,SE,G,,Foody,,UK,,SE,,Univ. of Southampton
+LECO,2007,22,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
+LECO,2007,22,1,SE,L,,Gillson,,UK,,SE,,Univ. of Oxford
+LECO,2007,22,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
+LECO,2007,22,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2007,22,1,SE,E,,Gustafson,,US,,SE,,Landscape ecology unit Rhinelander
+LECO,2007,22,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2007,22,1,SE,S,,Harrison,,US,,SE,,"Univ. of California, Davis"
+LECO,2007,22,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
+LECO,2007,22,1,SE,D,E,Jelinski,,Canada,,SE,,Queen's University
+LECO,2007,22,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2007,22,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2007,22,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
 LECO,2007,22,1,SE,T,,Kratz,,US,,SE,,Univ. of Wisconsin 
-LECO,2007,22,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
-LECO,2007,22,1,SE,T,,Wiegand,,Germany,,SE,,"Centre for Environmental Research, Liepzig"
+LECO,2007,22,1,SE,H,,Li,,US,,SE,,USDA Forest Service
+LECO,2007,22,1,SE,J,,Ludwig,,Australia,,SE,,CSIRO sustainable ecosystems
+LECO,2007,22,1,SE,O,,Mander,,Estonia,,SE,,Univ. of Tartu
+LECO,2007,22,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2007,22,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
+LECO,2007,22,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
+LECO,2007,22,1,SE,K,,Riitters,,US,,SE,,USDA Forest Service
 LECO,2007,22,1,SE,W,,Romme,,US,,SE,,Colorado state university
-LECO,2008,23,1,SE,A,,Farina,,Italy,,SE,,Univ. of Arbino
-LECO,2008,23,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
-LECO,2008,23,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
-LECO,2008,23,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
-LECO,2008,23,1,SE,D,P,Anderson,,US,,SE,,Univ. of Wisconsin 
-LECO,2008,23,1,SE,D,E,Jelinski,,Canada,,SE,,Queen's University
-LECO,2008,23,1,SE,E,,Gustafson,,US,,SE,,Landscape ecology unit Rhinelander
-LECO,2008,23,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2008,23,1,SE,G,,Foody,,UK,,SE,,Univ. of Southampton
-LECO,2008,23,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2008,23,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
-LECO,2008,23,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California,Riverside"
-LECO,2008,23,1,SE,H,,Li,,US,,SE,,USDA Forest Service
-LECO,2008,23,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2007,22,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallia"
+LECO,2007,22,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
+LECO,2007,22,1,SE,D,L,Urban,,US,,SE,,Duke University
+LECO,2007,22,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
+LECO,2007,22,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2007,22,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
+LECO,2007,22,1,SE,T,,Wiegand,,Germany,,SE,,"Centre for Environmental Research, Liepzig"
+LECO,2008,23,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
+LECO,2008,23,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
 LECO,2008,23,1,SE,J,,Ahem,,US,,SE,,Univ. of Massachusetts
+LECO,2008,23,1,SE,D,P,Anderson,,US,,SE,,Univ. of Wisconsin 
 LECO,2008,23,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
 LECO,2008,23,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
 LECO,2008,23,1,SE,J,,Briggs,,US,,SE,,Arizona State Univ.-Tempe
+LECO,2008,23,1,SE,T,,Crist,,US,,SE,,Miami University
+LECO,2008,23,1,SE,A,,Farina,,Italy,,SE,,Univ. of Arbino
+LECO,2008,23,1,SE,G,,Foody,,UK,,SE,,Univ. of Southampton
+LECO,2008,23,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
+LECO,2008,23,1,SE,L,,Gillson,,UK,,SE,,Univ. of Oxford
+LECO,2008,23,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
+LECO,2008,23,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2008,23,1,SE,E,,Gustafson,,US,,SE,,Landscape ecology unit Rhinelander
+LECO,2008,23,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2008,23,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
+LECO,2008,23,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
 LECO,2008,23,1,SE,J,,Jaeger,,Canada,,SE,,Univ. of Montreal
+LECO,2008,23,1,SE,D,E,Jelinski,,Canada,,SE,,Queen's University
+LECO,2008,23,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California,Riverside"
+LECO,2008,23,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2008,23,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2008,23,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2008,23,1,SE,H,,Li,,US,,SE,,USDA Forest Service
 LECO,2008,23,1,SE,J,,Ludwig,,Australia,,SE,,CSIRO sustainable ecosystems
 LECO,2008,23,1,SE,J,M,Marzluff,,US,,SE,,Univ. of Washington 
-LECO,2008,23,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
-LECO,2008,23,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
-LECO,2008,23,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2008,23,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
-LECO,2008,23,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2008,23,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
-LECO,2008,23,1,SE,K,,Riitters,,US,,SE,,USDA Forest Service
-LECO,2008,23,1,SE,L,,Gillson,,UK,,SE,,Univ. of Oxford
-LECO,2008,23,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
-LECO,2008,23,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2008,23,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
 LECO,2008,23,1,SE,N,E,Mclyntre,,US,,SE,,Texas Tech Univ. 
-LECO,2008,23,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallia"
-LECO,2008,23,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
-LECO,2008,23,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2008,23,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2008,23,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
+LECO,2008,23,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
+LECO,2008,23,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
 LECO,2008,23,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
-LECO,2008,23,1,SE,T,,Crist,,US,,SE,,Miami University
+LECO,2008,23,1,SE,K,,Riitters,,US,,SE,,USDA Forest Service
+LECO,2008,23,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallia"
 LECO,2008,23,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
+LECO,2008,23,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
+LECO,2008,23,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2008,23,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
 LECO,2008,23,1,SE,T,,Wiegand,,Germany,,SE,,"Centre for Environmental Research, Liepzig"
-LECO,2009,24,1,SE,A,,Farina,,Italy,,SE,,Univ. of Arbino
-LECO,2009,24,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
-LECO,2009,24,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
-LECO,2009,24,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
-LECO,2009,24,1,SE,D,P,Anderson,,US,,SE,,Univ. of Wisconsin 
-LECO,2009,24,1,SE,D,E,Jelinski,,Canada,,SE,,Queen's University
-LECO,2009,24,1,SE,E,,Gustafson,,US,,SE,,Landscape ecology unit Rhinelander
-LECO,2009,24,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2009,24,1,SE,G,,Foody,,UK,,SE,,Univ. of Southampton
-LECO,2009,24,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2009,24,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
-LECO,2009,24,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California,Riverside"
-LECO,2009,24,1,SE,H,,Li,,US,,SE,,USDA Forest Service
-LECO,2009,24,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2009,24,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
+LECO,2009,24,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
 LECO,2009,24,1,SE,J,,Ahem,,US,,SE,,Univ. of Massachusetts
+LECO,2009,24,1,SE,D,P,Anderson,,US,,SE,,Univ. of Wisconsin 
 LECO,2009,24,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
 LECO,2009,24,1,SE,J,A,Bissonette,,US,,SE,,Utah State Univ
 LECO,2009,24,1,SE,J,,Brandt,,Denmark,,SE,,Roskilde University
 LECO,2009,24,1,SE,J,,Briggs,,US,,SE,,Arizona State Univ.-Tempe
+LECO,2009,24,1,SE,T,,Crist,,US,,SE,,Miami University
+LECO,2009,24,1,SE,A,,Farina,,Italy,,SE,,Univ. of Arbino
+LECO,2009,24,1,SE,G,,Foody,,UK,,SE,,Univ. of Southampton
+LECO,2009,24,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
+LECO,2009,24,1,SE,L,,Gillson,,UK,,SE,,Univ. of Oxford
+LECO,2009,24,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
+LECO,2009,24,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2009,24,1,SE,E,,Gustafson,,US,,SE,,Landscape ecology unit Rhinelander
+LECO,2009,24,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2009,24,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
+LECO,2009,24,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
 LECO,2009,24,1,SE,J,,Jaeger,,Canada,,SE,,Univ. of Montreal
+LECO,2009,24,1,SE,D,E,Jelinski,,Canada,,SE,,Queen's University
+LECO,2009,24,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California,Riverside"
+LECO,2009,24,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2009,24,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2009,24,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2009,24,1,SE,H,,Li,,US,,SE,,USDA Forest Service
 LECO,2009,24,1,SE,J,,Ludwig,,Australia,,SE,,CSIRO sustainable ecosystems
 LECO,2009,24,1,SE,J,M,Marzluff,,US,,SE,,Univ. of Washington 
-LECO,2009,24,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
-LECO,2009,24,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
-LECO,2009,24,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2009,24,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ.-West
-LECO,2009,24,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2009,24,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
-LECO,2009,24,1,SE,K,,Riitters,,US,,SE,,USDA Forest Service
-LECO,2009,24,1,SE,L,,Gillson,,UK,,SE,,Univ. of Oxford
-LECO,2009,24,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
-LECO,2009,24,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2009,24,1,SE,M,,Potschin,,UK,,SE,,Univ. of Nottingham
-LECO,2009,24,1,AE,Marc,,Antrop,,Belgium,,AE,,Univ. of Ghent
 LECO,2009,24,1,SE,N,E,Mclyntre,,US,,SE,,Texas Tech Univ. 
-LECO,2009,24,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallia"
-LECO,2009,24,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
-LECO,2009,24,1,SE,R,,Jongman,,Netherlands,,SE,,Wageningen
+LECO,2009,24,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2009,24,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
+LECO,2009,24,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
+LECO,2009,24,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
 LECO,2009,24,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
-LECO,2009,24,1,SE,T,,Crist,,US,,SE,,Miami University
+LECO,2009,24,1,SE,M,,Potschin,,UK,,SE,,Univ. of Nottingham
+LECO,2009,24,1,SE,K,,Riitters,,US,,SE,,USDA Forest Service
+LECO,2009,24,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallia"
 LECO,2009,24,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
+LECO,2009,24,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
+LECO,2009,24,1,SE,H,,Wagner,,Switzerland,,SE,,Swiss federal research institute
+LECO,2009,24,1,SE,J,D,Wickham,,US,,SE,,National Exposure Research Laboratory
 LECO,2009,24,1,SE,T,,Wiegand,,Germany,,SE,,"Centre for Environmental Research, Liepzig"
-LECO,2010,25,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
-LECO,2010,25,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
-LECO,2010,25,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
-LECO,2010,25,1,SE,C,,McAlpine,,Australia,,SE,,"Univ. of Queensland, Brisbane"
-LECO,2010,25,1,SE,C,,Vos,,Netherlands,,SE,,Wageningen Univ. Research Center
+LECO,2010,25,1,AE,P,,Opdam,,Netherlands,,AE,,Wangeningen Univ.
+LECO,2010,25,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ. Tempe
 LECO,2010,25,1,SE,D,P,Anderson,,New Zealand,,SE,,"Landcare Research , Lincoln"
-LECO,2010,25,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
-LECO,2010,25,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
-LECO,2010,25,1,SE,G,,Cumming,,South Africa,,SE,,"Inst. Of African Ornithology, Cape Town"
-LECO,2010,25,1,SE,G,,Foody,,UK,,SE,,Univ. of Nottingham
-LECO,2010,25,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2010,25,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
-LECO,2010,25,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California, Riverside"
-LECO,2010,25,1,SE,G,,Poole,,US,,SE,,Montana State Univ
-LECO,2010,25,1,SE,H,,Li,,US,,SE,,"USDA Forest Service, Charleston"
-LECO,2010,25,1,SE,H,,Wagner,,Canada,,SE,,Univ. of Toronto
 LECO,2010,25,1,SE,J,,Baudry,,France,,SE,,National Inst. For agronomic research
+LECO,2010,25,1,SE,M,,Belisle,,Canada,,SE,,Univ. of Sherbrooke
 LECO,2010,25,1,SE,J,A,Bissonette,,US,,SE,,Utah State Univ
 LECO,2010,25,1,SE,J,,Bolliger,,Switzerland,,SE,,Swiss federal research institute
-LECO,2010,25,1,SE,J,,Jaeger,,Canada,,SE,,Univ. of Montreal
-LECO,2010,25,1,SE,J,,Lawler,,US,,SE,,Univ. of Washington
-LECO,2010,25,1,SE,J,M,Marzluff,,US,,SE,,Univ. of Washington
-LECO,2010,25,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
-LECO,2010,25,1,SE,J,C,Stromberg,,US,,SE,,"Arizona State Univ., Tempe"
-LECO,2010,25,1,SE,J,D,Wickham,,US,,SE,,"Environmental Protection Agency, Research Triangle Park"
-LECO,2010,25,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2010,25,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ. Tempe
-LECO,2010,25,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2010,25,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
-LECO,2010,25,1,SE,K,,Riitters,,US,,SE,,"USDA Forest Service, Research Triangle Park"
+LECO,2010,25,1,SE,G,,Cumming,,South Africa,,SE,,"Inst. Of African Ornithology, Cape Town"
+LECO,2010,25,1,SE,S,G,Fisher,,US,,SE,,"Arizona State University, Tempe"
+LECO,2010,25,1,SE,G,,Foody,,UK,,SE,,Univ. of Nottingham
+LECO,2010,25,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
 LECO,2010,25,1,SE,L,,Gillson,,South Africa,,SE,,Univ. of Cape Town
-LECO,2010,25,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
+LECO,2010,25,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
+LECO,2010,25,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2010,25,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
+LECO,2010,25,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2010,25,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
+LECO,2010,25,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
+LECO,2010,25,1,SE,J,,Jaeger,,Canada,,SE,,Univ. of Montreal
+LECO,2010,25,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California, Riverside"
 LECO,2010,25,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2010,25,1,SE,M,,Belisle,,Canada,,SE,,Univ. of Sherbrooke
+LECO,2010,25,1,SE,T,,Keitt,,US,,SE,,"Univ. of Texas, Austin"
+LECO,2010,25,1,SE,F,,Kienast,,Switzerland,,SE,,"Swiss federal Inst. For snow, forest and landscape research"
+LECO,2010,25,1,SE,J,,Lawler,,US,,SE,,Univ. of Washington
+LECO,2010,25,1,SE,H,,Li,,US,,SE,,"USDA Forest Service, Charleston"
+LECO,2010,25,1,SE,J,M,Marzluff,,US,,SE,,Univ. of Washington
+LECO,2010,25,1,SE,C,,McAlpine,,Australia,,SE,,"Univ. of Queensland, Brisbane"
 LECO,2010,25,1,SE,N,E,Mclyntre,,US,,SE,,Texas Tech Univ. 
+LECO,2010,25,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2010,25,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
+LECO,2010,25,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
+LECO,2010,25,1,SE,J,,Niemela,,Finland,,SE,,Univ. of Helsinki
+LECO,2010,25,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
+LECO,2010,25,1,SE,G,,Poole,,US,,SE,,Montana State Univ
+LECO,2010,25,1,SE,K,,Riitters,,US,,SE,,"USDA Forest Service, Research Triangle Park"
+LECO,2010,25,1,SE,R,,Schooley,,US,,SE,,Univ. of Illinois
 LECO,2010,25,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallis"
 LECO,2010,25,1,SE,O,,Schweiger,,Germany,,SE,,Helmholtz centre for env. Research
-LECO,2010,25,1,AE,P,,Opdam,,Netherlands,,AE,,Wangeningen Univ.
-LECO,2010,25,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
-LECO,2010,25,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
-LECO,2010,25,1,SE,R,,Schooley,,US,,SE,,Univ. of Illinois
-LECO,2010,25,1,SE,S,G,Fisher,,US,,SE,,"Arizona State University, Tempe"
-LECO,2010,25,1,SE,T,,Keitt,,US,,SE,,"Univ. of Texas, Austin"
 LECO,2010,25,1,SE,T,,Spies,,US,,SE,,Oregon State Univ.
+LECO,2010,25,1,SE,J,C,Stromberg,,US,,SE,,"Arizona State Univ., Tempe"
+LECO,2010,25,1,SE,A,,Veldkamp,,Netherlands,,SE,,Wageningen Agricultural Univ
+LECO,2010,25,1,SE,C,,Vos,,Netherlands,,SE,,Wageningen Univ. Research Center
+LECO,2010,25,1,SE,H,,Wagner,,Canada,,SE,,Univ. of Toronto
+LECO,2010,25,1,SE,J,D,Wickham,,US,,SE,,"Environmental Protection Agency, Research Triangle Park"
 LECO,2010,25,1,SE,T,,Wiegand,,Germany,,SE,,"Centre for Environmental Research, Liepzig"
-LECO,2015,30,1,SE,A,K,Hahs,,Australia,,SE,,Australian research center for urban ecology
-LECO,2015,30,1,SE,A,JA,Teefelen,,Netherlands,,SE,,VU University Amsterdam
-LECO,2015,30,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
-LECO,2015,30,1,SE,B,,Goodwin,,US,,SE,,University of North Dakota
-LECO,2015,30,1,SE,B,,Pijanowski,,US,,SE,,Purdue University
-LECO,2015,30,1,SE,C,,Albert,,Germany,,SE,,Leibniz Universitat
-LECO,2015,30,1,SE,C,,Echeverria,,Chile,,SE,,Universidad de concepcion
-LECO,2015,30,1,SE,C,,McAlpine,,Australia,,SE,,"University of Queensland, Brisbane"
-LECO,2015,30,1,SE,C,,Vos,,Netherlands,,SE,,Wageningen Univ. Research Center
-LECO,2015,30,1,SE,C,,Wilsey,,US,,SE,,National Audobon Society
-LECO,2015,30,1,SE,C,,Young,,UK,,SE,,Univ. of Wolverhampton
-LECO,2015,30,1,SE,D,,Bender,,Canada,,SE,,University of Calgary
-LECO,2015,30,1,SE,D,,Donner,,US,,SE,,U.S Forest Service
-LECO,2015,30,1,SE,D,M,Kashian,,US,,SE,,Wayne State univ.
-LECO,2015,30,1,SE,D,M,Theobald,,US,,SE,,"National Park service, Fort Collins"
-LECO,2015,30,1,SE,E,,Gustafson,,US,,SE,,USDA Forest service
-LECO,2015,30,1,SE,E,S,Minor,,US,,SE,,Univ. of Illinois
-LECO,2015,30,1,SE,F,,Herzog,,Switzerland,,SE,,Agroscope
-LECO,2015,30,1,SE,G,,Cumming,,South Africa,,SE,,Percy fitz patrick inst. Of african ornithology
-LECO,2015,30,1,SE,G,,Foody,,UK,,SE,,University of Nottingham
-LECO,2015,30,1,SE,G,,Guntenspergen,,US,,SE,,USGS
-LECO,2015,30,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
-LECO,2015,30,1,SE,G,Darrel,Jenerette,,US,,SE,,"University of California, Riverside"
-LECO,2015,30,1,SE,G,,Zurlini,,Italy,,SE,,"Univ. of Salento, Lecce"
-LECO,2015,30,1,SE,H,D,Allen,,UK,,SE,,University of Cambridge
-LECO,2015,30,1,SE,H,,He,,US,,SE,,University of Missouri
-LECO,2015,30,1,SE,J,,Bolliger,,Switzerland,,SE,,Swiss federal research institute
-LECO,2015,30,1,SE,J,,Chen,,US,,SE,,Michigan State Univ.
-LECO,2015,30,1,SE,J,K,Constanza,,US,,SE,,North Carolina state univ.
-LECO,2015,30,1,SE,J,,Cymerman,,US,,SE,,University of Georgia
-LECO,2015,30,1,SE,J,D,Holland,,US,,SE,,Purdue University
-LECO,2015,30,1,SE,J,,Krauss,,Germany,,SE,,Univ. of Wurzburg
-LECO,2015,30,1,SE,J,R,Miller,,US,,SE,,Univ. of Illinois
-LECO,2015,30,1,SE,J,M,Overton,,New Zealand,,SE,,"Landcare Research , Lincoln"
-LECO,2015,30,1,SE,J,R,Thompson,,US,,SE,,Harvard University
-LECO,2015,30,1,SE,J,D,Wickham,,US,,SE,,"Environmental Protection Agency, Research Triangle Park"
-LECO,2015,30,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
-LECO,2015,30,1,EIC,Jianguo,,Wu,,US,,EIC,,"Arizona State Univ., Tempe"
-LECO,2015,30,1,SE,K,S,Cheruvelil,,US,,SE,,Michigan State Univ.
-LECO,2015,30,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
-LECO,2015,30,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
-LECO,2015,30,1,SE,K,,Riitters,,US,,SE,,USDA  Forest Service
-LECO,2015,30,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
-LECO,2015,30,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
-LECO,2015,30,1,SE,M,,Belisle,,Canada,,SE,,University of Sherbrooke
-LECO,2015,30,1,SE,M,,Betts,,US,,SE,,Oregon State Univ.
-LECO,2015,30,1,SE,M,,Burgi,,Switzerland,,SE,,Swiss  federal research institute
-LECO,2015,30,1,SE,N,E,Mclyntre,,US,,SE,,Texas Tech Univ. 
-LECO,2015,30,1,SE,O,,Schweiger,,Germany,,SE,,Helmholtz centre for env. Research
+LECO,2012,26,1,Advisory Board,J,,Brandt,,Denmark,,AdvisoryBoard,, Roskilde University  Roskilde 
+LECO,2012,26,1,Advisory Board,J,,Breuste,,Austria,,AdvisoryBoard,, University Salzburg  Salzburg 
+LECO,2012,26,1,Advisory Board,R,,Hobbs,,Australia,,AdvisoryBoard,, University of West Australia  Crawley 
+LECO,2012,26,1,Advisory Board,S,,Levin,,USA ,,AdvisoryBoard,, Princeton University  Princeton  NJ
+LECO,2012,26,1,Advisory Board,D,J,Mladenoff,,USA,,AdvisoryBoard,, University of Wisconsin  Madison  WI
+LECO,2012,26,1,Associate-Editor-in-Chief,Paul,,Opdam,,The Netherlands,,AE,, Department of Land Use Planning & Alterra  Wageningen University  Wageningen
+LECO,2012,26,1,Book Review Editor,Louis,R,Iverson,,USA,,Special,," USDA Forest Service  359 Main Road  Delaware,  OH 43015-8640"
+LECO,2012,26,1,Editor-in-Chief,Jianguo,,Wu,,USA,,EIC,," School of Life Sciences & Global Institute of Sustainability  Arizona State University  Tempe,  AZ 85287"
+LECO,2012,26,1,Editorial Board,H,D,Allen,,UK,,SE,, University of Cambridge  Cambridge 
+LECO,2012,26,1,Editorial Board,M,,Belisle,,Canada,,SE,, University of Sherbrooke  Sherbrooke 
+LECO,2012,26,1,Editorial Board,D,,Bender,,Canada,,SE,, University of Calgary  Calgary 
+LECO,2012,26,1,Editorial Board,J,,Bolliger,,Switzerland,,SE,, Swiss Federal Research Institute WSL  Birmensdorf 
+LECO,2012,26,1,Editorial Board,J,,Chen,,USA,,SE,, University of Toledo  Toledo  OH
+LECO,2012,26,1,Editorial Board,G,,Cumming,,South Africa,,SE,, Percy FitzPatrick Institute of African Ornithology  Cape Town 
+LECO,2012,26,1,Editorial Board,S,A,Cushman,,USA,,SE,, US Forest Service  Missoula  MT
+LECO,2012,26,1,Editorial Board,D,,Donner,,USA ,,SE,, U.S. Forest Service  Rhinelander  WI
+LECO,2012,26,1,Editorial Board,G,,Foody,, UK,,SE,, University of Nottingham  Nottingham 
+LECO,2012,26,1,Editorial Board,B,,Fu,,P.R. China,,SE,, Chinese Academy of Sciences  Beijing 
+LECO,2012,26,1,Editorial Board,S,E,Gergel,,Canada,,SE,, University of British Columbia  Vancouver 
+LECO,2012,26,1,Editorial Board,B,,Goodwin,,USA,,SE,, University of North Dakota  Grand Forks  ND
+LECO,2012,26,1,Editorial Board,G,,Guntenspergen,,USA,,SE,, USGS/NRII  Duluth  MN
+LECO,2012,26,1,Editorial Board,E,,Gustafson,,USA ,,SE,, USDA Forest Service  Rhinelander  WI
+LECO,2012,26,1,Editorial Board,K,J,Gutzwiller,,USA,,SE,, Baylor University  Waco  TX
+LECO,2012,26,1,Editorial Board,H,,He,,USA,,SE,, University of Missouri  Columbia  MO
+LECO,2012,26,1,Editorial Board,G,M,Henebry,,USA,,SE,, South Dakota State University  Brookings  SD
+LECO,2012,26,1,Editorial Board,R,,Holderegger,,Switzerland,,SE,, WSL Swiss Federal Research Institute  Birmensdorf 
+LECO,2012,26,1,Editorial Board,J,D,Holland,,USA ,,SE,, Purdue University  West Lafayette  IN
+LECO,2012,26,1,Editorial Board,S-L,,Huang,,Taiwan,,SE,, National Taipei University  
+LECO,2012,26,1,Editorial Board,J,AG,Jaeger,,Canada ,,SE,, Concordia University  Montreal  QC
+LECO,2012,26,1,Editorial Board,G,D,Jenerette,,USA ,,SE,, University of California  Riverside  CA
+LECO,2012,26,1,Editorial Board,L,B,Johnson,,USA ,,SE,, University of Minnesota  Duluth  MN
+LECO,2012,26,1,Editorial Board,T,H,Keitt,,USA,,SE,, University of Texas  Austin  TX
+LECO,2012,26,1,Editorial Board,J,A,Kupfer,,USA,,SE,, University of South Carolina  Columbia  SC
+LECO,2012,26,1,Editorial Board,J,,Lawler,,USA ,,SE,, University of Washington  Seattle  WA
+LECO,2012,26,1,Editorial Board,J,M,Marzluff,,USA ,,SE,, University of Washington  Seattle  WA
+LECO,2012,26,1,Editorial Board,C,,McAlpine,, Australia ,,SE,, University of Queensland  Brisbane 
+LECO,2012,26,1,Editorial Board,J-P,,Metzger,,Brazil,,SE,, University of Sao Paulo  Brazil 
+LECO,2012,26,1,Editorial Board,K,,Moloney,,USA,,SE,, Iowa State University  Ames  IA
+LECO,2012,26,1,Editorial Board,L,,Musacchio,,USA ,,SE,, University of Minnesota  Minneapolis  MN
+LECO,2012,26,1,Editorial Board,J,M,Overton,,New Zealand ,,SE,, Landcare Research  Hamilton 
+LECO,2012,26,1,Editorial Board,R,G,Pontius,,USA,,SE,," Jr.  Clark University  Worcester, MA"
+LECO,2012,26,1,Editorial Board,G,,Pungetti,,UK,,SE,, University of Cambridge  Cambridge 
+LECO,2012,26,1,Editorial Board,K,,Riitters,,USA,,SE,, USDA Forest Service  Research Triangle Park  NC
+LECO,2012,26,1,Editorial Board,S,,Saura,,Spain,,SE,, Universidad Politecnica de Madrid  
+LECO,2012,26,1,Editorial Board,R,,Schooley,,USA ,,SE,, University of Illinois  Urbana  IL
+LECO,2012,26,1,Editorial Board,L,A,Schulte,,USA ,,SE,, Iowa State University  Ames  IA
+LECO,2012,26,1,Editorial Board,N,,Schumaker,,USA,,SE,, US Environmental Protection Agency Corvallis  OR
+LECO,2012,26,1,Editorial Board,O,,Schweiger,,Germany,,SE,, Helmholtz Centre for Environmental Research-UFZ  Halle 
+LECO,2012,26,1,Editorial Board,W,,Shen,,China,,SE,, Chinese Academy of Sciences  Guangzhou 
+LECO,2012,26,1,Editorial Board,D,M,Theobald,,USA ,,SE,, Colorado State University  Fort Collins  CO
+LECO,2012,26,1,Editorial Board,B,L,Turner,II,USA,,SE,," School of Geographical Sciences  Arizona State University  Tempe, AZ"
+LECO,2012,26,1,Editorial Board,M,G,Turner,,USA,,SE,, University of Wisconsin  Madison  WI
+LECO,2012,26,1,Editorial Board,P,H,Verburg,,The Netherlands ,,SE,, Vrije Universiteit Amsterdam  
+LECO,2012,26,1,Editorial Board,C,,Vos,,The Netherlands ,,SE,, Wageningen University Research Center-Alterra Wageningen 
+LECO,2012,26,1,Editorial Board,J,D,Wickham,,USA,,SE,, Environmental Protection Agency  Research Triangle Park  NC
+LECO,2012,26,1,Editorial Board,T,,Wiegand,,Germany,,SE,, Helmholtz Centre for Environmental Research-UFZ  Leipzig 
+LECO,2012,26,1,Editorial Board,J,A,Wiens,,USA,,SE,, PRBO Conservation Science  Petaluma  CA
+LECO,2012,26,1,Editorial Board,G,,Zurlini,,Italy,,SE,, University of Salento  Lecce 
+LECO,2013,27,1,Advisory Board,J,,Brandt,,Denmark,,AdvisoryBoard,, Roskilde University  Roskilde   
+LECO,2013,27,1,Advisory Board,J,,Breuste,,Austria,,AdvisoryBoard,, University Salzburg  Salzburg   
+LECO,2013,27,1,Advisory Board,R,,Hobbs,,Australia,,AdvisoryBoard,, University of West Australia  Crawley   
+LECO,2013,27,1,Advisory Board,S,,Levin,,USA,,AdvisoryBoard,, Princeton University  Princeton  NJ  
+LECO,2013,27,1,Advisory Board,D,J,Mladenoff,,USA,,AdvisoryBoard,, University of Wisconsin  Madison  WI  
+LECO,2013,27,1,Associate-Editor-in-Chief,Paul,,Opdam,,The Netherlands,,AE,, Department of Land Use Planning & Alterra  Wageningen University  Wageningen    
+LECO,2013,27,1,Book Review Editor,Louis,R,Iverson,,USA,,Special,, USDA Forest Service  359 Main Road  Delaware  OH 43015-8640 
+LECO,2013,27,1,Editor-in-Chief,Jianguo,,Wu,,USA,,EIC,," School of Life Sciences & Global Institute of Sustainability  Arizona State University  Tempe,  AZ 85287    "
+LECO,2013,27,1,Editorial Board,H,D,Allen,,UK,,SE,, University of Cambridge  Cambridge   
+LECO,2013,27,1,Editorial Board,M,,Belisle,,Canada,,SE,, University of Sherbrooke  Sherbrooke   
+LECO,2013,27,1,Editorial Board,D,,Bender,,Canada,,SE,, University of Calgary  Calgary   
+LECO,2013,27,1,Editorial Board,J,,Bolliger,,Switzerland,,SE,, Swiss Federal Research Institute WSL  Birmensdorf   
+LECO,2013,27,1,Editorial Board,J,,Chen,,USA,,SE,, University of Toledo  Toledo  OH  
+LECO,2013,27,1,Editorial Board,G,,Cumming,,South Africa,,SE,, Percy FitzPatrick Institute of African Ornithology Cape Town     
+LECO,2013,27,1,Editorial Board,D,,Donner,,USA,,SE,, U.S. Forest Service  Rhinelander  WI  
+LECO,2013,27,1,Editorial Board,C,,Echeverria,,Chile,,SE,, Universidad de Concepci6n  Concepcion   
+LECO,2013,27,1,Editorial Board,G,,Foody,,UK,,SE,, University of Nottingham  Nottingham   
+LECO,2013,27,1,Editorial Board,B,,Fu,,P.R. China,,SE,, Chinese Academy of Sciences  Beijing   
+LECO,2013,27,1,Editorial Board,S,E,Gergel,,Canada,,SE,, University of British Columbia  Vancouver   
+LECO,2013,27,1,Editorial Board,B,,Goodwin,,USA,,SE,, University of North Dakota  Grand Forks  ND  
+LECO,2013,27,1,Editorial Board,G,,Guntenspergen,,USA,,SE,, USGS/NRII  Duluth  MN  
+LECO,2013,27,1,Editorial Board,E,,Gustafson,,USA,,SE,, USDA Forest Service  Rhinelander  WI  
+LECO,2013,27,1,Editorial Board,K,J,Gutzwiller,,USA,,SE,, Baylor University  Waco  TX  
+LECO,2013,27,1,Editorial Board,H,,He,,USA,,SE,, University of Missouri  Columbia  MO  
+LECO,2013,27,1,Editorial Board,G,M,Henebry,,USA,,SE,, South Dakota State University  Brookings  SD  
+LECO,2013,27,1,Editorial Board,J,,Hepinstall-Cymerman,,USA,,SE,, University of Georgia  Athens  GA  
+LECO,2013,27,1,Editorial Board,J,D,Holland,,USA,,SE,, Purdue University  West Lafayette  IN  
+LECO,2013,27,1,Editorial Board,S-L,,Huang,,Taiwan,,SE,, National Taipei University 
+LECO,2013,27,1,Editorial Board,G,D,Jenerette,,USA,,SE,, University of California  Riverside  CA  
+LECO,2013,27,1,Editorial Board,L,B,Johnson,,USA,,SE,, University of Minnesota  Duluth  MN  
+LECO,2013,27,1,Editorial Board,T,H,Keitt,,USA,,SE,, University of Texas  Austin  TX  
+LECO,2013,27,1,Editorial Board,J,,Krauss,,Germany,,SE,, University of Wiirzburg  Wiirzburg   
+LECO,2013,27,1,Editorial Board,J,A,Kupfer,,USA,,SE,, University of South Carolina  Columbia  SC  
+LECO,2013,27,1,Editorial Board,S,S,Luque,,France,,SE,, National Research Institute of Science and Technology  for Environment and Agriculture (IRSTEA)  St-Martin d'Heres Cedex
+LECO,2013,27,1,Editorial Board,C,,McAlpine,,Australia,,SE,, University of Queensland  Brisbane   
+LECO,2013,27,1,Editorial Board,J-P,,Metzger,,Brazil,,SE,, University of Sao Paulo    
+LECO,2013,27,1,Editorial Board,J,R,Miller,,USA,,SE,, University of Illinois  Urbana  IL  
+LECO,2013,27,1,Editorial Board,E,S,Minor,,USA,,SE,, University of Illinois  Chicago  IL  
+LECO,2013,27,1,Editorial Board,K,,Moloney,,USA,,SE,, Iowa State University  Ames  IA  
+LECO,2013,27,1,Editorial Board,L,,Musacchio,,USA,,SE,, University of Minnesota  Minneapolis  MN  
+LECO,2013,27,1,Editorial Board,J,M,Overton,,New Zealand,,SE,, Landcare Research  Hamilton   
+LECO,2013,27,1,Editorial Board,B,,Pijanowski,,USA,,SE,, Purdue University  West Lafayette  Indiana  
+LECO,2013,27,1,Editorial Board,R,G,Pontius,,USA,,SE,, Jr.  Clark University  Worcester  MA 
+LECO,2013,27,1,Editorial Board,K,,Riitters,,USA,,SE,, USDA Forest Service  Research Triangle Park  NC  
+LECO,2013,27,1,Editorial Board,S,,Saura,,Spain,,SE,, Universidad Politecnica de Madrid    
+LECO,2013,27,1,Editorial Board,R,M,Scheller,,USA,,SE,, Portland State University  Portland  OR  
+LECO,2013,27,1,Editorial Board,R,,Schooley,,USA,,SE,, University of Illinois  Urbana  IL  
+LECO,2013,27,1,Editorial Board,L,A,Schulte,,USA,,SE,, Iowa State University  Ames  IA  
+LECO,2013,27,1,Editorial Board,N,,Schumaker,,USA,,SE,, US Environmental Protection Agency  Corvallis OR  
+LECO,2013,27,1,Editorial Board,O,,Schweiger,,Germany,,SE,, Helmholtz Centre for Environmental Research  UFZ  Halle  
+LECO,2013,27,1,Editorial Board,W,,Shen,,China,,SE,, Chinese Academy of Sciences  Guangzhou   
+LECO,2013,27,1,Editorial Board,S,,Stephens,,USA,,SE,, University of California  Berkeley  CA  
+LECO,2013,27,1,Editorial Board,D,M,Theobald,,USA,,SE,, Natural Resources  National Park Service Fort Collins  CO
+LECO,2013,27,1,Editorial Board,B,L,Turner,II,USA,,SE,, School of Geographical Sciences  Arizona State  University  Tempe  AZ
+LECO,2013,27,1,Editorial Board,M,G,Turner,,USA,,SE,, University of Wisconsin  Madison  WI  
+LECO,2013,27,1,Editorial Board,A,JA,vanTeeffelen,,The Netherlands,,SE,, VU University Amsterdam    
+LECO,2013,27,1,Editorial Board,P,H,Verburg,,The Netherlands,,SE,, Vrije Universiteit Amsterdam    
+LECO,2013,27,1,Editorial Board,C,,Vos,,The Netherlands,,SE,, Wageningen University Research Center-Alterra Wageningen   
+LECO,2013,27,1,Editorial Board,J,D,Wickham,,USA,,SE,, Environmental Protection Agency  Research  Triangle Park  NC
+LECO,2013,27,1,Editorial Board,T,,Wiegand,,Germany,,SE,, Helmholtz Centre for Environmental Research - UFZ Leipzig   
+LECO,2013,27,1,Editorial Board,J,A,Wiens,,USA,,SE,, PRBO Conservation Science  Petaluma  CA  
+LECO,2013,27,1,Editorial Board,G,,Zurlini,,Italy,,SE,, University of Salento  Lecce   
+LECO,2013,27,1,Reviews Editor,S,A,Cushman,,USA,,Special,, US Forest Service  Flagstaff  AZ 86001  
+LECO,2014,28,1,Advisory Board,J,,Brandt,,Denmark,,AdvisoryBoard,, Roskilde University  Roskilde  
+LECO,2014,28,1,Advisory Board,J,,Breuste,,Austria,,AdvisoryBoard,, University Salzburg  Salzburg  
+LECO,2014,28,1,Advisory Board,R,,Hobbs,,Australia,,AdvisoryBoard,, University of Western Australia   Crawley  
+LECO,2014,28,1,Advisory Board,S,,Levin,,USA,,AdvisoryBoard,, Princeton University  Princeton   NJ 
+LECO,2014,28,1,Advisory Board,D,J,Mladenoff,,USA,,AdvisoryBoard,, University of Wisconsin   Madison  WI 
+LECO,2014,28,1,Advisory Board,B,L,Turner,II,USA,,AdvisoryBoard,, Arizona State University   Tempe  AZ 
+LECO,2014,28,1,Advisory Board,M,G,Turner,,USA,,AdvisoryBoard,, University of Wisconsin   Madison  WI 
+LECO,2014,28,1,Advisory Board,J,A,Wiens,,USA,,AdvisoryBoard,, PRBO Conservation Science   Petaluma  CA 
+LECO,2014,28,1,Associate-Editor-in-Chief,Paul,,Opdam,,The Netherlands,,AE,, Wageningen University   Wageningen  
+LECO,2014,28,1,Book Review Editor,Daniel,M,Kashian,,USA,,Special,, Wayne State  University  Detroit  MI 
+LECO,2014,28,1,Editor-in-Chief,Jianguo,,Wu,,USA,,EIC,, School of Life Sciences & Global Institute of  Sustainability  Arizona State University   Tempe  AZ 85287
+LECO,2014,28,1,Editorial Board,H,D,Allen,,UK,,SE,, University of Cambridge   Cambridge  
+LECO,2014,28,1,Editorial Board,M,,Belisle,,Canada,,SE,, University of Sherbrooke   Sherbrooke  
+LECO,2014,28,1,Editorial Board,D,,Bender,,Canada,,SE,, University of Calgary  Calgary  
+LECO,2014,28,1,Editorial Board,J,,Bolliger,,Switzerland,,SE,, Swiss Federal Research  Institute WSL  Birmensdorf  
+LECO,2014,28,1,Editorial Board,J,,Chen,,USA,,SE,, Michigan State University  East Lansing  MI 
+LECO,2014,28,1,Editorial Board,S,S,Cilliers,,South Africa,,SE,, North-West University   Potchefstroom  
+LECO,2014,28,1,Editorial Board,G,,Cumming,,South Africa,,SE,, Percy FitzPatrick Institute of African Ornithology  Cape Town  
+LECO,2014,28,1,Editorial Board,D,,Donner,,USA,,SE,, US Forest Service  Rhinelander   WI 
+LECO,2014,28,1,Editorial Board,C,,Echeverria,,Chile,,SE,, Universidad de  Concepci6n   
+LECO,2014,28,1,Editorial Board,G,,Foody,,UK,,SE,, University of Nottingham   Nottingham  
+LECO,2014,28,1,Editorial Board,B,,Fu,,P.R. China,,SE,, Chinese Academy of Sciences   Beijing  
+LECO,2014,28,1,Editorial Board,S,E,Gergel,,Canada,,SE,, University of British  Columbia  Vancouver  
+LECO,2014,28,1,Editorial Board,B,,Goodwin,,USA,,SE,, University of North Dakota   Grand Forks  ND 
+LECO,2014,28,1,Editorial Board,G,,Guntenspergen,,USA,,SE,, USGS/NRII  Duluth   MN 
+LECO,2014,28,1,Editorial Board,E,,Gustafson,,USA,,SE,, USDA Forest Service   Rhinelander  WI 
+LECO,2014,28,1,Editorial Board,K,J,Gutzwiller,,USA,,SE,, Baylor University  Waco   TX 
+LECO,2014,28,1,Editorial Board,H,,He,,USA,,SE,, University of Missouri  Columbia   MO 
+LECO,2014,28,1,Editorial Board,G,M,Henebry,,USA,,SE,, South Dakota State  University  Brookings  SD 
+LECO,2014,28,1,Editorial Board,J,,Hepinstall-Cymerman,,USA,,SE,, University of  Georgia  Athens  GA 
+LECO,2014,28,1,Editorial Board,J,D,Holland,,USA,,SE,, Purdue University  West  Lafayette  IN 
+LECO,2014,28,1,Editorial Board,S-L,,Huang,,Taiwan,,SE,, National Taipei University   
+LECO,2014,28,1,Editorial Board,G,D,Jenerette,,USA,,SE,, University of California   Riverside  CA 
+LECO,2014,28,1,Editorial Board,L,B,Johnson,,USA,,SE,, University of Minnesota   Duluth  MN 
+LECO,2014,28,1,Editorial Board,D,M,Kashian,,USA,,SE,, Wayne State University   Detroit  MI 
+LECO,2014,28,1,Editorial Board,T,H,Keitt,,USA,,SE,, University of Texas  Austin   TX 
+LECO,2014,28,1,Editorial Board,J,,Krauss,,Germany,,SE,, University of Wiirzburg   Wiirzburg  
+LECO,2014,28,1,Editorial Board,J,A,Kupfer,,USA,,SE,, University of South Carolina   Columbia  SC 
+LECO,2014,28,1,Editorial Board,S,S,Luque,,France,,SE,, National Research Institute of  Science and Technology for Environment  and Agriculture (IRSTEA)  St-Martin  d'Heres Cedex  
+LECO,2014,28,1,Editorial Board,C,,McAlpine,,Australia,,SE,, University of Queensland   Brisbane  
+LECO,2014,28,1,Editorial Board,N,E,McIntyre,,USA,,SE,, Texas Tech University   Lubbock  TX 
+LECO,2014,28,1,Editorial Board,J-P,,Metzger,,Brazil,,SE,, University of Sao Paulo   
+LECO,2014,28,1,Editorial Board,J,R,Miller,,USA,,SE,, University of Illinois  Urbana   IL 
+LECO,2014,28,1,Editorial Board,E,S,Minor,,USA,,SE,, University of Illinois  Chicago   IL 
+LECO,2014,28,1,Editorial Board,K,,Moloney,,USA,,SE,, Iowa State University  Ames   IA 
+LECO,2014,28,1,Editorial Board,L,,Musacchio,,USA,,SE,, University of Minnesota   Minneapolis  MN 
+LECO,2014,28,1,Editorial Board,J,M,Overton,,New Zealand,,SE,, Landcare Research   Hamilton  
+LECO,2014,28,1,Editorial Board,B,,Pijanowski,,USA,,SE,, Purdue University  West Lafayette  IN 
+LECO,2014,28,1,Editorial Board,R,G,Pontius,Jr,USA,,SE,, Jr.  Clark University   Worcester  MA
+LECO,2014,28,1,Editorial Board,K,,Riitters,,USA,,SE,, USDA Forest Service  Research Triangle Park  NC 
+LECO,2014,28,1,Editorial Board,S,,Saura,,Spain,,SE,, Universidad Politecnica de  Madrid   
+LECO,2014,28,1,Editorial Board,R,M,Scheller,,USA,,SE,, Portland State University   Portland  OR 
+LECO,2014,28,1,Editorial Board,R,,Schooley,,USA,,SE,, University of Illinois  Urbana   IL 
+LECO,2014,28,1,Editorial Board,L,A,Schulte,,USA,,SE,, Iowa State University  Ames   IA 
+LECO,2014,28,1,Editorial Board,O,,Schweiger,,Germany,,SE,, Helmholtz Centre for  Environmental Research-UFZ  Halle  
+LECO,2014,28,1,Editorial Board,W,,Shen,,China,,SE,, Chinese Academy of Sciences   Guangzhou  
+LECO,2014,28,1,Editorial Board,S,,Stephens,,USA,,SE,, University of California   Berkeley  CA 
+LECO,2014,28,1,Editorial Board,D,M,Theobald,,USA,,SE,, Conservation Science  Partners  Truckee  CA 
+LECO,2014,28,1,Editorial Board,A,JA,vanTeeffelen,,The Netherlands,,SE,, VU University  Amsterdam   
+LECO,2014,28,1,Editorial Board,P,H,Verburg,,The Netherlands,,SE,, VU University Amsterdam   
+LECO,2014,28,1,Editorial Board,C,,Vos,,The Netherlands,,SE,, Wageningen University Research Center-Alterra  Wageningen  
+LECO,2014,28,1,Editorial Board,J,D,Wickham,,USA,,SE,, Environmental Protection  Agency  Research Triangle Park  NC 
+LECO,2014,28,1,Editorial Board,T,,Wiegand,,Germany,,SE,, Helmholtz Centre for  Environmental Research-UFZ  Leipzig  
+LECO,2014,28,1,Editorial Board,C,,Wilsey,,USA,,SE,, National Audubon Society  San Francisco  CA 
+LECO,2014,28,1,Editorial Board,G,,Zurlini,,Italy,,SE,, University of Salento  Lecce  
+LECO,2014,28,1,Reviews Editor,S,A,Cushman,,USA,,Special,, US Forest Service   Flagstaff  AZ 
 LECO,2015,30,1,AE,P,,Opdam,,Netherlands,,AE,,Wageninen university
-LECO,2015,30,1,SE,P,H,Verburg,,Netherlands,,SE,,VU University Amsterdam
-LECO,2015,30,1,SE,R,,Lafortezza,,Italy,,SE,,Univ. of Bari
-LECO,2015,30,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
-LECO,2015,30,1,SE,R,M,Scheller,,US,,SE,,Portland state univ.
-LECO,2015,30,1,SE,R,,Schooley,,US,,SE,,Univ. of Illinois
-LECO,2015,30,1,SE,S,S,cillierz,,South Africa,,SE,,North west univ.
+LECO,2015,30,1,EIC,Jianguo,,Wu,,US,,EIC,,"Arizona State Univ., Tempe"
+LECO,2015,30,1,SE,C,,Albert,,Germany,,SE,,Leibniz Universitat
+LECO,2015,30,1,SE,H,D,Allen,,UK,,SE,,University of Cambridge
+LECO,2015,30,1,SE,M,,Belisle,,Canada,,SE,,University of Sherbrooke
+LECO,2015,30,1,SE,D,,Bender,,Canada,,SE,,University of Calgary
+LECO,2015,30,1,SE,M,,Betts,,US,,SE,,Oregon State Univ.
+LECO,2015,30,1,SE,J,,Bolliger,,Switzerland,,SE,,Swiss federal research institute
+LECO,2015,30,1,SE,M,,Burgi,,Switzerland,,SE,,Swiss  federal research institute
+LECO,2015,30,1,SE,J,,Chen,,US,,SE,,Michigan State Univ.
+LECO,2015,30,1,SE,K,S,Cheruvelil,,US,,SE,,Michigan State Univ.
+LECO,2015,30,1,SE,S,S,Cilliers,,South Africa,,SE,,North west univ.
+LECO,2015,30,1,SE,J,K,Constanza,,US,,SE,,North Carolina state univ.
+LECO,2015,30,1,SE,G,,Cumming,,South Africa,,SE,,Percy fitz patrick inst. Of african ornithology
+LECO,2015,30,1,SE,J,,Cymerman,,US,,SE,,University of Georgia
+LECO,2015,30,1,SE,D,,Donner,,US,,SE,,U.S Forest Service
+LECO,2015,30,1,SE,C,,Echeverria,,Chile,,SE,,Universidad de concepcion
+LECO,2015,30,1,SE,G,,Foody,,UK,,SE,,University of Nottingham
+LECO,2015,30,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
 LECO,2015,30,1,SE,S,E,Gergel,,Canada,,SE,,"University of British Columbia, Vancouver"
-LECO,2015,30,1,SE,S,,Huang,,Taiwan,,SE,,National Taipei Univ.
-LECO,2015,30,1,SE,S,S,Luque,,France,,SE,,National res. Inst.Of science and tech. for env.And agriculture
-LECO,2015,30,1,SE,S,,Saura,,Spain,,SE,,Univ. of Madrid
+LECO,2015,30,1,SE,B,,Goodwin,,US,,SE,,University of North Dakota
+LECO,2015,30,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2015,30,1,SE,E,,Gustafson,,US,,SE,,USDA Forest service
+LECO,2015,30,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2015,30,1,SE,A,K,Hahs,,Australia,,SE,,Australian research center for urban ecology
+LECO,2015,30,1,SE,H,,He,,US,,SE,,University of Missouri
+LECO,2015,30,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
+LECO,2015,30,1,SE,F,,Herzog,,Switzerland,,SE,,Agroscope
+LECO,2015,30,1,SE,J,D,Holland,,US,,SE,,Purdue University
+LECO,2015,30,1,SE,S-L,,Huang,,Taiwan,,SE,,National Taipei Univ.
+LECO,2015,30,1,SE,G,Darrel,Jenerette,,US,,SE,,"University of California, Riverside"
+LECO,2015,30,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2015,30,1,SE,D,M,Kashian,,US,,SE,,Wayne State univ.
 LECO,2015,30,1,SE,T,H,Keitt,,US,,SE,,"Univ. of Texas, Austin"
 LECO,2015,30,1,SE,T,,Korella,,Portugal,,SE,,Univ. of Evora
+LECO,2015,30,1,SE,J,,Krauss,,Germany,,SE,,Univ. of Wurzburg
+LECO,2015,30,1,SE,R,,Lafortezza,,Italy,,SE,,Univ. of Bari
 LECO,2015,30,1,SE,T,R,Lookinbill,,US,,SE,,Univ. of Richmond
-LECO,2015,30,1,SE,T,,Wiegand,,Germany,,SE,,Helmholtz centre for env. Research
+LECO,2015,30,1,SE,S,S,Luque,,France,,SE,,National res. Inst.Of science and tech. for env.And agriculture
+LECO,2015,30,1,SE,C,,McAlpine,,Australia,,SE,,"University of Queensland, Brisbane"
+LECO,2015,30,1,SE,N,E,Mclyntre,,US,,SE,,Texas Tech Univ. 
+LECO,2015,30,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2015,30,1,SE,J,R,Miller,,US,,SE,,Univ. of Illinois
+LECO,2015,30,1,SE,E,S,Minor,,US,,SE,,Univ. of Illinois
+LECO,2015,30,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
+LECO,2015,30,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
+LECO,2015,30,1,SE,J,M,Overton,,New Zealand,,SE,,"Landcare Research , Lincoln"
+LECO,2015,30,1,SE,B,,Pijanowski,,US,,SE,,Purdue University
+LECO,2015,30,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
+LECO,2015,30,1,SE,K,,Riitters,,US,,SE,,USDA  Forest Service
+LECO,2015,30,1,SE,S,,Saura,,Spain,,SE,,Univ. of Madrid
+LECO,2015,30,1,SE,R,M,Scheller,,US,,SE,,Portland state univ.
+LECO,2015,30,1,SE,R,,Schooley,,US,,SE,,Univ. of Illinois
+LECO,2015,30,1,SE,O,,Schweiger,,Germany,,SE,,Helmholtz centre for env. Research
 LECO,2015,30,1,SE,W,,Shen,,China,,SE,,Chinese academy of sciences
+LECO,2015,30,1,SE,A,JA,Teefelen,,Netherlands,,SE,,VU University Amsterdam
+LECO,2015,30,1,SE,D,M,Theobald,,US,,SE,,"National Park service, Fort Collins"
+LECO,2015,30,1,SE,J,R,Thompson,,US,,SE,,Harvard University
+LECO,2015,30,1,SE,P,H,Verburg,,Netherlands,,SE,,VU University Amsterdam
+LECO,2015,30,1,SE,C,,Vos,,Netherlands,,SE,,Wageningen Univ. Research Center
+LECO,2015,30,1,SE,J,D,Wickham,,US,,SE,,"Environmental Protection Agency, Research Triangle Park"
+LECO,2015,30,1,SE,T,,Wiegand,,Germany,,SE,,Helmholtz centre for env. Research
+LECO,2015,30,1,SE,C,,Wilsey,,US,,SE,,National Audobon Society
+LECO,2015,30,1,SE,C,,Young,,UK,,SE,,Univ. of Wolverhampton
 LECO,2015,30,1,SE,W,,Zhou,,China,,SE,,Chinese academy of sciences
+LECO,2015,30,1,SE,G,,Zurlini,,Italy,,SE,,"Univ. of Salento, Lecce"

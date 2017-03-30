@@ -266,7 +266,9 @@ Cho.Fix <- function(A) {
   ChoData$NOTES[ChoData$NAME == "Robert Jenkins"] <- "RobertEJenkins-TNC"
   ChoData$COUNTRY[ChoData$NAME == "Steven P Bonser"] <- "Australia"
   
-  
+  # FIX ONE CATEGORY
+  ChoData$CATEGORY[ChoData$TITLE == "Invited Papers Editor"] <- "SPECIAL"
+
   # Remove the suffixes
   ChoData$NAME<-gsub(", Jr", "", ChoData$NAME, fixed=TRUE)
   ChoData$NAME<-gsub(" Jr", "", ChoData$NAME, fixed=TRUE)

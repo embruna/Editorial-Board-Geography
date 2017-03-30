@@ -1,13 +1,218 @@
 JOURNAL,YEAR,VOLUME,ISSUE,TITLE,FIRST_NAME,MIDDLE_NAME,LAST_NAME,SUFFIX,COUNTRY,GENDER,CATEGORY,NOTES,INSTITUTION
+EVOL,2013,67,, Editor,Jeffrey,,Conner,,USA,,AE,,
+EVOL,2014,68,, Editor,Jeffrey,,Conner,,USA,,AE,,
+EVOL,2012,66,, Editor,Lynda,,Delph,,USA,,AE,,
+EVOL,2012,66,, Editor,Thomas,,Lenormand,,France,,AE,,
+EVOL,2013,67,, Editor,Thomas,,Lenormand,,France,,AE,,
+EVOL,2014,68,, Editor,Thomas,,Lenormand,,France,,AE,,
+EVOL,2010,64,,Editor,Nick,,Barton,,United Kingdom,M,AE,,
+EVOL,2011,65,,Editor,Nick,,Barton,,United Kingdom,M,AE,,
+EVOL,2007,61,,Editor,Joy,,Bergelson,,USA,F,AE,,
+EVOL,2008,62,,Editor,Joy,,Bergelson,,USA,F,AE,,
+EVOL,2009,63,,Editor,Joy,,Bergelson,,USA,F,AE,,
+EVOL,2010,64,,Editor,Lynda,,Delph,,USA,F,AE,,
+EVOL,2011,65,,Editor,Lynda,,Delph,,USA,F,AE,,
+EVOL,2007,61,,Editor,Mohamed,AF,Noor,,USA,M,AE,,
+EVOL,2008,62,,Editor,Mohamed,AF,Noor,,USA,M,AE,,
+EVOL,2009,63,,Editor,Mohamed,AF,Noor,,USA,M,AE,,
+EVOL,2012,66,, Editor-in-Chief,Daphne,,Fairburn,,USA,,EIC,,
+EVOL,2013,67,, Editor-in-Chief,Daphne,,Fairburn,,USA,,EIC,,
+EVOL,2014,68,, Editor-in-Chief,Ruth,G,Shaw,,USA,,EIC,,
+EVOL,1990,44,,Editor,John,A,Endler,,USA,M,EIC,,UC Santa Barbara
+EVOL,1991,45,,Editor,John,A,Endler,,USA,M,EIC,,UC Santa Barbara
+EVOL,1992,46,,Editor,John,A,Endler,,USA,M,EIC,,UC Santa Barbara
+EVOL,2003,57,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
+EVOL,2004,58,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
+EVOL,2005,59,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
+EVOL,2006,60,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
+EVOL,1996,50,,Editor,Therese,A,Markow,,USA,F,EIC,,Arizona State University
+EVOL,1997,51,,Editor,Therese,A,Markow,,USA,F,EIC,,Arizona State University
+EVOL,1998,52,,Editor,Therese,A,Markow,,USA,F,EIC,,Arizona State University
+EVOL,1999,53,,Editor,Therese,A,Markow,,USA,F,EIC,, University of Arizona
+EVOL,1985,39,,Editor,Roger,,Milkman,,USA,M,EIC,,University of Iowa
+EVOL,1986,40,,Editor,Roger,,Milkman,,USA,M,EIC,,University of Iowa
+EVOL,1993,47,,Editor,Geerat,J,Vermeij,,USA,M,EIC,,UC Davis
+EVOL,1994,48,,Editor,Geerat,J,Vermeij,,USA,M,EIC,,UC Davis
+EVOL,1995,49,,Editor,Geerat,J,Vermeij,,USA,M,EIC,,UC Davis
+EVOL,1987,41,,Editor,Robert,C,Vrijenhoek,,USA,M,EIC,,Rutgers Univeristy
+EVOL,1988,42,,Editor,Robert,C,Vrijenhoek,,USA,M,EIC,,Rutgers Univeristy
+EVOL,1989,43,,Editor,Robert,C,Vrijenhoek,,USA,M,EIC,,Rutgers Univeristy
+EVOL,2000,54,,Editor,Donald,M,Waller,,USA,M,EIC,,University of Wisconsin
+EVOL,2001,55,,Editor,Donald,M,Waller,,USA,M,EIC,,University of Wisconsin
+EVOL,2002,56,,Editor,Donald,M,Waller,,USA,M,EIC,,University of Wisconsin
+EVOL,2011,65,,Editor-in-Chief,Daphne,,Fairbairn,,USA,F,EIC,,UC Riverside
+EVOL,2015,69,,Editor-in-Chief,Daphne,,Fairbairn,,USA,,EIC,,University of California
+EVOL,2007,61,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
+EVOL,2008,62,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
+EVOL,2009,63,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
+EVOL,2010,64,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
+EVOL,2015,69,,Editor-in-Chief,Ruth,G,Shaw,,USA,,EIC,,
+EVOL,2001,55,,Assistant Managing Editor,Jennifer,J,Purdie,,USA,F,Production,,
+EVOL,2002,56,,Assistant Managing Editor,Jennifer,J,Purdie,,USA,F,Production,,
+EVOL,2003,57,,Assistant Managing Editor,Jennifer,J,Purdie,,USA,F,Production,,
+EVOL,2000,54,,Assistant Managing Editor,Jill,K,White,,USA,F,Production,,
+EVOL,2004,58,,Book Review Editor,Douglas,J,Futuyma,,USA,M,SPECIAL,, University of Michigan
+EVOL,2005,59,,Book Review Editor,Douglas,J,Futuyma,,USA,M,SPECIAL,, University of Michigan
+EVOL,2006,60,,Book Review Editor,Douglas,J,Futuyma,,USA,M,SPECIAL,, State University of New York
+EVOL,1991,45,,Copy Editor,Anastazia,,Banaszak,,USA,F,Production,,
+EVOL,1992,46,,Copy Editor,Anastazia,,Banaszak,,USA,F,Production,,
+EVOL,1998,52,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,1999,53,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2000,54,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2001,55,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2002,56,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2003,57,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2004,58,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2005,59,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,2006,60,,Copy Editor,Lisa,,Didonato,,USA,F,Production,,
+EVOL,1991,45,,Copy Editor,Kevin,,Long,,USA,M,Production,,
+EVOL,1992,46,,Copy Editor,Kevin,,Long,,USA,M,Production,,
+EVOL,1986,40,,Editorial Assistant,J,David,Baldwin,,USA,M,Production,,
+EVOL,1987,41,,Editorial Assistant,J,David,Baldwin,,USA,M,Production,,
+EVOL,1999,53,,Editorial Assistant,Tram,,Doan,,USA,,Production,,
+EVOL,1998,52,,Editorial Assistant,Craig,,Lachance,,USA,M,Production,,
+EVOL,2006,60,,Editorial Assistant,Julie,,Mclaughlin,,USA,F,Production,,
+EVOL,1998,52,,Editorial Assistant,Jill,,White,,USA,F,Production,,
+EVOL,1999,53,,Editorial Assistant,Jill,,White,,USA,F,Production,,
+EVOL,1997,51,,Editorial Staff,Pamela,,Heath,,USA,F,Production,,
+EVOL,1997,51,,Editorial Staff,Craig,,Lachance,,USA,M,Production,,
+EVOL,1991,45,,Executive Sevretary,Kim,Duggan,Kelderman,,USA,F,Production,,
+EVOL,1989,43,,Managing Editor,J,David,Baldwin,,USA,M,Production,,
+EVOL,1993,47,,Managing Editor,Teresa,,Carson,,USA,F,Production,,
+EVOL,1994,48,,Managing Editor,Teresa,,Carson,,USA,F,Production,,
+EVOL,1995,49,,Managing Editor,Teresa,,Carson,,USA,F,Production,,
+EVOL,1996,50,,Managing Editor,Annette,C,Keeler,,USA,,Production,,
+EVOL,1997,51,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,1998,52,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,1999,53,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2000,54,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2001,55,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2002,56,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2003,57,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2004,58,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2005,59,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2006,60,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2007,61,,Managing Editor,Annette,C,Keeler,,USA,F,Production,,
+EVOL,2008,62,,Managing Editor,Jennifer,,Mahar,,USA,F,Production,,
+EVOL,2009,63,,Managing Editor,Jennifer,,Mahar,,USA,F,Production,,
+EVOL,2010,64,,Managing Editor,Jennifer,,Mahar,,USA,F,Production,,
+EVOL,2011,65,,Managing Editor,Jennifer,,Mahar,,USA,F,Production,,
+EVOL,2015,69,,Managing Editor,Katie,,Simmons,,USA,,Production,,
+EVOL,1991,45,,Managing Editor,Robin,,Tricoles,,USA,,Production,,
+EVOL,1992,46,,Managing Editor,Robin,,Tricoles,,USA,,Production,,
+EVOL,1988,42,,Managing Editor,,,,,USA,M,Production,,
+EVOL,1992,46,,Secretary,Jane,,Rienks,,Australia,F,Production,,
+EVOL,1991,45,,Special Editor,May,R,Berenbaum,,USA,F,SPECIAL,, University of Illinois
+EVOL,1992,46,,Special Editor,May,R,Berenbaum,,USA,F,SPECIAL,, University of Illinois
+EVOL,1993,47,,Special Editor,May,R,Berenbaum,,USA,,SPECIAL,, University of Illinois
+EVOL,1994,48,,Special Editor,May,R,Berenbaum,,USA,,SPECIAL,, University of Illinois
+EVOL,1995,49,,Special Editor,May,R,Berenbaum,,USA,,SPECIAL,, University of Illinois
+EVOL,1996,50,,Special Editor,May,R,Berenbaum,,USA,F,SPECIAL,, University of Illinois
+EVOL,1986,40,,Special Editor,Allan,M,Campbell,,USA,M,SPECIAL,, Stanford U.
+EVOL,1987,41,,Special Editor,Allan,M,Campbell,,USA,M,SPECIAL,, Stanford U.
+EVOL,1988,42,,Special Editor,Allan,M,Campbell,,USA,M,SPECIAL,, Stanford U.
+EVOL,1995,49,,Special Editor,Jerry,A,Coyne,,USA,M,SPECIAL,, University of Chicago
+EVOL,1996,50,,Special Editor,Jerry,A,Coyne,,USA,M,SPECIAL,, University of Chicago
+EVOL,1997,51,,Special Editor,Jerry,A,Coyne,,USA,M,SPECIAL,, The University of Chicago
+EVOL,1998,52,,Special Editor,Jerry,A,Coyne,,USA,M,SPECIAL,, The University of Chicago
+EVOL,1999,53,,Special Editor,Jerry,A,Coyne,,USA,M,SPECIAL,, The University of Chicago
+EVOL,2000,54,,Special Editor,Jerry,A,Coyne,,USA,M,SPECIAL,, The University of Chicago
+EVOL,2014,68,,Special Editor,Lynda,,Delph,,USA,,SPECIAL,,Indiana University Lynda Delph (June-Dec 2014)
+EVOL,2015,69,,Special Editor,Lynda,,Delph,,USA,,SPECIAL,, Indiana University
+EVOL,1990,44,,Special Editor,Hugh,,Dingle,,USA,M,SPECIAL,, University of California
+EVOL,1991,45,,Special Editor,Hugh,,Dingle,,USA,M,SPECIAL,, University of California
+EVOL,1989,43,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1990,44,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1991,45,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1992,46,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1993,47,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1994,48,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1995,49,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1996,50,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1997,51,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1998,52,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1999,53,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,2000,54,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,2001,55,,Special Editor,Michael,E,Douglas,,USA,M,SPECIAL,, Arizona State University
+EVOL,1988,42,,Special Editor,John,A,Endler,,USA,M,SPECIAL,, U. of California
+EVOL,1989,43,,Special Editor,John,A,Endler,,USA,M,SPECIAL,, U. of California
+EVOL,1996,50,,Special Editor,Martin,E,Feder,,USA,M,SPECIAL,, The University of Chicago
+EVOL,1997,51,,Special Editor,Martin,E,Feder,,USA,M,SPECIAL,, The University of Chicago
+EVOL,1998,52,,Special Editor,Martin,E,Feder,,USA,M,SPECIAL,, The University of Chicago
+EVOL,1999,53,,Special Editor,Martin,E,Feder,,USA,M,SPECIAL,, The University of Chicago
+EVOL,1989,43,,Special Editor,Karl,W,Flessa,,USA,M,SPECIAL,, U. of Arizona
+EVOL,1990,44,,Special Editor,Karl,W,Flessa,,USA,M,SPECIAL,, University of Arizona
+EVOL,1986,40,,Special Editor,Joseph,,Frankel,,USA,M,SPECIAL,, U. of Iowa
+EVOL,1987,41,,Special Editor,Joseph,,Frankel,,USA,M,SPECIAL,, U. of Iowa
+EVOL,2000,54,,Special Editor,Douglas,J,Futuyma,,USA,M,SPECIAL,, State University of New York
+EVOL,2001,55,,Special Editor,Douglas,J,Futuyma,,USA,M,SPECIAL,, State University of New York
+EVOL,2002,56,,Special Editor,Douglas,J,Futuyma,,USA,M,SPECIAL,, State University of New York
+EVOL,1997,51,,Special Editor,Michael,F,Hammer,,USA,M,SPECIAL,, University of Arizona
+EVOL,1998,52,,Special Editor,Michael,F,Hammer,,USA,M,SPECIAL,, University of Arizona
+EVOL,1999,53,,Special Editor,Michael,F,Hammer,,USA,M,SPECIAL,, University of Arizona
+EVOL,2000,54,,Special Editor,Michael,F,Hammer,,USA,M,SPECIAL,, University of Arizona
+EVOL,2001,55,,Special Editor,Michael,F,Hammer,,USA,M,SPECIAL,, University of Arizona
+EVOL,2000,54,,Special Editor,Joel,G,Kingsolver,,USA,M,SPECIAL,, University of Washington
+EVOL,1990,44,,Special Editor,Armand,,Kuris,,USA,,SPECIAL,, University of California
+EVOL,1991,45,,Special Editor,Armand,,Kuris,,USA,,SPECIAL,, University of California
+EVOL,1992,46,,Special Editor,Armand,,Kuris,,USA,M,SPECIAL,, University of California
+EVOL,1993,47,,Special Editor,Armand,,Kuris,,USA,,SPECIAL,, University of California
+EVOL,1994,48,,Special Editor,Armand,,Kuris,,USA,,SPECIAL,, University of California
+EVOL,1995,49,,Special Editor,Armand,,Kuris,,USA,,SPECIAL,, University of California
+EVOL,1992,46,,Special Editor,George,V,Lauder,Jr,USA,M,SPECIAL,, University of California
+EVOL,1993,47,,Special Editor,George,V,Lauder,,USA,M,SPECIAL,, University of California
+EVOL,1994,48,,Special Editor,George,V,Lauder,,USA,M,SPECIAL,, University of California
+EVOL,1995,49,,Special Editor,George,V,Lauder,,USA,M,SPECIAL,, University of California
+EVOL,1991,45,,Special Editor,Marcy,,Lawton,,USA,F,SPECIAL,, University of Alabama
+EVOL,1992,46,,Special Editor,Marcy,,Lawton,,USA,F,SPECIAL,, University of Alabama
+EVOL,1993,47,,Special Editor,Marcy,,Lawton,,USA,F,SPECIAL,, University of Alabama
+EVOL,1994,48,,Special Editor,Marcy,,Lawton,,USA,F,SPECIAL,, University of Alabama
+EVOL,1995,49,,Special Editor,Marcy,,Lawton,,USA,,SPECIAL,, University of Alabama
+EVOL,1996,50,,Special Editor,Marcy,,Lawton,,USA,F,SPECIAL,, University of Alabama
+EVOL,1997,51,,Special Editor,Marcy,,Lawton,,USA,F,SPECIAL,, University of Alabama
+EVOL,2002,56,,Special Editor,James,,Mallet,,USA,M,SPECIAL,, University College London
+EVOL,2003,57,,Special Editor,James,,Mallet,,United Kingdom,M,SPECIAL,, University College London
+EVOL,2007,61,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,SPECIAL,, University of St. Andrews
+EVOL,2008,62,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,SPECIAL,, University of St. Andrews
+EVOL,2009,63,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,SPECIAL,, University of St. Andrews
+EVOL,2010,64,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,SPECIAL,, University of St. Andrews
+EVOL,2011,65,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,SPECIAL,, University of St. Andrews
+EVOL,2015,69,,Special Editor,Thomas,R,Meagher,,United Kingdom,,SPECIAL,, University of St. Andrews
+EVOL,1988,42,,Special Editor,Richard,E,Michod,,USA,M,SPECIAL,, U. of Arizona
+EVOL,1989,43,,Special Editor,Richard,E,Michod,,USA,M,SPECIAL,, U. of Arizona
+EVOL,1990,44,,Special Editor,Richard,E,Michod,,USA,M,SPECIAL,, University of Arizona
+EVOL,2003,57,,Special Editor,Jeffry,B,Mit[On,,USA,M,SPECIAL,, University of Colorado
+EVOL,1986,40,,Special Editor,Jeffry,B,Mitton,,USA,M,SPECIAL,, U. of Colorado
+EVOL,1987,41,,Special Editor,Jeffry,B,Mitton,,USA,M,SPECIAL,, U. of Colorado
+EVOL,1988,42,,Special Editor,Jeffry,B,Mitton,,USA,M,SPECIAL,, U. of Colorado
+EVOL,1989,43,,Special Editor,Jeffry,B,Mitton,,USA,M,SPECIAL,, U. of Colorado
+EVOL,2001,55,,Special Editor,Jeffry,B,Mitton,,USA,M,SPECIAL,, University of Colorado
+EVOL,2002,56,,Special Editor,Jefery,B,Mitton,,USA,M,SPECIAL,, University of Colorado
+EVOL,1986,40,,Special Editor,David,L,Nanney,,USA,M,SPECIAL,, U. of Illinois
+EVOL,1987,41,,Special Editor,David,L,Nanney,,USA,M,SPECIAL,, U. of Illinois
+EVOL,1992,46,,Special Editor,Art,,Shapiro,,USA,M,SPECIAL,, University of California
+EVOL,1988,42,,Special Editor,David,L,Swofford,,USA,M,SPECIAL,,  Ilinois Natural History Survey 
+EVOL,2008,62,,Special Editor,John,N,Thompson,,USA,M,SPECIAL,, University of California
+EVOL,2009,63,,Special Editor,John,N,Thompson,,USA,M,SPECIAL,, University of California
+EVOL,2010,64,,Special Editor,John,N,Thompson,,USA,M,SPECIAL,, University of California
+EVOL,2011,65,,Special Editor,John,N,Thompson,,USA,M,SPECIAL,, University of California
+EVOL,2013,67,Outlook on Evolution and Society,SPECIAL EDITORS,Thomas,R,Meagher,,United Kingdom,,SPECIAL,,University of St. Andrews Thomas Meagher
+EVOL,2013,67,Book Review,SPECIAL EDITORS,Michael,,Wade,,USA,,SPECIAL,,Indiana University Michael Wade through June 2014
+EVOL,2014,68,,SPECIAL EDITORS,Michael,,Wade,,USA,,SPECIAL,,Indiana University Michael Wade through June 2014
+EVOL,2002,56,,Academic Associate,Karin,,Park,,USA,F,Production,,
+EVOL,2003,57,,Academic Associate,Karin,,Park,,USA,F,Production,,
+EVOL,2004,58,,Academic Associate,Karin,,Park,,USA,F,Production,,
+EVOL,2005,59,,Academic Associate,Karin,,Park,,USA,F,Production,,
+EVOL,2006,60,,Academic Associate,Karin,,Park,,USA,F,Production,,
 EVOL,2007,61,,AE,Patrick,,Abbot,,USA,M,SE,, Vanderbilt University
 EVOL,2008,62,,AE,Patrick,,Abbot,,USA,M,SE,, Vanderbilt University
 EVOL,2009,63,,AE,Patrick,,Abbot,,USA,M,SE,, Vanderbilt University
 EVOL,2012,66,,AE,Ehab,,Abouheif,,Canada,,SE,,McGill University
 EVOL,2013,67,,AE,Ehab,,Abouheif,,Canada,,SE,,McGill University
 EVOL,2014,68,,AE,Ehab,,Abouheif,,Canada,,SE,,McGill University
+EVOL,1994,48,,AE,Pfter,A,Abrams,,Canada,M,SE,, University of British Columbia
 EVOL,1995,49,,AE,Peter,A,Abrams,,USA,M,SE,, University of Minnesota
 EVOL,1996,50,,AE,Peter,A,Abrams,,USA,M,SE,, University of Maryland
-EVOL,1994,48,,AE,Pfter,A,Abrams,,Canada,M,SE,, University of British Columbia
 EVOL,2013,67,,AE,Dean,,Adams,,USA,,SE,,Dept of Ecology
 EVOL,2014,68,,AE,Dean,,Adams,,USA,,SE,,Dept of Ecology
 EVOL,2015,69,,AE,Dean,,Adams,,USA,,SE,, Iowa State University
@@ -17,10 +222,10 @@ EVOL,2013,67,,AE,Aneil,,Agrawal,,Canada,,SE,,Univeristy of Toronto
 EVOL,2006,60,,AE,Jon,,Agren,,Sweden,M,SE,, Uppsala University
 EVOL,2007,61,,AE,Jon,,Agren,,Sweden,M,SE,, Uppsala University
 EVOL,2008,62,,AE,Jon,,Agren,,Sweden,M,SE,, Uppsala University
-EVOL,2012,66,,AE,Michael,,Alfaro,,USA,,SE,,Washington State University
-EVOL,2015,69,,AE,Michael,,Alfaro,,USA,,SE,, UCLA
 EVOL,2010,64,,AE,Mike,,Alfaro,,USA,M,SE,, University of California Los Angeles
 EVOL,2011,65,,AE,Mike,,Alfaro,,USA,M,SE,, University of California Los Angeles
+EVOL,2012,66,,AE,Michael,,Alfaro,,USA,,SE,,Washington State University
+EVOL,2015,69,,AE,Michael,,Alfaro,,USA,,SE,, UCLA
 EVOL,1987,41,,AE,Fred,W,Allendorf,,USA,M,SE,, U. of Montana
 EVOL,1988,42,,AE,Fred,W,Allendorf,,USA,M,SE,, U. of Montana
 EVOL,1989,43,,AE,Fred,W,Allendorf,,USA,M,SE,, U. of Montana
@@ -39,47 +244,30 @@ EVOL,2007,61,,AE,Goran,,Arnqvist,,Sweden,,SE,, University of Uppsala
 EVOL,2008,62,,AE,Goran,,Arnqvist,,Sweden,,SE,, University of Uppsala
 EVOL,2009,63,,AE,Goran,,Arnqvist,,Sweden,,SE,, University of Uppsala
 EVOL,2001,55,,AE,Mary,V,Ashley,,USA,F,SE,, University of Illinois at Chicago
-EVOL,2003,57,,AE,Mary,V,Ashley,,USA,F,SE,, University of Illinois at Chicago
 EVOL,2002,56,,AE,Mary,V,Ashley,,USA,F,SE,, University of Illinois at Chicago
-EVOL,1985,39,,Special Editor,William,R,Atchley,,USA,M,Other,, U. of Wisconsin
+EVOL,2003,57,,AE,Mary,V,Ashley,,USA,F,SE,, University of Illinois at Chicago
 EVOL,1986,40,,AE,William,R,Atchley,,USA,M,SE,, U. of Wisconsin
 EVOL,2006,60,,AE,David,J,Ayre,,Australia,M,SE,, University of Wollongong
 EVOL,2007,61,,AE,David,J,Ayre,,Australia,M,SE,, University of Wollongong
 EVOL,2015,69,,AE,Ricardo,,Azevedo,,USA,,SE,, University of Houston
 EVOL,2007,61,,AE,Minus,Van,Baalen,,France,,SE,, Ecole Normale Sup~rieure
-EVOL,2009,63,,AE,Minus,Van,Baalen,,France,,SE,, Ecole Normale Superieure
 EVOL,2008,62,,AE,Minus,Van,Baalen,,France,,SE,, Ecole Normale Superieure
+EVOL,2009,63,,AE,Minus,Van,Baalen,,France,,SE,, Ecole Normale Superieure
 EVOL,2007,61,,AE,Alexander,,Badyaev,,USA,M,SE,, University of Arizona
 EVOL,2008,62,,AE,Alexander,,Badyaev,,USA,M,SE,, University of Arizona
 EVOL,2009,63,,AE,Alexander,,Badyaev,,USA,M,SE,, University of Arizona
-EVOL,1989,43,,Managing Editor,J,David,Baldwin,,USA,M,Other,,
-EVOL,1986,40,,Editorial Assistant,J,David,Baldwin,,USA,M,Other,,
-EVOL,1987,41,,Editorial Assistant,J,David,Baldwin,,USA,M,Other,,
-EVOL,1991,45,,Copy Editor,Anastazia,,Banaszak,,USA,F,Other,,
-EVOL,1992,46,,Copy Editor,Anastazia,,Banaszak,,USA,F,Other,,
 EVOL,1989,43,,AE,Spencer,Ch,Barrett,,Canada,,SE,, University of Toronto
 EVOL,1990,44,,AE,Spencer,Ch,Barrett,,Canada,,SE,, University of Toronto
 EVOL,1991,45,,AE,Spencer,Ch,Barrett,,Canada,,SE,, University of Toronto
-EVOL,2010,64,,Editor,Nick,,Barton,,United Kingdom,M,,,
-EVOL,2011,65,,Editor,Nick,,Barton,,United Kingdom,M,,,
 EVOL,2001,55,,AE,David,A,Baum,,USA,M,SE,, Harvard University Herbaria
 EVOL,2002,56,,AE,David,A,Baum,,USA,M,SE,, Harvard University Herbaria
 EVOL,2003,57,,AE,David,A,Baum,,USA,M,SE,, Harvard University Herbaria
 EVOL,2003,57,,AE,Craig,W,Benkman,,USA,M,SE,, New Mexico State University
-EVOL,2005,59,,AE,Craig,W,Benkman,,USA,M,SE,, New Mexico State University
 EVOL,2004,58,,AE,Craig,W,Benkman,,USA,M,SE,, New Mexico State University
+EVOL,2005,59,,AE,Craig,W,Benkman,,USA,M,SE,, New Mexico State University
 EVOL,1994,48,,AE,Albert,F,Bennett,,USA,M,SE,, Michigan Statc University
 EVOL,1995,49,,AE,Albert,F,Bennett,,USA,M,SE,, University of California
-EVOL,1993,47,,Special Editor,May,R,Berenbaum,,USA,,Other,, University of Illinois
-EVOL,1994,48,,Special Editor,May,R,Berenbaum,,USA,,Other,, University of Illinois
-EVOL,1995,49,,Special Editor,May,R,Berenbaum,,USA,,Other,, University of Illinois
 EVOL,1990,44,,AE,May,R,Berenbaum,,USA,,SE,, University of Illinois
-EVOL,1991,45,,Special Editor,May,R,Berenbaum,,USA,F,Other,, University of Illinois
-EVOL,1992,46,,Special Editor,May,R,Berenbaum,,USA,F,Other,, University of Illinois
-EVOL,1996,50,,Special Editor,May,R,Berenbaum,,USA,F,Other,, University of Illinois
-EVOL,2007,61,,Editor,Joy,,Bergelson,,USA,F,,,
-EVOL,2008,62,,Editor,Joy,,Bergelson,,USA,F,,,
-EVOL,2009,63,,Editor,Joy,,Bergelson,,USA,F,,,
 EVOL,1999,53,,AE,Louis,,Bernatchez,,Canada,,SE,, Laval University
 EVOL,2000,54,,AE,Louis,,Bernatchez,,Canada,,SE,, Laval University
 EVOL,2001,55,,AE,Louis,,Bernatchez,,Canada,,SE,, Laval University
@@ -116,17 +304,17 @@ EVOL,1988,42,,AE,H,Jane,Brockmann,,USA,F,SE,, U. of Florida
 EVOL,1989,43,,AE,H,Jane,Brockmann,,USA,F,SE,, U. of Florida
 EVOL,1998,52,,AE,Edmund,D,Brodie,III,USA,M,SE,, Indiana University
 EVOL,1999,53,,AE,Edmund,D,Brodie,III,USA,M,SE,, Indiana University
-EVOL,2015,69,,AE,Mark,Jf,Brown,,United Kingdom,,SE,, Royal Holloway
+EVOL,1985,39,,AE,Wesley,M,Brown,,USA,M,SE,,University of Michigan
 EVOL,2007,61,,AE,Jonathan,M,Brown,,USA,M,SE,, Grinnell College
 EVOL,2008,62,,AE,Jonathan,M,Brown,,USA,M,SE,, Grinnell College
-EVOL,1985,39,,AE,Wesley,M,Brown,,USA,M,SE,,University of Michigan
+EVOL,2015,69,,AE,Mark,Jf,Brown,,United Kingdom,,SE,, Royal Holloway
 EVOL,2013,67,,AE,Robb,,Brumfield,,USA,,SE,,Associate Curator of Genetic Resources and Assoc. Prof. Biology
 EVOL,2014,68,,AE,Robb,,Brumfield,,USA,,SE,,Associate Curator of Genetic Resources and Assoc. Prof. Biology
 EVOL,2015,69,,AE,Robb,,Brumfield,,USA,,SE,, Louisiana State University
 EVOL,2012,66,,AE,Reinhard,,Buerger,,Austria,,SE,,Vienna University
+EVOL,2011,65,,AE,C,Alex,Buerkle,,USA,M,SE,, University of Wyoming
 EVOL,2012,66,,AE,C,Alex,Buerkle,,USA,,SE,," University of Wyoming, Department of Botany"
 EVOL,2013,67,,AE,C,Alex,Buerkle,,USA,,SE,, University of Wyoming
-EVOL,2011,65,,AE,C,Alex,Buerkle,,USA,M,SE,, University of Wyoming
 EVOL,1990,44,,AE,James,J,Bull,,USA,M,SE,, University of Texas
 EVOL,1991,45,,AE,James,J,Bull,,USA,M,SE,, University of Texas
 EVOL,1992,46,,AE,James,J,Bull,,USA,M,SE,, University of Texas
@@ -150,38 +338,31 @@ EVOL,2001,55,,AE,Ronald,S,Burton,,USA,M,SE,, University of California-San Diego
 EVOL,1999,53,,AE,Armando,,Caballero,,Spain,M,SE,, Universidad de Vigo
 EVOL,2000,54,,AE,Armando,,Caballero,,Spain,M,SE,, Universidad de Vigo
 EVOL,2001,55,,AE,Armando,,Caballero,,Spain,M,SE,, Universidad de Vigo
+EVOL,1992,46,,AE,Dianne,,Campbell,,USA,F,SE,, University of California
 EVOL,1993,47,,AE,Diane,,Campbell,,USA,F,SE,, University of California
 EVOL,1994,48,,AE,Diane,,Campbell,,USA,F,SE,, University of California
-EVOL,1992,46,,AE,Dianne,,Campbell,,USA,F,SE,, University of California
-EVOL,1985,39,,Special Editor,Allan,M,Campbell,,USA,M,Other,, Stanford U.
-EVOL,1986,40,,Special Editor,Allan,M,Campbell,,USA,M,Other,, Stanford U.
-EVOL,1987,41,,Special Editor,Allan,M,Campbell,,USA,M,Other,, Stanford U.
-EVOL,1988,42,,Special Editor,Allan,M,Campbell,,USA,M,Other,, Stanford U.
 EVOL,2009,63,,AE,Ulrika,,Candolin,,Finland,F,SE,, University of Helsinki
 EVOL,2010,64,,AE,Ulrika,,Candolin,,Finland,F,SE,, University of Helsinki
 EVOL,2011,65,,AE,Ulrika,,Candolin,,Finland,F,SE,, University of Helsinki
+EVOL,1994,48,,AE,James,R,Carey,,USA,M,SE,, University of California
 EVOL,1995,49,,AE,James,R,Carey,,USA,M,SE,, University of California
 EVOL,1996,50,,AE,James,R,Carey,,USA,M,SE,, University of California
-EVOL,1994,48,,AE,James,R,Carey,,USA,M,SE,, University of California
+EVOL,2011,65,,AE,David,,Carrier,,USA,M,SE,, University of Utah
 EVOL,2012,66,,AE,David,,Carrier,,USA,,SE,,University of Utah
 EVOL,2013,67,,AE,David,,Carrier,,USA,,SE,,University of Utah
-EVOL,2011,65,,AE,David,,Carrier,,USA,M,SE,, University of Utah
-EVOL,1993,47,,Managing Editor,Teresa,,Carson,,USA,F,Other,,
-EVOL,1994,48,,Managing Editor,Teresa,,Carson,,USA,F,Other,,
-EVOL,1995,49,,Managing Editor,Teresa,,Carson,,USA,F,Other,,
-EVOL,2015,69,,AE,Andrea,,Case,,USA,,SE,, Kent State University
 EVOL,1985,39,,AE,Ted,J,Case,,USA,M,SE,, U. of California at San Diego
 EVOL,1986,40,,AE,Ted,J,Case,,USA,M,SE,, U. of California at San Diego
 EVOL,1987,41,,AE,Ted,J,Case,,USA,M,SE,, U. of California at San Diego
+EVOL,2015,69,,AE,Andrea,,Case,,USA,,SE,, Kent State University
 EVOL,1987,41,,AE,Douglas,R,Cavener,,USA,M,SE,, Vanderbilt U.
 EVOL,1988,42,,AE,Douglas,R,Cavener,,USA,M,SE,, Vanderbilt U.
 EVOL,1993,47,,AE,Lin,,Chao,,USA,,SE,, University of Maryland
-EVOL,1991,45,,AE,Brian,,Charlesworth,,USA,M,SE,, University of Chicago
-EVOL,1992,46,,AE,Brian,,Charlesworth,,USA,M,SE,, University of Chicago
-EVOL,1993,47,,AE,Brian,,Charlesworth,,USA,M,SE,, University of Chicago
 EVOL,1986,40,,AE,Deborah,,Charlesworth,,USA,F,SE,, U. of Chicago
 EVOL,1987,41,,AE,Deborah,,Charlesworth,,USA,,SE,, U. of Chicago
 EVOL,1988,42,,AE,Deborah,,Charlesworth,,USA,,SE,, U. of Chicago
+EVOL,1991,45,,AE,Brian,,Charlesworth,,USA,M,SE,, University of Chicago
+EVOL,1992,46,,AE,Brian,,Charlesworth,,USA,M,SE,, University of Chicago
+EVOL,1993,47,,AE,Brian,,Charlesworth,,USA,M,SE,, University of Chicago
 EVOL,2012,66,,AE,Anne,,Charmantier,,France,,SE,,"Centre dêEcologie Fonctionnelle et Evolutive (CEFE) CNRS-UMR 5175, Montpellier, France."
 EVOL,2013,67,,AE,Anne,,Charmantier,,France,,SE,,Centre dêEcologie Fonctionnelle et Evolutive (CEFE) CNRS-UMR 5175
 EVOL,2014,68,,AE,Anne,,Charmantier,,France,,SE,,Centre dêEcologie Fonctionnelle et Evolutive (CEFE) CNRS-UMR 5175
@@ -189,9 +370,9 @@ EVOL,1986,40,,AE,Eric,L,Charnov,,USA,M,SE,, U. of Utah
 EVOL,1986,40,,AE,James,M,Cheverud,,USA,M,SE,, Northwestern U.
 EVOL,1987,41,,AE,James,M,Cheverud,,USA,M,SE,, Northwestern U.
 EVOL,1988,42,,AE,James,M,Cheverud,,USA,M,SE,, Northwestern U.
+EVOL,2000,54,,AE,James,M,Cheverud,,USA,M,SE,, Washington University School of Medicine
 EVOL,2001,55,,AE,James,M,Cheverud,,USA,M,SE,, Washington University School of Medicine
 EVOL,2002,56,,AE,James,M,Cheverud,,USA,M,SE,, Washington University School of Medicine
-EVOL,2000,54,,AE,James,M,Cheverud,,USA,M,SE,, Washington University School of Medicine
 EVOL,2013,67,,AE,Adam,,Chippindale,,USA,,SE,,Queens University
 EVOL,2014,68,,AE,Adam,,Chippindale,,Canada,,SE,,Queens University
 EVOL,2015,69,,AE,Adam,,Chippindale,,Canada,,SE,, Queens University
@@ -201,29 +382,20 @@ EVOL,1991,45,,AE,Andrew,G,Clark,,USA,M,SE,, Pennsylvania State University
 EVOL,2012,66,,AE,Reginald,,Cocroft,,USA,,SE,,"University of Missouri, Columbia"
 EVOL,2013,67,,AE,Reginald,,Cocroft,,USA,,SE,,University of Missouri
 EVOL,2014,68,,AE,Reginald,,Cocroft,,USA,,SE,,University of Missouri
-EVOL,1998,52,,AE,James,P,Collins,,USA,M,SE,, Arizona State University
-EVOL,1997,51,,AE,James,P,Collins,,USA,M,SE,, Arizona State University
 EVOL,1996,50,,AE,James,P,Collins,,USA,M,SE,, Arizona State University
+EVOL,1997,51,,AE,James,P,Collins,,USA,M,SE,, Arizona State University
+EVOL,1998,52,,AE,James,P,Collins,,USA,M,SE,, Arizona State University
 EVOL,1999,53,,AE,Jeffrey,,Conner,,USA,M,SE,, Michigan State University
 EVOL,2000,54,,AE,Jeffrey,,Conner,,USA,M,SE,, Michigan State University
 EVOL,2001,55,,AE,Jeffrey,,Conner,,USA,M,SE,, Michigan State University
-EVOL,2013,67,, Editor,Jeffrey,,Conner,,USA,,SE,,
-EVOL,2014,68,, Editor,Jeffrey,,Conner,,USA,,SE,,
-EVOL,2015,69,,Editor,Jeffrey,,Conner,,USA,,SE,,
 EVOL,2006,60,,AE,Elena,,Conti,,Switzerland,F,SE,, University of Zurich
 EVOL,2007,61,,AE,Elena,,Conti,,Switzerland,F,SE,, University of Zurich
+EVOL,2011,65,,AE,Alejandro,,Cordoba-Aguilar,,Mexico,M,SE,, Universidad Nacional Aut?noma de M?xico
 EVOL,2012,66,,AE,Alejandro,,Cordoba-Aguilar,,Mexico,,SE,,University of Mexico
 EVOL,2013,67,,AE,Alejandro,,Cordoba-Aguilar,,Mexico,,SE,,University of Mexico
-EVOL,2011,65,,AE,Alejandro,,Cordoba-Aguilar,,Mexico,M,SE,, Universidad Nacional Aut?noma de M?xico
 EVOL,1986,40,,AE,Jerry,A,Coyne,,USA,M,SE,, U. of Maryland
 EVOL,1987,41,,AE,Jerry,A,Coyne,,USA,M,SE,, U. of Chicago
 EVOL,1988,42,,AE,Jerry,A,Coyne,,USA,M,SE,, U. of Chicago
-EVOL,1995,49,,Special Editor,Jerry,A,Coyne,,USA,M,Other,, University of Chicago
-EVOL,1996,50,,Special Editor,Jerry,A,Coyne,,USA,M,Other,, University of Chicago
-EVOL,1998,52,,Special Editor,Jerry,A,Coyne,,USA,M,Other,, The University of Chicago
-EVOL,1999,53,,Special Editor,Jerry,A,Coyne,,USA,M,Other,, The University of Chicago
-EVOL,2000,54,,Special Editor,Jerry,A,Coyne,,USA,M,Other,, The University of Chicago
-EVOL,1997,51,,Special Editor,Jerry,A,Coyne,,USA,M,Other,, The University of Chicago
 EVOL,2010,64,,AE,Tim,,Craig,,USA,M,SE,, University Minnesota Duluth
 EVOL,2011,65,,AE,Tim,,Craig,,USA,M,SE,, University Minnesota Duluth
 EVOL,2012,66,,AE,Tim,,Craig,,USA,,SE,,University of Minnesota Duluth
@@ -241,42 +413,25 @@ EVOL,2003,57,,AE,Cliff,,Cunningham,,USA,M,SE,, Duke University
 EVOL,2004,58,,AE,Cliff,,Cunningham,,USA,M,SE,, Duke University
 EVOL,2005,59,,AE,Cliff,,Cunningham,,USA,M,SE,, Duke University
 EVOL,1994,48,,AE,James,W,Curtsinger,,USA,M,SE,, University of Minnesota
-EVOL,1996,50,,AE,James,W,Curtsinger,,USA,M,SE,, University of Minnesota
 EVOL,1995,49,,AE,James,W,Curtsinger,,USA,M,SE,, University of Minnesota
+EVOL,1996,50,,AE,James,W,Curtsinger,,USA,M,SE,, University of Minnesota
 EVOL,2010,64,,AE,Asher,,Cutter,,Canada,M,SE,, University of Toronto
 EVOL,2011,65,,AE,Asher,,Cutter,,Canada,M,SE,, University of Toronto
 EVOL,2012,66,,AE,Asher,,Cutter,,Canada,,SE,,Unveristy of Toronto
 EVOL,2014,68,,AE,Rozen,,Daniel,,Netherlands,,SE,,University of Leiden
 EVOL,2014,68,,AE,Moeller,,David,,USA,,SE,,University of Minnesota
-EVOL,2006,60,,AE,Troy,,Day,,Canada,M,SE,, Queen's University
 EVOL,2004,58,,AE,Troy,,Day,,Canada,M,SE,, Queen's University
 EVOL,2005,59,,AE,Troy,,Day,,Canada,M,SE,, Queen's University
+EVOL,2006,60,,AE,Troy,,Day,,Canada,M,SE,, Queen's University
 EVOL,2015,69,,AE,Antony,,Dean,,USA,,SE,, University of Minnesota
 EVOL,1988,42,,AE,Gerdien,,DeJong,,Netherlands,,SE,, U. of Utrecht
 EVOL,1989,43,,AE,Gerdien,,DeJong,,Netherlands,,SE,, U. of Utrecht
-EVOL,2010,64,,Editor,Lynda,,Delph,,USA,F,,,
-EVOL,2011,65,,Editor,Lynda,,Delph,,USA,F,,,
-EVOL,2012,66,, Editor,Lynda,,Delph,,USA,,,,
-EVOL,2015,69,,Special Editor,Lynda,,Delph,,USA,,Other,, Indiana University
-EVOL,2014,68,,Special Editor,Lynda,,Delph,,USA,,Other,,Indiana University Lynda Delph (June-Dec 2014)
 EVOL,2014,68,,AE,Roze,,Denis,,France,,SE,,CNRS
 EVOL,1996,50,,AE,Rob,,Desalle,,USA,M,SE,, American Museum of Natural History
 EVOL,1997,51,,AE,Rob,,Desalle,,USA,M,SE,, American Museum of Natural History
 EVOL,2013,67,,AE,J,Arjan Gm,Devisser,,Netherlands,,SE,,Laboratory of Genetics
 EVOL,2014,68,,AE,J,Arjan Gm,Devisser,,Netherlands,,SE,,Laboratory of Genetics
 EVOL,2015,69,,AE,J,Arjan Gm,Devisser,,Netherlands,,SE,, Wageningen University
-EVOL,1998,52,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,1999,53,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2000,54,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2001,55,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2002,56,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2003,57,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2004,58,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2005,59,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,2006,60,,Copy Editor,Lisa,,Didonato,,USA,F,Other,,
-EVOL,1990,44,,Special Editor,Hugh,,Dingle,,USA,M,Other,, University of California
-EVOL,1991,45,,Special Editor,Hugh,,Dingle,,USA,M,Other,, University of California
-EVOL,1999,53,,Editorial Assistant,Tram,,Doan,,USA,,Other,,
 EVOL,2009,63,,AE,Michael,,Doebeli,,Canada,M,SE,, University of British Columbia
 EVOL,2010,64,,AE,Michael,,Doebeli,,Canada,M,SE,, University of British Columbia
 EVOL,2011,65,,AE,Michael,,Doebeli,,Canada,M,SE,, University of British Columbia
@@ -286,25 +441,12 @@ EVOL,1992,46,,AE,Michael,J,Donoghue,,USA,M,SE,, University of Arizona
 EVOL,2010,64,,AE,Kathleen,,Donohue,,USA,F,SE,, Duke University
 EVOL,2011,65,,AE,Kathleen,,Donohue,,USA,F,SE,, Duke University
 EVOL,2012,66,,AE,Kathleen,,Donohue,,USA,,SE,,Duke University
-EVOL,1995,49,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1989,43,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1990,44,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1991,45,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1992,46,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1993,47,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1996,50,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1997,51,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1998,52,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1999,53,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,2000,54,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,2001,55,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
-EVOL,1994,48,,Special Editor,Michael,E,Douglas,,USA,M,Other,, Arizona State University
 EVOL,1999,53,,AE,Michele,R,Dudash,,USA,M,SE,, University of Maryland
 EVOL,2000,54,,AE,Michele,R,Dudash,,USA,,SE,, University of Maryland
 EVOL,2001,55,,AE,Michele,R,Dudash,,USA,,SE,, University of Maryland
-EVOL,2011,65,,AE,Robert,,Dudley,,USA,M,SE,, University of California
 EVOL,2009,63,,AE,Robert,,Dudley,,USA,M,SE,, University of California
 EVOL,2010,64,,AE,Robert,,Dudley,,USA,M,SE,, University of California
+EVOL,2011,65,,AE,Robert,,Dudley,,USA,M,SE,, University of California
 EVOL,2012,66,,AE,Jeff,,Dudycha,,USA,,SE,,"Biological Sciences, University of South Carolina"
 EVOL,2013,67,,AE,Jeff,,Dudycha,,USA,,SE,,Biological Sciences
 EVOL,2014,68,,AE,Jeff,,Dudycha,,USA,,SE,,Biological Sciences
@@ -318,24 +460,19 @@ EVOL,2010,64,,AE,Kelly,,Dyer,,USA,F,SE,, University of Georgia
 EVOL,2011,65,,AE,Kelly,,Dyer,,USA,F,SE,, University of Georgia
 EVOL,2012,66,,AE,Kelly,,Dyer,,United Kingdom,,SE,,University of Edinburgh
 EVOL,1993,47,,AE,Walter,,Eanes,,USA,M,SE,, State University of New York
+EVOL,2000,54,,AE,Christopher,G,Eckert,,Canada,M,SE,, Queen's University
 EVOL,2001,55,,AE,Christopher,G,Eckert,,Canada,M,SE,, Queen's University
 EVOL,2002,56,,AE,Christopher,G,Eckert,,Canada,M,SE,, Queen's University
-EVOL,2000,54,,AE,Christopher,G,Eckert,,Canada,M,SE,, Queen's University
 EVOL,2015,69,,AE,Suzanne,,Edmands,,USA,,SE,, University of Southern California
+EVOL,1999,53,,AE,Scott,V,Edwards,,USA,M,SE,, University of Washington
 EVOL,2000,54,,AE,Scott,V,Edwards,,USA,M,SE,, University of Washington
 EVOL,2001,55,,AE,Scott,V,Edwards,,USA,M,SE,, University of Washington
-EVOL,1999,53,,AE,Scott,V,Edwards,,USA,M,SE,, University of Washington
 EVOL,2003,57,,AE,Santiago,F,Elena,,Spain,M,SE,, CSIC-UPV
 EVOL,2004,58,,AE,Santiago,F,Elena,,Spain,M,SE,, CSIC-UPV
 EVOL,2005,59,,AE,Santiago,F,Elena,,Spain,M,SE,, CSIC-UPV
 EVOL,1985,39,,AE,John,A,Endler,,USA,M,SE,, U. of Utah
 EVOL,1986,40,,AE,John,A,Endler,,USA,M,SE,, U. of Utah
 EVOL,1987,41,,AE,John,A,Endler,,USA,M,SE,, U. of California
-EVOL,1989,43,,Special Editor,John,A,Endler,,USA,M,Other,, U. of California
-EVOL,1990,44,,Editor,John,A,Endler,,USA,M,EIC,,UC Santa Barbara
-EVOL,1991,45,,Editor,John,A,Endler,,USA,M,EIC,,UC Santa Barbara
-EVOL,1992,46,,Editor,John,A,Endler,,USA,M,EIC,,UC Santa Barbara
-EVOL,1988,42,,Special Editor,John,A,Endler,,USA,M,Other,, U. of California
 EVOL,1985,39,,AE,William,R,Engels,,USA,M,SE,, U. of Wisconsin
 EVOL,1986,40,,AE,William,R,Engels,,USA,M,SE,, U. of Wisconsin
 EVOL,2015,69,,AE,Jan,,Engelstadter,,Australia,,SE,, The University of Queensland
@@ -344,23 +481,15 @@ EVOL,2014,68,,AE,Julie,,Etterson,,USA,,SE,,Department of Biology
 EVOL,2015,69,,AE,Julie,,Etterson,,USA,,SE,, University of Minnesota
 EVOL,2014,68,,AE,Kisdi,,Eva,,Finland,,SE,,University of Helsinki
 EVOL,2015,69,,AE,Alistair,,Evans,,Australia,,SE,, Monash University
-EVOL,2011,65,,Editor-in-Chief,Daphne,,Fairbairn,,USA,F,EIC,,UC Riverside
-EVOL,2015,69,,Editor-in-Chief,Daphne,,Fairbairn,,USA,,EIC,,University of California
 EVOL,1994,48,,AE,Daphne,J,Fairbairn,,Canada,F,SE,, Concordia University
 EVOL,1995,49,,AE,Daphne,J,Fairbairn,,Canada,F,SE,, Concordia University
 EVOL,1996,50,,AE,Daphne,J,Fairbairn,,Canada,F,SE,, Concordia University
-EVOL,2012,66,, Editor-in-Chief,Daphne,,Fairburn,,USA,,EIC,,
-EVOL,2013,67,, Editor-in-Chief,Daphnew,,Fairburn,,USA,,EIC,,
 EVOL,2010,64,,AE,Colleen,,Farmer,,USA,F,SE,, University of Utah
 EVOL,2011,65,,AE,Colleen,,Farmer,,USA,F,SE,, University of Utah
 EVOL,2012,66,,AE,Colleen,,Farmer,,USA,,SE,,University of Utah
 EVOL,2007,61,,AE,Jeffrey,,Feder,,USA,M,SE,, University of Notre Dame
 EVOL,2008,62,,AE,Jeffrey,,Feder,,USA,M,SE,, University of Notre Dame
 EVOL,2009,63,,AE,Jeffrey,,Feder,,USA,M,SE,, University of Notre Dame
-EVOL,1996,50,,Special Editor,Martin,E,Feder,,USA,M,Other,, The University of Chicago
-EVOL,1997,51,,Special Editor,Martin,E,Feder,,USA,M,Other,, The University of Chicago
-EVOL,1999,53,,Special Editor,Martin,E,Feder,,USA,M,Other,, The University of Chicago
-EVOL,1998,52,,Special Editor,Martin,E,Feder,,USA,M,Other,, The University of Chicago
 EVOL,2002,56,,AE,Charles,B,Fenster,,USA,M,SE,, University of Maryland
 EVOL,2003,57,,AE,Charles,B,Fenster,,USA,M,SE,, University of Maryland
 EVOL,2004,58,,AE,Charles,B,Fenster,,USA,M,SE,, University of Maryland
@@ -372,8 +501,6 @@ EVOL,2015,69,,AE,Lila,,Fishman,,USA,,SE,, University of Montana
 EVOL,2010,64,,AE,Ben,,Fitzpatrick,,USA,M,SE,, University of Tennessee
 EVOL,2011,65,,AE,Ben,,Fitzpatrick,,USA,M,SE,, University of Tennessee
 EVOL,2012,66,,AE,Ben,,Fitzpatrick,,USA,,SE,,University of Tennessee
-EVOL,1989,43,,Special Editor,Karl,W,Flessa,,USA,M,Other,, U. of Arizona
-EVOL,1990,44,,Special Editor,Karl,W,Flessa,,USA,M,Other,, University of Arizona
 EVOL,2005,59,,AE,Diarmaid,O,Foighil,,USA,,SE,, University of Michigan
 EVOL,2006,60,,AE,Diarmaid,O,Foighil,,USA,,SE,, University of Michigan
 EVOL,2001,55,,AE,Michael,,Foote,,USA,M,SE,, University of Chicago
@@ -385,25 +512,16 @@ EVOL,2014,68,,AE,Jim,,Fordyce,,USA,,SE,,University of Tennessee
 EVOL,2013,67,,AE,Matt,,Forister,,USA,,SE,,University of Nevada
 EVOL,2014,68,,AE,Matt,,Forister,,USA,,SE,,University of Nevada
 EVOL,2015,69,,AE,Matt,,Forister,,USA,,SE,, University of Nevada
-EVOL,1985,39,,Special Editor,Joseph,,Frankel,,USA,M,Other,, U. of Iowa
-EVOL,1986,40,,Special Editor,Joseph,,Frankel,,USA,M,Other,, U. of Iowa
-EVOL,1987,41,,Special Editor,Joseph,,Frankel,,USA,M,Other,, U. of Iowa
 EVOL,2015,69,,AE,Matt,,Friedman,,United Kingdom,,SE,, St. Hughês College
 EVOL,2002,56,,AE,James,Duncan,Fry,,USA,M,SE,, University of Rochester
 EVOL,2003,57,,AE,James,Duncan,Fry,,USA,M,SE,, University of Rochester
 EVOL,2004,58,,AE,James,Duncan,Fry,,USA,M,SE,, University of Rochester
 EVOL,2005,59,,AE,James,Duncan,Fry,,USA,M,SE,, University of Rochester
+EVOL,2011,65,,AE,Rebecca,C,Fuller,,USA,F,SE,, University of Illinois
 EVOL,2012,66,,AE,Rebecca,,Fuller,,USA,,SE,,"Dept. of Animal Biology, University of Illinois"
 EVOL,2013,67,,AE,Rebecca,,Fuller,,USA,,SE,,Dept. of Animal Biology
-EVOL,2011,65,,AE,Rebecca,C,Fuller,,USA,F,SE,, University of Illinois
 EVOL,2006,60,,AE,Daniel,J,Funk,,USA,M,SE,, Vanderbilt University
 EVOL,2007,61,,AE,Daniel,J,Funk,,USA,M,SE,, Vanderbilt University
-EVOL,2000,54,,Special Editor,Douglas,J,Futuyma,,USA,M,Other,, State University of New York
-EVOL,2001,55,,Special Editor,Douglas,J,Futuyma,,USA,M,Other,, State University of New York
-EVOL,2002,56,,Special Editor,Douglas,J,Futuyma,,USA,M,Other,, State University of New York
-EVOL,2004,58,,Book Review Editor,Douglas,J,Futuyma,,USA,M,Other,, University of Michigan
-EVOL,2005,59,,Book Review Editor,Douglas,J,Futuyma,,USA,M,Other,, University of Michigan
-EVOL,2006,60,,Book Review Editor,Douglas,J,Futuyma,,USA,M,Other,, State University of New York
 EVOL,1992,46,,AE,Candace,,Galen,,USA,F,SE,, University of Missouri
 EVOL,1993,47,,AE,Candace,,Galen,,USA,F,SE,, University of Missouri
 EVOL,1994,48,,AE,Candace,,Galen,,USA,F,SE,, University of Missouri
@@ -416,37 +534,37 @@ EVOL,2005,59,,AE,Laura,F,Galloway,,USA,F,SE,, University of Virginia
 EVOL,2009,63,,AE,Sylvain,,Gandon,,Finland,,SE,, Centre d'Ecologie Fonctionnelle et Evolutive
 EVOL,2010,64,,AE,Sylvain,,Gandon,,Finland,,SE,, Centre d'Ecologie Fonctionnelle et Evolutive
 EVOL,2011,65,,AE,Sylvain,,Gandon,,Finland,,SE,, Centre d'Ecologie Fonctionnelle et Evolutive
-EVOL,2001,55,,AE,Theodore,,Garland,,USA,M,SE,, University of Wisconsin-Madison
 EVOL,2000,54,,AE,Theodore,,Garland,,USA,M,SE,, University of Wisconsin-Madison
+EVOL,2001,55,,AE,Theodore,,Garland,,USA,M,SE,, University of Wisconsin-Madison
 EVOL,2002,56,,AE,Theodore,,Garland,,USA,M,SE,, University of Wisconsin-Madison
-EVOL,2004,58,,AE,Sergey,,Gavrilets,,USA,M,SE,, University of Tennessee
 EVOL,2003,57,,AE,Sergey,,Gavrilets,,USA,M,SE,, University of Tennessee
+EVOL,2004,58,,AE,Sergey,,Gavrilets,,USA,M,SE,, University of Tennessee
 EVOL,2005,59,,AE,Sergey,,Gavrilets,,USA,M,SE,, University of Tennessee
+EVOL,2000,54,,AE,Dana,H,Geary,,USA,,SE,, University of Wisconsin
 EVOL,2001,55,,AE,Dana,H,Geary,,USA,,SE,, University of Wisconsin
 EVOL,2002,56,,AE,Dana,H,Geary,,USA,,SE,, University of Wisconsin
-EVOL,2000,54,,AE,Dana,H,Geary,,USA,,SE,, University of Wisconsin
 EVOL,2003,57,,AE,Monica,A,Geber,,USA,F,SE,, Cornell University
 EVOL,2004,58,,AE,Monica,A,Geber,,USA,F,SE,, Cornell University
 EVOL,2005,59,,AE,Monica,A,Geber,,USA,F,SE,, Cornell University
 EVOL,2000,54,,AE,H,Lisle,Gibbs,,Canada,,SE,, McMaster University
-EVOL,2002,56,,AE,H,Lisle,Gibbs,,Canada,,SE,, McMaster University
 EVOL,2001,55,,AE,H,Lisle,Gibbs,,Canada,,SE,, McMaster University
+EVOL,2002,56,,AE,H,Lisle,Gibbs,,Canada,,SE,, McMaster University
 EVOL,2013,67,,AE,Sylvain,,Glemin,,France,,SE,,ISEM
 EVOL,2014,68,,AE,Sylvain,,Glemin,,France,,SE,,ISEM
 EVOL,2015,69,,AE,Sylvain,,Glemin,,France,,SE,, Universit_ Montpellier II
-EVOL,2015,69,,AE,Richard,,Gomulkiewicz,,USA,,SE,, Washington State University
 EVOL,2004,58,,AE,Richard,Stephen,Gomulkiewicz,,USA,M,SE,, Washington State University
 EVOL,2005,59,,AE,Richard,Stephen,Gomulkiewicz,,USA,M,SE,, Washington State University
 EVOL,2006,60,,AE,Richard,Stephen,Gomulkiewicz,,USA,M,SE,, Washington State University
+EVOL,2015,69,,AE,Richard,,Gomulkiewicz,,USA,,SE,, Washington State University
 EVOL,2013,67,,AE,Jeff,,Good,,USA,,SE,,Department of Evolutionary Genetics
 EVOL,2014,68,,AE,Jeff,,Good,,USA,,SE,,Department of Evolutionary Genetics
 EVOL,2015,69,,AE,Jeff,,Good,,USA,,SE,, University of Montana
 EVOL,2004,58,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
 EVOL,2005,59,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
+EVOL,2006,60,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
 EVOL,2008,62,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
 EVOL,2009,63,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
 EVOL,2010,64,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
-EVOL,2006,60,,AE,Charles,J,Goodnight,,USA,M,SE,, University of Vermont
 EVOL,2012,66,,AE,Isabel,,Gordo,,Portugal,,SE,,"Gulbenkian Institute, Lisbon, Portugal"
 EVOL,2013,67,,AE,Isabel,,Gordo,,Portugal,,SE,,Gulbenkian Institute
 EVOL,2014,68,,AE,Isabel,,Gordo,,Portugal,,SE,,Gulbenkian Institute
@@ -458,11 +576,6 @@ EVOL,1994,48,,AE,Richard,K,Grosberg,,USA,M,SE,, University of California
 EVOL,2015,69,,AE,Jarrod,,Hadfield,,USA,,SE,, University of Edinburgh
 EVOL,2015,69,,AE,Matthew,,Hahn,,USA,,SE,, Indiana University
 EVOL,2015,69,,AE,David,,Hall,,USA,,SE,, University of Georgia
-EVOL,1997,51,,Special Editor,Michael,F,Hammer,,USA,M,Other,, University of Arizona
-EVOL,1998,52,,Special Editor,Michael,F,Hammer,,USA,M,Other,, University of Arizona
-EVOL,1999,53,,Special Editor,Michael,F,Hammer,,USA,M,Other,, University of Arizona
-EVOL,2001,55,,Special Editor,Michael,F,Hammer,,USA,M,Other,, University of Arizona
-EVOL,2000,54,,Special Editor,Michael,F,Hammer,,USA,M,Other,, University of Arizona
 EVOL,1987,41,,AE,James,L,Hamrick,,USA,M,SE,, U. of Georgia
 EVOL,1988,42,,AE,James,L,Hamrick,,USA,M,SE,, U. of Georgia
 EVOL,1988,42,,AE,Steven,N,Handel,,USA,M,SE,, Rutgers U.
@@ -470,8 +583,8 @@ EVOL,1989,43,,AE,Steven,N,Handel,,USA,M,SE,, Rutgers U.
 EVOL,1991,45,,AE,James,,Hanken,,USA,M,SE,, University of Colorado
 EVOL,1992,46,,AE,James,,Hanken,,USA,M,SE,, University of Colorado
 EVOL,1993,47,,AE,James,,Hanken,,USA,M,SE,, University of Colorado
-EVOL,2007,61,,AE,Thomas,F,Hansen,,USA,M,SE,, Florida State University
 EVOL,2006,60,,AE,Thomas,F,Hansen,,USA,M,SE,, Florida State University
+EVOL,2007,61,,AE,Thomas,F,Hansen,,USA,M,SE,, Florida State University
 EVOL,2010,64,,AE,Matt,,Hare,,USA,M,SE,, Cornell University
 EVOL,2011,65,,AE,Matt,,Hare,,USA,M,SE,, Cornell University
 EVOL,2012,66,,AE,Matt,,Hare,,USA,,SE,,Cornell University
@@ -481,10 +594,6 @@ EVOL,2014,68,,AE,Luke,,Harmon,,USA,,SE,,Dept. of Biological Sciences
 EVOL,1991,45,,AE,Richard,,Harrison,,USA,M,SE,, Cornell University
 EVOL,1992,46,,AE,Richard,,Harrison,,USA,M,SE,, Cornell University
 EVOL,1993,47,,AE,Richard,,Harrison,,USA,M,SE,, Cornell University
-EVOL,2003,57,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
-EVOL,2004,58,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
-EVOL,2005,59,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
-EVOL,2006,60,,Editor,Richard,G,Harrison,,USA,M,EIC,,Cornell University
 EVOL,2011,65,,AE,Mike,,Hart,,Canada,M,SE,, Simon Fraser University
 EVOL,2012,66,,AE,Mike,,Hart,,Canada,,SE,,Simon Fraser
 EVOL,2013,67,,AE,Mike,,Hart,,Canada,,SE,,Simon Fraser
@@ -492,9 +601,8 @@ EVOL,1985,39,,AE,Paul,H,Harvey,,USA,M,SE,,Princeton University
 EVOL,1995,49,,AE,Alan,,Hastings,,USA,M,SE,, University of California
 EVOL,1996,50,,AE,Alan,,Hastings,,USA,M,SE,, University of California
 EVOL,1997,51,,AE,Alan,,Hastings,,USA,M,SE,, University of California
-EVOL,1997,51,,Editorial Staff,Pamela,,Heath,,USA,F,Other,,
-EVOL,1989,43,,AE,Philip,W,Hedrick,,USA,M,SE,, U. of Kansas
 EVOL,1988,42,,AE,Philip,W,Hedrick,,USA,M,SE,, U. of Kansas
+EVOL,1989,43,,AE,Philip,W,Hedrick,,USA,M,SE,, U. of Kansas
 EVOL,1990,44,,AE,Philip,W,Hedrick,,USA,M,SE,, Pennsylvania State University
 EVOL,2008,62,,AE,Michael,E,Hellberg,,USA,M,SE,, Louisiana State University
 EVOL,2009,63,,AE,Michael,E,Hellberg,,USA,M,SE,, Louisiana State University
@@ -528,8 +636,8 @@ EVOL,1990,44,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
 EVOL,1991,45,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
 EVOL,1992,46,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
 EVOL,1993,47,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
-EVOL,1995,49,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
 EVOL,1994,48,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
+EVOL,1995,49,,AE,Robert,D,Holt,,USA,M,SE,, University of Kansas
 EVOL,1989,43,,AE,Rodney,L,Honeycutt,,USA,M,SE,, Museum of Comparative Zoology
 EVOL,1990,44,,AE,Rodney,L,Honeycutt,,USA,M,SE,, Texas A&M University
 EVOL,1991,45,,AE,Rodney,L,Honeycutt,,USA,M,SE,, Texas A&M University
@@ -541,11 +649,11 @@ EVOL,2005,59,,AE,David,,Houle,,USA,M,SE,, Florida State University
 EVOL,1994,48,,AE,Daniei,J,Howard,,USA,M,SE,, New Mexico State University
 EVOL,1995,49,,AE,Daniel,J,Howard,,USA,M,SE,, New Mexico State University
 EVOL,1996,50,,AE,Daniel,J,Howard,,USA,M,SE,, New Mexico State University
+EVOL,2001,55,,AE,John,Peter,Huelsenbeck,,USA,M,SE,, University of Rochester
 EVOL,2002,56,,AE,John,Peter,Huelsenbeck,,USA,M,SE,, University of Rochester
 EVOL,2008,62,,AE,John,Peter,Huelsenbeck,,USA,M,SE,, University of California
 EVOL,2009,63,,AE,John,Peter,Huelsenbeck,,USA,M,SE,, University of California
 EVOL,2010,64,,AE,John,Peter,Huelsenbeck,,USA,M,SE,, University of California
-EVOL,2001,55,,AE,John,Peter,Huelsenbeck,,USA,M,SE,, University of Rochester
 EVOL,1989,43,,AE,Raymond,B,Huey,,USA,M,SE,, U. of Washington
 EVOL,1990,44,,AE,Raymond,B,Huey,,USA,M,SE,, University of Washington
 EVOL,2006,60,,AE,Kimberly,A,Hughes,,USA,F,SE,, University of Illinois at Urbana-Champaign
@@ -571,9 +679,9 @@ EVOL,1992,46,,AE,Jeremy,,Jackson,,USA,M,SE,, Smithsonian Tropical Research Insti
 EVOL,1988,42,,AE,John,,Jaenike,,USA,M,SE,, U. of Rochester
 EVOL,1989,43,,AE,John,,Jaenike,,USA,M,SE,, U. of Rochester
 EVOL,1990,44,,AE,John,,Jaenike,,USA,M,SE,, University of Rochester
+EVOL,2004,58,,AE,Christine,Marie,Janis,,USA,F,SE,, Brown University
 EVOL,2005,59,,AE,Christine,Marie,Janis,,USA,F,SE,, Brown University
 EVOL,2006,60,,AE,Christine,Marie,Janis,,USA,F,SE,, Brown University
-EVOL,2004,58,,AE,Christine,Marie,Janis,,USA,F,SE,, Brown University
 EVOL,2000,54,,AE,Philippe,,Jarne,,France,M,SE,, CEFE-CNRS
 EVOL,2001,55,,AE,Philippe,,Jarne,,France,M,SE,, CEFE-CNRS
 EVOL,2002,56,,AE,Philippe,,Jarne,,France,M,SE,, CEFE-CNRS
@@ -584,14 +692,14 @@ EVOL,2015,69,,AE,Linley,,Jesson,,Canada,,SE,, University of New Brunswick
 EVOL,2009,63,,AE,Chris,,Jiggins,,United Kingdom,M,SE,, University of Cambridge
 EVOL,2010,64,,AE,Chris,,Jiggins,,United Kingdom,M,SE,, University of Cambridge
 EVOL,2011,65,,AE,Chris,,Jiggins,,United Kingdom,M,SE,, University of Cambridge
+EVOL,2011,65,,AE,Mark,O,Johnston,,Canada,M,SE,,Dalhousie University
 EVOL,2012,66,,AE,Mark,O,Johnston,,Canada,,SE,,Dalhousie University
 EVOL,2013,67,,AE,Mark,O,Johnston,,Canada,,SE,,Dalhousie University
-EVOL,2011,65,,AE,Mark,O,Johnston,,Canada,M,SE,,Dalhousie University
 EVOL,2008,62,,AE,Thomas,E,Juenger,,USA,M,SE,, University of Texas at Austin
 EVOL,2009,63,,AE,Thomas,E,Juenger,,USA,M,SE,, University of Texas at Austin
 EVOL,2010,64,,AE,Thomas,E,Juenger,,USA,M,SE,, University of Texas at Austin
-EVOL,2004,58,,AE,Susan,,Kalisz,,USA,F,SE,, University of Pittsburgh
 EVOL,2003,57,,AE,Susan,,Kalisz,,USA,F,SE,, University of Pittsburgh
+EVOL,2004,58,,AE,Susan,,Kalisz,,USA,F,SE,, University of Pittsburgh
 EVOL,2005,59,,AE,Susan,,Kalisz,,USA,F,SE,, University of Pittsburgh
 EVOL,2011,65,,AE,Susan,,Kalisz,,USA,F,SE,, University of Pittsburgh
 EVOL,2012,66,,AE,Susan,,Kalisz,,USA,,SE,,University of Pittsburg
@@ -600,37 +708,23 @@ EVOL,2014,68,,AE,Sears,,Karen,,USA,,SE,,University of Illinois
 EVOL,2000,54,,AE,Stephen,A,Karl,,USA,M,SE,, University of South Florida
 EVOL,2001,55,,AE,Stephen,A,Karl,,USA,M,SE,, University of South Florida
 EVOL,2002,56,,AE,Stephen,A,Karl,,USA,M,SE,, University of South Florida
+EVOL,2003,57,,AE,Laura,A,Katz,,USA,F,SE,, Smith College
 EVOL,2004,58,,AE,Laura,A,Katz,,USA,F,SE,, Smith College
 EVOL,2005,59,,AE,Laura,A,Katz,,USA,F,SE,, Smith College
-EVOL,2003,57,,AE,Laura,A,Katz,,USA,F,SE,, Smith College
-EVOL,2015,69,,AE,Tadeusz,,Kawecki,,Switzerland,,SE,, University of Lausanne
 EVOL,2000,54,,AE,Tadeusz,J,Kawecki,,Switzerland,,SE,, University of Basel
 EVOL,2001,55,,AE,Tadeusz,J,Kawecki,,Switzerland,M,SE,, University of Basel
 EVOL,2002,56,,AE,Tadeusz,J,Kawecki,,Switzerland,M,SE,, University of Basel
-EVOL,1996,50,,Managing Editor,Annette,C,Keeler,,USA,,Other,,
-EVOL,1997,51,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,1998,52,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,1999,53,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2000,54,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2001,55,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2003,57,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2004,58,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2005,59,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2006,60,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2007,61,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,2002,56,,Managing Editor,Annette,C,Keeler,,USA,F,Other,,
-EVOL,1991,45,,Executive Sevretary,Kim,Duggan,Kelderman,,USA,F,Other,,
+EVOL,2015,69,,AE,Tadeusz,,Kawecki,,Switzerland,,SE,, University of Lausanne
 EVOL,2003,57,,AE,Laurent,,Keller,,Switzerland,,SE,, Universite de Lausanne
 EVOL,2004,58,,AE,Laurent,,Keller,,Switzerland,,SE,, Universite de Lausanne
 EVOL,2005,59,,AE,Laurent,,Keller,,Switzerland,,SE,, Universite de Lausanne
 EVOL,2009,63,,AE,John,,Kelly,,USA,M,SE,, University of Kansas
 EVOL,2010,64,,AE,John,,Kelly,,USA,M,SE,, University of Kansas
 EVOL,2011,65,,AE,John,,Kelly,,USA,M,SE,, University of Kansas
-EVOL,1999,53,,AE,Ellen,D,Ketterson,,USA,F,SE,, Indiana University
 EVOL,1998,52,,AE,Ellen,D,Ketterson,,USA,F,SE,, Indiana University
+EVOL,1999,53,,AE,Ellen,D,Ketterson,,USA,F,SE,, Indiana University
 EVOL,1988,42,,AE,Margaret,G,Kidwell,,USA,,SE,, U. of Arizona
 EVOL,1989,43,,AE,Margaret,G,Kidwell,,USA,F,SE,, U. of Arizona
-EVOL,2000,54,,Special Editor,Joel,G,Kingsolver,,USA,M,Other,, University of Washington
 EVOL,2015,69,,AE,Eva,,Kisdi,,Finland,,SE,, University of Helsinki
 EVOL,2011,65,,AE,Chris,,Klingenberg,,United Kingdom,M,SE,, University of Manchester
 EVOL,2012,66,,AE,Chris,,Klingenberg,,United Kingdom,,SE,,University of Manchester
@@ -643,9 +737,9 @@ EVOL,1996,50,,AE,Nancy,,Knowlton,,USA,F,SE,, Smithsonian Tropical Research Insti
 EVOL,1997,51,,AE,Nancy,,Knowlton,,USA,F,SE,, Smithsonian Tropical Research Institute
 EVOL,2006,60,,AE,Jacob,C,Koella,,France,M,SE,, Universite Pierre and Marie Curie
 EVOL,2007,61,,AE,Jacob,C,Koella,,France,M,SE,, Universite Pierre and Marie Curie
+EVOL,2006,60,,AE,Joshua,R,Kohn,,USA,M,SE,, University of California-San Diego
 EVOL,2007,61,,AE,Joshua,R,Kohn,,USA,M,SE,, University of California-San Diego
 EVOL,2008,62,,AE,Joshua,R,Kohn,,USA,M,SE,, University of California-San Diego
-EVOL,2006,60,,AE,Joshua,R,Kohn,,USA,M,SE,, University of California-San Diego
 EVOL,2007,61,,AE,Hanna,,Kokko,,Finland,F,SE,, University of Helsinki
 EVOL,2008,62,,AE,Hanna,,Kokko,,Finland,F,SE,, University of Helsinki
 EVOL,2009,63,,AE,Hanna,,Kokko,,Finland,F,SE,, University of Helsinki
@@ -661,42 +755,18 @@ EVOL,2011,65,,AE,Loeske,,Kruuk,,United Kingdom,,SE,, University of Edinburgh
 EVOL,2010,64,,AE,Laura,,Kubatko,,USA,F,SE,, Ohio State University
 EVOL,2011,65,,AE,Laura,,Kubatko,,USA,F,SE,, Ohio State University
 EVOL,2012,66,,AE,Laura,,Kubatko,,USA,,SE,,Ohio State University
-EVOL,1990,44,,Special Editor,Armand,,Kuris,,USA,,Other,, University of California
-EVOL,1991,45,,Special Editor,Armand,,Kuris,,USA,,Other,, University of California
-EVOL,1992,46,,Special Editor,Armand,,Kuris,,USA,M,Other,, University of California
-EVOL,1993,47,,Special Editor,Armand,,Kuris,,USA,,Other,, University of California
-EVOL,1994,48,,Special Editor,Armand,,Kuris,,USA,,Other,, University of California
-EVOL,1995,49,,Special Editor,Armand,,Kuris,,USA,,Other,, University of California
-EVOL,2001,55,,AE,Carlos,,Lopez-Fanjul,,Spain,M,SE,, Universidad Complutense
-EVOL,2002,56,,AE,Carlos,,Lopez-Fanjul,,Spain,M,SE,, Universidad Complutense
-EVOL,1998,52,,Editorial Assistant,Craig,,Lachance,,USA,M,Other,,
-EVOL,1997,51,,Editorial Staff,Craig,,Lachance,,USA,M,Other,,
 EVOL,2015,69,,AE,Anna-Liisa,,Laine,,Finland,,SE,, University of Helsinki
-EVOL,1995,49,,AE,Allan,,Larson,,USA,M,SE,, Washington University
 EVOL,1994,48,,AE,Allan,,Larson,,USA,M,SE,, Washington University
-EVOL,1994,48,,Special Editor,George,V,Lauder,,USA,M,Other,, University of California
-EVOL,1993,47,,Special Editor,George,V,Lauder,,USA,M,Other,, University of California
-EVOL,1995,49,,Special Editor,George,V,Lauder,,USA,M,Other,, University of California
-EVOL,1992,46,,Special Editor,George,V,Lauder,Jr,USA,M,Other,, University of California
-EVOL,1991,45,,Special Editor,Marcy,,Lawton,,USA,F,Other,, University of Alabama
-EVOL,1992,46,,Special Editor,Marcy,,Lawton,,USA,F,Other,, University of Alabama
-EVOL,1993,47,,Special Editor,Marcy,,Lawton,,USA,F,Other,, University of Alabama
-EVOL,1994,48,,Special Editor,Marcy,,Lawton,,USA,F,Other,, University of Alabama
-EVOL,1995,49,,Special Editor,Marcy,,Lawton,,USA,,Other,, University of Alabama
-EVOL,1996,50,,Special Editor,Marcy,,Lawton,,USA,F,Other,, University of Alabama
-EVOL,1997,51,,Special Editor,Marcy,,Lawton,,USA,F,Other,, University of Alabama
+EVOL,1995,49,,AE,Allan,,Larson,,USA,M,SE,, Washington University
 EVOL,1996,50,,AE,Larry,J,Leamy,,USA,M,SE,, University of North Carolina
 EVOL,1997,51,,AE,Larry,J,Leamy,,USA,M,SE,, University of North Carolina
 EVOL,1998,52,,AE,Larry,J,Leamy,,USA,M,SE,, University of North Carolina
+EVOL,2011,65,,AE,Carol,Eunmi,Lee,,USA,F,SE,, University of Wisconsin
 EVOL,2012,66,,AE,Carol,,Lee,,USA,,SE,,"University of Wisconsin, Madison"
 EVOL,2013,67,,AE,Carol,,Lee,,USA,,SE,,University of Wisconsin
-EVOL,2011,65,,AE,Carol,Eunmi,Lee,,USA,F,SE,, University of Wisconsin
-EVOL,2012,66,, Editor,Thomas,,Lenormand,,France,,SE,,
-EVOL,2013,67,, Editor,Thomas,,Lenormand,,France,,SE,,
-EVOL,2014,68,, Editor,Thomas,,Lenormand,,France,,SE,,
+EVOL,1990,44,,AE,Richard,E,Lenski, ,USA,M,SE,, University of California
 EVOL,1991,45,,AE,Richard,E,Lenski,,USA,M,SE,, University of California
 EVOL,1992,46,,AE,Richard,E,Lenski,,USA,M,SE,, Michigan State University
-EVOL,1990,44,,AE,Richard,E,Lenski, ,USA,M,SE,, University of California
 EVOL,1986,40,,AE,Bruce,,Levin,,USA,M,SE,, U. of Massachusetts
 EVOL,1987,41,,AE,Bruce,,Levin,,USA,M,SE,, U. of Massachusetts
 EVOL,1988,42,,AE,Karel,F,Liem,,USA,,SE,, Harvard U.
@@ -707,18 +777,18 @@ EVOL,2013,67,,AE,Patrik,,Lindenfors,,Sweden,,SE,,Stockholm University
 EVOL,1991,45,,AE,Yan,B,Linhart,,USA,,SE,, University of Colorado
 EVOL,1992,46,,AE,Yan,B,Linhart,,USA,,SE,, University of Colorado
 EVOL,1993,47,,AE,Yan,B,Linhart,,USA,,SE,, University of Colorado
+EVOL,1997,51,,AE,Curtis,M,Lively,,USA,M,SE,, Indiana University
 EVOL,1998,52,,AE,Curtis,M,Lively,,USA,M,SE,, Indiana University
 EVOL,1999,53,,AE,Curtis,M,Lively,,USA,M,SE,, Indiana University
-EVOL,1997,51,,AE,Curtis,M,Lively,,USA,M,SE,, Indiana University
-EVOL,1991,45,,Copy Editor,Kevin,,Long,,USA,M,Other,,
-EVOL,1992,46,,Copy Editor,Kevin,,Long,,USA,M,Other,,
 EVOL,2000,54,,AE,Carlos,,Lopez-Fanjul,,Spain,M,SE,, Universidad Complutense
+EVOL,2001,55,,AE,Carlos,,Lopez-Fanjul,,Spain,M,SE,, Universidad Complutense
+EVOL,2002,56,,AE,Carlos,,Lopez-Fanjul,,Spain,M,SE,, Universidad Complutense
 EVOL,1998,52,,AE,Jonathan,B,Losos,,USA,M,SE,, Washington University
-EVOL,2000,54,,AE,Jonathan,B,Losos,,USA,M,SE,, Washington University
 EVOL,1999,53,,AE,Jonathan,B,Losos,,USA,M,SE,, Washington University
+EVOL,2000,54,,AE,Jonathan,B,Losos,,USA,M,SE,, Washington University
 EVOL,1988,42,,AE,Michael,R,Lynch,,USA,M,SE,, U. of Illinois
-EVOL,1990,44,,AE,Michael,R,Lynch,,USA,M,SE,, University of Oregon
 EVOL,1989,43,,AE,Michael,R,Lynch,,USA,M,SE,, U. of Illinois
+EVOL,1990,44,,AE,Michael,R,Lynch,,USA,M,SE,, University of Oregon
 EVOL,2011,65,,AE,Bruce,,Lyon,,USA,M,SE,, University of California
 EVOL,2012,66,,AE,Bruce,,Lyon,,USA,,SE,,UC Santa Cruz
 EVOL,2013,67,,AE,Bruce,,Lyon,,USA,,SE,,UC Santa Cruz
@@ -731,30 +801,20 @@ EVOL,1995,49,,AE,David,R,Maddison,,USA,M,SE,, University of Arizona
 EVOL,2008,62,,AE,Susana,Aurora,Magallon-Puebla,,Mexico,F,SE,, Universidad Nacional Aut6noma de Mdxico
 EVOL,2009,63,,AE,Susana,Aurora,Magallon-Puebla,,Mexico,F,SE,, Universidad Nacional Aut6noma de Mdxico
 EVOL,2010,64,,AE,Susana,Aurora,Magallon-Puebla,,Mexico,F,SE,, Universidad Nacional Aut6noma de Mdxico
-EVOL,2008,62,,Managing Editor,Jennifer,,Mahar,,USA,F,Other,,
-EVOL,2009,63,,Managing Editor,Jennifer,,Mahar,,USA,F,Other,,
-EVOL,2010,64,,Managing Editor,Jennifer,,Mahar,,USA,F,Other,,
-EVOL,2011,65,,Managing Editor,Jennifer,,Mahar,,USA,F,Other,,
 EVOL,2013,67,,AE,Alexei,,Maklakov,,Sweden,,SE,,Department of Ecology and Evolution
 EVOL,2014,68,,AE,Alexei,,Maklakov,,Sweden,,SE,,Department of Ecology and Evolution
 EVOL,2015,69,,AE,Alexei,,Maklakov,,Sweden,,SE,, Uppsala University
 EVOL,1997,51,,AE,James,,Mallet,,United Kingdom,M,SE,, University College London
 EVOL,1998,52,,AE,James,,Mallet,,United Kingdom,M,SE,, University College London
 EVOL,1999,53,,AE,James,,Mallet,,United Kingdom,M,SE,, University College London
-EVOL,2002,56,,Special Editor,James,,Mallet,,USA,M,Other,, University College London
-EVOL,2003,57,,Special Editor,James,,Mallet,,United Kingdom,M,Other,, University College London
+EVOL,2011,65,,AE,Judith,,Mank,,United Kingdom,F,SE,, University of Oxford
 EVOL,2012,66,,AE,Judith,,Mank,,United Kingdom,,SE,,University of Oxford
 EVOL,2013,67,,AE,Judith,,Mank,,United Kingdom,,SE,,University of Oxford
-EVOL,2011,65,,AE,Judith,,Mank,,United Kingdom,F,SE,, University of Oxford
 EVOL,2007,61,,AE,Johanna,,Mappes,,Finland,F,SE,, University of Jyvaskyla
 EVOL,2008,62,,AE,Johanna,,Mappes,,Finland,F,SE,, University of Jyvaskyla
-EVOL,1991,45,,AE,Therese,A,Markow,,USA,F,SE,, Arizona State University
 EVOL,1990,44,,AE,Therese,A,Markow,,USA,F,SE,, Arizona State University
+EVOL,1991,45,,AE,Therese,A,Markow,,USA,F,SE,, Arizona State University
 EVOL,1992,46,,AE,Therese,A,Markow,,USA,F,SE,, Arizona State University
-EVOL,1996,50,,Editor,Therese,A,Markow,,USA,F,EIC,,Arizona State University
-EVOL,1997,51,,Editor,Therese,A,Markow,,USA,F,EIC,,Arizona State University
-EVOL,1998,52,,Editor,Therese,A,Markow,,USA,F,EIC,,Arizona State University
-EVOL,1999,53,,Editor,Therese,A,Markow,,USA,F,EIC,, University of Arizona
 EVOL,2009,63,,AE,Gabriel,,Marroig,,Brazil,M,SE,, Universidade de Sao Paulo
 EVOL,2010,64,,AE,Gabriel,,Marroig,,Brazil,M,SE,, Universidade de Sao Paulo
 EVOL,2011,65,,AE,Gabriel,,Marroig,,Brazil,M,SE,, Universidade de Sao Paulo
@@ -771,61 +831,38 @@ EVOL,2002,56,,AE,Georgiana,,May,,USA,F,SE,, University of Minnesota
 EVOL,2003,57,,AE,Georgiana,,May,,USA,F,SE,, University of Minnesota
 EVOL,2004,58,,AE,Georgiana,,May,,USA,F,SE,, University of Minnesota
 EVOL,2005,59,,AE,Georgiana,,May,,USA,F,SE,, University of Minnesota
+EVOL,2011,65,,AE,Gregory,,Mayer,,USA,M,SE,, University of Wisconsin-Parkside
 EVOL,2012,66,,AE,Greg,,Mayer,,USA,,SE,,U Wisconsin Parkside
 EVOL,2013,67,,AE,Greg,,Mayer,,USA,,SE,,U Wisconsin Parkside
-EVOL,2011,65,,AE,Gregory,,Mayer,,USA,M,SE,, University of Wisconsin-Parkside
 EVOL,2015,69,,AE,Andrew,G,Mcadam,,Canada,,SE,, University of Guelph
 EVOL,2004,58,,AE,Damhnait,,Mchugh,,USA,,SE,, Colgate University
 EVOL,2005,59,,AE,Damhnait,,Mchugh,,USA,,SE,, Colgate University
 EVOL,1996,50,,AE,Mary,C,Mckitrick,,USA,F,SE,, Harvard Medical School
 EVOL,1997,51,,AE,Mary,C,Mckitrick,,USA,F,SE,, Smith College
 EVOL,1998,52,,AE,Mary,C,Mckitrick,,USA,F,SE,, Smith College
-EVOL,2006,60,,Editorial Assistant,Julie,,Mclaughlin,,USA,F,Other,,
-EVOL,2007,61,,AE,W,Owen,Mcmillan,,PuertoRico,M,SE,, University of Puerto Rico
 EVOL,2006,60,,AE,W,Owen,Mcmillan,,PuertoRico,M,SE,, University of Puerto Rico
+EVOL,2007,61,,AE,W,Owen,Mcmillan,,PuertoRico,M,SE,, University of Puerto Rico
 EVOL,2008,62,,AE,W,Owen,Mcmillan,,PuertoRico,M,SE,, University of Puerto Rico
-EVOL,2014,68,, SPECIAL EDITORS,Thomas,R,Meagher,,Canada,,Other,,University of St. Andrews
-EVOL,2012,66,,SPECIAL EDITORS,Thomas,R,Meagher,,United Kingdom,,SE,,University of St. Andrews Thomas Meagher
-EVOL,2013,67,Outlook on Evolution and Society,SPECIAL EDITORS,Thomas,R,Meagher,,United Kingdom,,Other,,University of St. Andrews Thomas Meagher
-EVOL,2007,61,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,Other,, University of St. Andrews
-EVOL,2015,69,,Special Editor,Thomas,R,Meagher,,United Kingdom,,Other,, University of St. Andrews
-EVOL,2009,63,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,Other,, University of St. Andrews
 EVOL,1989,43,,AE,Thomas,R,Meagher,,USA,M,SE,, Rutgers U.
 EVOL,1990,44,,AE,Thomas,R,Meagher,,USA,M,SE,, Rutgers University
 EVOL,1991,45,,AE,Thomas,R,Meagher,,USA,M,SE,, Rutgers University
 EVOL,1992,46,,AE,Thomas,R,Meagher,,USA,M,SE,, Rutgers University
 EVOL,1993,47,,AE,Thomas,R,Meagher,,USA,M,SE,, Rutgers University
-EVOL,2008,62,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,Other,, University of St. Andrews
-EVOL,2010,64,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,Other,, University of St. Andrews
-EVOL,2011,65,,Special Editor,Thomas,R,Meagher,,United Kingdom,M,Other,, University of St. Andrews
 EVOL,1996,50,,AE,Lisa,M,Meffert,,USA,F,SE,, University of Houston
 EVOL,1997,51,,AE,Lisa,M,Meffert,,USA,F,SE,, University of Houston
 EVOL,2001,55,,AE,Juha,Kari-Kristian,Merila,,Sweden,,SE,, Uppsala University
 EVOL,2002,56,,AE,Juha,Kari-Kristian,Merila,,Sweden,,SE,, Uppsala University
 EVOL,2003,57,,AE,Juha,Kari-Kristian,Merila,,Sweden,,SE,, Uppsala University
 EVOL,2008,62,,AE,Lauren,Ancel,Meyers,,USA,F,SE,, University of Texas at Austin
-EVOL,2010,64,,AE,Lauren,Ancel,Meyers,,USA,F,SE,, University of Texas at Austin
 EVOL,2009,63,,AE,Lauren,Ancel,Meyers,,USA,F,SE,, University of Texas at Austin
+EVOL,2010,64,,AE,Lauren,Ancel,Meyers,,USA,F,SE,, University of Texas at Austin
 EVOL,2014,68,,AE,Alfaro,,Michael,,USA,,SE,,UCLA
-EVOL,1988,42,,Special Editor,Richard,E,Michod,,USA,M,Other,, U. of Arizona
-EVOL,1989,43,,Special Editor,Richard,E,Michod,,USA,M,Other,, U. of Arizona
-EVOL,1990,44,,Special Editor,Richard,E,Michod,,USA,M,Other,, University of Arizona
-EVOL,1985,39,,Editor,Roger,,Milkman,,USA,M,EIC,,University of Iowa
-EVOL,1986,40,,Editor,Roger,,Milkman,,USA,M,EIC,,University of Iowa
-EVOL,2003,57,,Special Editor,Jeffry,B,Mit[On,,USA,M,Other,, University of Colorado
 EVOL,1995,49,,AE,Thomas,,Mitchell-Olds,,USA,M,SE,, University of Montana
 EVOL,1996,50,,AE,Thomas,,Mitchell-Olds,,USA,M,SE,, University of Montana
 EVOL,1997,51,,AE,Thomas,,Mitchell-Olds,,USA,M,SE,, University of Montana
+EVOL,1994,48,,AE,Clharles,,Mitter,,USA,M,SE,, University of Maryland
 EVOL,1995,49,,AE,Charles,,Mitter,,USA,M,SE,, University of Maryland
 EVOL,1996,50,,AE,Charles,,Mitter,,USA,M,SE,, University of Maryland
-EVOL,1994,48,,AE,Clharles,,Mitter,,USA,M,SE,, University of Maryland
-EVOL,2002,56,,Special Editor,Jefery,B,Mitton,,USA,M,Other,, University of Colorado
-EVOL,1985,39,,Special Editor,Jeffry,B,Mitton,,USA,M,Other,, U. of Colorado
-EVOL,1986,40,,Special Editor,Jeffry,B,Mitton,,USA,M,Other,, U. of Colorado
-EVOL,1988,42,,Special Editor,Jeffry,B,Mitton,,USA,M,Other,, U. of Colorado
-EVOL,1989,43,,Special Editor,Jeffry,B,Mitton,,USA,M,Other,, U. of Colorado
-EVOL,2001,55,,Special Editor,Jeffry,B,Mitton,,USA,M,Other,, University of Colorado
-EVOL,1987,41,,Special Editor,Jeffry,B,Mitton,,USA,M,Other,, U. of Colorado
 EVOL,1991,45,,AE,Michael,M,Miyamoto,,USA,M,SE,, University of Florida
 EVOL,1992,46,,AE,Michael,M,Miyamoto,,USA,M,SE,, University of Florida
 EVOL,2015,69,,AE,David,A,Moeller,,USA,,SE,, University of Minnesota
@@ -838,9 +875,9 @@ EVOL,2008,62,,AE,Arne,,Mooers,,Canada,,SE,, Simon Fraser University
 EVOL,1987,41,,AE,William,S,Moore,,USA,M,SE,, Wayne State U.
 EVOL,1988,42,,AE,William,S,Moore,,USA,M,SE,, Wayne State U.
 EVOL,1989,43,,AE,William,S,Moore,,USA,M,SE,, Wayne State U.
+EVOL,2000,54,,AE,Martin,T,Morgan,,USA,M,SE,, Washington State University
 EVOL,2001,55,,AE,Martin,T,Morgan,,USA,M,SE,, Washington State University
 EVOL,2002,56,,AE,Martin,T,Morgan,,USA,M,SE,, Washington State University
-EVOL,2000,54,,AE,Martin,T,Morgan,,USA,M,SE,, Washington State University
 EVOL,2011,65,,AE,Ted,,Morrow,,Sweden,M,SE,, Uppsala University
 EVOL,2012,66,,AE,Ted,,Morrow,,Sweden,,SE,,University of Uppsala
 EVOL,2013,67,,AE,Ted,,Morrow,,Sweden,,SE,,University of Uppsala
@@ -850,8 +887,8 @@ EVOL,2001,55,,AE,Timothy,A,Mousseau,,USA,M,SE,, University of South Carolina
 EVOL,2010,64,,AE,Leonie,,Moyle,,USA,,SE,, Indiana University
 EVOL,2011,65,,AE,Leonie,,Moyle,,USA,M,SE,, Indiana University
 EVOL,2012,66,,AE,Leonie,,Moyle,,USA,,SE,,Indiana University
-EVOL,2005,59,,AE,Ulrich,Gerhard,Mueller,,USA,M,SE,, University of Texas
 EVOL,2004,58,,AE,Ulrich,Gerhard,Mueller,,USA,M,SE,, University of Texas
+EVOL,2005,59,,AE,Ulrich,Gerhard,Mueller,,USA,M,SE,, University of Texas
 EVOL,2006,60,,AE,Ulrich,Gerhard,Mueller,,USA,M,SE,, University of Texas
 EVOL,1986,40,,AE,Terumi,,Mukai,,Japan,,SE,, Kyushu U.
 EVOL,1987,41,,AE,Terumi,,Mukai,,Japan,,SE,, Kyushu U.
@@ -859,9 +896,6 @@ EVOL,1988,42,,AE,Terumi,,Mukai,,Japan,,SE,, Kyushu U.
 EVOL,2003,57,,AE,Michael,W,Nachman,,USA,M,SE,, University of Arizona
 EVOL,2004,58,,AE,Michael,W,Nachman,,USA,M,SE,, University of Arizona
 EVOL,2005,59,,AE,Michael,W,Nachman,,USA,M,SE,, University of Arizona
-EVOL,1985,39,,Special Editor,David,L,Nanney,,USA,M,Other,, U. of Illinois
-EVOL,1986,40,,Special Editor,David,L,Nanney,,USA,M,Other,, U. of Illinois
-EVOL,1987,41,,Special Editor,David,L,Nanney,,USA,M,Other,, U. of Illinois
 EVOL,2002,56,,AE,John,D,Nason,,USA,M,SE,, Iowa State University
 EVOL,2003,57,,AE,John,D,Nason,,USA,M,SE,, Iowa State University
 EVOL,2004,58,,AE,John,D,Nason,,USA,M,SE,, Iowa State University
@@ -883,21 +917,18 @@ EVOL,1987,41,,AE,Brian,,Nichols,,USA,M,SE,, U. of Illinois
 EVOL,1988,42,,AE,Brian,,Nichols,,USA,M,SE,, U. of Illinois
 EVOL,2014,68,,AE,Valenzuela,,Nicole,,USA,,SE,,Iowa State University
 EVOL,1988,42,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell U.
+EVOL,1989,43,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell U.
 EVOL,1991,45,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell University
 EVOL,1992,46,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell University
 EVOL,1993,47,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell University
 EVOL,1994,48,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell Univcrsity
 EVOL,1995,49,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell University
-EVOL,1989,43,,AE,Karl,J,Niklas,,USA,M,SE,, Cornell U.
 EVOL,2001,55,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
+EVOL,2002,56,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
 EVOL,2003,57,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
 EVOL,2004,58,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
 EVOL,2005,59,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
 EVOL,2006,60,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
-EVOL,2007,61,,Editor,Mohamed,AF,Noor,,USA,M,,,
-EVOL,2008,62,,Editor,Mohamed,AF,Noor,,USA,M,,,
-EVOL,2002,56,,AE,Mohamed,AF,Noor,,USA,M,SE,, Louisiana State University
-EVOL,2009,63,,Editor,Mohamed,AF,Noor,,USA,M,,,
 EVOL,2009,63,,AE,Scott,L,Nuismer,,USA,M,SE,,University of Idaho
 EVOL,2010,64,,AE,Scott,L,Nuismer,,USA,M,SE,,University of Idaho
 EVOL,2011,65,,AE,Scott,L,Nuismer,,USA,M,SE,,University of Idaho
@@ -920,21 +951,16 @@ EVOL,2007,61,,AE,Sarah,Perin,Otto,,Canada,F,SE,, University of British Columbia
 EVOL,2008,62,,AE,Sarah,Perin,Otto,,Canada,F,SE,, University of British Columbia
 EVOL,1992,46,,AE,A,Richard,Palmer,,Canada,M,SE,, University of Alberta
 EVOL,1993,47,,AE,A,Richard,Palmer,,Canada,M,SE,, University of Alberta
+EVOL,1994,48,,AE,A,Richiard,Palmer,,Canada,M,SE,, University of Alberta
 EVOL,1995,49,,AE,A,Richard,Palmer,,Canada,M,SE,, University of Alberta
 EVOL,1996,50,,AE,A,Richard,Palmer,,Canada,M,SE,, University of Alberta
 EVOL,1997,51,,AE,A,Richard,Palmer,,Canada,M,SE,, University of Alberta
-EVOL,1994,48,,AE,A,Richiard,Palmer,,Canada,M,SE,, University of Alberta
 EVOL,1996,50,,AE,Stephen,R,Palumbi,,USA,M,SE,, Kewalo Marine Lab
 EVOL,1997,51,,AE,Stephen,R,Palumbi,,USA,M,SE,, Harvard University
 EVOL,1998,52,,AE,Stephen,R,Palumbi,,USA,M,SE,, Harvard University
 EVOL,2009,63,,AE,John,,Pannell,,United Kingdom,M,SE,, University of Oxford
 EVOL,2010,64,,AE,John,,Pannell,,United Kingdom,M,SE,, University of Oxford
 EVOL,2011,65,,AE,John,,Pannell,,United Kingdom,M,SE,, University of Oxford
-EVOL,2002,56,,Academic Associate,Karin,,Park,,USA,F,Other,,
-EVOL,2003,57,,Academic Associate,Karin,,Park,,USA,F,Other,,
-EVOL,2004,58,,Academic Associate,Karin,,Park,,USA,F,Other,,
-EVOL,2005,59,,Academic Associate,Karin,,Park,,USA,F,Other,,
-EVOL,2006,60,,Academic Associate,Karin,,Park,,USA,F,Other,,
 EVOL,1992,46,,AE,Matthew,,Parker,,USA,M,SE,, State University of New York
 EVOL,1993,47,,AE,Matthew,,Parker,,USA,M,SE,, State University of New York
 EVOL,1994,48,,AE,Mxrrhew,,Parker,,USA,M,SE,, State University of New York
@@ -986,30 +1012,23 @@ EVOL,2005,59,,AE,Robert,,Poulin,,NewZealand,M,SE,, University of Otago
 EVOL,2007,61,,AE,Daven,,Presgraves,,USA,,SE,, University of Rochester
 EVOL,2008,62,,AE,Daven,,Presgraves,,USA,,SE,, University of Rochester
 EVOL,2009,63,,AE,Daven,,Presgraves,,USA,,SE,, University of Rochester
+EVOL,1994,48,,AE,Mary,V,Price,,USA,F,SE,, University of California
 EVOL,1995,49,,AE,Mary,V,Price,,USA,F,SE,, University of California
 EVOL,1996,50,,AE,Mary,V,Price,,USA,F,SE,, University of California
-EVOL,1994,48,,AE,Mary,V,Price,,USA,F,SE,, University of California
 EVOL,2006,60,,AE,Daniel,El,Promislow,,USA,M,SE,, University of Georgia
 EVOL,2007,61,,AE,Daniel,El,Promislow,,USA,M,SE,, University of Georgia
-EVOL,2001,55,,Assistant Managing Editor,Jennifer,J,Purdie,,USA,F,Other,,
-EVOL,2002,56,,Assistant Managing Editor,Jennifer,J,Purdie,,USA,F,Other,,
-EVOL,2003,57,,Assistant Managing Editor,Jennifer,J,Purdie,,USA,F,Other,,
 EVOL,2014,68,,AE,Rodriguez,,Rafael,,USA,,SE,,University of Wisconsin
 EVOL,1986,40,,AE,Mark,D,Rausher,,USA,M,SE,, Duke U.
 EVOL,1987,41,,AE,Mark,D,Rausher,,USA,M,SE,, Duke U.
 EVOL,1988,42,,AE,Mark,D,Rausher,,USA,M,SE,, Duke U.
-EVOL,2007,61,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
-EVOL,2008,62,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
-EVOL,2009,63,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
-EVOL,2010,64,,Editor-in-Chief,Mark,D,Rausher,,USA,M,EIC,,Duke
+EVOL,2007,61,,AE,Andrew,F,Read,,United Kingdom,M,SE,, University of Edinburgh
 EVOL,2009,63,,AE,Andrew,,Read,,USA,M,SE,, The Pennsylvania State University
 EVOL,2010,64,,AE,Andrew,,Read,,USA,M,SE,, The Pennsylvania State University
 EVOL,2011,65,,AE,Andrew,,Read,,USA,M,SE,, The Pennsylvania State University
-EVOL,2007,61,,AE,Andrew,F,Read,,United Kingdom,M,SE,, University of Edinburgh
 EVOL,2015,69,,AE,Rosemary,,Redfield,,Canada,,SE,, University of British Columbia
-EVOL,2014,68,,AE,Susanna,,Remold,,USA,,SE,,University of Louisville 
 EVOL,2012,66,,AE,Susanna,,Remold,,USA,,SE,,University of Louisville 
 EVOL,2013,67,,AE,Susanna,,Remold,,USA,,SE,,University of Louisville 
+EVOL,2014,68,,AE,Susanna,,Remold,,USA,,SE,,University of Louisville 
 EVOL,2011,65,,AE,Max,,Reuter,,United Kingdom,M,SE,, University College London
 EVOL,2012,66,,AE,Max,,Reuter,,United Kingdom,,SE,,"University College, London"
 EVOL,2013,67,,AE,Max,,Reuter,,United Kingdom,,SE,,University College
@@ -1021,7 +1040,6 @@ EVOL,1994,48,,AE,William,R,Rice,,USA,M,SE,, University of California
 EVOL,1995,49,,AE,William,R,Rice,,USA,M,SE,, University of California
 EVOL,1996,50,,AE,William,R,Rice,,USA,M,SE,, University of California
 EVOL,2014,68,,AE,Gomulkiewicz,,Richard,,USA,,SE,,Washington State University
-EVOL,1992,46,,Secretary,Jane,,Rienks,,Australia,F,Other,,
 EVOL,1999,53,,AE,Margaret,A,Riley,,USA,F,SE,, Yale University
 EVOL,2000,54,,AE,Margaret,A,Riley,,USA,F,SE,, Yale University
 EVOL,2001,55,,AE,Margaret,A,Riley,,USA,F,SE,, Yale University
@@ -1030,10 +1048,10 @@ EVOL,1990,44,,AE,John,M,Ringo,,USA,M,SE,, University of Maine
 EVOL,1991,45,,AE,John,M,Ringo,,USA,M,SE,, University of Maine
 EVOL,2015,69,,AE,Dan,,Robosky,,USA,,SE,, University of Michigan
 EVOL,2015,69,,AE,Rafael,Lucas,Rodriguez,,USA,,SE,, Univ. of Wisconsin-Milwaukee
-EVOL,2015,69,,AE,Derek,,Roff,,USA,,SE,, University of California
 EVOL,1998,52,,AE,Derek,A,Roff,,Canada,M,SE,, McGill University
 EVOL,1999,53,,AE,Derek,A,Roff,,Canada,M,SE,, McGill University
 EVOL,2000,54,,AE,Derek,A,Roff,,Canada,M,SE,, McGill University
+EVOL,2015,69,,AE,Derek,,Roff,,USA,,SE,, University of California
 EVOL,2012,66,,AE,Ophelie,,Ronce,,France,,SE,,Institut des Sciences de Evolution de Montpellier
 EVOL,2013,67,,AE,Ophelie,,Ronce,,France,,SE,,Institut des Sciences de Evolution de Montpellier
 EVOL,2014,68,,AE,Ophelie,,Ronce,,France,,SE,,Institut des Sciences de Evolution de Montpellier
@@ -1043,9 +1061,9 @@ EVOL,2014,68,,AE,Michael,,Rosenberg,,USA,,SE,,Arizona State University
 EVOL,2013,67,,AE,Erica,Bree,Rosenblum,,USA,,SE,,Environmental Science Policy and Management Department
 EVOL,2014,68,,AE,Erica,Bree,Rosenblum,,USA,,SE,,Environmental Science Policy and Management Department
 EVOL,2015,69,,AE,Erica,Bree,Rosenblum,,USA,,SE,, University of California
+EVOL,1999,53,,AE,Kenneth,G,Ross,,USA,M,SE,, University of Georgia
 EVOL,2000,54,,AE,Kenneth,G,Ross,,USA,M,SE,, University of Georgia
 EVOL,2001,55,,AE,Kenneth,G,Ross,,USA,M,SE,, University of Georgia
-EVOL,1999,53,,AE,Kenneth,G,Ross,,USA,M,SE,, University of Georgia
 EVOL,1994,48,,AE,V,Louise,Roth,,USA,,SE,, Duke University
 EVOL,1995,49,,AE,V,Louise,Roth,,USA,,SE,, Duke University
 EVOL,1996,50,,AE,V,Louise,Roth,,USA,F,SE,, Duke University
@@ -1065,12 +1083,12 @@ EVOL,1998,52,,AE,Ann,K,Sakai,,USA,F,SE,, University of California
 EVOL,2013,67,,AE,Walter,,Saltzburger,,Switzerland,,SE,,University of Basel
 EVOL,2014,68,,AE,Walter,,Saltzburger,,Switzerland,,SE,,University of Basel
 EVOL,2015,69,,AE,Walter,,Salzburger,,Switzerland,,SE,, University of Basel
-EVOL,2014,68,,AE,Vincent,,Savolainen,,United Kingdom,,SE,,Division of Biology
-EVOL,2012,66,,AE,Vincent,,Savolainen,,United Kingdom,,SE,,"Division of Biology, Imperial College, London"
-EVOL,2013,67,,AE,Vincent,,Savolainen,,United Kingdom,,SE,,Division of Biology
 EVOL,1998,52,,AE,Outi,A,Savolainen,,Finland,,SE,, University of Oulu
 EVOL,1999,53,,AE,Outi,A,Savolainen,,Finland,,SE,, University of Oulu
 EVOL,2000,54,,AE,Outi,A,Savolainen,,Finland,,SE,, University of Oulu
+EVOL,2012,66,,AE,Vincent,,Savolainen,,United Kingdom,,SE,,"Division of Biology, Imperial College, London"
+EVOL,2013,67,,AE,Vincent,,Savolainen,,United Kingdom,,SE,,Division of Biology
+EVOL,2014,68,,AE,Vincent,,Savolainen,,United Kingdom,,SE,,Division of Biology
 EVOL,1985,39,,AE,Douglas,W,Schemske,,USA,M,SE,, U. of Chicago
 EVOL,1986,40,,AE,Douglas,W,Schemske,,USA,M,SE,, U. of Chicago
 EVOL,1987,41,,AE,Douglas,W,Schemske,,USA,M,SE,, U. of Chicago
@@ -1082,9 +1100,9 @@ EVOL,1991,45,,AE,Johanna,M,Schmitt,,USA,F,SE,, Brown University
 EVOL,1992,46,,AE,Johanna,M,Schmitt,,USA,F,SE,, Brown University
 EVOL,1987,41,,AE,Daniel,J,Schoen,,Canada,M,SE,, McGill U.
 EVOL,1988,42,,AE,Daniel,J,Schoen,,Canada,M,SE,, McGill U.
+EVOL,2006,60,,AE,Daniel,J,Schoen,,Canada,M,SE,, McGill University
 EVOL,2007,61,,AE,Daniel,J,Schoen,,Canada,M,SE,, McGill University
 EVOL,2008,62,,AE,Daniel,J,Schoen,,Canada,M,SE,, McGill University
-EVOL,2006,60,,AE,Daniel,J,Schoen,,Canada,M,SE,, McGill University
 EVOL,2004,58,,AE,Kurt,,Schwenk,,USA,M,SE,, University of Connecticut
 EVOL,2005,59,,AE,Kurt,,Schwenk,,USA,M,SE,, University of Connecticut
 EVOL,2006,60,,AE,Kurt,,Schwenk,,USA,M,SE,, University of Connecticut
@@ -1095,38 +1113,33 @@ EVOL,2014,68,,AE,Natalie,,Seddon,,United Kingdom,,SE,,Biodiversity Insititute an
 EVOL,1991,45,,AE,Jon,,Seger,,USA,M,SE,, University of Utah
 EVOL,1992,46,,AE,Jon,,Seger,,USA,M,SE,, University of Utah
 EVOL,1993,47,,AE,Jon,,Seger,,USA,M,SE,, University of Utah
-EVOL,2015,69,,Editor,Maria,,Servedio,,USA,,SE,,
 EVOL,2006,60,,AE,Maria,R,Servedio,,USA,F,SE,, University of North Carolina-Chapel Hill
 EVOL,2007,61,,AE,Maria,R,Servedio,,USA,F,SE,, University of North Carolina-Chapel Hill
 EVOL,2008,62,,AE,Maria,R,Servedio,,USA,F,SE,, University of North Carolina-Chapel Hill
 EVOL,1991,45,,AE,Philip,M,Service,,USA,M,SE,, Northern Arizona University
-EVOL,1993,47,,AE,Philip,M,Service,,USA,M,SE,, Northern Arizona University
 EVOL,1992,46,,AE,Pihilip,M,Service,,USA,M,SE,, Northern Arizona University
+EVOL,1993,47,,AE,Philip,M,Service,,USA,M,SE,, Northern Arizona University
 EVOL,2012,66,,AE,Carla,,Sgro,,Australia,,SE,,Monash University
 EVOL,2013,67,,AE,Carla,,Sgro,,Australia,,SE,,Monash University
 EVOL,2014,68,,AE,Carla,,Sgro,,Australia,,SE,,Monash University
 EVOL,1991,45,,AE,Brad,,Shaffer,,USA,M,SE,, University of California
 EVOL,1992,46,,AE,Brad,,Shaffer,,USA,M,SE,, University of California
 EVOL,1993,47,,AE,H,Bradley,Shaffer,,USA,M,SE,, University of California
-EVOL,1992,46,,Special Editor,Art,,Shapiro,,USA,M,Other,, University of California
-EVOL,2015,69,,Editor-in-Chief,Ruth,G,Shaw,,USA,,EIC,,
 EVOL,1996,50,,AE,Ruth,G,Shaw,,United Kingdom,F,SE,, University of Edinburgh
 EVOL,1997,51,,AE,Ruth,G,Shaw,,USA,F,SE,, University of Minnesota
-EVOL,2014,68,, Editor-in-Chief,Ruth,G,Shaw,,USA,,EIC,,
 EVOL,2001,55,,AE,Kerry,L,Shaw,,USA,,SE,, University of Maryland
 EVOL,2002,56,,AE,Kerry,L,Shaw,,USA,,SE,, University of Maryland
 EVOL,2003,57,,AE,Kerry,L,Shaw,,USA,M,SE,, University of Maryland
 EVOL,2004,58,,AE,Kerry,L,Shaw,,USA,M,SE,, University of Maryland
 EVOL,2005,59,,AE,Kerry,L,Shaw,,USA,,SE,, University of Maryland
-EVOL,2012,66,,AE,Ben,,Sheldon,,United Kingdom,,SE,,University of Oxford
 EVOL,2010,64,,AE,Ben,C,Sheldon,,United Kingdom,M,SE,, Oxford University
 EVOL,2011,65,,AE,Ben,C,Sheldon,,United Kingdom,M,SE,, Oxford University
+EVOL,2012,66,,AE,Ben,,Sheldon,,United Kingdom,,SE,,University of Oxford
 EVOL,2012,66,,AE,Alex,,Shingleton,,USA,,SE,,"Ecology, Evolutionary Biology and Behavior Program, Michigan State University, East Lansing, MI 48824"
 EVOL,2013,67,,AE,Alex,,Shingleton,,USA,,SE,,Ecology
 EVOL,2014,68,,AE,Alex,,Shingleton,,USA,,SE,,Ecology
 EVOL,2007,61,,AE,Jacqui,A,Shykoff,,France,,SE,, Universit6 Paris-Sud
 EVOL,2008,62,,AE,Jacqui,A,Shykoff,,France,,SE,, Universit6 Paris-Sud
-EVOL,2015,69,,Managing Editor,Katie,,Simmons,,USA,,Other,,
 EVOL,2002,56,,AE,Barry,,Sinervo,,USA,M,SE,, University of California
 EVOL,2003,57,,AE,Barry,,Sinervo,,USA,M,SE,, University of California
 EVOL,1995,49,,AE,Jack,W,Sites,,USA,M,SE,, Brigham Young University
@@ -1140,8 +1153,8 @@ EVOL,2002,56,,AE,Thomas,B,Smith,,USA,M,SE,, San Francisco State University
 EVOL,2003,57,,AE,Thomas,B,Smith,,USA,M,SE,, San Francisco State University
 EVOL,1988,42,,AE,Peter,E,Smouse,,USA,M,SE,, U. of Michigan
 EVOL,1989,43,,AE,Peter,E,Smouse,,USA,M,SE,, U. of Michigan
-EVOL,2007,61,,AE,Rhonda,R,Snook,,United Kingdom,F,SE,, University of Sheffield
 EVOL,2006,60,,AE,Rhonda,R,Snook,,United Kingdom,F,SE,, University of Sheffield
+EVOL,2007,61,,AE,Rhonda,R,Snook,,United Kingdom,F,SE,, University of Sheffield
 EVOL,2008,62,,AE,Rhonda,R,Snook,,United Kingdom,F,SE,, University of Sheffield
 EVOL,1995,49,,AE,Allison,,Snow,,USA,,SE,, Ohio State University
 EVOL,1996,50,,AE,Allison,,Snow,,USA,F,SE,, Ohio State University
@@ -1156,9 +1169,9 @@ EVOL,1997,51,,AE,Victoria,L,Sork,,USA,F,SE,, University of Missouri-St. Louis
 EVOL,1985,39,,AE,Janice,B,Spofford,,USA,,SE,, U. of Chicago
 EVOL,1986,40,,AE,Janice,B,Spofford,,USA,,SE,, U. of Chicago
 EVOL,1987,41,,AE,Janice,B,Spofford,,USA,,SE,, U. of Chicago
-EVOL,2000,54,,AE,William,T,Starmer,,USA,M,SE,, Syracuse University
-EVOL,1999,53,,AE,William,T,Starmer,,USA,M,SE,, Syracuse University
 EVOL,1998,52,,AE,W,Thomas,Starmer,,USA,M,SE,, Syracuse University
+EVOL,1999,53,,AE,William,T,Starmer,,USA,M,SE,, Syracuse University
+EVOL,2000,54,,AE,William,T,Starmer,,USA,M,SE,, Syracuse University
 EVOL,1988,42,,AE,Nils,CHR,Stenseth,,Norway,M,SE,, U. of Oslo
 EVOL,1989,43,,AE,Nils,CHR,Stenseth,,Norway,M,SE,, U. of Oslo
 EVOL,1990,44,,AE,Nils,CHR,Stenseth,,Norway,M,SE,, University of Oslo
@@ -1184,9 +1197,9 @@ EVOL,2012,66,,AE,Joan,E,Strassmann,,USA,,SE,,"Rice University, Houston"
 EVOL,2000,54,,AE,Sharon,Y,Strauss,,USA,,SE,, University of California
 EVOL,2001,55,,AE,Sharon,Y,Strauss,,USA,,SE,, University of California
 EVOL,2002,56,,AE,Sharon,Y,Strauss,,USA,,SE,, University of California
-EVOL,2014,68,,AE,Todd,,Streelman,,USA,,SE,,Dept of Biology
 EVOL,2012,66,,AE,Todd,,Streelman,,USA,,SE,,"Dept of Biology, Georgia Tech"
 EVOL,2013,67,,AE,Todd,,Streelman,,USA,,SE,,Dept of Biology
+EVOL,2014,68,,AE,Todd,,Streelman,,USA,,SE,,Dept of Biology
 EVOL,2014,68,,AE,Matthew,,Streisfeld,,USA,,SE,,University of Oregan
 EVOL,2015,69,,AE,Matthew,A,Streisfeld,,USA,,SE,, University of Oregon
 EVOL,1985,39,,AE,Curtis,,Strobeck,,Canada,M,SE,,Univ of Alberta
@@ -1205,12 +1218,7 @@ EVOL,2007,61,,AE,Billie,,Swalla,,USA,,SE,, University of Washington
 EVOL,2008,62,,AE,Billie,,Swalla,,USA,,SE,, University of Washington
 EVOL,2009,63,,AE,Billie,,Swalla,,USA,M,SE,, University of Washington
 EVOL,2015,69,,AE,Andrea,,Sweigart,,USA,,SE,, University of Georgia
-EVOL,1988,42,,Special Editor,David,L,Swofford,,USA,M,Other,,  Ilinois Natural History Survey 
 EVOL,2014,68,,AE,Kawecki,,Tadeusz,,Switzerland,,SE,,University of Lausanne
-EVOL,2011,65,,Special Editor,John,N,Thompson,,USA,M,Other,, University of California
-EVOL,2008,62,,Special Editor,John,N,Thompson,,USA,M,Other,, University of California
-EVOL,2009,63,,Special Editor,John,N,Thompson,,USA,M,Other,, University of California
-EVOL,2010,64,,Special Editor,John,N,Thompson,,USA,M,Other,, University of California
 EVOL,1990,44,,AE,Randy,,Thornhill,,USA,M,SE,, University of New Mexico
 EVOL,1991,45,,AE,Randy,,Thornhill,,USA,M,SE,, University of New Mexico
 EVOL,1992,46,,AE,Randy,,Thornhill,,USA,M,SE,, University of New Mexico
@@ -1226,8 +1234,6 @@ EVOL,2008,62,,AE,Michael,,Travisano,,USA,M,SE,, University of Houston
 EVOL,2003,57,,AE,Tom,,Tregenza,,United Kingdom,M,SE,, University of Leeds
 EVOL,2004,58,,AE,Tom,,Tregenza,,United Kingdom,M,SE,, University of Leeds
 EVOL,2005,59,,AE,Tom,,Tregenza,,United Kingdom,M,SE,, University of Leeds
-EVOL,1991,45,,Managing Editor,Robin,,Tricoles,,USA,,Other,,
-EVOL,1992,46,,Managing Editor,Robin,,Tricoles,,USA,,Other,,
 EVOL,2009,63,,AE,Paul,,Turner,,USA,M,SE,, Yale University
 EVOL,2010,64,,AE,Paul,,Turner,,USA,M,SE,, Yale University
 EVOL,2011,65,,AE,Paul,,Turner,,USA,M,SE,, Yale University
@@ -1239,21 +1245,12 @@ EVOL,2009,63,,AE,Jana,,Vamosi,,Canada,,SE,, University of Calgary
 EVOL,2010,64,,AE,Jana,,Vamosi,,Canada,,SE,, University of Calgary
 EVOL,2011,65,,AE,Jana,,Vamosi,,Canada,,SE,, University of Calgary
 EVOL,1993,47,,AE,Blaire,,VanValkenburgh,,USA,,SE,, University of California
-EVOL,1995,49,,AE,Blaire,,VanValkenburgh,,USA,,SE,, University of California
 EVOL,1994,48,,AE,Blaire,,VanValkenburgh,,USA,,SE,, University of California
-EVOL,1993,47,,Editor,Geerat,J,Vermeij,,USA,M,EIC,,UC Davis
-EVOL,1994,48,,Editor,Geerat,J,Vermeij,,USA,M,EIC,,UC Davis
-EVOL,1995,49,,Editor,Geerat,J,Vermeij,,USA,M,EIC,,UC Davis
+EVOL,1995,49,,AE,Blaire,,VanValkenburgh,,USA,,SE,, University of California
 EVOL,1994,48,,AE,Sara,,Via,,USA,F,SE,, Univcrsity of Orcgon
 EVOL,1995,49,,AE,Sara,,Via,,USA,F,SE,, Cornell University
 EVOL,1996,50,,AE,Sara,,Via,,USA,F,SE,, Cornell University
-EVOL,1988,42,,Editor,Robert,C,Vrijenhoek,,USA,M,EIC,,Rutgers Univeristy
 EVOL,1986,40,,AE,Robert,C,Vrijenhoek,,USA,M,SE,, Rutgers U.
-EVOL,1987,41,,Editor,Robert,C,Vrijenhoek,,USA,M,EIC,,Rutgers Univeristy
-EVOL,1989,43,,Editor,Robert,C,Vrijenhoek,,USA,M,EIC,,Rutgers Univeristy
-EVOL,2012,66,,SPECIAL EDITORS,Michael,,Wade,,USA,,SE,,Indiana University Michael Wade through June 2014
-EVOL,2013,67,Book Review,SPECIAL EDITORS,Michael,,Wade,,USA,,Other,,Indiana University Michael Wade through June 2014
-EVOL,2014,68,,SPECIAL EDITORS,Michael,,Wade,,USA,,Other,,Indiana University Michael Wade through June 2014
 EVOL,1986,40,,AE,Michael,J,Wade,,USA,M,SE,, U. of Chicago
 EVOL,1994,48,,AE,Gunter,P,Wagner,,USA,M,SE,, Yale University
 EVOL,1995,49,,AE,Gunter,P,Wagner,,USA,M,SE,, Yale University
@@ -1265,18 +1262,15 @@ EVOL,2005,59,,AE,Peter,,Wainwright,,USA,M,SE,, University of California
 EVOL,1994,48,,AE,Donald,M,Waller,,USA,M,SE,, University of Wisconsin
 EVOL,1995,49,,AE,Donald,M,Waller,,USA,M,SE,, University of Wisconsin
 EVOL,1996,50,,AE,Donald,M,Waller,,USA,M,SE,, University of Wisconsin
-EVOL,2000,54,,Editor,Donald,M,Waller,,USA,M,EIC,,University of Wisconsin
-EVOL,2001,55,,Editor,Donald,M,Waller,,USA,M,EIC,,University of Wisconsin
-EVOL,2002,56,,Editor,Donald,M,Waller,,USA,M,EIC,,University of Wisconsin
+EVOL,2001,55,,AE,Graham,Peter,Wallis,,NewZealand,M,SE,, University of Otago
 EVOL,2002,56,,AE,Graham,Peter,Wallis,,NewZealand,M,SE,, University of Otago
 EVOL,2003,57,,AE,Graham,Peter,Wallis,,NewZealand,M,SE,, University of Otago
-EVOL,2001,55,,AE,Graham,Peter,Wallis,,NewZealand,M,SE,, University of Otago
 EVOL,1992,46,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
 EVOL,1993,47,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
 EVOL,1994,48,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
 EVOL,1995,49,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
-EVOL,1997,51,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
 EVOL,1996,50,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
+EVOL,1997,51,,AE,J,Bruce,Walsh,,USA,M,SE,, University of Arizona
 EVOL,2011,65,,AE,John,,Wares,,USA,M,SE,, University of Georgia
 EVOL,2012,66,,AE,John,,Wares,,USA,,SE,,University of Georgia
 EVOL,2013,67,,AE,John,,Wares,,USA,,SE,,University of Georgia
@@ -1285,15 +1279,15 @@ EVOL,1993,47,,AE,Ward,B,Watt,,USA,M,SE,, Stanford University
 EVOL,2008,62,,AE,Marta,L,Wayne,,USA,F,SE,, University of Florida
 EVOL,2009,63,,AE,Marta,L,Wayne,,USA,F,SE,, University of Florida
 EVOL,2010,64,,AE,Marta,L,Wayne,,USA,F,SE,, University of Florida
-EVOL,2013,67,,AE,Mark,,Webster,,USA,,SE,,University of Chicago 
-EVOL,2014,68,,AE,Mark,,Webster,,USA,,SE,,University of Chicago 
-EVOL,2015,69,,AE,Mark,,Webster,,USA,,SE,, University of Chicago
+EVOL,2004,58,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
 EVOL,2005,59,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
 EVOL,2006,60,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
 EVOL,2008,62,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
 EVOL,2009,63,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
 EVOL,2010,64,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
-EVOL,2004,58,,AE,Michael,Stilson,Webster,,USA,M,SE,, Washington State University
+EVOL,2013,67,,AE,Mark,,Webster,,USA,,SE,,University of Chicago 
+EVOL,2014,68,,AE,Mark,,Webster,,USA,,SE,,University of Chicago 
+EVOL,2015,69,,AE,Mark,,Webster,,USA,,SE,, University of Chicago
 EVOL,2007,61,,AE,Nina,,Wedell,,United Kingdom,F,SE,, University of Exeter in Cornwall
 EVOL,2008,62,,AE,Nina,,Wedell,,United Kingdom,F,SE,, University of Exeter in Cornwall
 EVOL,1985,39,,AE,Stephen,G,Weller,,USA,M,SE,,Univ of Illinois at Chicago
@@ -1312,12 +1306,9 @@ EVOL,2015,69,,AE,Christopher,,Wheat,,Sweden,,SE,, Stockholm University
 EVOL,1998,52,,AE,Diana,E,Wheeler,,USA,F,SE,, University of Arizona
 EVOL,1999,53,,AE,Diana,E,Wheeler,,USA,F,SE,, University of Arizona
 EVOL,2000,54,,AE,Diana,E,Wheeler,,USA,F,SE,, University of Arizona
-EVOL,1998,52,,Editorial Assistant,Jill,,White,,USA,F,Other,,
-EVOL,1999,53,,Editorial Assistant,Jill,,White,,USA,F,Other,,
-EVOL,2000,54,,Assistant Managing Editor,Jill,K,White,,USA,F,Other,,
 EVOL,2000,54,,AE,Michael,C,Whitlock,,Canada,M,SE,, University of British Columbia
-EVOL,2002,56,,AE,Michael,C,Whitlock,,Canada,M,SE,, University of British Columbia
 EVOL,2001,55,,AE,Michael,C,Whitlock,,Canada,M,SE,, University of British Columbia
+EVOL,2002,56,,AE,Michael,C,Whitlock,,Canada,M,SE,, University of British Columbia
 EVOL,2001,55,,AE,John,J,Wiens,,USA,M,SE,, Carnegie Museum of Natural History
 EVOL,2002,56,,AE,John,J,Wiens,,USA,M,SE,, Carnegie Museum of Natural History
 EVOL,2003,57,,AE,John,J,Wiens,,USA,M,SE,, Carnegie Museum of Natural History
@@ -1326,8 +1317,8 @@ EVOL,2013,67,,AE,Jon,,Wilkins,,USA,,SE,,Ronin Institute
 EVOL,2014,68,,AE,Jon,,Wilkins,,USA,,SE,,Ronin Institute
 EVOL,2002,56,,AE,Charles,Frederick,Williams,,USA,M,SE,, Idaho State University
 EVOL,2003,57,,AE,Charles,Frederick,Williams,,USA,M,SE,, Idaho State University
-EVOL,2005,59,,AE,Charles,Frederick,Williams,,USA,M,SE,, Idaho State University
 EVOL,2004,58,,AE,Charles,Frederick,Williams,,USA,M,SE,, Idaho State University
+EVOL,2005,59,,AE,Charles,Frederick,Williams,,USA,M,SE,, Idaho State University
 EVOL,2002,56,,AE,John,,Willis,,USA,M,SE,, Duke University
 EVOL,2003,57,,AE,John,,Willis,,USA,M,SE,, Duke University
 EVOL,2004,58,,AE,John,,Willis,,USA,M,SE,, Duke University
@@ -1343,11 +1334,11 @@ EVOL,2003,57,,AE,Anne,D,Yoder,,USA,F,SE,, Yale University
 EVOL,2004,58,,AE,Anne,D,Yoder,,USA,F,SE,, Yale University
 EVOL,2005,59,,AE,Anne,D,Yoder,,USA,F,SE,, Yale University
 EVOL,1998,52,,AE,Miriam,L,Zelditch,,USA,F,SE,, University of Michigan
-EVOL,2000,54,,AE,Miriam,L,Zelditch,,USA,F,SE,, University of Michigan
 EVOL,1999,53,,AE,Miriam,L,Zelditch,,USA,F,SE,, University of Michigan
+EVOL,2000,54,,AE,Miriam,L,Zelditch,,USA,F,SE,, University of Michigan
+EVOL,1994,48,,AE,Rolbert,M,Zink,,USA,M,SE,, University of Minnesota
 EVOL,1995,49,,AE,Robert,M,Zink,,USA,M,SE,, University of Minnesota
 EVOL,1996,50,,AE,Robert,M,Zink,,USA,M,SE,, University of Minnesota
-EVOL,1994,48,,AE,Rolbert,M,Zink,,USA,M,SE,, University of Minnesota
 EVOL,1997,51,,AE,Eleftherios,,Zouros,,Canada,,SE,, Dalhousie University
 EVOL,1998,52,,AE,Eleftherios,,Zouros,,Canada,,SE,, Dalhousie University
 EVOL,1999,53,,AE,Eleftherios,,Zouros,,Greece,,SE,, Institute of Marine Biology of Crete
@@ -1355,4 +1346,13 @@ EVOL,2002,56,,AE,Marlene,,Zuk,,USA,F,SE,, University of California
 EVOL,2007,61,,AE,John,,TRUE,,USA,M,SE,, Stony Brook University
 EVOL,2008,62,,AE,John,,TRUE,,USA,M,SE,, Stony Brook University
 EVOL,2009,63,,AE,John,,TRUE,,USA,M,SE,, Stony Brook University
-EVOL,1988,42,,Managing Editor,,,,,USA,M,Other,,
+EVOL,2015,69,,Editor,Jeffrey,,Conner,,USA,,SE,,
+EVOL,2015,69,,Editor,Maria,,Servedio,,USA,,SE,,
+EVOL,2012,66,,SPECIAL EDITORS,Thomas,R,Meagher,,United Kingdom,,SE,,University of St. Andrews Thomas Meagher
+EVOL,2012,66,,SPECIAL EDITORS,Michael,,Wade,,USA,,SE,,Indiana University Michael Wade through June 2014
+EVOL,2014,68,, SPECIAL EDITORS,Thomas,R,Meagher,,Canada,,SPECIAL,,University of St. Andrews
+EVOL,1985,39,,Special Editor,William,R,Atchley,,USA,M,SPECIAL,, U. of Wisconsin
+EVOL,1985,39,,Special Editor,Allan,M,Campbell,,USA,M,SPECIAL,, Stanford U.
+EVOL,1985,39,,Special Editor,Joseph,,Frankel,,USA,M,SPECIAL,, U. of Iowa
+EVOL,1985,39,,Special Editor,Jeffry,B,Mitton,,USA,M,SPECIAL,, U. of Colorado
+EVOL,1985,39,,Special Editor,David,L,Nanney,,USA,M,SPECIAL,, U. of Illinois
