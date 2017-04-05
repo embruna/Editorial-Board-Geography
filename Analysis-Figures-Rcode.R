@@ -8,6 +8,8 @@
 library(tidyverse)
 library(RecordLinkage)
 library(stringdist)
+library(vegan)
+library(WDI)
 #library(gdata)
 #library(grid)
 #library(gridExtra)
@@ -15,9 +17,7 @@ library(stringdist)
 #library(RColorBrewer)
 #library(reshape2)
 #require(rworldmap)
-library(vegan)
-library(WDI)
-source(multiplot.R) #Code to plot all journals in one figure
+# source(multiplot.R) #Code to plot all journals in one figure
 #source("helpers.R")    #Code to plot all journals in one figure
 
 
@@ -317,6 +317,33 @@ AnalysisData<-AnalysisData %>%
 
 # Convert editor ID to a factor
 AnalysisData$editor_id<-as.factor(AnalysisData$editor_id)
+
+# Convert Journal Codes to Journal Names
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="BITR"] <- "Biotropica"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="PLANTECOL"] <- "Plant Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="AGRONOMY"] <- "Agronomy Journal"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="AJB"] <- "American J. Botany"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="CONBIO"] <- "Conservation Biology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="ECOLOGY"] <- "Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="BIOCON"] <- "Biological Conservation"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="JECOL"] <- "J. of Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="JTE"] <- "J. Tropical Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="AMNAT"] <- "American Naturalist"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="JBIOG"] <- "J. Biogeography"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="ECOGRAPHY"] <- "Ecography"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="EVOL"] <- "Evolution"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="FEM"] <- "Forest Ecology & Managment"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="FUNECOL"] <- "Functional Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="LECO"] <- "Landscape Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="JZOOL"] <- "J. Zoology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="JAPE"] <- "J. Applied Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="JANE"] <- "J. Animal Ecology"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="NEWPHYT"] <- "New Phytologist"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="OECOL"] <- "Oecologia"
+levels(AnalysisData$JOURNAL)[levels(AnalysisData$JOURNAL)=="OIKOS"] <- "Oikos"
+
+
+
 #############################################################
 
 
@@ -643,11 +670,11 @@ plotPOOLEDevenness<-plotPOOLEDevenness+theme_classic()+
         legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
 #plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
 plotPOOLEDevenness
-
 ######################################################
 # Binding these up to make Fig. 1
 ######################################################
 
+source("multiplot.R")
 Fig1<-multiplot(jointRichnessPlot, plotPOOLEDsimpdiv, plotTOTALEDSvYear, plotPOOLEDevenness, cols=2)
 
 
@@ -797,21 +824,14 @@ TotalEdCountriesJrnl<-AnalysisData %>%
 TABLE1<-full_join(TotalEdCountriesJrnl, Eds1stYr, EdsLastYr, by = "JOURNAL")
 TABLE1<-full_join(TABLE1, EdsLastYr, by = "JOURNAL")
 
-
-
-
-
-
-
-
-
+TABLE1
 
 
 
 
 
 ######################################################
-# Supplement: Total Countries (all pooled) vs. Total Editors (all pooled) 
+# Supplement 2 Fig 1: Total Countries (all pooled) vs. Total Editors (all pooled) 
 ######################################################
 GEOperYR<-EdsPerCountryPerJrnlPerYr.LONG %>% group_by(YEAR) %>% distinct(geo.code) %>% summarize(Countries = sum(n_distinct(geo.code)))
 EDSperYR<-EdsCountriesPerJrnlPerYr %>% group_by(YEAR) %>% summarize(Editors = sum(TotalEditors))
@@ -838,7 +858,7 @@ plotTOTALedsVgeo
 
 
 ######################################################
-# Supplement: Editorial Board Size vs. # of countries on the board (ALL JOURNALS ANDYEARS POOLED)
+# Supplement 5 Fig 1a: Editorial Board Size vs. # of countries on the board (ALL JOURNALS ANDYEARS POOLED)
 ######################################################
 ### EB 8 FEB 2016 : absolute number of countries is deceptive because it will be a function of editorial board size
 plotEDvCountries<-ggplot(EdsCountriesPerJrnlPerYr, aes(x=TotalEditors, y=TotalCountries)) +
@@ -863,76 +883,7 @@ plotEDvCountries
 
 
 ######################################################
-# Supplement: Split Bar chart: % author and editor by region
-######################################################
-Author.ED.Region<-gather(Pooled.Geo, "Category", "Count", 2:5)
-Author.ED.Region$Category<-as.factor(Author.ED.Region$Category)
-EdVAu_Reg_Data<-Author.ED.Region %>% filter(Category=="Pcnt_Authors" | Category=="Pcnt_editors") %>% group_by(Category,REGION) %>% summarise(sum(Count))
-EdVAu_Reg_Data<-na.omit(EdVAu_Reg_Data)
-EdVAu_Reg_Data<-rename(EdVAu_Reg_Data, Percentage=`sum(Count)`)
-EdVAu_Reg_Data$Category<-as.character(EdVAu_Reg_Data$Category) #Convert to chr
-EdVAu_Reg_Data[EdVAu_Reg_Data=="Pcnt_Authors"]<-"Authors"
-EdVAu_Reg_Data[EdVAu_Reg_Data=="Pcnt_editors"]<-"Editors"
-EdVAu_Reg_Data$Category<-as.factor(EdVAu_Reg_Data$Category) #Convert back to factor
-
-
-EdVAu_Reg<-ggplot(data=EdVAu_Reg_Data, aes(x=REGION, y=Percentage, fill=Category)) +
-  geom_bar(stat="identity", position=position_dodge(), colour="black")+
-  ylab("Percentage (1985-2014)") +
-  xlab("Region")+
-  scale_fill_manual(values=c("navyblue", "darkred"))
-
-EdVAu_Reg<-EdVAu_Reg+theme_classic()+
-  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.text=element_text(colour="black", size = 10, angle = 90),                              #sets size and style of labels on axes
-        legend.title = element_blank(),   #Removes the Legend title
-        legend.text = element_text(color="black", size=10),  
-        axis.text.x  = element_text(angle=45, vjust=0.5),
-        legend.position = c(0.9,0.8),
-        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
-#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
-EdVAu_Reg
-
-
-
-
-######################################################
-# Supplement: Split Bar chart: % author and editor by Income
-######################################################
-Author.ED.Region<-gather(Pooled.Geo, "Category", "Count", 2:5)
-Author.ED.Region$Category<-as.factor(Author.ED.Region$Category)
-EdVAu_Inc_Data<-Author.ED.Region %>% filter(Category=="Pcnt_Authors" | Category=="Pcnt_editors") %>% group_by(Category,INCOME_LEVEL) %>% summarise(sum(Count))
-EdVAu_Inc_Data<-na.omit(EdVAu_Inc_Data)
-EdVAu_Inc_Data<-rename(EdVAu_Inc_Data, Percentage=`sum(Count)`)
-EdVAu_Inc_Data$Category<-as.character(EdVAu_Inc_Data$Category) #Convert to chr
-EdVAu_Inc_Data[EdVAu_Inc_Data=="Pcnt_Authors"]<-"Authors"
-EdVAu_Inc_Data[EdVAu_Inc_Data=="Pcnt_editors"]<-"Editors"
-EdVAu_Inc_Data$Category<-as.factor(EdVAu_Inc_Data$Category) #Convert back to factor
-
-
-EdVAu_Inc<-ggplot(data=EdVAu_Inc_Data, aes(x= INCOME_LEVEL, y=Percentage, fill=Category)) +
-  geom_bar(stat="identity", position=position_dodge(), colour="black")+
-  ylab("Percentage (1985-2014)") +
-  xlab("Income Category")+
-  scale_fill_manual(values=c("navyblue", "darkred"))
-
-EdVAu_Inc<-EdVAu_Inc+theme_classic()+
-  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.text=element_text(colour="black", size = 10, angle = 90),                              #sets size and style of labels on axes
-        legend.title = element_blank(),   #Removes the Legend title
-        legend.text = element_text(color="black", size=10),  
-        axis.text.x  = element_text(angle=45, vjust=0.5),
-        legend.position = c(0.9,0.8),
-        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
-#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
-EdVAu_Inc
-
-
-
-######################################################
-# Supplement Editorial Board Size vs. Year BY JOURNAL
+# Supplement 5 Fig.1b Editorial Board Size vs. Year BY JOURNAL
 ######################################################
 
 plotEDvYear<-ggplot(EdsCountriesPerJrnlPerYr, aes(x=YEAR, y=TotalEditors)) +
@@ -950,6 +901,191 @@ plotEDvYear<-plotEDvYear+theme_classic()+
         legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
 #plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
 plotEDvYear
+
+
+######################################################
+# Supplement 5 Fig 2: Geo Richness of EDITORS EACH YEAR split by JOURNAL
+######################################################
+JrnlAnnualRichness<-EdsCountriesPerJrnlPerYr %>% select(JOURNAL, YEAR,TotalCountries)
+JrnlAnnualRichness<-as.data.frame(JrnlAnnualRichness)
+str(JrnlAnnualRichness)
+
+JrnlRichnessFig<-ggplot(data=JrnlAnnualRichness, aes(x=YEAR, y=TotalCountries)) +
+geom_line(size=1, color="blue")+
+facet_wrap(~JOURNAL, nrow=6)+
+  ylab("Geographic Richness") +
+  xlab("Year")+
+  scale_y_continuous(breaks=seq(0, 30, 5))+
+  scale_x_continuous(breaks=seq(1985, 2014, 5))
+JrnlRichnessFig<-JrnlRichnessFig+theme_bw()+
+  theme(panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.spacing.y = unit(1, "lines"),
+        # strip.background = element_rect(colour="black", fill="white"),
+        panel.border = element_rect(colour = "black"),
+        strip.text = element_text(face = "italic", size = 10))
+JrnlRichnessFig
+
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+
+
+
+######################################################
+# Supplement 5 Fig 3: Geo Diversity of EDITORS EACH YEAR split by JOURNAL
+######################################################
+
+DivDataJrnl<-as.data.frame(EdsPerCountryPerJrnlPerYr.LONG)
+DivDataJrnl<-spread(DivDataJrnl, geo.code, Total) 
+DivDataJrnl[is.na(DivDataJrnl)] <- 0
+DivDataJrnl<-ungroup(DivDataJrnl)
+#Using simposns inverse
+IsimpsonJRNL <- diversity((DivDataJrnl %>% select(-YEAR, - JOURNAL)), index="invsimpson") #Need to strip away the journal and year columns for vegan to do the analysis
+# Table DIVERSITY with Results and Journals
+JrnlIsimpDivTable <- data.frame(IsimpsonJRNL)
+JrnlIsimpDivTable$YEAR <-DivDataJrnl$YEAR #Add year as a column
+JrnlIsimpDivTable$JOURNAL <-DivDataJrnl$JOURNAL #Add year as a column
+JrnlIsimpDivTable<-rename(JrnlIsimpDivTable, InvSimpson=IsimpsonJRNL) #rename the columns
+JrnlIsimpDivTable <- JrnlIsimpDivTable[c("JOURNAL","YEAR","InvSimpson")] #reorder the columns
+# ShannonDivTable<-arrange(ShannonDivTable, YEAR, desc(ShannonDiv)) # sort in descending order
+JrnlIsimpDivTable
+
+#computing evenness
+GEOperYRJRNL<-EdsPerCountryPerJrnlPerYr.LONG %>% summarize(Countries = sum(n_distinct(geo.code)))
+JrnlIsimpDivTable<-full_join(GEOperYRJRNL,JrnlIsimpDivTable, by=c("JOURNAL","YEAR"))
+JrnlIsimpDivTable<-mutate(JrnlIsimpDivTable, Geo.Evenness = InvSimpson/Countries)
+
+
+JrnlDiversityFig<-ggplot(data=JrnlIsimpDivTable, aes(x=YEAR, y=InvSimpson)) +
+  geom_line(size=1, color="blue")+
+  facet_wrap(~JOURNAL, nrow=6)+
+  ylab("Geographic Diversity") +
+  xlab("Year")+
+  scale_y_continuous(breaks=seq(0, 18, 5))+   #####NEED TO SET MARGIN BY HIGHEST POSSIBLE VALUE FOR THAT JOURNAL???
+  scale_x_continuous(breaks=seq(1985, 2014, 5))
+JrnlDiversityFig<-JrnlDiversityFig+theme_bw()+
+  theme(panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.spacing.y = unit(1, "lines"),
+        # strip.background = element_rect(colour="black", fill="white"),
+        panel.border = element_rect(colour = "black"),
+        strip.text = element_text(face = "italic", size = 10))
+JrnlDiversityFig
+
+
+
+######################################################
+# Supplement 5 Fig 4: Geo Eveness of EDITORS EACH YEAR split by JOURNAL
+######################################################
+
+JrnlEvennessFig<-ggplot(data=JrnlIsimpDivTable, aes(x=YEAR, y=Geo.Evenness)) +
+  geom_line(size=1, color="blue")+
+  facet_wrap(~JOURNAL, nrow=6)+
+  ylab("Geographic Evenness") +
+  xlab("Year")+
+  #scale_y_continuous(breaks=seq(0, 18, 5))+
+  scale_x_continuous(breaks=seq(1985, 2014, 5))
+JrnlEvennessFig<-JrnlEvennessFig+theme_bw()+
+  theme(panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.spacing.y = unit(1, "lines"),
+        # strip.background = element_rect(colour="black", fill="white"),
+        panel.border = element_rect(colour = "black"),
+        strip.text = element_text(face = "italic", size = 10))
+JrnlEvennessFig
+
+
+
+
+######################################################
+# Supplement 5 Fig 5: Prop of EDITORS EACH YEAR FROM EACH REGION  plit by JOURNAL
+######################################################
+
+RegionyrJRNL<-AnalysisData %>% group_by(JOURNAL, YEAR, REGION) %>% summarize(Total = n_distinct(editor_id))
+RegionyrJRNL[is.na(RegionyrJRNL)] <- 0
+RegionyrJRNL2<-RegionyrJRNL %>% group_by(JOURNAL, YEAR)  %>%  summarise(Editors=sum(Total))
+RegionyrJRNL<-full_join(RegionyrJRNL,RegionyrJRNL2, by=c("JOURNAL","YEAR")) %>% mutate(pcnt=Total/Editors*100)
+# RegionyrJRNL<-as.data.frame(RegionyrJRNL)
+# years<-as.data.frame(seq(1985,2014, by=1))
+# years<-as.data.frame(rep(1985:2014, each = 168, times=30))
+# names(years)[1] <- "YEAR"
+# 
+# regions<-as.factor(levels(RegionyrJRNL$REGION))
+# regions<-as.data.frame(rep(regions, each=24, times=30))
+# names(regions)[1] <- "REGION"
+# 
+# 
+# journals<-as.factor(levels(RegionyrJRNL$JOURNAL))
+# journals<-as.data.frame(rep(journals, each=1,times=210))
+# names(journals)[1] <- "JOURNAL"
+# 
+# foo<-cbind(journals, regions, years)
+# 
+# RegionyrJRNL<-full_join(foo,RegionyrJRNL, by=c("YEAR", "REGION","JOURNAL")) %>% group_by(JOURNAL)
+# 
+
+RegionyrJRNLFig<-ggplot(data=RegionyrJRNL, aes(x=YEAR, y=pcnt, color=REGION)) +
+  geom_line(size=1)+
+  scale_x_continuous(breaks=seq(1985, 2014, 5))+
+  facet_wrap(~JOURNAL, nrow=6, scales="free")+
+  # facet_wrap(~JOURNAL, nrow=6, scales="free")+ #USE THIS ONE IF YOU USE NUMBERS INSTEAD OF % DUE TO UNEQUAL ED BOARD SIZES
+  ylab("Editors from different global regions (%)") +
+  xlab("Year")
+RegionyrJRNLFig<-RegionyrJRNLFig+theme_bw()+
+  theme(panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.spacing.y = unit(1, "lines"),
+        # strip.background = element_rect(colour="black", fill="white"),
+        panel.border = element_rect(colour = "black"),
+        strip.text = element_text(face = "italic", size = 10))
+RegionyrJRNLFig
+
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+
+
+
+
+######################################################
+# Supplement Fig 7: Geo Prop of EDITORS EACH YEAR FROM EACH INCOME CATEGORY  plit by JOURNAL
+######################################################
+
+INCOMEyrJRNL<-AnalysisData %>% group_by(JOURNAL, YEAR, INCOME_LEVEL) %>% summarize(Total = n_distinct(editor_id))
+INCOMEyrJRNL[is.na(INCOMEyrJRNL)] <- 0
+INCOMEyrJRNL2<-INCOMEyrJRNL %>% group_by(JOURNAL, YEAR)  %>%  summarise(Editors=sum(Total))
+INCOMEyrJRNL<-full_join(INCOMEyrJRNL,INCOMEyrJRNL2, by=c("JOURNAL","YEAR")) %>% mutate(pcnt=Total/Editors*100)
+
+INCOMErJRNLFig<-ggplot(data=INCOMEyrJRNL, aes(x=YEAR, y=pcnt, color=INCOME_LEVEL)) +
+  geom_line(size=1)+
+  scale_x_continuous(breaks=seq(1985, 2014, 5))+
+  facet_wrap(~JOURNAL, nrow=6, scales="free")+
+  # facet_wrap(~JOURNAL, nrow=6, scales="free")+ #USE THIS ONE IF YOU USE NUMBERS INSTEAD OF % DUE TO UNEQUAL ED BOARD SIZES
+  ylab("Editors from countries in different income categories (%)") +
+  xlab("Year")
+INCOMErJRNLFig<-INCOMErJRNLFig+theme_bw()+
+  theme(panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.spacing.y = unit(1, "lines"),
+        # strip.background = element_rect(colour="black", fill="white"),
+        panel.border = element_rect(colour = "black"),
+        strip.text = element_text(face = "italic", size = 10))
+INCOMErJRNLFig
+
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1057,15 +1193,72 @@ plotA <-plotA + theme_classic()+
 
 plotA
 
+######################################################
+#Split Bar chart: % author and editor by region
+######################################################
+Author.ED.Region<-gather(Pooled.Geo, "Category", "Count", 2:5)
+Author.ED.Region$Category<-as.factor(Author.ED.Region$Category)
+EdVAu_Reg_Data<-Author.ED.Region %>% filter(Category=="Pcnt_Authors" | Category=="Pcnt_editors") %>% group_by(Category,REGION) %>% summarise(sum(Count))
+EdVAu_Reg_Data<-na.omit(EdVAu_Reg_Data)
+EdVAu_Reg_Data<-rename(EdVAu_Reg_Data, Percentage=`sum(Count)`)
+EdVAu_Reg_Data$Category<-as.character(EdVAu_Reg_Data$Category) #Convert to chr
+EdVAu_Reg_Data[EdVAu_Reg_Data=="Pcnt_Authors"]<-"Authors"
+EdVAu_Reg_Data[EdVAu_Reg_Data=="Pcnt_editors"]<-"Editors"
+EdVAu_Reg_Data$Category<-as.factor(EdVAu_Reg_Data$Category) #Convert back to factor
+
+
+EdVAu_Reg<-ggplot(data=EdVAu_Reg_Data, aes(x=REGION, y=Percentage, fill=Category)) +
+  geom_bar(stat="identity", position=position_dodge(), colour="black")+
+  ylab("Percentage (1985-2014)") +
+  xlab("Region")+
+  scale_fill_manual(values=c("navyblue", "darkred"))
+
+EdVAu_Reg<-EdVAu_Reg+theme_classic()+
+  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.text=element_text(colour="black", size = 10, angle = 90),                              #sets size and style of labels on axes
+        legend.title = element_blank(),   #Removes the Legend title
+        legend.text = element_text(color="black", size=10),  
+        axis.text.x  = element_text(angle=45, vjust=0.5),
+        legend.position = c(0.9,0.8),
+        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+EdVAu_Reg
 
 
 
 
+######################################################
+# Split Bar chart: % author and editor by Income
+######################################################
+Author.ED.Region<-gather(Pooled.Geo, "Category", "Count", 2:5)
+Author.ED.Region$Category<-as.factor(Author.ED.Region$Category)
+EdVAu_Inc_Data<-Author.ED.Region %>% filter(Category=="Pcnt_Authors" | Category=="Pcnt_editors") %>% group_by(Category,INCOME_LEVEL) %>% summarise(sum(Count))
+EdVAu_Inc_Data<-na.omit(EdVAu_Inc_Data)
+EdVAu_Inc_Data<-rename(EdVAu_Inc_Data, Percentage=`sum(Count)`)
+EdVAu_Inc_Data$Category<-as.character(EdVAu_Inc_Data$Category) #Convert to chr
+EdVAu_Inc_Data[EdVAu_Inc_Data=="Pcnt_Authors"]<-"Authors"
+EdVAu_Inc_Data[EdVAu_Inc_Data=="Pcnt_editors"]<-"Editors"
+EdVAu_Inc_Data$Category<-as.factor(EdVAu_Inc_Data$Category) #Convert back to factor
 
 
+EdVAu_Inc<-ggplot(data=EdVAu_Inc_Data, aes(x= INCOME_LEVEL, y=Percentage, fill=Category)) +
+  geom_bar(stat="identity", position=position_dodge(), colour="black")+
+  ylab("Percentage (1985-2014)") +
+  xlab("Income Category")+
+  scale_fill_manual(values=c("navyblue", "darkred"))
 
-
-#############
+EdVAu_Inc<-EdVAu_Inc+theme_classic()+
+  theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.text=element_text(colour="black", size = 10, angle = 90),                              #sets size and style of labels on axes
+        legend.title = element_blank(),   #Removes the Legend title
+        legend.text = element_text(color="black", size=10),  
+        axis.text.x  = element_text(angle=45, vjust=0.5),
+        legend.position = c(0.9,0.8),
+        legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
+#plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
+EdVAu_Inc
 
 
 
