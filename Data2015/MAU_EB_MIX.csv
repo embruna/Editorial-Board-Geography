@@ -115,7 +115,7 @@ LECO,1987,1,1,Editorial Board,Z,,Naveh,,Israel,,SE,,
 LECO,1987,1,1,Editorial Board,M,,Numata,,Japan,,SE,,
 LECO,1987,1,1,Editorial Board,A,F,Ramos,,Spain,,SE,,
 LECO,1987,1,1,Editorial Board,P ,G,Risser,,USA,,SE,,
-LECO,1987,1,1,Editorial Board,M ,,Ruzicka,,Slovakia,,SE,was Czech and Slovakia Socialist Republic in 1987,
+LECO,1987,1,1,Editorial Board,M ,,Ruzicka,,Slovakia,,SE,wasÊCzech and Slovakia Socialist Republic in 1987,
 LECO,1987,1,1,Editorial Board,K,F,Schreiber,,Germany,,SE,Fed Repub of Germany,
 LECO,1987,1,1,Editorial Board,H,H,Shugart,,USA,,SE,,
 LECO,1987,1,1,Editorial Board,C,,Steinitz,,USA,,SE,,
@@ -123,3 +123,52 @@ LECO,1987,1,1,Editorial Board,R,,Tosswall,,Sweden,,SE,,
 LECO,1987,1,1,Editorial Board,E,,van der Maarel,,Sweden,,SE,,
 LECO,1987,1,1,Editorial Board,I,S,Zonneveld,,Netherlands,,SE,,
 LECO,1987,1,1,Editorial Board,E,H,Zube,,USA,,SE,,
+LECO,2011,26,1,AE,P,,Opdam,,Netherlands,,AE,,Wangeningen Univ.
+LECO,2011,26,1,SE,D,P,Anderson,,New Zealand ,,SE,,"Landcare Research, Lincoln, New Zealand"
+LECO,2011,26,1,Book Review Editor,Louis,R,Iverson,,USA,,Special,, USDA Forest Service  359 Main Road  Delaware  OH 43015-8640 
+LECO,2011,26,1,Editorial Board,H,D,Allen,,UK,,SE,, University of Cambridge  Cambridge 
+LECO,2011,26,1,Editorial Board,D,,Bender,,Canada,,SE,, University of Calgary  Calgary 
+LECO,2011,26,1,Editorial Board,J,,Chen,,USA,,SE,, University of Toledo  Toledo  OH
+LECO,2011,26,1,Editorial Board,S,A,Cushman,,USA,,SE,, US Forest Service  Missoula  MT
+LECO,2011,26,1,Editorial Board,D,,Donner,,USA ,,SE,, U.S. Forest Service  Rhinelander  WI
+LECO,2011,26,1,Editorial Board,S,E,Gergel,,Canada,,SE,, University of British Columbia  Vancouver 
+LECO,2011,26,1,Editorial Board,H,,He,,USA,,SE,, University of Missouri  Columbia  MO
+LECO,2011,26,1,Editorial Board,J,D,Holland,,USA ,,SE,, Purdue University  West Lafayette  IN
+LECO,2011,26,1,Editorial Board,S-L,,Huang,,Taiwan,,SE,, National Taipei University  
+LECO,2011,26,1,Editorial Board,J,A,Kupfer,,USA,,SE,, University of South Carolina  Columbia  SC
+LECO,2011,26,1,Editorial Board,J,M,Overton,,New Zealand ,,SE,, Landcare Research  Hamilton 
+LECO,2011,26,1,Editorial Board,G,,Pungetti,,UK,,SE,, University of Cambridge  Cambridge 
+LECO,2011,26,1,Editorial Board,L,A,Schulte,,USA ,,SE,, Iowa State University  Ames  IA
+LECO,2011,26,1,Editorial Board,D,M,Theobald,,USA ,,SE,, Colorado State University  Fort Collins  CO
+LECO,2011,26,1,Editorial Board,P,H,Verburg,,The Netherlands ,,SE,, Vrije Universiteit Amsterdam  
+LECO,2011,26,1,EIC,Jianguo,,Wu,,US,,EIC,,Arizona State Univ. Tempe
+LECO,2011,26,1,SE,M,,Belisle,,Canada,,SE,,Univ. of Sherbrooke
+LECO,2011,26,1,SE,J,A,Bissonette,,US,,SE,,Utah State Univ
+LECO,2011,26,1,SE,J,,Bolliger,,Switzerland,,SE,,Swiss federal research institute
+LECO,2011,26,1,SE,G,,Cumming,,South Africa,,SE,,"Inst. Of African Ornithology, Cape Town"
+LECO,2011,26,1,SE,G,,Foody,,UK,,SE,,Univ. of Nottingham
+LECO,2011,26,1,SE,B,,Fu,,China,,SE,,Chinese academy of sciences
+LECO,2011,26,1,SE,B,,Goodwin,,US,,SE,,Univ. of North Dakota
+LECO,2011,26,1,SE,G,,Guntenspergen,,US,,SE,,USGS
+LECO,2011,26,1,SE,E,,Gustafson,,US,,SE,,USDA Forest Service
+LECO,2011,26,1,SE,K,,Gutzwiller,,US,,SE,,Baylor Univ.
+LECO,2011,26,1,SE,G,M,Henebry,,US,,SE,,South Dakota State Univ.
+LECO,2011,26,1,SE,R,,Holderegger,,Switzerland,,SE,,Swiss federal research institute
+LECO,2011,26,1,SE,J,,Jaeger,,Canada,,SE,,Univ. of Montreal
+LECO,2011,26,1,SE,G,Darrel,Jenerette,,US,,SE,,"Univ. of California, Riverside"
+LECO,2011,26,1,SE,Lucinda,B,Johnson,,US,,SE,,University of Minnesota
+LECO,2011,26,1,SE,T,,Keitt,,US,,SE,,"Univ. of Texas, Austin"
+LECO,2011,26,1,SE,J,,Lawler,,US,,SE,,Univ. of Washington
+LECO,2011,26,1,SE,J,M,Marzluff,,US,,SE,,Univ. of Washington
+LECO,2011,26,1,SE,C,,McAlpine,,Australia,,SE,,"Univ. of Queensland, Brisbane"
+LECO,2011,26,1,SE,Jean-Paul,,Metzger,,Brazil,,SE,,Univ. of Sao Paolo
+LECO,2011,26,1,SE,K,,Moloney,,US,,SE,,Iowa State Univ.
+LECO,2011,26,1,SE,L,,Musacchio,,US,,SE,,Univ. of Minnesota
+LECO,2011,26,1,SE,R,G,Pontius,,US,,SE,,Clark Univ.
+LECO,2011,26,1,SE,K,,Riitters,,US,,SE,,"USDA Forest Service, Research Triangle Park"
+LECO,2011,26,1,SE,R,,Schooley,,US,,SE,,Univ. of Illinois
+LECO,2011,26,1,SE,N,,Schumaker,,US,,SE,,"Environment Protection Agency, Corvallis"
+LECO,2011,26,1,SE,O,,Schweiger,,Germany,,SE,,Helmholtz centre for env. Research
+LECO,2011,26,1,SE,C,,Vos,,Netherlands,,SE,,Wageningen Univ. Research Center
+LECO,2011,26,1,SE,J,D,Wickham,,US,,SE,,"Environmental Protection Agency, Research Triangle Park"
+LECO,2011,26,1,SE,T,,Wiegand,,Germany,,SE,,"Centre for Environmental Research, Liepzig"
