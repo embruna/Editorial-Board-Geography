@@ -98,7 +98,6 @@ library(WDI)
   JANE<-read.csv("./Data2015/JANE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JAPE<-read.csv("./Data2015/JAPE.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JTE2<-read.csv("./Data2015/JTE2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
-  MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   NAJFM2<-read.csv("./Data2015/NAJFM2.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   NEWPHYT<-read.csv("./Data2015/NEWPHYT.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
   OECOL<-read.csv("./Data2015/OECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
@@ -113,7 +112,9 @@ library(WDI)
   # MISSING TOO MUCH DATA TO INCLUDE IN THIS STUDY 
   GCB<-read.csv("./Data2015/GCB.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   # ONLY HAS 1995-2007. 2007-2008 in dropbox. Wiley Journal
-
+  
+  MARECOL<-read.csv("./Data2015/MARECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
+  
   MEPS<-read.csv("./Data2015/MEPS.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   # ONLY HAS 1989-1997. Have in folder 2010, 2011-2013, 2014-2015. what looks like 88,87,1985
   
@@ -308,8 +309,8 @@ ALLDATA<-AddIncomeRegion(ALLDATA)
 # FIRST: Select temporal coverage for analyses
 AnalysisData<-ALLDATA[ALLDATA$YEAR>=FirstYear & ALLDATA$YEAR<=LastYear,]
 
-# AND subsett data to only EIC, AE and SE classifications
-AnalysisData <- AnalysisData[AnalysisData$CATEGORY %in% c('EIC', 'AE', 'SE'),]
+# AND subsett data to only EIC, AE, SE, and Special classifications
+AnalysisData <- AnalysisData[AnalysisData$CATEGORY %in% c('EIC', 'AE', 'SE', 'SPECIAL'),]
 
 # AND delete unecessary columns 
 AnalysisData<-AnalysisData %>% 
@@ -465,12 +466,14 @@ edsRegion<-AnalysisData %>% group_by(REGION) %>% summarise(n_distinct(editor_id)
 ##############################################################
 
 # 15: Editors by category, region, and country
-EIC.proportion<-AnalysisData %>% group_by(CATEGORY)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
+EIC.proportion<-AnalysisData %>% group_by(CATEGORY)  %>%  summarize(Count=n_distinct(editor_id))  %>% mutate(Pcnt= (Count/sum(Count)*100)) 
 
+EIC.proportion.country<-AnalysisData %>% group_by(geo.code)  %>%  summarize(Count=n_distinct(editor_id))  %>% mutate(Pcnt= (Count/sum(Count)*100)) %>% arrange(desc(Pcnt))
+EIC.proportion.region<-AnalysisData %>% group_by(CATEGORY, REGION)  %>%  summarize(Count=n_distinct(editor_id))  %>% mutate(Pcnt= (Count/sum(Count)*100)) 
+EIC.proportion.income<-AnalysisData %>% group_by(CATEGORY, INCOME_LEVEL)  %>%  summarize(Count=n_distinct(editor_id))  %>% mutate(Pcnt= (Count/sum(Count)*100)) 
 
-EIC.proportion.region<-AnalysisData %>% group_by(CATEGORY, REGION)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
-EIC.proportion.income<-AnalysisData %>% group_by(CATEGORY, INCOME_LEVEL)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
-
+sum.region<-EIC.proportion.region %>% group_by(CATEGORY)  %>%  summarize(SUM=sum(Count))
+sum.income<-EIC.proportion.income %>% group_by(CATEGORY)  %>%  summarize(SUM=sum(Count))
 
 ######################################################
 ######################################################
@@ -491,7 +494,7 @@ EIC.proportion.income<-AnalysisData %>% group_by(CATEGORY, INCOME_LEVEL)  %>%  s
 # editorAcummPlot<-specaccum(editorAcumm, "collector")
 # plot(editorAcummPlot, ci.type="poly", col="blue", lwd=2, ci.lty=0, ci.col="lightblue",
 #      xlab = "Year",
-#      ylab = "Cummulative Countries")
+#      ylab = "Cumulative Countries")
 # edAccDF<-as.data.frame(editorAcummPlot$richness)
 # editorAcummPlot$richness<-as.vector(editorAcummPlot$richness)
 # names(edAccDF)[1] <- "Richness"
@@ -500,7 +503,7 @@ EIC.proportion.income<-AnalysisData %>% group_by(CATEGORY, INCOME_LEVEL)  %>%  s
 # edAccFig<-ggplot(data=edAccDF, aes(x=year, y=Richness)) +
 #   geom_line(size=1, color="blue")+
 #   geom_point(color='black', shape=1)+
-#   ylab("Cummulative Geo. Richness") +
+#   ylab("Cumulative Geo. Richness") +
 #   xlab("Year")+
 #   #annotate("text", x = 1985, y = 98, label = "B",color="black", size=7, face="bold")+
 #   scale_y_continuous(breaks=seq(20, 100, 10))+
@@ -526,10 +529,10 @@ editorAcumm[is.na(editorAcumm)] <- 0
 editorAcummPlot<-specaccum(editorAcumm, "collector")
 # plot(editorAcummPlot, ci.type="poly", col="blue", lwd=2, ci.lty=0, ci.col="lightblue",
 #      xlab = "Year",
-#      ylab = "Cummulative Countries")
+#      ylab = "Cumulative Countries")
 edAccDF<-as.data.frame(editorAcummPlot$richness)
 editorAcummPlot$richness<-as.vector(editorAcummPlot$richness)
-names(edAccDF)[1] <- "CummulativeRichness"
+names(edAccDF)[1] <- "CumulativeRichness"
 edAccDF$year<-seq(1985,2014,1)
 
 
@@ -542,7 +545,7 @@ jointedAccDF<-rename(jointedAccDF, YEAR = year)
 jointRichness<-full_join(jointGEOperYR, jointedAccDF, by = "YEAR")
 jointRichness<-gather(jointRichness, "Richness","N", 2:3)
 jointRichness[jointRichness=="AnnualRichness"]<-"Annual"
-jointRichness[jointRichness=="CummulativeRichness"]<-"Cummulative"
+jointRichness[jointRichness=="CumulativeRichness"]<-"Cumulative"
 
 
 #plot cumulative and annual richness same plot
@@ -550,10 +553,10 @@ jointRichnessPlot<-ggplot(jointRichness, aes(x=YEAR, y=N, group = Richness, colo
   geom_line(size=1) +
   scale_color_manual(values=c("blue", "red"))+
   geom_text(data = jointRichness[jointRichness$YEAR=="2012" & jointRichness$Richness=="Annual",], aes(label = Richness), hjust = 1, vjust = -1, size=5) +
-  geom_text(data = jointRichness[jointRichness$YEAR=="2012" & jointRichness$Richness=="Cummulative",], aes(label = Richness), hjust = 1, vjust = -1, size=5) +
-  ylab("Geographic Richness") +
+  geom_text(data = jointRichness[jointRichness$YEAR=="2012" & jointRichness$Richness=="Cumulative",], aes(label = Richness), hjust = 1, vjust = -1, size=5) +
+  #ylab("Number of Countries") +
   xlab("Year")+
-  ggtitle('A')+
+  ggtitle('A) Geographic Richness')+
   geom_point(color="black", shape=1)+
   # scale_y_continuous(breaks=seq(0, 1, 0.1))+
   scale_y_continuous(limits = c(25, 75))+
@@ -562,7 +565,8 @@ jointRichnessPlot<-ggplot(jointRichness, aes(x=YEAR, y=N, group = Richness, colo
 
 jointRichnessPlot<-jointRichnessPlot+theme_classic()+
   theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        #axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_blank(),
         axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
         legend.title = element_blank(),   #Removes the Legend title
         legend.text = element_text(color="black", size=10),  
@@ -580,16 +584,17 @@ jointRichnessPlot
 ######################################################
 EDSperYR<-EdsCountriesPerJrnlPerYr %>% group_by(YEAR) %>% summarize(Editors = sum(TotalEditors))
 plotTOTALEDSvYear<-ggplot(EDSperYR, aes(x=YEAR, y=Editors)) +
-  ylab("Number of Editors") +
+  #ylab("Number of Editors") +
   xlab("Year")+
   geom_line(size=1, color="blue", shape=1)+
-  ggtitle('B') + 
+  ggtitle('B) Number of Editors') + 
   geom_point(color="black", shape=1)+
   scale_y_continuous(breaks=seq(0, 1350, 150))+
   scale_x_continuous(breaks=seq(1985, 2015, 5))
 plotTOTALEDSvYear<-plotTOTALEDSvYear+theme_classic()+
   theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        #axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_blank(),
         axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
         legend.title = element_blank(),   #Removes the Legend title
         legend.text = element_text(color="black", size=10),  
@@ -628,16 +633,17 @@ IsimpDivTable<-mutate(IsimpDivTable, Geo.Evenness = InvSimpson/Countries)
 # Plot
 plotPOOLEDsimpdiv<-ggplot(IsimpDivTable, aes(x=YEAR, y=InvSimpson)) +
   geom_line(size=1, color="blue") + # Use hollow circles
-  ylab("Geographic Diversity") +
+  #ylab("Geographic Diversity") +
   xlab("Year")+
-  ggtitle('C')+
+  ggtitle('C) Geographic Diversity')+
   geom_point(color="black", shape=1)+
   # scale_y_continuous(breaks=seq(2, 5.5, 0.5))+
   scale_y_continuous(limits=c(1,max(IsimpDivTable$Countries)))+
   scale_x_continuous(breaks=seq(1985, 2015, 5))
 plotPOOLEDsimpdiv<-plotPOOLEDsimpdiv+theme_classic()+
   theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        #axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_blank(),
         axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
         legend.title = element_blank(),   #Removes the Legend title
         legend.text = element_text(color="black", size=10),  
@@ -653,16 +659,17 @@ plotPOOLEDsimpdiv
 ##############################################################
 plotPOOLEDevenness<-ggplot(IsimpDivTable, aes(x=YEAR, y=Geo.Evenness)) +
   geom_line(size=1, color="blue") + # Use hollow circles
-  ylab("Geographic Evenness") +
+  #ylab("Geographic Evenness") +
   xlab("Year")+
-  ggtitle('D')+
+  ggtitle('D) Geographic Evenness')+
   geom_point(color="black", shape=1)+
   # scale_y_continuous(breaks=seq(0, 1, 0.1))+
   scale_y_continuous(limits = c(0, 1))
 scale_x_continuous(breaks=seq(1985, 2015, 5))
 plotPOOLEDevenness<-plotPOOLEDevenness+theme_classic()+
   theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        #axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
+        axis.title.y=element_blank(),
         axis.text=element_text(colour="black", size = 10),                              #sets size and style of labels on axes
         legend.title = element_blank(),   #Removes the Legend title
         legend.text = element_text(color="black", size=10),  
@@ -713,7 +720,7 @@ CountriesED<-arrange(most.common.editors) %>%  ggplot(aes(x=geo.code, y=Pcnt_edi
   scale_y_continuous(breaks=seq(0, 65, 5))+
   ylab("Editors (%)") +
   xlab("Country")+
-  annotate("text",x=1,y=60,label = "A",color="black", size=7, face="bold")
+  annotate("text",x=1,y=60,label = "A)",color="black", size=7, face="bold")
 CountriesED<-CountriesED+theme_classic()+
   theme(axis.title.x=element_text(colour="black", size = 14, vjust=0),            #sets x axis title size, style, distance from axis #add , face = "bold" if you want bold
         axis.title.y=element_text(colour="black", size = 14, vjust=2),            #sets y axis title size, style, distance from axis #add , face = "bold" if you want bold
@@ -721,6 +728,8 @@ CountriesED<-CountriesED+theme_classic()+
         legend.title = element_blank(),   #Removes the Legend title
         legend.text = element_text(color="black", size=10),  
         legend.position = c(0.9,0.8),
+        plot.margin=unit(c(1,1,4,1),"lines"),
+        #aspect.ratio=1,
         legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
 CountriesED
 
@@ -744,7 +753,7 @@ RegionFig<-ggplot(data=RegionPlot, aes(x=YEAR, y=Percent, group=REGION, colour=R
   geom_line(size=1)+
   ylab("Percentage of Editors") +
   xlab("Year")+
-  annotate("text", x = 1985, y = 58, label = "B",color="black", size=7, face="bold")+
+  annotate("text", x = 1985, y = 65, label = "B",color="black", size=7, face="bold")+
   scale_y_continuous(breaks=seq(0, 60, 10))+
   scale_x_continuous(breaks=seq(1984, 2014, 5))
 RegionFig<-RegionFig+theme_classic()+
@@ -755,6 +764,7 @@ RegionFig<-RegionFig+theme_classic()+
         legend.text = element_text(color="black", size=10), 
         # legend.position = c(0.9,0.8),
         legend.position = "right",
+        plot.margin=unit(c(1,1,4,1),"lines"),
         legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
 #plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
 RegionFig
@@ -779,7 +789,7 @@ IncomeFig<-ggplot(data=IncomePlot, aes(x=YEAR, y=Percent, group=INCOME_LEVEL, co
   geom_line(size=1)+
   ylab("Percentage of Editors") +
   xlab("Year")+
-  annotate("text", x = 1985, y = 98, label = "C",color="black", size=7, face="bold")+
+  annotate("text", x = 1985, y = 105, label = "C",color="black", size=7, face="bold")+
   scale_y_continuous(breaks=seq(0, 100, 10))+
   scale_x_continuous(breaks=seq(1984, 2014, 5))
 IncomeFig<-IncomeFig+theme_classic()+
@@ -790,6 +800,7 @@ IncomeFig<-IncomeFig+theme_classic()+
         legend.text = element_text(color="black", size=10), 
         # legend.position = c(0.9,0.8), 
         legend.position = "right",
+        plot.margin=unit(c(1,1,4,1),"lines"),
         legend.background = element_rect(colour = 'black', size = 0.5, linetype='solid'))
 #plot.margin =unit(c(0,1,0,1.5), "cm")) #+  #plot margin - top, right, bottom, left
 IncomeFig
@@ -806,6 +817,13 @@ Fig2<-multiplot(CountriesED, RegionFig, IncomeFig, cols=1)
 ######################################################
 #Table 1
 ######################################################
+
+EIC.proportion.region<-AnalysisData %>% group_by(CATEGORY, REGION)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
+EIC.proportion.income<-AnalysisData %>% group_by(CATEGORY, INCOME_LEVEL)  %>%  summarize(n_distinct(editor_id))  %>% mutate(Pcnt= (`n_distinct(editor_id)`/sum(`n_distinct(editor_id)`)*100)) 
+
+
+
+
 
 Eds1stYr<-AnalysisData %>% 
   filter(YEAR == FirstYear) %>% 
