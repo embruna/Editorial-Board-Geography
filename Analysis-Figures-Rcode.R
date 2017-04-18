@@ -1,9 +1,16 @@
 
-#R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
-#This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
+# R CODE FOR IMPORTING, MANIPULATING, AND ANALYZING THE DATASETS USED IN ANALYSIS OF THE GEOGRAPHY OF EDITORIAL BOARDS
+# This is a clone of the code in the Github Repo for analaysis of Gender and Editorial Boards (https://github.com/embruna/Editorial-Board-Gender).
+# Package and R versions:
 
-#Set WD and load packages you need. Not all of which you need after all.
-#setwd("-------")
+# stringdist = 0.9.4.4
+# RecordLinkage = 0.4.10
+# vegan = 2.4.2
+# tidyverse = 1.0
+# MuMIn = 1.15.6
+# nlme = 3.1.128
+# WDI = 2.4
+# R version = 3.3.1
 
 library(tidyverse)
 library(RecordLinkage)
@@ -12,7 +19,6 @@ library(vegan)
 library(WDI)
 library(nlme)
 library(MuMIn)
-
 
   # Clear out everything from the environment 
   rm(list=ls())
@@ -787,7 +793,7 @@ mAC4.2 <- gls(Geo.Evenness ~ Editors+YEAR, data = GLS.data, correlation = corARM
 mAC5.1 <- gls(Geo.Evenness ~ Editors*YEAR, data = GLS.data, na.action = na.omit)
 mAC5.2 <- gls(Geo.Evenness ~ Editors*YEAR, data = GLS.data, correlation = corARMA(p = 1), na.action = na.omit)
 # 
-summary(mAC2)
+summary(mAC1.2)
 model.sel(mAC1.1,mAC1.2,mAC2.1,mAC2.2,mAC3.1,mAC3.2,mAC4.1,mAC4.2,mAC5.1,mAC5.2)
 
 
@@ -1052,25 +1058,6 @@ RegionyrJRNL[is.na(RegionyrJRNL)] <- 0
 RegionyrJRNL2<-RegionyrJRNL %>% group_by(JOURNAL, YEAR)  %>%  summarise(Editors=sum(Total))
 RegionyrJRNL<-full_join(RegionyrJRNL,RegionyrJRNL2, by=c("JOURNAL","YEAR")) %>% mutate(pcnt=Total/Editors*100)
 rm(RegionyrJRNL2)
-# RegionyrJRNL<-as.data.frame(RegionyrJRNL)
-# years<-as.data.frame(seq(1985,2014, by=1))
-# years<-as.data.frame(rep(1985:2014, each = 168, times=30))
-# names(years)[1] <- "YEAR"
-# 
-# regions<-as.factor(levels(RegionyrJRNL$REGION))
-# regions<-as.data.frame(rep(regions, each=24, times=30))
-# names(regions)[1] <- "REGION"
-# 
-# 
-# journals<-as.factor(levels(RegionyrJRNL$JOURNAL))
-# journals<-as.data.frame(rep(journals, each=1,times=210))
-# names(journals)[1] <- "JOURNAL"
-# 
-# foo<-cbind(journals, regions, years)
-# 
-# RegionyrJRNL<-full_join(foo,RegionyrJRNL, by=c("YEAR", "REGION","JOURNAL")) %>% group_by(JOURNAL)
-# 
-
 RegionyrJRNLFig<-ggplot(data=RegionyrJRNL, aes(x=YEAR, y=pcnt, color=REGION)) +
   geom_line(size=1)+
   scale_x_continuous(breaks=seq(1985, 2014, 5))+
