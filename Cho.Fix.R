@@ -34,7 +34,7 @@ Cho.Fix <- function(A) {
   
   
   # Error Correction
-  
+  ChoData$NAME[ChoData$NAME == "TC WITHMORE"] <- "T C Whitmore"
   ChoData$NAME[ChoData$NAME == "_a_an H _ekercio_lu"] <-"Cagan Sekercioglu"
   ChoData$NAME[ChoData$NAME == "STEVE J HAWKINGS"] <-"Stephen J Hawkins"
   ChoData$NAME[ChoData$NAME == "Enrique Mart_nez Meyer"] <- "Enrique Martinez-Meyer"
@@ -252,8 +252,8 @@ Cho.Fix <- function(A) {
   ChoData$NAME[ChoData$NAME == "Judie Bronstein"] <- "Judith L Bronstein"
   ChoData$NAME[ChoData$NAME == "Jean Paul Metzger"] <- "Jean-Paul Metzger"
   ChoData$NAME[ChoData$NAME == "LENNART HANSSON"] <- "Lennart Hansson"
-  
-  
+
+
   #Found a few with incorrect country where based and added a few notes 
   ChoData$COUNTRY[ChoData$NAME == "J Grace"] <- "UK"
   ChoData$COUNTRY[ChoData$NAME == "David J Gibson"] <- "USA"
@@ -275,11 +275,13 @@ Cho.Fix <- function(A) {
   ChoData$NAME<-gsub(" JR", "", ChoData$NAME, fixed=TRUE)
   ChoData$NAME<-gsub(" III", "", ChoData$NAME, fixed=TRUE)
   ChoData$NAME<-gsub(" II", "", ChoData$NAME, fixed=TRUE)
-  
-  
+
+
   # Split the names into first, middle, last
   ChoData$NAME <- as.factor(ChoData$NAME) # CHnage back to factor. Can also do with strings, but I learned this way first
-  
+
+  # Remove the periods from peoples names to make consistent accross all files
+
   ChoData<-separate(ChoData, NAME, c("FIRST_NAME", "LAST_NAME"), sep = " ", remove = FALSE, convert = FALSE, extra = "merge", fill = "right")
   ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_1", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
   ChoData<-separate(ChoData, LAST_NAME, c("MIDDLE_NAME_2", "LAST_NAME"), sep = " ", remove = TRUE, extra = "merge", fill = "left")
@@ -290,19 +292,19 @@ Cho.Fix <- function(A) {
   ChoData$MIDDLE_NAME_2 <- NULL
   ChoData$MIDDLE_NAME_TEMP <- NULL
   ChoData<-rename(ChoData, MIDDLE_NAME=MIDDLE_NAME_1)
-  
+
   ChoData$FIRST_NAME <- as.factor(ChoData$FIRST_NAME) #They were converted to chr above, so convert back to factor
   ChoData$MIDDLE_NAME <- as.factor(ChoData$MIDDLE_NAME)
   ChoData$LAST_NAME <- as.factor(ChoData$LAST_NAME)
-  
-  
-  
+
+
+
   # Adding combinations of names to the database
   # First Name, Last Name
-  ChoData$FirstLast<-paste(ChoData$FIRST_NAME,ChoData$LAST_NAME, sep=" ") 
+  ChoData$FirstLast<-paste(ChoData$FIRST_NAME,ChoData$LAST_NAME, sep=" ")
   # First Name, Middle Name, Last Name
   ChoData$FirstMiddleLast<-paste(ChoData$FIRST_NAME,ChoData$MIDDLE_NAME,ChoData$LAST_NAME, sep=" ")
-  # First initial 1st name + last name": 
+  # First initial 1st name + last name":
   ChoData$FIRST_INIT<-as.character(ChoData$FIRST_NAME)
   ChoData$FIRST_INIT<-substring(ChoData$FIRST_INIT,1,1)
   ChoData$FirstInitialLast<-paste(ChoData$FIRST_INIT,ChoData$LAST_NAME, sep=" ")
@@ -311,40 +313,27 @@ Cho.Fix <- function(A) {
   ChoData$SUFFIX<-NULL #delete it out now that we don't need it
   #Delete column with original Name
   ChoData$NAME<-NULL #delete it out now that we don't need it
-  
-  
+
+
   # Remove the periods from peoples names to make consistent accross all files
   ChoData$FirstLast<-gsub("  ", " ", ChoData$FirstLast)
   ChoData$FirstMiddleLast<-gsub("  ", " ", ChoData$FirstMiddleLast)
   ChoData$FirstInitialLast<-gsub("  ", " ", ChoData$FirstInitialLast)
-  
+
   ChoData$FIRST_NAME<-as.character(ChoData$FIRST_NAME)
   ChoData$MIDDLE_NAME<-as.character(ChoData$MIDDLE_NAME)
   ChoData$LAST_NAME<-as.character(ChoData$LAST_NAME)
   ChoData$NOTES<-as.factor(ChoData$NOTES)
-  
+
   #Add a column for Institution in case you need it later
   ChoData$INSTITUTION<-NA
-  
+
   # Correct some of the countries
   ChoData$COUNTRY[ChoData$COUNTRY == "Austrailia"]  <- "Australia" #removing old names
   ChoData$COUNTRY[ChoData$COUNTRY == "USA "]  <- "USA" #One of the datasets in Cho et al had a space after USA so needs to be corrected
   ChoData$COUNTRY[ChoData$COUNTRY == "lndonesia"]  <- "Indonesia" #One of the datasets in Cho et al had Indonesia mispelled somewhere
   ChoData$COUNTRY[ChoData$COUNTRY == "?"]  <- NA
   ChoData$COUNTRY[ChoData$COUNTRY == "Unknown"]  <- NA
-
-
-  # Make Gender Consistent
-  ChoData$GENDER <- as.character(ChoData$GENDER) 
-  ChoData$GENDER[ChoData$GENDER == "F"] <- "female"
-  ChoData$GENDER[ChoData$GENDER == "M"] <- "male"
-  ChoData$GENDER[ChoData$GENDER == "U"] <- NA
-  ChoData$GENDER[ChoData$GENDER == "Unkown"] <- NA
-  ChoData$GENDER[ChoData$GENDER == "Unknown"] <- NA
-  ChoData$GENDER[ChoData$GENDER == ""] <- NA
-  ChoData$GENDER <- as.factor(ChoData$GENDER)
-  ChoData$GENDER<-droplevels(ChoData$GENDER)
-  
   ChoData$COUNTRY[ChoData$COUNTRY == "USa"]  <- "USA" # correcting names
 
 

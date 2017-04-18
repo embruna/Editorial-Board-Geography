@@ -67,7 +67,7 @@ library(MuMIn)
   
   #Bind the data from Cho
   ChoData<-rbind(BITR, ARES, AGRON, NAJFM, AJB, CONBIO, ECOLOGY, BIOCON, JECOL, JTE) 
-  
+
   source("Cho.Fix.R")
   ChoData_clean<-Cho.Fix(ChoData)
   ChoData_clean
@@ -104,7 +104,7 @@ library(MuMIn)
   PLANTECOL<-read.csv("./Data2015/PLANTECOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE )
   JZOOL<-read.csv("./Data2015/JZOOL.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) 
   MIX<-read.csv("./Data2015/MAU_EB_MIX.csv", dec=".", header = TRUE, sep = ",", check.names=FALSE ) #Agronomy 1985 1986, JTE 1986, JZOOL 1985, LECO 1987 2014, PLANTECO 2014  
-  
+  MIX$SUFFIX<-as.logical(MIX$SUFFIX)
 
   
   # MISSING TOO MUCH DATA TO INCLUDE IN THIS STUDY 
@@ -121,7 +121,6 @@ library(MuMIn)
   #Bind the data from 2015 workshop to be used in this paper
   ClassData<-rbind(AGRON2, AMNAT, ARES2, BIOCON2, BIOG, BITR2, ECOG, ECOLOGY2, EVOL, FEM, FUNECOL, 
                    JANE, JAPE, JTE2, JZOOL, LECO, NAJFM2, NEWPHYT, OECOL, OIKOS, PLANTECOL, MIX) 
-  
   source("Class.Fix.R")
   ClassData_clean<-Class.Fix(ClassData)
   write.csv(ClassData_clean, file="/Users/emiliobruna/Dropbox/EMB - ACTIVE/MANUSCRIPTS/Editorial Board Geography/ClassData_clean.csv", row.names = T) #export it as a csv file

@@ -261,11 +261,9 @@ Class.Fix <- function(A) {
   # levels(ClassData$TITLE) 
 
   
-  
-  
   # Make Gender Consistent
-  ClassData$GENDER[ClassData$GENDER == "F"] <- "female"
-  ClassData$GENDER[ClassData$GENDER == "M"] <- "male"
+  ClassData$GENDER[ClassData$GENDER == "female"] <- "F"
+  ClassData$GENDER[ClassData$GENDER == "male"] <- "M"
   ClassData$GENDER[ClassData$GENDER == "U"] <- NA
   ClassData$GENDER[ClassData$GENDER == "Unkown"] <- NA
   ClassData$GENDER[ClassData$GENDER == "Unknown"] <- NA
