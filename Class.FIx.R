@@ -55,7 +55,42 @@ Class.Fix <- function(A) {
   # which(ClassData$MIDDLE_NAME=="JT")
   # which(ClassData$LAST_NAME=="Selosse")
   
+
   
+  # Add the missing years and volumes
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2006"] <- "167"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2007"] <- "169"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2008"] <- "171"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2009"] <- "173"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2010"] <- "175"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2011"] <- "177"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2012"] <- "179"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2013"] <- "181"
+  ClassData$VOLUME[ClassData$JOURNAL == "AMNAT" & ClassData$YEAR == "2014"] <- "183"
+  ClassData$ISSUE[ClassData$JOURNAL == "AMNAT" & is.na(ClassData$ISSUE)] <- 1
+  ClassData$VOLUME[ClassData$JOURNAL == "PLANTECOL" & ClassData$YEAR == "1993"] <- "104/105"
+  ClassData$YEAR[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "1996" & ClassData$VOLUME == "10"] <- "1995"
+  ClassData$VOLUME[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "2001"] <- "16"
+  ClassData$VOLUME[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "2002"] <- "17"
+  ClassData$VOLUME[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "2003"] <- "18"
+  ClassData$VOLUME[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "2012"] <- "27"  
+  ClassData$VOLUME[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "2014"] <- "28"  
+  ClassData$VOLUME[ClassData$JOURNAL == "LECO" & ClassData$YEAR == "2014"] <- "29"
+  ClassData$VOLUME[ClassData$JOURNAL == "JZOOL" & ClassData$YEAR == "2006"] <- "268"
+  ClassData$VOLUME[ClassData$JOURNAL == "JZOOL" & ClassData$YEAR == "2007"] <- "271"
+  ClassData$VOLUME[ClassData$JOURNAL == "JZOOL" & ClassData$YEAR == "2008"] <- "274"
+  ClassData$VOLUME[ClassData$JOURNAL == "JZOOL" & ClassData$YEAR == "2009"] <- "277"
+  ClassData$VOLUME[ClassData$JOURNAL == "JZOOL" & ClassData$YEAR == "2010"] <- "280"
+  ClassData$VOLUME[ClassData$JOURNAL == "JZOOL" & ClassData$YEAR == "2011"] <- "283"
+  ClassData$VOLUME[ClassData$JOURNAL == "ECOGRAPHY" & ClassData$YEAR == "2013"] <- "36"
+  ClassData$VOLUME[ClassData$JOURNAL == "ECOGRAPHY" & ClassData$YEAR == "2014"] <- "37"
+  ClassData$VOLUME[ClassData$JOURNAL == "OIKOS" & ClassData$YEAR == "2010"] <- "119"
+  ClassData$VOLUME[ClassData$JOURNAL == "OIKOS" & ClassData$YEAR == "2011"] <- "120"
+  ClassData$VOLUME[ClassData$JOURNAL == "OIKOS" & ClassData$YEAR == "2012"] <- "121"
+  ClassData$VOLUME[ClassData$JOURNAL == "OIKOS" & ClassData$YEAR == "2013"] <- "122"
+  ClassData$VOLUME[ClassData$JOURNAL == "OIKOS" & ClassData$YEAR == "2014"] <- "123"
+  
+   
   # FIRST NAMES TO BE CORRECTED
   ClassData$FIRST_NAME[ClassData$LAST_NAME == "Briones"] <- "Maria"
   ClassData$FIRST_NAME[ClassData$LAST_NAME == "Kudla"] <- "Jorg" 
@@ -138,12 +173,14 @@ Class.Fix <- function(A) {
   ClassData$LAST_NAME[ClassData$LAST_NAME == "H" & ClassData$FIRST_NAME=="George"] <- "Heimpel"
   ClassData$LAST_NAME[ClassData$LAST_NAME == "vanderhaijden"] <- "vanderheijden"
   
-  # Cleaning up the titles
+  # Cleaning up the titles 
+  # FIrst standardize them
   # #remove extra spaces, converts to chr
   # ClassData$TITLE<-gsub(" ", "", ClassData$TITLE, fixed=TRUE) 
   
   ClassData$TITLE<-gsub("\\ ", ".", ClassData$TITLE) #Replace spaces with period
   ClassData$TITLE<-gsub(":", "", ClassData$TITLE) #Replace : with period
+  ClassData$TITLE[ClassData$JOURNAL == "AMNAT" & ClassData$TITLE == "AE"] <- "Editorial.Board"
   ClassData$TITLE[ClassData$TITLE == "Editor-in-Chief"] <- "EIC"
   ClassData$TITLE[ClassData$TITLE == "Editor-In-Chief"] <- "EIC"
   ClassData$TITLE[ClassData$TITLE == "Natural.HistoryEditor"] <- "Natural.History.Editor"
@@ -157,7 +194,7 @@ Class.Fix <- function(A) {
   ClassData$TITLE[ClassData$TITLE == "EIC "] <- "EIC"
   ClassData$TITLE[ClassData$TITLE == "Acting.director.in.chief"] <- "Acting.Director.In.Chief"
   ClassData$TITLE[ClassData$TITLE == "Co-Editor"] <- "CoEditor"
-  ClassData$TITLE[ClassData$TITLE == "Deputy.director.in.chief"] <- "Deputy.Director.In.Chief"
+  ClassData$TITLE[ClassData$TITLE == "Deputy.director.in.chief"] <- "Deputy.EIC"
   ClassData$TITLE[ClassData$TITLE == "editor"] <- "Editor"
   ClassData$TITLE[ClassData$TITLE == "Editor.-.Executive.Editor"] <- "Editor-Executive.Editor"
   ClassData$TITLE[ClassData$TITLE == "Editorial.board"] <- "Editorial.Board"
@@ -193,15 +230,42 @@ Class.Fix <- function(A) {
   ClassData$TITLE[ClassData$TITLE == "PD"] <- "Publications.Director"
   ClassData$TITLE[ClassData$TITLE == "BRE"] <- "Book.Review.Editor"
 
+  
+  #Now correct the Categories that were incorrectly assigned
 
   
 
   
   ClassData$CATEGORY<-as.character(ClassData$CATEGORY)
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$TITLE == "Natural.History.Editor"] <- "SPECIAL"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$TITLE == "EIC"] <- "EIC"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$TITLE == "Editor" & (ClassData$YEAR >= 2005 & ClassData$YEAR < 2016)  ] <- "AE"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$TITLE == "AE" & (ClassData$YEAR >= 2005 & ClassData$YEAR < 2016)  ] <- "AE"
+  ClassData$TITLE[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "Whitlock" & ClassData$YEAR == 2005] <- "Editor"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "Whitlock" & ClassData$YEAR == 2005] <- "AE"
+  ClassData$TITLE[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "Winn" & ClassData$YEAR == 2015] <- "Editorial.Board"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "Winn" & ClassData$YEAR == 2015] <- "SE"
+  ClassData$TITLE[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "McPeek" & ClassData$YEAR == 2015] <- "Natural.History.Editor"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "McPeek" & ClassData$YEAR == 2015] <- "SPECIAL"
+  ClassData$TITLE[ClassData$JOURNAL == "AMNAT" & ClassData$FIRST_NAME == "Yannis" & ClassData$YEAR == 2015] <- "Editorial.Board"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AMNAT" & ClassData$LAST_NAME == "Yannis" & ClassData$YEAR == 2015] <- "SE"
   
-  ClassData$CATEGORY[ClassData$TITLE == "Editor" & ClassData$JOURNAL=="JBIOG"] <- "SE"   # NEED to 2x
-  ClassData$CATEGORY[ClassData$TITLE == "Senior.Editor" & ClassData$JOURNAL=="JBIOG"] <- "AE" # NEED to 2x
+  ClassData$CATEGORY[ClassData$JOURNAL == "OIKOS" & ClassData$TITLE == "Deputy.EIC"] <- "EIC"
+  ClassData$CATEGORY[ClassData$JOURNAL == "OIKOS" & ClassData$TITLE == "Editor"] <- "AE"
+  
+  ClassData$CATEGORY[ClassData$JOURNAL == "EVOL" & ClassData$YEAR == 2015 & ClassData$TITLE == "Editor"] <- "AE"
+  
+  
+  ClassData$TITLE[ClassData$JOURNAL == "AGRONOMY" & ClassData$TITLE == "E"] <- "EIC"
+  ClassData$CATEGORY[ClassData$JOURNAL == "AGRONOMY" & ClassData$LAST_NAME == "Raun" & ClassData$YEAR == 2014 ] <- "EIC"
+  
+  ClassData$CATEGORY[ClassData$TITLE == "Editor" & ClassData$JOURNAL=="JBIOG"] <- "AE"   # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Senior.Editor" & ClassData$JOURNAL=="JBIOG"] <- "EIC" # I think this because "Deputy EIC later"
   ClassData$CATEGORY[ClassData$TITLE == "Associate.Editor" & ClassData$JOURNAL=="JBIOG"] <- "SE" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Deputy.Editor" & ClassData$JOURNAL=="JBIOG"] <- "EIC" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Deputy.EIC" & ClassData$JOURNAL=="JBIOG"] <- "EIC" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Technical.Editor" & ClassData$JOURNAL == "JBIOG"] <- "Production"
+  
   ClassData$CATEGORY[ClassData$TITLE == "Journal.Editorial.Supervisor"] <- "Production"
   ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "Production"
   ClassData$CATEGORY[ClassData$TITLE == "Publications.Director"] <- "Production"
@@ -209,15 +273,16 @@ Class.Fix <- function(A) {
   ClassData$CATEGORY[ClassData$TITLE == "Reviews.Editor"] <- "SPECIAL"
   ClassData$CATEGORY[ClassData$TITLE == "Production.Staff"] <- "Production"
   ClassData$CATEGORY[ClassData$TITLE == "Editorial.Assistant"] <- "Production"
+  ClassData$CATEGORY[ClassData$TITLE == "Editorial.Assistants"] <- "Production"
   ClassData$CATEGORY[ClassData$TITLE == "Secretary"] <- "Production"
   ClassData$CATEGORY[ClassData$TITLE == "Editorial.Office.Manager"] <- "Production"
   ClassData$CATEGORY[ClassData$TITLE == "Production.Editor"] <- "Production"
-  ClassData$CATEGORY[ClassData$TITLE == "Technical.Editor"] <- "AE"
+  ClassData$CATEGORY[ClassData$TITLE == "Technical.Editor" & ClassData$JOURNAL == "AGRONOMY"] <- "AE"
   ClassData$CATEGORY[ClassData$TITLE == "Editorial.Board" & ClassData$JOURNAL == "AMNAT" ] <- "SE"
   ClassData$CATEGORY[ClassData$TITLE == "Special.Editor" & ClassData$JOURNAL=="EVOL"] <- "SPECIAL" # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Academic.Associate" & ClassData$JOURNAL=="EVOL"] <- "2xCheck" # NEED to 2x
-  ClassData$CATEGORY[ClassData$TITLE == "Advisory.Panel" & ClassData$JOURNAL=="OIKOS"] <- "2xCheck" # NEED to 2x
-  ClassData$CATEGORY[ClassData$TITLE == "Publication.Board" & ClassData$JOURNAL=="OIKOS"] <- "2xCheck" # NEED to 2x
+  ClassData$CATEGORY[ClassData$TITLE == "Advisory.Panel" & ClassData$JOURNAL=="OIKOS"] <- "SE" 
+  ClassData$CATEGORY[ClassData$TITLE == "Publication.Board" & ClassData$JOURNAL=="OIKOS"] <- "Society.Publication.Committee" 
   ClassData$CATEGORY[ClassData$CATEGORY == "" & ClassData$JOURNAL=="EVOL"] <- "2xCheck" # NEED to 2x
   ClassData$CATEGORY[ClassData$TITLE == "Guest.Editor"] <- "SPECIAL"
   ClassData$CATEGORY[ClassData$TITLE == "Managing.Editor"] <- "Production"

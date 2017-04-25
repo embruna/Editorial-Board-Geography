@@ -268,6 +268,41 @@ Cho.Fix <- function(A) {
   
   # FIX ONE CATEGORY
   ChoData$CATEGORY[ChoData$TITLE == "Invited Papers Editor"] <- "SPECIAL"
+  
+  
+  #Fix the missing volumes in Agronomy
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1987"] <- "79"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1988"] <- "80"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1989"] <- "81"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1990"] <- "82"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1991"] <- "83"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1992"] <- "84"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1993"] <- "85"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1994"] <- "86"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1995"] <- "87"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1996"] <- "88"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1997"] <- "89"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1998"] <- "90"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "1999"] <- "91"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2000"] <- "92"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2001"] <- "93"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2002"] <- "94"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2003"] <- "95"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2004"] <- "96"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2005"] <- "97"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2006"] <- "98"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2007"] <- "99"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2008"] <- "100"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2009"] <- "101"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2010"] <- "102"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2011"] <- "103"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2012"] <- "104"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2013"] <- "105"
+  ChoData$VOLUME[ChoData$JOURNAL == "AGRONOMY" & ChoData$YEAR == "2014"] <- "106"
+
+  #Fix Agronomy Titles
+  # ChoData$CATEGORY[ChoData$JOURNAL == "AGRONOMY" & ChoData$TITLE == "AE"] <- "SE" NO! When originally recorded for Cho, the Technical eds were recorded as AE
+  ChoData$TITLE[ChoData$JOURNAL == "AGRONOMY" & ChoData$TITLE == "Se"] <- "SE"  
 
   # Remove the suffixes
   ChoData$NAME<-gsub(", Jr", "", ChoData$NAME, fixed=TRUE)
